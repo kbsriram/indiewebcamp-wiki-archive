@@ -1,0 +1,20 @@
+Displaying a summary of a user when their username is hovered over is a well-established UI pattern
+
+== Documented Examples ==
+
+* … Add
+
+== Common Denominators ==
+
+There are certain UI elements which are common to most implementations.
+
+* A lot of these were documented at the IWCUK 2012 [[Indie anywhere]] session page.
+* TODO: Condense the common denominators over to this page
+
+== Related Patterns ==
+
+* [[patterns/user-profile|User Profile Pattern]]
+
+== See Also ==
+
+* [http://developer.yahoo.com/ypatterns/social/people/identity/usercard.html User Card Pattern on Yahoo Pattern Library]

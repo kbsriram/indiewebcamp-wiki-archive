@@ -1,0 +1,1 @@
+#redirect:[[ActivityStreams#Use_with_microformats2]]

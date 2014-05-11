@@ -1,0 +1,111 @@
+<span style="float:right">http://1.bp.blogspot.com/-50Sk1t6KFqA/T9GTRi6P2QI/AAAAAAAAH6A/ueZgU3Y8rA0/s330/images.jpg</span>
+
+'''<dfn>[http://tumblr.com Tumblr]</dfn>''' is a popular content hosting [[silo]], and through domain mapping, a content hosting service as well.
+
+<div style="clear: both">__TOC__</div>
+
+== How to ==
+=== POSSE to Tumblr ===
+Tumblr used to be able to import an RSS feed (dates? citations?).
+
+How are people POSSEing to Tumblr today? Presumably using their API? Or email?
+
+==== POSSE Reposts of Tumblr posts ====
+When posting a [[repost]] of a Tumblr post, the proper POSSE behavior should be to do a native repost (on Tumblr) of the post that you're reposting on your own site.
+
+IndieWeb community members doing this:
+* acegiak is doing this as of 2014-050 per claim[http://indiewebcamp.com/irc/2014-02-19/line/1392813763]
+** Example of original repost: [http://acegiak.machinespirit.net/2014/02/20/john-greens-tumblr-nevverjorge-luis-borges/]
+** Example of POSSE repost on Tumblr: [http://acegiak.tumblr.com/post/77227657347/nevver-jorge-luis-borges-this-is-a-lesson-i]
+
+'''Considerations:'''
+Reblogging specifically has to be done through the [http://www.tumblr.com/docs/en/api/v2|tumblrapi] which requires oauth and cannot be done through their email posting service. This is because posting a reblog requires the system to first api fetch the original post that is being reblogged to get it's "reblog_key" that must be sent with it's post id when making the reblog call.
+
+==== POSSE Reposts to Tumblr ====
+When you do a [[repost]] of an indieweb post:
+* look for a [[rel-syndication]] hyperlink on the indieweb post permalink page to a Tumblr.com post URL
+* if there is such a [[rel-syndication]] hyperlink with href linking to a Tumblr.com post URL
+* then
+** do a native repost of that Tumblr post URL on Tumblr itself
+* end if
+
+==== POSSE Favorites of Tumblr posts ====
+When posting a [[favorite]] of a Tumblr post, the proper POSSE behavior should be to natively "like" (on Tumblr) the Tumblr post that you're favoriting on your own site.
+
+==== POSSE Favorites to Tumblr ====
+When you post a [[favorite]] of an indieweb post:
+* look for a [[rel-syndication]] hyperlink on the indieweb post permalink page to a Tumblr.com post URL
+* if there is such a [[rel-syndication]] hyperlink with href linking to a Tumblr post URL
+* then
+** natively "like" that Tumblr post URL on Tumblr itself
+* end if
+
+=== Add rel-me links and use IndieAuth ===
+
+On your Tumblr page, click the Customize button, then add [[rel-me]] links as HTML directly in the Description section. [http://www.scottbuehler.com/social-media/ultimate-guide-google-authorship/#tumblrauthor More details.]
+
+
+=== Add microformats support ===
+Tumblr has documentation on [http://www.tumblr.com/docs/en/custom_themes How to create a custom HTML theme] which you can use to add [[microformats]] support, especially [[h-entry]] and [[h-card]].
+
+# Go to your Tumblr URL, e.g. yourname.tumblr.com
+# Click the "Customize" link/button with the wrench icon (usually in top right)
+# Click the (Edit HTML) button
+# add [[h-entry]]
+## scroll down and find all instances of <code>&lt;div class="post"&gt;</code>
+## change them to <code>&lt;div class="post h-entry"&gt;</code>
+## scroll down and find all instances of <code>&lt;div class="date_brick"&gt;</code>
+## change them to <code>&lt;div class="date_brick dt-published"&gt;</code>
+## you may need to update their contents to publish the date and time in ISO format, using the value class pattern etc. These macros may help with that: {Year}-{MonthNumberWithZero}-{DayOfMonthWithZero} {24HourWithZero}:{Minutes}:{Seconds}
+## href="{Permalink}"
+## to: class="u-url" href="{Permalink}"
+## ... more coming soon (p-name, e-content)
+
+==== Example Tumblrs with microformats ====
+The following Tumblrs have proper [[h-entry]] markup (per the above instructions) and thus may help as examples:
+* http://tantek.tumblr.com/  (also uses <code>&lt;link rel=author&gt;</code> for site and post [[authorship]])
+* ...
+
+=== Export ===
+Tumblr's v1 read API is blissfully simple to use although now deprecated. It returns custom XML but it is fairly straightforward to transform this into HTML etc.
+
+See [http://www.tumblr.com/docs/en/api/v1 documentation].
+
+[[User:Tommorris.org|tommorris]] ported most of his content over from Tumblr.
+
+== PESETAS ==
+Getting data out of Tumblr is pretty easy as documented above. There is no need to get or use API keys or OAuth tokens or anything.
+
+This makes Tumblr a logical destination silo for a [[PESETAS]] setup.
+
+== Feeds ==
+Public feeds are available of Tumblr sites at the path "/rss", e.g.:
+* http://tantek.tumblr.com/rss
+
+== Porting to the IndieWeb ==
+=== Challenges ===
+* porting over content and maintaining URL redirects
+* porting over comments
+* porting over reblogs
+* porting over likes
+
+=== Export Your Posts ===
+* The Tumblr API provides XML and JSON for posts. The v1 API doesn't require authentication. [http://www.tumblr.com/docs/en/api/v1 documentation]
+* ...
+
+==== Mapping of Tumblr post types to ActivityStreams ====
+Tumblr posts can be roughly mapped to [[ActivityStreams]] object types as follows:
+
+; text : note or article (depending on length)
+; quote : ???
+; photo : image
+; chat : ???
+; video : video
+; audio : audio
+
+== Downtime ==
+* 2010-340 16:24:41-0800 (PST) "issue in ... [[database]] cluster" [http://www.flickr.com/photos/tantek/5331910087/ http://farm6.staticflickr.com/5046/5331910087_c25749d90b_z.jpg]
+
+
+== See Also ==
+* [[silos]]

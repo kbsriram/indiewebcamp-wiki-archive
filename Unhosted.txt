@@ -1,0 +1,5 @@
+{{stub}}
+
+The unhosted project promotes the use of locally running webapplications backed by projects like [[remoteStorage.io]].
+
+* https://unhosted.org/

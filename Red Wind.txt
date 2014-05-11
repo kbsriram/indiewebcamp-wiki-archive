@@ -1,0 +1,87 @@
+== Description ==
+[[User:kylewm.com]]'s Red Wind ([http://git.kylewm.com/?p=redwind.git;a=summary source code]) is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but unstable and undocumented and probably not of much use to anyone but the author, at least for now.
+
+== Features ==
+* send and receives webmentions (processed asynchronously using uWSGI's spooler)
+* send PuSH notifications for new posts
+* syndicates to Facebook and Twitter via their snowflake APIs
+* backfeeds comments via [[Bridgy]]
+* reply/like/share context automatically fetched after posting
+* optional geo-location information for posts.
+* as of 2014-03-29, switched from SQLAlchemy/MySQL to flat files (thanks to [[databases_antipattern]])
+** 1 file per article/note/share/etc. named _data/posts/year/month/day/posttype_index.format
+** post is formatted in markdown. Each file starts with a json blob for metadata. 
+** The source urls of received (and verified) webmentions are stored alongside each post, in a file named posttype_index.mentions.json 
+** mentions and reply contexts are stored together in a separate archive directory, loosely modeled on [[IndieArchive]].
+
+The name comes from Raymond Chandler's short story of the same name, about the Santa Ana winds that drive everyone crazy :)
+
+== Filestore ==
+
+Each post is represented in markdown, with one json blob in the header for metadata. e.g.,
+
+<pre>
+{
+  "hidden": true, 
+  "syndication": {
+    "twitter_id": "460635803253612544"
+  }, 
+  "pub_date": "2014-04-28T04:24:06", 
+  "in_reply_to": [
+    "http://kylewm.com/note/2014/04/28/1", 
+    "https://twitter.com/courtarro/status/460629961557041152"
+  ]
+}
+@courtarro thanks, gitweb's good enough for now. it's too bad the other OS options are in RoR; reaaaally trying to avoid learning that stack :P
+</pre>
+
+Posts are stored in flat files, organized by <code>[post-type]/[year]/[month]/[newbase60 index].md</code>. Responses are stored in a parallel file called <code>[newbase60 index].mentions.json</code> in the same directory. Right now mentions just contains a list of URLs.
+
+To support paging and eventually, tags and other lookups, post metadata is cached in a file called, what else, <code>metadata.json</code>. The metadata file contains a list of all posts, and the 30 most recent mentions.
+
+<pre>
+{
+ "mentions": [
+  {
+   "post": "note/2014/04/28/4",
+   "mention": "https://brid-gy.appspot.com/like/twitter/kyle_wm/460918876574711808/11628"
+  },
+  {
+   "post": "note/2014/04/28/2",
+   "mention": "http://kylewm.wordpress.com/2014/04/28/test-sending-a-pingback/"
+  },
+  ...
+  ],
+ "posts": [
+  {
+   "draft": false,
+   "published": "2013-06-18T00:00:00",
+   "deleted": false,
+   "path": "article/2013/06/18/1",
+   "hidden": false,
+   "type": "article"
+  },
+  {
+   "draft": false,
+   "published": "2013-07-30T00:00:00",
+   "deleted": false,
+   "path": "article/2013/07/30/1",
+   "hidden": false,
+   "type": "article"
+  },
+  ...
+  ]
+}
+</pre>
+
+The datastore is mirrored on git.kylewm.com[http://git.kylewm.com/?p=site-data.git;a=summary], though it lags behind the live data somewhat
+
+== Screenshots ==
+
+Interface for posting a reply as of 2014-03-24
+
+[[File:kwm-posting-interface-2014-03-24.png|500px]]
+
+The interface for posting replies has been simplified quite a bit, with AJAXy status update stuff removed as of 2014-04-29
+
+[[File:kwm-posting-interface-2014-04-29.png|500px]]

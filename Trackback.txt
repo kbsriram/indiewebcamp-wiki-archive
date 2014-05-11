@@ -1,0 +1,26 @@
+{{stub}}
+
+'''<dfn>[http://movabletype.org/documentation/trackback/specification.html TrackBack]</dfn>''' was a protocol for web sites to notify other web sites when they've posted a link to them (respectively). It was superseded by [[pingback]], which itself has been superseded by the [[webmention]] protocol.
+
+== Criticism ==
+=== Fragile discovery ===
+Trackback uses RDF in HTML comments to provide an unnecessarily complex (having to parse a completely different format) and fragile (HTML comments get stripped all the time in processing, e.g. by search engines) method of discovery. [[Pingback]] abandoned such methods, instead using an HTTP link header or link tag with rel for discovery.
+=== Lack of link verification ===
+Trackback "works" by a one-way HTTP request from the linker to the linkee, and the linkee is not expected to do any verification that the linker actually has a link to the linkee. Thus it was immediately overrun with [[spam]] and is considered useless. [[Pingback]] deliberately improved upon this by requiring verifying that the source links to the target.
+=== Spam ===
+Due to the lack of link verification, Trackback is particularly easy for spammers to overwhelm and thus has been largely abandoned due to being pretty much all [[spam]] at this point.
+
+== Display ==
+The Trackback spec doesn't appear to have any explicit implementation guidance for how to display trackback pings that have been received.
+
+However, in practice CMS's display trackbacks in a section explicitly labeled "Trackbacks:", and for each such trackback ping:
+* title of the post that sent the trackback
+* ellipsed [...] ... [...] summary text, which is nearly unreadable without more context, and doesn't even show what phrase linked to the original blog post if any.
+* the overall visual design is very dated and has fallen behind modern [[comment]] presentation designs
+
+== See Also ==
+* [http://movabletype.org/documentation/trackback/specification.html TrackBack Specification]
+* [http://en.wikipedia.org/wiki/Trackback Trackback Wikipedia page]
+* [[pingback]]
+* [[webmention]]
+* [[comment]]

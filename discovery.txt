@@ -1,0 +1,96 @@
+{{stub}}
+
+= Discovery =
+
+On the IndieWeb, you are your URL and your URL is you. With a well-designed indieweb site, as humans we can discover all the information you choose to share about yourself.
+
+This page is for documenting and brainstorming ways to discover that same information automatically by following a combination of semantic markup and algorithms.
+
+== Profile Info ==
+Typical IndieWeb sites have profile and often contact information right there on the [[home page]].
+
+Best publishing practice: mark it all up with [[hCard]], especially your hyperlinks to other profiles with class="u-url url" and rel="me". This will create a [http://microformats.org/wiki/representative_hCard representative hCard] which can then be used by other sites. 
+
+Examples in the wild:
+* http://tantek.com/
+* ...
+
+Best parsing practice: when given an indieweb URL that represents a person, parse it for a representative hCard and use that hCard for information about that person. Details:
+* http://microformats.org/wiki/representative-hcard-parsing
+
+== Separate Contact Page ==
+Some IndieWeb sites have contact information on a ''separate'' page from the home page, but linked from the home page. While such links may be obvious to humans, e.g. with text labels like "Contact" or "About", it's not at all obvious to parsers where to find more information.
+
+Examples of sites with separate contact/about pages:
+* http://adactio.com/ - contact info at: http://adactio.com/contact/
+* ...
+
+Proposal:
+* With a new 'rel' value, e.g. '''rel="contact-info"''', parsers could discover such links, follow them, and then parse the destination for a representative hCard.
+
+== Updates ==
+Most Indie web sites have updates on their home page, a stream of updates as it were, e.g.:
+* http://tantek.com
+* http://adactio.com
+
+Best Publishing Practice: mark up your posts with [[hAtom]] (and ideally microformats2 [[h-entry]] as well).
+
+Best Parsing Practice: parse the given URL for hAtom (and preferably microformats2 [[h-entry]]).
+
+Others have a simple intro/contact page as their home page, and provide updates at another URL, e.g.: 
+* ... old adactio.com
+* ... any current examples? maybe folks that have only an indieweb contact home page and then link to a separate page for their blog?
+
+Proposal:
+* With a new 'rel' value, e.g. '''rel="updates"''', parsers could discover links to separate "journal", "updates", "notes", "stream" pages and then parse those for hAtom and h-entry.
+
+== Post Information ==
+To discover information about a [[post]] on a post permalink page:
+* parse the page for [[h-entry]] and retrieve post name, summary, url, contents, author accordingly.
+=== Authorship ===
+* if the author is also an [[h-card]] parse that for more information about the author such as name, photo, logo, url, etc.
+* if there is no p-author, then look for a [[rel-author]] link.
+** follow it, and retrieve the representative h-card from the destination for author information
+
+== POSSE copies ==
+To find the POSSE copies of an original post, on that original post's permalink page:
+* look for rel=[[syndication]] links
+* treat their destinations as POSSE'd copies of the original post
+
+== Original post ==
+To find an original post from a POSSE'd copy, on that POSSE'd copy's permalink page:
+* follow [[original-post-discovery]]
+
+== Real Time Updates ==
+... rel=hub ... on link to PuSH hub for your updates.
+
+== Public Keys ==
+
+For an improved Salmon key-discovery flow (i.e. not using DRY-violating XRD files and web-breaking email-like identifiers) we need to expose public keys somehow.
+
+* http://microformats.org/wiki/hcard-brainstorming#key_property_for_webid
+* http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions (specifically the <code>pgpkey</code> value
+* [http://microformats.org/wiki/public-key-examples Examples of how people are exposing their public key in the wild]
+
+Public key exchange was also discussed at the [[events/2013-11-01-indieweb-dinner|IndieWeb dinner on November 1st, 2013]], in the context of this in-person using QR codes. Potentially the QR code could simply be a URL pointing to the user's website, where a public key could be extracted from microformat encoding.
+
+== Help or About ==
+HTML has the rel="help" value, but it's not clear that it conveys the "about" kind of resources you link to.
+=== IndieWeb Documentation ===
+For example:
+* Tom Morris has [http://tommorris.org/pages/indieweb-documentation documented the indieweb support on his site] on a separate page.
+
+== Legacy Discovery ==
+There are bunch of legacy discovery methods that are worth documenting, in case you want to interoperate with legacy systems that depend on them.
+
+=== Feeds ===
+... rel=alternate ... type=...+xml ...
+
+We should deprecate separate feeds as 
+* separate feeds are not technically necessary (hAtom or h-entry on visible HTML works just fine).
+* separate feeds violate the [[DRY]] principle
+
+== See Also ==
+* [[posts]]
+* [[POSSE]]
+* [[original-post-discovery]]

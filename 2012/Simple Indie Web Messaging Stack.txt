@@ -1,0 +1,10 @@
+Using SIMS
+
+Compare  https://github.com/aaronpk/IndieWeb-Messaging
+
+* Factorization of a number to make the computation too expensive for spammers
+* Adjuct factorization difficulty depending on how likely the connection is friendly
+ 
+* PubSubHubbub with From:
+
+[[Category:2012]]

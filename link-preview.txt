@@ -1,0 +1,50 @@
+{{stub}}
+
+A '''<dfn>link preview</dfn>''' is what posts show about one or more embedded links, e.g. a headline, image, summary from the link destination.
+
+== existing silo support ==
+Various social network silos (e.g. Facebook, Twitter, Google+) show link previews underneath notes and comments that have one or more URLs, by extracting information from those URLs content and showing a title/summary/photo for those URLs underneath the posted note/comment.
+
+* [[Facebook]] uses [[OGP]]
+* [[Google+]] uses an assortment of [[microformats]]/meta/schema/OG+
+* [[Twitter]] uses their own meta + OG AKA "[[Twitter Cards]]"
+* ... who's next to make up their own site-specific link preview markup convention?
+
+== prior link preview standards ==
+There have been a couple of standards created explicitly for information for link previews.
+* [http://www.oembed.com/ oEmbed] - since 2009. However it requires an extra endpoint (URL, different language(s) etc.)
+* [[OGP]] - far more well established since it works in HTML, and [[Facebook]] immediately shows results using it.
+
+See http://microformats.org/wiki/link-preview-formats for more prior art research.
+
+== simple link preview standard ==
+[[h-entry]] is a useful building block for this. E.g.
+
+<code>&lt;body class="h-entry"></code> is a good simple baseline way to markup data for link previews.
+
+For more details towards the development of a simple link preview standard, see: 
+* http://microformats.org/wiki/link-preview-brainstorming
+
+== implementation wishlist ==
+It seems like an indieweb implementation of a "link preview" feature would need:
+
+# Open way to '''markup''' the info on pages that we want to go into a preview (obv min: name, summary, photo). See "simple link preview standard" above.
+# OSS '''library''' that retrieves a page and '''generates simple embeddable preview markup'''. Such a library would return you the markup snippet with preview name/summary/photo - you just need to store that however you store information in your posts, so you can retrieve it from your store rather than the external URL. Ideally the markup snippet returned would support the same format as in #1 so it is completely re-usable without loss of fidelity.
+# Exercise for each indieweb implementer: '''code to store/cache that embeddable markup''' in your personal post data store so that you can redisplay it without having to rerequest the external URL (has the advantage of snapshotting the preview as of the time you posted the note in case the external URL content changes or dies).
+
+Utilities:
+* Link preview validator/previewer - a validator which would parse a URL and show you what preview might result. Note that Twitter has a [https://dev.twitter.com/docs/cards/validation/validator Twitter Card validator] (login required) - we just need to build an indieweb version of it (and not require login).
+
+== indieweb approaches ==
+* [[User:Tantek.com|Tantek]]:  I'm thinking of building #3 into my posting UI on my site, that is, when I'm previewing a post before PuSHing and syndicating it out, the post preview UI retrieves the link preview(s) on the server, and then shows them to me as part of the overall post preview before I hit the "Publish" button. When I hit the "Publish" button, the same logic which makes a syndicated copy to Twitter (by calling the Twitter API), and then saves the Twitter copy permalink in my data store, can also save the link preview(s) in the same data store accordingly. just piggybacking the same data store write to file call.
+* This is similar to another thing I’ve had on my implementation list for a while, which is a better quoting UI. Specifically, my posting UI detects URIs in my content, loads up previews, allows me to D&D in for link previews, perhaps load the content and allow me to select, D&D for quotations --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 13:23, 7 March 2013 (PST)
+* …
+
+== See Also ==
+* [[cards]]
+* [[h-entry]]
+* [[POSSE]]
+* [[silos]]
+* [[microformats]]
+
+[[Category:building-blocks]]

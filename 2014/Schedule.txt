@@ -1,0 +1,228 @@
+This is the 2014 IndieWebCamp schedule
+
+The schedule is still in development and is open for suggestions based on the attendees. There will likely be some participant sessions determined the day of the event on an open session grid, as well as a few scheduled speakers.
+
+All times are <strong>local</strong> times. We'll sync-up sessions across East/West as we can!
+
+<div>
+
+<div class="h-event">
+== Friday, June 27, 2014 - <span class="p-name">IndieWebCamp Hosted Pre-Party</span> == 
+* <time class="dt-start" datetime="2014-06-27T16:30:00-0700">4:30pm</time>
+* <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+* <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
+* Anyone is welcome, drink tickets will be available to registered IndieWebCamp attendees
+* Drink tickets thanks to our [[sponsors]]!
+* <a class="u-url" href=""></a>
+* <a class="u-url" href=""></a>
+</div>
+
+== Saturday, June 28, 2014 (Idea Sessions)==
+Main etherpad: https://etherpad.mozilla.org/indiewebcamp
+
+<div class="h-event">
+<span class="p-name" >IndieWebCamp Day 1 Brainstorming Sessions</span>
+(<time class="dt-start" datetime="2014-06-28T09:30:00-0700">9:30</time>-<time class="dt-end" datetime="2014-06-29T18:00:00-0700">6:00</time>).
+
+<span class="p-location h-card"><span class="p-name">ESRI R&D</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span> and <span class="p-location h-card"><span class="p-name">The New York Times</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="60%"
+|colspan="2" align="center"|Portland
+|colspan="2" align="center"|New York
+|-
+|width="60"|6:00
+|style="background-color:#999;"|
+|
+|width="60"|9:00
+|-
+| 7:00
+|style="background-color:#999;"|
+|
+| 10:00
+|-
+| 8:00
+|style="background-color:#999;"|
+|
+| 11:00
+|-
+| 9:00
+|
+|
+| 12:00
+|-
+| 10:00
+|
+| Lunch
+| 1:00
+|-
+| 11:00
+| Lunch
+|
+| 2:00
+|-
+| 12:00
+|
+|
+| 3:00
+|-
+| 1:00
+|
+|
+| 4:00
+|-
+| 2:00
+|
+|
+| 5:00
+|-
+| 3:00
+|
+|
+| 6:00
+|-
+| 4:00
+|
+|style="background-color:#999;"|
+| 7:00
+|-
+| 5:00
+|
+|style="background-color:#999;"|
+| 8:00
+|-
+| 6:00
+|
+|style="background-color:#999;"|
+| 9:00
+|}
+
+
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+| Time
+| Main Room
+| Conf Room 1
+| Conf Room 2
+| Conf Room 3
+|-
+| 9:30
+|colspan="4" align="center"|'''Breakfast'''
+|-
+| 10:15
+|colspan="4" align="center"|'''[[Selfdogfood]] [[2014/demos|Demos]] of what works today / Introductions'''
+|-
+| 11:30
+|colspan="4" align="center"|'''Session Scheduling'''
+|-
+| 12:00
+| 
+| 
+| 
+| 
+|-
+| 1:00
+|colspan="6" align="center"|'''Group Photo, then Lunch Break - Food Carts at 10th & Washington ([https://maps.google.com/maps?q=SW+10th+%26+Washington,+Portland&safe=off&client=firefox-a&hnear=SW+Washington+St+%26+SW+10th+Ave,+Portland,+Multnomah,+Oregon+97205&gl=us&t=m&z=16 Google Maps], [http://www.openstreetmap.org/?mlat=45.521385&mlon=-122.681368&zoom=18&layers=M OpenStreetMap])!'''
+|-
+| 2:00
+| 
+| 
+| 
+| 
+|-
+| 3:00
+| 
+| 
+| 
+| 
+|-
+| 4:00
+| 
+| 
+| 
+| 
+|-
+| 5:00
+| 
+| 
+| 
+| 
+|-
+| 6:00
+|colspan="4" align="center"|'''Intro to Workshop Day'''
+|-
+| 6:15
+|colspan="4" align="center"|'''Head to Dinner!'''
+|}</div>
+
+
+<div class="h-event">
+=== <span class="p-name">IndieWebCamp Group Dinner</span> ===
+* <time class="dt-start" datetime="2014-06-28T18:30:00-0700">6:30pm</time>
+* <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+</div>
+
+<div class="h-event">
+<span class="p-name" style="display:none;">IndieWebCamp Day 2 (Work Sessions)</span>
+<time class="dt-start" datetime="2014-06-29T09:30:00-0700" style="display:none;">9:30am</time>
+<time class="dt-end" datetime="2014-06-29T18:00:00-0700" style="display:none;">6:00pm</time>
+
+== Sunday, June 29, 2014 (Work Sessions) ==
+<span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+| Time
+| Main Room
+| Conf. Room 1
+| Conf. Room 2
+| Conf. Room 3
+|-
+| 9:30
+|colspan="4" align="center"|'''[[2014/Introductions|Introductions]], Scheduling'''
+|-
+| 10:45 - 12:00
+|
+|
+|
+|
+|-
+| 12:00 - 1:00
+|
+|
+|
+|
+|-
+| 1:00 - 2:00
+|colspan="4" align="center"|'''Catered Lunch'''
+|-
+| 2:00 - 3:00
+|
+|
+|
+|
+|-
+| 3:00 - 4:00
+|
+|
+|
+|
+|-
+| 4:00
+|colspan="4" align="center"|'''[[2014/Demos|Demos]]'''
+|-
+| 5:00
+|colspan="4" align="center"|'''community cleanup'''
+|-
+| 5:30
+|colspan="4" align="center"|'''camp closed!'''
+|-
+| 5:45
+|colspan="4" align="center"|'''after party - TBD!'''
+|}
+</div>
+
+== Other Years ==
+{{#categorytree:Schedule|mode=pages|hideprefix=always|hideroot=on}}
+
+[[Category:2014]]
+[[Category:Schedule]]
+__NOTOC__

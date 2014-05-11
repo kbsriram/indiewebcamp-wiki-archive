@@ -1,0 +1,24 @@
+{{stub}}
+
+'''<dfn>email hosting</dfn>''' is a service for receiving and sending [[email]] on the internet.
+
+== Providers ==
+(this section is a stub, please incorporate providers from [[email#Email_Services_by_Type]])
+
+=== Free ===
+Many silos provide free email services as well:
+* [[Gmail]]
+* [[Yahoo]] mail
+* [[Hotmail]]
+* ...
+
+=== Paid ===
+* [[Torguard]]
+* ...
+
+Features:
+* ..
+
+== See Also ==
+* [[email]]
+* [[web hosting]]

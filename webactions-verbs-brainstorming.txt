@@ -1,0 +1,17 @@
+{{stub}}
+
+= Verb Brainstorming =
+This page is for brainstorming about [[webactions]] verbs.
+
+* The [http://wiki.activitystrea.ms/w/browse/#view=ViewFolder&param=Verbs Activitystreams verb registry] might be a good place to start/mine research from --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 00:49, 24 February 2013 (PST)
+** The overlaps in verbs are misleading, and I ([[User:Tantek.com|Tantek]]) tend to think [[ActivityStreams]] is a ''bad'' starting point for web actions verbs for several reasons:
+*** Activities are a much broader set of things that you've *done*. Things that you might do to a piece of content on one site across onto another site are a much smaller subset. Starting from "Activities" will likely be a dilutionary distraction.
+*** There is very little clearly supportive research documentation for the verbs/object-types in the ActivityStreams registries (how did they come up with them? based on what features on what real world sites?). They tried to follow a microformats-like process but failed to document their work, so it looks like people just made things up (whether or not they did).
+*** Most of the ActivityStreams objects types and verbs were proposed by people who never actually implemented them ([[dogfood]] fail), nevermind that they didn't implement them on their own sites ([[selfdogfood]] fail). Note the lack of anything more than minimal "examples in the wild" documentation on wiki.activitystrea.ms.
+*** Similar and more issues are documented on the [[ActivityStreams#Issues|ActivityStreams page]].
+** A much better place to start/mine research from would be to document the real world web actions that individual silos support (e.g. [[Facebook]], [[Flickr]], [[Pinterest]], [[Twitter]]) that other sites actually place on their content, or even better, that indieweb sites use on their content and generalize from there. [[User:Tantek.com|Tantek]] 08:09, 24 February 2013 (PST)
+*** Researched and now documented here: [[webactions-verbs-research#Silo_Verb_Usage]]
+
+== See Also ==
+* [[webactions]]
+* [[webactions-verbs-research]]

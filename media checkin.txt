@@ -1,0 +1,15 @@
+'''Media check-in''' is a type of check-in or post.
+
+== Existing services ==
+* [http://getglue.com/ GetGlue] allows you to check in to TV, films, music and other media. [http://o.getglue.com/tommorris/all?action=recent Example stream]
+
+== Open data sources ==
+* [http://openlibrary.org/ OpenLibrary]
+* [http://musicbrainz.org/ MusicBrainz]
+* [http://wikipedia.org/ Wikipedia] via [http://dbpedia.org/ dbpedia] with SPARQL
+
+== Implementations ==
+* tommorris.org: [http://cl.ly/image/3V2Y281F3w3D book checkin] prototype
+
+== See also ==
+For geographic check-in, see [[checkin]].

@@ -1,0 +1,9 @@
+{{stub}}
+
+See Barnaby Walters's blog post on [http://waterpigs.co.uk/articles/remote-participation Pros, Cons and a formula for Remote Participation at events].
+
+For IndieWebCamps:
+* Setup a talky.io channel for the camp, e.g. talky.io/indiewebcampnyc
+
+For Homebrew Website Club:
+* Setup and share a Vidyo URL

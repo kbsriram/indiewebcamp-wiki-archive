@@ -1,0 +1,26 @@
+{{stub}}
+
+A '''<dfn>citation</dfn>''' is a reference to something someone said or wrote, typically a published work of some kind, these days often on the web.
+
+Publishing a citation for material discussed in a [[article]], or that a [[reply]] is [[in-reply-to]], are also ways of explicitly and transparently [[giving-credit]] to sources.
+
+== Markup ==
+{{main|h-cite}}
+
+When publishing references to published works on the web, use the '''[[h-cite]]''' microformat to markup the '''name''' of the work, '''URL''', '''author''' (with embedded '''[[h-card]] ''name'', ''photo'', and ''URL'' '''), when '''published''', '''publisher''' (if any), when '''retrieved''' (optionally).
+
+== IndieWeb Uses ==
+There are several specific indieweb uses of citations.
+* [[reply-context]] - a reply-context contains a citation for the original post that the reply is in-reply-to.
+* [[comments-display]] - indieweb comments that have been syndicated from their original reply URLs into a "Comments" section on an original post are all ''references'' to original material, and thus are also citations.
+* [[posts#Footer_sections|post footer sections]] - external references in footer sections (i.e. in addition to the abovementioned comments display section) are almost always also citations.
+
+== See Also ==
+* [[article]]
+* [[comments-display]]
+* [[giving-credit]]
+* [[h-cite]]
+* [[in-reply-to]]
+* [[posts]]
+* [[reply]]
+* [[reply-context]]

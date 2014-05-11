@@ -1,0 +1,37 @@
+{{stub}}
+
+'''<dfn>[http://flickr.com Flickr]</dfn>''' is a [[silo]] for storing and organizing [[photos]] and short (max 90sec) & small (max 150MB) [[videos]].
+
+== Feeds ==
+Flickr has numerous [[feeds]] to views of content that can be used to [[PESOS]] content from Flickr, or to backup recent content.
+
+=== tag feeds ===
+Flickr has publicly readable feeds of tagged photos: (e.g. photos tagged with "indiewebcamp")
+* http://api.flickr.com/services/feeds/photos_public.gne?tags=indiewebcamp&lang=en-us&format=atom
+
+=== user feeds ===
+Flickr's feeds related to a specific user by opaque userid in the URL are also public, e.g. for userid 39039882@N00 (user: http://flickr.com/tantek ) :
+
+photo/video posts from a user: 
+* http://api.flickr.com/services/feeds/photos_public.gne?id=39039882@N00&lang=en-us&format=atom
+favorites of a user: 
+* http://api.flickr.com/services/feeds/photos_faves.gne?nsid=39039882@N00&lang=en-us&format=atom
+photos of a user: (people tagged)
+* http://api.flickr.com/services/feeds/profile_photos.gne?nsid=39039882@N00&lang=en-us&format=atom
+
+== Issues ==
+=== Downtime ===
+* 2007-02-19 Flickr massage: [http://www.flickr.com/photos/tantek/420426227/ http://farm1.staticflickr.com/186/420426227_dda4d24789_o.png]
+=== Two Pages About You ===
+Users on Flickr have two pages "about" them:
+* /photos/username (also often works at just /username) - no link to your website, but shows your stream of recent photo [[posts]], and has a [[rel-me]] link to your /people/username page:
+* /people/username - has [[rel-me]] support for linking back to your website. Shows a few recent photo thumbnails, recent photos of your, your recent favorites.
+
+No other service splits your profile identity like this. Typical [[silos]] all have integrated profile pages that show <em>both</em> your latest posts and your profile information like your website.
+
+Because of this, and because Flickr encourages linking to the /photos/username page, getting rel=me to work with Flickr is a bit more out-of-the-way work, but still doable.
+
+== See Also ==
+* [[silos]]
+* [[photos]]
+* [[videos]]

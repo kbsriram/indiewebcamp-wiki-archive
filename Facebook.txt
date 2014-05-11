@@ -1,0 +1,125 @@
+{{stub}}
+= Facebook =
+Facebook.com is a popular content hosting [[silo]] and activity [[aggregator]] most well known for being the largest centralized social network on the web.
+
+== Exporting your data ==
+You can export your data on Facebook by:
+* Go to: https://www.facebook.com/settings
+* click the "Download a copy" link at the bottom of the text
+
+Alternatively, [http://www.freedom.io/ freedom.io] ([https://github.com/snarfed/freedom source]) can copy all of your posts, photos, checkins, etc. to [[WordPress]], [[Tumblr]], or [[Blogger]], creating a new blog post for each, with the original dates and all comments, etc. intact.
+
+To export all photos in an album owned by others (such as all photos in which you are tagged):
+* http://iangreenleaf.github.io/facebook_photos/
+
+To export Facebook messages:
+* http://www.jwz.org/blog/2014/01/psa-back-up-your-shit/. This is complicated to set up and has some limitations.
+
+== POSSE out to ==
+{{main|POSSE to Facebook}}
+
+There are multiple ways to [[POSSE]] out from your indieweb site to your Facebook profile.
+
+Existing techniques:
+
+=== from Twitter ===
+* [[User:Tantek.com|Tantek]] POSSEs out from tantek.com to Twitter, and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook. Reasons:
+** insufficient marginal utility in writing a custom POSSE syndicator to FB.
+** FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
+* [[User:Tommorris.org|tommorris]] does likewise, because he's lazy.
+
+=== IFTTT ===
+* [[User:Adactio.com|Adactio]] POSSEs out from adactio.com to Facebook using If This Then That (IFTTT).
+
+=== Facebook API ===
+{{main|POSSE to Facebook}}
+Posting to one's wall is supported with the Facebook 'Graph API'. See [[POSSE to Facebook]] for details and examples.
+
+== Post Types ==
+(this section is a stub)
+
+Facebook has a number of interesting [[post]] types, each with different appearances and interfaces. Some better than others.
+=== Status Update ===
+Status updates are [[notes]] similar to [[Twitter]] tweets, that, including status updates with links (see below) are perhaps the most common type of top-level post on FB.
+=== Link ===
+Links posts are essentially status updates, but they have a different presentation due to the [[link-preview]] that is shown for the first link mentioned in the update.
+=== Photo ===
+[[Photo]] posts are perhaps the second most popular type of top-level post on FB.
+=== Event ===
+{{main|event#Facebook}}
+Facebook's [[event]] posts were quite clean and nicely designed, until they started rolling out a new design on 2014-02-27. Here is the design just before that point:
+
+[[File:20140227-facebook-event-example.png]]
+=== Comment ===
+[[Comments]] are perhaps the overall most popular type of post, as people comment A LOT on other top-level posts, and Facebook has a two level notion of comment threading. That is, you can both comment on top-level posts, and comment on comments on top-level posts. The above event post screenshot demonstrates this two level commenting interface.
+
+== Aggregator ==
+Facebook performs the function of a feed aggregator of all your friends' activities.
+
+Some examples screenshots can be found here:
+* https://www.facebook.com/about/newsfeed
+
+== Comments Embed ==
+Facebook has a feature called '''[http://developers.facebook.com/docs/reference/plugins/comments/ Comments Box]''' which "is a social plugin that enables user commenting on your site." Indieweb sites can use it to embed a [[comments]] box on blog [[posts]].
+
+Though this does encourage your readers to sharecrop (on Facebook) their comments on your posts, it also provides them a single place to view their comments they've made across any/all sites that use Facebook for comments.
+
+No indieweb community members are currently using this on their own sites.
+
+IndieWeb community members that have tried this and their experience:
+* Aaron Parecki:
+** "Facebook tends to get more comments [than Disqus] for me probably because everyone has an account and is always logged in"[http://indiewebcamp.com/irc/2013-05-17#t1368819651]
+** "eventually I decided the quality of comments I was getting wasn't high enough and I didn't actually care about peoples' random crap they were leaving on my site"[http://indiewebcamp.com/irc/2013-05-17#t1368819689]
+
+== Activities Examples ==
+* Alice shared Bob's status update.
+* Alice shared Bob's photo.
+* Alice likes Some Page.
+* Alice likes a photo.
+* Alice and 8 other friends wrote on Bob's timeline for his birthday.
+* Alice added 3 new photos to the album Some Album.
+* Alice updated her cover photo.
+* Alice changed her profile picture.
+* Alice commented on a link.
+* Alice shared a link.
+* Alice was tagged in Bob's photo.
+* Alice played 10 sounds on SoundCloud.
+* Alice added a job at Some Company to her timeline.
+* Alice likes a photo on Instagram.
+* Alice shared a story via Some Page.
+
+== rel-me ==
+Facebook does not currently support [[rel-me]] on their user profiles.
+
+However, they do have a "website" field in the UI which you can set.
+
+And then applications that wish to use that field for a one-off rel-me equivalence test can access that through their API:
+
+* https://developers.facebook.com/docs/graph-api/reference/user/
+
+Careful parsing it, people often put multiple whitespace- or newline-separated urls.
+
+== Criticism ==
+=== Hyperlink Fear Interstitial ===
+
+https://pbs.twimg.com/media/BjNq5GbCUAAMf1Z.png
+
+[[Facebook]] mobile app (apparently) warning the user about [[Twitter]] t.co link-wrapped links as having "a problem".
+
+via https://twitter.com/kyle_wm/status/446818317408280576
+
+== Articles ==
+Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):
+* 2014-01-21 [http://business.time.com/2014/01/21/facebook-is-about-to-lose-80-of-its-users-study-says/ Facebook Is About to Lose 80% of Its Users, Study Says]
+* 2014-01-15 [http://techcrunch.com/2014/01/15/even-president-obama-thinks-that-facebook-isnt-cool-anymore/ Even President Obama Thinks That Facebook Isn’t Cool Anymore]
+* 2013-11-14 [http://www.slate.com/blogs/future_tense/2013/11/14/facebook_s_cool_kids_problem_instagram_snapchat_and_the_anti_facebook_phenomenon.html Facebook Isn't Cool. So What?]
+* 2013-09-04 [http://mobile.slate.com/articles/technology/data_mine_1/2013/09/facebook_privacy_and_kids_don_t_post_photos_of_your_kids_online.html We Post Nothing About Our Daughter Online] <blockquote>Nothing. It’s the only way to defend her against facial recognition, Facebook profiling, and corporate data mining. </blockquote>
+* 2013-09-03 [http://searchenginewatch.com/article/2292493/Facebook-to-Users-You-Have-Exactly-7-Days-Until-We-Own-You Facebook to Users: You Have Exactly 7 Days Until We Own You]
+* 2013-05-31 Barnaby Walters in http://waterpigs.co.uk/notes/1480/ : <blockquote><p>It’s funny — people are saying so much about the #indieweb/federated social web not being a “Facebook Killer”, and yet it’s killed my usage of FB beyond occasional passive consumption.</p><p>So, implementors: build stuff which kills your own FB usage before trying to kill facebook.</p></blockquote>
+* <span class="h-cite"><time class="dt-published">2013-05-05</time> <span class="p-author h-card"> Semil Shah </span> <cite class="p-name">[http://techcrunch.com/2013/05/05/iterations-facebook-youthful-rebellion/ Iterations: A Youthful Rebellion Against The Permanence Of Facebook’s Walled Garden]</cite>. <span class="u-url">http://techcrunch.com/2013/05/05/iterations-facebook-youthful-rebellion/</span></span>
+* <span class="h-cite"><time class="dt-published">2013-02-25</time> <span class="p-author h-card">Douglas Rushkoff</span> <cite class="p-name">[http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html Why I'm quitting Facebook]</cite>. <span class="u-url">http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html</span></span>
+* ...
+
+== See Also ==
+* [[silos]]
+* [[silo-quits]]

@@ -1,0 +1,22 @@
+{{stub}}
+
+'''<dfn>notifications</dfn>''' in the context of the IndieWeb refer to all forms and ways that an independent web site can receive a message indicating something of interest (server notifications), and potentially relay that information (preferably in realtime) to one or more devices used by the owner of that site (client notifications).
+
+== Server Notifications ==
+For server notifications, we use [[webmention]]
+
+== Client Notifications ==
+Also/often referred to as "push notifications".
+
+For notifications from an indieweb site to a web browser on a device, you may be able to use one or more of the following:
+* http://www.w3.org/TR/notifications/
+* https://wiki.mozilla.org/WebAPI/SimplePush
+** Works on FirefoxOS devices and (presumably) the [https://developer.mozilla.org/en-US/Firefox_OS/Using_the_B2G_desktop_client desktop simulator]
+
+== Projects ==
+=== Mention app ===
+{{main|mention-app}}
+* Aaronpk is working on an iOS app (for now called just [[mention-app]]) to send him push notifications from an [[h-feed]]. Thus, if a server publishes received [[webmentions]] into an h-feed page, the app will get those (hopefully via [[PuSH]], last resort via polling), and propagate them to the user's iOS device.
+
+== See Also ==
+* [[webmentions]]

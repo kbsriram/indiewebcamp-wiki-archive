@@ -1,0 +1,24 @@
+{{stub}}
+
+= IndieWebCamp Planet =
+Welcome to the IndieWebCamp Planet sign-up page.
+
+Are you a member of the IndieWebCamp community and want your personal site [[feed]] aggregated into http://planet.indiewebcamp.com/ ? Add <em>your</em> personal site below (please don't add others' sites) and the aggregator will [[discover]] your feed and do the rest.
+
+== Planet Sites ==
+Sorted alphabetically by domain name:
+
+* ...
+* http://aaronparecki.com/
+* http://tantek.com/
+* http://tommorris.org/
+* ...
+
+
+Additional IndieWebCamp shared-community resources:
+* https://twitter.com/indiewebcamp
+* https://twitter.com/indiewebcampuk
+
+== See Also ==
+* [[feed]]
+* [[discovery]]

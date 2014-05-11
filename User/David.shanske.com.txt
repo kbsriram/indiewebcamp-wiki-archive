@@ -1,0 +1,30 @@
+= David Shanske =
+
+Working on david.shanske.com as a testbed for deployment of some of the techniques to additional sites under my control. Also working on content for the site. No point in developing the infrastructure without it.
+
+==Current Progress==
+* Site uses Wordpress
+* Created an Indieweb version of _s, the Wordpress starter theme
+* Used that to create a Blog theme based on it. Will be backporting some feature enhancements back into the _s forked theme.
+* Site currently supports designated content types
+** Articles – longer form content
+** Notes – Notes are short content, and I’ve divided them into some types.
+** Status Updates and Asides – much like what you would expect on Facebook/Twitter. Status updates display with a profile picture, asides do not.
+** Photos/Images/Videos – Sharing photos and videos
+** Links – sharing a link to a website/story
+* The different content types are implemented using the [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress. Post Formats are a setting that is used to allow for custom theming of a post.
+
+==Features in Development==
+* Refining the deployed Wordpress Theme
+* Switching publishing from a Wordpress plugin to Bridgy.
+* Thinking of creating a Bridgy plugin for Wordpress
+* Created a Wordpress plugin based on Facepile theme code already in use on site that does the same for any theme.
+
+== Wordpress Custom Post Types Planning ==
+
+
+* Post - The default post type in Wordpress is called post. I already have a function that renames it to Article in the Wordpress display, but does nothing else, to preserve compatibility. Custom Post Formats will be disabled for Articles
+* Note - short, plain-text... tags but no categories. Custom Post Formats will be enabled for Notes to incude the various appearance styles that could be in the theme. This would be things like photos, videos, and links/bookmarks.
+* Like - Likes would include both traditional likes and reposts. A repost is a like with context. The markup would also thus be different. But neither have content associated with them.
+* Reply/RSVP - A reply is essentially a like or a repost with content attached in terms of how it would work. An RSVP is a specific type of reply. Reply with Context is an option for a Reply.
+* Event - There are already event content types for Wordpress people have created. This would be an indieweb version of same.

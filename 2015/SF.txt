@@ -1,0 +1,19 @@
+{{stub}}
+
+This is a page for collecting possibilities for IndieWebCampSF 2015.
+
+You may be looking for: [[2014/SF|IndieWebCampSF 2014]]
+
+== Venue ==
+Possible venue candidates (and potential contact)
+* Mozilla SF (Tantek)
+* GitHub (??? who would like to pursue this? Their space is awesome)
+* Neo (Kevin Marks)
+** pix (public URL needed)
+* Embassy Network SF ([[2014/SF|IndieWebCampSF 2014]] venue, let's see how it goes)
+
+== Previously ==
+* [[2014/SF]]
+
+== See Also ==
+* [[Events]]

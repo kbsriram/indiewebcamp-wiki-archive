@@ -1,0 +1,479 @@
+{{stub}}
+
+'''<dfn>[http://webmention.org/ Webmention]</dfn>''' is a simple way to notify any URL when you link to it on your site. From the receivers perspective, it's a way to request notifications when other sites link to it. Webmention is a modern update to [[Pingback]], using only HTTP and x-www-urlencoded content rather than XMLRPC requests. WebMention supersedes Pingback.
+
+__TOC__
+== Protocol Summary ==
+If Aaron's blog supports receiving webmentions, and Barnaby's blog supports sending webmentions, then this is how they interact:
+
+# User Aaron posts a blog post on his blog
+# User Barnaby writes post on his blog that links to Aaron's post.
+# After publishing the post (i.e. it has a URL), Barnaby's server notices this link as part of the publishing process
+# Barnaby's server does webmention discovery on Aaron's post to find its webmention endpoint (if not found, process stops)
+# Barnaby's server sends a webmention to Aaron's post's webmention endpoint with 
+#* <code>source</code> set to Barnaby's post's permalink
+#* <code>target</code> set to Aaron's post's permalink.
+# Aaron's server receives the webmention
+# Aaron's server verifies that <code>target</code> (after following redirects) in the webmention is a valid permalink on Aaron's blog (if not, processing stops)
+# Aaron's server verifies that the <code>source</code> (when retrieved, after following redirects) in the webmention contains a hyperlink to the <code>target</code> (if not, processing stops)
+
+Unmentioned but implied (and vaguely mentioned in the pingback spec):
+
+* Aaron's server displays the information about Barnaby's post somewhere on Aaron's post.
+
+See the [http://webmention.org webmention specification] for a full description of the protocol.
+
+See [[comment#Accept_a_comment|comment: how to accept a comment]] for more details on accepting comments in general and displaying them.
+
+== Why ==
+Why webmentions (e.g. instead of Pingback) and why you should implement them.
+
+Webmentions are:
+* '''Simpler'''. By dropping XML-RPC, webmention is simpler than Pingback. This means:
+** '''Less work to implement'''
+** '''Easier to test'''
+** Both of which combine to enable '''more reliable, interoperable implementations, sooner'''.
+* '''Re-using only HTTP enables easier testing and UI'''. By using only HTTP, it's possible to construct '''simple HTML forms that exercise the protocol''', which is a good design principle for web protocols in general[http://tantek.com/2013/258/t2/web-protocols-should-use-http-params-no-xml]. This enables simpler/easier testing (with just a static HTML file), and the ability to provide simple (no JS needed) webmention submit forms on blog posts for others to paste URLs to their replies (some IndieWeb participants are already doing this, e.g. http://adactio.com/ and http://aaronparecki.com/ posts).
+
+== How to Test Webmentions ==
+'''Sending Webmentions'''
+
+The beauty of simple protocols is that you can do most of this manually very easily.
+
+* Given a target to which you want to send a webmention, you need to first discover it's webmention endpoint:
+ <nowiki>curl -i -s $target | grep 'rel="webmention"'</nowiki>
+** Note: this is only an approximation, older implementations may use <code style="display:block"><nowiki>rel="http://webmention.org/"</nowiki></code> and some may use both: <code style="display:block"><nowiki>rel="webmention http://webmention.org/"</nowiki></code> neither of which are discovered by the grep above. Some may use single quotes (or no quotes at all) to surround the <code>webmention</code> rel value. Still others may only support discovery with an HTTP Link header (e.g. [[Taproot]]). Compliant implementations must check the HTTP Link headers for the rel value first, and if not found then parse for the rel value on a <code>&lt;link></code> or <code>&lt;a></code> element in the <code>&lt;head></code> per the HTML specification on parsing rel values.
+
+* Now to send the webmention:
+ <nowiki>curl -i -d "source=$your_url&target=$target_url" $targets_webmention_endpoint</nowiki>
+
+'''One-liner webmentions'''
+
+This will send the webmention in a single command:
+ <nowiki>curl -i -d "source=$your_url&target=$target_url" `curl -i -s $target_url | grep 'rel="http://webmention.org/"' | sed 's/rel="webmention"//' | grep -o -E 'https?://[^ ">]+' | sort | uniq`</nowiki>
+
+See also this gist for sending pingbacks manually: https://gist.github.com/aaronpk/5744879
+
+'''Accepting Webmentions'''
+
+Currently the easiest way to test consuming webmentions is to implement sending them, then send yourself mentions.
+
+Once you’re ready to test integration with another site, you can either ask someone in [[IRC]] to send you a comment, or mention your page in IRC and send a webmention from IRC log URL for that line to your URL.
+
+For example [http://indiewebcamp.com/irc/2014-02-18/line/1392748409 this IRC line] links to http://caseorganic.com/notes/2014/02/18/1/. Pasting the URL for the IRC line into [http://indiewebify.me/send-webmentions the indiewebify.me webmention sender] will send webmentions for all the links on the page. Then you can check your page or your server logs to see if the webmention was successful — in this case the comment [http://caseorganic.com/notes/2014/02/18/1/#external_http_indiewebcamp_com_irc_2014-02-18_line_1392748409 successfully showed up] on the target page.
+
+== Implementation Notes ==
+There are some interesting implementation details regarding receiving webmentions. E.g. when to follow redirects and when not to.
+
+=== endpoint discovery ===
+In step 4 in the protocol summary above, when performing webmention endpoint discovery, implementations MUST check for the <code>webmention</code> and SHOULD check for <code><nowiki>http://webmention.org/</nowiki></code> (for backward compatiblity) as rel values which may be present among a space separated set of rel values inside a rel attribute.
+
+Also note that endpoints may be advertised in both <code>&lt;link></code> and <code>&lt;a></code> elements. Supporting <code>&lt;a></code> is important for sites like [[WordPress#WordPress.com_hosting_service|WordPress.com]] that [http://en.support.wordpress.com/code/#html-tags don't allow link elements at all].
+
+=== must follow redirects ===
+In steps 7 and 8 above, implementations MUST follow redirects of the target and source URLs.
+
+=== checking target validity ===
+In step 7 above, when you (webmention receiver) check the <code>target</code> URL for validity, see what it redirects to and check that that is a valid permalink on your site.
+
+For example, if your posts visibly show permashortlinks for others to copy/cite/link to and someone sends a webmention to a shortlink, be sure to resolve any redirects before checking if it’s on your site, or matching it up to a post on your site.
+
+=== verifying source links to target ===
+In step 8 above, as the webmention receiver, to verify the <code>source</code> URL:
+* retrieve it following redirects,
+* when checking the resultant HTML, look for the <code>target</code> URL as '''literally provided in the webmention request''' (i.e. NOT redirects from <code>target</code>)
+
+For example, if you get a webmention with <code>source=http://short.me/t100 target=http://example.com/notes/5</code>:
+* Fetch <code>source=http://short.me/t100</code> following any redirects until you get an HTML document
+* Search the resulting HTML for <code>a</code> elements with a href value of '''exactly''' <code>http://example.com/notes/5</code>, as given in the <code>target</code> parameter
+
+=== sync or async response status code ===
+Webmention receivers can choose to verify the webmention synchronously (process immediately) or asynchronously (add it to a queue for processing later). High level difference:
+
+Synchronously:
+* upon successful verification the receiver MUST return a '''HTTP 200 Success''' response
+
+Asynchronously:
+* receiver MUST return '''HTTP 202 Accepted'''.
+
+See the Brainstorming section for some additional thinking on this.
+
+=== types of mentions ===
+In addition to just a link (mention) there are several special types of mentions, each which have markup for detection and specific implementation recommendations:
+* [[reply]] (via [[in-reply-to]]) 
+** [[RSVP]] a special kind of reply to an event, indicating where or not attending (or maybe/interested)
+* [[like]]
+* [[repost]]
+
+== Implementations ==
+=== IndieWeb implementations ===
+The following users/sites have implemented sending and or receiving webmentions, in rough chronological order:
+* [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on [http://aaronparecki.com/ aaronparecki.com] as of 2013-05-26. Details:
+** All posts send webmentions (as of 2013-05-26 first (semi-)automatic webmention sent on 2013-03-31) upon posting (asynchronously with posting UI, no results reported).
+** Events, notes (including RSVPs), replies accept webmentions (as of 2013-05-26)
+** Discovery with both: <code>rel="webmention"</code> and <code><nowiki>rel="http://webmention.org/"</nowiki></code> links in head, and HTTP <code><nowiki>Link: rel="http://webmention.org/</nowiki></code> header
+** Notes (including RSVPs), replies have an input form for pasting in your comment URL to conveniently send a manual webmention (as of 2013-10-12)
+
+* [[User:Werd.io|Ben Werdmuller]] using [[idno]] on [http://werd.io werd.io] as of 2013-05-31. Details:
+** All(?) posts send webmentions as of 2013-05-31 and accept as of 2013-06-??
+** Discovery with both: <code><nowiki>rel="http://webmention.org/"</nowiki></code> and <code>rel="webmention"</code> links in head, and with HTTP <code><nowiki>Link: <http://werd.io/webmention/>; rel="webmention"</nowiki></code>
+
+* [[User:Waterpigs.co.uk|Barnaby]] using [[Taproot]] on [http://waterpigs.co.uk/ waterpigs.co.uk] as of 2013-06-11 (per git). Details:
+** All [[notes]] and [[articles]] accept (as of 2013-06-20) and send webmentions (as of 2013-06-11) upon posting (posting UI returns response content to the browser, then synchronously sends webmentions)
+** Incoming webmentions for notes and articles are parsed and stored, displayed for notes (comment updating as of 2013-06-23) but not yet articles
+** Discovery only with HTTP <code><nowiki>Link: <http://waterpigs.co.uk/mentions/webmention/>; rel="http://webmention.org/"</nowiki></code>
+
+<!-- * [[User:Tommorris.org|Tom Morris]] using [[Ferocity]] on [http://tommorris.org/ tommorris.org] as of 2013-??-??. Details:
+** All(?) posts send webmentions (as of 2013-??-??) upon posting (asynchronously with posting UI, no results reported). 
+-->
+* [[User:Adactio.com|Jeremy Keith]] on [http://adactio.com/ adactio.com] as of [http://adactio.com/journal/6495/ 2013-09-15]. Details:
+** All blog posts accept webmentions
+** Discovery only with: <code>rel="webmention"</code> link in head
+** Blog posts have an input form for pasting in your comment URL to conveniently send a manual webmention
+
+* Barry Frost on [http://barryfrost.com barryfrost.com] as of 2013-09-15[http://barryfrost.com/posts/11][http://barryfrost.com/posts/13]. Details:
+** All(?) posts send and accept webmentions
+** Discovery with: <code>rel="webmention"</code> link in head, and HTTP <code><nowiki>Link: <http://barryfrost.com/webmention>; rel="webmention"</nowiki></code> in header
+** Posts have a hyperlink in footer "[http://barryfrost.com/how-to-comment How to comment on this post]" to instructions detailing posting an [[h-entry]] with [[h-card]] and how to send a webmention.
+
+* [[User:Bear.im|Bear]] on [https://bear.im bear.im] as of 2013-12-01.
+** All posts send and accept webmentions
+** Discovery with both: <code>rel="webmention"</code> and <code><nowiki>rel="http://webmention.org/"</nowiki></code> links in head, and HTTP <code><nowiki>Link: rel="http://webmention.org/</nowiki></code> header
+** Incoming webmentions are validated and stored, but not yet added to the appropriate articles
+
+* [[User:kartikprabhu.com|Kartik Prabhu]] on [http://kartikprabhu.com/ kartikprabhu.com] as of  2013-12-03.
+** All articles accept webmentions
+** Discovery only with: <code>rel="webmention"</code> link in head
+** Articles have an input form for sending a manual webmention inspired by [http://adaction.com adactio.com]
+** Webmentions are saved as responses and appear below the article with a snippet and link to original.
+** All articles send webmentions to links automatically when published.
+** On edit and update, article sends mentions to all newly added links and all removed links.
+
+* [[User:Kodfabrik.se|Pelle Wessman]] using [https://webmention.herokuapp.com/ webmention.herokuapp.com] on [http://voxpelli.com/ voxpelli.com] as of [http://voxpelli.com/2013/12/webmentions-for-static-pages/ 2013-12-18]. Details:
+** All blog posts accept webmentions
+** Discovery only with: <code>rel="webmention"</code> link in head
+** Blog posts have an input form for pasting in your comment URL to conveniently send a manual webmention
+
+* [[User:Jeena.net|Jeena]] using a home grown Rails app on [https://jeena.net https://jeena.net] as of [https://jeena.net/people-first 2013-12-06]. Details:
+** All homepage, blog posts and notes accept webmentions
+** Discovery with: <code>rel="webmention"</code> link in head and Link: HTTP header
+** It only sends webmentions on create
+** No manual form, only works with automatic webmentions
+
+* [[User:AndySylvester.com|Andy Sylvester]] using the [http://wordpress.org/plugins/webmention Webmention plugin] for WordPress on [http://andysylvester.com http://andysylvester.com] as of [http://andysylvester.com/2014/01/24/testing-the-wordpress-webmention-plugin/ 2014-01-24]. Details:
+** All blog posts accept webmentions
+
+* [[User:Gregorlove.com|gRegor Morrill]] sending and receiving webmentions on [http://gregorlove.com gRegorLove.com] as of 2014-02-04.
+** Using a custom plugin I developed for Nucleus CMS
+** All articles can receive webmentions
+** Webmention endpoint is broadcast via Link: HTTP header and <link> element
+** Incoming webmentions validate the target is a valid URL on gregorlove.com and the post ID in the URL is valid.
+** Webmentions are parsed and further validated asynchronously. Replies/mentions are displayed interleaved with "local" blog comments..
+** [[User:Gregorlove.com/webmention|More implementation notes]]
+
+* [[User:glennjones.net|Glenn Jones]] using node.js module [https://github.com/glennjones/webmentions github.com/glennjones/webmentions] on [http://glennjones.net/ glennjones.net] as of 2014-02-19.. Details:
+** All notes accept webmentions
+** Discovery only with: <code>rel="webmention"</code> link in head
+** The notes editor has an input for the <code>in-reply-to</code> URL
+** The webmentions module allows pinging of webmention between any sites
+** Yet to implement: full authorship parsing, updates, deletes.
+
+* [[User:Cweiske.de|Christian Weiske]] receiving webmentions on [http://cweiske.de/ cweiske.de] as of 2013-10-22. Details:
+** All posts accept webmentions using [http://git.cweiske.de/stapibas.git/ stapibas]
+** Discovery only with HTTP <code><nowiki>Link: <http://cweiske.de/stapibas/xmlrpc.php>; rel="webmention"</nowiki></code>
+** Approach for sending webmentions (with fallback sending of pingbacks)
+*** https://github.com/pear2/Services_Linkback/blob/master/src/PEAR2/Services/Linkback/Client.php#L236
+*** check self Atom feed, if there are updates then proceed with discovery/sending for each update, for each link in the update: do a HEAD request first, do discovery for webmention endpoint, if none found, do discovery for pingback endpoint, if none found and the resource is <code>'application/xhtml+xml'</code> or <code>'text/html'</code>, do a GET request, do discovery for webmention endpoint, if none found, do discovery for pingback endpoint. send webmention if an endpoint was found, otherwise send pingback if an endpoint was found.
+
+* [[User:Ben.thatmustbe.me|Ben Roberts]] sending and receiving webmentions on [http://ben.thatmustbe.me/ ben.thatmustbe.me] as of 2014-04-24
+** Parsing replies, mentions, and likes.  Rsvps are handled as just mentions currently.
+** Discovery only with: <code>rel="webmention"</code> link in head
+** Currently set to automatcially accept, but moderation is planned.
+** Submissions return a link for queue record that returns a status as a <code>Webmention-Status</code> header as well as a minor note in the body. 
+** Attempting to keep implementation notes as a modified spec at [http://github.com/dissolve/webmention webmetion0.2-b1]
+** Sending is not done automatically to ensure edits are complete before deciding to send all mentions in a post/note
+
+=== Libraries ===
+<span id="Webmention-related_libraries_and_tools"></span>
+==== Sending ====
+* [https://github.com/indieweb/mention-client-php indieweb/mention-client-php] '''PHP''' library for sending webmention and pingpack notifications
+* [https://github.com/indieweb/mention-client-ruby indieweb/mention-client-ruby] '''Ruby''' library for sending webmention notifications
+* [https://github.com/phpish/webmention phpish/webmention] - Simple webmention client (non-OO) in '''PHP''' packaged as a composer package.
+* [https://github.com/vrypan/webmention-tools vrypan/webmention-tools] - '''Python''' client library and command line webmention sender
+* [https://github.com/pear2/Services_Linkback pear2/Services_Linkback] - '''PHP''' pingback+webmention client + server library
+* [https://github.com/bear/ronkyuu bear/ronkyuu] - '''Python''' client library and command-line tools
+* [https://github.com/glennjones/webmentions glennjones/webmentions] - '''Node.js''' a helper library for endpoint discovery, pulling validating webmentions and sending webmention requests
+* …
+
+For webmention endpoint discovery:
+* [https://github.com/indieweb/link-rel-parser-php/blob/master/src/IndieWeb/link_rel_parser.php link_rel_parser] : <code>http_rels($h)</code> & <code>head_http_rels($url)</code> - HTTP header string parser in PHP for RFC5988 Link: rels (including <code>X-Pingback</code>) & function to curl a HEAD request and parse it all in one.
+* [https://github.com/phpish/link_header phpish/link_header] - Link header (RFC 5988) parser in PHP
+* [http://pear.php.net/package/HTTP2 PEAR: HTTP2] ([http://pear.php.net/manual/en/package.http.http2.parselinks.php documentation]) - Link header (RFC 5988) parser in PHP
+* [[ronkyuu]] - '''Python''' client library and command-line tools
+
+==== Handling ====
+Handling receiving webmentions:
+* PHP Minimum Viable Webmention handler: https://gist.github.com/adactio/6484118
+* …
+
+For parsing the mentions, the following may come in handy:
+* [http://microformats.org/wiki/microformats2#Implementations microformats2 implementations and parsers]
+* [https://github.com/barnabywalters/php-mf-cleaner php-mf-cleaner] - "Takes microformats2 array structure and makes it more sane. Counterpart to indieweb/php-mf2"
+
+=== Publishing Software ===
+Some open source publishing software supports webmentions.
+* [[idno]] sends webmentions and accepts webmention comments
+* [[p3k]] sends webmentions for all posts and accepts webmention comments on events, notes, replies, RSVPs
+* [[Taproot]]
+* …
+
+'''Plugins''' exist for some open source publishing software:
+* [[Wordpress#Mentions]]
+* [https://github.com/mapkyca/elgg-webmention Elgg]
+* [https://github.com/gRegorLove/nucleus-plugin-webmention Nucleus CMS]
+* …
+
+=== Services ===
+Some services one can use to receive or send webmentions.
+
+==== webmention.herokuapp.com ====
+[https://webmention.herokuapp.com/ webmention.herokuapp.com] receives webmentions for any registered page and allows them to be embedded through javascript.
+
+==== Bridgy ====
+{{main|Bridgy}}
+[http://brid.gy/ brid.gy] is a service that sends [[webmentions]] for comments/replies, likes, and reposts on Facebook, Twitter, Google+, and Instagram posts. It uses [[original post discovery]] to find target links for the webmentions. [https://github.com/snarfed/bridgy GitHub repo here.]
+
+==== stapibas ====
+* [[stapibas]] is a self-hosted service to send and receive webmentions for websites and blogs.
+
+==== webmention.io ====
+{{main|webmention.io}}
+[http://webmention.io webmention.io] is an open-source project and hosted service for receiving [[webmentions]] and [[pingbacks]] on behalf of your indieweb site.
+
+=== Wish List ===
+* A tiny, no-dependencies js file which can fetch indiecomment data from webmention.io and dump it into an element, enabling 2-step indiecomment support:
+** Add a <link> to webmention.io
+** include this script and add some <code>&lt;div data-indiecomments data-url="blah"></div></code> element where you want them to appear
+
+== FAQ ==
+=== Why webmention instead of pingback ===
+See [[webmention#Why|Why]] above.
+
+=== Why webmention instead of Trackback ===
+{{main|Trackback}}
+* Trackback, lacking link verification, is more easily and heavily spammed
+* Plus all the reasons [[webmention#Why|why]] webmention instead of pingback
+
+=== Which links should receive webmentions ===
+Which links in a [[post]] should receive webmentions?
+
+Webmentions should be sent to all URLs a post can be considered to mention — this includes
+* [[in-reply-to]] URL(s)
+* [[rsvp]] URLs
+* URLs linked to in the content, including URLs of people mentioned
+
+What do existing implementations do?
+
+* I send [[pingback]]s (webmentions coming soon) to the in-reply-to URL if set, and all URLs in the post content field. --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 09:14, 10 April 2013 (PDT)
+
+=== Should webmentions be sent for links to static assets ===
+Should webmentions be sent for links to static asset URLs e.g. images, audio?
+
+What do existing implementations do?
+
+* [[Taproot]] sends webmentions to all URLs in a post without discriminating by type of link --[[User:Waterpigs.co.uk|Barnaby Walters]] 09:01, 26 November 2013 (PST)
+
+=== Should webmentions be sent for embeds ===
+Should webmentions be sent for resources embedded in a post like the URLs in "src" and "data" attributes?
+* &lt;audio src&gt;
+* &lt;embed src&gt;
+* &lt;iframe src&gt;
+* &lt;img src&gt;
+* &lt;object data&gt;
+* &lt;source src&gt;
+* &lt;video src&gt;
+* ... others?
+
+And what about "srcset"? Is anyone on the indieweb even bothering to publish with srcset?
+
+What would the receiver of a webmention for an embed do with that notification?
+
+===Should webmentions be sent for removals ===
+
+* If the source post is edited to remove a link to the target, should a webmention be sent to the target to inform them of the removal of the mention?
+** [[http://kartikprabhu.com kartikprabhu.com]] sends webmentions to links that are removed while editing an article.
+* Do any implementations for receiving webmentions do anything with such a webmention POST?
+** [[http://kartikprabhu.com kartikprabhu.com]] deletes the existing mention-response from database, if it receives a mention where the source no longer links to target.
+
+===How does this solve the spam problem===
+
+How does this solve the spam problem that plagued Trackback and Pingback? 
+
+[[Trackback]] was particularly susceptible to [[spam]] since the URL and content of the comment was sent in the payload. Pingback improved on this by making the "ping" only contain the URL of the comment, so that the link could be verified.
+
+[[Webmention]] is a simplification of Pingback, so by itself does not provide any new anti-spam measures. Instead, [[spam]] is treated as its own issue, with several possible solutions being documented on the [[spam#Spam_Prevention|Spam Prevention]] page.
+
+However, in practice, receivers of [[Webmention]] look for specific [[h-entry]] markup to render [[comments]], which adds a minor barrier for spammers (for now).
+
+== Issues ==
+* Not specifying a required '''response format''' and/or structures of the response formats is problematic as a client can never be sure they’ll be able to read the response.
+** Fortunately, as [[User:Aaronparecki.com|Aaron Parecki]] noted, if there is an error, knowing exactly what caused it isn’t really very helpful apart from debugging, where the response will be read by a human anyway
+** Rough consensus seems to be to default to a plantext error/success message, or if an accept header is given then maybe serialise it as requested, e.g. HTML or JSON. [http://indiewebcamp.com/irc/2013-10-22/line/1382456765] Use case for HTML is in-browser sending --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 08:58, 22 October 2013 (PDT)
+* Should '''bookmarking''' send a webmention? What if there are 1000's of bookmarks? how do you distinguish between normal links and bookmarks? - http://indiewebcamp.com/irc/2013-06-11#t1370966945
+** I think bookmarking should yes, just as [[favorites]] and [[likes]] do. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+* '''Asynchronicity''': a server may want to queue webmentions for source retrieval processing and do that asynchronously with the request. It's not always practical or advisable to handle all that processing in the actual HTTP POST thread. Thus receivers of webmentions must not be required to return <code>no_link_found</code> errors. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+* '''Updates''': it's acceptable to send a repeat webmention, e.g. for updating or deleting [[comments]]. Thus the <code>already_registered</code> error must not be required, and should likely not even be an error in the first place. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+* '''De-duplication''' aka de-duping: replies and other responses are often duplicated in different places, e.g. via [[backfeed]] of [[POSSE]]d replies by [[Bridgy]]. Ideally, recipients should try to de-dupe webmention sources, preferring an original post (see below). Getting this perfect is hard, but getting close is pretty easy (see [http://indiewebcamp.com/irc/2014-01-30/line/1391125255 IRC discussion]) by comparing an incoming reply (etc) to existing replies based on:
+**u-uid
+**u-url
+**[[rel-syndication]] (also compare to u-url, and vice versa)
+**other u-in-reply-to links in the incoming reply
+* '''prefer original posts''' - an alternative to implementing de-duplication is to simply always prefer original posts (replies) rather than their POSSE copies. You can implement this by:
+** '''always do [[original post discovery]] on the "source" URL'''
+** if there is an original post, 
+** use it instead of the source URL. 
+** thus: if/when your post receives Bridgy webmentions of POSSE copies of replies, you can find, retrieve, and display the original replies instead (i.e. treat it as if you received a webmention for the original). 
+** if you ''also'' receive a webmention for the original later (or before), you merely treat it as an update webmention using your existing update handling code path.
+
+== Brainstorming ==
+=== rel-webmention on <a&gt; tags ===
+Does it make sense to allow rel=webmention on anchor tags in addition to link tags?
+
+* pro: wordpress.com (and maybe other hosted platforms?) prevent users from adding custom <link&gt;s, but allow <a&gt;s
+* con: webmentions are basically machine-only; no user-facing data
+* pro: GET request to webmention endpoint ''could'' return a helpful page with a link to [[webmention]] ("visible endpoint that teaches" [http://indiewebcamp.com/irc/2014-05-04/line/1399233029])
+* See this [https://github.com/converspace/webmention/pull/32 pull request] to the webmention spec
+
+These libraries and implementations support <a&gt; webmention endpoint discovery 
+
+* PHP: mention-client library [http://aaronparecki.com/notes/2014/05/05/2/webmention-indieweb]
+* Ruby: webmention gem [http://aaronparecki.com/notes/2014/05/05/2/webmention-indieweb]
+* Python: webmention-tools [https://github.com/vrypan/webmention-tools/pull/10]
+* Python: Red Wind [http://git.kylewm.com/?p=redwind.git;a=blobdiff;f=redwind/webmention_sender.py;h=5b1450b85f285d4f7057e6f18d9f2f38a22fb7cd;hp=6a6edf0d0d547e7ebdc0ee09ba59d5761b098867;hb=d36b8ddeb3512522f3d0854e32386a95358b07ec;hpb=a5c83921d9aec00e790118a8ea9a404be9b4c32a]
+* ...
+
+These webmention endpoints show human-friendly information, when visited with a GET request
+
+* [[User:Aaronparecki.com|Aaron Parecki]] was already doing this [http://aaronparecki.com/webmention.php]
+* Webmention.io has links to [[webmention]] and a little bit dated copy referring pingback.me [http://webmention.io/tantek/webmention]
+* [[User:waterpigs.co.uk|Barnaby Walters]] displays a friendly page that includes a form for sending general webmentions [http://waterpigs.co.uk/mentions/webmention/]
+* [[User:Kylewm.com|Kyle Mahan]] added a landing page like Aaron's [http://kylewm.com/webmention]
+* ...
+
+=== Asynchronous status polling ===
+Asynchronous status polling could be achieved via the webmention receiver returning a LINK header with rel=status with a URL for querying the status of a specific pending webmention request.
+
+Example:
+<pre>
+LINK: <http://example.com/m/10> ; rel="status"
+</pre>
+Then the sending of the webmention could poll that URL for updates on the status of that particular webmention.
+
+==== Status Query Results ====
+In order to distinguish between the layers of a request to the status page and the actual current status of the webmention, the page could return an additional header to explain that status of the webmention processing.   This could be the same code that would have been returned if the webmention were just submitted.
+
+Example:
+<pre>
+HTTP/1.1 200 OK
+Webmention-Status: 202
+</pre>
+This would say that the webmention is still in the state of "accepted" but has not processed yet.
+This also leaves the page body open to any formatting for the user's view.
+
+==== Implementations ====
+
+IndieWeb community members who have implemented this
+
+Aaron Parecki (example URL: https://aaronparecki.com/webmention/rf2_14yA)
+
+[[File:aaronparecki-webmention-status-example.png|link=https://aaronparecki.com/webmention/rf2_14yA]]
+
+=== Asynchronous status notification ===
+Asynchronous status notification could be achieved by using a [[webhook]] in the initial webmention request.
+
+I.e. in addition to:
+* source=URL
+* target=URL
+add:
+* callback=URL
+to the webmention POST request.
+
+Webmention receivers should optionally support the "callback" parameter by calling it back (doing an HTTP POST to it) upon completion of processing of the webmention, with a "status" query parameter indicating the outcome of webmention processing. See "More status codes" below for possible values for that parameter.
+
+Example payload sent to the callback URL:
+<pre>
+source=URL&
+target=URL&
+status=200
+</pre>
+
+=== More status codes ===
+Synchronous webmention receivers should return the following status codes:
+
+* '''200 OK''' - the webmention was somewhat processed (i.e. preconditions checked out), but any of the following conditions may apply:
+** New [[comment]]/[[like]]/[[repost]] created/indicated on the target
+** Updated comment processed (for [[comment]] CRUD)
+** Comment being held for human moderation
+** [[comment]]/[[like]]/[[repost]] deleted on the target
+* '''400 Bad Request''' - for any of the following conditions:
+** Source URL not found
+** Specified target URL not found
+** Source URL does not contain a link to the target URL
+** Specified target URL does not accept webmentions
+
+Asynchronously:
+
+Similarly, in an asynchronous interaction, the callback webhook should include a "status" URL query parameter with the status codes noted above.
+
+=== Discovery in PHP ===
+Update: See [https://github.com/indieweb/mention-client-php mention-client-php] for an implementation.
+
+Automatic discovery could be implemented in PHP by:
+* look for a link header using a HTTP request library to get the rels
+** [https://github.com/indieweb/link-rel-parser-php/blob/master/src/IndieWeb/link_rel_parser.php link_rel_parser.php] :
+*** use <code>head_http_rels($url)</code> to curl a HEAD request and from the return value <var>info</var> get back HTTP <var>info["status"]</var> and <var>info["rels"]</var> as a <var>rels</var> array if any.
+*** if you already have the raw HTTP header, use <code>http_rels($h)</code> to get a <var>rels</var> array
+** and then lookup <var>rels["webmention"]</var> for webmention endpoints
+* if no Link: for webmention found then
+** use PHP DOMDocument to search the retrieved document for the first <nowiki><link rel="webmention"></nowiki> element (or first that matches selector: <code>head link[rel~=webmention]</code> )
+* end if
+
+=== Variable Response Body Problem ===
+To deal with the variable response body problem:
+
+* Make response body optional
+* Send the error information in a response header, probably similar format to status
+** E.G. X-Webmention: 16 Source URI Not Found or X-Webmention-Response: 17 Not Linking
+** Re-use the semantics + error codes from the pingback spec [http://www.hixie.ch/specs/pingback/pingback]
+
+=== rel webmention ===
+* Perhaps rel=webmention should be added to the [http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions HTML5 rel registry] (supercedes/obsoletes IETF/IANA '[http://tools.ietf.org/html/rfc5988 Web Linking]').
+** I'll take this up if there is enough consensus that we need it. I prefer the current URL based rel because it can be followed easily to get more info. [[User:Www.sandeep.io|Www.sandeep.io]] 06:08, 30 June 2013 (PDT)
+*** I'm happy to draft-up a [http://microformats.org/wiki/rel-webmention rel-webmention] spec and add it to the HTML5 rel registry if we decide we want this. Also ok with just keeping the URL for now. - [[User:Tantek.com|Tantek]] 17:46, 30 June 2013 (PDT)
+*** rel=webmention is now registered in the HTML5 rel registry, and points to webmention.org as the spec. - [[User:Tantek.com|Tantek]] 14:32, 13 August 2013 (PDT)
+*** Let's have rel=webmention supersede the .org URL value as rel=webmention is shorter, more readable in rel values / HTTP headers, and follows more standard term based rel value naming conventions. - [[User:Tantek.com|Tantek]] 21:40, 17 October 2013 (PDT)
+**** +1 [[User:Adactio|Jeremy Keith]] per [https://twitter.com/adactio/status/382169333280935938]
+
+=== propagation to a mobile device ===
+To make webmentions more useful, it would be great if there was some way to have them propagate as [[notifications]] to whatever devices the user has setup to receive such notifications.
+
+== Alternatives ==
+Alternatives to webmention.
+=== LINK verb ===
+[http://www.chmod777self.com/2013/08/now-that-you-mention-it.html James Snell brings up a suggestion] to use the HTTP LINK verb to send the webmention notification. This would remove the need to first make the discovery request to find the webmention endpoint, since it could immediately send the LINK request to the URL itself.
+
+The problem is it's way less likely to actually get adoption using the LINK verb. The discovery step adds an opportunity to add a layer of indirection, which lets us separate the server that handles the webmention. While discovery is an extra step, but at the same time it provides a lot of benefits. For example, it wouldn't be possible to have a static HTML site handle the HTTP LINK request, whereas it could delegate to a webmention service by using the <link> tag. Additionally, some hosting environments may not provide a way to handle the LINK request where a normal POST would work instead.
+
+Because of the benefits and flexibility the discovery step adds, we need to stick with it and can't use the LINK verb as cool as that would be.
+
+http://aaronparecki.com/replies/2013/08/08/2/webmention
+
+== See Also ==
+* http://webmention.org/
+* [[pingback]]
+* [[webmention.io]], a service to convert Pingbacks to WebMentions
+* [[comments]] - a key use case for webmention
+* [[indieweb-messaging|indieweb messaging]] - another user case for webmention
+* [http://en.wikipedia.org/wiki/WebMention Wikipedia - Webmention] - Help me expand the article --[[User:Bret.io|Bret.io]] 15:31, 30 June 2013 (PDT)
+
+[[Category:building-blocks]]

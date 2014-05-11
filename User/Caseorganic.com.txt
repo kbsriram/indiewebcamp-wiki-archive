@@ -1,0 +1,29 @@
+= Amber Case =
+Director, Esri R&D Center Portland
+* http://caseorganic.com
+* http://caseorganic.com/wiki/ 
+* [http://twitter.com/caseorganic @caseorganic] (and [http://twitter.com/casebot @casebot])
+
+== IndieWeb Projects I use ==
+* [[p3k]] - code runs [http://caseorganic.com caseorganic.com] 
+* [https://github.com/aaronpk/Flickr-Archiver Flickr Archiver]
+* [http://indiewebcamp.com/bridgy Brid.gy]
+
+== IndieWeb Pages I like to watch or edit ==
+* [http://indiewebcamp.com/site-deaths Site Deaths]
+* [http://indiewebcamp.com/timeline Timeline]
+* [http://indiewebcamp.com/projects Projects]
+* [http://indiewebcamp.com/comics Comics] 
+
+== Related Blog Posts ==
+* [http://cyborganthropology.com/Sharecropping Article on Sharecropping]
+* [http://indiewebcamp.com/How_the_Indie_Web_Hooks_into_Hosted_Communities How the Indie Web Hooks into Hosted Communities]
+
+== Presentations on IndieWeb ==
+* [http://vimeo.com/86329113 Designing for privacy in mobile and web apps - Interaction '14, Amsterdam]
+* [http://caseorganic.com/articles/2014/02/08/1/rise-of-the-indieweb---video-from-futuretalks-at-new-relic-by-amber-case Rise of the IndieWeb - Video from FutureTalks at New Relic]
+* [http://vimeo.com/77352414 The Open Web and Opportunity of Now - Keeping it Realtime Conference 2013]
+* [http://caseorganic.com/presentations/2014/01/13/1/why-web-broken-how-to-fix-it-indieweb Why the Web is Broken and How to Fix it (slides)]
+
+== Areas of Interest ==
+Data ownership, wearable computing, UX Design, product development, low-friction data collection and personal servers.

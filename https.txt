@@ -1,0 +1,221 @@
+'''<dfn>HTTPS</dfn>''' is an abbreviation for '''Hypertext Transfer Protocol Secure''', a protocol for secure communication, supported by web servers (like [[Apache]] & [[nginx]]) and browsers. HTTPS layers Hypertext Transfer Protocol (HTTP) on top of the SSL/TLS protocol.
+
+There are two primary <span id="Types">types</span> of HTTPS:
+* '''IP-based''' is the traditional way. SSL/TLS negotiation happens below HTTP, so the server needs to present a certificate before it knows which host the client is asking for. If the server has multiple certs, it chooses the appropriate one based on the IP address the client connected to.
+* '''[http://en.wikipedia.org/wiki/Server_Name_Indication SNI]''' is a newer variant that can serve multiple certs from the same IP. Most modern browsers and libraries support it, [http://en.wikipedia.org/wiki/Server_Name_Indication#Support including OpenSSL 0.9.8] and up.
+
+== How to ==
+* [https://konklone.com/post/switch-to-https-now-for-free Switch to HTTPS now for free] outlines how to set up SSL on your personal site with [[StartSSL]] (note the guide primarily deals with using nginx as your server)
+
+=== Buy ===
+Buying SSL certificates
+* [https://www.startssl.com/ startssl.com] offers free SSL certificates for single domains. If you verify your identity, they will also allow you to register free wildcard certs.
+* [https://www.namecheap.com/ssl-certificates/comodo.aspx namecheap.com] offers single-domain SSL certificates for $7.95/year and wildcard certificates for $85/year
+* GlobalSign offers [https://www.globalsign.com/ssl/ssl-open-source/ free wildcard certificates] (!) for open source projects.
+* [https://ssls.com/ ssls.com] has inexpensive SSL certificates from multiple providers. As of 2014/03/08, a PositiveSSL certificate was $4.99/yr when buying 5 years. 
+* ...
+
+==== Validating Your Purchase ====
+SSL Certificate providers require some form of verification of you, your domain, and your ownership of your domain.
+
+'''CSR Generation — '''
+A Certificate Signing Request must be generated at your site. For example, on a hosting provider that uses Cpanel, the "SSL/TLS Manager" has a "Certificate Signing Requests" section.
+
+'''Approver Email — '''
+[http://ssls.com/ ssls.com] asks for an "Approver Email" from a list of administration email addresses and Domain Registration email addresses. Choose one that you use, and receive the Domain Control Validation email, which contains a link and a "validation code". Click the link and enter the code to verify that you own the domain.
+
+'''Certificate Email — " 
+[http://ssls.com/ ssls.com send the certificate to the "Administrator Email" that you specified during the purchase process. This certificate is used in the process below.
+
+=== Manage ===
+When you're done with your purchase, you'll have one or more files for each certificate:
+* The certificate itself, e.g. '''snarfed.org.ssl.crt'''.
+* The private key you used to generate the certificate, e.g. '''id_rsa-2048'''.
+* Optional: Your [http://en.wikipedia.org/wiki/Certificate_authority CA]'s intermediate cert, e.g. '''sub.class1.server.ca.pem'''.
+* Optional: Your CA's root, e.g. '''ca.pem'''. Hopefully you picked a CA whose root cert is distributed with most OSes/browsers; if so, you can ignore this. (If you didn't, you should reconsider!)
+
+All of these files are usually [http://en.wikipedia.org/wiki/X.509 X.509] format except the private key, which is RSA or other private key format.
+
+Command line <code>openssl</code> is your friend for inspecting and editing certificates. For example, to dump info about a cert:
+
+<pre>openssl x509 -text -in snarfed.org.ssl.crt</pre>
+
+If your CA provided an intermediate cert, you'll need to provide it to your web server along with your own cert. For servers that only accept a single file, you'll need to concatenate the certs, e.g.:
+
+<pre>cat snarfed.org.ssl.crt sub.class1.server.ca.pem > snarfed.org.unified.ssl.crt</pre>
+
+As another example, it seems like this command line should verify that a cert is valid:
+
+<pre>openssl verify -verbose -CAfile ca.pem snarfed.org.unified.ssl.crt</pre>
+
+...but [[User:snarfed.org]] gets this error:
+
+<pre>error 20 at 0 depth lookup:unable to get local issuer certificate</pre>
+
+=== Setup ===
+The IETF has a [document with recommendations for Secure Use of TLS and DTLS http://datatracker.ietf.org/doc/draft-ietf-uta-tls-bcp/?include_text=1].
+
+==== Apache ====
+[[Apache]] is pretty easy. [https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/ Here's a good how-to post.] TL;DR: Put the certificate files somewhere your Apache user can read, then set the <code>SSLCertificate*</code> config directives, e.g.:
+
+<pre>
+SSLCertificateKeyFile /home/ryan/.ssh/id_rsa-2048
+SSLCertificateFile /home/ryan/www/snarfed.org.ssl.crt
+SSLCertificateChainFile /home/ryan/www/sub.class1.server.ca.pem
+</pre>
+
+==== App Engine ====
+If you're serving on [http://appengine.google.com/ Google App Engine]'s built-in <code>appspot.com</code> domain, you're already done! Just add <code>secure: always</code> (or <code>optional</code>) to the handler(s) in your <code>app.yaml</code> or other app config file, and you'll be able to access your app over https. [https://developers.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_Secure_URLs Details here.]
+
+If you're using the java runtime on App Engine, add this stanza to your <code>web.xml</code> file.
+
+ <nowiki>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app 
+   ...> 
+
+  <security-constraint>
+    <web-resource-collection>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+  </security-constraint>
+</nowiki>
+
+You may additionally want to send a [https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security HSTS header] to further improve security. In java, the easiest way from a servlet running on AppEngine is to add this header to all responses when running on the production server.
+
+ <nowiki>
+import com.google.appengine.api.utils.SystemProperty;
+
+...
+
+      if (SystemProperty.environment.value() ==
+          SystemProperty.Environment.Value.Production) {
+          // force ssl for six months.
+          response.addHeader("Strict-Transport-Security", "max-age=15768000");
+      }</nowiki>
+
+If you also deliver static content, you may want to enable the HSTS header here as well. An example stanza within your <code>appengine-web.xml</code> file might look like this.
+
+ <nowiki>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+...
+    <static-files>
+    <include path="/static/**" >
+      <http-header name="Strict-Transport-Security" value="max-age=15768000"/>
+...</nowiki>
+
+
+
+
+
+If you're on a custom domain, you can use either SNI or a VIP. [https://developers.google.com/appengine/docs/ssl Details here.] You'll need to [https://developers.google.com/appengine/docs/ssl#uploading_and_configuring_certificates upload your SSL cert files] to the Google Apps control panel for your domain, then add and configure SNI or VIP slots in App Engine.
+
+==== nginx ====
+We can setup nginx to listen on port 443 with our SSL sertificate quite easily:
+
+<pre>
+server {
+    listen 443 ssl;
+    server_name example.org;
+
+     ssl_certificate /path/to/unified.crt;
+     ssl_certificate_key /path/to/my-private-decrypted.key;
+
+     //usual nginx config here like location blocks
+}
+</pre>
+
+For more detailed nginx config instructions see the page on [[nginx]]
+
+=== Test ===
+==== Production ====
+[https://www.ssllabs.com/ssltest/ Qualys's SSL Server Test] is an easy way to test the SSL cert on your live site. See e.g. [https://www.ssllabs.com/ssltest/analyze.html?d=www.brid.gy&s=74.125.198.121 brid.gy's report card], or for comparison [https://www.ssllabs.com/ssltest/analyze.html?d=jonnybarnes.net&hideResults=on jonnybarnes.net] gets slightly different results.
+
+You can use <code>openssl s_client</code> to debug connection issues, e.g.:
+
+<pre>openssl s_client -connect snarfed.org:443</pre>
+
+If your server uses SNI, you'll need to provide the hostname too:
+
+<pre>openssl s_client -servername www.brid.gy -connect www.brid.gy:443</pre>
+
+Here's an example of debugging a single SSL issue:
+
+* https://github.com/aaronpk/webmention.io/issues/14
+* https://github.com/snarfed/bridgy/issues/20
+* http://indiewebcamp.com/irc/2014-01-04#t1388872084
+
+==== Local ====
+When developing a website locally, it may be useful to be able to test the site via https. For example, when writing an OAuth client, some providers will not redirect to a page that does not use https.
+
+The easiest way to do this is to temporarily redirect your site to your own localhost (just for yourself) and use your site's cert. Just add a line like this to your hosts file:
+
+<pre>127.0.0.1	snarfed.org</pre>
+
+This is obviously temporary, though. For a more permanent setup, you can either generate a self-signed SSL certificate for your testing domain (localhost, etc) or you can create your own SSL certificate authority and sign the certificate with that.
+
+To assist with this, [[User:aaronparecki.com|aaronpk]] has created an "IndieWebCamp" root authority that can sign certificates for domains ending in ".dev".
+
+* https://ssl.pin13.net/indiewebcamp/
+
+You can add a line to your hosts file for your test domain such as 
+
+<pre>127.0.0.1   mydomain.dev</pre>
+
+And then you can use the [https://ssl.pin13.net/indiewebcamp/ IndieWebCamp authority] to generate an SSL cert for it. There are instructions on the site for how to install it under [[Apache]] and [[nginx]].
+
+== Posts about HTTPS ==
+* [https://www.howsmyssl.com/ Hows my SSL] is a tool that rates your own browsers security when dealing with HTTPS sites. Such as will your browser uses encryption schemes known to be weak. Further, check out [https://plus.google.com/app/basic/stream/z13rfxdois3ptbvba04chrnjfxa3iv1xi3c Kyle Isom's Google+ post] about better configuring Firefox.
+* …
+
+== Why ==
+Why?
+* Tim Bray posted about serving his site via https (https://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS)
+** "This blog isn’t terribly controversial. But if only the “controversial” stuff is private, then privacy is itself suspicious. Thus, privacy should be on by default."
+** "Because I can; it’s the one small part of the Internet that I do have complete control of." (https://willnorris.com/2012/12/all-https-all-the-time)
+* If you received a comment via an https website you can be more certain it's actually sent from the person
+* Performance gains from using SPDY (https://thethemefoundry.com/blog/why-we-dont-use-a-cdn-spdy-ssl/)
+
+== IndieMark Levels ==
+Proposed [[IndieMark]] Levels of recommended support for HTTPS on your own website, as part of a security component
+
+=== Level 1 security ===
+Level 1 - "don't do the wrong thing"
+* Why? Don't provide a bad user experience 
+* E.g. Avoid: 
+** https://waterpigs.co.uk/ <blockquote>Unable to connect<br><br>Firefox can't establish a connection to the server at waterpigs.co.uk.</blockquote>
+** ...
+
+=== Level 2 security ===
+Level 2 - support it for your admin pages with a self-signed cert
+* Why? Security, otherwise anyone can hack your CMS and post stuff as you. (e.g. firesheep) 
+* Example: https://dunlaps.net/darius/wp-login.php
+* How to make Wordpress use SSL: http://codex.wordpress.org/Administration_Over_SSL
+Note: If you actually get a real SSL cert and serve your admin interface from the same domain, you are actually in Level 3.
+
+=== Level 3 security ===
+Level 3 - provide your front-end over both https and http with a cert from a trusted CA
+* Why? 
+* Example: https://aaronparecki.com/ https://pauloppenheim.com/
+
+=== Level 4 security ===
+Level 4 - serve everything over https and send redirects from http -> https
+* Example: https://snarfed.org/ (via HSTS header) https://willnorris.com/ (via 301 redirect)
+
+=== Level 5 security ===
+Level 5 - use correct ciphers, etc (see https://www.ssllabs.com/ssltest/)
+* Example: https://willnorris.com/ (https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com)
+
+== Criticism ==
+* <span class="h-cite"><time class="dt-published">2014-04-09</time> <span class="p-author h-card">Sean Doig</span>: <cite class="p-name">[http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death Heartbleed should bleed X.509 to death]</cite>, <span class="p-url">http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death</span></span>
+
+== Sessions ==
+Sessions at IndieWebCamps about https:
+* 2014-03-07 [[2014/SF/https|IndieWebCampSF https]]
+
+== See Also ==
+* [[Apache]]
+* [[nginx]]

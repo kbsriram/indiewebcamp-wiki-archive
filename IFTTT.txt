@@ -1,0 +1,9 @@
+{{stub}}
+
+'''<dfn>[https://ifttt.com/ IFTTT]</dfn>''' is an abbreviation for IF This Then That, and is a [[spof]] for performing (semi?)-automated actions using [[feeds]].
+
+IndieWeb community members using IFTTT:
+* [[User:Adactio.com]] uses IFTTT to [[POSSE]] his blog [[posts]] from adactio.com to [[Facebook]].
+
+== See Also ==
+* [[silos]]

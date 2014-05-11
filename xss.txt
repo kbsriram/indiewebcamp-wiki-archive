@@ -1,0 +1,41 @@
+==XSS from webmentions==
+
+If you have implemented [[webmention]]s on your site, you should be aware of XSS attacks. OWASP has a [https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet good summary]  of preventative measures.
+
+I've put up a [https://checkmention.appspot.com little appengine service] that can send dubious webmentions to your site so you can test how the code handles them. The source is [https://github.com/kbsriram/checkmention on github] - please do add additional tests and patches.
+
+
+==test cases for handling webmention-related code==
+
+If you prefer, this can be hosted somewhere, and used as the "source" for a webmention. Update the in-reply-to tag as appropriate, and ensure that any markup that you extract into your site remains "safe".
+
+
+'''verify xss tags are removed'''
+
+ <nowiki>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Markup test</title>
+  </head>
+  <body class="h-entry">
+    <div class="p-in-reply-to h-cite">
+          <a class="u-url" rel="in-reply-to" href="https://change.me.to/your/target/note.html">this note</a>
+    </div>
+
+    <p class="p-name entry-title p-summary summary e-content entry-content">
+      This is hosted on paste.debian.net, without <a rel="tag me" href="javascript:alert('xss-c')">a real tag</a>.
+    </p>
+    <a class="note-published u-url"
+       rel="bookmark" href="javascript:alert('xss-b');">
+	  <time class="dt-published published dt-updated updated" datetime="2013-10-13T13:06:41+00:00">13:06 13<sup>th</sup>October 2013</time>
+	</a>
+
+    <p class="p-author author h-card vcard">
+      <img class="u-logo logo u-photo photo" alt="Not an image" src="javascript:alert('xss-a');" />
+	  <a class="p-name fn" href="https://google.com">Not Google</a> 
+	  <a class="u-url url" href="https://google.com">Not Google</a>
+	</p>
+  </body>
+</html>
+ </nowiki>

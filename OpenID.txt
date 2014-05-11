@@ -1,0 +1,65 @@
+{{stub}}
+
+'''<dfn>[https://en.wikipedia.org/wiki/OpenID OpenID]</dfn>''' is a method of using an HTTP URL as an identity for signing into websites. OpenID has been superseded by [[web-sign-in]] / [[indieauth]].
+
+== Setup ==
+To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the <code>&lt;head&gt;</code> element) of your website, replacing "aaronparecki.com" with your domain of course.
+
+<pre>
+<link rel="openid.delegate" href="http://aaronparecki.com/" />
+<link rel="openid.server" href="https://indieauth.com/openid" />
+</pre>
+__TOC__
+
+== FAQ ==
+=== Why does IndieAuth not consume OpenID? ===
+Why doesn't [[IndieAuth]] support OpenID as an authentication mechanism?
+
+IndieAuth.com used to support OpenID, but there were a lot of problems with getting really weird errors back from OpenID providers inconsistently, and there seemed to be some issue with the omniauth OpenID plugin.
+
+IndieAuth.com can now be used as an OpenID provider (and thus delegate), however.
+
+== Shutdowns ==
+AKA <span id="Abandonment">Abandonment</span>. The following sites used to provide or accept (consume) OpenID as an identifier to log-in but no longer do. Most recent first:
+* 2014-02-01 '''myOpenID''' OpenID provider shutting down, site already doesn’t load as of 2013-09-04. No public notification yet, email quoted [http://waterpigs.co.uk/notes/4RsEr7/ here] and [http://p.cweiske.de/54 here in full]
+** 2013-07-25 http://meta.stackoverflow.com/questions/190442/myopenid-no-longer-supported-add-alternative-login-method-to-your-account
+* 2014-01-07 '''[[Disqus]]''' OpenID consumer "no longer supports Open ID"[https://twitter.com/disqushelp/status/420628751357988864]
+* 2013-10-29 '''SourceForge.net''' is [https://sourceforge.net/p/forge/site-support/5733/ considering phasing out OpenID login]
+** Also removed the OpenID option from their default login (you have to know and use the "?openid" URL parameter to get it).[http://cweiske.de/tagebuch/sourceforge-openid.htm]
+* 2012-08-23 Disqus help said: "OpenID is no longer supported in Disqus 2012, although it's still available with Disqus Classic"[https://twitter.com/disqushelp/status/238710464748584960]
+* ...
+* 2010-09-27 '''[[PBWorks]]''' dropped OpenID consuming support
+** https://www.pingidentity.com/blogs/pingtalk/2010/09/Another-one-bites-the-OpenID-dust.html
+* ...
+
+== Consumption Complexity ==
+Contrast easy [[Twitter]]/[[PuSH]]/[[OAuth]] APIs + examples with huge/complex OpenID PHP libraries.
+* Over a dozen classes with dozens of methods total in http://openidenabled.com/php-openid/
+** That's the 1.x libs (nevermind 2.x) and samples just for consuming OpenIDs. 
+
+The barrier to entry for OpenID support is far too high for independent developers.
+
+- [http://tantek.com/2010/032/t4/huge-complex-openid-php-libraries Tantek, 2010-02-01]
+
+OpenID also has a lot of unnecessary bloat as a spec: [[wikipedia:i-name|i-names]] (XRI-based), [[wikipedia:Yadis|Yadis]] and [[wikipedia:Light-Weight Identity|LID]]. Ignoring all this cruft could create a much simpler OpenID that just uses URLs on the web, thus making it simpler to implement ("[http://tommorris.org/posts/170 ReallyOpenID]").
+
+== Consuming Sites ==
+List of notable websites that consume OpenID:
+* [http://opensourcebridge.org/wiki/Main_Page Open Source Bridge wiki]
+* [http://slashdot.org/ Slashdot]
+* [http://www.vox.com/signup Vox]
+* [http://cufp.org/ CUFP (Commercial Users of Functional Programming)]
+* [https://nostarch.com/user?destination=node%2F14 No Starch Press]
+* [https://hootsuite.com/login HootSuite]
+* [http://sourceforge.net/ Source Forge]
+* [http://stackoverflow.com/ Stack overflow]
+* [http://status.net/ Status.net]
+* [https://gitorious.org/login?method=openid Gitorious]
+* [http://openstreetmap.org/ OpenStreetMap]
+* ...
+
+== See Also ==
+* [[RelMeAuth]]
+* [[IndieAuth]]
+* [[How to set up OpenID on your own domain]]
+* [[Why_web_sign-in#Why_not_OpenID|Why not OpenID]]

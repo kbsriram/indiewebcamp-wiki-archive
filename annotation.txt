@@ -1,0 +1,39 @@
+{{stub}}
+
+An '''annotation''' is a comment added to arbitrary fragments of a post, in contrast to a  [[comment|traditional comment]] which refers to the entire post.
+
+= Silo Examples =
+
+== Medium ==
+
+[http://medium.com Medium] supports paragraph-level comments through a Twitter login. (Screenshots of the article [https://medium.com/cool-code-pal/b21bfc1f63c7] as on 2014-04-16) Posting a comment is triggered by clicking on a "+" sign on the top-right corner of a paragraph.
+
+[[File:medium-annotation-icons.png.jpg|500px|center|Buttons to post/read annotations]]
+
+Similarly, you can read the comments by clicking on the number on the top-right corner. On large screens the annotations appear in a sidebar on the right.
+
+[[File:medium-annotation-sidebar.png.jpg|500px|center|Annotations in sidebar]]
+
+For medium-sized screens the main text slides out of the screen to the left, making room for the sidebar.
+
+[[File:medium-annotation-sidebar-med.png.jpg|500px|center|Annotations in sidebar-medium screen]]
+
+For small screens the annotations are displayed in an overlay. Swiping to the left scrolls through the annotations.
+
+[[File:medium-annotation-overlay.png.jpg|500px|center|Annotations in overlay]]
+
+On mobile Firefox the overlay additionally includes highlighting on the original content, but breaks on swiping to read next comment.
+
+[[File:medium-annotation-sidebar-mobile.jpg|500px|center|Annotation overlay on mobile]]
+
+=== Criticism ===
+
+* small target links. The buttons for the annotations are too small; being hard to click/tap or accidental click/tap. See [http://indiewebcamp.com/irc/2014-04-17/line/1397720432]
+
+* Complete Javascript dependence: If there is no javascript (or it is broken) the reader sees no annotations at all. A good default would be show all the annotations as normal comments below the article.
+
+* loss of context in the sidebar UI. The main content moves out of the screen and the reader loses context of the main content.
+
+= See Also =
+
+* [[fragmention|Fragmention]]

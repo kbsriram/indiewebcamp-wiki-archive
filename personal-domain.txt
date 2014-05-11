@@ -1,0 +1,22 @@
+{{stub}}
+
+A '''<dfn>personal domain</dfn>''' is a domain name that you personally own, control, and use to represent yourself on the internet. Getting a personal domain is the first step towards getting on the indieweb, and is therefore a requirement for [[IndieMark]] Level 1.
+
+== How ==
+* '''Get your own personal domain name''' - Ask a friend or colleague for a [[domain name registrar]] that they use and like/trust/respect etc.
+* '''Domain Privacy''' - Note that most domain name registrars will make your personal information (name, mailing address, phone number and email address) publicly available via whois lookups. Some registrars offer domain privacy options, so that instead of your personal details the registrar's details will be in the whois directory. Only use domain privacy if you fully trust the provider of the service -- disputes about domain name administration or transfers may get tricky if you are not listed as the legal owner of the domain.
+
+== Why ==
+Why? All the reasons listed in [[why]]. This is the key first step to joining the indieweb.
+
+=== Examples of domains being used IRL for disambiguation ===
+
+<blockquote>Two employees at http://corp.oz.com/ were both called Sveinbjörn — one held sveinbjorn.is, the other sveinbjörn.org. A common company practise was to reply to “where’s Sveinbjörn?” with “dot is or dot org?”</blockquote> — [[User:Suda.co.uk|Brian Suda]]
+
+== See Also ==
+* [[Getting Started]]
+* [[domain name registrar]]
+* [[short-domains]]
+* [[DNS]]
+* [[hosting]]
+* [[IndieMark]]

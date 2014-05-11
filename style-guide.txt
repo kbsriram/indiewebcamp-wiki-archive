@@ -1,0 +1,12 @@
+{{stub}}
+
+Use this page to discuss writing style, disambiguation of jargon and phrases and to ask questions about terminology in efforts to remain more consistent with how others are writing about indieweb ideas and projects.
+
+== The Indie Web ==
+* "the Indie Web" as a noun
+* The "IndieWebCamp" event name is one word.
+* "indieweb" as an adjective.
+[http://indiewebcamp.com/irc/2013-09-01/line/1378064957 from IRC]
+
+== The Web vs the web ==
+...

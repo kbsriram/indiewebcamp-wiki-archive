@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>[http://soundcloud.com/ SoundCloud]</dfn>''' is a [[silo]] for hosting/sharing/commenting on sounds and music.
+
+It allows embedding of hosted content through the use of iframes.
+
+== IndieWeb uses ==
+acegiak.net embeds songs created by others that are on SoundCloud as a way of linking to the content without claiming ownership.
+
+[[User:WaterPigs.co.uk|Barnaby Walters]] posts audio to SoundCloud and embeds it on waterpigs.co.uk, e.g. http://waterpigs.co.uk/notes/4VZBsx/
+
+== See Also ==
+* [[silo]]
+* [[audio]]

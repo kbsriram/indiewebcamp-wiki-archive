@@ -1,0 +1,4 @@
+<includeonly> <p class="plainlinks" style="text-indent: 2em; font-style: italic;"> '''This article is a [[stub]].''' You can help the IndieWebCamp wiki by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it]. </p> </includeonly>
+<noinclude>
+{{stub/doc}}
+</noinclude>

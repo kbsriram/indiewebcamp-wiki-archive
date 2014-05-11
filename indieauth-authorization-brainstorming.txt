@@ -1,0 +1,15 @@
+{{indieauth-todo}}
+
+Currently, [[IndieAuth]] is only trying to identify who someone is. When you sign in to the wiki, the wiki is able to verify that the person signing in has control over the domain name.
+
+What's missing is a way to use IndieAuth like we currently use OAuth, for authorization of services.
+
+For example, I need a way to sign in to [https://github.com/aaronpk/PushupCounter-iOS this app] and allow it to create posts on my site.
+
+Similarly, [[User:kevinmarks.com|Kevin Marks]] could modify his "NoterLive" app so others could sign in with their domains and use it to create posts on their sites.
+
+Since this is essentially what OAuth was designed to do, what can we copy/use/learn from OAuth to accomplish this?
+
+
+=== See Also ===
+* [[distributed-indieauth|Distributed IndieAuth]]

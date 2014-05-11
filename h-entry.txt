@@ -1,0 +1,39 @@
+{{stub}}
+
+'''<dfn>[http://microformats.org/wiki/h-entry h-entry]</dfn>''' is the [[microformats2]] vocabulary for marking up blog [[posts]] on web sites. It can also be used to mark-up any other episodic or time series based content.
+
+== Using h-entry ==
+Use h-entry to markup:
+* [[posts]], including:
+** [[notes]]
+** [[articles]]
+** [[comments]]
+** ... and all other post types
+
+h-entries will typically be used in two places: alone on [[post]] permalink pages and in plural on [[feed]] pages. On post permalink pages they should be a top-level microformat (not nested under anything). On feed pages they may also be children of a [[h-feed]] if you wish to add feed-level data like feed name, author.
+
+=== How to consume h-entry ===
+* To find the author of a h-entry, use the [[authorship]] algorithm.
+* To consume a feed of h-entries, look for multiple top-level h-entries or h-entry children of a top-level h-feed.
+** If h-entries in a h-feed have no author property, look for an author on the h-feed. to do: add this to the authorship algorithm if it doesn’t already cover it --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 18:05, 24 October 2013 (PDT)
+* To consume a single h-entry, look for the first h-entry on the page.
+
+To do: add examples of common tasks required when parsing h-entries, based on real world experience.
+
+== Why ==
+Adding h-entry to your posts enables post information [[discovery]] on your permalinks, which is useful for a variety of things, including:
+* [[reply]] context syndication
+* syndication of your [[replies]] from your site as comments on the permalinks of the sites that you reply to.
+* subscribing to your posts directly from your home page (no separate feed needed).
+
+== What uses it ==
+Numerous [[projects]] and sites are parsing and consuming h-entry for various purposes, including:
+* [[reply-context]] - see in particular [[reply-context#IndieWeb_Examples|indieweb sites]] that show reply context information parsed from h-entry + [[h-card]]
+* [[comment-presentation]] - e.g. see [[comment-presentation#Current_Indiewebcamp_Practices|indieweb sites]] that show comments on posts syndicated in via parsing h-entry from others' reply posts.
+In short, [[h-entry]] is <em>the</em> key building block for the indieweb. It represents a unit of content, to be syndicated, for a variety of use-cases.
+
+== See Also ==
+* http://microformats.org/wiki/h-entry
+* [[microformats2]]
+* [[in-reply-to]]
+* [[datetime]]

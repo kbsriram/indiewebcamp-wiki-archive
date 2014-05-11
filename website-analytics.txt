@@ -1,0 +1,16 @@
+{{stub}}
+
+== Google Analytics ==
+
+Google Analytics is a hosted service that provides information on the visitors of a website.
+
+People using it on their own site:
+* [[User:Aaronparecki.com|aaronparecki.com]]
+* [[User:Caseorganic.com|caseorganic.com]]
+
+== Piwik ==
+
+Piwik is an open source project that you install on your own service that can collect information about visitors to your website.
+
+People using it on their own site:
+* [[User:Werd.io|werd.io]]

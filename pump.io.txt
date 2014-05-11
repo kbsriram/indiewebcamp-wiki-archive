@@ -1,0 +1,20 @@
+{{stub}}
+
+'''<dfn>[http://pump.io/ pump.io]</dfn>''' is an open source [[project]] for "a stream server that does most of what people really want from a social network."
+
+* github: https://github.com/e14n/pump.io
+
+See also, Evan explains pump.io on IRC: http://indiewebcamp.com/irc/2013-06-10#t1370892851
+
+Evan also explains pump.io and federated social web on the [http://notapodcast.co.uk/post/57337280889/9-the-prince-of-aberystwyth TINAP podcast].
+
+Evan has indicated he is interested in receiving contributions to pump.io that will implement indieweb standards:
+* [[microformats]]
+* [[webmention]], etc.
+
+== Indieweb Compatibility ==
+[https://e14n.com/evan Evan P] has [http://bret.io/2013/08/08/t5/ expressed interest] in pump.io communicating via indieweb style [[comment | comments]]. 
+* [https://github.com/e14n/pump.io/pull/871 Add Microformats 2 PR]
+
+== See Also ==
+* [[projects]]

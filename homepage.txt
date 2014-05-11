@@ -1,0 +1,51 @@
+{{stub}}
+
+Your homepage represents you on the web. Typically it’s at the root of your domain (e.g. example.com).
+
+== IndieWeb Examples ==
+Some interesting indieweb home page examples of contact information (e.g. [[hCard]]), maps for location, live IM status etc. - probably worth expanding and document each of these:
+
+* http://scottbullard.com/ - phone/email links with more: http://scottbullard.com/more.html
+* http://www.jaredhanson.net/ - live IM status on Jared's hCard
+* http://npdoty.name/ - map as background centered on his current location
+
+== Things currently on homepages ==
+* A '''profile''', marked up with [[h-card]].
+** Photo, name, URL, approximate location, short bio, categories/tags
+** [[rel-me]] links to your other identities on the web
+* contact links (aim: mailto: tel: etc. see [http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience] for some UI brainstorming on this)
+* A composite [[feed]] of all your [[post]]s
+* Your local time
+* Last seen (last checkin/location post)
+* upcoming events
+* projects
+* [[disclosure]] - disclosures of various types, e.g. cookies or analytics tracking
+
+== Homepage Brainstorming ==
+Things which could go on homepages which aren’t currently implemented.
+
+* [[payment]] links/buttons
+* local weather/daylight (extra context)
+* people I’ve mentioned recently
+* tags I’ve used recently
+* actions like subscribe, contact, add to address book
+* latest comments
+
+I did some homepage sketches/brainstorming [https://github.com/Taproot/design/blob/master/homepage-brainstorming.jpg here] --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:32, 18 June 2013 (PDT)
+
+I might be adding links to /me (my profile page) and /about (about the site, license info, powered by, hosted at, etc.) to my homepage. --[[User:Sandeep.io|Sandeep Shetty]]
+
+[[Webmention]]s sent directly to home pages could serve a number of use-cases:
+* [[invitation]] to an indie [[event]]
+* notification of a new private [[message]] received
+
+== Articles ==
+Articles and posts about homepage design and features:
+
+* <span class="h-cite"><time class="dt-published">2013-12-04</time> <span class="p-author h-card">[http://tantek.com Tantek Çelik]</span>: <cite class="p-name">[http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience  Toward A People Focused Mobile Communication Experience]</cite></span>
+* ...
+
+== See Also ==
+* [[icon]]
+* [[payment]]
+* [[webmention]]

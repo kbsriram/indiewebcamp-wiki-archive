@@ -1,0 +1,1 @@
+<span style="float:left;padding:.2em;"><img src="{{{1}}}" width="57"/></span>

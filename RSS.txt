@@ -1,0 +1,30 @@
+{{stub}}
+
+'''<dfn>RSS</dfn>''' is a legacy XML format for syndicating typically time-stamped content from web sites. <abbr>RSS</abbr> is an acronym that that stands for: Rich Site Summary (originally RDF Site Summary, often dubbed Really Simple Syndication)[http://en.wikipedia.org/wiki/RSS]. [[Atom]] is an alternative XML format for [[feeds]].
+
+== Problems ==
+There are many known problems consuming RSS feeds. See [[feed#Criticism]] for an extensive listing.
+
+== Alternative ==
+Instead of publishing/consuming RSS:
+* Publish [[h-entry]] in your HTML. See http://indiewebcamp.com/ for more
+* Consume [[h-entry]], e.g. with a [[microformats2]] parser
+
+== Shutdowns ==
+See: [[feed#Shutdowns|feed shutdowns]].
+
+== History ==
+See the [http://en.wikipedia.org/wiki/RSS Wikipedia article on RSS] for a more thorough history.
+
+This section is a stub, please add to it to expand it to include notable events in the development of RSS.
+* ...
+* 2000-12-06 [http://web.resource.org/rss/1.0/spec RSS 1.0] was [http://web.resource.org/rss/1.0/ published].
+* ...
+
+== See Also ==
+* [[h-entry]]
+* [[microformats2]]
+* http://microformats.org/wiki/RSS
+* [[Atom]]
+* [[feed]]
+* [[reader]]

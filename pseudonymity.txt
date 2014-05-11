@@ -1,0 +1,3 @@
+{{stub}}
+
+'''<dfn>Pseudonymity</dfn>''' is the concept of having an anonymous identity that is the same across multiple sessions or websites.

@@ -1,0 +1,85 @@
+{{stub}}
+
+'''<dfn>original post discovery</dfn>''' is a [[discovery]] algorithm for starting with a [[POSSE]] copy of a [[post]] and finding the original post.
+
+== Use Cases ==
+=== Reply to original ===
+First, as part of [[comment#Make_a_comment|How to make a comment]], it would be more indieweb-friendly if post authoring implementations:
+* automatically detected when a user is trying to reply to a POSSE'd copy (e.g. a tweet), 
+* auto-discovered the original post, and 
+* linked to the original post instead
+
+In question form:
+* How do I find an original post of a POSSE'd copy that I'm replying to?
+
+=== Thread original posts and POSSE copies ===
+Second, when POSSEing reply posts, it's useful to automatically:
+* markup your reply post with [[in-reply-to]] markup to the original post
+* when POSSEing your reply post to [[Twitter]], set the in-reply-to-status-id to the status-id of the POSSE'd tweet copy of the original post.
+* for more details see: [[comment#POSSE_a_comment|How to POSSE a comment]]
+
+== Algorithm ==
+How to discover an '''original post URL''' from a copy of that post at a '''POSSE permalink'''
+
+# retrieve the '''POSSE permalink'''
+# in the h-entry that represents the POSSE copy, look for a link with "u-url" and "u-uid" - use that href as the '''original post URL'''.
+# otherwise look for a rel=canonical link in the POSSE'd copy that links back to an original - use that as the '''original post URL'''.
+# otherwise look for a link with link text of "See Original" in the POSSE'd copy page that links back to an original - use that as the '''original post URL'''.
+# otherwise if a parenthetical permashortlink citation is the last thing in the POSSE'd copy content, convert that to a URL, use that as the '''candidate URL'''
+# otherwise if a URL is the last thing in the POSSE'd copy content, use that as the '''candidate URL'''
+# retrieve the '''candidate URL''' and parse it for hyperlinks
+# iterate across hyperlinks with rel=syndication or u-syndication URLs ('''syndication URLs''')
+## if a '''syndication URL''' matches the '''POSSE permalink''', then the '''candidate URL''' is the '''original post URL'''.
+## else if a '''syndication URL''' has the same domain as the '''POSSE permalink'''
+### retrieve the '''syndication URL'''
+### if its redirect destination matches the '''POSSE permalink''', then the '''candidate URL''' is the '''original post URL'''. (implementations may check such URL's redirect destinations one at a time and should stop when they find a match in order to minimize HTTP requests)
+## end if
+# end iteration
+
+A parenthetical permashortlink citation looks something like:
+* (ttk.me t4Pc2) 
+The specific format of a parenthetical permashortlink citation is:
+# literal '('
+# domain name, likely [[short domain name]] (to avoid having Twitter auto-link it, as Twitter auto-links .com .net .org TLDs.
+# literal space ' '
+# id consisting of a-zA-Z0-9
+# literal ')'
+
+Convert a parenthetical permashortlink citation to URL by:
+* start with string "http://"
+* append the domain name from (2) above to the string
+* append a literal slash '/' to the string
+* append the id from (4) above to the string
+* the resulting string is a permashorturl
+
+== Implementations ==
+* [http://waterpigs.co.uk/services/original-post Original Page Discovery testing tool]
+** some open source: https://gist.github.com/barnabywalters/6380386
+** The /services/original-post?url= endpoint has CORS turned on, and can be used by other sites
+* The '''[http://waterpigs.co.uk/extensions/weave Weave]''' browser extension partially implements OPD in javascript
+** Code on [https://github.com/barnabywalters/weave/blob/master/src/common/content.js github], OPD-specific parts will be packaged up separately when they’re more mature
+* [[p3k]] implements original post discovery.
+** See demonstration video: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery
+* [[Bridgy]] implements original post discovery on silo posts. [https://github.com/snarfed/activitystreams-unofficial/blob/e94d301a97e3a138e661468ff0ddda4ae75260e4/source.py#L173 Here's the code.] It has a couple variations:
+** It returns multiple candidate links instead of one.
+** It doesn't bother looking for microformats2 (etc) markup because the silos don't let you input it.
+
+== Algorithm Notes ==
+Use-cases that were used to add steps to the algorithm
+* '''"syndication URL has the same domain as the POSSE permalink"''' and substeps. From the time of posting of the original post (and its POSSE permalink) to when this algorithm is run on the POSSE permalink, it's possible that the POSSE destination has changed its permalinks in some way. The following two have been seen in practice and thus are handled by this step in the algorithm
+*# '''http/https differences.''' E.g. [[Twitter]] permalinks used to be "http:" but are now (as of 2012+?) canonically "https:". Any implementation that saved POSSE tweet permalinks before that change would likely publish/link to "http:" URLs which require a retrieval of their redirect destination for comparison.
+*# '''change of path.''' [[Silos]] have in the past changed implementation specifics about how their permalinks work, leaving redirects behind for the original paths. Silos may also allow users to alter part of the permalink of a post, e.g. editing the slug, after publishing, and still support the old URL either by tracking all past permalinks for a post, or perhaps by only requiring non-post-slug portions of the permalink for unique retrieval.
+
+== Brainstorming ==
+
+Some prefer not to include permalinks/citations in POSSEd copies for aesthetic (Twitter's length limit) or technical (Instagram's lack of posting API) reasons. Is it possible to do original-post-discovery on a syndicated copy that contains no permalink or citation? [[posse-post-discovery]].
+
+== See Also ==
+* Live demo: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery
+* [[discovery]]
+* [[posts]]
+* [[comments]]
+* [[POSSE]]
+* [[Bridgy]]
+* [[permashortlink]]
+* [[permashortcitation]]

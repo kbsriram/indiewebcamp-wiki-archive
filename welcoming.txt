@@ -1,0 +1,28 @@
+{{stub}}
+
+'''<dfn>Welcoming</dfn>''' is how we as a community welcome new members to our community.
+
+Most often people join on [[IRC]] (it's prominently suggested here).
+
+== indiewebcamp-vis ==
+When someone joins the IRC channel as "indiewebcamp-vis" - it means they followed the web client link on the [[IRC]] wiki page. They might need some help engaging in the channel. Start with:
+
+* '''Welcome indiewebcamp-vis! Go ahead and use the /nick command to change your name. e.g. /nick yournamehere'''
+
+And then when they've done so, e.g. identified themselves as "Alice", see the next section:
+
+== new person ==
+When a new person, say, "Alice", joins #indiewebcamp, here are some things you can say and ask to make them feel welcome and help get them on board and taking steps towards being on the indieweb.
+
+* '''Welcome Alice!'''
+* '''Alice - go ahead and add yourself to http://indiewebcamp.com/irc-people'''
+** This request will usually be enough to indirectly get the new person to wonder what their personal domain is (or should be), and if they don't already have one, they'll hopefully start asking how to set one up.
+* '''What's the next thing you want to do with or add to your personal site?'''
+** The point of this question is start getting the new person thinking in terms of:
+*** scratching your own itches
+*** [[selfdogfooding]]
+
+== See Also ==
+* [[IRC]]
+* [[Getting Started]]
+* [[selfdogfooding]]

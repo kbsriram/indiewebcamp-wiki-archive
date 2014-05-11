@@ -1,0 +1,86 @@
+{{stub}}
+
+'''<dfn>like</dfn>''' is a popular [[webaction]] button and in some cases [[post]] type on various [[silos]] such as [[Facebook]] and [[Instagram]]. It is similar to but different from a [[favorite]].
+
+== How ==
+To post a "like", the post's [[h-entry]] MUST hyperlink to the permalink of the thing that is being liked, with <code>class="u-like-of"</code>. E.g.
+<pre><nowiki>
+<span class="h-entry"> ... 
+ <a class="u-like-of" href="http://someothersite.example.com/permalink47">...</a>
+</span>
+</nowiki></pre>
+Demonstrates an h-entry for a "like" of <nowiki>http://someothersite.example.com/permalink47</nowiki>.
+
+The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>. 
+
+=== Previously ===
+Previously the class "u-like" was used, but "u-like-of" is better.
+ 
+Advantages of u-like-of over u-like for this purpose:
+* '''Reads better''' <blockquote>it reads better, more consistently with in-reply-to, e.g. “this post is in-reply-to that post”, “this post is a like-of that post” — Barnaby Walters</blockquote><blockquote>KartikPrabhu supports like-of for ease of reading specially easy for beginners</blockquote>
+* '''Frees up u-like for linking to permalinks of likes'''. This frees up "u-like" (and "p-like") to actually indicate that the URL being linked is a like itself (e.g. similar to "p-comment").
+
+== IndieWeb Examples ==
+Examples in the wild of indieweb creators publishing reposts. Add yourself!
+
+=== Sandeep ===
+[[User:Sandeep.io|Sandeep Shetty]] has started posting "like" [[posts]] on his own site with a different presentation than other post types, e.g.:
+
+* http://www.sandeep.io/40
+** is a "like" of http://aaronparecki.com/notes/2013/06/09/1/jawboneup-fuelband-qs
+
+In some ways this resembles a [[quote]] post (e.g. like on [[Tumblr]]) but the presentation is different enough (usually quote posts are either *only* the quote, or if the quote is entirety, it might just be a [[repost]]).
+
+[[File:sandeep.io-like-example.png]]
+
+=== Ben Werdmuller ===
+Ben Werdmuller as of IndieWebCamp [[2013]] implemented likes on werd.io, but called them favorites (because he preferred the term, though they behave like likes).
+
+Example:
+* http://werd.io/view/51d1fd3dbed7de817a526da2
+** Is a like of: http://tantek.com/2013/182/t2/publish-elsewhere-syndicate-silo-pesetas-indieweb
+
+=== Brid.gy ===
+As of the end of 2013, [[Bridgy]] now sends webmentions for Facebook and Twitter likes, Twitter favorites, and Google+ +1s. It uses <code>class="u-like u-like-of"</code> to support both the original property and the counterproposal above.
+
+=== Ryan Barrett ===
+[[User:Snarfed.org|Ryan Barrett]] posts likes on [http://snarfed.org/ snarfed.org] since 2014-02-04, e.g.
+* http://snarfed.org/2014-02-04_re-today-is-the-last-day-of-luckily-can-be-used-as-a-replacement
+** is a like of: http://aaronparecki.com/notes/2014/02/01/1/
+
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] posts likes on [http://waterpigs.co.uk/ waterpigs.co.uk] since ????-??-??, e.g. 
+* ???? - permalink to Barnaby's first indie like
+** is a like of: ???
+
+=== Kartik Prabhu ===
+Kartik Prabhu posts likes on ????.com since ????-??-??, e.g. 
+* ???? - permalink to Kartik's first indie like
+** is a like of: ???
+
+=== Acegiak ===
+[[User:Acegiak.net Acegiak]] posts likes on [http://acegiak.net/ acegiak.net]
+Acegiak's posts may have multiple verbs for a single piece of content.
+* http://acegiak.net/2014/03/28/kyle-mahan-all-how-i-hate-that-java-util-map-getobject-is-not-generified-probably-the-biggest-source-of-my-java-api-related-bugs-2/
+** is a like of http://kylewm.com/note/2014/03/28/1
+* http://acegiak.net/2014/03/27/hexington-stand-up-comic-gifskumail-nanjiani/
+** is a like, repost and comment of http://hexington.tumblr.com/post/80872320480/stand-up-comic-gifs-kumail-nanjiani
+
+== Discussion ==
+Facebook seems to differentiate between likes of posts and likes of pages. This seems like an important semantic difference. Is the indieweb equivalent of liking a page a [[favourite]]? - [[user:acegiak.net]]
+
+== Related ==
+Possibly related posts and videos to "likes" and "liking"
+* http://www.pbs.org/wgbh/pages/frontline/generation-like/
+
+== See Also ==
+* [[favorite]]
+* [[posts]]
+* [[silos]]
+* [[Facebook]]
+* [[Instagram]]
+* [[note]]
+* [[quote]]
+* [[repost]]
+* [[webactions]]
+* [[responses]] - other specialized types of replies

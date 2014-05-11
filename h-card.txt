@@ -1,0 +1,24 @@
+{{stub}}
+
+'''<dfn>[http://microformats.org/wiki/h-card h-card]</dfn>''' is the [[microformats2]] vocabulary for marking up people, organizations, and venues on web sites.
+
+Each indie website should have an h-card on the homepage, preferably containing at least '''name''', '''url''' and '''photo''' (or '''logo''') properties — just these three cover most h-card usage on the indieweb, e.g. putting a name and face to comments or URLs.
+
+These requirements can be satisfied by two elements with one classname, for example:
+
+<pre>
+<a class="h-card" href="http://waterpigs.co.uk"><img class="/photo.png" alt="" /> Barnaby Walters</a>
+</pre>
+
+Having a minimal h-card on your index page allows [[Gravatar]]-like lookups based on [[Why_web_sign-in#Why_not_emaildomain instead of email address]].
+
+== Validators ==
+
+You can check your homepage h-card for completeness and common mistakes using these validators:
+* [http://indiewebify.me/validate-h-card/ indiewebify.me h-card]
+* [http://pin13.net/mf2/ pin13.net mf2 parser] (raw parsed JSON)
+
+== See Also ==
+
+* [[microformats]]
+* [[h-entry]]

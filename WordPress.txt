@@ -1,0 +1,211 @@
+[[File:wordpress_logo.png|thumb|right]]
+'''<dfn>WordPress</dfn>''' may refer to
+* '''WordPress open source software''', available at http://wordpress.org
+* '''[http://wordpress.com WordPress.com]''' blog hosting service (silo)
+== WordPress software ==
+One of many IndieWeb [[Projects]], [http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog.
+
+If you're interested in jumping into the IndieWeb, and you've  chosen WordPress as your tool of choice, great! Here are instructions that follow the step by step, ground up approach of [[IndieMark]].
+
+As you complete each step, try plugging your site into [http://indiewebify.me/ indiewebify.me]. It will give you instant feedback, confirming that it's working or helping you fix it if not.
+
+=== Getting started ===
+We'll assume you already have your own [[personal-domain]]. After that, you'll need [[web-hosting]]. There are plenty of good options. [http://wpengine.com/ WPEngine] is one of the best for both beginners and advanced hackers. [[#WordPress.com hosting service]] is solid and easy to use, but limits you to pre-approved plugins and themes.
+
+<div style="clear:right">__TOC__</div>
+=== [[IndieAuth]] ===
+Once you have WordPress up and running, you'll want to set up [[IndieAuth]]. The [http://wordpress.org/plugins/indieauth-links/ IndieAuth-Links] plugin makes this easy, but you can also use [http://en.support.wordpress.com/add-social-media-buttons-to-your-sidebar-or-footer/ Social Media Buttons] or a [http://codex.wordpress.org/WordPress_Widgets#Using_Text_Widgets Text Widget] to add the needed [[rel-me]] link(s). Detail can be found at [https://indieauth.com/setup indieauth.com/setup] Once you've done that, head over to [https://indieauth.com/ indieauth.com] and sign in!
+
+=== [[microformats]] ===
+Next, you'll want to add [[microformats]] support. Try out the
+[http://wordpress.org/themes/sempress SemPress theme], it's the best way to do
+it. If you don't want to give up your current theme, try the
+[https://github.com/pfefferle/wordpress-uf2 wordpress-uf2 plugin] (requires FTP).
+
+=== [[POSSE]] ===
+Along with [[personal-domain]]s, [[POSSE]] is one of the cornerstones of the IndieWeb. In short, instead of posting to social network [[silos]], you post to your own site and then copy to the silos.
+
+You can [[POSSE]] manually, but most people automate it. WordPress has many plugins that do this. A few of the most popular are:
+* [http://jetpack.me/support/publicize/ Jetpack Publicize]
+* [http://wordpress.org/plugins/social/ Social] (Twitter/Facebook)
+* [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ NextScripts SNAP]
+* [http://wordpress.org/plugins/social/ Mailchimp Social]
+
+Other plugins that can be used to POSSE:
+* [https://wordpress.org/plugins/tumblr-crosspostr/ Tumblr Crosspostr] (Tumblr only)
+
+If you POSSE, it's good practice to include [[rel-syndication]] links on your WordPress posts. Try the [http://wordpress.org/plugins/relsyndication/ rel-syndication plugin] for that(Currently only supports the Social plugin).
+
+If you also want to go the other direction and pull your social network posts and data back to WordPress, there are [[PESOS]] plugins too. To start, try [http://www.enthropia.com/labs/wp-lifestream/ Lifestream].
+
+=== [[backfeed]] ===
+Once you're POSSEing, you may want to pull comments and likes on the social network posts back to your site. This is called [[backfeed]]. Many of the POSSE plugins above can do this; see [[backfeed#WordPress_Plugins]] for details.
+
+Another option is [[Bridgy]], a service that automatically sends [[webmention]]s for activity on your POSSEd posts inside [[silos]] (before starting to use Bridgy, make sure you first install the webmention and semantic-linkbacks plugins described below).
+
+Which brings us to...
+
+=== [[webmention]] ===
+[[File:semantic-linkbacks.png|100px|right]]
+[[WebMention]]s are also part of the core IndieWeb [[building-blocks]]. They let you send and receive replies, likes, etc. directly from your site.
+
+Try the [http://wordpress.org/plugins/webmention webmention] plugin ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available] for webmention plugin) and [https://github.com/acegiak/Semantic-Linkbacks semantic-linkbacks] plugin (requires FTP), which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]] and classic [[mentions]].
+
+For the wordpress-webmention to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
+and "Allow people to post comments on new articles" checkboxes.
+
+Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive WebMentions directly form the [http://adactio.com/journal/6469/ comments section] of your blog.
+
+=== More building blocks ===
+If you've made it this far, congrats! You're a fully functioning member of the IndieWeb! Here are a few more plugins you might want to try. Many require FTP or other more technical setup.
+
+* [http://wordpress.org/plugins/hum/ URL Shortener: WP-Hum]
+* [https://github.com/pfefferle/wordpress-webactions WebActions]
+* [https://gist.github.com/pfefferle/1724438 blavatars (icons)]
+* [http://wordpress.org/plugins/indieauth/ IndieAuth]
+
+=== Optional plugins ===
+* [http://wordpress.org/plugins/browserid/ BrowserID/Persona]
+* [http://wordpress.org/plugins/pubsubhubbub/ PubSubHubbub]
+* [https://github.com/pfefferle/wordpress-hashtags Hashtags]
+* [https://github.com/jihaisse/custom-feed-url Custom feed URL]
+
+=== Past or old tech plugins ===
+* [http://wordpress.org/plugins/openid/ OpenID]
+* [https://github.com/pfefferle/ostatus-for-wordpress OStatus]
+* [https://github.com/pfefferle/salmon Salmon]
+
+=== Themes ===
+Some themes that support [[microformats]] or other semantics.
+
+* [https://github.com/pfefferle/SemPress SemPress] supports microformats, microformats2 and schema.org (theme)
+* [http://p2theme.com/ P2] is a microblog theme for WordPress that might be adaptable for indiewebsters.
+
+Rather than a theme [https://github.com/pfefferle/wordpress-uf2 uf2] is a plugin that attempts to add microformats2 data to an existing theme though as the author admits it is very limited and recommends using a theme that supports microformats natively.
+
+=== People using WordPress ===
+People using WordPress on their primary or other sites.
+
+IndieWebCamp participants using it on their primary site:
+* [[User:Ozten.com|Austin King]] on [http://ozten.com/psto/ ozten.com/psto/]
+* [[User:Crystalbeasley|Crystal Beasley]] on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
+* [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org]
+* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com]
+* [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
+* [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
+* [[User:david.shanske.com|David Shanske]] on [http://david.shanske.com david.shanske.com]
+
+[[File:aaronpk-bookmarks.png|300px|right]]
+IndieWebCamp participants using it one of their other sites
+* [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
+* [[User:Erin_Jo_Richey|Erin Jo Richey]] on [http://flatfrogblog.com/ Flat Frog Blog]
+* [[User:Christopheducamp.com|Christophe Ducamp]] on [http://christopheducamp.com/b christopheducamp.com/b]
+
+IndieWebCamp community members using it on their primary site:
+* [[User:Acegiak.net|Acegiak]] on [http://Acegiak.net Acegiak.net]
+
+Other independents using it on their primary site:
+* [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
+* [http://mediajunkie.com/ Christian Crumlish] 
+* [http://singpolyma.net Stephen Paul Weber]
+* [http://upon2020.com/ Johannes Ernst]
+* ...
+
+=== Working On ===
+There are several projects to improve both the level and ease of supporting [[IndieMark|IndieWeb formats & protocols]] in WordPress.
+
+Themes:
+* A barebones theme that has [[microformats2]] - point the designers/developers that want to build a theme to use that.
+** gRegor is considering doing this with the HTML5blank.com theme.
+* Some common defaults that non-technical users could try out, like Twenty Fourteen with [[microformats2]] support added
+** GWG is working on a full blog-style theme that could be used to start a site today, which you can see on his site. It is based on a fork of _s(Underscores) for Indieweb, which is the stripped down starter theme on which the default Wordpress theme, TwentyFourteen, is based. That fork without any styling is also going to be available as well as soon as some improvements are backported.
+Plugins:
+* GWG also started on a plugin to add custom post types to Wordpress and is looking for help in planning the post types that would result in the least alteration of the Wordpress system. The plugin is tentatively named Indieweb Custom Post Types. It may not come to fruition because of the author's reluctance to so deeply change Wordpress, which defeats the purpose of a general solution.
+** The purpose of the custom post types is to show custom post editors to minimize the need for manual markup.
+** The standard Post type remains, and just has the labels renamed to Articles and support for Post Formats is removed.
+** A new Notes post format is added, which has tags but no categories.
+** Responses
+*** Tried a Responses post format, but there would be too many cases
+*** Would need a Like Post Format that had no content box
+*** Would need a Reply Format which would be similar to the like format except with a content box
+*** Saving thought on RSVP/Events for later.
+
+=== Problems ===
+Problems with using WordPress software  from an IndieWeb perspective.
+
+==== Maintenance Vulnerability ====
+Independents (quite tech smart and capable) who had their WordPress blog(s) hacked due to being unable to keep up with security updates / maintenance (too much of a hassle/chore/tax on their time).
+* Clay Shirky:
+** https://plus.google.com/u/0/+AdeOshineye/posts/6zUWbNKbWrM
+* Dan Brickley
+** Dan Brickley mentioned WordPress as one of a few open source CMS installs of which at least one was [https://plus.google.com/u/0/105037104815911535953/posts/BEVAUoWCaP4 hacked and then his home page overwritten with spam link spam], forcing him to throw them all away and go with a simple static home page. He specifically mentions "must've left an update too late".
+* [[User:Michaelw.net|Michael.net]]:
+** WordPress seems to have a non trivial security hole every 6 months and I never have the time to tend to my WP install. The last major problem resulted in my blog being infested with malware and my site blacklisted by google.  WordPress is like Windows.  It's probably not really less secure than the alternatives but its popularity is such that it makes an attractive target.  Most WordPress blogs are configured to ping an [http://codex.wordpress.org/Update_Services update service] so hackers have no trouble finding targets.  Any IndieWeb solution needs to think about automatic updates and defense in depth security. -- [[User:Michaelw.net|Michael.net]]
+* ...
+
+=== Switching away from ===
+There has been a trend of folks switching away from WordPress for various reasons (e.g. problems noted above).  They seem to switch to one of three options, one indieweb, and two silo.
+
+* static site generator or some other IndieWeb [[project]]
+* silo: WordPress.com hosting service (see below)
+* other silo: e.g. [[Tumblr]] (others?)
+
+==== Switched to another project ====
+(stub)
+
+There are many folks with personal sites that have kept their personal site and webhost, but switched away from WordPress to another solution, e.g. typically a static site generator:
+* 2013-11-10 Julie Pagano to [[Middleman]] (http://middlemanapp.com/) : http://juliepagano.com/blog/2013/11/10/site-redesign-using-middleman/
+Many others have switched to Jekyll or are in the process of doing so, e.g.:
+* Crystal Beasley - per recent (2013-11) conversation on IRC
+* others beforehand ...
+
+And a few have switched to their own IndieWeb project, e.g.
+* [[User:Aaronparecki.com|Aaron Parecki]] switched from WordPress for his blog to using [[p3k]] to post [[articles]] on Aaronparecki.com
+
+==== Switched to WordPress service ====
+(stub)
+
+I know there's folks that have done this but have trouble recalling offhand who in particular.
+==== Switched to Tumblr ====
+(stub)
+
+Folks that were on WordPress that have moved to Tumblr
+* Micki Krimmel
+* ...
+
+== WordPress.com hosting service ==
+WordPress.com is a blog hosting service with impressive importing and export features. See for details:
+* http://techcrunch.com/2013/03/26/wordpress-com-has-imported-15m-posts-in-the-last-30-days-remains-a-top-safe-haven-for-nomad-bloggers/
+
+
+=== Hosted themes ===
+WordPress.com provides themes to change the HTML/CSS/JS and general appearance of a user's site. While users can pay for a feature to write custom CSS, they can't change their theme markup. Which means amongst other things, a user cannot specify some markup in a post to show on a permanlink page and not in the post when it's a part of a feed. For example,
+
+* https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping
+* "Originally published at: http://sbb.me/b48f1"
+
+If you could detect "in the feed vs permalink page", you could use <code>rel="canonical"</code> on the attribution link '''from''' the syndicated copy on wordpress.com back '''to''' the original on iamshane.com. But because rel-canonical is page scoped, you shouldn't use it on a link in a post when that post is a part of the feed. To work around this, you can use <code>class="u-url u-uid"</code> on the attribution link.
+
+=== POSSE ===
+It is possible to manually [[POSSE]] [[articles]] to Wordpress.com.
+==== IndieWeb Examples ====
+===== Shane Becker =====
+Shane Becker is manually POSSEing his articles to Wordpress.com.
+* http://iamshane.com/articles/2010/11/7/1/no-more-sharecropping
+** POSSE copy: https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping
+
+=== cURL Problem ===
+On 2014-05-06 it was [http://indiewebcamp.com/irc/2014-05-06/line/1399412640 reported] that http://indiewebify.me returned an empty result when attempting to check gabrielscheer.com. That domain is hosted on wordpress.com and it appears that wordpress.com is blocking some cURL requests based on the User-Agent. At a minimum, it appears that wordpress.com is blocking cURL requests with the Guzzle User-Agent.
+
+This issue was previously reported on Github on 2013-05-19 [https://github.com/guzzle/guzzle/issues/325]
+
+==== Examples ====
+
+* curl -i -H 'User-agent: Guzzle' http://gabrielscheer.com/ -- fails
+* curl -i -H 'User-agent: indiewebify.me' http://gabrielscheer.com/ -- works
+* curl -i -H 'User-agent: curl' http://gabrielscheer.com/ -- works
+
+== See Also ==
+* [[projects]]
+* [[silos]]
+* [[blogs]]

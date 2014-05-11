@@ -1,0 +1,27 @@
+{{stub}}
+
+'''<dfn>microsyntax</dfn>''' refers to short text conventions for conveying specific semantic meaning, such as an "@" prefix indicating a (user)name, or "#" prefix indicating a [[hashtag]] (both conventions popularized by [[Twitter]]).
+
+== Research ==
+'''Please see previous work at microformats.org:'''
+* http://microformats.org/wiki/picoformats
+
+New research:
+* (Y) - Used for the thumbs up emoticon on Skype, Facebook 
+* <3 - ASCII heart, used as substitute for “love”
+
+== Brainstorming ==
+A place to brainstorm indieweb microsyntax especially for plaintext [[notes]]
+
+* <nowiki>@example.com/some-post => <a href="http://example.com/some-post" class="u-in-reply-to"></nowiki>
+** We need pfefferle and acegiak to clarify their [http://indiewebcamp.com/irc/2013-06-21#t1371819076 use case]. Just adding links to the users domain in your post will send a webmention to the domain, so IMO it is unnecessary to prefix user domains with @ so I'm assuming they meant post urls. &mdash;[[User:Sandeep.io|Sandeep Shetty]]
+*** The idea was to generate an easy mardownish way to generate semantic links, not realy meant to display to any enduser - [[User:Notizblog.org|Matthias Pfefferle]]
+** No one does this currently (any real world example?) - feels a bit forced. People already think of "@" as meaning "hey this person". - [[User:Tantek.com|Tantek]] 15:54, 21 June 2013 (PDT)
+** -1 agreed, this example is forced and doesn’t reflect real world usage. @mentions succeeded because they were a paved cowpath, it defeats the object to try to repurpose them --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 16:07, 21 June 2013 (PDT)
+** "we wanted a way to mark which one was the reply-to without needing to edit the html because we want the plugins to be accessible to non-technical wordpress users -  plus, adding the html manually would be tiresome, so we're trying to work out a way to make it quick and easy" -[http://indiewebcamp.com/irc/2013-06-22#t1371902255 acegiak]
+
+* <nowiki><3 example.com =><a href="http://example.com" class="u-like"></nowiki>
+
+== See Also ==
+* [[microformats]]
+* [[notes]]

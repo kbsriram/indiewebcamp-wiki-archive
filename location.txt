@@ -1,0 +1,26 @@
+{{stub}}
+
+'''<dfn>location</dfn>''' is a key aspect of [[checkin]] and [[event]] [[posts]]. It's also sometimes an aspect of posts in general, e.g. where a [[note]] or [[photo]]/[[video]] was posted from. The aspect of location is sometimes referred to as [[geo]] for short.
+
+== Enabling Technologies ==
+* Markup / microformats
+** [http://microformats.org/wiki/h-geo h-geo] for lat/long locations
+** [http://microformats.org/wiki/h-adr h-adr] for structured address locations
+** [http://microformats.org/wiki/h-card h-card] for named [[venues]]
+* Data exchange
+** [http://geojson.org/ GeoJSON]
+* Location Services
+** [http://geoloqi.com Geoloqi]
+** OSM [[Nominatim]]
+* Venues database
+** [https://wiki.openstreetmap.org/wiki/API OpenStreetMap API] and [https://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs data access]
+** [http://www.geonames.org/export/ws-overview.html Geonames Web Services]
+*** findNearbyPlaceName used by StatusNet
+
+== See Also ==
+* [[geo]]
+* [[checkin]] / [[venue]]
+* [[event]]
+* [[note]]
+* [[photo]]
+* [[video]]

@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>bulshytt</dfn>''' is a term invented by Neal Stephenson in his novel <cite>Anathem</cite>. <blockquote>Bulshytt is a term used to describe words, phrases, or even entire paragraphs which are misleading or empty in meaning. These terms are often listed as features of products[http://anathem.wikia.com/wiki/Bulshytt]</blockquote>
+
+In the IndieWeb context, we can use it to list and debunk qualifying statements from [[silos]] about how open they are.
+
+== Criticism ==
+I disagree. I think using misspelled cuss words is bullshit. '''Everyone''' already knows what "bullshit" means. Everyone already uses "bullshit". It's a cow path that's already been paved.
+&mdash; [http://iamshane.com Shane Becker]
+* Response: "bullshit" is a [http://en.wikipedia.org/wiki/Bullshit "slang profanity"], whereas "bulshytt" has a more specific and useful definition in critical discourse (as quote above). - [[User:Tantek.com|Tantek]]
+
+== See Also ==
+* [[silos]]
+* [[share]]

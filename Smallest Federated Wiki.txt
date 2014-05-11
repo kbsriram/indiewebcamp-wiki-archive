@@ -1,0 +1,61 @@
+{{stub}}
+
+== Project Description ==
+Who's leading up the project?
+* Project lead: Ward Cunningham
+
+What is the Smallest Federated Wiki?
+* Goals: produce the smallest possible federated wiki
+
+What's its status?
+* [https://github.com/WardCunningham/Smallest-Federated-Wiki Ward Cunningham's repository] contains the front-end code and server implementations in Sinatra+Ruby and Express+Node.js
+
+'''Demo?'''
+
+Check out [http://sandbox.fed.wiki.org/ the sandbox], where you can try out making changes. Ward has a [http://wardcunningham.github.io/ series of short videos] demonstrating core concepts and usage.
+
+How does it work?
+
+What features does it have?
+
+What are the next things the creator(s) want to add to it?
+
+What other related itches are there that are inspiring scratches?
+
+'''How do I install it?'''
+
+<pre> npm install -g wiki </pre>
+
+* There’s a guide to running SFW on Heroku using Rails or locally using node.js in [https://github.com/WardCunningham/Smallest-Federated-Wiki/blob/master/ReadMe.md the project readme]
+* How to [http://waterpigs.co.uk/articles/deploying-sfw-on-heroku-using-node/ Deploy SFW on Heroku using Node] (written because I had bad experiences using Sinatra on Heroku --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 09:44, 3 June 2013 (PDT))
+
+==Session Notes==
+These are notes from the [[2011]] session about the Smallest Federated Wiki.
+
+===Notes from [[Amber Case]]===
+Small session held in the main room led by Ward Cunningham about a naturally emergent text posting system similar to Git, but for text. He wants to work on this tomorrow. https://github.com/WardCunningham/Smallest-Federated-Wiki
+
+===Notes from [[Ward]]===
+[[User:znmeb]] and I spent Sunday working on this. We spent the morning thinking in terms of Node.js but ended up coding in Sinatra after lunch.
+
+Work continues on GitHub. The current vision is to create a network of owner operated sites by having individuals or small groups do the following:
+
+# '''Create an instance.''' We recommend an EC2 Micro instance. You can expect to pay 50 cents a day. Or try DIY. This is where you will own your content.
+# '''Install Federated Wiki.''' Create accounts for your colleagues. Start writing together as you would in any private wiki.
+# '''Publish content.''' Register a domain name. You can expect to pay 75 cents a month. This is where you own your identity. Open your site for read. Pull content from other wikis and return your improvements through automatic pull-requests.
+
+Your content is stored in plain text files that can be zipped up and moved wherever you like. Just enough JSON encoded metadata is kept to attribute sources and report recent changes. Exotic formats might emerge but you won't be polluted by them (or spam) unless you pull it your way.
+
+=== More Notes ===
+* 2011 Project members: Ward Cunningham, M. Edward (Ed) Borasky
+* 2011 Goals: produce the smallest possible federated wiki
+
+== Inspiration ==
+2011-06-23 at OSBridge2011 having lunch with Ward, [http://tantek.com/2011/174/t1/read-fork-write-merge-web-osb11 Tantek exclaimed]: <blockquote>The Read Write Web is no longer sufficient. I want the Read Fork Write Merge Web. #osb11 lunch table. #diso #indieweb</blockquote>
+
+== See Also ==
+* [[projects]]
+* [[2011]]
+
+[[Category:Session Notes]]
+[[Category:2011]]

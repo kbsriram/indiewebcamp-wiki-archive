@@ -1,0 +1,34 @@
+{{stub}}
+
+'''<dfn>private posts</dfn>''' refer to [[posts]] which are private to either the author or to a limited audience chosen by the author. Typical [[silos]] offer some form of private posts (or messaging, like email). This is a nascent area on the indieweb.
+
+== Use Cases ==
+There are numerous use case for private posts, however here we are capturing use-cases raised by active Indieweb community members that wish to [[selfdogfood]] such features on their own site.
+
+=== Private messaging ===
+From Aaron Parecki (who has implemented this on his site)
+* [[indieweb-messaging]]
+
+=== Allow silo friends to see private posts ===
+From Tom Morris in IRC:
+<blockquote>Allowing your [[Facebook]] friends to see things where you assume they *don't* have their own domain", and thus you'd need to support some form of Facebook-authentication to verify their identities before showing them the private post(s) you'd like them to see. "Similarly [[Twitter]]" friends.</blockquote>
+
+Need to maintain an address book to coordinate identities across various silos, and allow users alternative authentication mechanisms (I'd be inclined to include email). Posts could be shared with individual address-book entries or predefined mailing-lists. Or dynamic lists like "Facebook friends", "Twitter friends" above, or as [[User:aaronparecki.com|Aaron]] [http://indiewebcamp.com/irc/2014-05-04/line/1399224045 suggested], all the h-cards linked to from a webpage like [[irc-people]]   --[[User:Kylewm.com|Kylewm.com]] 11:56, 8 May 2014 (PDT)
+
+Tantek on [http://indiewebcamp.com/irc/2014-05-08/line/1399575433 IRC 2014-05-08]:
+<blockquote>
+interesting - I think tommorris was putting a bunch
+of thought into private posts - as he wants to do exactly that (with
+giving permissions to FB friends). re: address book - the minimal viable address book should
+be just a list of URLs of people in storage. On top of that, cache their
+full name and photo from their h-card at their URL (or retrieved by
+snowflake API from their silo profile URL). everything else should be retrieved dynamically from their
+personal site / profile URL. apply caching as needed. once you make your addressbook person-URL-centric, then all the permissions stuff becomes super obvious
+</blockquote>
+
+== See Also ==
+* [[indieweb-messaging]]
+* [[messaging]]
+* [[posts]]
+* [[SharingWithCircles]]
+* [[sign-in-use-cases]]

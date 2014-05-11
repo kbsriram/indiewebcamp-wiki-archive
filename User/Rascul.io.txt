@@ -1,0 +1,5 @@
+= Ray Schulz =
+
+I like to make things.
+
+My site will be at [http://rascul.io http://rascul.io] but while I'm working on it you can probably check it out at [http://crash.rascul.io http://crash.rascul.io].

@@ -1,0 +1,25 @@
+{{stub}}
+
+= bookmark =
+A '''<dfn>bookmark</dfn>''' is a [[post]] that is typically comprised of a URL and title.
+
+== Documented Examples ==
+* [[User:Aaronparecki.com|Aaron]] posts bookmarks on [http://aaron.pk/bookmarks/ aaron.pk/bookmarks] using a custom Wordpress post type. These bookmark posts contain:
+** URL
+** Title
+** Optional tags
+** Optional snippet of text manually copied from the URL as a way to remember why I bookmarked it ([http://aaron.pk/bookmarks/?bookmark=hashcash example])
+** Optional note about why I bookmarked it
+
+* [[User:Waterpigs.co.uk|Barnaby Walters]] posts bookmarks on his site by tagging them "[http://waterpigs.co.uk/notes/?tagged=bookmark bookmark]". These bookmark posts contain:
+** URL
+** Tags
+** Text note with one or more URLs inline
+== Silos ==
+Bookmark hosting silos:
+* [[Instapaper]]
+
+== See Also ==
+* [[posts]]
+* [[note]]
+* [[h-cite]]

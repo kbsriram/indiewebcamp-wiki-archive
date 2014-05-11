@@ -1,0 +1,29 @@
+<div class="floatright">http://pfefferle.org/photo.jpg</div>
+
+= Matthias Pfefferle =
+Webworker from Germany
+* http://notizblog.org/
+* http://pfefferle.org/
+* [http://twitter.com/pfefferle @pfefferle] (and [http://twitter.com/mikroformate @mikroformate])
+
+== projects ==
+* http://microform.at/
+* http://pfefferle.github.io/openwebicons/
+
+__TOC__
+== related blog posts ==
+* [http://notizblog.org/2013/07/08/die-renaissance-des-pingbacks/ Die Renaissance des Pingbacks] (german)
+* [http://notizblog.org/2013/06/18/the-rise-of-the-indieweb/ The rise of the IndieWeb] (german)
+
+== related articles (print) ==
+* [http://screengui.de/magazin/magazin-archiv/detail/big-brother.html OpenWeb column about semantic Pingbacks/WebMentions] (german)
+* [http://screengui.de/magazin/magazin-archiv/detail/qualitaet.html OpenWeb column about the IndieWeb in general] (german)
+
+== working on/selfdogfooding ==
+I'm working on several [[wordpress]] plugins to integrate as much [[building-blocks|building blocks]] as possible
+* [https://github.com/pfefferle/wordpress-webmention WebMention]
+* [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic Linkbacks]
+* [http://wordpress.org/plugins/indieauth/ IndieAuth]
+* [https://github.com/pfefferle/wordpress-webactions WebActions]
+
+I'm also working on [http://wordpress.org/themes/sempress/ SemPress], a WordPress theme that supports [[microformats]] (2) and most of the discussed markups like the [[comments-presentation]]

@@ -1,0 +1,32 @@
+I'm (<span class="h-card">[http://kylewm.com Kyle Mahan]</span>) working on a Python/Flask based micro-blogging engine [[Red Wind]] that supports POSSE to Facebook and Twitter, sends and receives webmentions, sends PuSH notifications, and backfeeds comments and replies from silos thanks to Bridgy.
+
+== Itches ==
+
+=== personal site ===
+* <strike>POSSE for replies/reposts/likes where my original refers to their original, and my POSSE copy to their POSSE copy. didn't realize this was a thing!</strike>
+* <strike>Tagging</strike>
+* send webmention when comments are deleted; <strike>receive webmentions from deleted comments</strike>
+* <strike>Improve timezone handling 
+** e.g., first comment on http://kylewm.com/article/2014/03/21/1/uploading-media-through-the-twitter-api was at 8:43am but displays as 1:43am</strike>. This is working well enough for now 
+* Mobile / photo uploads 
+** currently resized to small/medium/large automatically and embedded w/ link to the original.
+** I think that uploads from Android do not properly orient to portrait
+* Move flat file store into git (use python sh library to shell out to git)
+* Threaded conversations?
+** write proof of concept thread discovery first
+* Ability to mark posts as private/friends-only (in-progress)
+* Accept/interpret domain-level webmentions (for tagging a person rather than a post). Looking for examples
+* Generalize article/note/reply/share/like, since they're already all the same data structure. 
+** Sometimes an article is in reply to something else, but it's an article, not a reply
+** Want to be able to add new ones (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
+
+=== other ideas ===
+
+* <strike>Working on [[posse-post-discovery]]</strike>
+* Curious to explore what ([[generations|generation 2]]) people can do to "get their feet wet" without much effort/expense. E.g., you can skip around, add microformats without buying a domain name, and still get some fun benefits right away.
+* In the Bridgy mould, would it be useful to extract webmention sending as a separate service that could watch an h-feed and send mentions for links in new entries? PuSH consuming and monitoring for updates/deletes would be a little tricky.
+* This is fuzzier. It would be cool to have a proxy server that could generate h-entry's from "arbitrary" sources: e.g., silos that are already supported by a-u, tumblr, blogger, wordpress, NYT, Wapo, LATimes. Useful for fetching reply context, maybe other stuff. 
+* micropub post-authoring tool, like Prose.io is to github pages. 
+* Is there a need for domain-aware microformats interpreter libraries? Idea: interpreter would live on top of existing parser and "normalize" posts by e.g., determining [[authorship]] of each h-entry and add the p-author property if it doesn't exist. Red Wind currently has an (itchy) hentry_parser module that massages h-entries into Author/Content/References . Update: it turns out aaronpk has already written something like this for php, [https://github.com/indieweb/php-comments]
+* Figure out an email situation somewhere between self-hosting postfix/dovecot and abandoning all hope to Gmail.
+* <strike>Self-host project source</strike>

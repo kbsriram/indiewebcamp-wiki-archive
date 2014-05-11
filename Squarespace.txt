@@ -1,0 +1,33 @@
+{{stub}}
+
+'''<dfn>[http://Squarespace.com Squarespace]</dfn>''' is a content hosting service (paid) that provides services such as blogging and domain hosting.
+
+Squarespace is somewhere between a [[silo]] like WordPress.com and a full fledged web [[hosting]] service.
+
+== How To ==
+
+=== Your own domain ===
+
+* [http://help.squarespace.com/guides/mapping-a-domain-general-instructions General instructions]
+* [http://help.squarespace.com/guides/can-i-map-multiple-domains-or-subdomains Multiple domains]
+
+=== IndieAuth with rel-me links ===
+How to setup [[Web sign-in]] on your Squarespace website:
+* 2013-08-26 [http://waterpigs.co.uk/articles/squarespace-web-sign-in/ How to set up Web Sign In on your @squarespace website]
+
+=== Export your data from Squarespace ===
+
+Content in a Squarespace site can be exported as XML:
+
+[http://help.squarespace.com/guides/can-i-export-my-site Can I export my site?] - yes you can. "The file exported will in be in an .xml format that can be imported into a Wordpress installation."
+
+Individual pages can also be read as JSON:
+
+For example, the page at http://developers.squarespace.com can be read as JSON at http://developers.squarespace.com?format=json and at http://developers.squarespace.com/?format=json-pretty 
+
+The JSON responses for Squarespace pages include the HTML rendered text of the body of the page, together with a limited set of metadata.
+
+== See Also ==
+* [[silos]]
+* [[hosting]]
+* [[Web sign-in]]

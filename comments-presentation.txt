@@ -1,0 +1,214 @@
+= Comments Presentation =
+Expansion of a section of the page on [[comment]] [[posts]] on how to display received comments.
+
+How comments are presented, should be, and who is doing what.
+
+== How to ==
+=== How to display ===
+Goal: display received comments in high fidelity, at least as nicely designed as the comments that are "natively" displayed on blog posts and [[silo]] posts (e.g. replies on [[Twitter]] posts, comments on [[Facebook]] posts, [[Flickr]]/[[Instagram]] photos, etc. - see [[#Silos|Silos]] below for analysis of their practices).
+
+Per [[comment#Accept_a_comment|Accept a comment]], your system should already be:
+* Listening for [[webmention]] on your server (have your server software support it)
+
+And when your server receives a webmention URL:
+* parse the '''[[h-entry]]''' at that URL (only use the first h-entry if there's more than one, seriously, it's supposed to be a permalink) - use a [[microformats2]] parser to do so.
+* if its hyperlink to the original post lacks [[in-reply-to]] markup, then add it to the "Related Articles" or "Mentions" section in the [[posts#Footer_sections|post footer]], otherwise keep going:
+* '''get commenter information to display'''
+** if the h-entry has a '''p-author''', use its '''h-card''':
+** otherwise get the first[[#first-rel-author|*]] '''rel-author''' link on the page, retrieve the URL it points to, and use its representative '''h-card''':
+*** '''logo/photo'''
+*** '''name'''
+*** '''url''' (of commenter profile/homepage)
+* '''get the text of the comment to display'''
+** if the h-entry has an '''e-content''', and if the text is not too long (per your own site UI preference/design, but note that "too long" may be both by character/word count or by number of lines if the content contains newlines), use that, after [[sanitize|sanitizing]] (filtering out unsafe HTML).
+** if there is no '''e-content''' or it's too long, then
+*** if the h-entry has a '''p-summary''', and the text is not too long, use that (useful author crafted summary or for longer posts where only a part of it is the comment)
+**** if the '''p-summary''' is too long (per your own site UI preference/design), then truncate the '''p-summary''' yourself
+*** else truncate the '''e-content''' (if any) yourself.
+** otherwise (no '''e-content''' and no '''p-summary'''), if it has a '''p-name''', use that
+*** if the '''p-name''' is too long (per your own site UI preference/design)
+*** then truncate the '''p-name''' yourself.
+** if the text of the comment is too long (your site, your judgment), abbreviate it with some intelligent ellipsing code (e.g. see [[Twitter#POSSE_abbr_note_to_twitter|POSSEing an abbreviated note to Twitter]] for some thinking) and provide a "See more" link to the permalink.
+* '''get more comment info to display'''
+** use the h-entry '''dt-published''' for the time of the reply
+*** additionally, its '''dt-updated''' could be used for an "edited: datetime" annotation in your display
+** use its '''u-url''' for the permalink (hyperlink the time of reply to the permalink)
+* '''optional location brainstorm''' - because not many have implemented location info in posted replies
+** use the h-entry '''p-geo''' / p-latitude / p-longitude for location - you may need to use a service to translate that into a human readable neighborhood / city / state / country name. perhaps hyperlink to a map, or an aggregation on your site of all posts (and comments) near that location.
+*** (Issue: perhaps [[h-entry]] could use a [[p-location]] property similar to [[h-event]] that would permit embedding of an [[h-adr]] with structured address information.)
+
+With that information a sufficiently rich display should be possible in a "Comments" section in the footer on the original post permalink. Add to that for each comment:
+* [[webaction]] like/favorite/props button/link
+And you've hopefully got a comment display of similar fidelity to anything the [[silos]] have.
+
+Note: some of this has been implemented!
+* [[Storytlr]] receives comment posts via [[pingback]], then parses the post content and author information from the [[h-entry]] and [[h-card]] on the page, and then displays:
+** author of comment from h-card / name, photo, url properties
+** contents of comment post from h-entry / content, published, url properties
+** e.g.: http://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html
+* ... what implementation will be next?
+
+Issues:
+* '''<span id="first-rel-author">"*first" rel-author</span>''' is good enough because a) there aren't many multiauthor blogs, comparatively speaking, and more importantly b) this is retrieving a *reply* post, and those are always written by a single person, so there should only be a single rel-author on *that* page. Real-world counter-examples welcome.
+
+==== in realtime ====
+Even better, if you can display comments in '''real-time''' on people viewing a post, when they're received by your server, it looks amazing to the user. Idea/challenge [[events/2013-09-30-indieweb-dinner#Realtime_inline_display_of_comments|2013-09-30]].
+
+How to overview:
+* keep a websocket open from the browser view of your post with comments to your server
+* have your server push comments to your browser view your post through the open websocket.
+See also: [http://aaronparecki.com/articles/2013/10/13/1/realtime-indieweb-comments detailed how to, sample code, demo video]
+
+===== IndieWeb Implementations =====
+====== Aaron Parecki ======
+[[User:Aaronparecki.com|Aaron Parecki]] has supported real-time display of received comments on his posts on [http://Aaronparecki.com aaronparecki.com] using [[p3k]] since [http://aaronparecki.com/articles/2013/10/13/1/realtime-indieweb-comments 2013-10-13].
+
+=== How to markup ===
+
+The post the comments are in reply to should be a top-level h-entry, and comments on it should be marked up as h-cites nested under the comment property. For example:
+
+<pre><nowiki>
+<div class="h-entry">
+ <h1 class="p-name">The Main Entry</div>
+ <p class="p-author h-card">John Smith</p>
+ <p class="e-content">Blah blah blah blah</p>
+ 
+ <h2>Comments</h2>
+ 
+ <div class="p-comment h-cite">
+  <p class="p-author h-card">Jane Bloggs</p>
+  <p class="p-summary">Ha ha ha great article John</p>
+ </div>
+ • 
+ •
+ •
+</div>
+</nowiki></pre>
+
+See: http://microformats.org/wiki/comment-brainstorming#microformats2_p-comment_h-entry
+
+In addition, since the displayed comments are on the page with the URL that they are "in-reply-to", you can add an empty u-in-reply-to property which will automatically become the permalink when parsed due to URL absolute canonicalization rules. E.g. this inside each displayed comment:
+
+<code><nowiki><a href="" class="u-in-reply-to"></a></nowiki></code>
+
+or
+
+<code><nowiki><span class="u-in-reply-to"></span></nowiki></code>
+
+Why would you want to do this? See: http://microformats.org/wiki/comment-brainstorming#Use_case_for_same_page_u-in-reply-to
+
+==== Issues ====
+
+* I think the h-cite markup only works for comments via pingback/webmention, but what about comments made directly on the post using a comment-form? -- [[User:Notizblog.org|pfefferle]]
+
+=== How to delete ===
+{{main|deleted#Handling}}
+How to delete comments received from other sites.
+
+If an indie web [[reply]]/comment post is [[deleted]], that user's site is expected to send another webmention accordingly.
+
+If when attempting to retrieve the reply permalink URL your server receives a 410 GONE, then your server is expected to delete the existing syndicated copy of that comment.
+
+See [[deleted#Handling|handling deleted posts]] for details.
+
+== Current Indiewebcamp Practices ==
+Automatically:
+* '''[[User:Eschnou.com|Laurent Eschenauer]] using [[Storytlr]]''': displays comment posts from the IndieWeb marked up with [[h-entry]] and received via [[pingback]], and comments posted locally on his posts, in an integrated time-ordered "Comments" section, e.g.:
+** http://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html
+* '''[[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]]'''
+** http://aaronparecki.com/notes/2013/05/21/1/xkcd
+* '''[[User:Sandeep.io|Sandeep Shetty]]''' using '''[[Projects#Converspace|Converspace]]'''
+** http://www.sandeep.io/64
+* '''[[User:WaterPigs.co.uk|Barnaby Walters]]''' using [[Taproot]] and marking up using .p-comment.h-entry ([http://waterpigs.co.uk/notes/4QgMZN/ example])
+* '''[[User:Werd.io|Ben Werdmuller]]''' using [[idno]] ([http://werd.io/view/51d5097fbed7ded0633a5956#comments example])
+
+Manually:
+
+List of links in a [[posts#Footer_sections|post footer]] section:
+* [[User:Tommorris.org|Tom Morris]] sometimes adds links+favicons to a “this post is discussed further at” section ([http://tommorris.org/posts/2506 recent example]).
+* [[User:tantek.com|Tantek]] sometimes maintains a citation list of posts which link to one of his posts, e.g. http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-comments
+
+=== Past Practices ===
+* [[User:tantek.com|Tantek]] used to maintain lists of links to his posts of people’s names linked to comment permalinks:
+** 2002: [http://tantek.com/log/2002/12.html#L20021216t2238 inline list with flags to represent comment languages]
+** 2003: [http://tantek.com/log/2003/12.html#L20031215t0830 inline list with some text annotations].
+** 2005: [http://tantek.com/log/2005/10.html#d02t1813 block list with follow-ups to comments]
+
+== Silos ==
+In general existing blog/silo posts display comments (in either chronological or reverse chronological order) with the following details:
+* '''commenter logo/photo'''
+* '''commenter name'''
+** '''hyperlinked to commenter profile'''
+* '''full text''' of comment
+* '''time''' of comment
+** often in relative time since rather than absolute datetime
+*** though see reasons why [http://aaronparecki.com/articles/2012/08/23/1/you-should-not-be-displaying-relative-dates you should not be displaying relative dates]
+** '''hyperlinked to comment permalink'''
+* '''commenter location''' (variable granularity) at time of comment writing
+** '''hyperlinked''' to silo aggregation of activity at that location
+* '''like/favorite button''' (to like or favorite the comment/@-reply)
+
+=== Tumblr ===
+[[Tumblr]] groups various different response types into a generic “notes” feed, at the bottom of each post ([http://www.kungfugrippe.com/post/47159818629/something-something-syncing#notes example]). They show:
+* The author’s username
+* The author’s profile photo
+=== Twitter ===
+[[Twitter]] shows all tweets which are both in-reply-to a particular tweet AND contain the original tweeters @name below the tweet metadata in chronological order. They provide a “reply” box above (?) the reply feed ([https://twitter.com/wilto/status/322028394944532480 example]). The tweets have:
+* The authors name
+* The author’s @name
+* The author’s profile photo
+* A relative timestamp
+* The tweet content
+* A bunch of actions (on hover)
+=== Facebook ===
+[[Facebook]] treats comments as completely secondary to “full” posts, showing them in chronological order beneath the post’s action bar. Facebook only show the latest ~4 comments if there are more, and display the leave-a-comment box below. They have:
+* The author’s name
+* The author’s profile photo
+* The comment content
+* A relative timestamp
+* 'via mobile' if applicable
+* Like button w/ like counter
+
+== Existing specifications for display ==
+Included here for thoroughness / historical purposes - a critique of existing specifications for display.
+
+Summary: Existing specifications either don't say much or provide bad advice for what to display (if anything) in response to receiving a webmention.
+
+=== Trackback display ===
+{{main|Trackback}}
+The [http://movabletype.org/documentation/trackback/specification.html TrackBack Specification] (and [http://en.wikipedia.org/wiki/Trackback Trackback Wikipedia page]) doesn't appear to have any explicit implementation guidance for how to display trackback pings that have been received.
+
+In practice however, many CMS's display trackbacks in a section explicitly labeled "Trackbacks:", and for each such trackback ping:
+* title of the post that sent the trackback
+* ellipsed [...] ... [...] summary text, which is nearly unreadable without more context, and doesn't even show what phrase linked to the original blog post if any.
+* the overall visual design is very dated and has fallen behind modern comment presentation designs
+
+=== Pingback display ===
+{{main|pingback#Poor_display}}
+
+See [[pingback#Poor_display|Pingback: Poor display]] for detail on how the specification itself provides very poor advice on display.
+
+Pingback display practices appear to have been mostly based on Trackback display practices. Unfortunately, in practice Pingback displays are nearly always useless, e.g.
+* https://blog.mozilla.org/blog/2013/04/10/gearing-up-for-the-next-chapter/
+
+Problems demonstrated:
+* "Pingback from" is jargon - provides no value to the user - only noise
+* the title of the comment blog post is useless as it provides a summary of the original blog post
+* the [...] ... [...] summary text is nearly unreadable without more context, and doesn't even show what phrase linked to the original blog post
+** in the first pingback, even just including the entire first paragraph of the comment post would have been better. And if it wasn't a reply then it should just be a list of related articles (date, author, linked post name, all marked up with [[h-cite]]), rather than including cryptic broken summaries.
+* the overall visual design is very dated and has fallen behind modern comment presentation designs
+
+== FAQ ==
+=== Why use p-summary when I can truncate e-content ===
+''Q: I guess if I grab the e-content and think it's too long, I might as well just truncate it myself. why would I need the p-summary?''
+
+A: Because the p-summary is likely (or even just possibly) explicitly crafted by the author/publishers to be a more meaningfully truncated version of the e-content than you could yourself automatically truncate.
+
+== Discussion ==
+* Long posts where only a part of it is in-reply-to another post and a large chuck of it is a tangent should not be published as a reply/comment and instead should be published as a mention. Noting this here because this is accounted for above in the "How to display > get the text of the comment to display" section and it might wrongly send the message that (largely tangential) posts like these should be marked up with in-reply-to. (See [http://indiewebcamp.com/irc/2013-07-07/line/1373241638])
+
+== See Also ==
+* [[comment]]
+* [[webmention]]
+* [[h-entry]]
+* [[h-card]]

@@ -1,0 +1,13 @@
+Feedback on the IndieWebCamp [[code-of-conduct]].
+
+== Open Discussions ==
+
+* I propose that we add "political orientation" or something to that effect to the list of things. -- [[User:Veganstraightedge|Shane Becker]] 2013-02-15 10:14 PST
+** This sounds reasonable. Is there a pre-existing phrase used by one of the [[code-of-conduct-examples]] that conceptually covers this? [[User:Tantek.com|Tantek]] 12:06, 15 February 2013 (PST)
+
+== Archived Discussions ==
+
+* How do people feel about adding age to the list of things we respect people regardless of? --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 23:21, 14 February 2013 (PST)
+** Done. [[User:Tantek.com|Tantek]] 12:06, 15 February 2013 (PST)
+** Thanks. --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 12:08, 15 February 2013 (PST)
+* …add discussions here when they're resolved

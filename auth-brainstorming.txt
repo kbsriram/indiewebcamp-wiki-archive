@@ -1,0 +1,192 @@
+{{stub}}
+
+Collecting notes here before moving them to the appropriate pages.
+
+----
+
+OAuth 2.0 defines three roles: the '''[[#Authorization Endpoint|authorization endpoint]]''', the '''[[#Token Endpoint|token endpoint]]''', and the '''[[#Resource Server|resource server]]'''.
+
+In the context of the IndieWeb, the "resource server" will most likely be your website and your [[micropub]] endpoint.
+
+[[File:micropub-flow-diagram.png|600px]]
+
+[http://indiewebcamp.com/File:20140423-indieauth-micropub.jpg Source File]
+
+
+
+----
+
+== Examples ==
+
+In these examples, the following URLs will be used.
+
+The app the user is signing in to is [[OwnYourGram]]:
+* client_id = https://ownyourgram.com
+* redirect_uri = https://ownyourgram.com/auth/callback
+
+The user signing in is [[User:Aaronparecki.com|Aaron Parecki]]:
+* me = https://aaronparecki.com/
+
+In this example, Aaron has delegated authorization and token generation to separate external services:
+* authorization_endpoint = https://indieauth.com/auth
+* token_endpoint = https://tokens.indieauth.com/token
+
+Aaron's [[micropub]] endpoint is on his own domain:
+* Micropub Endpoint = https://aaronparecki.com/micropub
+
+== Web Sign-In Form ==
+
+The app, ownyourgram.com, contains a web sign-in form prompting the user to enter their URL to sign in. Upon submitting the form, the app begins the auth process by discovering the user's endpoints.
+
+== Discovery ==
+
+aaronparecki.com points to the three endpoints by specifying rel values on the index page.
+
+<pre>&lt;link rel="authorization_endpoint" href="https://indieauth.com/auth"&gt;
+&lt;link rel="token_endpoint" href="https://tokens.indieauth.com/token"&gt;
+&lt;link rel="micropub" href="https://aaronparecki.com/micropub"&gt;</pre>
+
+== Authorization Endpoint ==
+The authorization endpoint is responsible for requesting authorization from the user and generating an '''authorization code'''. To start the sign-in flow, the user's browser will be directed to the authorization endpoint.
+
+=== Summary ===
+
+==== Request ====
+Values are shown without URL encoding for readability.
+
+<pre>
+https://indieauth.com/auth?me=https://aaronparecki.com/&
+                           redirect_uri=https://ownyourgram.com/auth/callback&
+                           client_id=https://ownyourgram.com&
+                           state=1234567890&
+                           scope=post&
+                           response_type=code
+</pre>
+
+==== Response ====
+The authorization server presents this information to the user, and when they approve, generates an '''authorization code''' and redirects the user to the redirect URI specified.
+
+<pre>
+HTTP/1.1 302 Found
+Location: https://ownyourgram.com/auth/callback?code=xxxxxxxx
+                                                state=1234567890
+                                                me=https://aaronparecki.com/
+</pre>
+
+=== Authorization ===
+The authorization server should present an interface describing the request being made. It must indicate:
+* The client_id making the request
+** Including the name and logo if an [[h-card]] is found on the client_id URL
+* The requested scope
+** May include an interface that allows the user to adjust the scope that will actually be granted
+
+== Token Endpoint ==
+The token endpoint is responsible for issuing access tokens. The request will contain an '''authorization code''' and the response will include an access token.
+
+=== Summary ===
+
+==== Request ====
+Values are shown without URL encoding for readability.
+
+<pre>
+POST https://tokens.indieauth.com/token
+Content-type: application/x-www-form-urlencoded
+
+me=https://aaronparecki.com/&
+code=xxxxxxxx&
+redirect_uri=https://ownyourgram.com/auth/callback&
+client_id=https://ownyourgram.com&
+state=1234567890
+</pre>
+
+==== Response ====
+The token endpoint verifies the '''authorization code''' and issues an '''access token''' in response. 
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: application/x-www-form-urlencoded
+
+access_token=XXXXXX&
+scope=post&
+me=https://aaronparecki.com/
+</pre>
+
+=== Verifying the authorization code ===
+The token endpoint can query the authorization endpoint to verify the auth code given. To verify the auth code, the token endpoint makes a POST request to the authorization endpoint with the following values:
+
+<pre>
+POST https://indieauth.com/auth
+Content-type: application/x-www-form-urlencoded
+
+code=xxxxxxxx&
+redirect_uri=https://ownyourgram.com/auth/callback&
+client_id=https://ownyourgram.com&
+state=1234567890
+</pre>
+
+After the authorization server verifies that the redirect_uri, client_id and state match the code given, the response will include the "me" and "scope" values.
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: application/x-www-form-urlencoded
+
+me=https://aaronparecki.com/&
+scope=post
+</pre>
+
+== Micropub Endpoint ==
+A minimal micropub endpoint would be a program that accepts a POST request from a micropub client with some specific content and metadata fields and an auth token, verifies the token with the token endpoint, then creates a post on your site using the supplied data.
+
+The micropub endpoint will receive requests with an '''access token''' header as well as any [[micropub]] fields.
+
+=== Summary ===
+
+==== Request ====
+
+<pre>
+POST https://aaronparecki.com/micropub
+Authorization: Bearer xxxxxxxx
+
+h=entry&
+content=Hello World!
+</pre>
+
+==== Response ====
+The micropub endpoint must first verify the access token checking the user, scope and client_id. Then it can process the contents of the request and create a new post on the site. 
+
+<pre>
+HTTP/1.1 201 Created
+Location: http://aaronparecki.com/post/100
+</pre>
+
+=== Verifying access tokens ===
+
+==== Using the Token Endpoint ====
+The micropub endpoint can query the token endpoint to verify the access token given. To verify the access token, the micropub endpoint makes a POST request to the token endpoint with the following values:
+
+<pre>
+GET https://tokens.indieauth.com/token
+Content-type: application/x-www-form-urlencoded
+Authorization: Bearer xxxxxxxx
+</pre>
+
+The token endpoint will verify the token and the response will include information about the user and scope of the token.
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: application/x-www-form-urlencoded
+
+me=https://aaronparecki.com/&
+client_id=https://ownyourgram.com&
+scope=post&
+issued_at=1399155608&
+nonce=501884823
+</pre>
+
+The micropub endpoint uses these values to determine whether to process the request. At the very least the endpoint checks that the user specified by the "me" parameter is authorized to post on the site, and verifies the token has the appropriate scope.
+
+==== Verifying the JWT ====
+
+TODO: This section is still in progress.
+
+The access token generated by the token endpoint is actually a token encoded and signed in the JWT format. The token encodes the values above and is signed by the key of the token endpoint. A Micropub endpoint should be able to verify access tokens cryptographically by checking the token's signature with the token endpoint's key.

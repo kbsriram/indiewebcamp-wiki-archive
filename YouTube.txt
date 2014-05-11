@@ -1,0 +1,48 @@
+{{stub}}
+
+'''<dfn>[http://youtube.com YouTube]</dfn>''' is a [[video]] hosting [[silo]] that has known [[#Issues|issues]].
+
+== Feeds ==
+Does YouTube have feeds for users to download their content?
+
+== Example UI ==
+=== Permalink UI ===
+Here's an example screenshot of YouTube's UI as of 2013-286 
+[[File:YouTube video permalink 2013-10-13.png]]
+
+Live permalink: http://youtu.be/0NUbLJ-Q3Ck
+
+With:
+* '''video as primary content''' - just below "YouTube" banner with search box (scrolled off the top)
+* '''name''' of video <em>below</em> the primary content, ellipsed at width of video content.
+* '''author''' with photo, name, number of videos posted, subscribe [[webaction]] and subscriber count, clustered and left-aligned under the video name
+* '''counts''' related to the video, right-aligned with right edge of video, including:
+** '''views count''' 
+** '''thumb up down counts'''
+* '''thumb up "Like" thumb down''' props/unprops [[webaction]] buttons
+* '''tabbed navigation''' among
+** '''About''' '''Share''' '''Add to''' '''Transcript (menu? icon)''' '''Statistics (bar chart icon)''' '''Report (flag icon)'''
+* '''Share''' section appears to be the default which itself has subsections for:
+** '''Share this video''' '''Embed''' '''Email'''
+** [[webactions]] icons for posting a link to video on:
+*** [[Twitter]] [[G+]] [[Blogger]] [[Reddit]] [[Tumblr]] [[Pinterest]] [[StumbleUpon]] A-Russian-silo [[LinkedIn]]
+** '''text input field with youtu.be shortlink''' in a larger font
+** '''checkbox to start at''' currently paused time-offset, to the right of text input
+* '''Comments''' section with count in parentheses next to heading "(0)"
+** '''Sign in''' link prompt "to post a comment!"
+
+== Issues ==
+=== Content Deletion ===
+YouTube has been known for deleting content that has been posted there:
+* http://www.rebelliouspixels.com/2013/buffy-vs-edward-remix-unfairly-removed-by-lionsgate
+=== Content Reappropriation ===
+YouTube has also re-appropriated content without permission, transferring ownership to big media companies claiming copyright:
+* http://waxy.org/2012/03/youtube_bypasses_the_dmca/
+=== Link Wrapping ===
+YouTube links outbound links from posted content in <nowiki>www.youtube.com/redirect?q=</nowiki> URLs.
+
+== See Also ==
+* [[silos]]
+* [[photos]]
+* [[videos]]
+* [[why]]

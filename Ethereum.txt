@@ -1,0 +1,28 @@
+{{stub}}
+
+'''<dfn>[http://ethereum.org Ethereum]</dfn>''' is a [[project]] that implements a bitcoin/cryptocurrency like block chain used for sending around "contracts".  It sounds similar to sending around bitcoins to wallet addresses, but in addition to an amounts of coin you want to send or notes, the contracts can also execute code.  
+
+Potential:
+* This could enable things like [https://www.youtube.com/watch?v=pLHlqKH84Ek block chain backed video game economies].  
+
+Issues:
+* It is yet to be known if Ethereum addresses the astronomical energy consumption issues that bitcoin has.
+* The structure of the blockchain is unclear at the moment.
+
+== Criticism ==
+=== Nonexistent Wiki ===
+The home page ethereum.org links to https://wiki.ethereum.org/  which does not exist. E.g.
+
+<blockquote><p>Unable to connect
+</p><p>
+Firefox can't establish a connection to the server at wiki.ethereum.org.
+</p></blockquote>
+
+== Experience ==
+None currently.
+
+'''Do you have experience with using Ethereum for independent publishing on the web?  Please document it here!'''
+
+== See Also ==
+* [[projects]]
+* [[monoculture]]

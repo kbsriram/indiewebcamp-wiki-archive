@@ -1,0 +1,24 @@
+{{stub}}
+
+'''<dfn>tags</dfn>''' or '''<dfn>tagging</dfn>''' may refer to:
+* a method of categorizing content by applying free form words and phrases to it, not part of any formal taxonomy (more of a folksonomy), popularized in Web 2.0 by various silos ([[Delicious]] (original site defunct) & [[Flickr]]), blogging tools (e.g. [[WordPress]]), and blog search engines (Technorati (original tag search defunct)).
+* '''[[hashtags]]''' - a method of tagging [[posts]] merely by prefixing the literal text of the tag inline in the post content with hash or pound character '#'. Popularized on [[Twitter]], hashtags have been adopted on other silos as such as [[Instagram]], Google+, [[Tumblr]], [http://newsroom.fb.com/News/633/Public-Conversations-on-Facebook Facebook], etc.
+* '''Private Tags''' -  a tag that is only visible to the content creator.
+** Pinboard.in does this with special syntax: tags that start with a period. e.g., .secret_tag. See https://pinboard.in/tour/#privacy
+** Private tags can be used to do [[POSSE]] stuff like what [https://www.facebook.com/selectivetwitter/info Selective Tweets] does with the #fb tag, but without having a visible public tag: like this IFTTT receipe that [https://ifttt.com/recipes/14872 crossposts Pinboard bookmarks to Twitter that have the .twitter private tag].
+** I have a #readlater tag that I would love to have private -[[User:Www.sandeep.io|Www.sandeep.io]] 16:37, 11 September 2013 (PDT)
+* [[User:Sandeep.io|Sandeep Shetty]] uses a #private tag (as a way to reduce an interface element that is required less often) to make posts only visible to him. 
+** You can combine Private tags and #private to make both tags and content visible only to the author.
+
+== IndieWeb Examples ==
+=== Aaron Parecki ===
+Aaron Parecki links tags in his posts (specifically, [[hashtags]]) to tag aggregation pages, e.g.:
+* http://aaronparecki.com/tag/indieweb
+His tag aggregation pages include a list of the following, all date-time ordered together:
+* all of his [[posts]] (of any kind) with that tag
+* any comments with that tag made [[in-reply-to]] his posts
+* any posts of others' with that tag that he replied to.
+
+== See Also ==
+* [[hashtags]]
+* [[rel-tag]]

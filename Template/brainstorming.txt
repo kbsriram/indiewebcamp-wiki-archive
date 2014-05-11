@@ -1,0 +1,1 @@
+<div style="background-color: #fffdee; padding: 6px;">This page is a collection of brainstorming notes on this topic.</div>

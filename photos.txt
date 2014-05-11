@@ -1,0 +1,97 @@
+{{stub}}
+
+A '''<dfn>photo</dfn>''' is a [[post]] whose primary content is a photograph or other image.
+
+A [[photo upload]] is typically how photo posts are created.
+
+== How ==
+There are different approaches to posting photos. E.g.
+* As a [[note]] with a primary image
+* As an image, with text (caption) only following
+* Hosting variations - image files hosted on
+** your primary webhost/domain
+** a "photos." subdomain of your domain that maps to a cloud/CDN service like [[Amazon]] [[S3]] or [[Akamai]].
+** as Creative Commons licensed content uploaded to [[Wikimedia]]
+
+== Why ==
+You should own your photos like you own any other content you create. Many photos sites have [[site-deaths|gone down]] over the years, taking invaluable personal memories with them.
+
+== IndieWeb Examples ==
+=== Ben Werdmuller ===
+[[User:Werd.io|Ben Werdmuller]] uses [[idno]] to post photos (including taking them with a mobile web upload interface that uses the camera!) on [http://werd.io/ werd.io] (since ????-??-??), and [[POSSE]]s them to [[Facebook]] and [[Flickr]] (since ????-??-??)
+* e.g. ??? a photo post permalink on werd.io
+* mobile photography and posting demonstrated live at IndieWebCamp [[2013]] in Portland.
+
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with images in.
+
+=== Ryan Barrett ===
+[[User:Snarfed.org|Ryan Barrett]] uses [[WordPress]] to post photos on [https://snarfed.org/pictures snarfed.org/pictures] since around [https://snarfed.org/draw_group 2003-03-06].
+
+== Silos ==
+The following [[silos]] specialize in photo posting/hosting/sharing:
+* [[Flickr]]
+* [[Instagram]]
+* [[Wikimedia Commons]]
+
+In addition, the following silos support photo posts in addition to other types of posts:
+* [[Facebook]]
+* [[Google+]]
+
+== Brainstorming ==
+=== People Tagging ===
+[[User:benwerd.com|Ben Werdmuller]] wondered if you could tag people in photos by linking to their profiles using HTML imagemaps (!) and marking up the imagemap links with microformats. That might look something like:
+
+<code><img src="some_photo.jpg" alt="Tantek, Aaron and Amber!" usemap="#peeps" class="u-photo">
+
+<map name="peeps">
+
+<area shape="circle" coords="124,58,8" class="microcard h-card u-url" href="http://tantek.com" alt="Tantek Çelik">
+
+<area shape="rect" coords="0,0,82,126" class="microcard h-card u-url"  href="http://aaronparecki.com" alt="Aaron Parecki">
+
+<area shape="circle" coords="90,58,3" class="microcard h-card u-url" href="http://caseorganic.com" alt="Amber Case">
+
+</map></code>
+
+However, because the HTML syntax of imagemaps sits outside the actual image tag, it may be worth adding a microformat to the map itself.
+
+=== POSSE ===
+[[POSSE]]ing photo posts makes sense certainly to photo [[silos]] like:
+* [[Flickr]]
+* [[Instagram]] (as much as you can fake a POSSE post to Instagram)
+* [[Wikimedia Commons]] (as a [[commons]] rather than a silo, it may make sense to start POSSEing here as a backup/distribution/CDN mechanism)
+
+In addition, it makes sense to consider POSSEing to generic silos, despite the fact that they will only retain a (likely) lower resolution copy of your photo:
+* [[Twitter]] - as a native Twitter photo tweet, using TwitterAPI <code>update_with_media</code>
+* [[Facebook]]
+
+[[Bridgy]] Publish may help with POSSEing pictures to Twitter and FB. This is currently on the Bridgy todo list:
+* https://github.com/snarfed/bridgy/issues/85
+
+==== Why POSSE rather than TwitterCard ====
+(Not sure if this belongs here or on [[Twitter]] page, but capturing as part of this for now.)
+Advantages to POSSEing actual photos to Twitter, rather than just a link to a photo post on your site with Twitter [[Cards]] metacrap markup:
+* Further distribute the use of Twitter kind of like a CDN for your photos
+* People see a larger version of the photo via a phototweet than a Twittercard
+* Usual avoid [[metacrap]] (silo-specific meta tags) advantage
+* Photo tweets appear inline in tweet list views (e.g. Twitter timeline / homepage) whereas twitter cards won't appear inline automatically (require twiddling open).
+* Photo tweets work immediately, whereas photo cards require that Twitter whitelist your domain for cards in general (and maybe in particular for photo cards?)
+* Using the TwitterAPI hides the proprietariness, whereas using twittercards means your own website has proprietary metacrap on it
+* Twittercards set a worse example (proprietary metacrap) for others that may view source
+
+== Software ==
+Software you can install on your IndieWeb server to host your own photos
+=== Trovebox ===
+{{main|Trovebox}}
+Trovebox (formerly <span id="OpenPhoto">OpenPhoto</span>) is software you can install to post and share your own photos.
+
+Criticisms:
+* '''Poor integration'''. fails to easily integrate with any other posting software, e.g. for posting [[notes]], [[articles]], and photos into a single stream on your homepage.
+* '''Poor stream management'''. <blockquote>"it's fine as a full photo management stack, that's just not what I want in terms of publishing a photo stream." - [http://indiewebcamp.com/irc/2013-04-16#t1366140041 aaronpk on IRC]</blockquote>
+* '''Poor small/odd image size handling'''. <blockquote>"I have found it sub-optimal for small images (it scales them up to horrible dimensions) and weirdly shaped images (screenshots/panoramas, both of which i do a lot)" - [http://indiewebcamp.com/irc/2013-04-16#t1366140083 Barnabywalters on IRC]</blockquote>
+
+== See Also ==
+* [[photo upload]]
+* [[posts]]
+* [[notes]]

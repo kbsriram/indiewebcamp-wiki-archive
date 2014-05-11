@@ -1,0 +1,95 @@
+{{stub}}
+
+'''Checkin''' means the action of checking into a [[location]] and sharing that information. The action itself is often referred to as a ''checkin''.
+
+Services like Foursquare, Gowalla (shutdown after being acquired by Facebook), Dodgeball (shutdown after being acquired by Google), Google Latitude (also shutdown by Google) are social community sites specifically designed for sharing checkins.
+
+The indieweb community is exploring how to [[post]] checkins to one's own website (likely privately), and how/when to syndicate (in [[POSSE]] style) such checkins to checkin-related community sites.
+
+== sessions ==
+Past discussion sessions on indieweb checkins:
+* 2012-181 OSBridge BarCamp Day: [http://opensourcebridge.org/wiki/2012/Foursquare_is_down! Foursquare is down! Let's figure out IndieWeb Checkins!]
+* 2012-182 IndieWebCamp 2012: [[2012/Open_Checkins|Open Checkins]]
+
+Pretty good notes in there that could be abstracted and captured in general form in new sections here.
+
+== use cases ==
+=== personal logging ===
+I'm entering a specific venue, I'd like to quickly/automatically capture the fact that I'm entering that venue (similarly for exiting) for personal logging / quantified self purposes.
+
+=== in town ===
+I'm visiting a city other than my home town, and rather than try to figure out who I know may be in that town at the moment and compile far too many explicit messages or a long BCC email, I'd like to announce to my friends who happen to also be in that city that I've arrived there and will be around a bit in case they'd like to meet up.
+
+=== just in time social meals ===
+I'm out at a coffee shop and want to quickly see if any friends are are nearby and might interested in getting brunch/lunch/dinner/drinks together.
+
+== IndieWeb Examples ==
+In rough launch/implementation order:
+=== Barnaby Walters ===
+[[User:WaterPigs.co.uk|Barnaby Walters]] is using [[Taproot]] on waterpigs.co.uk to post notes with location data (including rev-geocoded address data) represented with an embedded [[h-card]] venue and in an embedded map, since 2013-01-24. Currently manually tagging specific check-ins with #checkin, but is working on adding richer venue information. Examples: 
+* [http://waterpigs.co.uk/notes/872/][http://waterpigs.co.uk/notes/890/][http://waterpigs.co.uk/notes/903/]
+* See [http://waterpigs.co.uk/notes?tagged=checkin Barnaby's notes tagged checkin] for more
+* And [http://waterpigs.co.uk/notes?tagged=location notes tagged location]
+
+=== Tom Morris ===
+[[User:Tommorris.org|Tom Morris]] is using [[Ferocity]] on tommorris.org to publish notes with venue data in an embedded [[h-card]] with [[geo]] microformat hyperlink (with title="lat;long") since 2013-02-02 . Examples:
+* [http://tommorris.org/posts/8073][http://tommorris.org/posts/8074]
+
+=== Ben Werdmuller ===
+[[User:Werd.io|Ben Werdmuller]] is using [[idno]] to post checkins since ????-??-??. e.g.:
+* ... (need checkin permalink)
+
+== questions ==
+More explorations/brainstorms than FAQ yet.
+=== just a note with a location ===
+Is a checkin actually a separate post type?
+
+Or is it just a [[note]] with location information?
+
+Or does a [[note]] with location information become a checkin only when the location is a specific [[venue]]?
+
+E.g. what are the user-expected/intentioned differences between:
+* checking into [[Foursquare]]
+* posting a note on [[Twitter]] with location information?
+
+The [[posts]] page has some discussion about the general question about explicit vs. [[posts#Inferring_post_kinds_from_properties|implicit post kinds]].
+
+== aspirations ==
+More ideas than creations, some thoughts about how individual indieweb community folks want to do indieweb checkins.
+
+=== indieweb venues ===
+Main article: [[venues]].
+
+<blockquote>I'd rather post a check-in on my own site, and have it use a venue URL that is *also* on my own site. Then at that indieweb venue URL, it can link to equivalents on Foursquare, OSM, FB, and whatever other centralized venue databases are created in the future. - [[User:Tantek.com|Tantek]] [http://indiewebcamp.com/irc/2012-12-29#t1356810217] </blockquote>
+
+Experience with Foursquare's "community generated/patrolled venues database" is that a few nitwits can pollute/damage the data quite badly, with deletions, overmergings etc. Sad to say, same thing happens with Wikipedia (excessive deletions, overmergings). Thus little hope that a "community hosted venues database" wouldn't have all the same problems, if not worse.
+
+Just use [[hCard]] on indieweb venue URLs.
+
+see also:
+* [[2012/Open_Checkins#Venue|2012 IndieWebCamp Open Checkins Venue discussion]]
+
+=== geolocation detection ===
+In general it is good to use multiple source of geolocation information in order to increase accuracy and decrease latency to provide this information when querying for and presenting (multi-factor prompts) nearby venues.
+
+==== GPS ====
+<blockquote>GPS is great. Except when you are inside a building - it doesn't work. Then you go and get on the Tube, and pop out the other side. It takes time for GPS to seek. You spend much more time waiting for GPS to work out where you are than you do just typing in the name of the bar or whatnot.[http://indiewebcamp.com/irc/2013-03-06#t1362589570]</blockquote>
+
+==== wifi location ====
+wifi-assisted location determination can do better than GPS when inside a building.
+
+==== velocity prediction ====
+Last time(s) you checked in (or GPS was detected), you were moving in this direction at this pace, therefore you're likely at this location now.
+
+==== pattern prediction ====
+The last n times you checked in at place A, you checked in at place B within the next thirty minutes.
+
+==== co-checkin prediction ====
+You just checked in with friend F at location A, your friend F just checked in at location B, therefore you might be at location B as well.
+
+== see also ==
+* [[geo]]
+* [[location]]
+* [[media checkin]]
+* [[POSSE]]
+* [http://aaronparecki.com/2012/296/article/1/creating-content-on-the-indie-web Creating Content on the Indie Web] ([[User:Aaronparecki.com|aaronparecki.com]])

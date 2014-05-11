@@ -1,0 +1,10 @@
+{{stub}}
+
+'''<dfn>[http://opensocial.org/ OpenSocial]</dfn>''' is a "standards-based component model for cloud based social apps."[http://opensocial.org/]
+
+It was most recently discussed at the [[2013/osfw3c|2013 W3C Social Web workshop]].
+
+== See Also ==
+* http://opensocial.org/
+* http://en.wikipedia.org/wiki/OpenSocial
+* [[social-standards]]

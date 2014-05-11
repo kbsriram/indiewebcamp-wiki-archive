@@ -1,0 +1,13 @@
+{{stub}}
+
+'''<dfn>[https://www.gnu.org/software/social/ GNU social]</dfn>''' is an open source [[project]] that "will be a decentralized social network that you can install on your own server"[https://www.gnu.org/software/social/]
+
+On 2013-06-08, GNU social merged with (incorporated) [[StatusNet]] and Free Social.[https://www.gnu.org/software/social/merge.html]
+
+== Criticisms ==
+=== Difficult to get information about ===
+<blockquote>As so very often with GNU projects it is really difficult to get information about it fast, you have to search and find it all over the internet</blockquote>[http://indiewebcamp.com/irc/2013-11-02#t1383405690]
+
+== See Also ==
+* [[projects]]
+* [[StatusNet]]

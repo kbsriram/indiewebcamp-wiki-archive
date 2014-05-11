@@ -1,0 +1,24 @@
+{{stub}}
+
+A '''<dfn>card</dfn>''' in the context of the indieweb are small information summaries—often summaries of specific, external web pages.
+
+== Silo Examples ==
+=== Apple Passbook ===
+[[Apple]]
+* (Apple Passbook API/format reference needed)
+
+=== Facebook OGP ===
+{{main|The Open Graph Protocol}}
+[[Facebook]]'s [[OGP]] is an open standard to represent summaries of pages linked to in Facebook posts.
+
+=== Google Now ===
+[[Google]]
+* http://www.google.com/landing/now/#cards
+
+=== Twitter Cards ===
+{{main|Twitter Cards}}
+[[Twitter]] uses [[OGP]] and their own proprietary meta tags to provide [[Twitter Cards]] functionality in tweets.
+
+== See Also ==
+* [[link-preview]] - one use case of cards
+* [[posts]] - see post kinds for an analogy of kinds of cards

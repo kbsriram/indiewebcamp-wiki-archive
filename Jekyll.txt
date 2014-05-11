@@ -1,0 +1,59 @@
+{{stub}}
+
+[http://jekyllrb.com/ Jekyll] helps you create "Simple, blog-aware, static sites" suitable for [[web_hosting#Static_domain_hosting|static domain hosting]]. It is simple in sense that it does one thing well.  It compiles HTML and markdown files into a static website.  
+
+The learning curve is steep for those not used to HTML. However, there is a pattern of people migrating from [[WordPress]] to Jekyll, and many people in [[IRC]] have experience with setting up Jekyll.
+
+It was made popular by GitHub's offer to [http://pages.github.com/ build and host your jekyll powered website for free]. While [[GitHub]] may be a form of a [[silo]] that can easily host a Jekyll website, Jekyll has no dependence upon GitHub.  Projects like [https://github.com/developmentseed/jekyll-hook jekyll-hook] can help replicate the publishing workflow that GitHub offers on your own server.
+
+See also: [[projects#Jekyll]]
+
+== Pros ==
+* It's git friendly!
+* It's a great way to learn more about websites HTML, CSS and other web technologies and standards.
+* [https://github.com/jekyll/jekyll Open source] and free!
+* Large community and active development team
+* Lets you create pretty much any kind of static website you want.
+* Has a powerful plugin system
+* Easily self hosted
+* Simple static pages are the result of your hard work.
+
+== Cons ==
+*  The liquid templating engine has [https://github.com/Shopify/liquid/issues/162 no love for pretty HTML]
+* It takes a while to learn the ins and outs of what can be created.
+* Static pages restricts your options when participating in the the real-time web
+* [[POSSE]] is tricky with jekyll.  [http://bret.io/2013/11/16/t1/ bret.io] manually posse's content to twitter.
+
+== Related Tools ==
+* [https://github.com/alagu/pagoda Pagoda] - a self hosted, mobile friendly editor for jekyll pages.
+* [https://github.com/developmentseed/jekyll-hook jekyll hook] - A self hosted gh-pages like server.
+* [http://prose.io/ Prose.io] - An editor for github repositories.  Itself is hosted on GH-pages and runs almost entirely client side in the browser.  [http://developmentseed.org/blog/building-a-new-prose/ read more]
+
+== Indieweb Users ==
+Community members:
+* Ben Ward (2011) on [http://benward.me/blog/time-place-design-principals benward.me]
+* [[User:Bret.io]] (2013) on [http://bret.io/ bret.io]
+* [[User:Kodfabrik.se]] (2014) on [http://voxpelli.com/ voxpelli.com] using GitHub Pages
+Other independents:
+* Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
+* Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]
+
+== Troubleshooting ==
+=== Something is not working on my local box ===
+''Something is not working on my local box.''
+
+Be sure to:
+* Update rvm (ruby)
+* install the liquid gem
+* gem install jekyll
+
+=== gem install jekyll hangs indefinitely ===
+''"gem install jekyll" hangs indefinitely''
+
+Note:
+* <kbd>gem install jekyll</kbd> takes a very long time. It may appear to be hanging but just let it go. Go for a walk or something.
+
+== See Also ==
+* [[projects]]
+* [[GitHub]]
+* [[WordPress]]

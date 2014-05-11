@@ -1,0 +1,83 @@
+{{stub}}
+
+A '''<dfn>silo</dfn>''', or web content hosting silo, in the context of the IndieWeb, is a centralized web site typically owned by a for-profit corporation that stakes some claim to content contributed to it and restricts access in some way (has walls).
+
+http://www.energyenhancement.org/matrix02.jpg
+
+Silos are characterized by the following:
+* require you to create an account specific to that site to use it (silo identity)
+* allow you to interact on the site <em>only</em> with others with accounts on the site (silo contacts / social network)
+* allows you to post some type of content (text, hypertext, images, video)
+* and typically one or more of the following:
+** an access wall that prevents indexing of (at least some of the) content you contribute
+** a restrictive terms of service (TOS)
+** claims some ownership or license to any content you create within the silo
+** restricts your ability to import/export your content, or content about your content (e.g. comments, tags)
+
+In contrast, see: [[commons]].
+
+== Perspectives ==
+<blockquote>What are the silos? Control. The silos are computer-generated dream worlds built to keep us under control in order to change a human being into this. <br>[holds up chart showing clicks on ad units]<br>(with apologies to [http://www.imdb.com/title/tt0133093/quotes?item=qt0324328])</blockquote>[http://indiewebcamp.com/irc/2013-10-29/line/1383094754]
+__TOC__
+== History ==
+{{main|History}}
+
+For a brief history of the rise and fall of various silos, see the [[History]] page for launch, acquisition, death, and zombification years/dates. See [[site-deaths]] for upcoming and past silo deaths in particular.
+
+== Popular Silos ==
+<div style="float:right">[http://geekandpoke.typepad.com/geekandpoke/2010/12/the-free-model.html http://geekandpoke.typepad.com/.a/6a00d8341d3df553ef0147e0e1aec2970b-300wi?x=.jpg]</div>
+These silos are both popular, and used by a number of indiewebcamp community members (often via [[POSSE]]) to stay in touch with their friends.
+
+* [[App.net]]
+* [[Facebook]]
+* [[Flickr]]
+* [[Google+]]
+* [[Instagram]]
+* [[Medium]]
+* [[Pinterest]]
+* [[Tumblr]]
+* [[Twitter]]
+* ...
+
+If you have friends that are active on a popular silo, feel free to add it to this list.
+
+== Specialized Silos ==
+* [[Netflix]] - Movie ratings and reviews
+* [[FFFFound]] - just for collecting/sharing images from around the web
+* [[Twitpic]] - for sharing pictures on [[Twitter]]
+* [[Nike+]] - tracks some exercise information
+* [[Fitocracy]] - fitness tracking
+* [[Garmin Connect]] - GPS sport tracking for Garmin devices
+* [[Strava]] - GPS sport tracking
+* ...
+
+Add any silo to this list that you're an active user of and especially if you can document how to export data from it.
+
+== Other Silos ==
+* [http://www.cybe.com/ Cybe] appears to be a splash screen and silo at cybe.me with a ton of rhetoric ("manifesto", "vision", etc.).
+
+== Silo Quitting ==
+A number of individuals, prominent and otherwise, have publicly "quit" various silos
+* [[silo-quits]]
+
+== Linkwrapping ==
+Many silos wrap any links posted on them with their own domains or link-wrapping domains, sometimes in an attempt to make links shorter, sometimes to provide a bottleneck which they can use to mass disable spam/phishing links. 
+
+Downsides:
+* '''Breaks link referrals''' (you just see the silo wrapper, not the actual post that linked to your domain)
+* '''Fragile''' for all the usual link-shorteners by a site other than the owner are fragile problem. As well as their typical use of [[database]] ids.
+
+Examples:
+* [[Facebook]]: m.facebook.com/l.php...[https://twitter.com/kyle_wm/status/446818317408280576]
+* [[Twitter]]: t.co
+* [[Feedly]]: [http://indiewebcamp.com/File:silo-urls.jpg Feedly Short URL fail]
+* ... others?
+
+== See also ==
+* [[bulshytt]]
+* [[history]]
+* [[sites with data portability]]
+* [[site deaths]]
+* [[site changes]]
+* [[commons]]
+* [[monoculture]]

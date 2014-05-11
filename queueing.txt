@@ -1,0 +1,5 @@
+{{stub}}
+
+Approaches for handling work asynchronously:
+* A proper queuing system like beanstalkd, gearman
+* Make an entry somewhere for the task and then have a cron do it. You could also use a [http://www.sitepoint.com/web-bugs-for-job-scheduling-hack-or-solution/ web bug].

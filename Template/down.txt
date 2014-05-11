@@ -1,0 +1,1 @@
+<span style="display:inline-block; width:7em; background: red; text-align:center">down</span>

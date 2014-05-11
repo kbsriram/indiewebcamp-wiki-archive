@@ -1,0 +1,6 @@
+{{stub}}
+
+'''<dfn>[https://www.mongodb.org/ MongoDB]</dfn>''' is server-side [[database]] software used for storage in some CMSes.
+
+== See Also ==
+* [[databases-antipattern]]

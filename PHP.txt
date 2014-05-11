@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>PHP</dfn>''' is a programming language and web server runtime environment used for many IndieWeb [[projects]].
+
+== Projects ==
+* [[Falcon]] - much of it is in [[CASSIS]] as well.
+* [[idno]]
+* [[p3k]]
+* [[stapibas]]
+* [[Taproot]]
+* [[WordPress]]
+
+== See Also ==
+* [[Python]]

@@ -1,0 +1,23 @@
+{{stub}}
+
+wget is a unix utility for recursively downloading and archiving webpages.
+
+== How To ==
+
+=== Installation ===
+
+==== Linux ====
+
+Most linux distros should come with wget installed. If not, use your applicable package manager.
+
+==== Mac OS X ====
+
+* I installed wget via homebrew, and don’t recall having any problems, although homebrew can be a pain if you install lots of stuff from source. <code>brew install wget</code> --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 09:39, 26 April 2013 (PDT)
+
+=== Archive a Site ===
+
+Run <code>wget -r http://site-domain.com</code>. wget will fetch the first page then recursively follow all the links it finds (including CSS, JS and images) on the same domain into a folder in the current directory called whatever the site domain is.
+
+You can then browse through all the site’s files, although simply opening them in a browser may not work as links probably won’t resolve properly. You’ll need to run a local webserver to view your local copy as if it was a website.
+
+TODO: Add basic apache/nodejs webserver tutorial

@@ -1,0 +1,3 @@
+{{stub}}
+
+'''[http://ownyourgram.com OwnYourGram.com]''' is a service which streams your [[Instagram]] photos to your own site in real-time. After signing in with [[IndieAuth]], it sends your Instagram photos to your [[micropub]] endpoint.

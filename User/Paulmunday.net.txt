@@ -1,0 +1,7 @@
+Lives in Portland Oregon.
+
+Personal site [paulmunday.net] built using [http://flask.pocoo.org Flask].
+
+The code is available on github: [https://github.com/tallus/monomatapa Monomotapa].
+
+tallpaul on Freenode IRC.

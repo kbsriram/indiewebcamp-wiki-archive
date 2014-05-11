@@ -1,0 +1,403 @@
+<span style="float:right">https://pbs.twimg.com/profile_images/651194638/falcon.png</span>
+
+'''<dfn>[http://tantek.com/w/Falcon Falcon]</dfn>''' is a personal publishing (tweeting, blogging, realtime syndicating) web application.  There is an instance of Falcon running at [http://tantek.com tantek.com] and serving/syndicating blog and tweet content.
+
+Attendees that are using it on their own site:
+* [[User:Tantek|Tantek Çelik]] ([http://tantek.com tantek.com], author (Falcon), actively developing and sharing portions as open source in http://cassisproject.com)
+* ...
+
+== Disclaimer ==
+Note: this documentation is purely for informational purposes. 
+
+There are many aspects of this design that are not optimal and that I'm working on improving.  However I figured it was still worth documenting it to capture it.
+
+If some of this helps you with designing your own indieweb implementation, great. If something doesn't make sense, ask, as there's a good chance it's something that I should fix in the design. 
+
+Thanks, - [[User:Tantek.com|Tantek]] 19:37, 23 March 2013 (PDT)
+
+== Post Types ==
+Falcon supports the following 5 kinds of [[posts]]
+* '''[[notes]]''' - with 
+** white-space (serial space characters, line-breaks, blank lines)
+** auto-linking of URLs, @-names to Twitter
+** auto-embedding of JPG/PNG/GIF/MP4/MOV/OGV and Youtube/Vimeo URLs
+** [[POSSE]] to [[Twitter]] of up to 120 chars with permashortid of original post, or first 112-115 chars with ellipsing/truncating and permashortlink to original post. (assuming 6 char personal short domain, e.g. ttk.me)
+** [[webactions]]: Favorite, Retweet, Reply with Twitter fallbacks
+* '''[[articles]]''' - blog posts
+* '''[[reply]]''' notes - similar to notes, but for replying to tweets, commenting on other posts
+** with minimal [[reply-context]] support (linked URL of original being replied to)
+** with [[multi-reply]] reply-context presentation support too.
+** current reply limitations: 
+*** only replies to tweets (Tweet permalink URLs) are well supported. I've wanted to POSSE my @-replies to Twitter and have them thread properly on Twitter for a while, so even just implementing this helps me interact with friends who use Twitter instead of their own site (most people).
+*** replies to indieweb URLs are supported for posting / storing / presenting, but won't thread to their POSSE copies. I want to fix that before I post a reply to an indieweb post, because I really want my POSSE'd @-reply to thread properly to the POSSE'd copy of the original indieweb post. I want my replies to indieweb posts to be better (and no worse, in all ways) than my replies to tweets.
+* '''[[rsvp]]''' notes - similar to reply notes, but for RSVPing to indieweb [[event]] posts. (2013-264)
+** <code>p-rsvp</code> marked up with a <code>&lt;data&gt;</code> element in its [[reply-context]] where it says "RSVP yes to". E.g. [http://tantek.com/2013/264/t1/indiewebcamp-breakfast-rsvp].
+** only works for indieweb [[event]] posts - no POSSE reply threading support.
+** only supports RSVP "yes", via text of note starting with the literal text: "going to "
+** assumes <em>first</em> in-reply-to URL in the note is the URL of the [[event]] post being RSVPed to.
+** [[webmention]] must still be sent manually, e.g. via <code>curl</code>.
+* '''[[comics]]''' - similar to articles, except the post name is incorporated into the image and not displayed separately. The image is served wider than images in articles, and is marked up with: <blockquote><nowiki><div class="comic"><object type="image/jpeg" ...> fallback markup </object></div></nowiki></blockquote> In addition to the image, there's a further visible description, hyperlinked, semi-structured.
+** fallback markup inside the comic image describing the comic strip scene, actors, and dialog.
+*** including markup of the plain text post name (p-name) which is otherwise reflected in the comic image.
+
+Note: auto-linking and auto-embedding is all accomplished with the open source [[CASSIS]] <code>auto_link</code> function.
+
+== POSSE Details ==
+Falcon currently supports [[POSSE]]ing:
+* '''[[notes]], [[replies]], [[rsvps]] directly to [[Twitter]]''' - first 112-120 characters (depending on content), white-space preserved
+** '''reply threading on Twitter''' - reply notes are [[Twitter#POSSE_Replies_to_Tweets|POSSE'd as @-replies]] with proper threading (currently requires user input of original tweet permalink URL that is being replied to).
+** '''notes indirectly to [[Facebook]]''' - standalone POSSE'd notes are then also automatically syndicated to Facebook (I ([[User:Tantek.com|Tantek]]) have Twitter setup to do this)
+
+== Publishing UI ==
+Falcon publishing UI currently consists of the following:
+# '''BBEdit''' (your choice of text editor) write new post in the storage file directly (see below for storage file format)
+# '''Terminal scp''' (update storage file on server)
+#* at this point the post is live on the site, including permalink, home page (if among recent posts), Atom feed
+# minimal '''verify, PuSH, POSSE web UI'''  that:
+#* provides a text input field for a tweet URL that the next post is in-reply-to
+#* shows a preview of the next post (notes shown enough to fit in a tweet, auto-linked; only articles' names are shown. Both represent what will be tweeted in the POSSE step).
+#* provides a button '''(Tweet it)''' which when pressed, submits the form and does all the
+#** [[PuSH]] sending, 
+#** [[POSSE]]ing to [[Twitter]], and 
+#** saving resultant Twitter syndicated copy URL to storage.
+
+== Legacy support ==
+Falcon supports the following legacy technologies for specific use-cases.
+=== Feeds ===
+Falcon supports:
+* [[Atom]] with [[ActivityStreams]] object type annotations. 
+** Use-case: Tantek.com's Atom feed of articles is consumed by [http://planet.mozilla.org/ Planet Mozilla].
+* [[PuSH]] notifications when posts are published
+** Use-case: [[Status.net]] / Identica subscribers get real-time updates via PuSH notifications from tantek.com
+
+== Working On ==
+The next things I'm working on to add to Falcon:
+=== mobile recent articles box ===
+There have been enough times that I've referred to recent articles in a mobile context (while walking around with someone) on my or another's mobile device, that it would be useful to move my recent articles box to the top of my site even in the mobile view. Longer term, such a box should simply be a movable Falcon template item.
+
+=== mobile home template header icons folders ===
+Implement mobile home template header icons folders per [http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience#what-next Toward A People Focused Mobile Communication Experience: What Next]
+* Prototype HTML+CSS+JS for mobile home template header icons folders 
+** in a separate standalone minimal home.html - as simple re-usable code (should be easier to create and understand/maintain)
+** Use JS to output inline markup for links to comm protocols that are spammed (e.g. email-ID in facetime: )
+** Consolidate photo and h-card with description at top, followed by Contacts, Create & Meet, Elsewhere links, styled minimally
+* Deploy on personal site by incorporating home.html into live index.html markup
+* Prototype for iOS7 for limited/focused testing on iPod/iPhone and user feedback
+* Generalize to work for FirefoxOS device which should then work well on Firefox for Android (and Android in general).
+
+
+E.g.
+
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-icons-folders-ios7.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+==== Contact expanded ====
+When a viewer taps the '''Contact''' icon folder it expands as follows, and then the viewer can tap the mode of messaging/communicating they want to use to contact me which immediately opens a new message (txt, FB Messenger, G+ Hangouts, AIM IM), or starts a new call (FaceTime, Skype), or Twitter new direct message window. Directly to communicating - bypassing all comm app home page / activity distractors.
+
+The one change I'd make from these mockups are some of the labels. All of the labels should be verbs, not nouns, indicating the action the user wants to take and thus reinforcing their intention.
+
+E.g. "Messages" should be "txt message", "Messenger" should be "FB message", "Hangouts" should be "GTalk", and the rest seem to read fine as verbs.
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-contact-ios7.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+
+==== iOS6 mockups ====
+Original prototypes done in iOS6, probably not worth implementing, but may contain interesting UI ideas nonetheless:
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-icons-folders-mockup.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+'''Contact expanded'''
+
+The one change I'd make from these mockups are some of the labels. All of the labels should be verbs, not nouns, indicating the action the user wants to take and thus reinforcing their intention.
+
+E.g. "Messages" should be "txt message", "Messenger" should be "FB message", "Hangouts" should be "GTalk", and the rest seem to read fine as verbs.
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-contact.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+=== event posts ===
+Support for publishing [[event]] posts, essentially:
+* permalink pages for events with h-event as the root object for the page
+** dt-start in the future
+** p-name on top, possibly over a p-photo (if any) as background image
+** static map of location, e.g. 640x160: http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-orange-cutout&basemap=gray&width=640&height=160&zoom=15
+*** perhaps insert static img using JS on page from the <code>p-location</code> [[h-geo]] or [[h-card]]/[[h-adr]] of the event. To avoid having search spiders crawl the map embeds etc. Better for them to just directly use any geo-related microformats in the event.
+*** perhaps change color according to "how soon til event" color clues (e.g. [http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-green-cutout&basemap=gray&width=640&height=160&zoom=15 green] before, [http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-yellow-cutout&basemap=gray&width=640&height=160&zoom=15 yellow] day of, [http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-orange-cutout&basemap=gray&width=640&height=160&zoom=15 orange] hours before, [http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-red-cutout&basemap=gray&width=640&height=160&zoom=15 red] during, [http://static-maps.pdx.esri.com/img.php?marker=location:2+Harrison+st,+San+Francisco,+CA;icon:small-blue-cutout&basemap=gray&width=640&height=160&zoom=15 blue] when it's over). See [https://github.com/esripdx/Static-Maps-API-PHP Static-Maps-API-PHP documentation] for other options. 
+** possibly linked to equivalent Google map (to get directions)
+*** decided not to use [http://nominatim.openstreetmap.org/search?street=2+harrison+st&city=san+francisco&state=ca Nominatim equivalent], though that's another alternative
+** who is going/maybe/invited (h-cards)
+** event description
+** event activity (event creation, comments, RSVPs) 
+*** receive webmentions for this (will likely use webmention.io to queue them up)
+*** manual acceptance / copy-pasting of RSVPs onto the event
+*** (semi-)automatic acceptance of RSVPs
+* home page: have them automatically appear as part of my stream/home page at the event start time 
+* upcoming box: have the next 3 upcoming events automatically appear on the "next 3 events" box on my home page
+
+=== improve replies details ===
+==== post reply to any URL and auto POSSE ====
+Do '''[[rel-syndication]] discovery of POSSE tweets''' in posting form / UI to support [[Twitter#POSSE_Replies_to_Twitter|POSSE Replies to Twitter]]
+* Per:
+** [[rel-syndication#POSSE_threading|use-case description]]
+** [[rel-syndication#Discovery|discovery algorithm]]
+* Using:
+** [[php-mf2]] statically with
+*** <code>[https://github.com/indieweb/php-mf2#parsing-rel-and-relalternate-values ->parseRelsAndAlternates()]</code>
+* So I can:
+** enter just the URL of an original indieweb post I'm replying to into my posting storage (or UI),
+** have Falcon's posting UI automatically discover the link to the tweet copy of the post 
+** add an in-reply-to link from my post to the tweet I'm replying to
+** have my reply POSSE copy thread with the POSSE tweet of the original.
+* ''Why?''
+** automatically thread the POSSE copy of my reply with the POSSE copy of the original indieweb post that I was replying to.
+** remove step of me having to look for the "also on twitter" link on an indieweb post and explicitly copy/paste it into my storage/UI.
+** Provide better user experience for those reading my posts on Twitter by providing them the threaded context right there in their reading experience.
+
+==== post reply to any tweet and auto indie-post reply ====
+Do '''[[original-post-discovery]]''' in posting form / UI (approach: use [http://waterpigs.co.uk/services/original-post original post endpoint] from server)
+* So I can:
+** enter just the URL of a tweet I'm replying to into my posting storage (or UI),
+** have Falcon's posting UI automatically discover the link to the original post (that the tweet is a copy of)
+** add an in-reply-to link from my post to the original post I'm replying to, before the in-reply-to of the tweet
+** while still having my reply POSSE copy thread with the POSSE tweet of the original.
+* ''Why?'' 
+** automatically link from my posts to more indieweb posts instead of their Tweet POSSE copies - prefer linking to indieweb original content and URLs
+** remove stress of having to check a tweet manually to see if it has an indieweb original version - less thinking about having to find an original permalink myself manually.
+==== send webmentions for posted links ====
+Send [[webmentions]] for posted links:
+* Using [[webmention#Discovery_in_PHP|Discovery in PHP]] approach to find endpoint then <code>curl</code> to send.
+* ''Why?'' 
+** Enable syndicating posts to [[IndieNews]] (assuming I have [[rel-syndication]] links to IndieNews implemented - perhaps as post option in my UI). Help demonstrate IndieNews as a proof of concept of an indieweb-friendly link aggregator.
+* '''in particular do a HEAD request first, then GET''' if no endpoints found and type is text/html or application/xhtml+xml.
+** ''Why?''
+*** simplest way to both minimize bytes requested by my server and avoid GETting non-HTML links (which I do link to plenty often in my posts)
+* '''if no webmention endpoints found, do fallback discovery for pingback''' inside same HEAD/GET results and send pingback, using an approach like https://gist.github.com/aaronpk/5744879
+** ''Why?''
+*** To support posting comments on indieweb community member's sites that receive pingbacks but not webmentions, e.g. Laurent's [https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html Testing #indieweb federation].
+* '''in particular to links I'm [[in-reply-to|replying to]]'''
+** ''Why?''
+*** '''To participate in [[comments-presentation#Current_Indiewebcamp_Practices|federated indieweb commenting]] on others' sites!''' (this is a big milestone for any indieweb implementation)
+*** '''To demo real-time comments showing up''', e.g. on aaronparecki.com
+*** To comment on IndieNews posts (assuming I have [[rel-in-reply-to]] links to IndieNews URLs implemented) as a proof of concept of an indieweb-friendly comment aggregator/threader.
+* <span id="show-webmentions">'''show webmention results'''</span> - Perhaps show a list of outbound links with send result for each (no webmention/pingback endpoint found, or green checkmark webmention/pingback sent, or red webmention/pingback rejected, distinguish webmention/pingback for each)
+** ''Why?''
+*** UIs that provide feedback on actions instill more confidence that the actions took place (similar to providing the tweet permalink of a successful POSSE to Twitter).
+*** Debug/diagnose possible problems with other indieweb sites (may expand later into part of the whitelist, webmention+howyouknowme protocol/UI)
+*** Convenient UI to specifically check (click-on) links with successful webmentions to see if they parsed my reply into their comments section correctly or did something else with it.
+*** Might help discover sites with newly added webmention/pingback receiving support.
+*** Could help demonstrate/explain how webmentions work
+==== improve reply-context support ====
+Improve reply-context support in reply posts:
+* ''Why?'' Provide readers better [[reply-context]] of the URL (or URLs - see [[multiple-reply]]) I'm replying to. Better user experience through increased comprehension from the provided context.
+* Currently works for showing all in-reply-to URLs (union of explicit [[rel-in-reply-to]] and u-in-reply-to markup). Necessary improvements:
+** Show @-username in reply contexts for replies to Tweets
+** Copy and show Twitter @-user avatar, Tweet text, dt-published
+=== improve rsvp reply notes ===
+Improve [[rsvp]] reply notes:
+* implement p-rsvp options of "no", "maybe", and "tracking"
+* use presence of p-rsvp to display an RSVP differently than a simple reply - more calendarish.
+* send a webmention - should get automatically from the above reply webmention implementation, but just explicitly noting this as something that needs to work.
+=== implement reposts of tweets ===
+Implement [[reposts]] of tweets:
+* ''Why?'' So I can retweet tweets from my own site (rather than directly on Twitter), keeping a copy of the retweet on my own site, while still POSSEing the retweet on Twitter, so the original tweeter sees that I've reposted/retweeted it.
+=== implement reposts of indieweb posts ===
+Implement [[reposts]] of indieweb posts, and POSSE syndicated copy:
+* ''Why?'' So I can repost native indieweb posts, and if they have a rel-syndication link to tweet, then as part of POSSEing my post, the tweet of the original can be retweeted!
+
+=== archives ===
+There is some support in Falcon for displaying archive pages but they need more work.
+==== archive pages ====
+* need better CSS for pages of all posts from a particular
+** [[bim]]
+** [[newmonth]]
+** [[day]]
+** [[day]] - only posts of a certain type (like only [[notes]])
+==== archive navigation ====
+* need a UI for navigation across and into/out of archive pages. Something better than a big list of years/months links that are all too common on blogs.
+==== archive templates ====
+* Each archive needs some sort of [[template]] solution. Probably need to document/explore all [[template#Falcon|Falcon template use-cases]] as part of this, beyond just archive pages.
+
+=== more ===
+Beyond that, I find my prioritization changes often enough that I just keep a loose collection of thoughts/ideas/wants/brainstorms that I occasionally iterate on until something reaches the point of - hey, I could finish coding that in a day or two.
+
+== Itching ==
+These are a collection of annoyances that have respective features / improvements. As their annoyance level bubbles to the top, they're likely to become concrete "Working On" tasks.
+
+=== Payment Links ===
+Similar to the mobile [[communication]] links, it would be good to have a set of [[payment]] links/buttons which show the user different ways to pay, in order of my preference, and then the user can choose which one they can and want to do.
+
+=== Reply Context ===
+Itch: having to click through to the original and/or the Twitter conversation to get what the context of my replies are.
+* Scratch: Display [[reply context]] on my replies so you don't have to look/go elsewhere for that.
+
+=== Indie Checkins ===
+Itch: really getting tired of venue griefers/abusers/overmergers on [[Foursquare]]. Overmergers: people who take two distinct [[venues]] and merge them into one because they have some mistaken idea of what a "venue" is. Overmerging ends up redirect both previous unique URLs to one of them, and it effectively destroys your history at checking into either, because after that, you don't know which it was. It's like wiki vandalism but worse because there is no history and no accountability.
+* Scratch: Indieweb [[checkins]] from/on my own site, which then [[POSSE]] out to [[Foursquare]] (required for me because I'm a heavy Foursquare user and I wouldn't switch over to using my own indieweb checkins without that automatic capability. Mobile web support via Geolocation API is a must.)
+* Scratch: Indieweb [[venues]] are essential to make indieweb checkins work and maintain data fidelity. ** Challenge: how to deal with POSSE'd venue references when silo venues are subject to such vandalism as noted in the itch description.
+
+More thoughts on what I want for indieweb checkins on my site:
+
+==== Levels of access ====
+Four levels of privacy/access that I personally want / have use for.
+# myself only. use-case: personal/private logging.
+# passive friend access (i.e. they can see when they're logged into my site, "current location:", but I'm not broadcasting to them on silos). use-case: ok with friends knowing where I am, but it's not important enough to broadcast to them (reduce unnecessary interruptions to my friends).
+# broadcast to friends only (i.e. POSSE out to Foursquare). use-case: I'm somewhere where I wouldn't mind if friends in the area happened to be informed in real time and show up.
+# public checkin posts. use-case: public events where there's many more people than just my friends, and I'm ok with anyone knowing that I'm there (e.g. I'm speaking at or attending a conference).
+
+==== Past discussion sessions ====
+I've led some discussion sessions on this topic and we took notes on what we figured out:
+* 2012-181 OSBridge BarCamp Day: [http://opensourcebridge.org/wiki/2012/Foursquare_is_down! Foursquare is down! Let's figure out IndieWeb Checkins!]
+* 2012-182 IndieWebCamp 2012: [[2012/Open_Checkins|Open Checkins]]
+* 2012-296 in-person discussion at the CodeStrong party at Jillian's with Aaron Parecki about do we really need different post kinds, or can we simply imply them (and any custom UI) from what aspects/properties a post has? Later that night Aaron blogged some of the conclusions of our discussion: http://aaronparecki.com/articles/2012/10/22/1/creating-content-on-the-indie-web#indieweb-posts
+
+Key realizations:
+* a [[checkin]] may just be a [[note]] with [[venue]] information (and nothing else, maybe text fallback like "at venuename")
+* a [[checkin]] with shout may just be a text [[note]] with [[venue]] information
+* a [[checkin]] with photo and shout may just be a [[note]] with a [[photo]] and [[venue]] information
+* Thus the key to implementing checkins is just:
+** figure out how to attach [[venue]] information to [[posts]] and [[notes]] in particular
+*** i.e. what to add to [[h-entry]], would a <code>class="p-location h-card"</code> be enough to imply at venue when posting?
+** figure out how to present [[notes]] that are [[checkins]] as implied by the presence of [[venue]] info:
+*** only have [[venue]] information (with possible text fallback)
+*** have an explicit text [[note]] with [[venue]] information (again with possible text fallback)
+*** have a [[photo]] (optional text [[note]]) with [[venue]] information (again with possible text fallback)
+
+I've been abstracting what we've figured out so far into these pages, but much of what was discussed in those sessions has not quite made it into them:
+* [[checkin]]
+* [[venue]]
+More help/input/contributions/edits welcome!
+
+=== POSSE CRUD ===
+Having updated and/or deleted a few notes and had to go do so manually on Twitter, I'd really rather have it be more automatic from my site and thus I'd like to implement:
+* [[POSSE#CRUD|POSSE CRUD]]
+
+In addition, the UI and code flow for editing/saving (updates), and deletes will help me better understand requirements for the more functional indie wiki pages (as described below).
+
+=== Indie Wiki ===
+Itches: 
+* feeling icky about hosting my personal wiki on the [[PBworks]] [[wiki]] [[silo]]
+* tired of not being able to edit it on mobile
+* disgusted with the ugly PBworks URLs
+* dislike the PBworks UI
+
+Scratch: have every page on my site by default be a wiki page made "wiki-like" by Falcon, where wiki-like means:
+* editable with web UI on any reasonably modern web browser, not requiring javascript
+* browsable version history (maybe with [[web sign-in]] only? no need to index version history)
+* browsable versions (maybe with [[web sign-in]] only? no need to index old versions)
+
+Brainstorm started here:
+* [[wiki-projects#Brainstorming|wiki-projects: Brainstorming]]
+
+== Implementation Design ==
+=== Code Files ===
+Falcon consists of [[PHP]] code (some of which is [[CASSIS]]) to display posts and code to write/publish/syndicate posts. Falcon code consists of only three files ('''bolded'''), some additions to the root .htaccess, and the libraries [[cassis]], [[relmeauth]], and [[tmhOAuth]] in the following structure:
+
+URL routing and display: (live at http://tantek.com/ )
+* [[cassis.js]]
+* '''falcon.php'''
+* '''index.php'''
+* '''whistle.php''' (see [[Whistle]])
+* '''''.htaccess''''' - only a section therein
+
+write/publish/syndicate: (live at http://tantek.com/falcon/ )
+* [[cassis.js]]
+* '''index.php'''
+* '''falconpost.php'''
+* lib - external libraries
+** [[relmeauth]]
+*** [[cassis.js]]
+*** [[tmhOAuth]]
+
+Note: as I cleanup, refine, and rewrite useful functions in Falcon in CASSIS, I've been open sourcing them in [[cassis.js]]. The following building block functions have been incorporated into other [[projects]]:
+* <code>ellipsize_to_word()</code> - particularly useful for [[POSSE]]ing out to [[Twitter]]
+* <code>auto_link()</code> - better plain text autolinker (and embedder) than Twitter, Facebook, and G+.
+- [[User:Tantek.com|Tantek]]
+
+=== Templates ===
+Falcon currently only uses templates for the home page and [[feed]]. The rest of the output markup is hardcoded in falcon.php (Note: that's not good design, all output markup should be in template files. There should be no markup in the implementation code itself.).
+
+falcon.php looks in the same directory for:
+* '''index.html''' - to construct a home page with the most recent N (default: 20) posts.
+** <code>.stream</code> - the most recent posts are placed into an ordered list element (<code>&lt;ol class="hfeed"></code>) which is then appended as the last child of the first element with class name of "stream" in the index.html template.
+* '''updates.atom''' - to construct a home feed with the most recent N (default: 20) posts.
+** feed "meta" elements as well as a series of <code>&lt;entry></code> elements representing the most recent posts are appended as the last child(ren) of the last element of the template (which happens to be the <code>&lt;feed></code> element - not a very flexible design - then again, neither is Atom itself :P ).
+
+=== Storage format ===
+When displaying the most recent N posts, Falcon looks for YYYY/B.html files in the current directory (YYYY being the current year and B being the current [[bim]]) and earlier files as necessary to retrieve N posts or until a previous storage file is not found, whichever comes first.
+
+When displaying a post permalink or archive for a particular year, bim, month, or day, Falcon computes the paths to the necessary file(s) according to year and bim and reads them.
+
+Each bim storage file is treated as [http://tantek.com/2010/302/b1/xhtml-dead-long-live-xml-valid-html5 XML-Valid HTML5] [[hAtom]] and XPath is used to retrieve <em>all</em> <code>.hentry</code> elements in document order. 
+
+For each such hentry, the first (in document order) instance of each of the following is retrieved (also using XPath) from the hentry's descendants:
+
+* <code>.published</code> - element parsed per the [http://microformats.org/wiki/value-class-pattern#Date_and_time_values Value Class Pattern: Date and time values]
+* <code>.entry-title</code> - element parsed for both plain text and nested markup
+* <code>.entry-content</code> - element parsed for both plain text and nested markup
+* <code>.using</code> - element parsed for plain text
+* <code>[rel~=bookmark]</code> - element parsed for its <code>href</code> attribute
+* id - the <code>id</code> attribute of the hentry element itself is also retrieved as plain text
+All "parsed for plain text" instances trim leading/trailing whitespace but preserve all other whitespace both for [[note#Indieweb_implementations|note permalink presentation]], and for POSSEing notes to Twitter.
+
+Every time an "hentry" is published &amp; syndicated to a 3rd party service ([[POSSE]] style of course), falconpost.php appends a child element to the end of the "hentry" with:
+* <code>class="url u-syndication"</code>
+* <code>rel="syndication"</code>
+* <code>href={absolute URL to syndicated copy on another service}</code>
+* innertext - perhaps name of service and service-specific unique post identifier
+e.g.: <blockquote><code>&lt;a rel="syndication" class="url u-syndication" href="http://twitter.com/t/status/314548524266172416">Twitter post 314548524266172416&lt;/a></code></blockquote>
+
+This syndication reference is also <em>read</em> by falconpost.php to see which entries have been syndicated to which service(s) (only [[Twitter]] is supported currently) when determining which entry to syndicate to which service next.
+
+In addition, falconpost.php stores in-reply-to information for reply notes by appending a child element to the end of the "hentry" with:
+* <code>class="u-in-reply-to"</code>
+* <code>rel="in-reply-to"</code>
+* <code>href={absolute URL to original post being replied to}</code>
+* innertext - "In reply to: " and perhaps name of service and service-specific unique post identifier
+e.g.: <blockquote><code>&lt;a rel="in-reply-to" class="in-reply-to" href="http://twitter.com/_/status/330099833383833601">In reply to: 330099833383833601&lt;/a></code></blockquote>
+
+=== Routing ===
+==== Home page ====
+Home page is routed by '''.htaccess''' directive to '''index.php''' for handling:
+<pre>
+DirectoryIndex index.php index.html
+</pre>
+
+'''index.php''' then simply includes '''falcon.php''' for handling.
+
+==== Shortlinks ====
+Shortlinks are routed by '''.htaccess''' directives to '''whistle.php''' for handling:
+<pre>
+RewriteRule ^b/[0-9A-Z_a-z]{3,5}.?$ whistle.php
+RewriteRule ^e/[0-9A-Z_a-z]{3,5}.?$ whistle.php
+RewriteRule ^t[0-9A-Z_a-z]{3,5}.?$ whistle.php
+</pre>
+
+Note that each post type's shortlink character code is handled by a separate rule. This is deliberate design flexibility so that each post type can potentially use a different algorithmic short URL.
+
+==== Permalinks and archives ====
+Any path that starts with a four digit number then a slash then 1-3 digits is presumed to be a year YYYY and the start of a permalink (/YYYY/DDD/tN/) or an archive page (/YYYY/DDD/t, /YYYY/DDD, /YYYY/MM, /YYYY/B) where:
+* "DDD" is ordinal day of the year
+* "t" is one character post type (per Whistle design)
+* "N" is decimal number nth post of that type that day
+* "MM" is for "new month" (per [[newcal]] new months)
+* "B" is for [[bim]] number
+
+Permalinks and archive pages are routed by '''.htaccess''' directives to '''falcon.php''' for handling:
+<pre>
+RewriteRule ^\d{4}/\d{1,3} falcon.php
+</pre>
+
+==== Legacy feed ====
+Legacy feed requests are routed by '''.htaccess''' directives to '''falcon.php''' for handling, e.g.: 
+<pre>
+RewriteRule ^updates\.atom falcon.php
+</pre>
+
+== Updates ==
+* https://twitter.com/Falcon - occasional updates
+
+== See also ==
+* [[Whistle]]
+* [[projects]]

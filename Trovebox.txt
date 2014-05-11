@@ -1,0 +1,19 @@
+{{stub}}
+
+'''<dfn>[https://trovebox.com/ Trovebox]</dfn>''' (formerly [http://theopenphotoproject.org/ OpenPhoto]) is a photo application [[project]] that lets you store your photos on Dropbox, Amazon S3 or in your garage, and serve them from URLs on your own domain. It's also an online service to "organize and share [[photos]] and [[videos]] with clients and colleagues".
+
+== IndieWeb users ==
+IndieWebCamp participants who are using it on their own site:
+* [[User:Upon2020.com]] (Johannes Ernst) is running a private instance for his family pictures
+* ...
+
+=== Formerly ===
+* [[User:Waterpigs.co.uk]] (Barnaby Walters) http://waterpigs.co.uk/ was running an instance of Trovebox to host his photos at http://photos.waterpigs.co.uk/ - it's now dead/offline, "pending transfer of relevant content to Taproot". <blockquote>I could probably attempt to debug the JS-related problem but would rather put that time into making getting Taproot displaying photo posts better. -Barnaby</blockquote>
+
+== Criticism ==
+* '''Poor integration'''. fails to easily integrate with any other posting software, e.g. for posting [[notes]], [[articles]], and photos into a single stream on your homepage.
+* '''Poor stream management'''. <blockquote>"it's fine as a full photo management stack, that's just not what I want in terms of publishing a photo stream." - [http://indiewebcamp.com/irc/2013-04-16#t1366140041 aaronpk on IRC]</blockquote>
+* '''Poor small/odd image size handling'''. <blockquote>"I have found it sub-optimal for small images (it scales them up to horrible dimensions) and weirdly shaped images (screenshots/panoramas, both of which i do a lot)" - [http://indiewebcamp.com/irc/2013-04-16#t1366140083 Barnabywalters on IRC]</blockquote>
+
+== See Also ==
+* [[photo]]

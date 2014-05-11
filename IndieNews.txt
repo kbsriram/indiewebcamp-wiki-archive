@@ -1,0 +1,11 @@
+{{stub}}
+
+'''<dfn>[http://news.indiewebcamp.com IndieNews]</dfn>''' is an indieweb version of [[Hacker News]] where in order to:
+* submit a post - post something on your own site and send [[webmention]] 
+* comment on a post - post a comment on your own site [[in-reply-to]] an IndieNews post.
+* vote-up a post - sign-in with [[IndieAuth]] to enable the vote-up UI.
+
+Source:
+* https://github.com/aaronpk/IndieNews
+Issues:
+* https://github.com/aaronpk/IndieNews/issues

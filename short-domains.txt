@@ -1,0 +1,134 @@
+= short URL domains =
+
+This page is for document the domains that we pick out and use for our personal URL shortening, analysis of their reliability/dependability, and just overall experience.
+
+== why personal short URLs ==
+=== backlinks from syndication ===
+A key part of owning your own content that you publish first yourself and syndicate elsewhere ([[POSSE]]) is providing backlinks ([[permalinks]]) to the originals from syndicated copies on social [[silos]]. 
+
+Some silos have post length limits (e.g. [[Foursquare]] [[checkin]] notes are limited to 200 characters). Better to provide short URLs ([[permashortlinks]]) instead so you can syndicate more of your content.
+
+Just like your content, your short URL shouldn't be sharecropped, thus you need your own personal short URL domain rather than using bitly or some other vulnerable shortlink service.
+
+=== permashortcitations ===
+Permashortcitations are permashortids in the form of a classical parenthetical summary citation.
+
+Short domains enable constructing of permashortcitations of the form:
+* <samp>(example.me t1234)</samp>
+
+This is particularly useful for providing less distracting citations. E.g. [[Twitter]] does not auto-link standalone ccTLD short-domains, thus making it possible to embed unlinked permashortcitations at the end of your [[notes]] which fit completely (including said permashortcitations) within Twitter's 140 character limit.
+
+See also: [[Twitter#POSSE_entire_note_to_twitter|POSSE entire note to Twitter]]
+
+=== original post discovery ===
+Both permashortlinks and permashortcitations themselves enable [[original-post-discovery]], for others to easily automatically find your original posts on your site purely from your syndicated tweet copies. Such automatic discovery in turn enables more indieweb-friendly reply-to behavior, whereby an indieweb user can write a post "[[in-reply-to]]" a tweet for example, and have their blogging system automatically post a [[rel-in-reply-to]] link to the original post instead (while still threading the POSSE'd copies together on Twitter).
+
+=== email IM SMS print ===
+Short URLs also enable, and/or better encourage additional URL sharing scenarios such as:
+* email (some systems wrap at 70 characters)
+* IM
+* SMS
+* print
+
+For more on this, see: [http://tantek.com/w/Whistle#whyshortURLs why short URLs and why do you need your own].
+
+== criticisms ==
+
+* I’m indifferent about short URLs. it’s rare that I’ve felt I really need one, and for me the value doesn’t outweigh the pain of maintaining/paying for another domain, hosting, writing more code --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:05, 3 September 2013 (PDT)
+
+== domains ==
+Alphabetically sorted domains:
+
+=== gs ===
+.gs is the [https://secure.wikimedia.org/wikipedia/en/wiki/.gs ccTLD for South Georgia and the South Sandwich Islands].
+
+There are no known content restrictions on .gs domains, and the [https://secure.wikimedia.org/wikipedia/en/wiki/South_Georgia_and_the_South_Sandwich_Islands South Georgia and the South Sandwich Islands (SGSSI) is a British overseas territory], thus we can consider it as stable as .uk domains.
+
+IndieWeb folks using .gs short URLs:
+* Jason Grigsby: http://gri.gs/
+
+=== gy ===
+.gy is the [https://secure.wikimedia.org/wikipedia/en/wiki/.gy ccTLD for Guyana].
+
+IndieWeb uses of .gy short URLs:
+* [[Bridgy]] proxy: http://brid.gy/
+
+=== io ===
+.io is the [https://en.wikipedia.org/wiki/.io ccTLD for British Indian Ocean Territory]
+
+Experiences with .io?
+
+.io is comparatively expensive ($39 on gandi.net at the time of writing), but easy to set up, and perhaps valuable as a novelty TLD for IndieWeb purposes because of IO's input/output double meaning. There are no known administrative problems establishing .io domains.
+
+IndieWeb folks using .io short URLs:
+* werd.io: Ben Werdmuller
+* bret.io: Bret Comnes
+
+=== ly ===
+.ly is the [https://secure.wikimedia.org/wikipedia/en/wiki/.ly ccTLD for Libya].
+
+.ly domains are [https://secure.wikimedia.org/wikipedia/en/wiki/.ly#Registration subject to content restrictions], including but not limited to "obscene and indecent names/phrases, including words of a sexual nature" and "may not contain words/phrases or abbreviations insulting religion or politics, or be related to gambling and lottery industry or be contrary to Libyan law or Islamic morality."
+
+The [https://secure.wikimedia.org/wikipedia/en/wiki/Libya#Government_and_politics Libyan government is a dictatorship and "the most censored country in the Middle East and North Africa"]. In addition [https://secure.wikimedia.org/wikipedia/en/wiki/2011_Libyan_civil_war Libya is an ongoing armed civil war].
+
+There has been at least one case of a .ly domain name seizure / shutdown based on content restrictions:
+* '''vb.ly was shut down 2010 September/October'''.
+** 2010-10-06 [http://techyum.com/2010/10/official-vb-ly-link-shortener-seized-by-libyan-government/ Official: vb.ly Link Shortener Seized by Libyan Government]
+** 2010-10-06 [http://benmetcalfe.com/blog/2010/10/the-ly-domain-space-to-be-considered-unsafe/ The .ly domain space to be considered unsafe]
+
+For these reasons we recommend you AVOID USING ANY/ALL .LY domains.
+
+=== me ===
+.me is the [https://secure.wikimedia.org/wikipedia/en/wiki/.me ccTLD for Montenegro].
+
+There are no known content restrictions on .me domains, and the [https://secure.wikimedia.org/wikipedia/en/wiki/Montenegro#Government_and_politics government of Montenegro is a democracy].
+
+.me domains can be registered through many major domain registrars. We suggest you get a recommendation from a friend.
+
+Thus we consider .me domains to be reasonably stable.
+
+IndieWeb folks using .me short URLs:
+* Ben Ward: http://benward.me
+* Tantek Çelik: http://ttk.me
+* ...
+
+=== pk ===
+.pk is the [https://secure.wikimedia.org/wikipedia/en/wiki/.pk ccTLD for Pakistan]
+
+There are no known content restrictions on .pk domains, and the [https://secure.wikimedia.org/wikipedia/en/wiki/Pakistan#Politics government of Pakistan is a democratic parliamentary federal republic].
+
+.pk domains can be registered directly from [http://www.pknic.net.pk/ PKNIC] for $24 per year with a minimum registration of two years.
+
+Updating the registrant info for a domain (transferring ownership, or even just updating the address or phone number of the same registrant) requires [http://pk6.pknic.net.pk/pk5/pgHelpUnlockDomain.PK sending a notarized letter] by mail to the registrar.
+
+IndieWeb folks using .pk short URLs:
+* Aaron Parecki: http://aaron.pk/
+
+=== ro ===
+.ro is the [https://secure.wikimedia.org/wikipedia/en/wiki/.ro ccTLD for Romania]
+
+There are no known content restrictions on .ro domains, and there are no registration restrictions for second-level domains. The .ro domains can be registered directly from [http://www.rotld.ro/engleza/index_en.html RoTLD] for $51.26, which is a one-time fee with no annual renewal fee.
+
+Payment must be made by wire transfer or by faxing a copy of your credit card and photo ID to the registrar.
+
+IndieWeb folks using .ro short URLs:
+* Amber Case, for her Cyborg Anthropology website: http://anth.ro/
+** As of 2013-09, [[2013/UK/Demos#Amber|recommends against getting a .ro domain]]
+
+=== tc ===
+.tc is the [https://secure.wikimedia.org/wikipedia/en/wiki/.tc ccTLD for the Turks and Caicos Islands.]
+
+This TLD is going through pricing turmoil, raising prices from $50 to $120 per year in some cases.  The new manager of the registrar, [http://meridiantld.net/pricing/ Meridian TLD], is offering current domain owners a domain transfer and a year renewal for $44 USD, effectively forcing domain owners to change registrars.  More information on this racket can be found on the [https://iwantmyname.com/blog/2012/08/3-easy-steps-to-ruin-the-reputation-of-a-countrys-domain-extension.html iwantmyname.com blog].
+
+IndieWeb folks using .tc short URLs:
+* <strike>Bret:  http://bre.tc - I do not recommend this tld.  It has been nothing but pain and agony.</strike> using .io now.
+
+=== add more short URL domains here ===
+...
+
+== See Also ==
+* [[Getting Started]]
+* [[domain name registrar]]
+* [[personal-domains]]
+* [[DNS]]
+* [[hosting]]

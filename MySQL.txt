@@ -1,0 +1,15 @@
+{{stub}}
+
+'''<dfn>MySQL</dfn>''' is open source [[database]] software that is often used to store data in various CMS's, e.g. [[WordPress]] and [[MediaWiki]].
+
+== IndieWeb Usage ==
+* [[User:cweiske.de|cweiske]]'s [[stapibas]] uses MySQL as primary linkback storage
+* [[User:kartikprabhu.com|Kartik Prabhu]]'s kartikprabhu.com uses un-named software project (based on Django+Python) which uses MySQL as the primary storage for data except for Article content which is stored in hand-authored Django-template files.
+* [[User:Gregorlove.com|gRegor Morrill]]'s gregorlove.com uses [http://nucleuscms.org Nucleus CMS] which uses MySQL as the primary data store.
+* [[p3k]] uses MySQL to query posts by different meta data, but does not store any post content in the database.
+
+== See Also ==
+* [[database]]
+* [[database-antipattern]]
+* [[database-cache]]
+* [[projects]]

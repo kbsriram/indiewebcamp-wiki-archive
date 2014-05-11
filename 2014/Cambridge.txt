@@ -1,0 +1,149 @@
+= <span class="p-name summary">IndieWebCampCambridge 2014</span> =
+[[File:harvard-berkman-center.jpg|thumb|300px|right|Harvard's Berkman Center for Internet and Society in Cambridge, MA]]
+The very first IndieWebCamp in Cambridge - one of many IndieWeb [[events]].
+
+<div class="p-description description">
+Join us at Harvard's Berkman Center of Internet and Society for '''two days''' of a BarCamp-style gathering of web creators building and sharing open web technologies to empower users to own their own identities & content, and advance the state of the indie web!
+
+The IndieWeb movement is a global community that is building an open set of principles and methods that empower people to take back ownership of identity and data instead of sharecropping on 3rd party websites. Homestead, don’t sharecrop! 
+
+At IndieWebCamp you’ll learn about ways to empower yourself to own your data, create and publish content on your own site, and only optionally syndicate to third-party silos. Along the way you’ll get a solid grounding in the history and future of Microformats, domain ownership, IndieAuth, WebMention and more!
+</div>
+
+* '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Berkman Center for Internet & Society</span>, <span class="h-adr adr"><span class="p-street-address street-address">23 Everett Street</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02138</span></span>. <span class="u-url">http://cyber.law.harvard.edu/</span></span>
+* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
+* '''Cost:''' Free
+
+== RSVP ==
+* '''<span id="Guest_List">[[2014/Cambridge/Guest_List|Guest List]]</span>''' - click and add yourself (and optionally an apprentice)
+* '''<a class="u-url url" href="http://lanyrd.com/...">Lanyrd URL TODO</a>'''
+* '''<a class="u-url url" href="http://plancast.com/p/lbij">Plancast URL</a>'''
+
+== Schedule ==
+{| border="2" cellpadding="10" cellspacing="0" align="center"
+|+
+
+|-
+
+! style="background:#ffdead;" | Day 1: Discussion
+! colspan="2" style="background:#efefef;" | Day 2: Hacking
+
+|-
+
+| 
+<br>09:00 Organizer setup
+<br>09:30 Doors open - badges
+<br>10:00 Introductions and demos
+<br>11:00 Sessions
+<br>13:00 Lunch
+<br>14:00 Sessions
+<br>17:00 Group photo
+<br>17:15 Last session
+<br>18:00 End of sessions for day 1
+
+| 
+<br>09:00 Organizer setup
+<br>09:30 Doors open - badges
+<br>10:00 Day 2 kick-off
+<br>11:00 Hack sessions
+<br>13:00 Lunch
+<br>14:00 Hack sessions continue
+<br>16:30 Demos
+<br>17:30 Clean-up
+<br>18:00 Camp closed!
+
+|-
+
+| 
+<br>'''Day 1''' is about discussing in a BarCamp-like environment. Bring a topic you'd like to discuss or join in on topics as they are added to the board. 
+
+|
+<br>'''Day 2''' is about implementing what we discussed. Work with others or on your own. We'll have demos at the end of the day to see what everyone worked on! 
+|}
+
+== Participating ==
+* [[2014/Cambridge_Sessions|Session Proposals]]
+* [[2014/Cambridge_Schedule|Schedule Grid]] - hyperlinked to actual session pages
+* [[2014/Cambridge_demos|Demos]]
+* [[IRC]]
+* Sessions notes are in the top level Etherpad: https://etherpad.mozilla.org/indiewebcamp-cambridge
+
+Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions complete)
+* [[2014/Cambridge/Introductions|Introductions]]
+* <!-- [[2014/Cambridge/Demos|Demos]] --> ...
+
+== Demos ==
+* ... 
+{{clear}} 
+__TOC__
+
+== Organizers ==
+* '''Organizers''': [[User:Caseorganic.com|Caseorganic]], (add yourself!)
+** Want to help organize? '''Get in touch with us on [[IRC]]!'''
+* Want to help out? 
+** Contact an organizer or sign-up to [[2014/Cambridge/Guest_List#Volunteers|Volunteer]]!
+** Check the [[#To-do]] list below to see if there's something you can help out with.
+
+=== Questions for Organizers ===
+* What is the capacity of the venue?
+** 20
+
+* How many rooms will we have for sessions at the venue, # of people, projectors? whiteboards?
+** Main Room / 20
+** Breakout Room 1 / 3-4
+** Breakout Room 2 / 3-4
+** Breakout Room 3 / 3-4
+
+=== Inbox ===
+Put suggestions for IndieWebCamp Cambridge 2014 here.
+* ...
+
+== Get Your Flights and Hotel ==
+Flights: Flying to the Boston Area (BOS) from SF? _____, ____ and ____ are recommended and have frequent flights to PDX. 
+
+Lodging:
+* Suggested lodging 1 (hotel with a free shuttle to Harvard!) 
+* Nearby AirBNB
+
+== Volunteers ==
+Put your name here.
+
+== Help Out ==
+=== Sponsor ===
+* Thursday night before drinks out: (sponsor this!) 
+* Fri breakfast snacks: (sponsor this!) 
+* Fri coffee: (sponsor this!) 
+* Fri lunch: (sponsor this!) 
+* Fri dinner out: (sponsor this!) 
+* Sat breakfast snacks: (sponsor this!) 
+* Sat coffee: (sponsor this!) 
+* Sat lunch: (sponsor this!) 
+* Venue: (sponsor this!) 
+
+[[how-to-sponsor|How to sponsor IndieWebCamp]]
+
+== Sponsors ==
+Our thanks to these sponsors for supporting the event.
+
+* (sponsor name) 
+* 
+
+=== To-do ===
+# Get a company to cover lunch each day (see Sponsor section).
+# Divide up roles/responsibilities among organizers/volunteers.
+# Do yours and help everyone else with theirs too.
+
+
+== See Also ==
+* [[2014]]
+* [[events]]
+* [http://cyborgcamp.com/ CyborgCamp MIT 2014]
+
+== Previously ==
+* [[2013]]
+* [[2012]]
+* [[2011]]
+
+[[Category:2014]]
+[[Category:Events]]

@@ -1,0 +1,88 @@
+{{stub}}
+
+Collecting notes here before moving them to the appropriate pages.
+
+----
+
+This page describes using IndieAuth for authentication rather than [[auth-brainstorming|authorization]]. In this case, no token endpoint or Micropub endpoint are needed.
+
+== Examples ==
+
+In these examples, the following URLs will be used.
+
+The site the user is signing in to is the IndieWebCamp wiki:
+* client_id = https://indiewebcamp.com
+* redirect_uri = https://indiewebcamp.com/auth/callback
+
+The user signing in is [[User:Aaronparecki.com|Aaron Parecki]]:
+* me = https://aaronparecki.com/
+
+In this example, Aaron has delegated authorization to an external service:
+* authorization_endpoint = https://indieauth.com/auth
+
+== Web Sign-In Form ==
+
+The site contains a web sign-in form prompting the user to enter their URL to sign in. Upon submitting the form, the site begins the auth process by discovering the user's auth endpoint.
+
+== Discovery ==
+
+aaronparecki.com points to the authorization endpoint by specifying a rel values on the index page.
+
+<pre>&lt;link rel="authorization_endpoint" href="https://indieauth.com/auth"&gt;</pre>
+
+== Authorization Endpoint ==
+The authorization endpoint is responsible for requesting authorization from the user and generating an '''authorization code'''. To start the sign-in flow, the user's browser will be directed to the authorization endpoint.
+
+=== Summary ===
+
+==== Request ====
+Values are shown without URL encoding for readability.
+
+<pre>
+https://indieauth.com/auth?me=https://aaronparecki.com/&
+                           redirect_uri=https://indiewebcamp.com/auth/callback&
+                           client_id=https://indiewebcamp.com&
+                           state=1234567890&
+                           response_type=id
+</pre>
+
+(Note: if response_type is omitted, it is assumed to be "id")
+
+==== Response ====
+The authorization server presents this information to the user, and when they approve, generates an '''authorization code''' and redirects the user to the redirect URI specified.
+
+<pre>
+HTTP/1.1 302 Found
+Location: https://indiewebcamp.com/auth/callback?code=xxxxxxxx
+                                                state=1234567890
+                                                me=https://aaronparecki.com/
+</pre>
+
+=== Authorization ===
+The authorization server should present an interface describing the request being made. It must indicate:
+* The client_id making the request
+** Including the name and logo if an [[h-card]] is found on the client_id URL
+
+== The Redirect URI ==
+
+=== Verifying the authorization code ===
+The site verifies the auth code by querying the authorization endpoint. To verify the auth code, the token endpoint makes a POST request to the authorization endpoint with the following values:
+
+<pre>
+POST https://indieauth.com/auth
+Content-type: application/x-www-form-urlencoded
+
+code=xxxxxxxx&
+redirect_uri=https://indiewebcamp.com/auth/callback&
+client_id=https://indiewebcamp.com&
+state=1234567890
+</pre>
+
+After the authorization server verifies that the redirect_uri, client_id and state match the code given, the response will include the "me" value corresponding to the user that signed in.
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: application/x-www-form-urlencoded
+
+me=https://aaronparecki.com/
+</pre>

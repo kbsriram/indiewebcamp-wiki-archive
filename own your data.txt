@@ -1,0 +1,15 @@
+{{stub}}
+
+'''<dfn>own your data</dfn>''' is one of the [[principles]] and rallying cries of the IndieWeb movement.
+
+'''#<dfn>ownyourdata</dfn>''' is a hashtag for aggregating content across indie web sites and 3rd-party [[silos]] about "owning your data", "owning your own data" etc.
+
+* [http://tagboard.com/ownyourdata Tagboard: #ownyourdata] - hashtag aggregator across [[Twitter]], [[App.net]], [[Instagram]], [[Google]]+.
+* [https://www.google.com/search?q=ownyourdata&tbm=nws Google News Search: ownyourdata]
+* ...
+
+<nowiki>#ownyourdata</nowiki> posts tend to be a a subset of [[Posts about the IndieWeb]].
+
+== See Also ==
+* [[Posts about the IndieWeb]].
+* [[principles]]

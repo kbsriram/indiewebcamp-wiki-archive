@@ -1,0 +1,33 @@
+__NOTOC__
+= Johannes Ernst =
+
+* [http://upon2020.com/ upon2020.com] - blog
+* [http://linkedin.com/in/jernst linkedin.com/in/jernst] - linkedin
+* [http://twitter.com/Johannes_Ernst @Johannes_Ernst] - twitter
+
+== Projects related to the indie web ==
+
+* [http://indieboxproject.org/ indieboxproject.org] - new: Indie Box Project
+* [http://cldstr.com/ cldstr.com] - Cloudstore
+* [http://infogrid.org/ infogrid.org] - InfoGrid web graph database
+* [http://personal-clouds.org/ personal-clouds.org] - Personal Clouds
+
+== Previous related projects ==
+
+* [http://openid.net/ openid.net] - OpenID Foundation
+* [http://en.wikipedia.org/wiki/Light-Weight_Identity Light-Weight Digital Identity]
+* [http://en.wikipedia.org/wiki/Yadis Yadis]
+
+== Some of the software I run for my own use on my own personal cloud/site ==
+
+* Wordpress - public face, and for personal notes
+* Git and SVN (server-side) - personal coding projects
+* Owncloud - personal and family calendar
+* WebDAV - file sharing and publishing
+* Webtrees - family genealogy repository
+* MediaWiki - knowledge management
+* Trovebox - family photos
+* Shaarli - Bookmark managers (no more delicious)
+* Selfoss - RSS aggregator
+
+Yep, it sounds like a lot, but thanks to Indie Box, installation, backup and software updates are a [http://indieboxproject.org/wiki/Using_Indie_Box_to_Update single command] away...

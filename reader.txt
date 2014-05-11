@@ -1,0 +1,145 @@
+{{stub}}
+
+A '''<dfn>reader</dfn>''' in the context of the indieweb is the portion/feature integrated into an indieweb site that provides a way to read content from other indieweb sites, possibly including posts from the current site as well.
+
+If you're looking for pre-indieweb / legacy feed readers (e.g. like Google Reader) see:
+* [[feed reader]]
+
+== Why ==
+Reasons to have a personal reader (a reader integrated into your site for you to use)
+* If you had reading built into your own site, would you ever need to visit [[Twitter]] or touch a Twitter client again? (since you can presumably already post from your site and [[POSSE]] to Twitter, including [[replies]])
+* Your own site can provide you with a superset of Twitter-like functionality, assuming you're already
+** posting [[notes]],
+** POSSEing them to Twitter, 
+** [[backfeed]]ing replies/favorites/retweets onto your original notes (e.g. using [[Bridgy]]).
+** Add to that:
+*** following others
+*** reading others' notes
+*** inline favoriting, retweeting, and replying to others' notes
+* Filter and prioritize posts from others using algorithms of your own choosing.
+That's just the beginnings of what an indieweb reader can enable.
+
+
+== IndieWeb examples ==
+
+In datetime order of implementation (earliest first)
+
+=== acegiak ===
+
+[[User:acegiak.net|acegiak]] developed a [[Wordpress]] plugin, '''[[WhisperFollow]]''', which aggregates RSS/Atom and Microformats2 data from the pages linked to in your blogroll and displays those updates in a private page in your wordpress blog. It currently defaults to RSS/Atom only attempting to read MF2 if the separate feed isn't found. It also allows updates to be reblogged and commented on.
+
+=== Barnaby Walters ===
+
+[[User:waterpigs.co.uk|Barnaby Walters]] developed '''Intertubes''', an experimental indieweb-oriented flow-based programming + feed reader UI parsing microformats and shimmed twitter.com microformats.
+* [http://waterpigs.co.uk/intertubes/feed/ simple feed demo] and associated [http://waterpigs.co.uk/intertubes/feed/edit source]
+* [http://waterpigs.co.uk/intertubes/people-ive-talked-to-recently/ more complex example] and [http://waterpigs.co.uk/intertubes/people-ive-talked-to-recently/edit/ source]
+* [http://waterpigs.co.uk/intertubes/new/ sandbox] for experimenting — try making your own feeds!
+
+=== Aaron Parecki ===
+
+[[User:aaronparecki.com|Aaron Parecki]] developed a [https://github.com/aaronpk/selfoss Microformats2 plugin for '''selfoss'''], and runs it on a subdomain of aaronparecki.com since at least [http://aaronparecki.com/notes/2014/02/13/3/microformats-selfoss-indieweb 2014-02-13]. The reader polls the subscriptions at a predefined interval looking for new h-entry posts on each person's home page.
+
+Here's a screenshot of a following list:
+
+http://farm3.staticflickr.com/2809/12800072283_c6dde479c8_z.jpg
+
+Here's a screenshot of a reading window:
+
+[http://aaronparecki.com/notes/2014/02/13/3/microformats-selfoss-indieweb http://farm8.staticflickr.com/7333/12515340903_18df867e12_b.jpg]
+
+For more on this see: http://aaronparecki.com/notes/2014/02/13/3/microformats-selfoss-indieweb
+
+=== Amber Case ===
+
+[[User:Caseorganic.com|Amber Case]] also uses [https://github.com/aaronpk/selfoss '''selfoss'''] with the Microformats2 plugin on caseorganic.com since [http://caseorganic.com/articles/2014/02/13/1/indiereader-subscribe-to-people-from-your-own-site 2014-02-13].
+
+See: http://caseorganic.com/articles/2014/02/13/1/indiereader-subscribe-to-people-from-your-own-site
+
+=== Andy Sylvester ===
+
+[[User:Andysylvester.com|Andy Sylvester]] also uses [https://github.com/aaronpk/selfoss '''selfoss'''] with the Microformats2 plugin on caseorganic.com since [http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ 2014-03-01].
+
+See http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ for instructions on how to set up the Selfoss reader.
+
+== Brainstorming ==
+=== Integrated Activity Reading ===
+From analyzing the screenshots in this article:
+* http://dcurt.is/facebooks-predicament
+of [[Facebook]]'s News Feed experiment:
+
+https://d23f6h5jpj26xu.cloudfront.net/gpnggaky8d1gog_small.jpg
+
+A single integrated news feed of friends' activities, including posts and likes.
+
+Comparing the experiment and the reversion, shows the experiment provided:
+* More efficient reading (less time spent by the user reading the news feed) <blockquote>...users who were switched to the new News Feed tended to spend less time on the site.</blockquote>
+* Less distraction (less frequent browsing of other pages) <blockquote>...users no longer felt the need to browse areas outside of the News Feed as often...</blockquote>
+* Fewer UI elements overall (including fewer navigation links, especially with activity numbers on those other pages).
+
+All of these differences provided for a better-for-the-user user experience (faster, more focused, more relaxed) which could (should) be used in the design of indieweb reader user interfaces, as it provides opportunities to outdo silo UX.
+
+[[User:Tantek.com|Tantek]] 16:36, 27 March 2014 (PDT)
+
+=== Jeena Notes Reader ===
+Thoughts on challenges and how to develop an indie notes reader:
+* https://jeena.net/indie-notes-reader
+
+=== Shane Feed Me See More ===
+I ([[User:Iamshane.com|Shane]]) have "plans" to build a personal reader, as a separate project, called Feed Me, See More.
+I made a static prototype in 2010-08 (with static snapshots of real data from then)
+
+http://feedmeseemore.com/activities
+
+The ''plan'' is for '''[[Feed Me See More]]''' and [[Homesteading]] to be sister projects.
+Subscribe [[webactions]] (while browsing around the web) will get caught by '''[[Feed Me See More]]'''.
+Repost/Reply/Bookmark [[webactions]] will go from my '''[[Feed Me See More]]''' app to my [[Homesteading]] powered site.
+But both will be optional connections to the other. Either '''[[Feed Me See More]]''' or [[Homesteading]] could be run stand-alone without the other one. At least, that's the Big Plan™. (Not enough time/money/people.) -[[User:iamshane.com|Shane]] (2013-08-10)
+
+
+===Partial Feeds===
+See: [[h-feed#partial_feeds]]
+
+===Autodiscovery of h-feeds===
+See: [[h-feed#canonical_feed_autodiscovery]]
+
+== Challenges ==
+=== overload ===
+As Twitter, Tumblr, and other aggregators have demonstrated, keeping up with everything you've subscribed to is both challenging, and eventually unrewarding.  Thus some amount of smart filtering/pruning/batching is likely to be an essential part of making indie readers scale beyond following only a handful of people. See also:
+* http://www.theatlantic.com/technology/archive/2013/12/2013-the-year-the-stream-crested/282202/
+
+one of the reasons I'm not building algorithmic filtering into whisperfollow at the moment is to avoid the filter bubble effect: [http://www.youtube.com/watch?v=B8ofWFx525s] - [[User:acegiak.machinespirit.net|acegiak]] (2013-08-10)
+
+=== distraction ===
+Whoever is working on the indie reader problem, please consider the problem of social media distraction (which seems to come more from the reading side than the writing side). See related: [[silo-quits]].
+
+=== missing good stuff ===
+Likely as an attempt to compensate for [[#overload]] as noted above, users tend to limit the number of sources they follow, thus resulting in another challenge - the loss of signal, AKA "missing good stuff".
+
+It is possible that there are some approaches for mitigating overload (e.g. perhaps categorizing notes with non-self-source links as comments on those links, and aggregating them by link destination) that could help bubble up "good stuff" from a larger set of people you follow.
+
+=== outdo search ===
+<blockquote>One of the reasons I have not prioritized the reader for myself, because I have better luck reading social media by searching for hashtags (results piped to IRC) and having other people send me things :)</blockquote> - [[User:Aaronparecki.com|Aaronpk]] in [[IRC]].
+
+=== Subscription Maintenance === 
+It becomes more and more time consuming to maintain a large list of subscriptions in traditional feed readers.  It isn't uncommon to see feed URLs go dark, change location or just stop working for whatever reason.  It would be advantageous for the next crop of readers to provide tools to help automate this sort of maintenance.  It would also be great to find ways for feeds to state "This will never be updated again" and "This feed will be moving to this new location".
+
+== Open source examples ==
+* Status.net - allows you to subscribe to any [[PuSH]]-enabled feed on the web and view it on your [[home page]].
+
+== Silo examples ==
+Many social content hosting [[silos]] have integrated reader like features, but only for "feeds" of accounts on the particular silo.
+* [[Facebook]] - logged in home page has a "news feed" that essentially provides feed reader like functionality of the [[activities]] (including posts) of friends of the logged in account.
+* [[Tumblr]] - logged in dashboard has a feed reader of Tumblr users followed by the logged in account
+* [[Twitter]] - logged in home page is a feed reader of Twitter users followed by the logged in account
+
+== Next Steps ==
+After implementing an indie reader, you may find that you want to search all the things you read. See:
+* [[search#Social_search|search: Social Search]] for some brainstorming on this.
+
+== See Also ==
+* [[h-feed]]
+* [[h-entry]]
+* [[notes]]
+* [[search]] / [[search#Social_search|social search]]
+Legacy:
+* [[feeds]] / [[feed reader]]

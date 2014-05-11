@@ -1,0 +1,153 @@
+{{indieauth-todo}}
+
+Protocol outline for how to combine microformats2, WebMention and IndieAuth to send private messages between two people or between groups of people.
+
+Note: This example is written assuming IndieAuth is distributed and not centralized. Please review the [[distributed-indieauth|distributed IndieAuth]] page before continuing.
+
+Not to be confused with an [http://aaronparecki.com/articles/2011/07/31/1/indieweb-messaging older spec of the same name] which didn’t make use of indieauth.
+
+Disclaimer: this is not final by any means. Please feel free to leave notes or comments inline or 
+
+=== Goal ===
+
+Alice (alice.com) wants to send a private message to Bob (bob.com)
+
+=== Protocol Flow ===
+
+Alice creates a new (private) post on her site, which, given some authentication, is visible at the following URL: https://alice.com/message/1. If the URL is accessed with no authentication, it returns:
+
+<pre>401 Not Authorized
+WWW-Authenticate: IndieAuth
+</pre>
+
+Alice then sends a [[webmention]] to Bob notifying him that alice.com/message/1 linked to bob.com. This would look like the following POST request from Alice's server:
+
+<pre>POST /webmention-endpoint HTTP/1.1
+Host: bob.com
+
+source=https://alice.com/message/1&target=https://bob.com/
+</pre>
+
+The webmention protocol then indicates that Bob's server should go fetch the contents of the source URL and verify there is actually a link to the target. In this case, the first request from Bob's server will fail with a <code>401</code> error. This would look like the following:
+
+<pre>GET /message/1 HTTP/1.1
+Host: alice.com
+
+HTTP/1.1 401 Not Authorized
+WWW-Authenticate: IndieAuth realm="https://alice.com"
+</pre>
+
+Bob then needs to prove to Alice he really is the intended recipient. This is where [[IndieAuth]] comes in.
+
+At this point, alice.com is basically saying to bob.com, "give me a token I can verify you are really bob.com". So bob.com needs to go generate an IndieAuth token, which it can do by directing Bob's browser to Bob's IndieAuth server (see [[distributed-indieauth]] and [[#server-side-tokens]] for more details). Once Bob's server has a token corresponding to bob.com, it can make another request to alice.com:
+
+<pre>GET /message/1 HTTP/1.1
+Host: alice.com
+Authorization: IndieAuth me="https://bob.com/" token="gk7n4opsyuUxhvF4"
+</pre>
+
+Now, Alice's server needs to verify the token is valid. Alice's server first discovers the IndieAuth server on bob.com by making a GET request to https://bob.com/ and looking for the <code>rel="indieauth"</code> link. Let's assume Bob's IndieAuth server is https://indieauth.bob.com.
+
+Alice's server then attempts to verify the token with the IndieAuth server by making a request to:
+
+<pre>GET /verify?token=gk7n4opsyuUxhvF4 HTTP/1.1
+Host: indieauth.bob.com
+</pre>
+
+And the response is:
+<pre>
+{
+  "me":"https://bob.com/"
+}
+</pre>
+
+Now that Alice's server has authenticated Bob, the reply to the "https://alice.com/message/1" request succeeds. In the reply is an HTML page marked up with an [[h-entry]] with the message Alice sent to Bob. 
+
+<pre>
+<article class="h-entry">
+  <div class="p-content p-name">just setting up my indieweb messaging</div>
+  <time datetime="2013-08-02T20:38:15-0700" class="dt-published">August 2, 2013 at 8:38pm PDT</time>
+  <p>From <a href="https://alice.com/" rel="author">Alice</a></p>
+</article>
+</pre>
+
+Bob's server can parse and store the data, and/or display it to Bob since it's just HTML. Alice's server can also return a rich HTML document with additional markup, styles, whatever. As long as the h-entry is there it's readable.
+
+At this point Bob's server would most likely send Bob a notification of a new message in some form, either by SMS or push notification to his phone, or however Bob chooses. If Bob is willing to trust the security of SMS, he could even have the text of the message delivered via SMS. Whatever happens beyond that point is up to Bob and Alice doesn't need to know and doesn't care.
+
+=== server-side-tokens ===
+
+There are two ways fetching the message from Alice's server could work.
+
+==== Bob is at his computer ====
+Bob sees a notification from Alice's server that there is a message waiting, logs in to his site to generate an IndieAuth token, then Bob's server can send that token to Alice's server to retrieve the message.
+
+==== Bob is not at his computer ====
+Bob is not at his computer but but Bob's server wants to fetch the message anyway. Bob's server then needs a way to generate an IndieAuth token when Bob is not there to do the Github/Twitter/whatever OAuth dance.
+
+To solve this we need to give IndieAuth the idea of a server-side token. If Bob is running his own instance of IndieAuth, then his IndieAuth server could have a private API his server uses to generate a token.
+
+If bob.com is the IndieAuth server then that's one less step needed because it can just generate the token directly.
+
+If bob.com is using indieauth.com or another shared IndieAuth server, Bob's server would need some way to generate a token there, which would involve pre-registering or pre-approving his server to generate tokens for Bob. This probably needs to be thought through more.
+
+In the mean time, if you want to get a token you can use for testing, start the IndieAuth flow and set the redirect URI to a page that doesn't exist, like http://localhost/indieauth, so that you see the token in the URL. If you are redirected to a valid URL, the server will use the token and it will expire. This lets you get a token that won't be used until you use it from your script. Modify the link below to try it out:
+
+<pre>https://indieauth.com/auth?me=example.com&redirect_uri=http://localhost/indieauth</pre>
+
+=== Threaded Conversations ===
+
+We can achieve threaded conversations by using the [[in-reply-to]] markup just like we do with public [[comments]]. If Bob wants to reply to Alice, he just makes a new private post and adds <code>&lt;a href="https://alice.com/message/1" rel="in-reply-to">https://alice.com/message/1&lt;/a&gt;</code>.
+
+Given this markup, it's left to the UI of the system displaying the message to display the messages in conversation order.
+
+=== Sharing with Groups ===
+
+We can also extend this idea to sharing private messages with a group of people. All Alice would have to do is mention multiple peoples' URLs in the post and send webmentions to each server. 
+
+For example, Alice may make a post formatted like:
+
+<pre>
+<article class="h-entry">
+  <p><a href="https://alice.com/" rel="author">Alice</a>:</p>
+  <div class="p-content p-name">had a great time last night, thanks for having us over!</div>
+  <time datetime="2013-08-02T22:43:15-0700" class="dt-published">August 2, 2013 at 10:43pm PDT</time>
+  <p>Sent to:
+    <ul>
+      <li><a href="http://tantek.com/">tantek</a></li>
+      <li><a href="http://werd.io/">benwerd</a></li>
+      <li><a href="http://waterpigs.co.uk/">barnabywalters</a></li>
+    </ul>
+  </p>
+</article>
+</pre>
+
+Then when any of the three people verify the webmention, they will see their URL in the page and can accept the message.
+
+If Alice does not want to reveal the entire recipient list to everyone (like a BCC email) the server could just hide all other recipients other than the authenticating user.
+
+=== Static Sites ===
+
+Static sites cannot perform dynamic authentication and can't return different responses given the validation of a token. However, if you're willing to accept security by obscurity (such as using a 128-bit random identifier in the URL) then you can still use indieweb messaging with a static site!
+
+==== Security by Obscurity ====
+Since a static site server can't choose to respond to a request with <code>HTTP 401</code>, it would be unable to send the initial <code>HTTP 401</code> response. However, if the message lives at a sufficiently obscure URL, this may be ok anyway.
+
+In this case, Alice would create a new html file named something like https://alice.com/message/74809250de2401300d0714109feae54c.html (or https://alice.com/message/73ZE9ngcTj4LUCUUjQQ8j8.html for equivalent randomness if you're using the NewBase60 charset). When Alice sends a webmention to bob.com, Bob's server would then go fetch that URL and would immediately get the HTML reply, and IndieAuth would not be required.
+
+If this is an acceptable trade-off (security by obscurity rather than using IndieAuth) then the protocol should work just as well, with no additional work needed on Bob's end!
+
+==== Web Server Auth Module ====
+An alternative would be to have an Apache or nginx module that can handle the IndieAuth HTTP authorization. Given an Apache module such as <code>mod_authn_indie</code> it could handle sending the 401 reply and verifying the request given a token.
+
+Of course this wouldn't work places you don't have access to the actual web server software such as Github Pages or many shared hosting environments.
+
+== Notes ==
+* Can the initial webmention include a flag that says "this post is going to require authentication, come back with an IndieAuth code"
+* Can't you just always send an IndieAuth code with every request? Especially sending it to all requests your server makes to your own whitelist.
+
+== See Also ==
+* [[private posts]]
+* [[messaging]]
+* [[distributed-indieauth]]
+* [http://spec.indieauth.com/ spec.indieauth.com]

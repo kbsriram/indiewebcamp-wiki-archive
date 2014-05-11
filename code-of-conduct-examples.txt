@@ -1,0 +1,64 @@
+{{stub}}
+
+This page is for documenting good examples of conference "Code of Conduct" pages that we should keep in mind as we craft and iterate the IndieWebCamp [[code-of-conduct]].
+
+== Examples ==
+Most liberally licensed first.
+
+CC0:
+* [[code-of-conduct]] - IndieWebCamp's code of conduct is naturally licensed CC0 like the rest of the wiki.
+* [http://www.google.com/events/policy/anti-harassmentpolicy.html Google Events Anti-Harassment Policy]
+* [http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy Geek Feminism Wiki: Conference anti-harassment/Policy]
+** [http://geekfeminism.wikia.com/wiki/Conference_anti-harassment Conference anti-harassment resources]
+** [http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports Conference anti-harassment/Responding to reports]
+* [https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md CodeOfConduct4Lib]
+
+CC-BY-3.0:
+* [http://portland2013.drupal.org/code-of-conduct DrupalCon Portland 2013 Code of Conduct]
+* [https://us.pycon.org/2012/codeofconduct/ PyCon 2012: Code of Conduct]
+* [https://us.pycon.org/2013/about/code-of-conduct/ PyCon 2013: Code of Conduct]
+** [https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/  Attendee Procedure for Handling Harassment]
+** [https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents-staff/ Staff Procedure for Handling Harassment]
+
+CC-BY-SA 3.0:
+* [http://www.mozilla.org/about/policies/participation.html Mozilla Community Participation Guidelines]
+* [http://opensourcebridge.org/about/code-of-conduct/ Open Source Bridge Code of Conduct]
+* [http://wikimania2012.wikimedia.org/wiki/Friendly_space_policy Wikimania 2012 Friendly space policy]
+* [http://wikimediafoundation.org/wiki/Friendly_space_policy Wikimedia Friendly space policy for Wikimedia Foundation technical events]
+
+GFDL:
+* [http://en.opensuse.org/openSUSE:Conference_code_of_conduct openSUSE:Conference code of conduct]
+
+All Rights Reserved:
+* [http://html5devconf.com/aboutus.html#anti-harassment HTML5 Developer Conference: Anti-Harassment Policy]
+** http://html5devconf.com/antiharassmentpolicy.pdf (Full Anti-Harassment Policy) 
+
+Unknown license (presumed all rights reserved):
+* http://oreilly.com/conferences/code-of-conduct.html
+** see also: http://radar.oreilly.com/2011/07/sexual-harassment-at-technical.html
+* http://www.open-sf.org/conduct.html
+* http://plone.org/foundation/materials/foundation-resolutions/code-of-conduct
+** http://plone.org/news/conferencecode
+* http://confcodeofconduct.com/
+** from: http://2012.jsconf.us/#/about
+* [http://steelcityrubyconf.org/policies Steel City Ruby Anti-harassment policy]
+* [http://confcodeofconduct.com Conference Code of Conduct]
+* [http://2012.jsconf.us/#/about JSConf Code of Conduct]
+
+== Recent 2013 ==
+Recent 2013 incidents:
+* http://tantek.com/2013/035/t4/sazzy-you-are-awesome-speaking-writing
+* http://tantek.com/2013/037/t1/more-speakingup
+* http://tantek.com/2013/037/t3/speakingup-thank-you-we-must-speak-up-act-fix-this
+
+== Related ==
+Related discussion of incidents, needs for codes of conduct at conferences, etc.
+* http://geekfeminism.wikia.com/wiki/Timeline_of_incidents
+* 2012-06-14 Greta Christina: [http://freethoughtblogs.com/greta/2012/06/14/sexual-harassment-and-the-opensf-conference-code-of-conduct/ Sexual Harassment, and the OpenSF Conference Code of Conduct]
+* 2011-08-04 Jacob Kaplan-Moss: [http://jacobian.org/writing/codes-of-conduct Why conferences need a code of conduct]
+* 2013-01-24 Ashe Dryden: [http://ashedryden.com/blog/increasing-diversity-at-your-conference "Increasing Diversity at Your Conference"]
+* 2012-12-03 Python Software Foundation News: [http://pyfound.blogspot.com/2012/12/psf-moves-to-require-code-of-conduct.html PSF Moves to Require Code of Conduct for Conference Grants]
+* 2011-07-24 Tim O'Reilly: [http://radar.oreilly.com/2011/07/sexual-harassment-at-technical.html Sexual Harassment at Technical Conferences: A Big No-No]
+* The Ada Initiative : [http://adainitiative.org/what-we-do/conference-policies/ Conference anti-harassment policy]
+* Geek Feminism Wiki: [http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Adoption Conference anti-harassment/Adoption]
+* BGG.CON 2012 Important Information: [http://boardgamegeek.com/thread/879975/bgg-con-2012-important-information ("One final note" under "Other Info")]

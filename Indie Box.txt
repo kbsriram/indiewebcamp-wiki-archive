@@ -1,0 +1,17 @@
+{{stub}}
+
+'''<dfn>[http://indieboxproject.org/ Indie Box]</dfn>''' is a combination software and hardware [[project]] to build a personal home server that runs various web applications.
+
+== Sessions ==
+Sessions about Indie Box:
+* [[2014-05-06-iiw-indiebox]] at [[IIW]]
+
+== Articles ==
+Articles about the Indie Box project:
+* 2014-05-08 <cite>[http://boingboing.net/2014/05/08/crowdfunding-indie-box-a-huma.html Crowdfunding Indie Box, a human-usable personal server to replace big Internet companies]</cite>
+* 2014-05-08 <cite>[http://www.thewhir.com/blog/indie-box-one-personal-web-server-home-based-hosting-drawbacks Indie Box One is a Personal Web Server, But Home-based Hosting Has Drawbacks]</cite>
+* 2014-05-09 <cite>[http://www.ispam.nl/archives/39844/diy-hosting-met-indie-box-kans-of-kansloos/ DIY-hosting met Indie Box: kans of kansloos?] (in Dutch)
+
+== See Also ==
+* [[projects]]
+* [[web hosting]]

@@ -1,0 +1,16 @@
+{{stub}}
+
+'''<dfn>[http://www.salmon-protocol.org/ Salmon]</dfn>''' is a 2010-era [[feed]]-based protocol for sending [[comment]] notifications that is part of the [[OStatus]] stack.
+
+== IndieWeb Examples ==
+There are no known examples of indieweb sites supporting or using the Salmon Protocol.
+
+Instead, indieweb sites are using the much simpler [[webmention]] protocol to send notifications about [[comments]] to the item that is being replied-to.
+
+== See Also ==
+* [[webmention]]
+* [[in-reply-to]]
+* http://www.salmon-protocol.org/
+* http://en.wikipedia.org/wiki/Salmon_%28protocol%29
+* [[PuSH]]
+* [[social standards]]

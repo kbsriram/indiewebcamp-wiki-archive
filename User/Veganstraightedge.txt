@@ -1,0 +1,43 @@
+[[Image:Shane_becker_avatar.png]]
+
+= A Bit About Me&hellip; =
+<div class="vcard">
+My name is <span class="fn"><span class="given-name">Shane</span> <span class="family-name">Becker</span></span>.
+I live in <span class="adr"><span class="locality">Los Angeles</span>, <span class="region">CA</span></span>.
+I make websites for fun and for profit.
+I&rsquo;m still vegan, still straightedge. I&rsquo;m an anarchist and an atheist.
+My [http://flickr.com/photos/veganstraightedge/tags/civ dog] is
+[http://twitter.com/civthedog Civ].
+My girlfriend is [http://twitter.com/staceyxvx Stacey Spencer].
+
+== I&rsquo;ve made some things (sometimes along side [http://eliduke.com Eli Duke] and [http://iambookis.com Bookis Smuin]). ==
+* [http://zinedistro.org Zine Distro]
+* [http://listyourlist.com ListYourList]
+* [http://theresistancearmy.com The Resistance Army]
+* [http://foodsquatting.com Food Squatting]
+* [http://thegreatamericanaroadtrip.com The Great Americana Road Trip]
+* [http://iamshanebecker.com My Resume]
+
+== I have profiles on other websites. ==
+* [http://twitter.com/veganstraightedge Twitter]
+* [http://flickr.com/veganstraightedge Flickr]
+* [http://facebook.com/veganstraightedge Facebook]
+* [http://vimeo.com/veganstraightedg Vimeo]
+* [http://youtube.com/user/veganstraightedge YouTube]
+* [http://dribbble.com/players/veganstraightedge Dribble]
+* [http://foursquare.com/user/veganstraightedge FourSquare]
+* [http://gowalla.com/users/seanbonner Gowalla]
+* [http://last.fm/user/vegansxe Last.FM]
+* [http://listyourlist.com/veganstraightedge ListYourList]
+* [http://github.com/veganstraightedge GitHub]
+* [http://www.google.com/profiles/veganstraightedge Google Profile]
+* [http://pinboard.in/u:veganstraightedge Pinboard]
+
+You can contact me by email (<span class="email">veganstraightedge@gmail.com</span>)
+or by phone (<span class="tel">801-898-9481</span>). Please, no spam.
+You can [http://h2vx.com/vcf/iamshane.com download my vCard] for your address book.
+All content on [http://iamshane.com my site] (unless created by someone else) is licensed under
+[http://creativecommons.org/licenses/by/2.0/deed.en Creative Commons Attribution License]
+which means you can republish whatever you want as long as you attribute me and link back to the original page.
+
+</div> <!-- /div.vcard -->

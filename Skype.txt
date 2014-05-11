@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>[http://skype.com/ Skype]</dfn>''' is a [[communication]] service that provides text [[chat]], and audio/video calling service via native applications on desktop (Mac, Windows), and [[mobile]] (iOS, Android).
+
+You can purchase "credit" on Skype and use it to make audio calls to telephone numbers.
+
+== Criticism ==
+=== Credit deactivation ===
+If you don't use your Skype credit for 180 days, it becomes inactive.
+
+"Once it becomes inactive, you can reactivate it whenever you're ready to use it. Simply sign into your account online and follow the option to Reactivate credit." - per email received by [[User:Tantek.com|Tantek Çelik]] on 2014-04-29 with subject "Your credit will become inactive in 7 days".
+
+== See Also ==
+* [[communication]]

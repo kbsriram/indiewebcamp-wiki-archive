@@ -1,0 +1,189 @@
+__TOC__
+
+Please place key IndieWeb ideas/concepts, implementations, specifications, and other achievements; people involved, and dates/URLs for each. 
+
+In every case, a source pointing to an exact date or community verification should be used.
+
+Key (in rough order of how ideas develop, succeed)
+* (C) - '''Conceived.''' Concept/idea presented, published, discussed.
+* (T) - '''Terminology proposed/defined.''' Naming things helps talk about them (so says @timoreilly, Brooklyn Beta, 2013[https://twitter.com/whitneyhess/status/388679245545107457])
+* (E) - '''Event.''' In-person notable/significant meeting/event that furthered the Indie Web.
+* (I) - '''Implemented.''' Implementation shipped and deployed live and working on a personal indie web site.
+* (L) - '''Launched.''' Site, service, or software launched.
+* (S) - '''Specified.''' Specification written down and publicly published on the web.
+
+== 1997 ==
+* 1997-03-09 (T)(S): [http://www.w3.org/TR/NOTE-CDFsubmit.html '''Channel Definition Format (CDF)''' defined & specified] in [[Microsoft]] submission to [[W3C]] by Thomas Reardon
+* 1997-03-09 (C): '''[[RSS]]''' concepts nearly all defined in CDF spec
+
+== 1998 ==
+* ...
+
+== 1999 ==
+* 1999-03 (T)(S): '''RDF Site Summary ([[RSS]])''' named in [http://web.archive.org/web/20001208063100/http://my.netscape.com/publish/help/quickstart.html RSS 0.9] specification by [[Netscape]]
+
+== 2000 ==
+* ...
+
+== 2001 ==
+* ...
+
+== 2002 ==
+* 2002-07-07 (C): '''[[Pingback]] concept described''' as "automatic trackback" by Stuart Langridge[http://web.archive.org/web/20030814080916/http://www.kryogenix.org/days/80.html]
+** first automatic way to let someone know that you linked to their site.
+* 2002-09-02 (T): '''Pingback term introduced''' by Stuart Langridge[http://web.archive.org/web/20030820210236/http://www.kryogenix.org/days/179.html]
+* 2002-09-02 (I): '''Pingback first implemented''' by Simon Willison ([http://web.archive.org/web/20030817120358/http://simon.incutio.com/archive/2002/09/02/testingPingback] (UK timestamp?)
+** Additional source: Tantek conversation with Simon in Brighton, UK 2013-09-07
+* 2002-09-02 (I): '''Pingback second implementation''' by Stuart Langridge[http://web.archive.org/web/20030419054748/http://www.kryogenix.org/days/182.html] (US/CA timestamp?)
+* 2002-09-04 (S): '''Pingback [http://www.kryogenix.org/writings/tech/pingback.html first specified]''' by Stuart Langridge[http://web.archive.org/web/20030817120843/http://simon.incutio.com/archive/2002/09/04/pingBackSpec]
+* 2002-09-23 (S): '''Pingback 1.0 spec published''' by Ian Hickson[http://ln.hixie.ch/?start=1032794857&count=1][http://web.archive.org/web/20030605023339/http://ln.hixie.ch/?start=1032794857&count=1][http://web.archive.org/web/20030826071601/http://simon.incutio.com/archive/2002/09/24/pingback10]
+
+== 2003 ==
+* 2003-03 (C): '''[[XFN]]''' conceived by Tantek Çelik at SXSW with proposal of rel=friend
+* 2003-03 (E): '''SXSW Interactive''': Tantek Çelik &amp; Matthew Mullenweg meet, work on XFN
+* 2003-05-27 (L): '''[[WordPress]]''' open source project launched[http://en.wikipedia.org/wiki/Wordpress]
+* 2003: '''[[RSS]]/[[Atom]] Wars begin'''. Source: @caseorganic @t conversation [[2013/UK|2013-09-08]]
+* 2003-12-15 (S): '''[[XFN]]''' [http://gmpg.org/xfn/1 1.0 specified] by Tantek Çelik[http://tantek.com/log/2003/12.html#L20031215], Eric Meyer[http://www.meyerweb.com/eric/thoughts/200312.html#t20031215], and Matt Mullenweg[http://ma.tt/2003/12/distributed-social-networking-software/]
+
+== 2004 ==
+* 2004-02-11 (T): '''[[microformats]]''' term [http://tantek.com/presentations/2004etech/realworldsemanticspres.html introduced] by Tantek Çelik &amp; Kevin Marks, San Diego, CA
+* 2004-08-16 (S): '''[[XFN]]''' [http://gmpg.org/xfn/11 1.1 specified] by Tantek Çelik, Eric Meyer, and Matt Mullenweg[http://tantek.com/log/2004/08.html#d16t0830]
+
+== 2005 ==
+* 2005-06-20 (L): '''microformats.org''' launched
+
+== 2006 ==
+* ...
+
+== 2007 ==
+* ...
+
+== 2008 ==
+* 2008-02 (E): '''Social Graph FooCamp''' at O'Reilly Campus, Sebastopol, CA[http://therealmccrea.com/2008/02/03/a-peak-inside-social-graph-foo-camp/].[http://www.flickr.com/search/?q=sgfoocamp&m=text photos].
+
+== 2009 ==
+* 2009-04 (E): '''Social Web FooCamp''' at O'Reilly Campus, Sebastopol, CA[http://therealmccrea.com/2009/04/20/an-awesome-social-web-foo-camp/][http://guestofaguest.com/new-york/nerd-alert/the-secret-social-web-foo-camping-trip-on-oreilly-concrete-campus-this-weekend-allison-packed-enough-blueprint-cleanse-for-everyone]
+
+== 2010 ==
+* 2010-02-01 (C): '''[[RelMeAuth]]''' concept described by Tantek[http://tantek.com/2010/032/t5/modest-proposal-authentication-oauth-twitter-rel-me]
+* 2010-02-01 (T): '''[[RelMeAuth]]''' term proposed by Jeff Lindsay moments later[http://tantek.com/2010/032/t6/relmeauth-oauth-rel-me-auto-fallback-authentication]
+* 2010-02-01 (C): '''[[RelMeAuth]]''' user flow, fallback algorithms by Tantek[http://tantek.com/2010/032/t6/relmeauth-oauth-rel-me-auto-fallback-authentication]
+* 2010-05-26 (C): '''[[POSSE]]''' concept described by Tantek[http://www.monkinetic.com/2010/05/26/tantek-celik-diso-20-brass-tacks]
+* 2010-07-18 (E): '''[[Federated_Social_Web_Summit#Portland_2010|Federated Social Web Summit]]''' (FSWS2010) in Portland, Oregon
+* 2010-07-18 (C): '''IndieWeb''' Movement conceived by Aaron Parecki & Tantek Çelik after FSWS2010
+* 2010-10-06 (C): '''[[POSSE]]''' architecture drawn by Tantek at Mozilla, Mountain View[http://www.flickr.com/photos/tantek/5301870765/]
+
+== 2011 ==
+* 2011-06-25 (E): '''First [[2011|IndieWebCamp]]''' by Tantek Çelik,  Aaron Parecki, Amber Case, Crystal Beasley in Portland, Oregon
+
+== 2012 ==
+* 2012-03-28 (I): '''[[IndieAuth]]''' implemented by Aaron Parecki[http://indiewebcamp.com/irc/2012-03-28#t1333002549]
+* 2012-06-20 (E): [http://microformats.org/wiki/events/2012-06-20-meetup '''microformats.org''' 7th Anniversary Celebration] at Mozilla, San Francisco.
+* 2012-06-20 (T): '''[[POSSE]]''' term proposed by Tantek Çelik & Will Norris at that event[http://tantek.com/2012/173/t1/posse-core-indieweb-approach]
+* 2012-06-22 (T): '''[[PESOS]]''' term proposed by Tantek[http://tantek.com/2012/174/t2/opposite-posse-pesos-publish-elsewhere]
+* 2012-06-30 (E): '''[[2012|IndieWebCamp 2012]]''' in Portland, Oregon
+* 2012-09-09 (E): '''[[2012/UK|IndieWebCampUK 2012]]''' in Brighton, England
+* 2012-10-26 (E): '''[[Federated_Social_Web_Summit#San_Francisco_2012|Federated Social Web Summit San Francisco]]'''
+
+== 2013 ==
+* 2013-04-19 (I): '''[https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html First indieweb post with federated comments]''' by Laurent Eschenauer[http://tantek.com/2013/113/b1/first-federated-indieweb-comment-thread]
+* 2013-04-19 (I): '''[http://aaronparecki.com/replies/2013/04/19/2/indieweb First cross-site indieweb reply post]''' via [[Pingback]] by Aaron Parecki[http://tantek.com/2013/113/b1/first-federated-indieweb-comment-thread]
+* 2013-06-22 (E): '''[[2013|IndieWebCamp 2013]]''' in Portland, Oregon
+* 2013-06-25 (I): '''[http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup First indieweb event post]''' with [[RSVP]] support by [[Ben Werdmuller]] using [[idno]]
+* 2013-06-25 (I): '''[http://bret.io/2013/06/25/t2/ First cross-site indieweb RSVP post]''' by [[Bret Comnes]] 
+* 2013-06-25 (I): '''[http://aaronparecki.com/replies/2013/06/25/3/indiewebcamp Second cross-site indieweb RSVP post]''' by [[Aaron Parecki]] using [[p3k]]
+* 2013-09-07 (E): '''[[2013/UK|IndieWebCampUK 2013]]''' in Brighton, England
+* 2013-12-01 (L): '''[https://www.brid.gy/ Bridgy]''' Service that watches for activity on syndicated content and sends webmentions back to the original post (ex: likes or favorites). by [[Ryan Barrett]].
+
+== needs cleanup ==
+---
+
+Note: Below is a draft of unorganized data with rough dates. Needs cleanup. Source: @caseorganic conversation with @t, IndieWebCamp UK 2013-09-08 
+
+---
+
+2003:
+
+Rise of Pingback Spam
+
+Decline of Personal Sites
+*Distracted by RSS/ATOM wars, blogs began to decline
+*Hosted blogs, people turned to social networks more than blogging 
+*Eventual fade of RSS/ATOM
+
+2010: State of Blogs
+*Not much personal blog activity
+*WordPress heavy and dominant
+
+2013:
+*Github hosted blogs, Medium for frontpage Hacker News
+
+Siloed blogging and writing frameworks. 
+*MEDIUM: Don’t claim ownership but reserve the right to use your content even if they get acquired in the future. 
+*Wikia: Communities don’t own their content and can’t transfer it off their site. 
+
+Differences between 2013 and 2003 
+*Short status updates became an acceptable form of content 
+*Easy enough to show an entire conversation or a link to another page 
+
+[[2011]] (E): IndieWebCamp Conf
+*Purpose: Show, don’t tell 
+*Builders Only. Must have your own domain name and actively build stuff for it to attend. 
+*Use your domain name and OpenID to sign into the IndieWebCamp MediaWiki. http://indiewebcamp.com/
+*Could only add self to the attendee list if you use your domain name to log into the site.
+
+2012: 
+*IndieAuth implemented on IndieWebCamp.com (replaced OpenID)
+*2012-06 (E): [[2012|IndieWebCamp2012]]: changed from Builders-only to Creators-only to more explicitly include UX+design
+**Again, could only add self to the attendee list if you use your domain name to log into the site.
+*Domain Name, rel=me, mediawiki
+* 2012-09 (E): [[2012/UK|IndieWebCampUK 2012]] (first in the UK)
+
+---
+
+Need Dates for the following, creators and the first example of each: 
+
+[[hAtom]], [[hCard]]
+
+[[h-entry]], [[h-card]]
+
+[[RelMeAuth]]
+
+[[IndieAuth]]
+
+[[WebActions]]
+
+[[WebMention]]
+
+WebMention.io and pingback.me before that
+
+Indie [[Comments]]
+
+Indieweb post capable of receiving webmention based comments
+
+Indieweb comment published and original notified via webmention
+
+Indieweb post capable of receiving webmention based favorite notifications
+
+Indieweb favorite published and original notified via webmention
+ 
+Indieweb post capable of receiving webmention based repost notifications
+
+Indieweb repost published and original notified via webmention
+ 
+[[IndieMark]]
+
+Blog posts of why IndieWeb is important.
+
+== Similar Resource ==
+See also:
+* http://www.media.mit.edu/wearables/lizzy/timeline.html
+for approaches to sections, styling of this [[timeline]] page.
+
+Personal timelines:
+* http://cheeaun.github.io/life/
+
+== See Also ==
+* [[history]]
+* http://microformats.org/wiki/history-of-microformats
+* [[Posts about the IndieWeb]]

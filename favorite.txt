@@ -1,0 +1,41 @@
+{{stub}}
+
+A '''<dfn>favorite</dfn>''' is a common [[webaction]] on many [[silos]] (e.g. [[Flickr]], [[Twitter]]), typically visually indicated with a five pointed star symbol that fills in with a color when activated (pink, orange). A favorite is similar to but somewhat different from a [[like]].
+
+== Similarity to Like ==
+Favorites are similar to likes in how they're represented in some systems.
+
+Similarities:
+* number of (favorites/likes) shown on posts ([[Facebook]], [[Flickr]], [[Instagram]], [[Twitter]])
+* shows up in a feed of your activities viewable by your friends/followers ([[Facebook]], [[Twitter]])
+* ...
+
+== Differences From Like ==
+There's some anecdotal evidence that users consider "likes" different from "favorites".
+
+Also they seem to behave differently across systems:
+
+Likes:
+* icons: thumbs-up ([[Facebook]]), heart ([[Instagram]])
+* means: props/compliments to the original post/poster
+* presumed lightweight
+* activating increments a count (nearly) immediately (Facebook, Instagram)
+* only one instance of browsable likes as a set ([[Instagram]], and those only by the liker).
+
+Favorites:
+* icon: five pointed star, changes when activated (fills in with a color: pink (Flickr), orange (Twitter))
+* means: special to the favoriter
+* implies adding to a collection - favorites are always browsable (typically publicly) as a set (e.g. your Flickr Favorites, Twitter Favorites)
+* curating
+
+These differences may be subtle enough as to make it confusing if both were present in a system - there are no known systems that have both.
+
+== See Also ==
+* [[like]]
+* [[silos]]
+** [[Facebook]]
+** [[Flickr]]
+** [[Instagram]]
+** [[Twitter]]
+* [[posts]]
+* [[responses]] - other specialized types of replies

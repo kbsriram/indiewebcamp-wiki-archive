@@ -1,0 +1,7 @@
+== <a href="http://brient.net" rel="me">Brient Hess</a> ==
+
+A Portland-area geek, photographer, and writer. Currently in the very earliest stages of developing for the Indie Web, after having taken a decade hiatus from maintaining an active internet presence.
+
+During the fall of 2013, [[User:Caseorganic.com|Amber Case]] gave a lecture in [http://boghossian.com Peter Boghossian]'s computer ethics class at Portland State University that introduced me to the Indie Web. Given that the takeover of SILOs was why I went on internet vacation in the first place, I immediately liked the idea.
+
+There's virtually nothing to see on my website at the time of this writing, but I'm actively working on setting up MediaWiki as a personal archive and... it's currently a toss-up between Idno and p3k.

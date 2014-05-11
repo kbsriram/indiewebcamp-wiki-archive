@@ -1,0 +1,61 @@
+== About IndieWebCamp ==
+
+IndieWebCamp is a gathering of web creators building and sharing open web technologies to advance the state of the indie web. We get together for a weekend to talk about what has been done to empower people to own their online identities, and then spend a day hacking and creating.
+
+The event will attract roughly 40 highly engaged people interested in advancing the state of the open independent web.
+
+== Sponsorship ==
+
+Here are ways you can help sponsor one of the next IndieWebCamp [[events]]
+
+* '''venue''' - volunteer to host an IndieWebCamp event
+* '''food''' - cover the cost and delivery of any of the following for day 1 or 2 of IndieWebCamp:
+** '''pre-event drinkup''' - cover the tab at a nearby pub
+** '''breakfast snacks''' (fruit, pastries, bagels)
+** '''coffee''' (morning and/or afternoon)
+** '''lunch'''
+** '''dinner'''
+** '''post-event drinkup''' - cover the tab at a nearby pub (would need to commit about $150)
+* '''supplies''' - giant sticky notes, sketch paper, pens, etc.
+
+Your contribution will be used to fund the ingredients that will make IndieWebCamp a success, including the venue, printing costs, and refreshments. While there are no formal speaking slots available, anyone from your team is welcome to attend either as a [[creator]] or an apprentice if you don't yet have your own domain name.
+
+=== $1,000 ===
+
+At this level, we will put a large logo on the indiewebcamp.com event page, as well as in the wiki sidebar. A sponsor representative will get a 5-minute presentation slot during the opening session before the breakout sessions. We will include your logo in a logo poster we put up at the event. If you have signage, you are welcome to bring it to the event.
+
+=== $500 ===
+
+At this level, we will put a large logo on the indiewebcamp.com event page, as well as in the wiki sidebar. We will give a verbal thank-you during the opening and closing sessions. We will include your logo in a logo poster we put up at the event. If you have signage, you are welcome to bring it to the event.
+
+=== $100 ===
+
+At this level, we will put a small logo on the indiewebcamp.com website on the event's page. We will give a verbal thank-you during the opening and closing sessions. We will include your logo in a logo poster we put up at the event.
+
+=== Other Amount / Alternate Sponsorships ===
+
+Sponsorship of any amount is appreciated! We also welcome alternative sponsorship suggestions, such as branded lanyards, etc. Please get in touch with [[User:aaronparecki.com|Aaron Parecki]] to discuss.
+
+=== Payment / Contact Information ===
+
+Sponsorship is handled by Marvelous Labs, LLC. 
+
+Please either mail a check to Marvelous Labs (email sponsorship@indiewebcamp.com for the mailing address) or send money via PayPal to info@marvelouslabs.com using the button below.
+
+<raw>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VG58D7PEJFGD6">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</raw>
+
+You can get in touch with [http://aaronparecki.com Aaron Parecki] ([mailto:aaron@parecki.com aaron@parecki.com]) with any questions.
+
+== See also ==
+* [[events]]
+* [[Previous IndieWebCamps]]
+* [[Sponsors|Past Sponsors]]
+
+__NOTOC__

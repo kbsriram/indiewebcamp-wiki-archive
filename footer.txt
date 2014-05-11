@@ -1,0 +1,1 @@
+#redirect:[[posts#Footer_sections]]

@@ -1,0 +1,40 @@
+{{stub}}
+
+'''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.
+
+== Troubleshooting ==
+=== Twitter API ===
+As of 2013-06-11 Twitter has switched to requiring v1.1 (or later?) of their API. v1.0 has been turned off. v1.1 is pickier about the way it handles OAuth. You may run into the following problems.
+
+==== Error 0 before authorization prompt ====
+If the authenticate request returns an error 0 before you even see the Twitter authorization prompt screen, and you are using the [https://raw.github.com/themattharris/tmhOAuth latest tmhOAuth.php], you may need to:
+* make sure that you have the file "cacert.pem" in the same directory as your tmhOAuth.php.
+
+==== Verify after authorization prompt does not work ====
+For [https://github.com/themattharris/RelMeAuth/ relmeauth.php] in particular:
+* If after bouncing to the Twitter authorization prompt (where it says "Redirecting you back to the application...") it just bounces back automatically right back to the RelMeAuth sign-in screen (not signed-in).
+* Then check out [https://github.com/themattharris/RelMeAuth/tree/tmh_june_2013_update RelMeAuth branch tmh_june_2013_update] and see if that fixes things.
+
+==== After authorization prompt Error 401 Invalid request token ====
+For relmeauth.php in particular when using tmhOAuth.php:
+* If after bouncing to the Twitter authorization prompt  (where it says "Redirecting you back to the application...") it provides an Error 401 message and the $tmhOAuth->response['response'] is 'Invalid request token'
+* Then: make absolutely sure you're '''using tmhOAuth.php version 0.8.2''' or later. Double check this at the top of the tmhOAuth.php you're using on your server.
+
+==== Verify after authorization prompt still does not work ====
+For relmeauth.php in particular when using tmhOAuth.php:
+* If after bouncing to the Twitter authorization prompt (where it says "Redirecting you back to the application...") it just bounces back automatically right back to the RelMeAuth sign-in screen (not signed-in).
+* Then in "function verify", where it sets "$_SESSION['relmeauth']['name'] = $creds[ ", do a <code>var_dump($creds);</code>
+** If there's a message about the v1 API being no longer supported, 
+** Then: make sure you've updated your "config.php" file such that it has the line with /1.1/ :
+*** 'verify'  => 'https://api.twitter.com/1.1/account/verify_credentials.json',
+
+That should fix the problem.
+
+== Criticism ==
+* 2012-07-26 Eran Hammer: [http://hueniverse.com/2012/07/oauth-2-0-and-the-road-to-hell/ OAuth 2.0 and the Road to Hell]
+
+== See Also ==
+* [[silos]]
+* [[relmeauth]]
+* [[IndieAuth]]
+* [[micropub]]

@@ -1,0 +1,24 @@
+{{stub}}
+
+notes at: https://etherpad.mozilla.org/indiewebcamp-truemvc
+
+Reducing the Size of the Stack 
+
+led by http://brianhendrickson.com/ - uses the MVC framework discussed in this talk!
+
+MVC
+
+Coffeescript
+
+cassis.js - http://cassisproject.com/
+
+ActivityStreams
+
+ActivityStreams 2.0 - James
+
+http://brianhendrickson.com/
+
+http://meteor.com
+
+
+[[Category:2013]]

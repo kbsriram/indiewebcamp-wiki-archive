@@ -1,0 +1,31 @@
+<span style="float:right">http://uploads.pixyblog.com/news/logo-blog-blogger.png</span>
+{{stub}}
+
+'''<dfn>[http://blogger.com/ Blogger]</dfn>''' is a blog content hosting [[silo]] owned by [[Google]]. 
+
+"Blogger" used to be the name of (one of?) the first blogging application services ([http://en.wikipedia.org/wiki/Software_as_a_service SaaS]) that used your own domain and your own [[hosting]] provider for the storage of your blog, and FTP as an API to edit your site. If the Blogger application went down, your site still worked (to serve your posts) - the only thing you couldn't do was use the application to edit or publish new posts. In this way, the original Blogger was quite an indieweb-enabling tool - you still fully owned and controlled your content, as it was all stored on your own web host.
+
+Google shutdown the Blogger application on 2010-05-01.[http://en.wikipedia.org/wiki/Blogger_%28service%29]
+
+The Blogger team created "Blogspot.com" as a hosted version ([[silo]]) of the Blogger application, which was later served from blogger.com and then renamed to "Blogger", thus replacing the original meaning and web application functionality with a [[silo]].
+__TOC__
+== Domain Hosting ==
+It is possible to setup Blogger to serve your blog on your own domain for free to [[get started]] on the indie web.
+
+* http://support.google.com/blogger/bin/static.py?hl=en&ts=1233381&page=ts.cs
+
+=== Issues ===
+Issues folks have run into with Blogger's custom domain support.
+
+* ...
+
+== Criticism ==
+=== templates use XML ===
+Blogger templates still require use of their custom XML, which has inconveniences like:
+<blockquote>blogger templates are still xml, so I have to CDATA escape the javascript ... [http://indiewebcamp.com/irc/2014-04-18/line/1397880406]</blockquote>
+
+== See Also ==
+* [[Getting started]]
+* [[Google]]
+* [[silo]]
+* [[site-deaths]]

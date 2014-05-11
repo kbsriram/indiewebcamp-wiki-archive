@@ -1,0 +1,108 @@
+{{stub}}
+
+'''<dfn>[https://code.google.com/p/pubsubhubbub/ PubSubHubbub]</dfn>''' (PuSH) is a notification-based protocol for publishing and subscribing to [[feeds]]/[[streams]] in real time. Currently there are no known indieweb sites that subscribe to anything using PuSH.
+
+== IndieWeb Examples ==
+There are several indieweb sites producing PuSH notifications, but none that visibly consume any (there are some with indie [[reader]] feature support in development with skeleton consumers).
+
+=== Tantek ===
+[[User:tantek.com|Tantek Çelik]] uses [[Falcon]] to send PuSH notifications of each post in his tantek.com Atom feed file [http://tantek.com/2010/032/t3/bits-tweeting-from-my-site-favicon-twitter-pubsubhubbub since 2010-02-01].
+
+=== Aaron Parecki ===
+[[User:aaronparecki.com|Aaron Parecki]] uses [[p3k]] to send PuSH notifications for each item in his aaronparecki.com notes and articles Atom feed files since ????-??-?? (at least 2014-??-??).
+
+=== Bret Comnes ===
+[[User:bret.io|Bret Comnes]] sends PuSH notifications for his bret.io Github Pages/Jekyll Atom feed file  [http://bret.io/2014/03/16/github-pages-pubsubhubbub-support-levels-up/ since 2014-03-16].
+
+=== Kyle Mahan ===
+[[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] to send PuSH notifications for new/edited posts and new mentions in his kylewm.com Atom feed file since 2014-03-23(possibly earlier).
+
+=== Barnaby Walters ===
+[[User:WaterPigs.co.uk|Barnaby Walters]] uses [[Taproot]] to send PuSH notifications for each new post on his WaterPigs.co.uk homepage HTML feed using PuSH 0.4 and [[Superfeedr]] since 2014-03-25.
+
+== Hubs ==
+* http://pubsubhubbub.superfeedr.com/ 
+
+== Arbitrary Content ==
+Since [https://pubsubhubbub.googlecode.com/svn/trunk/pubsubhubbub-core-0.4.html version 0.4] it is possible to push arbitrary content like json or html ([[microformats]])
+
+To push your [[posts]]/[[comment]]s you have to:
+
+* add a rel-self header pointing to the site itself
+** for example <http://tantek.com/>; rel="self"
+* add a rel-hub header pointing to superfeedr (the only hub that supports spec 0.4 yet)
+** for example <http://pubsubhubbub.superfeedr.com/>; rel="hub"
+* send a post to the hub with this body: <code>hub.mode=publish&hub.url=URL_OF_YOUR_SITE</code>
+** for example <code>hub.mode=publish&hub.url=http://tantek.com/</code>
+
+Superfeedr also offers the ability to subscribe to fragments on a page, using the # symbol. For example, if you subscribe to http://tantek.com/#.hentry, you will receive POST to your webhook/callback endpoint with the content of the first element of class "hentry" on http://tantek.com/
+
+== How To ==
+=== Subscribe to a PuSH-enabled feed ===
+Summary:
+* detect the hub for the feed, optionally falling back to a polling hub (like [[Superfeedr]]) if none is found
+* send a subscription request to the hub for that URL, with a callback URL for the hub to ping with new content
+* respond correctly to the verification of intent
+* receive new content from the feed, POSTed straight to the callback URL
+
+Hub discovery algorithm as described by julien51 [http://indiewebcamp.com/irc/2014-03-26/line/1395836959]:
+
+# Find resource you want to subscribe
+# Check for a "Link" header which points to a hub.
+#* If there is one => Subscribe to the hub designated
+#* If there is none, continue
+# Check for a linking element (<code>a</code> or <code>link</code>) with rel~=hub
+#* If there is one, subscribe using the designated hub
+#* Otherwise, continue
+# Check for a <atom:link> element which points to a hub.
+#* if there is one => Subscribe to the designated hub
+#* If there is none => Subscribe using the Superfeedr default hub : push.superfeedr.com
+
+Also, along with the hub link (both in the HTTP headers or the ATOM/RSS), you should check for a self link and use this one as the hub.topic you want to subscribe. 
+
+The Superfeedr documentation has a more detailed guide: http://documentation.superfeedr.com/subscribers.html
+
+=== Testing your PuSH-enabled feed ===
+There are several ways you can test whether or not your PuSH feed and pings are working properly:
+
+'''RSS Reader'''
+
+Most [http://blog.superfeedr.com/state-of-pubsubhubbub/ popular RSS Readers] do implement PubSubHubbub, you can just subscribe to your feed on one of them, and see if the update as been propagated after you added content. 
+
+'''Status.net'''
+
+# subscribe to your home page from a Status.net account
+# publish stuff on your home page
+# see updates appear in real time on your Status.net account
+
+
+'''Bots'''
+
+There are several [[XMPP]]/[[IRC]] bots which allow you to subscribe to feeds and be notified of updates via any [[XMPP]] or [[IRC]] client. You’ll need an XMPP account, or an IRC client.
+* https://github.com/julien51/notifix (see below)
+* http://blog.superfeedr.com/notifixlight/
+* http://push-bot.appspot.com/
+
+'''Notifix'''
+
+Notifix is a bot (see above for source code). It's constantly connected to irc.freenode.net. Send him a private message like +help to see available commands. Subscribe with +subscribe <feed>, publish your content and see if you get the ping straight via IRC.
+
+* I have had better experiences with notifixlite than PuSH Bot --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 03:16, 5 June 2013 (PDT)
+
+== Discussion ==
+* "subscribing (to PuSH is) too hard": http://indiewebcamp.com/irc/2013-05-29#t1369859193
+
+== Issues ==
+* There are only 3 hosted hubs according to [http://code.google.com/p/pubsubhubbub/wiki/Hubs this list] of which the one run by Google looks like a side-project (and I suspect it does not offer any service level guarantees) and I haven't heard much about Ayup. Which essentially means there is '''only one''' hosted hub to speak. Hubs are [http://code.google.com/p/pubsubhubbub/wiki/DesignPrinciples complex by design] and therefore not something indieweb people can/should run themselves. This is not a healthy situation for something to be considered as indieweb infrastructure -[[User:Www.sandeep.io|Www.sandeep.io]] 06:09, 3 July 2013 (PDT)
+** That's the same problem you have with IndieAuth --[[User:Notizblog.org|Notizblog.org]] 06:32, 3 July 2013 (PDT)
+*** I agree, but that says nothing about what you think about the problem described above. -[[User:Www.sandeep.io|Www.sandeep.io]] 13:01, 14 July 2013 (PDT)
+** The 'side project' assessment about the Google hub is both wrong and ill-intended. PubSubHubbub is actually [http://www.youtube.com/watch?feature=player_embedded&v=4LsB19wTt0Q#at=20 key to Google's crawling] capabilities and we can safely expect Google to keep maintaining it.
+*** Why would you assume ill-intent? Google's hub does '''not''' seem like an official product/service (I haven't found any references claiming otherwise). It's just a URL and associated code. The video says nothing about the hub and only talks about Google acting like a subscriber and also emphasize '''very''' limited use: "''There is a very limited amount in which we will use pubsubhubbub to help improve our crawl''". Nothing about the hub is official so I have no choice but to assume it's a side-project unless you cite references clearly stating otherwise. -[[User:Www.sandeep.io|Www.sandeep.io]] 13:01, 14 July 2013 (PDT)
+** There are a bunch of OSS implementations of PubSubHubbub hubs that *you* you use, or you could also write your own. Not sure why this would not be a *healthy situation*... :0
+*** If I don't want to take on the complexity of running a hub (which IMO, is what is attractive about PuSH) and pending clarification of the official status of Google's hub, there is only one hosted hub "out there" which makes it a SPOF. -[[User:Www.sandeep.io|Www.sandeep.io]] 13:01, 14 July 2013 (PDT)
+
+== See Also ==
+* [[feeds]]
+* [[streams]]
+* [[push-vs-pull]]
+* [[webmention]]

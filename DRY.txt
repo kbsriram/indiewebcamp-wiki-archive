@@ -1,0 +1,7 @@
+{{stub}}
+
+'''<dfn>DRY</dfn>''' is an abbreviation for '''Don't Repeat Yourself''' which describes a computer science and data publishing principle of publishing one canonical version of information, preferably visibly, rather than duplicating it either inside the page e.g. with meta tags (like [[OGP]]), or in side files (like [[RSS]]).
+
+== See Also ==
+* [[principles]]
+* http://microformats.org/wiki/dry

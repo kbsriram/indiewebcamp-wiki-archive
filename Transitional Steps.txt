@@ -1,0 +1,8 @@
+While you are [[Getting Started]], transitional steps may be useful:
+
+=== Redirect ===
+If you're currently publishing most of your textual content on a [[silo]], then create a redirect from your personal domain to that silo profile
+* Tumblr.com (preferred due to free domain mapping) or Wordpress.com are popular content hosting choices for easily getting started with publishing content publicly on the web. Get an account at one of those or a personal wiki site like pbworks.com if you don't already have one.
+* Set up a redirect from your domain name provider's control panel from your personal domain to your [[Tumblr]], [[WordPress]] or [[PBWorks]] account.
+* This will allow you to share URLs with your personal domain that redirect to those hosted services.  This is better than simply sharing URLs directly to those hosted services because in the future you can set up your site to serve those URLs directly rather than having them handled by a hosted service.
+* A redirect still has the disadvantage though that when people click on your URLs with your personal domain name, their browser will redirect them (and show them) the hosting service URL (e.g. user-example.tumblr.com rather than user-example.com), thus if they reshare this URL by copy/pasting they won't be using your personal domain.

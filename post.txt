@@ -1,0 +1,19 @@
+{{stub}}
+
+“post” can refer to either:
+
+* A discreet piece of content (perhaps a [[note]] or and [[article]]) — see also [[posts]]
+* The act of creating the aforementioned content
+** Also used elsewhere, e.g “posted a comment”, “posted a photo”
+
+== How to ==
+* [[authorship|Determine the author of a post]]
+* [[original-post-discovery|Determine the original URL of a post]]
+* [[page-name-discovery|Determine the name of a page]]
+* [[comments-presentation#How_to_display|Find info to display a post as a comment]]
+
+== See Also ==
+* [[posts]]
+* [[comment]]
+* [[note]]
+* [[article]]

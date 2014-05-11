@@ -1,0 +1,12 @@
+{{stub}}
+
+'''Extensible Messaging and Presence Protocol (<dfn>XMPP</dfn>)''' is an open [[messaging]] standard, perhaps best known in its use for cross-platform instant-messaging application interoperability.
+
+The core part of XMPP is now an IETF RFC, RFC-6120 http://xmpp.org/xmpp-protocols/rfcs/
+
+Up until recently the XMPP world and the Web world rarely crossed, but now thanks to work on https://github.com/legastero/stanza.io and https://github.com/xmpp-ftw/xmpp-ftw you can now "talk" XMPP directly from the web.
+
+== See Also ==
+* http://xmpp.org/about-xmpp/xsf/
+* [[messaging]]
+* [[communication]]

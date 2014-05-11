@@ -1,0 +1,13 @@
+{{stub}}
+
+Navigation refers to the UI, UX and markup allowing people to move around a website. On indieweb sites this often consists of:
+
+* top-level [[post]] type links e.g. notes, articles
+* previous/next pagination between consecutive chronologically ordered posts
+* the use of [[tags]] to navigate to similar content
+
+== See Also ==
+
+* [[post]]
+* [[tags]]
+* [[hashtags]]

@@ -1,0 +1,115 @@
+Want to help IndieWebCamp? Become a sponsor!
+* [[how-to-sponsor|How to sponsor IndieWebCamp]]
+
+== 2014 PDX Sponsors ==
+
+* See [[how-to-sponsor]] to sponsor [[2014|IndieWebCamp 2014 ]]!
+
+== 2014 SF Sponsors ==
+IndieWebCamp thanks the following [[2014/SF|2014 SF]] sponsors:
+
+{|
+|align="center" style="padding: 20px;"|[[File:bridgy-logo.jpg|110px|link=https://www.brid.gy/]]
+| <h3>Bridgy</h3> '''[[Bridgy]]''' is an open source project and proxy that implements backfeed as a service. Bridgy sends webmentions for comments, likes, etc. on Facebook, Twitter, Google+, and Instagram.
+|-
+|align="center" style="padding: 20px;"|[[File:idno-logo.png|110px|link=http://idno.co]]
+| <h3>idno.</h3> '''[http://idno.co/ idno.]''' is a flexible, IndieWeb-compatible platform for building personal and community sites.
+|-
+|align="center" style="padding: 20px;"|[[File:google-logo.png|110px|link=http://google.com]]
+| <h3>Google</h3> '''[http://google.com/ Google]'''
+|-
+|align="center" style="padding: 20px;"|[[File:mozilla-logo.png|110px|link=http://mozilla.org]]
+| <h3>Mozilla</h3> '''[http://mozilla.org/ Mozilla]'''
+|-
+|align="center" style="padding: 20px;"|[[File:p3k-logo.png|110px|link=http://indiewebcamp.com/p3k]]
+| <h3>p3k</h3> '''[[p3k]]'''
+|}
+
+== 2013 Hollywood Sponsors ==
+IndieWebCamp thanks the following [[2013/Hollywood|2013 Hollywood]] sponsors:
+
+{|
+|align="center" style="padding: 20px;"|[[File:google-logo.png|110px|link=http://google.com]]
+| <h3>Google</h3> '''[http://google.com/ Google]'''
+|-
+|align="center" style="padding: 20px;"|[[File:trsst.png|110px|link=http://trsst.com]]
+| <h3>Trsst</h3> '''[http://trsst.com/ Trsst]''' looks and feels like twitter but encrypted and anonymized and decentralized and only you hold the keys
+|-
+|}
+
+== 2013 UK Sponsors ==
+IndieWebCamp thanks the following [[2013/UK|2013 UK]] sponsors:
+
+* Lighthouse (for the venue)
+* ...
+
+== 2013 Sponsors ==
+IndieWebCamp thanks the following [[2013]] sponsors:
+
+{|
+|align="center" style="padding: 20px;"|[[File:google-logo.png|110px|link=http://google.com]]
+| <h3>Google</h3> '''[http://google.com/ Google]'''
+|-
+|align="center" style="padding: 20px;"|[[File:superfeedr-logo.png|110px|link=http://superfeedr.com]]
+| <h3>Superfeedr</h3> '''[http://superfeedr.com/ Superfeedr]''' makes RSS feeds realtime by pushing them from publishers to subscribers. We provide both an XMPP and PubSubHubbub/Webhook API and we believe *subscribing* is a key aspect of the IndieWeb. As a user I want to be able to follow my friends on the platform they chose, from the platform I choose!
+|-
+|align="center" style="padding: 20px;"|[[File:idno-logo.png|110px|link=http://idno.co]]
+| <h3>idno.</h3> '''[http://idno.co/ idno.]''' is a flexible, IndieWeb-compatible platform for building personal and community sites.
+|-
+|align="center" style="padding: 20px;"|[[File:network-redux-logo.png|160px|link=http://www.networkredux.com/]]
+| <h3>Network Redux</h3> '''[http://www.networkredux.com/ Network Redux]''' is a Web Hosting and data service provider based in Portland, Oregon.
+|-
+|align="center" style="padding: 20px;"|[[File:elemental-logo.png|160px|link=http://www.elementaltechnologies.com/]]
+| <h3>Elemental Technologies</h3> '''[http://www.elementaltechnologies.com/ Elemental Technologies]''' is graciously hosting the 2013 event.
+|-
+|align="center" style="padding: 20px;"|[[File:mozilla-logo.png|110px|link=http://mozilla.org]]
+| <h3>Mozilla</h3> '''[http://mozilla.org/ Mozilla]'''
+|}
+
+__NOTOC__
+
+== 2012 UK Sponsors ==
+IndieWebCamp thanks the following [[2012/UK|2012 UK]] sponsors:
+{|
+|align="center" style="padding: 20px;"|[[File:theskiff-logo.png|160px|link=http://www.theskiff.org/]]
+| <h3>The Skiff</h3> '''[http://www.theskiff.org/ The Skiff] is a not-for-profit community created and run by our members for our members.''' <br />The Skiff provided the venue for IndieWebCampUK 2012.
+|-
+|align="center" style="padding: 20px;"|[[File:clearleft-logo.png|160px|link=http://clearleft.com]]
+| <h3>Clearleft</h3> '''Our mission is to advance the field of user experience design, one exceptional product at a time.'''<br />Clearleft provided sticky notes, sketch paper, pens, and donated anything unused at the end of IndieWebCampUK 2012 to The Skiff.
+|}
+
+== 2012 Sponsors ==
+IndieWebCamp thanks the following [[2012]] sponsors:
+{|
+|align="center" style="padding: 20px;"|[[File:status-net-logo.png|160px|link=http://status.net]]
+| <h3>StatusNet</h3> '''[http://status.net StatusNet's] private and secure Enterprise Social Network enables your teams to collaborate, share insights, solve problems and build relationships in real time.''' <br />StatusNet provided lunch on Sunday.
+|-
+|align="center" style="padding: 20px;"|[[File:mozillalogo.jpg|120px|link=http://mozilla.org]]
+| <h3>Mozilla</h3> '''Our mission is to promote openness, innovation and opportunity on the Internet. We are making the Web better for you.'''<br />Mozilla provided morning coffee for both days.
+|-
+|align="center" style="padding: 20px;"|[[File:ualogo.png|160px|link=http://urbanairship.com]]
+| <h3>Urban Airship</h3> '''The [http://urbanairship.com Urban Airship] platform is the engagement and monetization engine behind thousands of the world’s most successful mobile apps.'''<br />Urban Airship provided beer, fruit and snacks for both days.
+|-
+|align="center" style="padding: 20px;"|[[File:geoloqi-logo.png|160px|link=http://geoloqi.com]]
+| <h3>Geoloqi</h3> '''[http://geoloqi.com Geoloqi] makes it easy to add location to your applications.''' <br /> Geoloqi provided the venue and breakfast on Saturday morning.
+|}
+
+__NOTOC__
+
+== 2011 Sponsors ==
+IndieWebCamp thanks the following [[2011]] sponsors:
+{|
+|align="center" style="padding: 20px;"|[[File:ualogo.png|160px|link=http://urbanairship.com]]
+| <h3>Urban Airship</h3> '''The [http://urbanairship.com Urban Airship] platform is the engagement and monetization engine behind thousands of the world’s most successful mobile apps.'''<br />Urban Airship provided the venue.
+|-
+|align="center" style="padding: 20px;"|[[File:tropologo-vert.png|110px|link=http://tropo.com]]
+| <h3>Tropo</h3> '''[http://tropo.com/ Tropo] is a powerful yet simple API that adds Voice, SMS, Twitter, and IM support to the programming languages you already know.'''<br />Tropo provided coffee and many miscellaneous expenses.
+|-
+|align="center" style="padding: 20px;"|[[File:osbridge-logo.png|120px|link=http://opensourcebridge.com]]
+| <h3>Open Source Bridge</h3> '''[http://opensourcebridge.com/ Open Source Bridge] is a conference in Portland, Oregon for developers working with open source technologies and for people interested in learning the open source way.'''<br />Open Source Bridge provided some food.
+|-
+|align="center" style="padding: 20px;"|[[File:wklogo.png|link=http://www.wk.com]]
+| <h3>Wieden+Kennedy</h3> '''[http://www.wk.com/ Wieden+Kennedy] is a full-service, creatively driven advertising agency based in Portland.'''<br />Wieden+Kennedy provided lunch.
+|}
+
+__TOC__

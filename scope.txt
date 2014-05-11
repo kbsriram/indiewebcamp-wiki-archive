@@ -1,0 +1,8 @@
+{{stub}}
+
+In [[OAuth]], scope is a way to selectively grant access to parts of your account to third-party applications.
+
+For example, you can choose to allow one application to read your basic profile info, while another application may be authorized to post on your behalf. 
+
+== See Also ==
+* [[micropub]]

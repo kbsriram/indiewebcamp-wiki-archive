@@ -1,0 +1,11 @@
+{{stub}}
+
+'''<dfn>mood</dfn>''' is sometimes expressed explicitly in or about a [[post]], by the post [[author]].
+
+== Silo Examples ==
+* [[Facebook]] - "... feeling ..."
+* [[Live Journal]] - different [[icons]]/avatars per post to express mood
+
+== See Also ==
+* [[icons]]
+* [[posts]]

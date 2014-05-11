@@ -1,0 +1,51 @@
+{{stub}}
+
+'''<dfn>silo quits</dfn>''' are public statements by individuals announcing they have publicly "quit" posting on or using (at all) various [[silos]], either with intended permanence, or temporarily (i.e. taking a "social media break").
+
+== Silo quitters 2014 ==
+[[Facebook]], [[Instagram]], [[Google+]]
+* 2014-05-06 Tyler Finck: <cite>[http://www.tylerfinck.com/2014/05/antisocial-networking/ Antisocial Networking]</cite> <blockquote><p>Last weekend I deleted my Instagram account, my Facebook Page, and my Google+ profile. [...]</p><p>Over the past year I’ve tweaked my website almost every month, editing code and experimenting live. I’ve also started to create content two or three times a month. This site has become the place that I’m ready to host almost everything I make. The one stop Tyler Finck shop, which sounds horrible but is the best summary of the journey that I didn’t even know I was on until very recently. [...]</p><p>Note: I plan on keeping my [[Twitter]] account active because after six years of use I still love it. My [[Flickr]] stream will soon become private as a means of backup and my [[Tumblr]] panoramas will be rolled into tylerfinck.com. [[Vimeo]]/[[YouTube]]? I’m not entirely sure what to do with them (since I utilize those sites only to serve up content). My love/hate relationship with [[Dribbble]] continues, and I’m still experimenting with [[Soundcloud]].</p></blockquote>
+
+[[Facebook]], [[Instagram]], [[Pinterest]], [[Google+]], [[Tumblr]]:
+* 2014-04-16 Doug McKown: <cite>[http://dougmckown.com/2014/04/16/why-im-quitting-facebook/ Why I’m Quitting Facebook]</cite> <blockquote><p>I’ve already deleted my Pinterest, Google+, and Tumblr account, but still have too many accounts to manage: Facebook, two Instagram accounts, and three Twitter accounts. I’m closing both Instagram accounts and my Facebook account.</p><p><strong>I want to own and control my content.</strong></p></blockquote> [<strong>Strong emphasis</strong> in original]
+
+[[Facebook]], [[Tumblr]], [[Twitter]]
+* Neil Gaiman is taking a ~6 month break from "social media" (in particular [[Facebook]], [[Tumblr]], [[Twitter]] [[silos]]), as announced in: <div class="h-cite"><time class="dt-published">2013-12-31</time> <span class="p-author h-card">[http://neilgaiman.com/ Neil Gaiman]</span>: <cite class="p-name">[http://journal.neilgaiman.com/2013/12/where-did-i-go-out-what-did-i-do.html Where did I go? Out. What did I do? Nothing. OR, why I'm coming back to the blog once more... ]</cite>. <span class="u-url">http://journal.neilgaiman.com/2013/12/where-did-i-go-out-what-did-i-do.html</span></div> which refers to an earlier piece in <div class="h-cite"><span class="p-publisher">The Guardian</span> on <time class="dt-published">2013-06-14</time> by <span class="p-author h-card">Richard Lea</span>: <cite class="p-name">[http://www.theguardian.com/books/2013/jun/14/neil-gaiman-social-media-sabbatical Neil Gaiman prepares for social media 'sabbatical']</cite>. <span class="u-url">http://www.theguardian.com/books/2013/jun/14/neil-gaiman-social-media-sabbatical</span></div> He is, however, still blogging on his own site: <div class="h-cite"><time class="dt-published">2014-01-02</time> <span class="p-author h-card">[http://neilgaiman.com/ Neil Gaiman]</span>: <cite class="p-name">[http://journal.neilgaiman.com/2014/01/how-i-cope-with-social-media-cravings.html How I cope with the social media cravings, and in which I begin to become a blogger once again...]</cite>. <span class="u-url">http://journal.neilgaiman.com/2014/01/how-i-cope-with-social-media-cravings.html</span></div>
+
+[[Facebook]]
+* 2014-03-31 Eat24 (company): <cite>[http://blog.eat24hours.com/breakup-letter-to-facebook-from-eat24/ A Breakup Letter to Facebook from Eat24]</cite>: <blockquote>We’ll pack our things and be gone by 11:59pm on Monday night. Yes, you read that right. Eat24, the company that is always telling customers to Like our page, post on our wall, and ask us for coupons on Facebook… is deleting its Facebook. This is real.</blockquote>
+* 2014-03-21 Dadepo Aderemi: <cite>[http://geekabyte.blogspot.nl/2014/03/getting-personal.html Getting Personal]</cite>: <blockquote>I am avoiding Facebook by all means now. I still keep using twitter though, but majorly as a source of discovery for things around my area of professional interests, and once in a while, a place to engage in ephemerial and disjointed rants. If I have something on my mind I really feel the need to share or capture, I write a coherent post instead. No, sorry: fusilade of tweets is no longer for me. </blockquote>
+
+[[GitHub]]
+
+* 2014-03-28 Michael Garvin (gar) started self-hosting project code <cite>[http://danger.computer/2014/04/28/gitlab-part-one Time for gitlab]</cite><blockquote>Of course, with github you still can own your data, git is a decentralized version control system so you have a complete copy of everything even on your local clone. The things github provides (that are also the data you do not control) are things like issues. Things that are the real ‘community’ part of your project. As my friend @baldwin said to me earlier today, “It’s interesting that github seems to have re-centralized git.”</blockquote>
+
+* 2014-04-28 [[User:kylewm.com]] stopped using GitHub as the primary repository for personal projects (though they are still mirrored there, for now).<cite>[http://kylewm.com/note/2014/04/28/1 starting to migrate stuff off of GitHub…][http://kylewm.com/share/2014/05/04/1 Github doesn’t quite fit the usual silo definition…]</cite><blockquote>… the realization that distributed version control users feel “locked in” to GH was enough reason for me to start moving my projects to self-host.</blockquote>
+
+== Silo quitters 2013 ==
+[[App.net]]
+* <div class="h-cite"><time class="dt-published">2013-03-28</time> <span class="p-author h-card">[[User:Aaronparecki.com|Aaron Parecki]]</span>: <cite class="p-name">[http://aaronparecki.com/articles/2013/03/28/1/an-open-challenge-to-app-net An Open Challenge to App.net]</cite>. <span class="u-url">http://aaronparecki.com/articles/2013/03/28/1/an-open-challenge-to-app-net</span> <blockquote class="p-summary">"I am no longer publishing content to my App.net account until I can syndicate my content to their service without writing a single line of code."</blockquote></div>
+
+[[Blogger]]
+* <span class="h-cite"><time class="dt-published">2013-09-19</time> <span class="p-author h-card">Kartik Prabhu</span>: <cite class="p-name">[http://kartikprabhu.com/article/redux Redux]</cite>. <span class="u-url">http://kartikprabhu.com/article/redux</span></span>
+
+[[Dropbox]]
+* <span class="h-cite"><time class="dt-published">2013-10-28</time> <span class="p-author h-card">Jamie Zawinski</span>: <cite class="p-name">[http://www.jwz.org/blog/2013/10/fuck-dropbox/ Fuck Dropbox.]</cite>. <span class="u-url">http://www.jwz.org/blog/2013/10/fuck-dropbox/</span></span>
+
+[[Google+]]:
+* <span class="h-cite"><time class="dt-published">2013-08-11</time> <span class="p-author h-card">[[User:Eschnou.com|Laurent Eschenauer]]</span>: <cite class="p-name">[https://eschnou.com/entry/good-bye-friend-im-outta-here-google-62-25018.html Good bye friend, I'm outta here. (Google+)]</cite>. <span class="u-url u-uid">https://eschnou.com/entry/good-bye-friend-im-outta-here-google-62-25018.html</span> and <span class="u-url">https://plus.google.com/117884007449109471406/posts/UgdU1ATZLpz</span></span>
+
+[[Facebook]]:
+* <span class="h-cite"><time class="dt-published">2013-02-25</time> <span class="p-author h-card">Douglas Rushkoff</span>: <cite class="p-name">[http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html Why I'm quitting Facebook]</cite>. <span class="u-url">http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html</span></span>
+
+== Silo quitters 2012 ==
+* ...
+
+== Silo quitters ... ==
+* ...
+
+== See also ==
+* [[getting started]]
+* [[Posts about the indie web]]
+* [[silos]]
+* [https://twitter.com/search?q=%23digitalcleanse&f=realtime #DigitalCleanse] (via [http://davidjohnmead.com/2014/02/24/2014/])

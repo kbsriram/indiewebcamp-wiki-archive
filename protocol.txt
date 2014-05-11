@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>protocols</dfn>''' are defined ways for programs to interact with each other.
+
+On the IndieWeb the following protocols are in wide use:
+* HTTP(S)
+* [[webmention]]
+
+== FAQ ==
+See: [[format#FAQ]] for format vs protocol questions.
+
+== See Also ==
+* [[formats]]
+* [[social standards]]

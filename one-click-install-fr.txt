@@ -1,0 +1,3 @@
+''cette page est une inclusion de [[one-click-install]] et reste à traduire''
+
+{{:one-click-install}}

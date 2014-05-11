@@ -1,0 +1,45 @@
+{{stub}}
+
+'''<dfn>StatusNet</dfn>''' is an [http://status.net/open-source open source software] [[project]] you can [http://status.net/wiki/Setup_your_own_StatusNet setup on your own server] for real time publishing.
+
+TODO: Should this be migrated to [[GNU social]]?
+
+== IndieWeb users ==
+IndieWebCamp participants who are or were using it on their own site:
+* Evan Prodromou (2012) : <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013 - being converted to [[pump.io]])
+* ...
+
+== Transition to Pump I/O and GNU Social ==
+
+On June 8th 2013, [http://www.gnu.org/software/social/merge.html GNU Social] announced a merger with StatusNet and FreeSocial. Around ths time, identi.ca stopped accepting new registrations and transitioned active accounts to [[pump.io]].
+
+[https://e14n.com/evan/note/1txE90HZTMSaf5EA6jxmAQ Evan began transitioning] the remaining *.status.net  accounts to pump in November 2013.
+
+There continues to be an active community of StatusNet/GNU social users, many on quitter.se[http://quitter.se], though both pump.io ''and'' GNU social encourage users to host their own instances (to avoid becoming de facto centralized, as Identi.ca basically was).
+
+== Syndication ==
+
+StatusNet uses the OStatus protocol (based on Atom feeds published in realtime via [[Pubsubhubbub]]). As a result, StatusNet users can subscribe ''directly'' to an external site that publishes a [[How_to_set_up_your_realtime_feed|Realtime feed]].
+
+ <tantek> there was never a need to syndicate to Status.net
+ <tantek> users on Status.net were able to directly subscribe to *external* sites in realtime if they supported PuSH
+ <tantek> Federation as it were
+ <tantek> the only reason to POSSE to a service is if a) you have friends on that service (otherwise you're just spamming), and b) that service only allows people to subscribe to local-to-the-service accounts.
+ <tantek> in the case of Status.net, b) was not true.
+
+There is some evidence that remote subscriptions were more &quot;officially&quot; supported in a previous version of StatusNet [http://status.net/wiki/Remote_subscriptions], but the '''+ Remote''' button on that wiki page does not exist (any more?) in StatusNet/GNU social installations.
+
+It ''is'' possible for a StatusNet user (e.g., on quitter.se) to subscribe to a feed (e.g., tantek.com) by manuallly visiting the URL: http://quitter.se/main/ostatussub?profile=http://tantek.com
+
+Here's an example of one of Tantek's notes reposted by a StatusNet user [https://status.ssweeny.net/notice/304641]. Amusingly, when posts from tantek.com were reshared by a StatusNet user syndicating to Twitter, it converted references from tantek.com to @tantekcom [https://twitter.com/search?q=%40tantekcom%20%40evanpro%20evan.status.net&src=typd&f=realtime], which did not exist until [https://twitter.com/tantekcom/status/14190824867].
+
+== Open Questions ==
+
+How does an indieweb site get a proper looking profile on a StatusNet site? Compare @tantekcom@tantek.com and @kyle@kylewm.com (which has the same Atom components)
+
+[[File:tantek-quitter.png]]
+
+[[File:kylewm-quitter.png]]
+
+== See Also ==
+* [[projects]]

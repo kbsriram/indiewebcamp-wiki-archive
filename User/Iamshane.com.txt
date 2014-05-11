@@ -1,0 +1,54 @@
+[[Image:Shane-Becker-iamshane.com-avatar.png|left|150px]]
+
+= About Me =
+<div class="vcard h-card">
+  
+  
+I&rsquo;m  <a href="/" class="u-url url" rel="home me"> <span class="p-name n fn"><span class="p-given-name given-name">Shane</span> <span class="p-family-name family-name">Becker</span></span>. </a> I&rsquo;m <a href="/" class="u-url url" rel="home me"> I&rsquo;m <span class="p-name n fn"><span class="p-given-name given-name">Shane</span> <span class="p-family-name family-name">Becker</span></span>. </a> <span> Still vegan, still straightedge. Anarchist and atheist. </span> <span> I live in <span class="p-locality locality">Hollywood</span>, <span class="p-region region">CA</span> at <a class="u-url url" rel="external" href="http://farmhouse.la" title="The Farmhouse in Hollywood, California">The&nbsp;Farmhouse</a> with <a class="u-url url" rel="external" href="https://twitter.com/civthedog" title="@civthedog">Civ</a>. </span>
+  
+
+= #indieweb setup =
+
+My site ([http://iamshane.com http://iamshane.com]) is powered by [[Homesteading]]. Which is a work in progress.
+
+
+= Other Projects =
+
+* [http://zinedistro.org Zine Distro]
+* [http://theresistancearmy.com The Resistance Army]
+* [http://iamshanebecker.com My Resume]
+* [http://dateedge.com Date Edge]
+
+
+
+
+= Elsewhere =
+
+* <a href="https://twitter.com/veganstraightedge" class="u-url url" rel="me">Twitter</a>
+* <a href="http://www.flickr.com/people/veganstraightedge/" class="u-url url" rel="me">Flickr</a>
+* <a href="http://instagram.com/veganstraightedge" class="u-url url" rel="me">Instagram</a>
+* <a href="https://github.com/veganstraightedge" class="u-url url" rel="me">GitHub</a>
+* <a href="https://www.facebook.com/veganstraightedge/info" class="u-url url" rel="me">Facebook</a>
+* <a href="https://vimeo.com/veganstraightedge" class="u-url url" rel="me">Vimeo</a>
+* <a href="http://youtube.com/user/veganstraightedge" class="u-url url" rel="me">YouTube</a>
+* <a href="http://dribbble.com/players/veganstraightedge" class="u-url url" rel="me">Dribble</a>
+* <a href="https://foursquare.com/veganstraightedge" class="u-url url" rel="me">FourSquare</a>
+* <a href="http://last.fm/user/vegansxe" class="u-url url" rel="me">Last.FM</a>
+* <a href="https://alpha.app.net/veganstraightedge" class="u-url url" rel="me">App.net</a>.
+
+
+= Contact and License =
+
+* <span class="tel">(801) 898-9481</span>
+* <a class="u-email email" href="mailto:veganstraightedge@gmail.com">veganstraightedge@gmail.com</a>
+* <a href="http://h2vx.com/vcf/iamshane.com">vCard</a>
+* <a href="http://iamshanebecker.com" rel="me">Resume</a>
+
+All content on [http://iamshane.com my site] (unless created by someone else) is licensed under
+[http://creativecommons.org/licenses/by/2.0/deed.en Creative Commons Attribution License]
+which means you can republish whatever you want as long as you attribute me and link back to the original page.
+
+</div> <!-- /div.vcard -->
+
+
+<br /><br /><br /><br />

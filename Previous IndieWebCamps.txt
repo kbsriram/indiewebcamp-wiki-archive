@@ -1,0 +1,97 @@
+__TOC__
+'''Photos''' from previous IndieWebCamps!
+* '''[http://www.flickr.com/search/?q=indiewebcamp+OR+indieweb&ss=2&s=rec Flickr indiewebcamp OR indieweb]''' - please feel free to link/embed photos from sessions on their respective pages!
+* Instagr.am: 
+** [http://instagrid.me/tag/indieweb/ #indieweb], [http://web.stagram.com/tag/indieweb #indieweb]
+** [http://instagrid.me/tag/indiewebcamp/ #indiewebcamp], [http://web.stagram.com/tag/indiewebcamp/ #indiewebcamp]
+** [http://instagrid.me/tag/indiewebcampuk/ #indiewebcampuk], [http://web.stagram.com/tag/indiewebcampuk/ #indiewebcampuk]
+
+== IndieWebCamp Hollywood 2013 ==
+{{main|2013/Hollywood}}
+<div class="h-event vevent">
+
+The first ever <span class="p-name summary">[[2013/Hollywood|IndieWebCamp Hollywood]]</span> was 
+<abbr class="dt-start dtstart" title="2013-11-03"><time datetime="2013-11-03">November 3</time></abbr>-<abbr class="dt-end dtend" title="2013-11-04"><time datetime="2013-11-04">4</time></abbr>, 10:00-18:00, the two days after [http://farmhouse.LA/conf/5 Farmhouse Conf 5].
+* URL: <span class="u-url url">http://indiewebcamp.com/2013/hollywood</span>
+* Who: [[2013/hollywood#Guest_List|2013 Hollywood Guest List]] (Attendees must actively [[creator|create]] for their personal domain name, or be an apprentice to someone who does.)
+* Where: <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The Farmhouse</span>, <span class="h-adr adr"><span class="p-street-address street-address">1558 Gordon St</span>, <span class="p-locality locality">Los Angeles</span>,  <abbr class="p-region region" title="California">CA</abbr>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr>, <span class="p-postal-code postal-code">90028</span></span>. <span class="u-url">http://farmhouse.LA</span></span>
+</div><!-- h-event -->
+
+== IndieWebCamp UK 2013 ==
+[[Image:indie-web-camp-2013-uk.jpg|250px|thumb|right|<span style="white-space:nowrap">Indie Web Camp [[2013/UK|UK 2013]] by [http://www.flickr.com/photos/aaronpk/9712345101/in/set-72157635446544162/ @aaronpk]</span>]]
+
+<div class="h-event vevent">
+{{main|2013/UK}}
+<span class="p-name summary">[[2013/UK|IndieWebCamp UK 2013]]</span>, the second IndieWebCamp in the UK, took place on <time class="dt-start dtstart">2013-09-07</time> and <time class="dt-end dtend">2013-09-08</time> immediately following [http://2013.dconstruct.org/ dConstruct 2013] on 6 September. See the [[2013/UK#Guest_List|2013 UK Guest List]] for who participated (see also: 
+listings on [http://lanyrd.com/2013/indiewebcampuk/ lanyrd], [http://www.lighthouse.org.uk/programme/indiewebcamp-uk-2013 Lighthouse], and [http://www.brightondigitalfestival.co.uk/events/indiewebcamp-uk-2013/ Brighton Digital Festival])
+* [[2013/UK]]
+* '''[[2013/UK/Schedule|2013 UK Schedule]]''' for session notes. Click on the session title to add notes to the page. To see all session notes, see '''[[:Category:Session Notes]]'''
+* [[2013/UK#Guest_List|2013 UK Guest List]]
+* [[2013/UK/Demos|2013 UK Demos]]
+* IRC Logs http://indiewebcamp.com/irc/2013-09-07, http://indiewebcamp.com/irc/2013-09-08.
+</div>
+
+== IndieWebCamp 2013 ==
+[[Image:indie-web-camp-2013.jpg|250px|thumb|right|<span style="white-space:nowrap">Indie Web Camp [[2013]] by [http://www.flickr.com/photos/aaronpk/9110773633/in/set-72157634295684902/ @aaronpk]</span>]]
+
+<div class="h-event vevent">
+{{main|2013}}
+<span class="p-name summary">IndieWebCamp [[2013]]</span>, the third IndieWebCamp in Portland, took place on <time class="dt-start dtstart">2013-06-22</time> and <time class="dt-end dtend">2013-06-23</time> immediately following [http://osb13.eventbrite.com/ OSBridge 2013] on June 18-21. See [[2013/Planning|2013 Planning]] for how we made it happen and the [[2013/Guest List|2013 Guest List]] for who participated (see also: 
+listings on [http://calagator.org/events/1250464321 calagator], [http://lanyrd.com/2013/indiewebcamp/ lanyrd], and [http://plancast.com/p/hhdw plancast])
+* [[2013]]
+* '''[[2013/Schedule|2013 Schedule]]''' for session notes. Click on the session title to add notes to the page. To see all session notes, see '''[[:Category:Session Notes]]'''
+* [[2013/Sessions|2013 Sessions]]
+* [[2013/Guest List|2013 Guest List]]
+* [[2013/Planning|2013 Planning]]
+* [[2013/Demos|2013 Demos]]
+* Photos from the [[Classof2013]]
+* IRC Logs http://indiewebcamp.com/irc/2013-06-22, http://indiewebcamp.com/irc/2013-06-23.
+</div>
+
+== IndieWebCamp UK 2012 ==
+{{main|2012/UK}}
+<div class="h-event vevent">
+<span class="p-name summary">[[2012/UK|IndieWebCampUK]]</span> took place on <time class="dt-start dtstart">2012-09-09</time> at <span class="p-location location h-card vcard"><a href="http://www.theskiff.org/" class="p-name fn p-org org">The Skiff</a> in <span class="h-adr adr"><span class="p-locality locality">Brighton</span>, <span class="p-region region">England</span></span>, immediately after dConstruct and Brighton Mini Maker Faire.</span>
+
+* See the [[2012/UK/Guest List]] for participants
+* '''[[2012/UK/Sessions]]'''
+* '''[[2012/UK/Schedule]]'''
+* '''[[2012/UK/Demos]]''' for notes on and links to the demos exhibited in the afternoon
+</div>
+
+<div style="border:1px solid rgb(204, 204, 204);background:rgb(249, 249, 249);padding:3px;margin-bottom:1em;font-size:94%;text-align:center">
+[http://instagram.com/p/PXNBxKA9ed/ http://distilleryimage9.s3.amazonaws.com/ca26e662faa111e18b5822000a1c02a6_5.jpg][http://instagram.com/p/PXNcVqA9fF/ http://distilleryimage5.s3.amazonaws.com/4be3a4a6faa211e1bea81231381a404b_5.jpg][http://instagram.com/p/PXOp0Tg9QH/ http://distilleryimage7.s3.amazonaws.com/c633ff8efaa311e1b93522000a1e8aaa_5.jpg][http://instagram.com/p/PXPf_4g9Q9/ http://distilleryimage1.s3.amazonaws.com/cec29c2cfaa411e19fe522000a1e9fbc_5.jpg]
+<div>Indie Web Camp [[2012/UK|UK 2012]] by [http://instagram.com/tantek Tantek].</div>
+</div>
+
+== IndieWebCamp 2012 ==
+[[Image:indie-web-camp-2012.jpg|250px|thumb|right|<span style="white-space:nowrap">Indie Web Camp [[2012]] by [http://www.flickr.com/photos/aaronpk/7475834776/in/set-72157630360840208 @aaronpk]</span>]]
+
+<div class="h-event vevent">
+{{main|2012}}
+<span class="p-name summary">IndieWebCamp [[2012]]</span>, the second IndieWebCamp, took place on <time class="dt-start dtstart">2012-06-30</time> and <time class="dt-end dtend">2012-07-01</time> immediately following [http://osb12.eventbrite.com/ OSBridge 2012] on June 26-29. See [[2012/Planning|2012 Planning]] for how we made it happen and the [[2012/Guest List|2012 Guest List]] for who participated (see also: 
+listings on [http://calagator.org/events/1250460790 calagator], [http://lanyrd.com/2012/indiewebcamp/ lanyrd], and [http://plancast.com/p/64ht plancast])
+* [[2012]]
+* '''[[2012/Schedule|2012 Schedule]]''' for session notes. Click on the session title to add notes to the page. To see all session notes, see '''[[:Category:Session Notes]]'''
+* [[2012/Sessions|2012 Sessions]]
+* [[2012/Guest List|2012 Guest List]]
+* [[2012/Planning|2012 Planning]]
+* [[2012/Demos|2012 Demos]]
+* Photos from the [[Classof2012]]
+* IRC Logs http://indiewebcamp.com/irc/2012-06-30, http://indiewebcamp.com/irc/2012-07-01.
+</div>
+
+== IndieWebCamp 2011 ==
+[[Image:indie-web-camp-2011.jpg|250px|thumb|right|<span style="white-space:nowrap">Indie Web Camp [[2011]] by [http://www.flickr.com/photos/aaronpk/5881894938/in/pool-1674979@N25/ @aaronpk]</span>]]
+
+{{main|2011}}
+<div class="h-event vevent">
+<span class="p-name summary">IndieWebCamp [[2011]]</span> was on <time class="dt-start dtstart">2011-06-25</time> and <time class="dt-end dtend">2011-06-26</time> immediately following [http://opensourcebridge.org/ OSBridge] 2011 on June 21-24. See [[2011/Planning|2011 Planning]] for how we made it happen. Check out the amazing [[2011/Demos|Demos]] that were worked on in Day 2 of IndieWebCamp 2011.
+* [[2011]]
+* [[2011/Sessions|2011 Sessions]]
+* [[2011/Guest List|2011 Guest List]]
+* [[2011/Planning|2011 Planning]]
+* [[2011/Demos|2011 Demos]]
+*Photos from the [[Classof2011]]
+*IRC Logs http://indiewebcamp.com/irc/2011-06-27, http://indiewebcamp.com/irc/2011-06-28.
+</div>

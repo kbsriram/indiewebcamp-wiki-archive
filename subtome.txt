@@ -1,0 +1,31 @@
+{{stub}}
+
+SubToMe (Subscribe To Me, [http://subtome.com website]) is a button content publishers can put on their sites which enables users to subscribe to their feed in whatever reader they choose — sort of a universal follow button.
+
+Indieweb Creators currently using SubToMe buttons on their personal sites:
+
+* [http://blog.superfeedr.com/ Superfeedr Blog]. The buttons have been put at the end of each blog post.
+* add yourself here
+
+== Demo ==
+
+SubToMe can be tried as a subscriber out on the project homepage: [http://subtome.com SubToMe].
+Many feed readers already implement it, but you can also pick your favorite subscription tool on the [https://www.subtome.com/store.html SubToMe store].
+
+== Why ==
+
+If my personal site has a Twitter button and RSS feed, it's orders of magnitude easier to follow me on twitter than to add my feed to a reader or any kind.
+
+SubToMe aims at making both things as easy, while still making sure the open-ness of RSS stays.
+
+It does that by storing the subscriber's preferred subscriptions in his browser's localStorage, so that it does not promote service X or Y who may disappear while still making things as easy to use for the subscriber.
+
+[https://www.subtome.com/publishers.html Adding a button] to your site is quite easy and can be fully customized. 
+
+For those who worry that SubToMe maybe yet another service to depend on, know that it's just a "domain" used to obtain 'namespace' in the subscriber's browser when storing his preferred subscription tool. SubToMe is only static (HTML + JS + CSS) and can actually be served from any HTTP server. The only constraint is the use of https for security purposes. The code is available [https://github.com/superfeedr/subtome on github].
+
+
+== See Also ==
+
+* [[feed]]
+* [[webactions]]

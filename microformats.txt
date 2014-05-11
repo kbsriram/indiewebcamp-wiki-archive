@@ -1,0 +1,40 @@
+<span style="float:right">https://skitch-img.s3.amazonaws.com/20090608-e87t466nar8rsmiqy783bsstc8.png</span>
+{{stub}}
+
+<dfn>microformats</dfn> are extensions to HTML for marking up people, organizations, events, locations, blog posts, products, reviews, resumes, recipes etc. Sites use microformats to publish a standard API that is consumed and used by search engines, aggregators, and other tools.
+
+== IndieWeb Use ==
+The IndieWeb makes heavy use of:
+
+* [[h-card]] to mark up profiles and authors in posts
+* [[h-entry]] to markup [[posts]], [[replies]], etc.
+* [[in-reply-to]] to markup links from [[replies]] to original posts.
+* [[XFN]] for relationships, and identity consolidation (rel=me), used by [[IndieAuth]]
+
+== FAQ ==
+=== Are microformats an API ===
+Q: Are microformats an API?
+
+A: No, microformats are more like the information returned from an API.
+
+HTTP GET of a particular URL of a website can be an API. microformats in the resulting HTML  provide the information you might otherwise get from a bespoke API.
+
+Thus combining HTTP, good site URL design, and microformats, your site can be your API. No separate XML/RDF/JSON/??? API endpoints needed. At least for readonly. For a write "API", see [[micropub]].
+
+=== Why not APIs ===
+{{main|API}}
+Q: Why not APIs instead of microformats?
+
+A: See [[API]], in short:
+# secondary URLs
+# secondary formats
+# API key
+# TOS requirements
+# Unique snowflakes
+# Complexity
+# Fragility
+
+== See Also ==
+* [[microformats2]]
+* [[micropub]]
+* http://microformats.org/wiki/

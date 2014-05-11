@@ -1,0 +1,82 @@
+{{stub}}
+
+'''<dfn>communication</dfn>''' in the context of the indieweb refers to using your personal website as a starting point and potentially way for people to communicate with you.
+
+== How ==
+Start with:
+# Add an [[icon]] to your personal site so that others can add your site to their home screens on their devices.
+# Put an [[h-card]] on your home page with links to ways you want to be contacted, in your preference order. 
+# Provide easily recognizable / clickable icons for each link to a way to contact you.
+
+== Why ==
+See:
+* <cite>[http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience Toward A People Focused Mobile Communication Experience]</cite>
+
+== IndieWeb Examples ==
+IndieWeb community members doing this
+=== Ben Werdmuller ===
+[[User:Werd.io|Ben Werdmuller]] uses icons to link to a small handful of ways to reach him on his [http://werd.io/ werd.io] homepage. 
+
+== Projects ==
+=== Lets Talk ===
+'''<dfn>[http://userscripts.org/scripts/show/408847 Let's Talk]</dfn>''' is a userscript that renders [[h-card]]s in a standard format. When you go to someone’s web site, Let’s Talk shows you at a glance how to contact them and which methods they prefer. See https://snarfed.org/2014-03-10_lets-talk-userscript for more details.
+
+== Brainstorming ==
+=== Mockups ===
+==== iOS7 home page ====
+Here are some mockups for how you could present a top level bar of communication, collaboration, and other options that feel familiar to an iOS7 iPhone/iPod user:
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-icons-folders-ios7.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+
+==== Contact expanded ====
+When a viewer taps the '''Contact''' icon folder it expands as follows, and then the viewer can tap the mode of messaging/communicating they want to use to contact me which immediately opens a new message (txt, FB Messenger, G+ Hangouts, AIM IM), or starts a new call (FaceTime, Skype), or Twitter new direct message window. Directly to communicating - bypassing all comm app home page / activity distractors.
+
+The one change I'd make from these mockups are some of the labels. All of the labels should be verbs, not nouns, indicating the action the user wants to take and thus reinforcing their intention.
+
+E.g. "Messages" should be "txt message", "Messenger" should be "FB message", "Hangouts" should be "GTalk", and the rest seem to read fine as verbs.
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-contact-ios7.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+
+==== iOS6 mockups ====
+Original prototypes done in iOS6, probably not worth implementing, but may contain interesting UI ideas nonetheless:
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-icons-folders-mockup.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+'''Contact expanded'''
+
+The one change I'd make from these mockups are some of the labels. All of the labels should be verbs, not nouns, indicating the action the user wants to take and thus reinforcing their intention.
+
+E.g. "Messages" should be "txt message", "Messenger" should be "FB message", "Hangouts" should be "GTalk", and the rest seem to read fine as verbs.
+
+<div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-contact.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+
+== Additional Use Cases ==
+=== Authentication ===
+When communicating from one indieweb user to another, how do you authenticate that the person you are communicating with is actually the person you think it is? This applies to [[messaging]] in general.
+
+(This use-case is a stub and should be expanded)
+
+== Articles ==
+Articles on some of the challenges of person-based communication:
+* <span class="h-cite"><time class="dt-published">2013-11-18</time> <span class="p-publisher">WIRED</span>: <cite class="p-name">[http://www.wired.com/2013/11/canwetalk/ Can We Talk?]</cite> by <span class="p-author h-card">Mat Honan</span>. <span class="u-url">http://www.wired.com/2013/11/canwetalk/ </span></span>
+
+Articles about researching and solving personal / indieweb based communication:
+
+* <span class="h-cite"><time class="dt-published">2014-04-30</time> <span class="p-author h-card">Tantek Çelik</span>: <cite class="p-name">[http://tantek.com/2014/120/b1/markup-people-focused-mobile-communication Markup For People Focused Mobile Communication]</cite></span>
+* <span class="h-cite"><time class="dt-published">2014-03-25</time> <span class="p-author h-card">Tantek Çelik</span>: <cite class="p-name">[http://tantek.com/2014/084/b1/urls-people-focused-mobile-communication URLs For People Focused Mobile Communication]</cite></span>
+* 2014-03-19 Ben Werdmüller: [http://werd.io/2014/seeking-an-indieweb-alternative-to-google-voice Seeking an #indieweb alternative to Google Voice]
+* <span class="h-cite"><time class="dt-published">2014-03-08</time> <span class="p-author h-card">Tantek Çelik</span>: <cite class="p-name">[http://tantek.com/2014/067/b2/mockups-people-focused-mobile-communication Mockups For People Focused Mobile Communication]</cite></span>
+* <span class="h-cite"><time class="dt-published">2014-03-08</time> <span class="p-author h-card">Tantek Çelik</span>: <cite class="p-name">[http://tantek.com/2014/067/b1/building-blocks-people-focused-mobile-communication Building Blocks For People Focused Mobile Communication]</cite></span>
+* <span class="h-cite"><time class="dt-published">2013-12-04</time> <span class="p-author h-card">Tantek Çelik</span>: <cite class="p-name">[http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience Toward A People Focused Mobile Communication Experience]</cite></span>
+
+== See Also ==
+* [[homepage]]
+* [[icon]]
+* [[mobile]]
+* [[messaging]]

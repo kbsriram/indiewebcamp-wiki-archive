@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>[http://twitpic.com Twitpic]</dfn>''' is a [[photo]] [[silo]] designed for sharing photos on [[Twitter]].
+
+== Usernames ==
+Twitpic re-uses [[Twitter]] usernames.
+
+== Feeds ==
+Public [[feeds]] are available of Twitpic users' posts, e.g. for user @aplusk:
+* http://twitpic.com/photos/aplusk/feed.rss
+
+== See Also ==
+* [[silos]]
+* [[photos]]

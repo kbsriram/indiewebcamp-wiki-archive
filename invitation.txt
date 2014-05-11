@@ -1,0 +1,61 @@
+{{stub}}
+
+An '''<dfn>invitation</dfn>''' is a type of [[post]] that is both a [[reply]] to an [[event]] post, and a notification to one or more individuals that they have been invited to that event.
+
+== How to ==
+How tos for invitations are very similar to the how tos for [[replies]] so we won't duplicate common info here.
+=== Publish an invitation ===
+1. Post a [[reply]] and follow the [http://microformats.org/wiki/invitation-brainstorming#h-entry_plus_additions microformats2 h-entry plus proposal] to also post names/links to the invitees using the proposed <code>p-invitee</code> property:
+* <code>&lt;a class="p-invitee h-card" href="http://caseorganic.com/">Amber Case&lt;/a></code> - however this assumes that you want the invitee's name, hyperlinked, in your readable text. Other h-card markup is of course allowed. You may have multiple invitees inside a single h-entry. Duplicate this markup for each invitee inside the h-entry.
+
+2. Send a webmention to the event post as you would for a reply to any post.
+
+3. Send a webmention to each invitee's [[homepage]] (which you've presumably already linked as shown in the example)
+
+See [[reply#Make_a_comment]] for more general details on posting replies.
+
+(a complete h-entry + p-invitee markup example would be nice too)
+
+=== Update an invitation ===
+Similarly, update your invitation and resend the webmentions.
+
+See [[reply#Update_a_comment]] for more general details on updating replies.
+
+=== Delete an invitation ===
+Similarly, delete your invitation, resend the webmentions, and be prepared to return 410 GONE for your invitation permalink.
+
+See [[reply#Delete_a_comment]] for more general details on deleting replies.
+
+== Why ==
+Why implement invitation posts?
+
+Simple, so you can invite other people from your own site to others [[event]]s that indieweb community members (like [[User:Aaronparecki.com|Aaron Parecki]] and [[User:Werd.io|Ben Werdmuller]]) post on their own sites.
+
+=== Invitation user flow ===
+Here is a sample ''minimal'' invitation post user flow (from IRC[http://indiewebcamp.com/irc/2014-01-29#t1391032748]).
+
+# Aaron posts an [[event]]
+# Ben posts an [[invitation]] to the event, inviting Caseorganic
+# Ben's site sends [[webmentions]] from that invitation post *both* to the event (on Aaron's site), and to Caseorganic (presumably a homepage webmention)
+# Aaron's event post handles receiving that invitation webmention, using some heuristic as to whether to allow it or not (e.g. it could check if Ben is already invited, and the event allows attendees to invite others or it could check if Ben is a friend, and the event is open to friends and friends of friends or some other option - e.g. just allow all invitations for now)
+# Caseorganic's site receives the webmention and adds it to the queue of site-level mentions. Upon retrieving the "source" of the webmention, it (somehow) recognizes it as invitation notification and provides Caseorganic the option to create an [[RSVP]] post in reply to the event post (and in reply to the invitation post!).
+# Caseorganic posts an RSVP, which replies to (hyperlinks with [[in-reply-to]]) Aaron's event post, and to Ben's invitation post.
+# Aaron's event post handles the RSVP mention as per already figured out on [[RSVP]]
+# Ben's invitation post is updated to note that the invitation was replied to and accepted/tentative/declined (according to the p-rsvp of the RSVP post of yes/maybe/no).
+
+Simplifications welcome.
+
+== IndieWeb Implementations ==
+In datetime order of implementation (earliest first)
+
+(none so far)
+
+== See also ==
+* [[posts]]
+* [[replies]]
+* [[event]]
+* [[RSVP]]
+* [[webmention]]
+* [[homepage]]
+* http://microformats.org/wiki/invitation
+* [[responses]] - other specialized types of replies

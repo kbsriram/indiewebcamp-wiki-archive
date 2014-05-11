@@ -1,0 +1,17 @@
+{{stub}} 
+
+While having your own domain is great, sometimes it makes more sense to have your primary identity on the web represented on a sub-domain.
+
+
+== Reasons to use a subdomain ==
+* When sharing a domain of your last name with family members
+* The primary function of your domain serves additional purposes other than representing your identity on the web.
+
+==== Examples of intelligent subdomain use ====
+* sandeep.shetty.in
+
+== Reasons not to use a subdomain ==
+* Taking advantage of free hosting that offers free subdomains leaves a lot of control of the domain in the hands of the host, putting your url at [http://indiewebcamp.com/why#Why_Indie_Web risk of a whole lot of things].
+
+==== Examples of risky subdomain use as your primary identity on the web ====
+* Your University's provided path or subdomain, as these tend to change over time

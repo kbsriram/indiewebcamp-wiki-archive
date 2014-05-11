@@ -1,0 +1,13 @@
+{{stub}}
+
+A '''<dfn>feed file</dfn>''' is a [[feed]] represented as a separate file (as opposed to as part of an existing HTML page, e.g. [[homepage]]), typically in a custom feed-specific format (e.g. legacy XML like [[RSS]]/[[Atom]], or JSON like [[ActivityStreams]] 2.0). Feed files are superseded by simply marking up feeds already present on HTML pages, e.g. with [[h-entry]].
+
+== Criticism ==
+Feed files, being separate from actual viewable content on a website, suffer from several problems like:
+* the usual [[DRY]] violations
+* higher maintenance (requiring a separate URL, separate code path to generate, separate format understanding)
+* inefficient representation (XML feeds tend to be "wordier" and require more elements, duplication of data, artificial precision in datetimes, etc. all of which add up to higher bandwidth costs etc.)
+
+== See Also ==
+* [[feed]]
+* [[h-entry]]

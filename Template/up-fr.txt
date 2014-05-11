@@ -1,0 +1,1 @@
+<span style="display:inline-block; width:7em; background: lime; text-align:center">prêt</span>

@@ -1,0 +1,30 @@
+We'll schedule the sessions on the day of the camp! See Schedule for an overall outline of the timeslots.
+Feel free to brainstorm ideas of sessions you'd like to talk about, or you'd like someone else to talk about.
+
+See: [[2014/Schedule|2014 Schedule]]
+
+__TOC__
+
+== Have ==
+''Add your session ideas for things you want to talk / lead a discussion about. Be sure to add your name.''
+
+=== Session Title ===
+'''Proposed by: ___''' 
+
+Description
+
+
+== Want ==
+
+=== Session Topic ===
+'''Requested by: ___''' 
+
+Details 
+
+
+== Previous Years ==
+{{#categorytree:Session List|mode=pages|hideprefix=always|hideroot=on}}
+
+
+[[Category:2014]]
+[[Category:Session List]]

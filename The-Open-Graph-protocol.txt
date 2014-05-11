@@ -1,0 +1,28 @@
+{{stub}}
+
+'''<dfn>[http://ogp.me/ The Open Graph protocol]</dfn>''' (OGP) is an open* standard developed by [[Facebook]] for annotating the primary subject of an HTML page via a set of custom <code>&lt;meta&gt;</code> tags in the document head.
+
+<nowiki>*</nowiki>OGP is licensed using the [http://openwebfoundation.org/legal/the-0-9-agreements---necessary-claims Open Web Foundation Agreement, Version 0.9]. Though not as good as [[CC0]]+[[OWFa]] 1.0, it's still a considerably open license for a web standard.
+__TOC__
+== Pseudo-RDFa ==
+Rather than use existing meta tag "name" attribute, OGP uses the RDFa "property" attribute, as well as prefixes property names with "og:" to give the appearance of RDFa:
+
+Instead of:
+<pre><nowiki>
+<meta name="description" content="invisible description of the page"/> 
+</nowiki></pre>
+
+OGP uses:
+<pre><nowiki>
+<meta property="og:description" content="invisible description of the page"/>
+</nowiki></pre>
+
+(actual meta name from web legacy and OGP property from their spec)
+
+== Criticism ==
+Meta tags, no matter how well intentioned, are another form of invisible meta data, which are subject to all the same problems they've always been since meta keywords ([[DRY]] violation, rotting, spamming, etc.).
+
+The RDFapologism of using a "property" attribute instead of a "name" attribute doesn't change this, nor does the "og:" syntactic vinegar prefix.
+
+== Alternative ==
+Use [[microformats]] to markup the <em>visible</em> information on the page instead.

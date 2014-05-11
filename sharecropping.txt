@@ -1,0 +1,12 @@
+{{stub}}
+
+'''<dfn>sharecropping</dfn>''' in the context of the IndieWeb is the practice of primarily or exclusively creating/publishing content on [[silos]] as opposed to doing so first (or primarily) on your own site.
+
+The silos typically claim some degree (sometimes exclusive) ownership of what you create/contribute through lengthy/unfriendly terms of service (TOS) agreements (hence you're sharecropping on their content silo farm), and then display/sell ads on or beside your content (they profit from your labor).
+
+
+[http://caseorganic.com/presentations/2013/10/19/1/files/slides/?full#6 http://caseorganic.com/presentations/2013/10/19/1/files/slides/pictures/6-facebook-sharecropping-digital.png]
+
+== See Also ==
+* [[silos]]
+* [[why]]

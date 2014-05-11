@@ -1,0 +1,133 @@
+{{stub}}
+
+'''<dfn>repost</dfn>''' is an umbrella term that covers the general practice of republishing another post typically on the same service or [[silo]].
+
+Perhaps the oldest form of reposting is the act of "reblogging" someone else's blog post, which typically consists of copying an entire blog post [[article]] from one site to another, keeping it intact, and not adding anything except perhaps a "reblogged from ___" bit of text at the start and/or end linking to the original from which it was reblogged.
+
+Many silos including [[Twitter]], [[Facebook]], [[SoundCloud]] and [[Google+]] implement reposting — see [[repost#Silo_Examples]]
+
+(need screenshots of this in the wild, what a reblog looks like, what's the UX flow to reblog something)
+
+== How to Publish ==
+Use <code>class="u-repost-of"</code> to indicate that the URL being linked to is what is being reposted, for example:
+
+<pre><nowiki>
+<span class="h-entry"> ... 
+ <a class="u-repost-of" href="http://someothersite.example.com/permalink47">...</a>
+</span>
+</nowiki></pre>
+
+demonstrates an h-entry for a "repost" of <nowiki>http://someothersite.example.com/permalink47</nowiki>. As with [[reply|replies]] and [[like|likes]], let the reposted URL know that you’ve linked to it by sending a [[webmention]].
+
+'''Why not u-repost?'''
+* The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>
+* This frees up "u-repost" (and "p-repost") to actually indicate that the URL being linked is a repost itself (e.g. similar to "p-comment").
+
+== IndieWeb Examples ==
+[[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io since at least ????-??-??, [http://www.sandeep.io/35 example]
+
+[http://barryfrost.com/ Barry Frost] has been experimenting with using <code>u-repost</code> for reposts since at least ????-??-??, example?
+
+[[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com since at least 2014-04-14, including multiple reposts: [http://kylewm.com/share/2014/04/14/1 example]
+
+Barnaby Walters’ manually reposted [http://waterpigs.co.uk/articles/getting-started-with-microformats2/ Getting Started With microformats2] on microformats.org using [[WordPress]]: http://microformats.org/2014/03/05/getting-started-with-microformats2
+
+[[Bridgy]] sends webmentions for Facebook and Google+ reshares and Twitter retweets, as reposts. It uses <code>class="u-repost u-repost-of"</code> to support both the established property name and the earlier, experimental property name.
+
+== Differentiating Reposts ==
+=== Quote vs. Repost ===
+For me reposting is about saying this entire post is interesting (http://www.sandeep.io/35) while quoting is about curating just the relevant parts (http://www.sandeep.io/27). So this implies a UX difference. With quoting (which is just a regular post) I highlight the curated "text" (with blockquote) while with reposting I highlight a post (by showing the author, title, summary, dt-published, etc.) - [[User:Sandeep.io|Sandeep Shetty]]
+
+=== Like vs. Repost ===
+A '''repost''' is different from '''like''' in that a like is about me liking something personally (subjective value) while a repost is about something I think will be valuable to people that follow/subscribe to my site (objective value). Liking is an emotional response (feeling). - [[User:Sandeep.io|Sandeep Shetty]]
+
+== Displaying reposts of ==
+When  a post receives a [[webmention]] from a repost, it can choose to display it similar to a favoriting/liking of that post, as well as optionally displaying a number of reposts
+
+=== IndieWeb examples of reposts of ===
+The following posts display information about "reposts of" somewhere in their footer / comments, either a count of reposts of the post, and/or listings of the actual reposts of in time sequence order with other activity on the post.
+* [[User:Aaronparecki.com|Aaron Parecki]] e.g.:
+** http://aaronparecki.com/notes/2013/12/03/1/homebrew-website-club#reposts
+* [[User:WaterPigs.co.uk|Barnaby Walters]] displays reposts of posts inline with other responses
+** example via Bridgy: http://waterpigs.co.uk/notes/4V9AxW/
+* ...
+
+=== WordPress plugin ===
+pfefferle is working on displaying "reposts of" for the wordpress plugin
+
+=== Publify ===
+[[Publify]] is a [[projects#Publify|project]] for hosting your own content / site.
+
+Publify displays reposts using the original tweet data. Current used information are:
+
+* Original author URL (in case it exists in the tweet) or link to the Twitter account.
+* Original author profile picture
+* Original message
+* A link to the original message with the date and time of post.
+
+Additional information are provided regarding the repost:
+
+* Date and time of the repost.
+* Author of the repost
+* Short permalink to the POSSEd content.
+
+From a visual point of view, the reposted message is displayed like most blockquotes, to enforce the citation impression.
+
+[[File:publify-retweet.png]]
+
+From a markup point of view: 
+
+* the reposted message is enclosed inside a blockquote. 
+* the whole status is a h-entry
+* the short permalink has rel="syndication"
+
+== Silo Examples ==
+=== Twitter ===
+[[Twitter]] has a notion of "retweet".
+
+On Twitter, retweeted statuses are displayed from the original author point of view in the activity stream of the retweeter.
+
+[[File:retweet.png]]
+
+==== The Most Reposted Thing ====
+On 2014-03-02, Ellen DeGeneres, with the help of Bradley Cooper, took a "selfie" with her mobile device and posted it on Twitter:
+
+https://twitter.com/TheEllenShow/status/440322224407314432 <blockquote>If only Bradley's arm was longer. Best photo ever. #oscars <br>https://pbs.twimg.com/media/BhxWutnCEAAtEQ6.jpg</blockquote>
+
+That tweet became the most measurably reposted thing (beat Barack Obama's [https://twitter.com/BarackObama/status/266031293945503744 most shared tweet] around the 2012 elections), with over 3.4 million reposts as of 2014-04-02 (one month). See additional references[https://movies.yahoo.com/blogs/movie-news/oscars-2014--ellen-s--selfie-wins-internet--breaks-twitter-034518537.html], including animated GIF of the taking of the selfie[https://movies.yahoo.com/blogs/movie-news/ellen-degeneres--record-breaking--selfie-inspires-hilarious-memes-including-grumpy-cat--of-course-045110776.html]
+
+https://s.yimg.com/os/publish-images/movies/2014-03-03/3166a050-a28b-11e3-a16f-a394e4559bf0_ellengroupselfie.gif
+
+=== Tumblr ===
+[[Tumblr]] has a notion of "reblogging", which Tumblr users tend to take reblogging quite seriously — for example it is bad form to reblog a post as a new tumblr post even if you're linking back to the original [http://indiewebcamp.com/irc/2014-03-07/line/1394241260]
+
+Tumblr reblog UX as of 09/03/14:
+Post appears in user's dashboard. User clicks reblob button in bottom right corner of post.
+[[File:tumblrreblog1.png]]
+
+Reblog window is presented showing original content and allowing user to add comment in text box. Text box can switch from WYSIWYG to HTML.
+Text box also shows previous comments in it in successive blockquotes. It is possible to edit or remove this content and it will be displayed that way in the reblogging user's reblog post. While this is possible it's considered bad form to edit previous content. Tags can also be added to the reblog post. Tags are not carried over from the post that is being reblogged.
+[[File:tumblrreblog2.png]]
+
+The post is then displayed in the users dashboard as a reblog and is visible in the dashboards of those following the reblogger:
+[[File:tumblrreblog3.png]]
+
+=== Facebook ===
+[[Facebook]] has a notion of "share"
+
+== Challenges ==
+The biggest challenge with repost is that currently it's something which is native to silo for silo posts, and nothing more. It's a challenge, because it's not clear how it makes sense in a cross-site manner. 
+
+What's the difference between a repost and just quoting/citing another article in full? 
+* If it's no different, then we shouldn't invent a new term for it.
+* E.g. it's not "reposting" it's just just posting and quoting.
+* If it's no different, then don't invent a new term for it. No distinction = does not deserve it's own term, per [[minimalism]] and [[simplicity]] principles.
+* tumblr allows users to comment on a post they reblog. If this is done in microformats, does the original content go in the content area of the new post or does it go in the reply-context?
+
+== See Also ==
+* This was discussed in IRC on [http://indiewebcamp.com/irc/2013-06-09 2013-06-09], [http://indiewebcamp.com/irc/2013-06-10#t1370885009 2013-06-10]
+* http://sandeep.shetty.in/2012/10/social-verbs.html (lots of resources in the references section)
+* [http://www.sandeep.io/45 Share better than Repost & Link better than Mention]
+* [[post]]
+* [[reply]]
+* [[webactions]]

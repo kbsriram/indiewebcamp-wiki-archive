@@ -1,0 +1,74 @@
+{{stub}}
+
+A '''<dfn>permalink</dfn>''' is a URL which typically represents and retrieves a single [[post]] (also explicitly called a <i>post permalink</i>).
+
+A '''<dfn id=permashortlink>permashortlink</dfn>''' is a URL using a personal [[short-domain]] that expands to a permalink.
+
+== Design ==
+Most [[projects]] have a very deliberate permalink URL design.
+
+=== Indieweb Practices ===
+==== Falcon ====
+[[Falcon]] running on tantek.com:
+
+* algorithmic permashortlinks examples:
+** <samp><nowiki>http://ttk.me/tSSSn</nowiki></samp> or
+** <samp><nowiki>http://ttk.me/b/SSSn</nowiki></samp> where:
+** SSS = sexagesimal epoch days - see http://tantek.com/w/NewBase60
+** t = literal 't' for short <em>text</em> [[notes]], and 'b' for blog [[posts]] / [[articles]]. Both from this list: http://tantek.com/w/Whistle#design
+** n = nth post of that type that day
+** This is sufficient to expand to:
+* permalinks:
+** <samp><nowiki>http://tantek.com/YYYY/DDD/tn/</nowiki></samp> or
+** <samp><nowiki>http://tantek.com/YYYY/DDD/bn/</nowiki></samp> respectively, where:
+** YYYY = year
+** DDD = day of the year (see related: http://en.wikipedia.org/wiki/ISO_8601#Ordinal_dates )
+** t or b  = again a literal 't' or 'b'
+** n = nth post of that type that day
+** and that's sufficient to retrieve the post from storage, including slug text which follows the "...n/" in the permalink URL
+
+For more details and background/thinking, see the interview/article:
+* http://www.monkinetic.com/2010/05/26/tantek-celik-diso-20-brass-tacks
+
+==== Taproot ====
+[[Taproot]] running on waterpigs.co.uk:
+* Articles
+** <code><nowiki>http://waterpigs.co.uk/articles/getting-started-with-microformats2/</nowiki></code>
+* Notes
+** . . .
+
+==== WordPress ====
+[[WordPress]] supports the following permalink structures:
+
+* Day and name
+** <code><nowiki>http://example.com/2014/03/27/sample-post/</nowiki></code>
+* Month and name
+** <code><nowiki>http://example.com/2014/03/sample-post/</nowiki></code>
+* Numeric
+** <code><nowiki>http://example.com/archives/123/</nowiki></code>
+* Post name
+** <code><nowiki>http://example.com/sample-post/</nowiki></code>
+* Custom structure
+** Using a combination of [http://codex.wordpress.org/Using_Permalinks#Structure_Tags WordPress structure tags]
+
+== Coping with loss of ==
+Permalinks [[site-deaths|die every year]]. If you're able to export your content you can rehost it on your own site, but the problem of dead permalinks remains. There are approaches to making dead permalinks at least discoverable, e.g. by searching for the text of a permalink URL in a web search engine.
+
+=== archive page with old permalinks in cleartext ===
+One approach is to publish an archive page that provides cleartext URLs (but not hyperlinked) of your dead permalinks, along with their new locations, e.g.:
+* [http://jonudell.net/udell/2002-2006-index.html Jon Udell's 2002-2006 index] of his blog posts that were originally published at <samp>weblog.infoworld.com/udell</samp>.
+
+=== new URLs with old permalinks in path ===
+Another approach is to create new pages with URLs that have the old permalinks as part of their path, and then also link to those new URLs from an archive page using link text of the old domain and path . E.g.:
+* [http://microformats.org/wiki/tr.im#equivalents microformats tr.im equivalents] for shortlinks at the now defunct <samp>tr.im</samp> link shortener. E.g.:
+** [http://microformats.org/wiki/tr.im/ufprs microformats.org/wiki/tr.im/ufprs] for the dead link <samp>tr.im/ufprs</samp>
+
+== See also ==
+* [[permashortcitations]]
+* [[IndieArchive]]
+* [[posts]]
+** [[notes]]
+** [[articles]]
+* [[short-domains]]
+
+[[Category:building-blocks]]

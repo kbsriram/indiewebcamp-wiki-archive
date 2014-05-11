@@ -1,0 +1,108 @@
+{{stub}}
+
+A '''<dfn>deleted</dfn>''' is a post that has been removed. It may still have a permalink, for purposes of returning an HTTP 410 GONE status code, and a simple static HTML [[h-entry]] saying something like "This post has been deleted".
+
+== Use Case ==
+A user deletes a post and wants any copies of that post (i.e. if it was a reply post) on other sites to also be deleted.
+
+== Handling ==
+How to handle deleted posts, i.e. implementation details:
+
+* When a post is deleted by the user, implementations should:
+** send a webmention to all URLs that were in the post
+*When requested the permalink of a post that has been deleted, implementations should return:
+*# HTTP 410 GONE
+*# an HTML [[h-entry]] with prose noting the post has been deleted, and at least a link to the home page, or recent posts. You may want to consider returning a link to "nearby" (by date, topic) posts, if you're comfortable disclosing that kind of contextual information about the post that was deleted. This helps users because often posts that are deleted are subsequently "replaced" by new posts. It would be nice if those new related posts were discoverable from the deleted permalink.
+*When a webmention is received and the URL returns a 410 GONE HTTP Status code, implementations should:
+**remove (or tombstone, e.g. by replacing author with "user" and content with "this comment was deleted by the author" or similar) any existing copies of that URL and any syndicated content from it from site receiving the webmention.
+
+We could informally refer to this '''indieweb delete protocol''' as the '''<dfn>Pilgrim Protocol</dfn>''' in honor of Mark Pilgrim who was a strong advocate for proper use of the 410 GONE HTTP Status code, and who one day suddenly deleted his presence (indie and otherwise) from the web[http://en.wikipedia.org/wiki/Mark_Pilgrim_%28software_developer%29#.22Disappearance.22_from_the_Internet].
+
+=== DO NOT ===
+What not to do:
+==== 301 302 Redirect ====
+DO NOT simply redirect deleted posts to your home page.
+
+This is bad usability, e.g. "especially for people who tend to open a bunch of links in background tabs while reading a twitterbookica stream, then start reading those tabs, and wonder why/when they opened the homepage of some news site..." - grawity in IRC, 2013-176 unlogged.
+
+==== 404 Not Found ====
+DO NOT simply return a 404 not found for deleted posts. 
+
+Publishers should not return and display a 404 page for deleted posts because: <blockquote>The 410 (Gone) status code SHOULD be used if the server knows, through some internally configurable mechanism, that an old resource is permanently unavailable and has no forwarding address.[http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html]</blockquote>
+
+===== 404 Discussion =====
+{{main|deleted-404-discussion}}
+Issue summary:  404 should be a valid response code for delete.
+
+Reasons why we MUST NOT treat 404 as a delete:
+* '''Vagueness.''' 404 is vague and could mean any number of things (including a delete). Given its vagueness and the destructive nature of delete, it is better not to interpret it as a delete, because it very well might not mean a delete.
+* '''Server error.''' A server mistake or proxy misconfiguration could cause 404s for URLs (happens all the time), and if that were to somehow cause deletes across the web that would be a very bad thing.
+* '''Simpler design.''' A simpler protocol is better, and one way to do something is simpler than two. We already have 410 which, meaning "[http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5 permanently unavailable]" (RFC2616 10.4.5), in otherwords, deleted. No need to confuse publishers/consumers with another way of doing deletes (whether 404 or something else).
+
+== IndieWeb Implementations ==
+Ben Werdmuller has implemented deleted posts support in [[idno]]. Deleted posts are replaced (for now) with a very simple message in the form of an h-entry with a p-name and p-summary that explain the problem. A link is also provided to the homepage.
+
+Example URL of a deleted post:
+* http://werd.io/view/51c94f6ebed7de537c45de63
+
+== Silo Examples ==
+=== Flickr ===
+[[Flickr]] shows a page saying something like "This photo has been removed by the user." on photo post permalinks of photos deleted by users.
+
+What HTTP status error code does Flickr return for deleted photo posts?
+
+== Brainstorming ==
+=== HTML meta http-equiv for status ===
+If for some reason you are unable to configure your web server / content host to return a 410 response (e.g. [[GitHub#No_HTTP_Status_Code_Control|GitHub pages]]), perhaps a meta http-equiv could work. Since the status code is returned in code explicitly as a "Status:" header[http://tools.ietf.org/html/rfc3875#section-6.3.3], we can simply use meta http-equiv:
+* <code>&lt;meta http-equiv="Status" content="410 GONE"/></code>
+
+No known servers support this, but there's no reason they couldn't, i.e.:
+* HTTP Servers should read the <code>&lt;head></code> of an HTML document before serving it, and use meta http-equiv Status for the status code to return in the HTTP Response Header, if one hasn't been set by other means of configuration (e.g. in .htaccess).
+
+It's probably a good idea to put that meta tag in the HTML you return for deleted comments '''in addition to''' returning the 410 status code.
+
+Adding http-equiv parsing to uf2 parsing sounds like it might be a good strategy:
+
+From [[ irc http://indiewebcamp.com/irc/2014-04-09]]:
+<pre>10:56 <aaronpk> it would be great if the http-equiv was included in the result of microformats parsers, like how "rels" is
+...
+10:57 <aaronpk> example: https://gist.github.com/aaronpk/10297489</pre>
+
+Captured:
+* http://microformats.org/wiki/microformats2-parsing-brainstorming#Add_meta_http-equiv_to_microformats2_parsing_model
+
+== Issues ==
+=== Threaded Comments Problems ===
+* "Delete" could cause some issues on threaded comment implementations. If a whole discussion starts based on one Webmention, a delete could result in a) deleting a whole discussion thread or b) destroying the context be deleting one of the root-element. An example of threaded Webmentions: http://notizblog.org/2013/06/20/5231/#comments --[[User:Notizblog.org|Matthias Pfefferle]]
+** The way threaded forums like [http://news.ycombinator.com Hackernews] and [http://reddit.com Reddit] handle this could be a good solution. When there is a post that is deleted, it will turn into a grey placeholder that says "deleted" with no author information or timestamp, but all threaded replies below still appear. This way readers know there used to be something there in case part of the discussion no longer makes sense. [[User:Aaronparecki.com|Aaronparecki.com]] 07:20, 26 June 2013 (PDT)
+*** What Aaron suggests (e.g. "turn into a grey placeholder that says "deleted" with no author information or timestamp") is perfectly fine. Hence the "shoulds" in the spec. Tombstoning rather than deleting is perfectly fine. I'll clarify in the How To accordingly. [[User:Tantek.com|Tantek]] 17:43, 26 June 2013 (PDT)
+=== Three Cases ===
+* [[User:Www.sandeep.io|Www.sandeep.io]] 03:24, 26 June 2013 (PDT): Based on my experience there are three cases from a webmention receivers perspective : (how is this an issue? - these were real-world cases that were not handled at the time, and one of them is yet unsolved -[[User:Www.sandeep.io|Www.sandeep.io]] 10:09, 28 June 2013 (PDT))
+** Deletion of source post
+** Change in rel type from source to target
+*** This is closer to an update, or perhaps a move? This should be explicitly described in "update" handling (will do so). [[User:Tantek.com|Tantek]] 17:43, 26 June 2013 (PDT)
+** unlinking from source to target.
+*** This also feels like an update variant. I'll update (heh) accordingly. [[User:Tantek.com|Tantek]] 17:43, 26 June 2013 (PDT)
+** This happened yesterday on sandeep.io. Received two webmentions from the same resource, one from its canonical URL and one from an alternative archive/date-based URL. There is no good way to delete such webmentions remotely, yet. -- [[User:Www.sandeep.io|Www.sandeep.io]] 16:25, 27 June 2013 (PDT)
+*** One way to solve this might be to look for rel="canonical" and use that as source instead of the URL that was sent as source in the webmention.
+
+=== No Plans To Implement ===
+* No plans to implement storing deleted content/URLs
+** "I don't have plans to implement" is not an excuse to screw up a protocol.
+** consider keeping tombstones for deleted URLs as a part of [http://www.w3.org/Provider/Style/URI.html cool URIs don't change].
+** Another technique is to simply keep a list of deleted URLs and check those to return a 410. This could even be done in an .htaccess file that sets the response code to 410.
+** Yet another technique is to simply keep a <em>recent</em> (past month?) cache list of deleted URLs and check those to return a 410. That should be good enough for real-time deletes to work, and if those URLs eventually expire from that cache and start returning 404s later that's ok because anyone who cared about the deleted semantic already took care of it.
+
+== Discussion ==
+* A (practical) workaround that I've figured out (to avoid the extra work needed for responding with a 410 and also avoiding a 404) is to simply change the content of my comment to "This post has been delete." and sending a webmention for updating the comment. -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+** Avoids extra work needed for responding with a 401. -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+** Avoids sending a 404. -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+** Does not require the target to implement tombstoning. -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+** Interestingly, it gives the commenter (content-owner) more control over explaining the intent of the delete (for example: "I retracted this post because it was very rude and inappropriate.") than if it were tombstoned by the target. -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+** For non-comment responses (like, repost, mention), I will unlink target from source and send a webmention resulting in a delete. -[[User:Www.sandeep.io|Www.sandeep.io]] 01:24, 8 July 2013 (PDT)
+** This leads me to believe that update might be enough and we could skip the concept of delete altogether? -[[User:Www.sandeep.io|Www.sandeep.io]] 20:01, 7 July 2013 (PDT)
+
+== See Also ==
+* [[posts]]
+* [[webactions]]
+* [[comment]]

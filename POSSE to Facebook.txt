@@ -1,0 +1,101 @@
+There are multiple ways to [[POSSE]] out from your indieweb site to your [[Facebook]] profile.
+
+Existing techniques:
+
+== Via Twitter ==
+* [[User:Tantek.com|Tantek]] POSSEs out from tantek.com to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook. Reasons:
+** insufficient marginal utility in writing a custom POSSE syndicator to FB.
+** FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
+* [[User:Tommorris.org|tommorris]] does likewise, because he's lazy.
+
+== Using IFTTT ==
+* [[User:Adactio.com|Adactio]] POSSEs out from adactio.com to Facebook using If This Then That ([[IFTTT]]).
+
+== Facebook API ==
+Posting to one's wall is supported with the Facebook 'Graph API'.
+* https://developers.facebook.com/docs/graph-api/reference/user/feed/#publish
+
+Programming language libraries for doing so:
+
+* Ruby: [https://github.com/nov/fb_graph fb_graph] - see the [https://github.com/nov/fb_graph#update-status-wall-post feed!] method and [https://github.com/arsduo/koala/wiki/Graph-API Koala: Graph API] <code>put_wall_post</code> method.
+* PHP: https://developers.facebook.com/docs/reference/php/ and [http://www.yorkstreetlabs.com/blog/Publish-to-Your-Facebook-Pages-Wall-with-PHP: Graph API] - demo class also available for download.
+* ...
+
+See also:
+* 2013-08-01 [http://www.bogost.com/blog/oauth_of_fealty.shtml OAuth of Fealty] / "Resignation beyond sorrow on the Facebook Platform and beyond"
+
+=== See Original ===
+Some indieweb sites (e.g. aaronparecki.com, kylewm.com) POSSE to FB and put in a "See Original" link in POSSE copies of posts there that link back to the original indieweb post! In addition, [[Bridgy]] looks for such "See Original" links as part of its [[original-post-discovery]] implementation. 
+
+Each Facebook post [https://developers.facebook.com/docs/graph-api/reference/user/feed/#publish can include one custom "action"] with any title and link. The parameter "actions" is  a JSON-encoded map that contains a "name" entry ("See Original" in this case) and a "link" entry. Note: Bridgy currently only looks for custom actions named "See Original" (case-insensitive) when doing original-post-discovery.
+
+[[File:SeeOriginal2.png]]
+
+[https://www.facebook.com/kyle.mahan/posts/10100820646679399?stream_ref=5 On Facebook]
+
+=== IndieWeb Examples ===
+In rough order of implementation:
+
+==== Ben Werdmuller ====
+[[User:werd.io|Ben Werdmüller]] uses [[idno]] on werd.io to post POSSE copies to Facebook since 2013-05-31. Example:
+* Original: http://werd.io/2014/i-like-my-coffee-yak-like-my-soul
+* Facebook copy: https://facebook.com/36802236_10100784559882869
+Screenshot of original on werd.io and POSSE copy:
+
+[[File:idno-facebook-posse.png|700px]]
+
+==== Kyle Mahan ====
+[[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] on kylewm.com to post POSSE copies to Facebook since [https://www.facebook.com/kyle.mahan/posts/10100804936358009 2014-02-18]. Examples:
+
+* Facebook copy: https://www.facebook.com/kyle.mahan/posts/10100845623360929<br>[[File:kwm-facebook-copy.png|500px]]
+
+* Original: http://kylewm.com/note/2014/04/05/2 (currently showing almost palindromically duplicate facebook likes)<br>[[File:kwm-fb-original.png|500px]]
+
+==== Aaron Parecki ====
+[[User:aaronparecki.com|Aaron Parecki]] uses [[p3k]] on aaronparecki.com to post POSSE copies to Facebook since 2014-02-20. On 2014-03-08 he started putting a see "See Original" link on POSSE Facebook copies.
+
+* Facebook copy: https://www.facebook.com/aaronpk/posts/10101380795292076<br>[[File:aaronparecki-posse-facebook-example.png|500px]]
+
+* Original: http://aaronparecki.com/notes/2014/04/15/1/<br>[[File:aaronparecki-posse-facebook-original-example.png|500px]]
+
+==== Jeena Paradies ====
+[[User:Jeena.net|Jeena Paradies]] uses a simple rails app on jeena.net to post POSSE copies to Facebook since at least 2014-02-20
+* Facebook copy: https://www.facebook.com/jeenaparadies/posts/10152606923252678
+** Note "See Original: ..." link inline in Facebook POSSE copy content.
+* Original: https://jeena.net/notes/97
+
+== Brainstorming ==
+
+== How we got here ==
+Below are previous experimental examples of syndicating notes to Facebook.
+
+These examples were created with the [https://developers.facebook.com/docs/reference/api/publishing/ Facebook Publishing API] using either the "message" or "link" parameter or both.
+
+=== Note with inline citation link ===
+
+Sent using only the "message" parameter, the citation link is part of the message.
+
+http://farm8.staticflickr.com/7308/8734721454_2b04aa0a2b_o.png
+
+=== Note with text and link parameter ===
+
+Sent using both the "message" and "link" parameters. Facebook includes the note text, and creates an inline preview of the page, which shows the note text and the author's photo.
+
+http://farm8.staticflickr.com/7298/8734700706_274e6e86ef_o.png
+
+=== Link parameter only ===
+
+Sent using only the "link" parameter. Facebook creates an inline preview of the page which shows the note text and the author's photo.
+
+http://farm8.staticflickr.com/7325/8734697788_42b5407f37_o.png
+
+=== Note text only ===
+
+Sending only the note text and does not include the citation link. This is not recommended.
+
+http://farm8.staticflickr.com/7317/8733602329_12252ef6c3_o.png
+
+== See Also ==
+* [[POSSE]]
+* [[Twitter]]
+* [[IFTTT]]

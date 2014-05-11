@@ -1,0 +1,15 @@
+{{stub}}
+
+'''<dfn>[http://linkedin.com/ LinkedIn]</dfn>''' is a special-purpose [[silo]] for hosting your professional resume / history.
+
+== Issues ==
+=== Lack of rel-me ===
+LinkedIn has a way to add your "Blog" URL to your LinkedIn profile, however, it has multiple problems:
+* your LinkedIn profile URL does not actually have curlable hyperlink markup to your blog (JSON only)
+* hyperlink itself uses a linkedin redirect to your blog
+* hyperlink in the DOM lacks a rel=me
+
+So LinkedIn will not work as an [[IndieAuth]] provider.
+
+== See Also ==
+* [[silos]]

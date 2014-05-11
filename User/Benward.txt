@@ -1,0 +1,5 @@
+Platform developer, Twitter. (OAuth, [http://dev.twitter.com/pages/intents Web Intents])
+
+* http://benward.me
+* http://blog.benward.me
+* http://twitter.com/benward

@@ -1,0 +1,231 @@
+= note =
+A '''<dfn>note</dfn>''' is a [[post]] that is typically short, plain text, and written/posted quickly.
+
+Displaying an individual note (tweet/status update) on its own permalink page is a common pattern.
+
+== Documented Examples ==
+* [[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note/list here], including examples from:
+** Facebook (Web UI)
+** Twitter (Web, Mac App)
+** waterpigs.co.uk
+** aaronparecki.com
+** tantek.com
+
+== Common Aspects ==
+There are certain UI elements which are common to most implementations. These include:
+
+* Profile photo (often with rounded corners)
+* Full Name (often emboldened)
+* Auto–linked URLs, usernames and #tags
+* Dates (sometimes relative, almost always the option to see real date)
+
+=== Autolinking and embedding ===
+Various sites/solutions auto-link and/or auto-embed URLs and other linkable things in notes.
+
+recommendations:
+* auto-link URLs directly
+** even better: if the URL is to a known person, use their name as the link text and perhaps include a small icon of their face before their name.
+* auto-link @-names to Twitter profiles
+** even better: auto-link @-names to individual's indieweb sites and show their full name instead of Twitter handle. Obviously keep @-names in note content when POSSEing to Twitter.
+* auto-embed GIF/JPG/PNG URLs with &lt;img src>, hyperlinked to the original
+* auto-embed MOV/OGV URLs with &lt;video src>, hyperlinked to the original
+* auto-embed Youtube URLs with the equivalent Youtube &lt;iframe src> embed (algorithmically convertible)
+You can use the [[CASSIS]] <code>auto_link</code> function to do all the above (except the "even better" enhancements) automatically to a piece of plain text.
+
+avoid:
+* auto-linking URLs through URLs shorteners (please don't break the web)
+* cluttering image/video embeds with extra text (e.g. name/title from destination)
+
+Compare for example:
+* '''good original note''': http://tantek.com/2013/054/t2/future-dystopia-beijing-blade-runner
+** with autolinked/embedded URLs/images in context of their content location
+* '''worse Twitter handling of POSSE'd copy''': https://twitter.com/t/status/305570846796312577
+** link shortener wrapping of links
+** clumsier image embed - after all tweet text content
+** smaller image embed
+** undesired extra text
+** external site name
+** user interface buttons between tweet text and image embed
+
+== Less Common Aspects ==
+* username/nickname - as well as the full name, there’s often a silo-specific nickname/alias
+* URL to their indieweb home page
+* posting application/tool
+* posting location - aka geo
+
+==== Location ====
+[[Location]] (AKA <span id="Geo">[[Geo]]</span>) of notes is somewhat rare and not very well done. Nonetheless, there are questions, use-cases, and examples.
+
+===== IndieWeb Thoughts =====
+Questions:
+* What's the point of posting a note/tweet with location information? (one that's not a checkin)
+** What does it do for me (as the user posting it)?
+** And what does it do for people reading my notes/tweets? 
+** Why is it interesting/useful to anyone?
+
+Related but different: [[checkins]], [[events]], [[photos]] with location.
+
+Use-cases for posting geo / post location information with notes:
+* '''location specific service provider help'''
+** https://twitter.com/aaronpk/status/320597741485051904
+*** "Included there because I wanted @O2IRL to know I was in Ireland"
+* '''meetup in non-home city''' - specifically expressing being in the same (non-home) city
+** https://twitter.com/aaronpk/status/311161906809421824
+* '''explicit I'm not home''' - indication of being in a non-home city
+**  https://twitter.com/aaronpk/status/316667682877497344 because I was out of town
+* '''"help!"''' if you're in trouble - geolocating it would be useful
+**  uncommon but urgent use-case.
+** though in a "help" situation it's faster to simply *type* where you are etc. than wait for geo location information to come-up, confirm, etc.
+*** because geo information is so often "invisible" - it requires extra UI steps to make it work = extra time = not going to do it in an emergency
+*** worse - devices get geo information wrong all the time - and having it be wrong in an emergency would be particularly bad
+** basically, lack of trust for device geo = not going to use it in a help situation
+* if you '''don't know where you are and need help''', then some (even possibly error-prone) geo information may be better than nothing
+** but now we're talking quite a bit of an edge case.
+
+===== Twitter tweet with location =====
+Live example:
+* https://twitter.com/aaronpk/status/276466935372341248
+
+Problems:
+* '''artificial precision''' - Twitter in particular links names of cities like "Paris, Paris" <nowiki>[sic]</nowiki> to a Google map with lat/long of 8 decimal digits precision!
+** e.g. https://twitter.com/aaronpk/status/276466935372341248 <blockquote>I didn't mean "x,y" I meant "Paris" - aaronpk on [[IRC]]</blockquote>
+
+Past Example when Twitter used to show a map on tweet permalinks of the location:
+* http://www.flickr.com/photos/aaronpk/7771330904/
+
+== White space ==
+Typical [[silo]] notes implementations display most whitespace written in their posting interfaces. E.g.
+=== Facebook ===
+[[Facebook]] status updates are notes (no post title) that preserve sequential space characters and line breaks.
+=== Google ===
+[[Google+]] posts are similarly just notes (no post title) that also preserve sequential space characters and line breaks.
+=== Twitter ===
+[[Twitter]] now has multiple implementations that preserve white space characters in presentation:
+* '''Twitter.com''' (as of ~2013-03-13)[http://news.cnet.com/8301-1023_3-57574167-93/twitter-adds-line-breaks-and-gets-hit-with-the-ugly-stick/][http://mashable.com/2013/03/13/twitter-line-breaks/][http://www.digitaltrends.com/social-media/twitter-linebreaks/][http://smallbiztrends.com/2013/03/twitter-line-breaks.html][http://techcrunch.com/2013/03/14/what-are-twitter-line-breaks-good-for/]
+** e.g. https://twitter.com/hotdogsladies/status/4809602603
+** based on a test ( [[User:Tantek.com|Tantek]] 18:13, 15 April 2013 (PDT) ), when posting to Twitter.com, Twitter's server
+*** preserves simple linebreaks
+*** preserves multiple spaces between words
+*** preserves spaces at the start of a line
+*** but collapses multiple linebreaks into a maximum of one blank line between lines.
+* '''Twitter iOS client''' (previously: Tweetie)
+
+Encoding - analysis of the above tweet:
+* View Source: The linebreaks are encoded as <code>&amp;#10;</code> character entitites, without any visible line breaks in the code.
+* View Selection Source (FF) and Inspect Element (FF, Safari): The linebreaks appear to be simple "carriage return" characters (<code>\r</code>, ASCII 13), showing visible line breaks in the code.
+* In either case, the visual presentation of the whitespace characters is achieved using CSS: <blockquote style="white-space:pre"><code><nowiki>.js-tweet-text {
+    white-space: pre-wrap;
+}</nowiki></code></blockquote>
+
+=== Indieweb thinking ===
+Due to the expectations set by dominant [[silo]] implementations, any note authoring/composing UI should preserve  line-breaks, blank lines, and multiple space characters when writing/authoring, displaying/presenting, and ideally, when syndicating ([[POSSE]]).
+
+Especially now that even Twitter has set consistent expectations from its posting UI, there's a strong case that a user switching from Twitter to an indieweb note posting UI would expect whitespace and linebreaks to "just work".
+
+Obviously indieweb implementations would have to preserve white-space in posting UI to storage to display round-trips. Then in the presentation they could either:
+* a. '''&lt;br/> substitutions''' - Indieweb implementations could (are any already?) automatically insert <code>&lt;br></code> tags for linebreak whitespaces (similarly to auto-linking URLs in notes). But this wouldn't handle multiple sequential space characters.
+* b. '''white-space:pre-wrap''' - Alternatively (preferably) indieweb implementations should use <code>white-space:pre-wrap</code> similar to how Twitter does.
+
+Thus b. white-space:pre-wrap seems to be the logical choice for indieweb implementations.
+
+=== Indieweb implementations ===
+* '''tantek.com''' [[Falcon]] [[notes]] as of 2013-105 (retroactively supported in storage & styling back to 2013-001) preserve whitespace, present it, and [[POSSE]] it to [[Twitter]] which then preserves the whitespace when copying it to [[Facebook]], e.g.:
+** Original post: http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon
+** POSSE tweet with linebreaks: https://twitter.com/t/status/323994155690909699
+** Tweet copy to FB with linebreaks: https://www.facebook.com/tantek.celik/posts/10100581192582203
+* ...
+
+=== Use Cases ===
+There are some interesting use cases to preserving white space, in particular line breaks. 
+
+Besides the obvious use-cases of poetry, paragraphs, and lists, there is for example, chess games (and moves!)
+
+* https://twitter.com/alapapa/status/312053522755641344
+
+This leads us to the use case of '''indieweb spectator [http://en.wikipedia.org/wiki/Correspondence_chess correspondence chess]'''. That is, two players could play a chess game just by posting moves on their own indieweb sites as replies to each others' moves.
+
+Perhaps chess moves (and resulting board state) could be posted as a special kind of [[note]] [[post]] type (a game-move or game-turn?) and then [[POSSE]]'d to Twitter with whitespace intact. 
+
+If the move is response to a move on another indiewebsite, then in addition to using [[webmention]] for move completion notification, the POSSE'd response move could also indicate with Twitter's in-reply-to-status-id the POSSE'd tweet of the previous move. See [[comment#POSSE_a_comment|how to POSSE a comment]]/[[in-reply-to]]/[[rel-syndication]] for details of how to do this.
+
+Such public posting of moves would also allow for anyone to jump in and attempt to play a next move by posting a reply move. The player of the previous move would then receive multiple webmentions and could decided which move (or both) to reply to in turn.
+
+== Subtypes ==
+Since notes are such a ubiquitous content posting type (Thanks to [[Twitter]]), it's no surprise that subtypes of notes are evolving for representing additional structure or types of information. Let's document them as they emerge.
+
+=== Health Fitness Tracking ===
+Tags: fitbit, pedometer, physical activity
+
+Challenges:
+* Too much hassle (AKA "high friction data collection") http://aaronparecki.com/articles/2012/10/28/1/low-friction-personal-data-collection
+
+==== Step Tracking ====
+
+Syntax: number-of-steps #steps anything-extra
+
+Examples:
+
+* http://waterpigs.co.uk/notes?tagged=steps
+
+==== BMI Tracking ====
+
+Syntax: number #bmi
+
+Examples:
+
+* http://evan.status.net/tag/bmi
+
+=== Picoformats ===
+'''<dfn>picoformats</dfn>''' are the broader effort to briefly and readably structure information in pure/plain text form.
+* See http://microformats.org/wiki/picoformats for more.
+
+== Note Display ==
+When displaying a note, it is customary to just display the note content and no explicit note title.
+
+While this is fairly straightforward for a site itself (which often has its own post type information, perhaps even as an additional class name on the h-entry like <code>h-as-note</code>), for sites that display [[h-entry]]s from elsewhere it helps to have an algorithm to determining when is a note a note and should thus be displayed as such.
+
+=== Note Type Algorithm ===
+Summary: if the name of the h-entry is essentially the content of the entry, it's a note, just display the content (and no explicit name/title).
+
+Algorithm for a parsed [[h-entry]]
+
+* set the tname to trim(name)
+* set the tcontent to trim(content)
+* if the tname == tcontent, then it's a note, return.
+* if the tname ends with an ellipsis ("..." or "…") then 
+** drop the ellipsis character
+** if the tname is a prefix of tcontent, then it's a note, return
+* otherwise it's not a note
+
+== Related Patterns ==
+* [[patterns/note-list|Note Listing Display Patterns]]
+* [[patterns/note-post|Note Posting UI Patterns]]
+
+== FAQ ==
+Questions about notes, implementing them, publishing them.
+=== markdown or plain text ===
+Q: As an implementer of notes on my own website, should I store [[markdown]] or just plain text and autolink/autoembed everything?
+
+A: Typical implementations store '''plain text''' for notes and use an autolinker/embedder to create links and embedded images. E.g.:
+* [[User:Tantek.com|Tantek]] on [http://tantek.com tantek.com] uses [[Falcon]] which stores all notes as plain text entry-content inside an h-entry in a flat file.
+* ... add your implementation example here.
+
+See also: [[storage]].
+
+=== how long should notes be ===
+Q: As an implementer, what's the maximum size I should allow for notes?
+
+A: Up to you and your own site needs! Typical implementations do not have note length limitations.
+* [[User:Tantek.com|Tantek]] on [http://tantek.com tantek.com] uses [[Falcon]] which has no explicit lenght limitation on notes, however as part of the publishing UI shows what will be [[POSSE]]d to Twitter and how many characters are remaining to do so without having to elide the text.
+* ... add your implementation example here.
+
+=== how to display in a list  ===
+Q: When displaying a list of [[h-entry]] notes, e.g. in [[comments-presentation]] on a post, or in an indie [[reader]], when should the name, or name+content, or just content be displayed?
+
+A: See [[notes#Note_Display|notes display]] for how to determine when to use a name or name+content and what to display accordingly.
+
+== See Also ==
+* [[posts]]
+* [[articles]]
+* [[photos]]
+* [[Semantics Of Article-Note Distinction]]

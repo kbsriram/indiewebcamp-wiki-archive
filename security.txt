@@ -1,0 +1,14 @@
+{{stub}}
+
+'''<dfn>security</dfn>''' in the context of the indieweb may refer to security concerns regarding [[personal domain]]s, [[web hosting]], [[https]] setup, private data, identity etc. Nearly everything on the indieweb has security concerns.
+
+== Breaches ==
+Security breaches as reported by sites
+
+=== 2014 ===
+* 2014-04 [[Heartbleed]]
+* 2014-02-15 [[Kickstarter]] https://www.kickstarter.com/blog/important-kickstarter-security-notice
+* ...
+
+== See Also ==
+* [[https]]

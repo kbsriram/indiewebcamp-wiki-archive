@@ -1,0 +1,39 @@
+= gRegor Morrill =
+__NOTOC__
+
+<div style="float: right; width: 150px; padding: 10px; border: 1px solid #ccc; margin: 0 0 1em 1em; background-color: #fff;">[[File:gRegorMorrill.jpg]]
+<p> <strong>gRegor Morrill</strong> </p>
+<p> [http://gRegorLove.com gRegorLove.com] </p>
+<p> [http://twitter.com/gRegorLove @gRegorLove] </p>
+</div>
+
+I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I intend to implement a plugin for [[webmention]]s and other Indie Web goodies.
+
+PHP is my primary language, but I am branching out into Python lately to broaden my experience.
+
+== Contributions ==
+* [https://github.com/gRegorLove/nucleus-plugin-webmention Webmention plugin] for Nucleus CMS
+
+== Interests ==
+I am interested in:
+* Adding a "notes" stream to my site distinct from the articles.
+** Setting up distinct, well-designed presentations for different types of notes (e.g. quotes, links, status update, video), a la Tumblr
+* Syndicating notes/articles to Twitter and Facebook ([[POSSE]])
+* Coming up with a better acronym than "POSSE." It sounds silly. ;)
+* Adding SSL. Secure all the things! ''Damn the Man''.
+* Setting up PGP ''securely''. Again, Damn the Man.
+* Attending IndieWebCamp 2014 (Portland)
+
+== Braindump ==
+* Help decrease jargon/improve usability.
+** E.g. Review/improve [[WordPress#Themes]] so we can point to 'install this theme, this plugin, and start posting'
+
+=== mf2 date and time parsing ===
+'''Edit^2:''' Nevermind. I needed more coffee as I was making silly mistakes. :)
+
+See [[User:Gregorlove.com/sandbox]]
+
+== My site ==
+As mentioned above, I have been using Nucleus CMS for quite some time. The extensibility of it attracted me all those years ago. Unfortunately, development on Nucleus has nearly stopped and I am unsure of its future. I am tempted to rebuild my site on the Processwire framework, but for now I am still with Nucleus. I thought contributing some indieweb plugins would be good, even if very few people end up using them.
+
+* My [[User:Gregorlove.com/webmention|webmention implementation]]

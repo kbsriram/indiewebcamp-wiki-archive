@@ -1,0 +1,12 @@
+<table width="100%" border="1" class="expense" style="border-collapse: collapse;" cellpadding="3">
+<tr>
+  <th>Date</th>
+  <th>Description</th>
+  <th>Amount</th>
+</tr>
+<tr class="h-entry h-expense">
+  <td><time class="dt-created" datetime="2014-03-11T12:57:00-0800">Mar 3, 2014 12:57pm</time></td>
+  <td class="p-description">Linode VPS Hosting</td>
+  <td><data class="p-amount" value="27.10">$27.10</data></td>
+</tr>
+</table>

@@ -1,0 +1,33 @@
+{{stub}}
+
+= Home Page =
+What should be on your indie web site home page?
+
+== Getting Started ==
+If you're just [[getting started]]:
+* [[profile]] / contact information with an [[hCard]]
+** examples of contact info / about info only: aralbalkan.com, ebdesign.se, old (pre-2012) adactio.com
+* [[How_to_set_up_web_sign-in_on_your_own_domain|web-sign-in support]]
+
+== Feeds ==
+Next, it's quite popular to have:
+* [[feed]] of your most recent posts and other activities.
+** mixed/composite feed examples: tantek.com, new (late 2012+) adactio.com
+** separate feeds: aaronparecki.com
+
+== Discovery ==
+Your home page is the URL you share with people, therefore it's useful to set it up with:
+* [[discovery]] of what else you have on your site
+
+== Previously ==
+Among early 2000s bloggers it was popular to also have on your home page:
+* [[blogroll]]
+
+== Signed-in Features ==
+When signed-in to your own site, it might be useful to have:
+* [[feed reader]] - feed of posts from others you follow
+** silo examples of such a logged in home page: [[Facebook]], [[Twitter]], [[Tumblr]] - logged in dashboard
+
+== related ==
+* [[2012/UK/Demos]] - specifically, General discussion / UX thoughts.
+* [[feeds]]

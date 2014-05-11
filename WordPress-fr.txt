@@ -1,0 +1,123 @@
+''Cette page a démarré sur [[WordPress]]''
+
+'''<dfn>WordPress</dfn>''' peut faire référence à 
+* '''WordPress open source software''', disponible sur http://wordpress.org
+* '''[http://wordpress.com WordPress.com]''' service d'hébergement de blog (silo)
+
+__TOC__
+== Logiciel WordPress ==
+L'un des nombreux [[Projects-fr|projets]] indieweb, [http://wordpress.org WordPress] est un logiciel web que vous pouvez utiliser pour créer un magnifique site web ou blog.
+
+Il existe plusieurs [[#Extensions|extensions]] WordPress que vous pouvez utiliser sur un site WordPress pour ajouter des fonctionnalités significatives IndieWeb.
+
+=== Les personnes utilisant WordPress ===
+
+Les participants IndieWebCamp l'utilisant pour leur site principal :
+* [[User:Crystalbeasley|Crystal Beasley]] sur [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
+* [[User:Notizblog.org|Matthias Pfefferle]] sur [http://notizblog.org notizblog.org]
+* [[User:Willnorris.com|Will Norris]] sur [http://willnorris.com willnorris.com]
+ 		 	
+
+[[File:aaronpk-bookmarks.png|300px|right]]
+
+Les participants IndieWebCamp l'utilisant sur l'un de leurs autres sites
+* [[User:Aaronpk|Aaron Parecki]] sur [http://aaron.pk/bookmarks/ Bookmarks]
+* [[User:Erin_Jo_Richey|Erin Jo Richey]] sur [http://flatfrogblog.com/ Flat Frog Blog]
+* [[User:Christopheducamp.com|Christophe Ducamp]] sur [http://christopheducamp.com/b christopheducamp.com/b]
+
+Les membres de la communauté IndieWebCamp l'utilisant sur leur site principal
+* [[User:Acegiak.net|Acegiak]] sur [http://Acegiak.net Acegiak.net]
+
+D'autres indépendants l'utilisant sur leur site principal : 
+* [https://josephboyle.net Joseph Boyle] (down en date du 2013-10-25)
+* [http://mediajunkie.com/ Christian Crumlish]
+* [http://singpolyma.net Stephen Paul Weber]
+* [http://upon2020.com/ Johannes Ernst]
+* ...
+
+=== Extensions ===
+Quelques extensions que vous pourriez utiliser afin d'implémenter quelques-uns des [[building-blocks-fr|blocs de constructions]] de l'indieweb.
+
+==== Extensions IndieWeb essentielles ====
+Ceci sont les extensions qui fournissent des fonctionnalités indieweb essentielles. Elles implémentent quelques-un des [[building-blocks-fr|blocs de construction]]-clés IndieWeb.
+
+Connexion:
+* [http://wordpress.org/plugins/indieauth/ IndieAuth]
+* [http://wordpress.org/plugins/indieauth-links/ IndieAuth-Links]
+
+POSSE :
+* [http://jetpack.me/support/publicize/ Jetpack]
+* [http://wordpress.org/plugins/social/ Social]
+* [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ NextScripts SNAP]
+
+rel-syndication :
+* [http://wordpress.org/plugins/relsyndication/ rel-syndication pour wordpress]
+
+Commentaires :
+* [https://github.com/pfefferle/wordpress-webmention WebMention]
+* [https://github.com/acegiak/Semantic-Linkbacks Semantic Linkbacks (encore en développement)]
+
+Plus de blocs de construction :
+* [http://wordpress.org/plugins/hum/ URL Shortener: WP-Hum]
+* [https://github.com/pfefferle/wordpress-webactions WebActions]
+
+==== Extensions optionnelles ====
+* [http://wordpress.org/plugins/browserid/ BrowserID/Persona]
+* [http://wordpress.org/plugins/pubsubhubbub/ PubSubHubbub]
+* [https://github.com/pfefferle/wordpress-hashtags Hashtags]
+* [https://github.com/jihaisse/custom-feed-url Custom feed URL]
+
+==== Extensions désuètes ====
+* [http://wordpress.org/plugins/openid/ OpenID]
+* [https://github.com/pfefferle/ostatus-for-wordpress OStatus]
+* [https://github.com/pfefferle/salmon Salmon]
+
+=== Thèmes ===
+Quelques thèmes ou extensions qui supportent les [[microformats]] ou d'autres sémantiques.
+
+* [https://github.com/pfefferle/SemPress SemPress] supporte les microformats, microformats2 et schema.org (thème)
+* [https://github.com/pfefferle/wordpress-uf2 uf2] (extension)
+
+=== Feeds ===
+
+* [https://github.com/jihaisse/custom-feed-url Custom feed URL]
+
+=== Problèmes ===
+Les problèmes à utiliser le logiciel WordPress d'un point de vue IndieWeb 
+
+==== Vulnérabilité Maintenance ====
+Les indépendants (tout à fait brillants et aptes techniquement) qui se sont fait hacker leurs blogs Wordpress du fait de ne pas pouvoir maintenir les mises à jours de sécurité (trop de charge/taxe sur leur temps).
+* Clay Shirky:
+** https://plus.google.com/u/0/+AdeOshineye/posts/6zUWbNKbWrM
+* Dan Brickley
+** Dan Brickley a mentionné WordPress comme l'une des rares installations de CMS open source pour laquelle au moins une a été [https://plus.google.com/u/0/105037104815911535953/posts/BEVAUoWCaP4 hackée et ensuite sa page d'accueil réécrite avec du spam de liens], le forçant à tout jeter et revenir à une page d'accueil statique. Il évoque spécifiquement "must've left an update too late".
+* [[User:Michaelw.net|Michael.net]]:
+** WordPress semble avoir un trou de sécurité non trivial tous les 6 mois et je n'ai jamais eu le temps d'aller sur mon install WP. Le dernier problème majeur a amené mon blog à se faire infecter par un malware et mon site a été blacklisté par google. WordPress est comme Windows.  Il n'est probablement pas vraiment moins sûr que les alternatives mais sa popularité est telle que ça en fait une cible attractive. La plupart des blogs WordPress sont configurés pour pinguer un [http://codex.wordpress.org/Update_Services service de mise à jour] faisant de sorte que les hackers n'ont aucun problème pour trouver des cibles. N'importe quelle solution IndieWeb a besoin de réfléchir sur des mises à jour automatiques et une défense en sécurité profonde. -- [[User:Michaelw.net|Michael.net]] 
+* ...
+
+== Service d'Hébergement WordPress ==
+WordPress.com est un service d'hébergement de blog avec des fonctionnalités impressionnantes d'import et d'export. Pour les détails, voir  : 
+* http://techcrunch.com/2013/03/26/wordpress-com-has-imported-15m-posts-in-the-last-30-days-remains-a-top-safe-haven-for-nomad-bloggers/
+
+=== Thèmes hébergés ===
+WordPress.com fournit des thèmes pour modifier le HTML/CSS/JS et l'apparence générale d'un site d'utilisateur. Même si les utilisateurs peuvent payer pour une fonctionnalité d'écritrue de CSS personnalisée, ils ne peuvent pas payer pour changer le marquage du thème. Ce qui signfie entre autre, qu'un utilisateurs ne peut pas spécifier un marquage dans un post pour afficher une page de permalien et pas dans le post quand il fait partie d'un feed. Par exemple : 
+
+
+* https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping
+* "Initialement publié sur : http://sbb.me/b48f1"
+
+Si vous pouvez détecter "in the feed vs permalink page", vous pourriez utiliser <code>rel="canonical"</code> sur le lien d'attribution '''à partir de''' la copie syndiquée sur wordpress.com renvoyant '''vers''' l'original sur iamshane.com. Mais parce que rel-canonical est une page étendue, vous ne devriez pas l'utiliser sur un lien dans un post quand ce post fait partie du feed. Pour contourner ça, vous pouvez utiliser <code>class="u-url u-uid"</code> sur le lien d'attribution.
+
+=== POSSE ===
+Il est possible de [[POSSE-fr|POSSE]]r manuellement des [[articles-fr|articles]] sur Wordpress.com.
+==== Exemples IndieWeb ====
+===== Shane Becker =====
+Shane Becker POSSE manuellement ses articles vers Wordpress.com.
+* http://iamshane.com/articles/2010/11/7/1/no-more-sharecropping
+** Copie POSSÉe : https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping
+
+
+== Voir aussi ==
+* [[projects-fr|projets]]
+* [[silos-fr|silos]]
+* [[blogs-fr|blogs]]

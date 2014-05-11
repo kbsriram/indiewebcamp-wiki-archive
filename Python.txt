@@ -1,0 +1,52 @@
+{{stub}}
+
+'''<dfn>Python</dfn>''' is a programming language and web server runtime environment used for many IndieWeb [[projects]].
+
+== Libraries == 
+
+Generally useful libraries being developed by IndieWeb participants in Python.
+
+* [[ronkyuu]], a collection of tools for sending webmentions and verifying rel=me.
+* [https://github.com/vrypan/webmention-tools webmention-tools], utilities to send webmentions and query [[Webmention.io]]
+* [https://github.com/tommorris/mf2py mf2py], a microformats2 parser 
+** Bleeding-edge development currently being done on [https://github.com/KartikPrabhu/mf2py Kartik's fork]. Will be folded into the master in the future.
+* [https://github.com/kylewm/mf2util mf2util] is a microformats2-specific parsing utility. Parses dt-* objects into datetime.datetime or datetime.date objects, among other things.
+
+=== Third-party Libraries ===
+
+Non-IndieWeb-specific libraries that may still be of interest.
+
+* [http://docs.python-requests.org/en/latest/ Requests]: By far the best way to interact with any HTML endpoint.
+* [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup4]: sits of top of other HTML parsing libraries (lxml or html5lib) and provides a nice interface for wading through HTML, even horribly broken HTML.
+* [http://bleach.readthedocs.org/en/latest/ Bleach]: sanitizer and autolinker. Useful for removing dangerous code from e.g., for displaying remote content. Excludes almost everything by default.
+
+== Projects ==
+
+IndieWeb and interesting dependencies
+
+* [[Bridgy]] (open source) runs on Google AppEngine
+** [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial]
+** [https://github.com/snarfed/oauth-dropins oauth-dropins]
+** webmention-tools
+** mf2py
+* [[Hakkan]] is a static site generator that runs [[User:bear.im|Bear's]] personal site  [https://bear.im/bearlog/ bearlog]
+** ronkyuu
+** mf2py
+* [[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on Djang+MySQL
+** ronkyuu
+** mf2py
+* [[Red Wind]] runs [[User:kylewm.com|Kyle Mahan]]'s personal site
+** Flask
+** mf2py
+
+== Hosting ==
+
+Python does not have PHP's ubiquity, and finding hosting can be a little bit more of a challenge. See [[web_hosting]] for more details.
+
+* Google AppEngine (webapp, Django)
+* Webfaction
+* Heroku (Flask, Django)
+* VPS running a WSGI server like uWSGI or gunicorn.
+
+== See Also ==
+* [[PHP]]

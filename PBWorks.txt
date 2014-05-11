@@ -1,0 +1,7 @@
+{{stub}}
+
+'''<dfn>[http://pbworks.com/ PBWorks]</dfn>''' is a [[wiki]] content-hosting [[silo]] that was originally called "PBWiki".
+
+== See Also ==
+* [[wiki]]
+* [[silos]]

@@ -1,0 +1,29 @@
+{{stub}}
+
+An '''<dfn>article</dfn>''' is a kind of [[post]] that typically has more structure than a simple [[note]]. Articles usually have a name (title), multiple paragraphs, and often subheadings, blockquotes, and a footer of references or citations.
+
+== IndieWeb Examples ==
+There are plenty of examples of IndieWeb sites posting articles, as articles essentially represent what used to simply be called "blog posts".
+
+=== Aaron Parecki ===
+[[User:Aaronparecki.com|Aaron Parecki]] has been publishing articles using [[p3k]] since ???
+* http://aaronparecki.com/articles
+** ... first article URL?
+
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] has been publishing articles using [[Taproot]] (or some similar predecessor) since at least 2010-10-02
+* http://waterpigs.co.uk/articles/
+** [http://waterpigs.co.uk/articles/rcx-on-osx/ RCX on OS X] is the earliest content I’ve imported so far
+
+=== Tantek ===
+[[User:Tantek.com|Tantek Çelik]] has been explicitly posting <em>articles</em> using [[Falcon]] on tantek.com since 2010-08-19:
+* 2013-231: [http://tantek.com/2010/231/b1/bringing-back-the-blog Bringing Back The Blog]
+
+== Brainstorming ==
+=== ID markup for paragraphs etc ===
+Marking up paragraphs with unique id attributes may enable more granular referencing for quotations within them, and possibly more granular [[comments]] as well.
+
+== See Also ==
+* [[post]]
+* [[note]]
+* [[Semantics Of Article-Note Distinction]]

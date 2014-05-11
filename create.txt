@@ -1,0 +1,17 @@
+{{stub}}
+
+'''<dfn>create</dfn>''' in the context of the indieweb refers to the act of and [[UI]] for creating a new [[post]].
+
+Related: ''[[creator]]'', someone who is creating [[UI]], [[design]], [[code]] for their own site.
+
+== IndieWeb Examples ==
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] hosts a public [[Taproot]] creation interface:
+* http://waterpigs.co.uk/notes/new
+* http://waterpigs.co.uk/articles/new
+
+== See Also ==
+* [[creator]]
+* [[UI]]
+* [[projects]]
+* [[posts]]

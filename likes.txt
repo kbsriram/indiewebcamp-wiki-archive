@@ -1,0 +1,21 @@
+{{stub}}
+
+'''<dfn>likes</dfn>''' are sometimes part of the information about a [[post]] displayed on the post itself, sometimes in a [[posts#Footer_sections|post footer]]. [[Silos]] such as [[Facebook]] and [[Instagram]] show the number of likes on posts in various ways:
+* "17 likes" - Instagram, for 11(?) or more likes.
+* inline space/comma separated list of linked usernames/fullnames - Instagram/Facebook for some number of likes below a threshold number
+* inline comma separated list of linked fullnames followed by "and 84 others like this" text, where "84" is the remaining number of likes and is linked to a modal popup that displays a list. - Facebook
+
+There's also the notion of a ''like'' post itself:
+* [[like]] post
+
+Similar verbs/info/post-types:
+* favorites (e.g. on Twitter)
+* heart (sometimes just a heart symbol)
+* bookmarks ([[delicious]] used to have a view of who had bookmarked a URL)
+
+== See Also ==
+* [[like]]
+* [[silos]]
+* [[Facebook]]
+* [[Instagram]]
+* [[posts]]

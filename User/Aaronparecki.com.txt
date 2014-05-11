@@ -1,0 +1,46 @@
+[[Image:aaronpk.jpg|right|200px]]
+= Aaron Parecki =
+CTO, Esri R&D Center, Portland. Formerly co-founder, Geoloqi.
+
+* http://aaronparecki.com
+* http://aaron.pk/bookmarks/ 
+* [http://twitter.com/aaronpk @aaronpk] (and [http://twitter.com/pkbot @pkbot])
+
+== projects ==
+* [[p3k]] - the code that runs [http://aaronparecki.com aaronparecki.com]
+* [[IndieAuth]]
+* [[webmention.io]]
+* [[micropub]]
+* [[mention-app|Mention App]]
+* [https://github.com/aaronpk/Flickr-Archiver Flickr Archiver]
+* [http://www.flickr.com/photos/aaronpk/5270365934/ Export your Delicious bookmarks] (now offline)
+* [http://aaronparecki.com/Loqi Loqi] - a sometimes-helpful IRC bot
+
+== related blog posts ==
+* [http://aaronparecki.com/articles/2013/10/13/1/realtime-indieweb-comments Realtime IndieWeb Comments]
+* [http://aaronparecki.com/articles/2013/10/11/1/the-future-of-quantified-self-devices The Future of Quantified Self Devices]
+* [http://aaronparecki.com/2012/296/article/1/creating-content-on-the-indie-web Creating Content on the Indie Web]
+* [http://aaronparecki.com/2012/170/article/1/introducing-indieauth Introducing IndieAuth]
+* [http://aaronparecki.com/2011/213/article/1/indieweb-messaging IndieWeb Messaging]
+* [http://aaronparecki.com/2011/084/article/1/url-shortener-as-a-search-interface URL Shortener as a Search Interface]
+* [http://aaronparecki.com/2010/351/article/1/how-to-build-a-multi-user-delicious-clone How to build a multi-user Delicious clone with WordPress]
+
+== indieweb support ==
+See [[p3k]]
+
+== working on ==
+I'm working on building the following [[building-blocks|building blocks]] of the Indie Web
+* [[webmention]]
+* [[indieauth]]
+
+I'm building indieweb functionality into my personal site, [[p3k]]
+
+== figured out ==
+Things I feel like I've figured out pretty well, have shipped on my own site, can depend on, and am available to help explain to others.
+* [[POSSE]], in particular
+** [[Twitter#POSSE_to_Twitter|POSSE to Twitter]]
+* [[webmention]] and [[pingback]]
+
+== related talks ==
+* [http://aaronparecki.com/presentations/2013/08/08/1/indieweb-w3c-workshop-on-social-standards IndieWeb - W3C Workshop on Social Standards]
+* [http://aaronparecki.com/presentations/2012/06/26/1/from-oauth-to-indieauth-own-your-online-identity From OAuth to IndieAuth: Own your online identity] given at Open Source Bridge 2012

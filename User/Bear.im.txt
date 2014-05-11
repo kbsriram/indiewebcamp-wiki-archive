@@ -1,0 +1,23 @@
+__FORCETOC__
+===Bear===
+
+====Bio====
+Operations for [http://andyet.com &yet]
+
+past jobs: Mozilla Release Engineer, Operations for Seesmic, Operations and Release Engineer for Open Source Applications Foundation
+
+<span class="h-card">[http://bear.im Bear]</span>
+
+==== Projects ====
+
+* https://bear.im
+* [[ronkyuu]]
+* https://github.com/bear/hakkan (my own tool for generating static site using mf2 in python
+
+==== Wiki Gardening Todo ====
+please do add items to this if you feel a section needs some love...
+
+* [[nginx]] review latest changes to nginx config and make sure they are current and sane
+* [[email]] review and keep working on samples and examples
+* [[aggregators]] read and grok page, it's a stub so it needs some love
+* [[feeds]] add some depth to the criticism part of this page to add notes and thoughts from when I was in the trenches working on the Atom spec back in the day

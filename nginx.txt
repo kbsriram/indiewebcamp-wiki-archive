@@ -1,0 +1,142 @@
+'''<dfn>[http://wiki.nginx.org/Main Nginx]</dfn>''' is one of the two core HTTPd server [[projects]] ([[Apache]] being the other.)  
+
+Nginx is designed to be modular and you can alter it by building your own binaries. The version you find with most packaging systems come with a core set of features so you may not need to do a custom build.
+
+The other great part about Nginx is that it is designed from the beginning to work with virtual hosts and that most of the common use cases are already listed in the [http://wiki.nginx.org/Configuration Configuration] of the Nginx Wiki.
+
+Robert Love has a great [http://blog.rlove.org/2013/12/strong-ssl-crypto.html how-to guide for configuring Nginx] to have strong SSL support.
+
+The IETF has a [document with recommendations for Secure Use of TLS and DTLS http://datatracker.ietf.org/doc/draft-ietf-uta-tls-bcp/?include_text=1].
+
+=== IndieWeb Examples ===
+I started to expand this page because I use Nginx as my HTTPd server and realized that I can help others who may also be inclined to do so. Please list any sites you know of that also use Nginx for their IndieWeb server.
+* [https://bear.im bear.im] uses Nginx for the static site and journal site.
+* [https://aaronparecki.com aaronparecki.com] uses Nginx with php-fpm to serve [[p3k]]
+* [https://indiewebcamp.com indiewebcamp.com] uses Nginx with php-fpm to run MediaWiki
+
+=== /etc/nginx/nginx.conf ===
+
+The core configuration for Nginx resides in '''/etc/nginx/nginx.conf''' - here is where you will put entries that are designed to be global to all virtual hosts. It is also where you configure how Nginx will use the systems resources.
+
+    user www-data;
+    worker_processes  2;
+    error_log  /var/log/nginx/error.log  info;
+    pid        /var/run/nginx.pid;
+    events {
+        worker_connections  1024;
+    }
+    http {
+        include       mime.types;
+        default_type  application/octet-stream;
+    
+        log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+    
+        access_log        /var/log/nginx/access.log  main;
+        sendfile          on;
+        client_max_body_size 100M;
+        server_tokens     off;
+        keepalive_timeout 65;
+        gzip              on;
+    
+        ssl_ciphers               ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+        ssl_protocols             TLSv1 TLSv1.1 TLSv1.2;
+        ssl_prefer_server_ciphers on;
+        ssl_session_timeout       5m;
+    
+        include conf.d/*.conf;
+    }
+
+With this as your core config, the remaining items all go into each virtual hosts config, which will be included automatically when you put them in /etc/nginx/conf.d/ and name them as a *.conf file.
+
+Here is what the above config contains section by section ('''note''': the best place to grok this is, of course, the [http://wiki.nginx.org/Modules primary docs for Nginx])
+
+* '''user www-data;''' which system user Nginx will switch to when dropping priviledges to run as a daemon - varies by OS, shown is Ubuntu.
+* '''worker_processes 2;''' how many worker threads to create. I consider two to be the minimum and you can increase this if you run on a multiple core server.
+* '''worker_connections 1024;''' the maximum number of sockets each worker process is allowed to handle. Make sure this value and the '''worker_processes''' value is less than the open files setting for your system.
+* '''client_max_body_size 100M;''' sets the maximum post body size, set to some large value if you are expecting to handle photo or video uploads.
+* '''server_tokens off;''' this prevents Nginx from leaking information about it's version.
+* '''ssl_ciphers''' The list of SSL Ciphers shown is selected to offer a balance of good client support but to also enable Perfect Forward Secrecy.  For a lot more detail please read [https://community.qualys.com/blogs/securitylabs/2013/06/25/ssl-labs-deploying-forward-secrecy SSL Labs article on deploying forward secrecy].
+* '''ssl_protocols''' The order Nginx should look for when negotiating the secure link.
+* '''ssl_prefer_server_ciphers''' Do not allow the client to dictate which ciphers will be used - there lies madness as you will almost always end up in lowest-common-denominator land *shudder*.
+
+=== static site example ===
+For example, a basic static site with zero extra processing, would have as part of '''/etc/nginx/conf.d/example.com.conf''':
+
+    server {
+        listen      80;
+        server_name example.com;
+        root        /srv/example;
+        access_log  /var/log/nginx/example.log main;
+        location / {
+            try_files $uri $uri.html $uri/ =404;
+        }
+    }
+
+* '''listen 80;''' tells Nginx to open port 80 for requests.
+* '''server_name example.com;''' if the client making the connection on port 80 is looking for http://example.com, then use this server config to answer the request.
+* '''root /srv/exampe;''' where Nginx should look for static files by default. This can (and is often) overridden in the various *location* entries.
+* '''location /''' if the path portion of the requested URI matches the given text string, then handle the request using the config inside of this '''location''' block.
+* '''try_files''' Nginx will try and handle the given request (as modified by any '''location''' rewrite rules, in the order given. Our example above says the following until it finds a file that matches:
+** try the URI as given by looking for the file after pre-pending the root path
+** try the URI as given but append '''.html''' to the filename
+** try the URI as given but append '''/''' so that it will search inside of any matching subdirectories
+** and as the last resort, return the 404 status code
+
+=== static site with SSL termination ===
+
+    server {
+        listen       80;
+        server_name  example.com;
+        rewrite      ^ https://$server_name$request_uri? permanent;
+    }
+    server {
+        listen       443 default_server ssl;
+        server_name  example.com;
+        root         /srv/example.com;
+    
+        access_log   /var/log/nginx/example.com.log main;
+    
+        ssl_certificate     /etc/nginx/ssl/example.com.crt;
+        ssl_certificate_key /etc/nginx/ssl/example.com.key;
+        add_header Strict-Transport-Security max-age=15768000;
+        location / {
+            try_files $uri $uri.html $uri/ =404;
+        }
+    }
+
+== Using PHP with nginx ==
+When using PHP with apache, PHP gets compiled as the apache module mod_php. nginx doesn;t do things the same way. So we must take advantage of the fastcgi module built into PHP, namely php5-fpm. Once that's installed we can use it in nginx like so:
+
+<pre>
+server {
+    listen 80;
+    server_name example.org;
+
+    root /path/to/website/files;
+    index index.php;
+
+    location / {
+        try_files $uri $uri/ index.php?$query_string;
+    }
+
+    location ~* \.php {
+        fastcgi_pass 127.0.0.1:9000;
+        //or fastcgi_pass unix:/path/to/php5-fpm.sock
+        fastcgi_index index.php;
+        include /path/to/nginx/fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+}
+</pre>
+
+== Frequently Asked Questions and issues ==
+If you have a question about nginx or are having an issue with it, feel free to add it here with a === heading === and hopefully one of the nginx experts in the community will answer it and we can start an FAQ!
+
+==== How do I get HTML files served without the .html extension in the URL? ====
+The '''try_files''' example in the '''static site example''' shows how nginx can be told how to look for the requested resource - specifically the '''$uri.html''' part.
+
+== See Also ==
+* [[projects]]
+* [[Apache]]

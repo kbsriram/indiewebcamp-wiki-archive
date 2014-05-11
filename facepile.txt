@@ -1,0 +1,27 @@
+The Facepile is a design element popularized by Facebook.
+
+== Description ==
+
+It consists of a row or rows of profile photos of individuals who have all completed a webaction involving the current page/site. For example, who have all liked, mentioned, favorited, RSVPed, etc. 
+
+== IndieWeb Examples ==
+<span id="Examples">Examples</span> of IndieWeb sites using Facepiles.
+
+=== Aaron Pareciki ===
+[[User:aaronparecki.com|Aaron Parecki]] ... since 2013-??-??. E.g. Screenshot or example link.
+
+=== Will Norris ===
+[[User:willnorris.com|Will Norris]] since 2014-03-09. E.g. https://willnorris.com/2014/03/display-likes-in-a-facepile 
+
+=== Kyle Mahan ===
+[[User:kylewm.com|Kyle Mahan]] since 2014-03-13. Screenshot:<br>[[File:kwm-facepile-2014-04-30.png|500px]]
+
+=== David Shanske ===
+[[User:david.shanske.com]]... since 2014-04-26. [[File:facepile_david-shanske-com.png|thumb]]
+
+* Example: http://david.shanske.com/notes/2014/05/02/press/#comments
+
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com]]... since 2014-??-??. [[File:facepile_kartikprabhu_com.png‎|thumb]]
+
+* Example: http://kartikprabhu.com/article/indieweb-love-blog#reposts

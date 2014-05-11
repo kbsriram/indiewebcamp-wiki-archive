@@ -1,0 +1,92 @@
+'''<dfn>Backfeed</dfn>''' is the process of reverse syndicating replies/activity on [[silos]] to your [[POSSE]] copies of posts back to your original posts.
+
+== Getting Feedback Back ==
+So you've syndicated clones of your [[posts]] out to Twitter, Facebook, Flickr, Openphoto, Tumblr, etc. ([[POSSE]]) 
+
+But what happens when people on those other networks comment/like/otherwise respond?
+
+== Types of Response ==
+* [[Comments]]/replies/notes - basic textual commenting
+* [[Favorites]]/likes - primitive 'positive feedback' type
+* [[Mention]] - A reference to the content that is perhaps not in direct reply to it
+** E.G. a 'share', 'bookmark' (Is this sufficiently different?)
+* [[RSVP]], e.g. on a [[Facebook]] [[event]]
+
+== IndieWeb Implementations ==
+=== Singpolyma ===
+[[User:Singpolyma.net|singpolyma]] syndicates posts out to Twitter and runs a cronjob that polls the replies/mentions (authenticated) API endpoint to pull in responses. (since ????-??-??)
+
+=== Ryan Barrett ===
+[[User:snarfed.org|Ryan]] uses [[Bridgy]] (see below) to backfeed comments, likes, and reposts from the silos to his own site. E.g. see Facebook and Twitter comments here:
+* http://snarfed.org/2013-12-06_new-app-engine-logo#comments
+
+== Service Implementations ==
+=== Bridgy ===
+{{main|Bridgy}}
+[http://brid.gy/ brid.gy] is a service that sends [[webmentions]] for comments/replies, likes, and reposts on Facebook, Twitter, Google+, and Instagram posts. It uses [[original post discovery]] to find target links for the webmentions. [https://github.com/snarfed/bridgy GitHub repo here.]
+
+=== Salmon Unofficial ===
+[https://salmon-unofficial.appspot.com/ salmon-unofficial] is an older, unmaintained alternative to [[Bridgy]] that uses the [[Salmon]] protocol instead of [[webmention]]. It discovers original source sites via LRDD, WebFinger, and XRD, as specified by Salmon. [https://github.com/snarfed/salmon-unofficial GitHub repo here.]
+
+== Server Implementations ==
+=== WordPress Plugins ===
+
+* [http://wordpress.org/plugins/social/ Social]
+* [http://www.nextscripts.com/snap-features/auto-import-comments-from-facebook-and-twitter/ NextScripts SNAP]
+
+[http://jetpack.me/support/publicize/ Jetpack Publicize] is great, but doesn't yet implement backfeed.
+
+== Discussion ==
+Do these responses ''belong'' on your indie page, at the original source of the content? There are storage, legal, data ownership, UX, and other questions.
+
+* Yes:
+** Gives people a choice about where to author their replies
+** Enhanced UX (debatable depending on service used)
+** Ease of use, low barrier of entry. [http://shawfactor.com/2013/08/06/thoughts-on-extending-webmentions/ Peter Shaw describes this well], notably the value and intuition of replying at the location source post, which is especially compelling for users who are less technical or willing to spend extra time and effort.
+** Meets the majority of users who aren't technical or don't feel strongly where they currently are: in the silos.
+** +1 [[User:Waterpigs.co.uk|barnabywalters]]
+** +1 [[User:snarfed.org|Ryan]]
+** ...
+
+* No:
+** Generic, open systems such as [[pingback]] are preferable to backfeed from closed silos (although open response systems are another discussion entirely).
+** Responders didn't choose to publish at the original source. In rare cases, this could cause legal problems.
+** Imposes more overhead.
+** May antagonize silos. They often try to prevent this kind of outward syndication of their data. [http://snarfed.org/2013-07-09_twitter-atom-is-back One example] (of many).
+
+== Silo APIs ==
+Some APIs have better functionality for this than others:
+=== Twitter ===
+[[Twitter]] APIs to use for getting @-replies etc. on Twitter to your Twitter POSSE copies:
+* Search for <code>DOMAIN filter:links</code> with <code>result_type=recent</code>. See [https://github.com/snarfed/bridgy/blob/5e1f01016dc910369951cc0560e332025a6921bb/twitter.py#L73 example code here] (and continued [https://github.com/snarfed/bridgy/blob/5e1f01016dc910369951cc0560e332025a6921bb/twitter.py#L149 here]). Only returns recent results, but otherwise works ok.
+* There's [http://stackoverflow.com/questions/2693553/replies-to-a-particular-tweet-twitter-api no official way] to get replies to a given tweet. If it's not too old, though, you can search for @-mentions of the original tweet's author, then look through the results for any whose <code>in-reply-to</code> field points to the original tweet. See [https://github.com/snarfed/bridgy/blob/5e1f01016dc910369951cc0560e332025a6921bb/twitter.py#L113 example code here].
+* Otherwise, there's the unreliable, undocumented, unofficial 'related_results' endpoint.
+
+=== Facebook ===
+Facebook has a lot of APIs.
+* [https://developers.facebook.com/docs/technical-guides/fql/ FQL] makes this surprisingly easy. For example, here's a query to get all comments on the posts from a given user with links in them:
+  SELECT post_fbid, time, fromid, username, object_id, text FROM comment
+    WHERE object_id IN (SELECT link_id FROM link WHERE owner = USER_ID)
+    ORDER BY time DESC
+* And here's the follow-up query to get the URLs of those links (where <tt>LINK_IDS</tt> is a comma-separated list of the <tt>object_id</tt>s from the above query):
+  SELECT link_id, url FROM link WHERE link_id IN (LINK_IDS)
+* See [https://github.com/snarfed/bridgy/blob/5e1f01016dc910369951cc0560e332025a6921bb/facebook.py#L167 example code here]. There's also [https://github.com/snarfed/bridgy/blob/5e1f01016dc910369951cc0560e332025a6921bb/facebook.py#L185 this example code] that fetches and processes comments from the posts found by those queries.
+* Also the [https://developers.facebook.com/docs/reference/api/user/#likes OBJECT_ID/likes] and [https://developers.facebook.com/docs/reference/api/using-comments/#reading OBJECT_ID/comments] connections
+* API is sometimes slow. Most backfeed solutions will/should poll in offline processes though, so they won't usually block end user requests.
+* Returns extremely unclear failed results for API calls to posts by under-18s
+** This is bloody annoying for us minors. It's more "bothersome" than "protecting" -- [[User:Waterpigs.co.uk|barnabywalters]]
+
+* How best to represent external users?
+** Facebook URI (not preferable)
+** Can we grab their personal URI from their profile?
+** Detect comments from originating user?
+
+=== Flickr ===
+Flickr has direct APIs for this:
+* [http://www.flickr.com/services/api/flickr.photos.comments.getList.html flickr.photos.comments.getList]
+* [http://www.flickr.com/services/api/flickr.photos.getFavorites.html flickr.photos.getFavorites]
+
+== See Also ==
+* [[pingback]] protocol - currently implemented by most major blogging platforms, i.e. Wordpress, and available [https://github.com/aaronpk/Pingback as a standalone project] to use on non-Wordpress sites
+* [[salmon]] protocol
+* [https://github.com/phusion/juvia Juvia] - a commenting system you can install on your own server similar to Disqus and Intense Debate

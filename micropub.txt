@@ -1,0 +1,339 @@
+{{stub}}
+
+Micropub is an API spec that is used to create h-entry or h-event posts on one's own domain using third-party clients.
+
+For example, a native iPhone client similar to a Twitter client can post short notes to your own site, or an app can post photos to your site.
+
+__TOC__
+
+== Form-encoded Microformats Representation ==
+
+For the simplicity of writing clients, all requests to a Micropub API must be in the standard form-encoded format. At a most basic level, you should be able to write an HTML form and set the form action to your own endpoint and use it to post to your site.
+
+== Endpoint Discovery ==
+
+It should be possible to configure an API client by authenticating as your domain name using IndieAuth. After signing in, your domain needs a way to specify the (one or more?) API endpoint the client will use to create new posts.
+
+Add a &lt;link&gt; tag in the HTML head of your home page, or send an HTTP Link header.
+
+=== HTTP Header ===
+<pre>Link: &lt;https://example.com/micropub&gt;; rel="micropub"</pre>
+
+=== HTML Head ===
+<pre>&lt;link rel="micropub" href="https://example.com/micropub"&gt;</pre>
+
+== Authentication ==
+
+Authorization should be handled via the [[IndieAuth]] protocol (a few minor additions to OAuth 2.0). 
+
+An app that wants to post to a user's micropub endpoint will need to obtain authorization.
+
+When making requests to the Micropub endpoint, the access token should be sent in either an HTTP header or in a post body parameter as described in the [http://tools.ietf.org/html/rfc6750#section-2 OAuth Bearer Token RFC].
+
+=== HTTP Header ===
+<pre>
+Authorization: Bearer XXXXXXXX
+</pre>
+
+=== Form-Encoded Body Parameter ===
+<pre>
+access_token=XXXXXXXXX
+</pre>
+
+== Scope ==
+The client may request one or more scopes during the authorization request. It does this according to standard OAuth 2.0 techniques, by passing a space-separated list of scope names in the authorization request.
+
+The authorization server must indicate to the user any scopes that are recognized. The token that is generated will contain the scopes approved by the user. Since API clients may be requesting scopes that the API server does not recognize, the list of approved and recognized scopes should be returned along with the access token so the client can decide what to do when it does not have the necessary scopes.
+
+== Verification ==
+(''This section is a stub'')
+
+When a Micropub client obtains an access token, it may need to be able to verify the access token is valid and retrieve the URL of the user it belongs to. Micropub endpoints must implement a method that returns basic information about the access token.
+
+Access tokens can be verified by making an empty POST request to the Micropub endpoint with the access token in the header. If the access token is valid, the Micropub endpoint must reply with at least the "me" parameter, and may also return scope, client_id, and expiration date.
+
+== Response ==
+
+This section is a stub and probably needs to be thought out more.
+
+=== Create ===
+A successful creation should return an <code>HTTP 201 Created</code> response and a "Location" header with the full URL to the entry created. The body of the response may be blank, but could optionally include an HTML page rendering the object created or a link to the new object. API clients will most likely ignore the HTML body.
+
+If the post also has a short link, the short link can be indicated as an additional HTTP header:
+
+<pre><nowiki>Link: &lt;http://aaron.pk/xxxxxx&gt;; rel="shortlink"</nowiki></pre>
+
+If the Micropub endpoint returns an HTML body, then the body can contain a <code><nowiki>&lt;link rel="shortlink" href="http://aaron.pk/xxxxxx"&gt;</nowiki></code> property or a <code>u-shortlink</code> property with the short URL.
+
+If the post has successfully been syndicated the response should include one or more "Link" headers marked with [http://microformats.org/wiki/rel-syndication rel="syndication"], e.g.:
+<pre><nowiki>Link: &lt;https://twitter.com/aaronpk/status/xxxxxx&gt;; rel="syndication"</nowiki></pre>
+
+* returning HTML makes sense if the item is added and can be rendered accurately immediately. I'm worried about the use case when a new creation requires further processing before it's truly a post. Would a 202 Accepted with a unique id work in this case? --[[User:Bear.im|Bear.im]] 14:30, 14 January 2014 (PST)
+** returning HTML really only makes sense for user agents that can and want to render HTML. e.g. iPhone apps probably don't care about the HTML response. I see your point about returning <code>202 Accepted</code> if the post cannot yet be rendered before further processing. I believe HTTP allows a `Location` header to be returned in the 202 example anyway. --[[User:Aaronparecki.com|Aaronparecki.com]] 14:34, 14 January 2014 (PST)
+
+=== Update ===
+Should return HTTP 200 or 204 depending on whether the response contains content.
+
+=== Delete ===
+Should return HTTP 200 or 204 depending on whether the response contains content.
+
+== Creating Objects ==
+
+=== Indicating the object being created ===
+
+To indicate the object being created, use a property called "h", (which would never be the name of a property of a microformats object), followed by the name of the microformats object. Examples:
+
+* h=entry
+* h=card
+* h=event
+* h=cite
+
+=== h-entry ===
+
+The following properties may be included in a request to create a new [[h-entry]]:
+
+* name
+* summary
+* content
+* published
+* updated
+* category = tag1, tag2, tag3
+* location
+* in-reply-to
+* syndication
+** Pass one or more URLs pointing to places where this entry already exists. Can be used for [[PESOS]] implementations.
+** Maybe rename to better differentiate between syndicate and syndication? --[[User:Vanderven.se martijn|Vanderven.se martijn]] 14:06, 14 January 2014 (PST)
+* syndicate-to = twitter.com, alpha.app.net, facebook.com, etc.
+** This property is slightly different from the others since it is giving a command to the server rather than describing an object.
+** client should identify services by their domain name.
+** are syndication options needed in the client?
+
+
+
+==== New Note ====
+
+Posting a new note with tags, syndicating to twitter:
+
+* content
+* category
+* syndicate-to
+* published (optional, defaults to "now" if not present. Useful for writing offline and syncing later)
+
+<pre>
+POST /post/new HTTP/1.1
+Host: aaronparecki.com
+Content-type: application/x-www-form-urlencoded
+
+h=entry
+&content=The+%40Jawbone+UP%2C+my+favorite+of+the+%23quantifiedself+trackers%2C+finally+released+their+official+API%21+http%3A%2F%2Fjawbone.com%2Fup%2Fdeveloper%2F
+&category=jawbone,quantifiedself,api
+&syndicate=twitter.com
+</pre>
+
+===== Minimal Example =====
+<pre>
+POST /micropub HTTP/1.1
+Host: example.com
+Content-type: application/x-www-form-urlencoded
+Authorization: Bearer XXXXXXX
+
+h=entry
+&content=Hello+World
+</pre>
+
+<pre>
+curl https://example.com/micropub -d h=entry -d "content=Hello World" -H "Authorization: Bearer XXXXXXX"
+</pre>
+
+==== New Reply ====
+
+Posting a new reply, syndicating to twitter
+
+* content
+* in-reply-to
+* syndicate-to
+* published
+
+<pre>
+POST /post/new HTTP/1.1
+Host: aaronparecki.com
+Content-type: application/x-www-form-urlencoded
+
+h=entry
+&content=%40BarnabyWalters+My+favorite+for+that+use+case+is+Redis.+It%27s+easy+to+set+up+and+use%2C+I+often+use+it+to+move+data+between+apps+written+in+different+languages+too.
+&in-reply-to=http://waterpigs.co.uk/notes/4S0LMw/
+&syndicate=twitter.com
+</pre>
+
+==== New Article ====
+
+Posting a new article 
+
+* content
+* name
+* category
+* published
+
+<pre>
+POST /post/new HTTP/1.1
+Host: aaronparecki.com
+Content-type: application/x-www-form-urlencoded
+
+h=entry
+&content=Now+that+I%27ve+been+%5Bhttp%3A%2F%2Faaronparecki.com%2Fevents+creating+a+list+of+events%5D+on+my+site+using+%5Bhttp%3A%2F%2Findiewebcamp.com%2Fp3k+p3k%5D%2C+it+would+be+great+if+I+could+get+a+more+calendar-like+view+of+that+list.+%0A%0ASince+I+live+in+Google+Calendar+every+day+anyway%2C+it+would+be+great+to+use+that+interface+to+browse+my+%23indieweb+events+as+well%21+Since+my+events+page+is+marked+up+with+%5Bhttp%3A%2F%2Fmicroformats.org%2Fwiki%2Fh-event+h-event+microformats%5D%2C+all+it+would+take+is+to+write+an+h-event+to+iCal+converter+script+to+generate+an+iCal+feed+from+my+list+of+events.+Then+I+could+just+subscribe+to+the+iCal+feed+from+within+Google+Calendar.%0A%0A%23%23%23+Bonus%3A+read%2Fwrite+access+to+indieweb+events+via+Google+Calendar%0A%0AEven+better+would+be+to+use+Google+Calendar+to+also+create+events+on+my+site.+Unfortunately+Google+Calendar+doesn%27t+support+CalDAV%2C+so+we+can%27t+do+it+that+way.+%28Of+course+I+could+use+Apple%27s+iCal+to+publish+directly%2C+but+that+also+means+I%27d+have+to+write+some+code+tot+speak+CalDAV%29.+%0A%0AInstead%2C+I+can+create+a+%22write-only%22+calendar+in+Google+Calendar%2C+and+have+p3k+subscribe+to+it.+Any+new+events+in+that+feed+would+be+moved+over+to+the+internal+events+page+and+deleted+from+the+Google+Calendar.
+&name=Itching%3A+h-event+to+iCal+converter
+&category=indieweb,hevent,events,calendar,p3k
+</pre>
+
+==== New Weight Measurement ====
+
+Aaron currently publishes his weight on his site as a list of [[h-entry]] posts ([http://aaronparecki.com/metrics/2013/10/09/081900/ example]).
+
+In addition to a human-readable text version of the measurement, the values are marked up with custom properties to make the parsed version machine readable.
+
+HTML:
+
+<pre>"Weighed <data class="p-weight">153.2lbs</data> (<data class="p-weight">69.7kg</data>) <data class="p-bodyfat" value="0.1691">16.9%</data> body fat"</pre>
+
+Parsed JSON:
+
+<pre>
+"name": [
+  "Weighed 153.2lbs (69.7kg) 16.9% body fat"
+],
+"weight": [
+  "153.2lbs",
+  "69.7kg"
+],
+"bodyfat": [
+  "0.1691"
+],
+"published": [
+  "2013-10-09T08:19:00-07:00"
+],
+</pre>
+
+To be able to create this post from a Micropub API, we would need the following properties:
+
+* content
+* weight (number with units)
+* bodyfat (percentage in decimal form)
+* published
+
+=== h-event ===
+
+The following properties may be included in a request to create a new [[h-event]]:
+
+Posting a new event
+
+* name
+* summary
+* description
+* start
+* end
+* duration
+* category
+* location
+
+<pre>
+POST /post/new HTTP/1.1
+Host: aaronparecki.com
+Content-type: application/x-www-form-urlencoded
+
+h=event
+&name=IndieWeb Dinner at 21st Amendment
+&description=In SF Monday evening? Join @caseorganic and I for an #indieweb dinner at 6pm! (Sorry for the short notice!)
+&start=2013-09-30T18:00:00-07:00
+&category=indieweb
+&location=http://21st-amendment.com/
+</pre>
+
+
+=== h-cite ===
+
+The following properties may be included in a request to create a new [[h-cite]]:
+
+(The following list is from [http://microformats.org/wiki/h-cite#Properties microformats.org/wiki/h-cite])
+
+* name
+* published - date of publication of the work (not the date the h-cite was created)
+* author - URL of an h-card
+* url - a URL to access the cited work
+* content - the content or partial content of the work itself, such as when including a blockquote snippet of a work
+
+=== Nested Microformat Objects ===
+
+How to handle nested data? For example when the p-location property is an h-geo vs an h-card. 
+
+For an h-geo property, just use a [http://en.wikipedia.org/wiki/Geo_URI Geo URI] such as <code>geo:37.786971,-122.399677</code>
+
+For more complicated objects, it may be best to first create an object on the target site, then reference that object's URL in the main request.
+
+For example, creating a checkin post would involve two POST requests:
+
+First create the venue by posting an h-card:
+
+<pre>
+POST /micropub
+
+h=card
+&name=Ford+Food+and+Drink
+&url=http://www.fordfoodanddrink.com/
+&street-address=2505 SE 11th Ave
+&locality=Portland
+&region=OR
+&postal-code=97214
+&geo=geo:45.5048473,-122.6549551
+&tel=(503) 236-3023
+</pre>
+
+Response:
+
+<pre>
+HTTP/1.1 201 Created
+Location: http://example.com/venue/10
+</pre>
+
+Then create the checkin post:
+
+<pre>
+POST /micropub
+
+h=entry
+&location=http://example.com/venue/10
+&name=Working on Micropub
+&category=indieweb
+&syndication=https://foursquare.com/aaronpk/checkin/52a9e136498ef2d086e0341e
+</pre>
+
+Response:
+
+<pre>
+HTTP/1.1 201 Created
+Location: http://example.com/entry/1001
+</pre>
+
+=== Alternative form markup first ===
+An alternative design approach would be form markup first rather than HTTP protocol first.
+
+See related:
+* http://microformats.org/wiki/hcard-input
+
+If we can figure out how a <code>&lt;form class="h-entry"&gt;</code> should work from a markup / posting UI perspective, then maybe we can derive a protocol from how that uses HTTP accordingly.
+
+(this section is a stub, feel free to expand with a complete form element code example that shows what a form for posting a new h-entry or editing an existing h-entry would look like in terms of minimal HTML markup, then we can figure out the HTTP interaction from that)
+
+== Clients ==
+Sites and applications that publish via micropub. 
+* [[User:aaronparecki.com]]'s [https://github.com/aaronpk/PushupCounter-iOS PushupCounter-iOS] is an iOS client for publishing exercise data.
+* [[User:aaronparecki.com]]'s [http://ownyourgram.com/ OwnYourGram] is a tool to reverse-syndicate instagram photos to your personal site, using micropub. 
+** sign up process contains lots of useful documentation and debugging information to help get new micropub implementations working.
+* [[User:waterpigs.co.uk]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new The post UI] is publicly accessible, but of course only authorized users can make posts 
+* [[User:notenoughneon.com]]'s post UI creates notes and articles via micropub.
+* ...
+
+== See Also ==
+* [[post]] - [[h-entry]]
+* [[event]] - [[h-event]]
+* [[login-brainstorming]]
+* [[auth-brainstorming]]

@@ -1,0 +1,317 @@
+{{stub}}
+
+'''<dfn>Homesteading</dfn>''' is a personal publishing platform [[project]] (created with [http://rubyonrails.org Ruby on Rails]) where the creator [http://indiewebcamp.com/own-your-data owns the content] and can [http://indiewebcamp.com/POSSE syndicate copies] to [http://indiewebcamp.com/silo third parties]. Currently, it runs [http://iamshane.com iamshane.com].
+
+== Features ==
+* [http://microformats.org/wiki/h-card H-Card] markup in site footer
+* [http://creativecommons.org/licenses/by/3.0/us/ CC-BY] license in site footer
+* [http://microformats.org/wiki/rel-me Rel-Me] links to external silos in site footer
+** Available on all pages
+** Enables [http://microformats.org/wiki/web-sign-in web sign in] using [http://IndieAuth.com IndieAuth]
+** Enables personal URL verification on silos
+*** E.g., App.net uses rel-me links to app.net accounts to verify your URL on your app.net profile
+* [[ActivityStreams|Activity Streams]] post type specific classes
+** h-as-article for /articles
+** h-as-bookmark for /bookmark
+** h-as-note for /notes
+** h-as-photo for /photo
+** h-as-video for /videos
+* [http://microformats.org/wiki/microformats-2 Micformats 2] post type specific markup
+** [http://microformats.org/wiki/hmedia hMedia] for /photos and /videos.
+** [http://microformats.org/wiki/hproduct hProduct] for /products.
+** '''TODO''': audio in the future
+* Permalinked pagination (no infinite scroll!)
+* Post types and single-letter representations
+** Everything is a noun
+** Sounds good in a sentence
+** Appropriate for navigation
+** /a : /articles, /n : /notes, /p : /photos, /u : /bookmarks, /v : /videos
+
+== Backward Compatibility ==
+* Atom feed
+** '''TODO''': [http://activitystrea.ms/specs/atom/1.0/ Activity Streams Atom extension]
+** '''TODO''': Use a self-hosted h-atom to Atom conversion tool
+* [http://microformats.org/wiki Microformats 1] syntax
+** [http://microformats.org/wiki/hcard hCard]
+** [http://microformats.org/wiki/hatom hAtom] / [http://microformats.org/wiki/hentry hEntry]
+* [https://developers.facebook.com/docs/opengraph/ Facebook Open Graph] meta tags
+* '''TODO''': [https://dev.twitter.com/docs/cards Twitter Cards]
+
+== Post Types ==
+Homesteading currently supports the following kinds of [[posts]]:
+
+* [[Notes]] (plain unstructured text, tweets on Twitter)
+** auto-linking of URLs, @names, #hashtags (in the post content) to [[Twitter]]
+** [http://iamshane.com/notes iamshane.com/notes]
+** Linked in-reply-to URLs (rel-in-reply-to and .u-in-reply-to)
+* [[Articles]] (structured text, blog posts)
+** [http://iamshane.com/articles iamshane.com/articles]
+* [[Photos]]
+** [http://iamshane.com/photos iamshane.com/photos]
+* [[Videos]]
+** [http://iamshane.com/videos iamshane.com/videos]
+* [[Bookmarks]]
+** [http://iamshane.com/bookmarks iamshane.com/bookmarks]
+* '''TODO''': [[Checkins]]
+* '''TODO''': [[Events]]
+* '''TODO''': [[Lists]]
+* '''TODO''': [[Presentations]]
+* '''TODO''': [[Quotes]]
+* '''TODO''': [[Reviews]]
+
+* '''Work in Progress''': [[Products]]
+** [http://iamshane.com/products iamshane.com/products]
+* '''Work in Progress''': [[Audios]]
+** [http://iamshane.com/audio iamshane.com/audio]
+
+=== Common Post Attributes ===
+
+All posts have these shared aspects:
+
+* Optional title
+* Optional sub-title
+* [[Tags]]
+** E.g., [http://iamshane.com/tags/squirrel #squirrels]
+** Links to [http://iamshane.com/tags/squirrel /tags/squirrels]
+** '''TODO''': [http://iamshane.com/tags/squirrel /tags/squirrels] (pages don't show tagged posts yet)
+** Listed in the post footer
+*** Pulled from post content ''and''
+*** Entered into tags field when creating new post
+* [[Permalink]]
+** /post-type/year/month/day/nth-post-of-this-type-of-this-day/slug/
+** E.g., [http://iamshane.com/articles/2013/3/31/1/the-squirrel-the-possum-and-the-gods-up-in-the-darkness /articles/2013/3/31/1/the-squirrel-the-possum-and-the-gods-up-in-the-darkness]
+** Except [[notes]], which have no slug
+* [[Permashortlink]]
+** Algorithmic shorturls based on [[User:Tantek|Tantek Çelik's]] [http://tantek.com/w/Whistle Whistle]
+** Using [https://github.com/veganstraightedge/new_base_60 NewBase60 RubyGem]
+** E.g., [http://sbb.me/b4PF1 /b4PF1]
+*** b : post's type
+*** 4PF : post's published-at in days since Epoch (1970-01-01)
+*** 1 : nth post of that type on that day
+* [[ActivityStreams|Activity Streams]] style sentence in post footer
+** Actor Verb Object
+** E.g., '''Shane Becker''' '''published''' this '''article'''.
+** E.g., '''Shane Becker''' '''published''' this '''note'''.
+* [http://microformats.org/wiki/h-entry H-Entry] post markup
+
+== IndieMark ==
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 1</caption>
+<tr>
+<th>Identity</th>
+<td>Personal domain: <a href="http://iamshane.com" title="I'm Shane Becker">iamshane.com</a></td>
+<td>0.2</td>
+</tr>
+
+<tr>
+<th>Authentication</th>
+<td>Created <a href="http://indiewebcamp.com/User:iamshane.com" title="User:Iamshane.com - IndieWebCamp">wiki account</a> by signing in with <a href="http://iamshane.com" title="I'm Shane Becker">iamshane.com</a> via <a href="http://IndieAuth.com">IndieAuth.com</a></td>
+<td>0.2</td>
+</tr>
+
+<tr>
+<th>Posts</th>
+<td>
+<a href="http://sbb.me/b" title="I'm Shane Becker : Articles">Articles</a>,
+<a href="http://sbb.me/a" title="I'm Shane Becker : Audio">Audio</a>.
+<a href="http://sbb.me/u" title="I'm Shane Becker : Products">Bookmarks</a>,
+<a href="http://sbb.me/n" title="I'm Shane Becker : Notes">Notes</a>,
+<a href="http://sbb.me/z" title="I'm Shane Becker : Products">Products</a>,
+<a href="http://sbb.me/v" title="I'm Shane Becker : Videos">Videos</a>,
+</td>
+<td>0.4</td>
+</tr>
+
+<tr>
+<th>Search*</th>
+<td>Google "<a href="https://google.com/search?q=indieweb+site:iamshane.com">site:iamshane.com</a>" works</td>
+<td>0.2</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>1.0</td>
+</tr>
+</table>
+
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Posts</caption>
+<tr>
+<th>Articles</th>
+<td><a href="http://sbb.me/b" title="I'm Shane Becker : Articles">Articles</a></td>
+<td>0.1</td>
+</tr>
+<tr>
+<th>Notes</th>
+<td><a href="http://sbb.me/n" title="I'm Shane Becker : Notes">Notes</a></td>
+<td>0.1</td>
+</tr>
+<tr>
+<th>Videos</th>
+<td><a href="http://sbb.me/v" title="I'm Shane Becker : Videos">Videos</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>Products</th>
+<td><a href="http://sbb.me/z" title="I'm Shane Becker : Products">Products</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>Audio</th>
+<td><a href="http://sbb.me/a" title="I'm Shane Becker : Audio">Audio</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>Bookmarks</th>
+<td><a href="http://sbb.me/u" title="I'm Shane Becker : Bookmark">Bookmark</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0.2</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Syndication</caption>
+<tr>
+<th>POSSE support : Articles</th>
+<td>Manually syndicated to <a href="https://veganstraightedge.wordpress.com">WordPress.com</a>.</td>
+<td>0.1</td>
+</tr>
+<tr>
+<th>POSSE support : Articles : permashortlinks (WordPress.com)</th>
+<td><a href="https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping/" title="No More Sharecropping!">All my WordPress.com posts</a> link back to <a href="http://sbb.me/b48f1" title="I&#x27;m Shane Becker : Article : No More Sharecropping!">sbb.me/bXXX1</a></td>
+<td>0.1</td>
+</tr>
+<tr>
+<th>POSSE support : Articles (Medium)</th>
+<td>Manually syndicated some posts to <a href="https://medium.com/@veganstraightedge">Medium</a>.</td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>POSSE support : Articles : permashortlinks (Medium)</th>
+<td><a href="https://medium.com/indieweb-thoughts/9d0e36524dbf/" title="No More Sharecropping!">All my Medium posts</a> link back to <a href="http://sbb.me/b48f1" title="I&#x27;m Shane Becker : Article : No More Sharecropping!">sbb.me/bXXX1</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>POSSE support : Videos</th>
+<td>Manually syndicated to <a href="http://vine.co" title="Vine">Vine</a>.</td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>POSSE support : Videos</th>
+<td>Manually syndicated to <a href="http://www.youtube.com/veganstraightedge" title="Shane Becker - YouTube">YouTube</a>.</td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>POSSE support : Videos : permashortlinks (YouTube)</th>
+<td><a href="http://www.youtube.com/watch?v=ztalmq1vlos" title="Blue Angels flying over Seattle - YouTube">All my YouTube videos</a> link back to <a href="http://sbb.me/v4KH1" title="I&#x27;m Shane Becker : Video : Blue Angels flying over Seattle">sbb.me/vXXX1</a></td>
+<td><strike>0.1</strike></td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0.2</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Posting UI</caption>
+<tr>
+<th>Minimal UI to cause POSSEing</th>
+<td>No posting UI yet</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Navigation</caption>
+<tr>
+<th>Previous/Next Posts Navigation</th>
+<td>No linear nav yet</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Search</caption>
+<tr>
+<th>Search UI</th>
+<td>No search yet</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Aggregation</caption>
+<tr>
+<th>Aggregation / Syndication In</th>
+<td>No aggregation yet</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0</td>
+</tr>
+</table>
+
+<table border="0" cellspacing="5" cellpadding="5">
+<caption>Level 2 : Web Actions</caption>
+<tr>
+<th>Hard-Coded Silo Actions</th>
+<td>No &lt;action&gt; tags yet</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Total Points</th>
+<td>&nbsp;</td>
+<td>0</td>
+</tr>
+</table>
+
+== Open Source ==
+
+All of Homesteading will be open source. It's currently too much a mess tangled up with some personal things (API keys, private posts, etc) to release publicly. As I move forward, I'll do some house cleaning and codebase audit. Then I'll release it.
+
+The license will be the same license I always use: Public Domain.
+
+------
+'''PUBLIC DOMAIN'''
+
+Your heart is as free as the air you breathe.
+The ground you stand on is liberated territory.
+
+In legal text, Homesteading is dedicated to the public domain using Creative Commons -- CC0 1.0 Universal.
+
+http://creativecommons.org/publicdomain/zero/1.0
+------
+
+After all, sharing does mean caring.
+
+
+
+
+<br /><br /><br /><br />
+
+== See Also ==
+* [[projects]]

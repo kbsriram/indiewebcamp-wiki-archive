@@ -1,0 +1,3 @@
+{{stub}}
+
+'''<dfn>newmonth</dfn>''' refers to the [[newcal]] definition of a month.

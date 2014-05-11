@@ -1,0 +1,120 @@
+{{stub}}
+
+'''<dfn>search</dfn>''' in the context of the IndieWeb refers to being able to search your personal site for your own content. Personal site searchability is a requirement for [[IndieMark]] Level 1.
+
+== How ==
+How to implement search on your site.
+
+=== searchability ===
+Make sure your site is at least searchable (IndieMark search level 1). This means:
+* '''allow robots to index'''. Permissive or no robots.txt. Either don't have /robots.txt (easiest), or if you have one, it MUST allow search engines to index public posts on your site.
+* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on Javascript to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
+* '''site-specific searchability'''. Be able to use "site:yoursite.example.com search-term" in [[Google]] and other search engines (that support site-specific searches) directly to find and display your posts in search results.
+
+=== search box ===
+Add a simple search box to your site using a static form that submits to a search engine (IndieMark search level 2) and provides time ordered (most recent first) results!
+
+ E.g.<pre><nowiki>
+<form class="search" action="http://www.google.com/search" method="get">
+<input type="hidden" name="as_sitesearch" value="tantek.com"/>
+<input type="hidden" name="tbs" value="sbd:1,cdr:1,cd_min:1/1/1970"/>
+<input type="search" name="q"/>
+<button type="submit">Search</button>
+</form>
+</nowiki></pre>
+
+And change '''tantek.com''' to your personal site name!  This HTML has been [[selfdogfood]] tested live since [http://tantek.com/2012/188/t1/real-time-most-recent-first-search-push-indieweb-falcon 2012-07-06].
+
+Search form styling is left as an exercise for the creator.
+
+=== site search with 3rd party backend ===
+Search where your site uses a 3rd party search service (e.g. Google), but still provides the results on your own domain. (IndieMark search level 3)
+
+How to TBD.
+
+=== site search with site backend ===
+Search where your site handles all the indexing and search queries. (IndieMark search level 4)
+
+How to TBD.
+
+== Why ==
+Why should your site be searchable? 
+* You want your independently created and owned content to be found and preferably above and beyond content on [[silos]].
+
+Why should your site have a search UI?
+* Convenient indieweb site search is a very commonly requested feature by readers / users of indieweb sites. 
+* They don't want to have to think to go to Google (and take the extra steps) to search your site. 
+* Make it easy for your friends that read your site to find stuff there by having a simple search box in the top right of every page (common UI convention) that allows the user to type something in and perform a search on your site. You can of course use 3rd party search engine to do this, even returning results directly from them. E.g. using a Google search box on your site.
+
+== IndieWeb Examples ==
+IndieWeb sites that have search interfaces.
+=== Tantek ===
+[[User:Tantek.com|Tantek Çelik]] has had a search interface on his site [http://tantek.com/ tantek.com] since [http://tantek.com/2012/188/t1/real-time-most-recent-first-search-push-indieweb-falcon 2012-07-06] which uses a simple static form that submits to Google search ([[indiemark#search|IndieMark search]] level 2).
+
+=== Ben Werdmuller ===
+[[User:Werd.io|Ben Werdmuller]] has had a search interface on his site [http://werd.io/ werd.io] since (2013-06-20) which uses his own site's backend ([[MongoDB]] in particular). ([[indiemark#search|IndieMark search]] level 4).
+
+=== Barnaby Walters ===
+[[User:WaterPigs.co.uk|Barnaby Walters]] added a simple static search form (based on Tantek’s code) to [http://waterpigs.co.uk waterpigs.co.uk] on 2014-02-24 which submits to a site-scoped Google search ([[indiemark#search|IndieMark search]] level 2).
+
+Also experimenting with local search engine which indexes the archive of all the pages I’ve linked to as well as [[mentions]] of my own pages using [[Elasticsearch]].
+
+UI as of 2014-03-01, showing authorship information, page name, excerpt, URL:
+http://waterpigs.co.uk/img/2014-03-01-indie-search-halsway.png
+
+== Design ==
+If in doubt: copy Google.
+
+=== Search UI ===
+To start with, no need for anything more than a single-line text box and “Search” button — keep things focused.
+
+=== Indexing ===
+Due to widespread use of [[microformats]] on the indieweb, each page being indexed is rich in semantics which can be indexed e.g. explicit name, publication datetime [[authorship]] information, relations like [[in-reply-to]], representative image, etc.
+
+Some properties can be faked if microformats markup isn’t present:
+* '''name''' can be substituted with the contents of the <code>title</code> element
+
+Many semantics similar to microformats ones can be found in invisible metadata like OGP meta elements — whether or not it can be trusted or gives a better search experience requires further experimentation.
+
+To get the best results a plaintext representation of each page should be indexed. In lieu of a HTML to Plaintext algorithm, some steps to follow include:
+* Remove the <code>head</code> element from the page
+* Remove any other <code>script</code>, <code>style</code> elements from the page
+* Replace embedded content (e.g. images, videos, audio) with it’s text-based accessible fallback e.g. <code>alt</code> attribute for images
+* …
+
+=== Result Display ===
+Results should be displayed in order of relevance by default. Having the option to order search results by datetime might also be useful.
+
+Each result should form a block with clear visual thingness separating it from other results. A click anywhere on the block should navigate immediately to the search result URL, which should be shown in it’s entirety at the bottom of the block.
+* the only reason I can think of to ''not'' navigate immediately, i.e. navigate via an intermediate redirect is to check whether or not the page exists and show an archived copy instead. Perhaps that checking is better left to a browser extension which acts only on a 404 --[[User:Waterpigs.co.uk|Barnaby Walters]] 09:51, 28 February 2014 (PST)
+
+
+== Brainstorming ==
+=== Site plus links search ===
+Beyond searching just the contents of what you publish on your own indieweb site, it may be useful to *also* index:
+* every page that you link to in your posts
+And then provide results from those as well as your own site.
+
+=== Site plus linked sites ===
+Beyond searching just the contents of what you publish on your own indieweb site, it may be useful to *also* index:
+* every '''site''' of pages that you link to in your posts, perhaps using [[PuSH]] discovery for those sites.
+And then provide results from those as well as your own site.
+
+=== Social search ===
+Beyond searching just the contents of what you publish on your own indieweb site, it may be useful to *also* index:
+* every '''indieweb site''' of any person you mention 
+** in your posts
+** sidebar
+** friends lists
+** etc. anywhere on your site.
+* every site you follow in your indie [[reader]]
+And then provide results from their sites as well as your own site.
+
+
+== See Also ==
+* [[Getting Started]]
+* [[IndieMark]]
+* [[reader]]
+
+Search related sessions at past IndieWebCamps:
+* [[2012/Open Real Time Search Engine]]

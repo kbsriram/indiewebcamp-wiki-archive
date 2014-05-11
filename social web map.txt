@@ -1,0 +1,86 @@
+{{stub}}
+
+= Social Web Map =
+Inspired by:
+* [http://xkcd.com/256/ 2007 Map of Online Communities]
+* [http://www.flowtown.com/blog/the-2010-social-networking-map?display=wide 2010 Social Networking Map]
+
+We are creating a 2013 Social Web Map, with the IndieWeb at the center, and different levels of indieness out from there. 
+
+== Sections ==
+Lists of map features - and how sites are included in them.
+
+=== IndieWeb Confederation ===
+IndieWeb sites that are actively [[POSSE]]ing and successfully federating [[comments]] (e.g. to Eschnou's post).
+* Eschnou.com
+* Aaronparecki.com
+* Christopher Ducamp
+* Barnaby Walters
+* Tom Morris
+* ...
+
+=== IndieWeb League ===
+Superset of the IndieWeb Confederation. IndieWeb sites that are automatically [[POSSE]]ing [[posts]] of at least one type out to a Silo Island Nation (that they're only POSSEing to). E.g. at least one Silo Nation destination where the IndieWeb site owner is ''only'' posting via POSSEing from their own website, never directly on the Silo Nation destination.
+* Tantek.com
+** all [[notes]] & [[articles]] since 2010 (and all [[replies]] since 2013-05-12) are 
+*** POSSEd to [[Twitter]], then all non-@-replies indirectly to [[Facebook]]
+*** POSSEd to [[FriendFeed]]
+* Adactio.com - all [[articles]] since 2011?
+** POSSEd to [[Facebook]] with [[IFTTT]]
+* ...
+
+=== IndieWeb Alliance ===
+Superset of the IndieWeb League. IndieWebCamp participants (either in person or remote) who have at least an independent identity on their own domain, but ideally regularly post multiple kinds of posts on their own domain. 
+* Kevin Marks - kevinmarks.com
+* Chris Wilson - cwilso.com
+* ...
+
+=== POSSE land bridges ===
+[[POSSE]] land bridges to various Silo Island Nation Destinations.
+* [[IFTTT]]
+* [[PuSH]]
+* ...
+
+=== Silo Island Nation Destinations ===
+[[Silos]] that IndieWeb participants are POSSEing out to (direct or indirectly)
+* [[Facebook]]
+* [[Twitter]]
+* [[App.net]]
+* [[Friendfeed]]
+* ...
+
+Dead:
+* [[Buzz]]
+
+=== Silo Island Nations ===
+Possible to POSSE to (but no one is yet):
+* [[Flickr]]
+* [[Foursquare]]
+* ...
+
+Impossible to POSSE to:
+* [[Instagram]]
+* ...
+
+=== Dead Web Sea ===
+Sites that have died, depth by how recently they've disappeared. See [[site-deaths]]
+
+* [[Upcoming]]
+* [[Posterous]]
+* [[Buzz]] - used to receive POSSE copies from tantek.com via [[PuSH]]
+* [[Geocities]]
+* [[Yahoo 360]]
+* [[Wave]]
+* [[Pownce]]
+* [[Vox]]
+* [[Gowalla]]
+* ...
+
+== Sketches ==
+
+[[File:2013-05-14 Social Web Map v3.jpg|700px]]
+
+[[File:2013-05-14 Social Web Map v0.jpg|700px]]
+
+== See Also ==
+* [[to-do]]

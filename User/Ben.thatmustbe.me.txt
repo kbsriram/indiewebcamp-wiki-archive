@@ -1,0 +1,68 @@
+Hey, I'm Ben Roberts.  Here's a bullet list about me (until I can get my personal site up and running).
+
+I am currently developing [http://ben.thatmustbe.me my personal site].
+
+* I'm a sysadmin / Developer at a small company in Boston, MA.
+* I have my Masters in Computer Science from the University of Rhode Island.
+* I run Funtoo Linux on my main workstation.
+* I play DDR.
+* I am crazy.
+
+
+= Projects =
+== [https://github.com/dissolve/openblog OpenBlog] ==
+This is going to be my personal site and an MVC framework to build off of for others.  Currently in its initial stages, it is based on system libraries from [http://www.opencart.com OpenCart]
+
+TODO for OpenBlog  (this will grow a lot i'm sure)
+# <s>Rip main libraries out of OpenCart and Customize to run a simple site</s>
+# <s>Get main page up and running with basic h-entry formatting</s>
+# <s>Get Posts working</s>
+# <s>Proper routing for permalinks</s>
+# <s>Make it Live!</s>
+# <s>Release on GitHub</s>
+# Administration Pages (minimally working, still needs a lot of work)
+# Expand to other types (currently only notes and posts)
+# <s>Get Comments working (I may not do this, comments will have to be webmention/pingback)</s>
+# Personal theme (still based on SemPress)
+# Set up automatic syndication to G+, FB, and Twitter
+# backfeed
+# <s>webmention</s>
+# micropub (currently underway, token endpoint is set up, just need the micropub endpoint)
+# Authentication Host
+# Contacts List (see below)
+# anything else I can think of
+
+== Contacts List ==
+This is just my ideas for an IndieWeb based contacts application.  I will host my contact info on my own site as [[h-card]] but only public information.  If a user visits the site with a key (custom to them) in the GET value, they get additional info such as mailing address, phone number, etc.   Once I have have access to other's contact info, I build my contact list in a private section of my site.  I could then access this information from an app on my phone or other device or directly through my website.
+
+For key negotiation my current idea is to use webmention on the author page.
+Alice wants to get Bob's info in her contact list.  
+# Alice inputs Bob's URL in to her site.
+# Alice's site gets Bob's site to discover his Author page (perhaps she had to put in his author URL directly)
+# Alice's site parses Bob's h-card and adds this information to her contact list.
+# Alice's site sends a webmention to Bob's author page saying that he has been added to her contacts.
+# Bob's site receives this request and finds Alice's H-card on her site.
+# Bob's site records this information for Bob to review later.
+# Later Bob logs in to his site and sees that Alice has requested his information.
+# Bob decides to give Alice all his contact information.
+# Bob is asked to review Alice's URL to be sure that this URL is actually her site.
+# Optionally Bob can add this info to his contacts, generating a request in the other direction.
+# Bob approves her request and grants full access.
+# Bob's site sends a web-mention to Alice's site that includes a generated key for Alice.
+# Alice's site uses this key to get the updated contact information from Bob's site (with the key in the URL)
+
+'''Other ideas/considerations:''' 
+
+Use Push notifications rather than h-card on author page.  This would mean a complex push structure and people would know the second you remove access possibly.  Not sure I would like that.
+
+Ability to grant access to specific pieces to certain people.  I might want a close friend to have all my information but others to have only a subset.
+
+Friends without webmention systems can just ask for a URL that I can e-mail them.   I can still specify the key and thereby control their level of access.
+
+Sites should be able to receive keys before they make a request.   (I know my friend will want my full info, so i just send him a link right away)
+
+= Side Projects =
+
+Been working to clean up the [https://github.com/dissolve/wiki mediawiki indieweb template] for aaronpk so we can get mediawiki up to date.
+
+Trying to keep documented the specification as I extend it to complete [https://github.com/dissolve/webmention webmention].  Basically the asynchronous stuff was never specified.

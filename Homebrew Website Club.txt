@@ -1,0 +1,33 @@
+{{stub}}
+
+'''Homebrew Website Club''' is a bi-weekly meetup of people passionate about or interested in creating, improving, building, designing their own website, in the same structure as the [[Homebrew Computer Club]] meetings.
+
+== Description ==
+Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy?
+
+If so, you might like to come to a gathering of people with likeminded interests. Exchange information, swap ideas, talk shop, help work on a project, whatever...
+
+== Meetings ==
+Meetings take place every other Wednesday right after work, 18:30-19:30.
+
+See [[events]] for dates/locations/URLs of upcoming meetings!
+
+=== Established Meetings ===
+* San Francisco, CA
+** Organizer(s): [[User:Tantek.com|Tantek]], [[User:Snarfed.org|Ryan Barrett]]
+* Portland, OR
+** Organizer(s): [[User:Aaronparecki.Com|Aaron Parecki]], Dietrich, Crystal
+* Chicago, IL
+** Organizer(s): [[User:Gregorlove.com|gRegor Morrill]], [[User:kartikprabhu.com|Kartik Prabhu]]
+** First meeting 2014-04-09
+
+=== Up-and-coming Meetings ===
+... start one in your city!
+
+== History ==
+[[User:Tantek.com|Tantek]] was inspired after attending the Homebrew Computer Club 38th Reunion and set up the first meeting 2013-11-20 in San Francisco. [http://tantek.com/2013/322/b1/homebrew-computer-club-reunion-inspiration]
+
+{{Homebrew Website Club}}
+
+== See Also ==
+* [[events]]

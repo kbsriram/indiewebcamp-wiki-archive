@@ -1,0 +1,21 @@
+<div style="float:right">[http://xkcd.com/1174/ http://imgs.xkcd.com/comics/app.png]</div>
+{{stub}}
+
+'''<dfn>Apps</dfn>''' are less functional versions of web sites that are usually restricted to one or more proprietary [[platforms]].
+
+== The problem with apps ==
+
+* Content inside apps is not linkable. If you find a news article on a website, you can link to it and share it by passing the URL around.
+* Apps have potential security vulnerabilities: instead of simply rendering text in your browser and executing sandboxed JavaScript, apps have the ability to use device APIs including accessing the phone and address book functions. Apps have been known to upload a user's full contact list details.
+** New York Times: [http://bits.blogs.nytimes.com/2012/02/15/google-and-mobile-apps-take-data-books-without-permission/ Mobile Apps Take Data Without Permission]
+** On iOS, apps including [http://www.informationweek.com/security/risk-management/ios-social-apps-leak-contact-data-/d/d-id/1102722? Path] have leaked contact details back to their corporate owners.
+** [http://nakedsecurity.sophos.com/2012/07/03/facebook-address-book-smartphone/ Facebook added @facebook.com email addresses] to Android address books. (And in 2014, Facebook are now [http://readwrite.com/2014/02/25/facebook-kills-email-service deprecating @facebook.com email addresses] due to lack of use.)
+* Apps use up storage space on the device. The app for BBC or CNN or the New York Times will sit there and use up the sometimes limited storage space even when not in use. Websites leave cache data and cookies, but if you don't visit a site for long enough, it'll just disappear from your device. This is inherently unscalable. There are billions of websites: should each one become an app? You wouldn't download an app on your desktop or laptop computer just to look at a website: why do it on a mobile phone?
+
+== Articles ==
+* 2013-02-02 [http://tommorris.org/posts/8070  No, I'm not going to download your bullshit app]
+* 2014-02-24 [http://www.codinghorror.com/blog/2014/02/app-pocalypse-now.html App-pocalypse Now]
+
+== See Also ==
+* [[platform]]
+* [[API]]

@@ -1,0 +1,117 @@
+{{stub}}
+
+__TOC__
+
+This is a braindump of business models that can support an open indie web.
+
+The idea is to build actual businesses that can sustain themselves in this environment, not just building the next [[silo]] that gets acquired by Google / Facebook / Twitter / whatever.
+
+Businesses should exist that both encourage people to own their online identity and are supported by the fact that people are not using silos.
+
+== Domain Registration and DNS Hosting Services ==
+{{main|dns}}
+To get started on the indie web, you first need a [[personal-domain|personal domain]]. There are a zillion different companies offering domain registration. Most of them also offer adjacent services such as DNS or web hosting.
+
+[[dns|DNS]] is the glue that points your domain name to a [[web hosting|web server]]. Many hosting and domain registration companies offer DNS services.
+
+== Hosting Services ==
+This is a well-established business model. Hosting is provided at various levels:
+
+=== Web Hosting Services ===
+{{main|web hosting}}
+
+Web hosting services provide a web server that you have some degree of access to that will serve pages on a domain of your choice (which you may need to register separately with a Domain Name Registrar), and execute a number of "CGI" or programs written in various backend scripting languages (PHP, Python, Ruby).
+
+* VPS model where you get root access to a virtual system and can install whatever you want
+** [https://linode.com Linode]
+** [http://www.networkredux.com/ Network Redux]
+* FTP access with PHP or Perl CGI in a shared hosting environment
+** [http://dreamhost.com Dreamhost]
+* High-level language-specific runtime environment
+** [http://heroku.com Heroku]
+
+See [[web hosting]] for more providers and reviews of providers (what can go wrong, what's good to look for, etc.).
+
+=== File Hosting Services ===
+Not focused on serving web pages, these services typically still allow you to access raw files via HTTP, though don't provide any execution environment for scripting / backend code.
+
+* [https://dropbox.com Dropbox] - Create files locally, are served up via Dropbox's CDN. There are several guides and services for using Dropbox to host a website, see [[web hosting]].
+* [http://pages.github.com/ GitHub Pages] - Push to a Git repository and they serve static files
+
+=== Application Hosting Services ===
+These services don't allow you access to the file system, nor configuration of the web server, but instead only provide paid access to higher level web application(s), but at your own domain.
+* Application-level hosting (blogs, splash pages, etc)
+** [http://wordpress.com Wordpress.com] - provides custom-domain support for a fee, then incremental pay-for add-ons such as custom CSS styles. IndieWeb example: <span class="h-card">[http://cwilso.com Chris Wilson]</span>
+** [http://ning.com Ning] - provides pay-for community content hosting with a custom domain
+*** [http://bandpage.com BandPage] - appears to be a whitelabeler of Ning services specifically for musicians and bands. E.g. http://runrivernorth.com/
+
+=== Identity Hosting Services ===
+A version of a hosted service that takes care of the knowledge required to set up a domain. Just like you don't need to be a real-estate agent or go to school to buy a house, you should not need to know an extensive amount of information to be able to buy a domain. 
+* Middle-ground service that does not require the user to have knowledge of things like DNS or nameservers.
+* Simply makes a storage container that affiliates information with your identity. 
+* One's personal data file. A separate database for medical, vehicle, money/account, your public persona, private messages, etc. There's a separate database for images, with permissions for people who are friends, family or public. This all runs on your own domain name. There's a space for notes and work in progress and an internal blog you Email to. You can allow a doctor to have permission to your medical file and add to it, based on what the medical appointment was about. That way you have a centralized data repo that you own. 
+* Could be an appliance mailed to you that is a physical cube that you plug in and configure in three easy steps, with a backup on the web (or not).
+
+== Aggregators ==
+{{main|aggregators}}
+Aggregators are a way to read (sometimes disparate) content in a single place. Aggregators can be [[silos]], or can be open.
+
+Aside from just distributing content, aggregators can compete on things like speed, user experience, etc.
+
+
+From most indieweb-web [[friendly]]/encouraging to least:
+
+Pure aggregators (no primary content, all content and comments are aggregated from around the web)
+* [[IndieNews]]
+Content aggregators (aggregate content from around the web, primary hosting of comments only)
+* [[Reddit]]
+* [[Hackernews]]
+Hybrid aggregators (aggregate content from around the web as well as primary content posts hosted on their silo)
+* [[StatusNet]]
+Silo aggregators (aggregate only posts in their own silo)
+* [[Facebook]]
+* [[Google+]]
+* [[Twitter]]
+
+== Search ==
+{{main|search}}
+
+
+
+== Transport Services ==
+Transport services are like plumbing, they do not provide an outward-facing presence for your web identity, but move bits around behind the scenes. Ideally transport services work with purely open standards so that they can be swapped out under the hood without anybody on the outside needing to know.
+
+=== Mentions Proxies ===
+* [[webmention.io]] - Handles receiving [[pingbacks]] and [[webmentions]] for a site and provides the data via an API
+* [[Bridgy]] - Sends [[webmentions]] for comments on Facebook, Twitter, Google+ and Instagram.
+
+=== Emails ===
+{{main|email}}
+
+Email services allow you to send and receive email on your own domain using a simple API rather than setting up an SMTP server yourself. Some people in the IndieWebCamp community are using email to post new content on their own websites.
+
+* [http://mandrill.com Mandrill] - Send and receive email with a simple API
+
+=== Notifications ===
+* [http://prowlapp.com Prowl] - Send push notifications to your mobile device with a simple API
+
+== Authentication ==
+Open source:
+* [[IndieAuth]]
+Proprietary:
+* [https://janrain.com Janrain]
+
+== Anti-Spam ==
+* [http://akismet.com Akismet]
+
+== Patronage ==
+* [https://www.gittip.com/ Gittip]
+
+== Other ==
+* People search
+* Non-profit: The idea of setting up a non-profit organization that provides indieweb-supporting services is similar to the idea of Mozilla Foundation offering Firefox as a not-for-profit web browser. Known examples: [http://riseup.net/ riseup.net] (email, forums, etc.), [http://www.jpberlin.de/web/home/jpberlin/ jpberlin] (in German), [http://eu.org/ eu.org] (domain name registration and DNS hosting), (any others?). A not-for-profit organization could offer services for free (covered by donations), as well as for-pay (if people are willing to pay money for a product). The difference would be that the non-profit status would stop them from being acquired and/or doing anything that puts its users into a silo. A freemium model might be best, because it would give people a much lower threshold to move their profile outside the commercial silos, but at the same time can offer more advanced services in a more sustainable way by charging people for what they use (at cost price, for instance).
+
+== Avoiding ==
+* Advertising. See: http://blog.whatsapp.com/index.php/2012/06/why-we-dont-sell-ads/
+
+[[Category:building-blocks]]

@@ -1,0 +1,113 @@
+= databases for storage =
+Using databases for the primary storage of your content is a known [[antipattern]].
+
+Typical CMS's (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]] etc.) all use databases for primary storage of  content. Most often [[MySQL]], sometimes others like [[MongoDB]].
+
+Databases are all a pain to maintain (i.e. highly human-time inefficient - see DBA tax below), and more fragile[http://www.flickr.com/photos/tantek/5331910087/] than the file system.
+
+For any content you care about it, don't put the primary copy in a database.
+
+=== DBA tax ===
+(this likely deserves its own canonical definitional article)
+
+The term '''<dfn>DBA tax</dfn>''' has been introduced to quickly reference the extra overhead you as a person incur by depending on any system that uses a database for primary storage. If you maintain any such system, you have to spend some amount of your time being a database administrator (DBA), hence that time spent is referred to as the DBA tax that you are incurring.
+
+In particular, a database is yet another space of things.
+
+Everyone already deals with a file system. Why deal with yet another space?
+
+The following are aspects of the DBA tax - hassles of:
+* setting up a database
+* setting up doing tables
+* setting up username/login that is database specific
+* altering tables
+* dealing with username/login that is database specific (often gets in the way of things, e.g. password reset on MediaWiki)[http://microformats.org/wiki/admin-to-do#wiki_problems]
+* exporting
+* importing
+* backups (separate from the backups you're already doing of the file system, because database files can themselves become corrupted internally - as what happened with [[Magnolia]]).
+
+All extra crap (thus tax) compared to "just" using the file system.
+
+All databases have a DBA tax.
+
+Experience and evidence shows DBA tax exists as well. People lose things (and have them corrupted) in databases all the time, far more often than in file systems. This is because databases always require extra "magic" for backups etc. 
+
+E.g. search the web for people complaining about having to backup their [[WordPress]] databases before upgrading their WordPress install.
+
+=== Uninspectability ===
+Even in databases that use only a single file (e.g. SQLite?), that "one file" is still uninspectable, as opposed to simple HTML you can always look at in a browser.
+
+There are many reasons why an uninspectable/random/binary magic file format is fragile, whereas HTML is an inspectable file format that many tools can read/write, including a simple text editor. In particular:
+* '''one implementation.''' magic database formats typically only work with one implementation. In contrast, HTML is a well documented format that supported by numerous tools (1:1 like text editors, and higher level tools) which makes it much more robust/reliable than any database file format. Similar problems occur with proprietary binary formats in general.
+
+=== Platform trap ===
+Most databases tend to be biased/tied to a particular programming language (or operating system) as well - more unnecessary constraints - trapping you into a particular platform (language or OS).
+
+In contrast, every language / OS has flat file APIs. Nearly all have DOM Document APIs as well.
+
+=== Fragile ===
+Databases are known to be fragile in exceptional situations, e.g. high traffic load, server hard restart. Real world example: [[MySQL]] and [[Rackspace]]:
+
+<blockquote>... Bad news: MySQL barfed all over the table holding my posts. ... [https://twitter.com/christi3k/status/448270028484263936]</blockquote>
+<blockquote>And I'm pretty sure that happened when Rackspace hard reset my machine due to swapping.[https://twitter.com/christi3k/status/448270919341858816]</blockquote>
+
+Note: apparently postgres doesn't have that problem.
+
+=== Caching ok ===
+{{main|database-cache}}
+Databases are essentially useful only for caching/performance needs for high volume sites. Examples:
+* aggregations (e.g. all of your [[posts]] with a specific [[tag]]) can be cached.
+* full-text search index
+* geo-search index
+In both search use-cases the DBs should be a cache/query store, the real data should still be in flat files (e.g. .md, HTML, etc.) to ensure long-term durability.
+
+=== Premature Optimization ===
+Even though databases are fine for rebuildable caches, that's still solving an optimization problem.
+
+Any design that depends on databases is optimizing prematurely - before you have any idea what the performance characteristics of the system are.
+
+=== Alternatives ===
+Rather than using a database for storage, use open well established formats like HTML + microformats, and if you really like <em>how</em> databases let you access them, instead build a database-like API on top (of said HTML + microformats files).
+* [[Falcon]] does this with XML-valid HTML5 + hAtom. See [[Falcon#Storage_format|Falcon storage format]] for details.
+
+With HTML+microformats2 + a [[microformats2]] parser, we already have a database-like API that gives you data back from HTML.
+
+It's likely that eventually we'll come up with something resembling a database / storage API on top of an HTML+microformats2 file.
+* What do mean by a storage /database API on top of an HTML file?
+** Something where you can get back structured data and potentially write structured data. E.g. the phpmf2 [[microformat2]] parser/API. Or the [[Falcon#Storage_format|Falcon storage format]].
+
+=== FAQ ===
+==== SQLite tax avoidance ====
+Q: Is SQLite a way to avoid the DBA tax?
+* A: No. It's still yet another space of stuff and one space of stuff is easier to maintain / keep track of than two spaces of stuff. It also still has the "one implementation" fragility of its magic file format.
+
+==== How are database file formats random ====
+Q: How are database file formats random?
+* A: One way is that they're random over time - the implementation changes, the format changes typically in lockstep. If you're lucky you may be able to import/export across versions or different versions of the implementation may corrupt different versions of the file format. Hence database file formats are both semi-random (unpredictable future), and frankly, potentially randomizing (corrupting).
+
+==== MySQL portability ====
+Q: Isn't MySQL pretty portable?
+* A: No. That's actually a huge misconception. It might be portable if all you have is very small amounts of short data all in ASCII7. Change any of those and you're likely to experience invisible corruption when moving MySQL data from one instance to another.
+
+Examples:
+* MySQL upgrades can blow away databases, and then fail to reimport. Citation: 
+** 2005-03-09 Eric Meyer: [http://meyerweb.com/eric/thoughts/2005/03/09/stuck/ Stuck] <blockquote>I upgraded my local copy of MySQL, and it blew away my WordPress database.  So I mysqldumped the database from meyerweb.com, copied it down to my hard drive, and tried to mysqlimport it.  And tried, and tried, and tried, until eventually my eyes started bleeding.  No dice.</blockquote>
+* MySQL installs can break when migrating between laptops. Citation: 
+** 2012-04-27 Eric Meyer https://twitter.com/meyerweb/status/195940443060572160 <blockquote>Apparently when I migrated laptops, the MySQL install broke and must be fixed. Thus begins another afternoon of me screaming at my machine.</blockquote>
+* MySQL upgrades can silently corrupt content, e.g. when "porting" - e.g. UTF8/encoding problems. Just search for MySQL UTF8. Eric Meyer has written a few blog posts about it (e.g. 2009-11-19 [http://meyerweb.com/eric/thoughts/2009/11/19/correcting-corrupted-characters/ Correcting Corrupted Characters], and he was just doing WordPress to WordPress migrations, and worse yet - he got LOTS of *wrong* advice from those in the "MySQL community"). And the corruption is often invisible, especially if most of your content is just ASCII7. You don't notice it until long after the original where you ported from is gone and you can't do any attempt at reporting.
+** I find this example misleading/disingenuous. MySQL itself does not "corrupt content all the time when porting." The common scenario I have come across is the default character encoding of a mysql database is latin1 at the time it was set up, then UTF-8 data was inserted at a later time. When the data is queried later, and latin1 encoding is still specified (e.g. the default), then the UTF-8 data will be displayed in latin1 encoding. And obviously most UTF-8 characters do not map to latin1, so "garbage" characters are displayed. This is not a unique situation to MySQL, though, or really an example of it doing anything improperly. If you save UTF-8 characters in a latin1-encoded text file, you would experience the same garbage character problem. I believe the moral of the story with this example is to always use UTF-8 from the start. — [[User:Gregorlove.com|gRegor]] ([[User talk:Gregorlove.com|talk]]) 11:58, 21 April 2014 (PDT)
+*** gRegor - Eric Meyer is a very intelligent person and has still had numerous problems over the years with MySQL upgrades and migrations. I've made the language more specific than "all the time" and added citations if you want to learn more about the details. [[User:Tantek.com|Tantek]] 12:07, 21 April 2014 (PDT)
+
+Follow-up:
+Q: Isn't MySQL trivial to port via: mysqldump ... | scp | mysql ?
+* A: No, not trivial. Although this is often the most reliable way to migrate data between different MySQL versions, it is still easy to encounter UTF8 corruptions unless you are extremely careful about UTF8 settings on both ends. Don't forget the --skip-extended-insert flag otherwise if you have really large tables they will break when the target DB has a smaller max query size!
+
+==== Still not convinced ====
+Q: Still not convinced that databases for storage are an anti-pattern or about the DBA tax.
+* A: For those still not convinced, it's left as an exercise to lose enough data in random/binary file formats over the years until it's painful enough that you decide to stop using such things for anything you care about. If you don't think it's a pain, the only likely way to learn that it is is by doing it for years. Go ahead and try to make databases for primary storage work if you like, and report back on how well your data is doing in a few years (like 10).
+
+== See Also ==
+* databases: [[MySQL]], [[MongoDB]]
+* [[database-cache]]
+* [[antipatterns]]
+* [[projects]]

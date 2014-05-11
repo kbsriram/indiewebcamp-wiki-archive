@@ -1,0 +1,33 @@
+{{stub}}
+
+'''<dfn>payment</dfn>''' in the context of the indieweb refers to a feature on an indie web site that provides a way for the visitor to that website to pay (currency, gift card credit, etc.) the person represented by that indie web site.
+
+== How ==
+There are several tutorials on how to create links / URLs for various payment services to put on your web site:
+
+Currency:
+* [https://www.paypal.com/cgi-bin/webscr?cmd=_donate-intro-outside Paypal]
+* [https://medium.com/look-what-i-made/294e9d2eb58b Square Cash]
+* [https://developer.venmo.com/docs/payment-links Venmo]
+
+Gift card(s):
+* [http://jonathanstark.com/card/#give-a-coffee Starbucks Gift Card]
+
+Once you have a payment URL e.g. pay.example.com/username/usd/5, link to it with [http://microformats.org/wiki/rel-payment rel=payment], e.g.
+
+<code>&lt;a href="https://pay.example.com/username/usd/5" rel="payment">Donate $5 to me&lt;/a></code>
+
+== Why ==
+So anyone who visits your website can easily pay you (for whatever) in the ways you prefer to be paid, similar to how communication links help people communicate with you in the ways you prefer[http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience].
+
+== IndieWeb Examples ==
+None as of yet.
+
+== Articles ==
+Articles about various forms of payment from an independence perspective:
+* 2005-03-17 [https://snarfed.org/privacy_through_prepaid_credit_cards privacy through prepaid credit cards]
+
+== See Also ==
+* http://microformats.org/wiki/rel-payment
+* [[homepage]]
+* [[icon]]

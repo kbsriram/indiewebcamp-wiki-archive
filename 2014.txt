@@ -1,0 +1,109 @@
+= IndieWebCamp 2014 =
+<div class="h-event vevent">
+<div class="p-description description">'''Own your data.'''
+
+We should all own the content we're creating, rather than just posting to third-party content silos. Publish on your own domain, and syndicate out to silos. 
+
+Join us for two days of brainstorming &amp; creating at <span class="p-name summary">IndieWebCamp 2014</span> and be a part of advancing &amp; growing the indie web.</div> 
+
+* '''When:''' from <span class="dt-start dtstart">June 28, 2014 (<time class="value">2014-06-28</time>) at <span class="value">9:30am</span></span> through <span class="dt-end dtend">June 29 (<time class="value">2014-06-29</time>) at <span class="value">6pm</span></span> 
+* '''West Coast''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Esri R&D Center, Portland</span>, <span class="h-adr adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <span class="p-region region" title="Oregon">OR</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">97204</span></span>. <span class="u-url">http://pdx.esri.com</span></span>
+* '''East Coast''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The New York Times Building</span>, <span class="h-adr adr"><span class="p-street-address street-address">620 8th Ave</span>, <span class="p-locality locality">New York</span>, <span class="p-region region" title="New York">NY</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">11225</span></span>.</span>
+* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/</span>
+
+== RSVP ==
+* '''[[2014/Guest_List|Guest List]]''' - add yourself (and optionally an apprentice)
+* Lanyrd: <a class="u-url url" href=""></a>
+* Plancast: <a class="u-url url" href=""></a>
+Additional listings:
+* Calagator: http://calagator.org/events/1250465892 
+
+Also consider signing up for [http://opensourcebridge.org/ Open Source Bridge], June 24-27, 2014 also in Portland ([http://osbridge.eventbrite.com/ register for OSBridge 2014 on Eventbrite]).
+
+== Participating ==
+* [[2014/Sessions|Session Proposals]]
+* [[2014/Schedule|Schedule Grid]] - hyperlinked to actual session pages
+* [[2014/demos|Demos]]
+* [[IRC]]
+* etherpad index: http://etherpad.mozilla.org/indiewebcamp
+
+=== Remote Indiewebcamp Parties ===
+
+Indiewebcamp has a strong tradition of remote participation, typically utilising IRC, google hangouts and etherpad during as well as after the event. If you can't get to the Portland event, consider remote participating or finding/running an indiewebcamp remote party near you.
+
+Indieweb Remote Parties:
+
+
+== Get Your Flights and Hotel ==
+Flights: If you're flying from the SF/Bay Area to Portland (PDX),  Alaska, Southwest, and Virgin America are recommended and have frequent flights to PDX.
+
+Hotels:
+* Ace Hotel
+* Paramount Hotel
+* Nearby AirBNB
+
+== Share ==
+See [[buttons]] and put one your blog/site sidebar for IndieWebCamp 2014!
+
+== Blog ==
+Blog and post about IndieWebCamp. See what others are posting: http://tagboard.com/indiewebcamp
+
+== Help Out ==
+=== sponsor ===
+* [[how-to-sponsor|How to sponsor IndieWebCamp]]
+* Pre-party - 
+* Venue - 
+* Breakfast Saturday - 
+* Coffee Saturday - 
+* Lunch Saturday - food cart lunch!
+* Dinner Saturday - sponsored by _____
+* Breakfast Sunday - 
+* Coffee Sunday - 
+* Lunch Sunday - 
+
+=== inbox ===
+Put suggestions for Indie Web Camp 2014 here, inline or as links to your own notes.
+* Improve Remote Participation per http://waterpigs.co.uk/articles/remote-participation
+* ...
+
+=== to-do ===
+This is our unordered "to-do" (GTD next-actions) list for IndieWebCamp 2014. Strike and sign done items and move them to the [[#done|done]] section.
+
+* improve the design and layout of this page since it will be the primary point of entry for many people
+
+* create Calagator event and add it to the lanyrd, plancast links above (and on [[Main_Page]] and on [[Guest_List]].
+
+* Add target audience (Who is this event for?) for web developers & designers. 
+
+* Find [[how-to-sponsor|sponsors]], advertise them through Twitter and other means
+
+* Add Login / Register on top left of nav bar, so it's easier to find.
+
+* Process Andi Galpern's https://docs.google.com/document/d/1mKHAbNfTtyGeVte1WawBPAWHzs_NHwVrsVftZ5OR3iI/edit into discrete inline actions here.
+
+* buy a bunch of the large sticky note pads (multiple colors is good, extras to share with OSBridge even better)
+
+* print "Hello My URL is" nametacs
+** be sure to include Name, URL, other URLs (gtalk, twitter, github), and "IndieWebCamp.com/2014" on it.
+
+See also the overall [[to-do]] page for IndieWebCamp.com in general.
+
+=== done ===
+* create the [[2014/Sessions]] and [[2014/Schedule]] pages from [[2013/Sessions]] and [[2013/Schedule]].
+
+== Other Activities ==
+Other Activities to check out in Portland before / after IndieWebCamp
+* ...
+
+== Previously ==
+* [[2014/NYC]]
+* [[2014/SF]]
+* [[2013]]
+* [[2012]]
+* [[2011]]
+
+== See Also ==
+* [[To-do]] - general IndieWebCamp to-do items
+
+[[Category:2014]]
+[[Category:Events]]

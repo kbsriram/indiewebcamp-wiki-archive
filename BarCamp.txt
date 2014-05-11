@@ -1,0 +1,11 @@
+{{stub}}
+
+'''<dfn>BarCamp</dfn>''' is an open structure for creating and organizing user-generated conferences focused on whatever subject(s) the organizers and attendees decide.
+
+See: 
+* http://barcamp.org/
+* https://en.wikipedia.org/wiki/BarCamp
+
+== See Also ==
+* [[what]]
+* [[indieweb]]
