@@ -12,7 +12,7 @@ Generally useful libraries being developed by IndieWeb participants in Python.
 * [https://github.com/vrypan/webmention-tools webmention-tools], utilities to send webmentions and query [[Webmention.io]]
 * [https://github.com/tommorris/mf2py mf2py], a microformats2 parser 
 ** Bleeding-edge development currently being done on [https://github.com/KartikPrabhu/mf2py Kartik's fork]. Will be folded into the master in the future.
-* [https://github.com/kylewm/mf2util mf2util] is a microformats2-specific parsing utility. Parses dt-* objects into datetime.datetime or datetime.date objects, among other things.
+* [https://github.com/kylewm/mf2util mf2util] is a microformats2-specific parsing utility. Useful for reading the relevant properties for comments and reply-contexts. Also has some special handling for date/times that converts them into Python datetime or date objects.
 
 === Third-party Libraries ===
 
@@ -40,6 +40,7 @@ IndieWeb and interesting dependencies
 * [[Red Wind]] runs [[User:kylewm.com|Kyle Mahan]]'s personal site
 ** Flask
 ** mf2py
+** mf2util
 
 == Hosting ==
 

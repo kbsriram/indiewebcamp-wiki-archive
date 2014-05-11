@@ -1,4 +1,4 @@
-http://indiewebcamp.com/2012/Bring+the+World+Back+Into+Your+Domain
+http://indiewebcamp.com/2012/Bring_the_World_Back_Into_Your_Domain
 
 https://etherpad.mozilla.org/indieweb-aggregation
 

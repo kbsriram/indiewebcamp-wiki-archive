@@ -1,4 +1,4 @@
-http://indiewebcamp.com/2012/Big+Data+Personal+Cloud
+http://indiewebcamp.com/2012/Big_Data_Personal_Cloud
 
 https://etherpad.mozilla.org/indieweb-bigperson
 

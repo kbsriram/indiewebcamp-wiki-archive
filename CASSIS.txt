@@ -1,18 +1,6 @@
-http://indiewebcamp.com/CASSIS
+http://indiewebcamp.com/cassis
 
-{{stub}}
-
-'''<dfn>CASSIS</dfn>''' is an acronym for '''Client And Server Scripting Implementation Subset'''. It's an intersection of the syntaxes of Javascript and PHP, as well as an open source library, cassis.js, that enables writing code once, and having it natively execute in both JS and PHP. Good for anything computational, application middleware logic, parsing, text/string manipulation, etc.
-
-* Project homepage: http://cassisproject.com/
-* Github source: https://github.com/tantek/cassis
-* Follow updates: https://twitter.com/cassisjs
-
-IndieWebCamp community members using CASSIS on their sites:
-* [[User:Tantek.com]] - on tantek.com
-* ...
-
-== see also ==
-* [[POSSE]]
-* [[Projects]]
-* [[Twitter]]
+'''<dfn>cassis</dfn>''' may refer to:
+* [[CASSIS]] - the technology
+* [[cassis.js]] - the open source [[CASSIS]] framework and library
+* a shorthand reference to [http://en.wikipedia.org/wiki/Cr%C3%A8me_de_cassis Crème de cassis]

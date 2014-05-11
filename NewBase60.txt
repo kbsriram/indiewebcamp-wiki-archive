@@ -1,5 +1,5 @@
-http://indiewebcamp.com/NewBase60
+http://indiewebcamp.com/newbase60
 
 {{stub}}
 
-'''<dfn>[http://tantek.com/w/NewBase60 NewBase60]</dfn>''' is a new base 60 numbering system that has numerous advantages over Base64 or other classical base60+ number schemes.
+See http://tantek.com/w/NewBase60.
