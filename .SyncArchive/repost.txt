@@ -1,5 +1,3 @@
-http://indiewebcamp.com/repost
-
 {{stub}}
 
 '''<dfn>repost</dfn>''' is an umbrella term that covers the general practice of republishing another post typically on the same service or [[silo]].
@@ -116,9 +114,6 @@ The post is then displayed in the users dashboard as a reblog and is visible in 
 
 === Facebook ===
 [[Facebook]] has a notion of "share"
-
-=== Repost.us ===
-[[repost.us]] is a verb silo, hosting buttons and a UI for reposting articles which gives you an HTML+JS snippet to embed on your own site. [http://www.repost.us/article-preview/hash/f3854b40aaf0a7a4cc60a52ca243dd9e/ Example repost UI] (seen once the “repost” button is clicked).
 
 == Challenges ==
 The biggest challenge with repost is that currently it's something which is native to silo for silo posts, and nothing more. It's a challenge, because it's not clear how it makes sense in a cross-site manner. 

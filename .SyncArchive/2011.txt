@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011
-
 {{stub}}
 [[Image:indie-web-camp-2011.jpg|250px|thumb|right|<span style="white-space:nowrap">Indie Web Camp [[2011]] by [http://www.flickr.com/photos/aaronpk/5881894938/in/pool-1674979@N25/ @aaronpk]</span>]]
 <div class="h-event vevent">

@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2012/Bring+the+World+Back+Into+Your+Domain
-
 https://etherpad.mozilla.org/indieweb-aggregation
 
 Bring the World Back Into Your Domain

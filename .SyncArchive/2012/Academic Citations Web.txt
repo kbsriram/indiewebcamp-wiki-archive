@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2012/Academic Citations Web
-
 notes from: https://etherpad.mozilla.org/indiewebcamp-citations
 
 IndieWebCamp 2012

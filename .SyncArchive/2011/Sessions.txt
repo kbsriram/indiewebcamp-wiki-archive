@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Sessions
-
 ==Looking for Session Notes? They are [[2011/Schedule|right here]]!==
 
 {{clear}}

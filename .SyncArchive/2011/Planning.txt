@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Planning
-
 Want to help out with making IndieWebCamp happen?
 
 '''Check out the [[Planning|current planning page]]!'''

@@ -1,12 +1,8 @@
-http://indiewebcamp.com/site-deaths
-
 Site deaths are one of the big reasons [[why]] you should own your own identity and content on the web.
 
 = Site Deaths =
 
 This is a chronology of content hosting sites that have died, '''terminating millions (billions?) of permalinks, and breaking the web accordingly'''. This is specifically for content hosting sites which permitted end-user posting. Not random sites nor pure "app" sites where there's no loss of user data. If a game site goes down and takes down play history/scores, or if Gmail went away those would both represent '''loss of user data''' (though no public permalinks).
-
-The tendency for big companies to shut down a service and delete all your things has now even been [http://www.explainxkcd.com/wiki/index.php/1361 satirised by XKCD].
 
 == Upcoming ==
 This is a partial list, please add more, e.g. from other sources like:

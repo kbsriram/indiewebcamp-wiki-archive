@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Guest List
-
 '''Check out the [[Guest List|current Guest List page]]!'''
 
 This page is for historical purposes only from IndieWebCamp 2011. 

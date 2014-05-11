@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Own Your Phone Number
-
 == Notes ==
 * Asterisk hard to use
 * Google voice first time phone numbers are decoupled from devices easily

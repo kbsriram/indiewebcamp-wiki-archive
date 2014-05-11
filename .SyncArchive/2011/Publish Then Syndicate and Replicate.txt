@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Publish Then Syndicate and Replicate
-
 These are session notes from the [[2011]] IndieWebCamp [[2011/Schedule|session]] of the same name.
 
 See [[POSSE]] for current thinking on this subject.

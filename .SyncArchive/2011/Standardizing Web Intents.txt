@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Standardizing Web Intents
-
 =Session Notes=
 
 ==Notes from [[Amber Case]]==

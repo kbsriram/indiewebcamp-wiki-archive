@@ -1,5 +1,3 @@
-http://indiewebcamp.com/2011/Introductions
-
 = Introductions =
 
 First session of the 2011 [[Schedule]].
