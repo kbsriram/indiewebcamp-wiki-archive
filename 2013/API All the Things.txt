@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/API_All_the_Things
+
 {{stub}}
 
 IndieWebCamp [[2013]] session: API All The Things

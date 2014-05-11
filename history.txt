@@ -1,3 +1,5 @@
+http://indiewebcamp.com/history
+
 {{stub}}
 
 This page is for brief one-line descriptions of contextually historic events of and around the indieweb, including blogging precursors, rise and fall of notable social network silos. When writing history, please mention people involved, dates, and sources for each.

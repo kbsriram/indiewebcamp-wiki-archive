@@ -1,3 +1,5 @@
+http://indiewebcamp.com/https
+
 '''<dfn>HTTPS</dfn>''' is an abbreviation for '''Hypertext Transfer Protocol Secure''', a protocol for secure communication, supported by web servers (like [[Apache]] & [[nginx]]) and browsers. HTTPS layers Hypertext Transfer Protocol (HTTP) on top of the SSL/TLS protocol.
 
 There are two primary <span id="Types">types</span> of HTTPS:

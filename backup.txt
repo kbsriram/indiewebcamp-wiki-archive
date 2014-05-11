@@ -1,3 +1,5 @@
+http://indiewebcamp.com/backup
+
 {{stub}}
 
 A '''<dfn>backup</dfn>''' of an indieweb site should have everything necessary to redeploy it on a new [[webhost]]. Typical backups include static files and database exports.

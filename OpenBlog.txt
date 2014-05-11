@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OpenBlog
+
 == Description ==
 OpenBlog is an open source blogging platform currently under development by [[User:ben.thatmustbe.me]].  OpenBlog is based on a fork of system libraries from [http://www.opencart.com OpenCart], an eCommerce software.  OpenBlog uses a simple MVC architecture and uses PHP and MySQL.
 

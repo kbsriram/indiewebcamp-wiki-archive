@@ -1,3 +1,5 @@
+http://indiewebcamp.com/WordPress
+
 [[File:wordpress_logo.png|thumb|right]]
 '''<dfn>WordPress</dfn>''' may refer to
 * '''WordPress open source software''', available at http://wordpress.org

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/remote_participation
+
 {{stub}}
 
 See Barnaby Walters's blog post on [http://waterpigs.co.uk/articles/remote-participation Pros, Cons and a formula for Remote Participation at events].

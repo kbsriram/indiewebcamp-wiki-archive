@@ -1,3 +1,5 @@
+http://indiewebcamp.com/permalinks-fr
+
 ''Cette page a démarré sur [[permalinks]]''
 
 {{stub-fr}}

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/nginx
+
 '''<dfn>[http://wiki.nginx.org/Main Nginx]</dfn>''' is one of the two core HTTPd server [[projects]] ([[Apache]] being the other.)  
 
 Nginx is designed to be modular and you can alter it by building your own binaries. The version you find with most packaging systems come with a core set of features so you may not need to do a custom build.

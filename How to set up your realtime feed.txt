@@ -1,3 +1,5 @@
+http://indiewebcamp.com/How_to_set_up_your_realtime_feed
+
 '''Setting up an Atom feed for realtime publishing.'''
 
 The goal of this post is to collect information on how to prepare your website and Atom feed to publish realtime content.

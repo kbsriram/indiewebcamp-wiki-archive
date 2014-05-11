@@ -1,3 +1,5 @@
+http://indiewebcamp.com/pingback
+
 {{stub}}
 
 '''<dfn>pingback</dfn>''' is a protocol for web sites to notify other web sites when they've posted a link to them (respectively). Pingback superseded [[Trackback]] and it itself has been superseded by the [[webmention]] protocol.

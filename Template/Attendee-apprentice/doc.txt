@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3AAttendee-apprentice/doc
+
 This template is used to generate a block with the '''apprentice''' attendee's information.
 
 == Blank Template ==

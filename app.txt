@@ -1,3 +1,5 @@
+http://indiewebcamp.com/app
+
 <div style="float:right">[http://xkcd.com/1174/ http://imgs.xkcd.com/comics/app.png]</div>
 {{stub}}
 

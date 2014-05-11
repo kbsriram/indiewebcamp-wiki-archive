@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Storytrl-fr
+
 ''Cette page a démarré sur [[iwc:Storytlr]] et migrera sur [[iwc:Storytrl-fr]]''
 
 '''<dfn>[http://storytlr.org Storytlr]</dfn>''' est une plate-forme de lifestreaming open-source. Elle syndique automatiquement le contenu provenant de plusieurs services sociaux (twitter, youtube, flickr, etc.) et supporte la publication de contenus avec syndication vers Twitter. Ce qui en fait un outil génial pour une approche soit [[POSSE-fr|POSSE]] ou [[PESOS-fr|PESOS]] vers l'indieweb. D'autres fonctionnalités comprennent le flux Activitystream avec support PuSH, le support de Webfinger, le support des microformats, l'API AtomPub (expérimentale), Pingback et plus encore.

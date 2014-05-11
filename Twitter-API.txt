@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Twitter-API
+
 {{stub}}
 
 The '''<dfn>Twitter API</dfn>''' is a [[proprietary]] [[API]] for accessing [[Twitter]] content and services.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/sanitize
+
 {{stub}}
 
 '''<dfn>sanitize</dfn>''', specifically "sanitizing HTML" and/or "sanitizing for (display inside) HTML" is a common operation performed by any site which displays content from external sources, including user entry.

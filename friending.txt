@@ -1,3 +1,5 @@
+http://indiewebcamp.com/friending
+
 {{stub}}
 
 '''<dfn>friending</dfn>''' is a general term applied to the various [[silo]] user interactions with sites where you can:

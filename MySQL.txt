@@ -1,3 +1,5 @@
+http://indiewebcamp.com/MySQL
+
 {{stub}}
 
 '''<dfn>MySQL</dfn>''' is open source [[database]] software that is often used to store data in various CMS's, e.g. [[WordPress]] and [[MediaWiki]].

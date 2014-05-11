@@ -1,3 +1,5 @@
+http://indiewebcamp.com/storage
+
 {{stub}}
 
 '''<dfn>storage</dfn>''' in the context of the indieweb usually refers to how you are storing your data, specifically in what kind of storage format(s).

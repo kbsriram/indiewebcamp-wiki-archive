@@ -1,3 +1,5 @@
+http://indiewebcamp.com/WebFinger
+
 [http://webfinger.net/ WebFinger] is a [[discovery]] protocol for the web. It aims to bring functionality found in the unix finger tool to the web, using email address-like identifiers or fully qualified URLs to represent people.
 
 == Problems ==

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Nominatim
+
 {{stub}}
 
 Nominatim ([http://nominatim.openstreetmap.org/ UI], [https://wiki.openstreetmap.org/wiki/Nominatim documentation] is a piece of open source software and a hosted instance based on [[OpenStreetMap]] data for geocoding and reverse geocoding, i.e. deriving coordinates from a physical address or vice versa.

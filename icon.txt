@@ -1,3 +1,5 @@
+http://indiewebcamp.com/icon
+
 An '''<dfn>icon</dfn>''' in the context of the indieweb typically refers to a home page icon for an indieweb site. Different [[platforms]] require different markup to set an icon for a home page shortcut.
 
 == Markup ==

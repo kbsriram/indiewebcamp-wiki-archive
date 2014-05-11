@@ -1,3 +1,5 @@
+http://indiewebcamp.com/events/2014-02-07-design-privacy-mobile-web-apps
+
 <div class="h-event">
 = <span class="p-name">IxDA14: Designing for privacy in mobile and web apps</span> =
 

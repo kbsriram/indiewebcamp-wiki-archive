@@ -1,3 +1,5 @@
+http://indiewebcamp.com/subdomains
+
 {{stub}} 
 
 While having your own domain is great, sometimes it makes more sense to have your primary identity on the web represented on a sub-domain.

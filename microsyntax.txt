@@ -1,3 +1,5 @@
+http://indiewebcamp.com/microsyntax
+
 {{stub}}
 
 '''<dfn>microsyntax</dfn>''' refers to short text conventions for conveying specific semantic meaning, such as an "@" prefix indicating a (user)name, or "#" prefix indicating a [[hashtag]] (both conventions popularized by [[Twitter]]).

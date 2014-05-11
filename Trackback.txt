@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Trackback
+
 {{stub}}
 
 '''<dfn>[http://movabletype.org/documentation/trackback/specification.html TrackBack]</dfn>''' was a protocol for web sites to notify other web sites when they've posted a link to them (respectively). It was superseded by [[pingback]], which itself has been superseded by the [[webmention]] protocol.

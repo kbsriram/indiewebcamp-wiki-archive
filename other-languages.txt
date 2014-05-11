@@ -1,3 +1,5 @@
+http://indiewebcamp.com/other-languages
+
 = List of IndieWebCamp wiki translations =
 
 You may read and edit IndieWebCamp articles in other languages.

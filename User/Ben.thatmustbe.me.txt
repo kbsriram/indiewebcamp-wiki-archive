@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ABen.thatmustbe.me
+
 Hey, I'm Ben Roberts.  Here's a bullet list about me (until I can get my personal site up and running).
 
 I am currently developing [http://ben.thatmustbe.me my personal site].

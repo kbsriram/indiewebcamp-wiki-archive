@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Reeder
+
 {{ stub }}
 
 [http://reederapp.com/ios Reeder] is a traditional feed reader on iOS.  

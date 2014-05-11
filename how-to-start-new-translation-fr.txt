@@ -1,3 +1,5 @@
+http://indiewebcamp.com/how-to-start-new-translation-fr
+
 = Comment démarrer un article wiki IndieWebCamp dans une autre langue =
 
 == Intro ==

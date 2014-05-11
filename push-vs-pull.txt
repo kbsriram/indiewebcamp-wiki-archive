@@ -1,3 +1,5 @@
+http://indiewebcamp.com/push-vs-pull
+
 {{stub}}
 
 This page explores why pull might be better than push for most things on the indieweb. Push has it's place (like with [[webmention]]; basically one-to-one pings), but for most things especially feeds you could start off with pull and then implement push if you '''really''' need it.

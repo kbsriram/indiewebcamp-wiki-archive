@@ -1,3 +1,5 @@
+http://indiewebcamp.com/LinkedIn
+
 {{stub}}
 
 '''<dfn>[http://linkedin.com/ LinkedIn]</dfn>''' is a special-purpose [[silo]] for hosting your professional resume / history.

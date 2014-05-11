@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/Sign_In_With_Your_Name
+
 Part of [[2012/Schedule]].
 
 '''Sign up & sign in with your name!'''

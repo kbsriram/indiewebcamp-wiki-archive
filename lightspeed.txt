@@ -1,3 +1,5 @@
+http://indiewebcamp.com/lightspeed
+
 {{stub}}
 
 '''<dfn>[http://www.litespeedtech.com/ LightSpeed]</dfn>''' [HTTPD] is an [[Apache]] drop-in replacement web server.

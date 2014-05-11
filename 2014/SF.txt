@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/SF
+
 <div class="h-event vevent">
 = <span class="p-name summary">IndieWebCampSF 2014</span> =
 [[Image:indie-web-camp2014-sf.jpg|250px|thumb|right|<span>Indie Web Camp [[2014/SF|SF 2014]] by [http://aaronparecki.com/notes/2014/03/08/4/indiewebcamp-indieweb-sf @aaronpk]</span>]]

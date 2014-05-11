@@ -1,3 +1,5 @@
+http://indiewebcamp.com/events/2012
+
 = IndieWeb 2012 events =
 
 IndieWeb related events (including events which have sessions on the indie web) in 2012

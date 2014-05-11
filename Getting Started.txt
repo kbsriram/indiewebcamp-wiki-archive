@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Getting_Started
+
 = Getting Started on the IndieWeb =
 Perhaps you relate to all the reasons [[why]] you should be on the indie web but you're not sure how.
 

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/wiki-page
+
 {{stub}}
 
 A '''<dfn>wiki page</dfn>''' is a type of web page that many in the IndieWebCamp community either want to or already host on their own personal site.

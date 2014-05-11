@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3ANavbox-row
+
 <includeonly>
 	<tr>
 		<th scope="row" class="navbox-group" style="padding: 0.25em 1em; background-color: #ddddff; border-bottom: 2px solid #fff;"> {{{title}}}</th>

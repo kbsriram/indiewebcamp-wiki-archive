@@ -1,3 +1,5 @@
+http://indiewebcamp.com/cassis
+
 '''<dfn>cassis</dfn>''' may refer to:
 * [[CASSIS]] - the technology
 * [[cassis.js]] - the open source [[CASSIS]] framework and library

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/POSSE_to_Facebook
+
 There are multiple ways to [[POSSE]] out from your indieweb site to your [[Facebook]] profile.
 
 Existing techniques:

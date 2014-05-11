@@ -1,3 +1,5 @@
+http://indiewebcamp.com/payment
+
 {{stub}}
 
 '''<dfn>payment</dfn>''' in the context of the indieweb refers to a feature on an indie web site that provides a way for the visitor to that website to pay (currency, gift card credit, etc.) the person represented by that indie web site.

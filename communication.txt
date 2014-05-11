@@ -1,3 +1,5 @@
+http://indiewebcamp.com/communication
+
 {{stub}}
 
 '''<dfn>communication</dfn>''' in the context of the indieweb refers to using your personal website as a starting point and potentially way for people to communicate with you.

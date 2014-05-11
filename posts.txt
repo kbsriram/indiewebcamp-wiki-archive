@@ -1,3 +1,5 @@
+http://indiewebcamp.com/posts
+
 <dfn>Post</dfn> or <dfn>posts</dfn> may refer to:
 * [[posts#IndieWeb_posts|IndieWeb posts]], e.g. [[notes]], [[articles]], etc.
 ** The act of creating the aforementioned content (present tense)

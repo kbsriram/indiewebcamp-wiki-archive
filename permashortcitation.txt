@@ -1,3 +1,5 @@
+http://indiewebcamp.com/permashortcitation
+
 {{stub}}
 
 A '''<dfn>permashortcitation</dfn>''' (or '''<dfn>permashortid</dfn>''') is a short <em>non-hyperlinked</em> [[citation]] to a [[post]] [[permalink]], in contrast to a [[permashortlink]] which does hyperlink to a post. Permashortcitations are often used in [[POSSE]] copies of posts where the entire content of the post fits in the copy.

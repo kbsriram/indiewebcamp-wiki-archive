@@ -1,3 +1,5 @@
+http://indiewebcamp.com/home_page-fr
+
 <cite class="h-cite">Cette page a démarré sur [[home page]]</cite>
 
 {{stub-fr}}

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Twitpic
+
 {{stub}}
 
 '''<dfn>[http://twitpic.com Twitpic]</dfn>''' is a [[photo]] [[silo]] designed for sharing photos on [[Twitter]].

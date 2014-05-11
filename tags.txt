@@ -1,3 +1,5 @@
+http://indiewebcamp.com/tags
+
 {{stub}}
 
 '''<dfn>tags</dfn>''' or '''<dfn>tagging</dfn>''' may refer to:

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/cassis.js
+
 {{stub}}
 
 '''<dfn>cassis.js</dfn>''' is the open source framework and library implementation of [[CASSIS]]:

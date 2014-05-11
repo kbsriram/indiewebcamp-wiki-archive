@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Hakkan
+
 '''<dfn>[https://github.com/bear/hakkan Hakkan]</dfn>''' is meant to be a publishing tool for static sites that want to participate in the IndieWeb realm.
 
 People using it on their own site:

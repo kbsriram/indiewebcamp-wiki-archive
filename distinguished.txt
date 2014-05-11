@@ -1,3 +1,5 @@
+http://indiewebcamp.com/distinguished
+
 {{stub}}
 
 While the IndieWeb shares many of its principles with other efforts/communities, yet there are some key aspects that '''<dfn>distinguish</dfn>''' the IndieWeb from previous efforts.

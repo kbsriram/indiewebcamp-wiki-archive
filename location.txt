@@ -1,3 +1,5 @@
+http://indiewebcamp.com/location
+
 {{stub}}
 
 '''<dfn>location</dfn>''' is a key aspect of [[checkin]] and [[event]] [[posts]]. It's also sometimes an aspect of posts in general, e.g. where a [[note]] or [[photo]]/[[video]] was posted from. The aspect of location is sometimes referred to as [[geo]] for short.

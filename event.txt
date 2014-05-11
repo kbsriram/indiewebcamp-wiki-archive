@@ -1,3 +1,5 @@
+http://indiewebcamp.com/event
+
 {{stub}}
 
 An '''<dfn>event</dfn>''' is a type of [[post]] that in addition to a post name (event title) has a start datetime (likely end datetime), and a location.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/Schedule
+
 This is the 2012 IndieWebCamp schedule: June 30 - July 1, 2012 (also on [http://calagator.org/events/1250460790 calagator.org], [http://lanyrd.com/2012/indiewebcamp/ Lanyrd.com], [http://plancast.com/p/64ht Plancast])
 * see previously: the [[2011/Schedule|2011 IndieWebCamp Schedule]]
 

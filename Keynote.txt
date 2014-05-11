@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Keynote
+
 {{stub}}
 
 '''<dfn>Keynote</dfn>''' is an [[Apple]] proprietary software application for creating [[presentation]] files.

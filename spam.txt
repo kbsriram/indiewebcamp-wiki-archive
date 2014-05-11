@@ -1,3 +1,5 @@
+http://indiewebcamp.com/spam
+
 {{stub}}
 
 '''<dfn>spam</dfn>''' is unsolicited content, often transmitted via [[email]], submitted as blog [[comments]] or posted to [http://microformats.org/wiki/Special:RecentChanges popular wikis].

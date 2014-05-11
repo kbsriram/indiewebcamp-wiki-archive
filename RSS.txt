@@ -1,3 +1,5 @@
+http://indiewebcamp.com/RSS
+
 {{stub}}
 
 '''<dfn>RSS</dfn>''' is a legacy XML format for syndicating typically time-stamped content from web sites. <abbr>RSS</abbr> is an acronym that that stands for: Rich Site Summary (originally RDF Site Summary, often dubbed Really Simple Syndication)[http://en.wikipedia.org/wiki/RSS]. [[Atom]] is an alternative XML format for [[feeds]].

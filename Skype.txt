@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Skype
+
 {{stub}}
 
 '''<dfn>[http://skype.com/ Skype]</dfn>''' is a [[communication]] service that provides text [[chat]], and audio/video calling service via native applications on desktop (Mac, Windows), and [[mobile]] (iOS, Android).

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/posts-elsewhere
+
 {{stub}}
 
 Several IndieWeb blogs have sections on their [[posts]] permalink pages that link to [[POSSE]] syndicated versions of their posts on [[silos]], and sometimes on commentary silos like Hacker News. This page here to document examples of such "posts elsewhere" user interfaces and suggested markup.

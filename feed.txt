@@ -1,3 +1,5 @@
+http://indiewebcamp.com/feed
+
 A '''<dfn>feed</dfn>''' is a collection of [[posts]], typically listed in reverse-chronological order. Homepage feeds usually contain all posts by the author, but many also choose to publish filtered feeds, for example posts of a particular type, or tagged with a particular tag.
 
 Feeds, if correctly marked up, can be subscribed to, parsed and presented by [[readers]].

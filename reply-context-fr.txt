@@ -1,3 +1,5 @@
+http://indiewebcamp.com/reply-context-fr
+
 ''Cette page a démarré sur [[reply-context]]''
 
 Sur un post de [[reply-fr|réponse]], il existe une pratique commune (pratique établie probablement par [[Twitter-fr|Twitter]] sur les permaliens du tweet) d'afficher le contexte, à savoir à quel post le post répond-t-il, en incluant un lien vers ce post original avec [[rel-in-reply-to-fr|rel-in-reply-to]].

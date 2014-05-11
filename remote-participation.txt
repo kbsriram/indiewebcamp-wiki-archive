@@ -1,3 +1,5 @@
+http://indiewebcamp.com/remote-participation
+
 {{stub}}
 
 For remote participation at events, the built-in camera and microphone on laptops or mobile devices is usually not sufficient. To get a better quality link between locations, a separate camera with a microphone designed to pick up sound in larger spaces is needed. 

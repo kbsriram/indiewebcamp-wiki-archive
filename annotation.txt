@@ -1,3 +1,5 @@
+http://indiewebcamp.com/annotation
+
 {{stub}}
 
 An '''annotation''' is a comment added to arbitrary fragments of a post, in contrast to a  [[comment|traditional comment]] which refers to the entire post.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/osfw3c
+
 {{stub}}
 
 '''<dfn>#osfw3c</dfn>''' is a hashtag for the W3C Social Web [[events|event]].

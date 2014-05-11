@@ -1,3 +1,5 @@
+http://indiewebcamp.com/comments-presentation-fr
+
 ''Cette page a démarré sur [[comments-presentation]]''
 
 = Présentation de Commentaires =

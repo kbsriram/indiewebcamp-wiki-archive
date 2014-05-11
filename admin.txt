@@ -1,3 +1,5 @@
+http://indiewebcamp.com/admin
+
 {{stub}}
 
 '''<dfn>admin</dfn>''' in the context of the indieweb refers to the act of and UI for signing-into, installing, configuring, updating, backing up a personal site and anything else that has nothing do with [[creating]] or [[reading]] the [[posts]] themselves.

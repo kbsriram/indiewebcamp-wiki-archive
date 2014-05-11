@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IndieMark
+
 '''<dfn>IndieMark</dfn>''' is a set of metrics for measuring the indieweb-ness of a site.
 
 IndieMark helps us as a community measure our progress both individually and collectively.

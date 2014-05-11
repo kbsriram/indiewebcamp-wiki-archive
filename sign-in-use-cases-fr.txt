@@ -1,3 +1,5 @@
+http://indiewebcamp.com/sign-in-use-cases-fr
+
 ''Cette page a démarré sur [[sign-in-use-cases]]''
 
 = Cas d'Usages de Connexion Web Indie Web =

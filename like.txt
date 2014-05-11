@@ -1,3 +1,5 @@
+http://indiewebcamp.com/like
+
 {{stub}}
 
 '''<dfn>like</dfn>''' is a popular [[webaction]] button and in some cases [[post]] type on various [[silos]] such as [[Facebook]] and [[Instagram]]. It is similar to but different from a [[favorite]].

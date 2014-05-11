@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Federated_Social_Web
+
 {{stub}}
 
 The phrase '''<dfn>Federated Social Web</dfn>''' may refer to:

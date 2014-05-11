@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Ethereum
+
 {{stub}}
 
 '''<dfn>[http://ethereum.org Ethereum]</dfn>''' is a [[project]] that implements a bitcoin/cryptocurrency like block chain used for sending around "contracts".  It sounds similar to sending around bitcoins to wallet addresses, but in addition to an amounts of coin you want to send or notes, the contracts can also execute code.  

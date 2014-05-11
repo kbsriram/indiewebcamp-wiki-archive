@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Disqus
+
 {{stub}}
 
 '''<dfn>[http://disqus.com/ Disqus]</dfn>''' is a [[comments]] hosting [[silo]].

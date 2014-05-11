@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Homesteading
+
 {{stub}}
 
 '''<dfn>Homesteading</dfn>''' is a personal publishing platform [[project]] (created with [http://rubyonrails.org Ruby on Rails]) where the creator [http://indiewebcamp.com/own-your-data owns the content] and can [http://indiewebcamp.com/POSSE syndicate copies] to [http://indiewebcamp.com/silo third parties]. Currently, it runs [http://iamshane.com iamshane.com].

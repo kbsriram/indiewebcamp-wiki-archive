@@ -1,3 +1,5 @@
+http://indiewebcamp.com/stream
+
 {{stub}}
 
 A '''<dfn>stream</dfn>''' refers to a collection of [[posts]], typically time-ordered, similar to a [[feed]], but updated in real-time, with updates propagated via a notification-based protocol like [[PuSH]], and published as HTML ([[hAtom]]/[[h-entry]]).

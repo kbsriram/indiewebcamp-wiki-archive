@@ -1,3 +1,5 @@
+http://indiewebcamp.com/note-list
+
 Displaying a list of notes (tweets/status updates, i.e. short textual messages. Often highly time-context sensitive) is such a hugely common activity.
 
 == Documented Examples ==

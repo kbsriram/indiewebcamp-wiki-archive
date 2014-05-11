@@ -1,3 +1,5 @@
+http://indiewebcamp.com/page-name-discovery
+
 {{stub}}
 
 '''<dfn>page name discovery</dfn>''' is the process of starting from a URL and its HTML and coming up with human readable text to use as linktext for that URL when linking to it, e.g. in response to receiving a [[webmention]].

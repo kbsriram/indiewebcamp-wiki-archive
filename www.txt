@@ -1,3 +1,5 @@
+http://indiewebcamp.com/www
+
 {{stub}}
 
 '''<dfn>www</dfn>''' in the context of the IndieWeb is an unnecessary subdomain on personal [[domain name]]. "www." used to be expected as a convention for websites on a domain, but has long since been abandoned.

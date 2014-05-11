@@ -1,3 +1,5 @@
+http://indiewebcamp.com/ActivityStreams
+
 <span style="float:right">http://snarfed.org/activitystreams_logo.png</span>
 {{stub}}
 

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/create
+
 {{stub}}
 
 '''<dfn>create</dfn>''' in the context of the indieweb refers to the act of and [[UI]] for creating a new [[post]].

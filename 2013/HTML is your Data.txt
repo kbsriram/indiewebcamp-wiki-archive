@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/HTML_is_your_Data
+
 {{stub}}
 
 Notes archived from https://etherpad.mozilla.org/indiewebcamp-htmldata — probably need cleaning --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 10:31, 24 June 2013 (PDT)

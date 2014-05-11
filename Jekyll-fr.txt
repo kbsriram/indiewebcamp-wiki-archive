@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Jekyll-fr
+
 ''Cette page a démarré sur [[Jekyll]]''
 
 {{stub-fr}}

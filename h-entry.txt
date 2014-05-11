@@ -1,3 +1,5 @@
+http://indiewebcamp.com/h-entry
+
 {{stub}}
 
 '''<dfn>[http://microformats.org/wiki/h-entry h-entry]</dfn>''' is the [[microformats2]] vocabulary for marking up blog [[posts]] on web sites. It can also be used to mark-up any other episodic or time series based content.

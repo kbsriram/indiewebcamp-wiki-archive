@@ -1,3 +1,5 @@
+http://indiewebcamp.com/mobile
+
 {{stub}}
 
 '''<dfn>mobile</dfn>''', in the context of the indieweb could refer to several related things:

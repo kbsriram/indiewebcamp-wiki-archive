@@ -1,3 +1,5 @@
+http://indiewebcamp.com/mention-app
+
 {{stub}}
 
 This is a collection of notes for creating a mobile app to handle mobile notifications of webmentions of a person's website.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/h-cite
+
 {{stub}}
 
 '''<dfn>[http://microformats.org/wiki/h-cite h-cite]</dfn>''' is the [[microformats2]] vocabulary for marking up citations and references on web sites.

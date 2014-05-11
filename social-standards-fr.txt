@@ -1,3 +1,5 @@
+http://indiewebcamp.com/social-standards-fr
+
 ''Cette page a démarré sur [[social-standards]]''
 
 Les '''<dfn>standards sociaux</dfn>''' font référence aux standards du web qui disposent d'une composante sociale, ce qui veut dire, pour les personnes (par ex. [[h-card-fr|h-card]]), les relations entre les personnes (par ex. [[xfn-fr|XFN]]), le contenu publié par les personnes supposé être lu (par ex. [[h-entry-fr|h-entry]]) &amp; répondu comme tel (par ex. [[rel-in-reply-to-fr|rel-in-reply-to]]), et les notifications afférentes  (par ex. [[webmention-fr|webmention]]).

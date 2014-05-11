@@ -1,3 +1,5 @@
+http://indiewebcamp.com/CC0
+
 {{stub}}
 
 '''<dfn>[http://creativecommons.org/choose/zero/ CC0]</dfn>''' is an abbreviation for '''Creative Commons Zero''' and an internationally-aware form of a public domain declaration.

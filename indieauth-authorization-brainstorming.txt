@@ -1,3 +1,5 @@
+http://indiewebcamp.com/indieauth-authorization-brainstorming
+
 {{indieauth-todo}}
 
 Currently, [[IndieAuth]] is only trying to identify who someone is. When you sign in to the wiki, the wiki is able to verify that the person signing in has control over the domain name.

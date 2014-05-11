@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OpenID
+
 {{stub}}
 
 '''<dfn>[https://en.wikipedia.org/wiki/OpenID OpenID]</dfn>''' is a method of using an HTTP URL as an identity for signing into websites. OpenID has been superseded by [[web-sign-in]] / [[indieauth]].

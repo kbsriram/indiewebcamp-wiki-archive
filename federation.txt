@@ -1,3 +1,5 @@
+http://indiewebcamp.com/federation
+
 {{stub}}
 
 '''<dfn>federation</dfn>''' in the context of the indieweb refers to services and features on indieweb sites that work directly with other indieweb sites peer-to-peer, without being bottlenecked by any kind of centralized service or [[silo]]. 

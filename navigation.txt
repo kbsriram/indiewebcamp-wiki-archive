@@ -1,3 +1,5 @@
+http://indiewebcamp.com/navigation
+
 {{stub}}
 
 Navigation refers to the UI, UX and markup allowing people to move around a website. On indieweb sites this often consists of:

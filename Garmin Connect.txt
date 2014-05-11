@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Garmin_Connect
+
 == Data Export ==
 
 * You can use [https://tapiriik.com/ tapiriik] (for free) to sync GPS files between a number of destinations, including a Dropbox folder.

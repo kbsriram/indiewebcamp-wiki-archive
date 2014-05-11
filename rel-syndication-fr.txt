@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-syndication-fr
+
 ''Cette page a démarré sur [[rel-syndication]]''
 
 {{stub-fr}}

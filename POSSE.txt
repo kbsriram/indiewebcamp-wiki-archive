@@ -1,3 +1,5 @@
+http://indiewebcamp.com/POSSE
+
 '''<dfn>POSSE</dfn>''' is an acronym/abbreviation for '''Publish (on your) Own Site, Syndicate Elsewhere'''. It's a [[syndication-models|Syndication Model]] where the flow involves posting your content on your own domain first, then syndicating out copies to 3rd party services with perma(short)links back to the original version.
 
 POSSE lets your friends keep using whatever silo aggregator ([[Facebook]], [[Twitter]], etc.) they've been using to read your stuff.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/icon-fr
+
 '' Cette page a démarré sur [[icon]]''
 
 Une '''<dfn>icône</dfn>''' dans le contexte indieweb fait typiquement référence à une icône de page d'accueil d'un site indieweb. Différentes [[platforms-fr|plates-formes]] requièrent de régler une icône pour un raccourci vers la page d'accueil.

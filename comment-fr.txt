@@ -1,3 +1,5 @@
+http://indiewebcamp.com/comment-fr
+
 ''Cette page a démarré sur [[comment]]''
 
 Un '''<dfn>commentaire</dfn>''' est une forme de [[post-fr|post]] qui vient en réponse à quelque autre post, ce qui peut ou ne pas faire sens sans lire ou au moins connaître le contexte du post source.

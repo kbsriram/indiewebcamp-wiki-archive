@@ -1,3 +1,5 @@
+http://indiewebcamp.com/syndication-models
+
 = Syndication Models =
 
 Most indieweb publishing flows involve a step involving third party services.

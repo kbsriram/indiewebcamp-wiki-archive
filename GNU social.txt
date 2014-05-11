@@ -1,3 +1,5 @@
+http://indiewebcamp.com/GNU_social
+
 {{stub}}
 
 '''<dfn>[https://www.gnu.org/software/social/ GNU social]</dfn>''' is an open source [[project]] that "will be a decentralized social network that you can install on your own server"[https://www.gnu.org/software/social/]

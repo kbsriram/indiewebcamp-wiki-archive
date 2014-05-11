@@ -1,3 +1,5 @@
+http://indiewebcamp.com/SBCE
+
 = Set-based concurrent engineering (SBCE) =
 
 "One of the ideas in lean product development is the notion of set-based concurrent engineering: considering a solution as the intersection of a number of feasible parts, rather than iterating on a bunch of individual "point-based" solutions. This lets several groups work at the same time, as they converge on a solution." -[http://xp123.com/articles/set-based-concurrent-engineering/]

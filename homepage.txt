@@ -1,3 +1,5 @@
+http://indiewebcamp.com/homepage
+
 {{stub}}
 
 Your homepage represents you on the web. Typically it’s at the root of your domain (e.g. example.com).

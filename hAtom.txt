@@ -1,3 +1,5 @@
+http://indiewebcamp.com/hAtom
+
 {{stub}}
 
 <dfn>[http://microformats.org/wiki/hatom hAtom]</dfn> is a standard [[microformat]] for syndicating [[posts]] both in home pages (akin to [[feeds]]), and in [[archives]].

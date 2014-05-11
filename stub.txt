@@ -1,3 +1,5 @@
+http://indiewebcamp.com/stub
+
 {{stub}}
 
 A '''stub''' is an article that is brand new or considered incomplete by the authors/contributors, based on opinion or arbitrary measure. Contributors are encouraged to expand these articles.

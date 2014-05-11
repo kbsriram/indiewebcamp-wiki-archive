@@ -1,3 +1,5 @@
+http://indiewebcamp.com/h-card
+
 {{stub}}
 
 '''<dfn>[http://microformats.org/wiki/h-card h-card]</dfn>''' is the [[microformats2]] vocabulary for marking up people, organizations, and venues on web sites.

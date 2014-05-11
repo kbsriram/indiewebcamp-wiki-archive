@@ -1,3 +1,5 @@
+http://indiewebcamp.com/LiveJournal
+
 {{stub}}
 
 '''<dfn>[http://livejournal.com/ LiveJournal]</dfn>''' is a blogging [[silo]].

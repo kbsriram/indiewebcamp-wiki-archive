@@ -1,3 +1,5 @@
+http://indiewebcamp.com/datetime
+
 {{stub}}
 
 '''<dfn>datetime</dfn>''' refers to an expression of the date (year, month, day), time (hours, minutes, optionally seconds), and optionally timezone. On the indieweb, datetimes are most often published as part of [[posts]], specifically as the [[h-entry]] [[microformats2]] markup for <code>dt-published</code> and <code>dt-updated</code> properties. 

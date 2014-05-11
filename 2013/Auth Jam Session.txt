@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Auth_Jam_Session
+
 {{stub}}
 
 notes at: https://etherpad.mozilla.org/indiewebcamp-indieauth

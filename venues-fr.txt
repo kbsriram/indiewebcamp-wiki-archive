@@ -1,3 +1,5 @@
+http://indiewebcamp.com/venues-fr
+
 ''Cette page a démarré sur [[venues]]''
 
 {{stub-fr}}

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/The-Open-Graph-protocol
+
 {{stub}}
 
 '''<dfn>[http://ogp.me/ The Open Graph protocol]</dfn>''' (OGP) is an open* standard developed by [[Facebook]] for annotating the primary subject of an HTML page via a set of custom <code>&lt;meta&gt;</code> tags in the document head.

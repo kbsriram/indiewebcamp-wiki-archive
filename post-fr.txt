@@ -1,3 +1,5 @@
+http://indiewebcamp.com/post-fr
+
 ''Cette page a démarré sur [[iwc:post]] et migre sur [[iwc:post-fr]]
 
 {{stub-fr}}

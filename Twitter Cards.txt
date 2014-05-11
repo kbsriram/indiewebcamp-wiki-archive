@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Twitter_Cards
+
 {{stub}}
 
 '''<dfn>[https://dev.twitter.com/docs/cards Twitter Cards]</dfn>''' are [[Twitter]]'s use of [[OGP]] and their own proprietary <code>&lt;meta&gt;</code> tags to provide [[link-preview]] information as part of tweets with links.

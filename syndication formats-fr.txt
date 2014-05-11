@@ -1,3 +1,5 @@
+http://indiewebcamp.com/syndication_formats-fr
+
 Cette page migrera sur [[iwc:syndication formats-fr]]
 
 Le contenu hébergé sous votre domaine devrait être présenté comme marqué sémantiquement avec HTML+microformats. Si vous n'avez pas encore fait ça, faites-le maintenant !

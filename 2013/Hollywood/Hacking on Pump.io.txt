@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Hollywood/Hacking_on_Pump.io
+
 * http://bret.io (Remote participant in IRC)
 
 I'm working on setting up a local pump.io enviroment with the eventual goal of sending some PRs to make pump.io indieweb friendly.  Anyone else is welcome to join!

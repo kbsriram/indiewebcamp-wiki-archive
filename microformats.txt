@@ -1,3 +1,5 @@
+http://indiewebcamp.com/microformats
+
 <span style="float:right">https://skitch-img.s3.amazonaws.com/20090608-e87t466nar8rsmiqy783bsstc8.png</span>
 {{stub}}
 

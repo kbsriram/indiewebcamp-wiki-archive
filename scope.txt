@@ -1,3 +1,5 @@
+http://indiewebcamp.com/scope
+
 {{stub}}
 
 In [[OAuth]], scope is a way to selectively grant access to parts of your account to third-party applications.

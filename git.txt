@@ -1,3 +1,5 @@
+http://indiewebcamp.com/git
+
 {{ stub }}
 
 Git is a popular distributed source control management system available on all platforms.

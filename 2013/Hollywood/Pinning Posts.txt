@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Hollywood/Pinning_Posts
+
 More thinking on pinned / sticky posts:
 * WordPress has supported sticky posts since 2.7
 * Want to pin a post that's temporally relevant - e.g. before an event (human) or site shutdown.

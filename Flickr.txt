@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Flickr
+
 {{stub}}
 
 '''<dfn>[http://flickr.com Flickr]</dfn>''' is a [[silo]] for storing and organizing [[photos]] and short (max 90sec) & small (max 150MB) [[videos]].

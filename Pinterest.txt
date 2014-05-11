@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Pinterest
+
 {{stub}}
 
 [http://pinterest.com Pinterest] is a [[silo]] where users can 'pin' content to pinboards and follow pinboards created by others.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/messaging
+
 {{stub}}
 
 '''<dfn>messaging</dfn>''' refers to one user sending another user a message. There are numerous technologies for such personal messaging.

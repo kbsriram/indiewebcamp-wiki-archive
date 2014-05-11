@@ -1,3 +1,5 @@
+http://indiewebcamp.com/email
+
 '''<dfn>Email</dfn>''' is a decentralized, non-web messaging transport. 
 
 == Use cases ==

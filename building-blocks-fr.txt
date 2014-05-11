@@ -1,3 +1,5 @@
+http://indiewebcamp.com/building-blocks-fr
+
 Statut : page à migrer sur [[iwc:building-blocks-fr]]
 
 = Blocs de construction =

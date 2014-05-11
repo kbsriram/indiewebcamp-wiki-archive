@@ -1,3 +1,5 @@
+http://indiewebcamp.com/micropub
+
 {{stub}}
 
 Micropub is an API spec that is used to create h-entry or h-event posts on one's own domain using third-party clients.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Red_Wind
+
 == Description ==
 [[User:kylewm.com]]'s Red Wind ([http://git.kylewm.com/?p=redwind.git;a=summary source code]) is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but unstable and undocumented and probably not of much use to anyone but the author, at least for now.
 

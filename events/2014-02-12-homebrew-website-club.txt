@@ -1,3 +1,5 @@
+http://indiewebcamp.com/events/2014-02-12-homebrew-website-club
+
 <div class="h-event vevent">
 = <span class="p-name summary">Homebrew Website Club Meeting</span> =
 == Details ==

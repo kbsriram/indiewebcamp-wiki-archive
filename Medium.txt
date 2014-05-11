@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Medium
+
 {{stub}}
 
 '''<dfn>[http://medium.com Medium]</dfn>''' is an [[article]] hosting [[silo]].

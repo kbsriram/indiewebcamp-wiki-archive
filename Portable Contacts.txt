@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Portable_Contacts
+
 {{stub}}
 
 '''<dfn>[http://portablecontacts.net/ Portable Contacts]</dfn>''' (often abbreviated as <abbr>PoCo</abbr>) is a proposed 2008 specification for exchange of contact info that uses a one-off [[JSON]] format.

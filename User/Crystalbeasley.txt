@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ACrystalbeasley
+
 This is Crystal Beasley's old User: page (pre-[[IndieAuth]]).
 
 <span class="h-card">

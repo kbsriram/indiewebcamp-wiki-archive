@@ -1,3 +1,5 @@
+http://indiewebcamp.com/sync
+
 {{stub}}
 
 '''<dfn>sync</dfn>''' is short for synchronize / synchronizing (AKA syncing) / synchronization and refers to the process of keeping data consistent between two or more devices (including servers).

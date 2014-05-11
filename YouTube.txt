@@ -1,3 +1,5 @@
+http://indiewebcamp.com/YouTube
+
 {{stub}}
 
 '''<dfn>[http://youtube.com YouTube]</dfn>''' is a [[video]] hosting [[silo]] that has known [[#Issues|issues]].

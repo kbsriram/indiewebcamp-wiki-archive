@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Salmon
+
 {{stub}}
 
 '''<dfn>[http://www.salmon-protocol.org/ Salmon]</dfn>''' is a 2010-era [[feed]]-based protocol for sending [[comment]] notifications that is part of the [[OStatus]] stack.

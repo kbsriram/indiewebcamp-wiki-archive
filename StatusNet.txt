@@ -1,3 +1,5 @@
+http://indiewebcamp.com/StatusNet
+
 {{stub}}
 
 '''<dfn>StatusNet</dfn>''' is an [http://status.net/open-source open source software] [[project]] you can [http://status.net/wiki/Setup_your_own_StatusNet setup on your own server] for real time publishing.

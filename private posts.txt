@@ -1,3 +1,5 @@
+http://indiewebcamp.com/private_posts
+
 {{stub}}
 
 '''<dfn>private posts</dfn>''' refer to [[posts]] which are private to either the author or to a limited audience chosen by the author. Typical [[silos]] offer some form of private posts (or messaging, like email). This is a nascent area on the indieweb.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/spof
+
 {{stub}}
 
 '''<dfn>spof</dfn>''' is a word derived from an abbreviation (like "scuba") that means "single point of failure".

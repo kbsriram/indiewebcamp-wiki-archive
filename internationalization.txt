@@ -1,3 +1,5 @@
+http://indiewebcamp.com/internationalization
+
 = Internationalization =
 (AKA '''internationalisation''', '''i18n'''.)
 

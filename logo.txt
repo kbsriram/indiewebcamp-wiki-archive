@@ -1,3 +1,5 @@
+http://indiewebcamp.com/logo
+
 Logos of IndieWebCamp.
 
 == Official ==

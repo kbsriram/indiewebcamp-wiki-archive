@@ -1,3 +1,5 @@
+http://indiewebcamp.com/h-feed
+
 {{stub}}
 
 '''<dfn>[http://microformats.org/wiki/h-feed h-feed]</dfn>''' is a [[microformats2]] experiment with a top level feed object to contain [[h-entry]] [[posts]]. It is functionally a [[DRY]]er replacement for RSS/Atom [[feed files]] and thus could supersede them.

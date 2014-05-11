@@ -1,3 +1,5 @@
+http://indiewebcamp.com/distributed-indieauth
+
 {{indieauth-todo}}
 
 __TOC__

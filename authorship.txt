@@ -1,3 +1,5 @@
+http://indiewebcamp.com/authorship
+
 {{stub}}
 
 '''<dfn>authorship</dfn>''' is a claim about who the author(s) of a [[post]] are.

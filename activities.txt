@@ -1,3 +1,5 @@
+http://indiewebcamp.com/activities
+
 {{stub}}
 
 <dfn>activities</dfn> are the content unit of [[ActivityStreams]].

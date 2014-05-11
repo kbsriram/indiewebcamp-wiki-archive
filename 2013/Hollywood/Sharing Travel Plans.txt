@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Hollywood/Sharing_Travel_Plans
+
 * http://aaronparecki.com
 
 Currently publishing flights at http://aaronparecki.com/travel, and within a couple days of making this page live, I've already had to move a flight, and cancel two flights. Now the challenge is how to represent changed/deleted flights.

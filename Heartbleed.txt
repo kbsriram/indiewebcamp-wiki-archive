@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Heartbleed
+
 {{stub}}
 
 '''<dfn>Heartbleed</dfn>''' was a [[security]] vulnerability announced 2014-04-08 in OpenSSL, a common open source library used in [[https]] connections. 

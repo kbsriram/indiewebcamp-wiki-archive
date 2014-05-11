@@ -1,3 +1,5 @@
+http://indiewebcamp.com/comment-policies
+
 {{stub}}
 
 This page is an attempt to collect peoples' comment policies on their personal sites.

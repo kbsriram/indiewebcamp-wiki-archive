@@ -1,3 +1,5 @@
+http://indiewebcamp.com/indieweb
+
 The '''<dfn>indieweb</dfn>''' is about owning your domain and using it as your primary identity.
 
 * You can have more than one such personal domain.

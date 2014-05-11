@@ -1,3 +1,5 @@
+http://indiewebcamp.com/style-guide
+
 {{stub}}
 
 Use this page to discuss writing style, disambiguation of jargon and phrases and to ask questions about terminology in efforts to remain more consistent with how others are writing about indieweb ideas and projects.

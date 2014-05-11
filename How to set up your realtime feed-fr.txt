@@ -1,3 +1,5 @@
+http://indiewebcamp.com/How_to_set_up_your_realtime_feed-fr
+
 '''Régler un flux Atom pour de la publication temps-réel.'''
 
 Le but de ce post est de collecter de l'information sur les façons de préparer votre site web et le flux Atom pour publier du contenu temps-réel.

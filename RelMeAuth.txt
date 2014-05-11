@@ -1,3 +1,5 @@
+http://indiewebcamp.com/RelMeAuth
+
 {{stub}}
 
 '''<dfn>RelMeAuth</dfn>''' is an authentication method that uses personal URL for identity that [[rel-me]] link to established [[OAuth]] provider(s) to perform the actual authentication.

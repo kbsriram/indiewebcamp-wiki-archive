@@ -1,3 +1,5 @@
+http://indiewebcamp.com/projects
+
 '''Indie Web Projects'''
 
 A list of projects supporting or being actively used by IndieWebCamp [[Guest_List|participants]] and community members to create the Indie Web.

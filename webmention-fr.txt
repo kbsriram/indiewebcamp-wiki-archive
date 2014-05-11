@@ -1,3 +1,5 @@
+http://indiewebcamp.com/webmention-fr
+
 ''Cette page a démarré sur [[webmention]]''
 
 {{stub-fr}}

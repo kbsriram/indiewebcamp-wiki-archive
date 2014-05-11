@@ -1,3 +1,5 @@
+http://indiewebcamp.com/media_checkin
+
 '''Media check-in''' is a type of check-in or post.
 
 == Existing services ==

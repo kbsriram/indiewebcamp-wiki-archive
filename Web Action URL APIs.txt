@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Web_Action_URL_APIs
+
 A list of web (and native) services currently providing URLs which could be made the basis of a [[Web Actions]] implementation.
 
 Web-based actions are invariably <code>http://</code> URLs, whereas native actions (well-known and custom) often utilise other URI schemes. These vary from the well known (e.g. <code>mailto:</code>) to custom schemes, e.g <code>twitter://</code>.

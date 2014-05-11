@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/You_Own_Your_Observations
+
 '''Proposed by [[User:Benatkin.com|Ben Atkin]]''' 
 
 https://etherpad.mozilla.org/indieweb-yoyodata

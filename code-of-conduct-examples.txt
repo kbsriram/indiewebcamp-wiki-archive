@@ -1,3 +1,5 @@
+http://indiewebcamp.com/code-of-conduct-examples
+
 {{stub}}
 
 This page is for documenting good examples of conference "Code of Conduct" pages that we should keep in mind as we craft and iterate the IndieWebCamp [[code-of-conduct]].

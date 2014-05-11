@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ACweiske.de
+
 * Blog: http://cweiske.de/tagebuch/
 
 Software written by cweiske to leave the cloud / host everything yourself:

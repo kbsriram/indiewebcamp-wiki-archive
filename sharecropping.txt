@@ -1,3 +1,5 @@
+http://indiewebcamp.com/sharecropping
+
 {{stub}}
 
 '''<dfn>sharecropping</dfn>''' in the context of the IndieWeb is the practice of primarily or exclusively creating/publishing content on [[silos]] as opposed to doing so first (or primarily) on your own site.

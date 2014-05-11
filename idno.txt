@@ -1,3 +1,5 @@
+http://indiewebcamp.com/idno
+
 {{stub}}
 
 '''<dfn>idno</dfn>''' is an open publishing / community platform [[project]] currently being developed in public [https://github.com/idno on GitHub].

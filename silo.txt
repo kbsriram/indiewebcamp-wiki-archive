@@ -1,3 +1,5 @@
+http://indiewebcamp.com/silo
+
 {{stub}}
 
 A '''<dfn>silo</dfn>''', or web content hosting silo, in the context of the IndieWeb, is a centralized web site typically owned by a for-profit corporation that stakes some claim to content contributed to it and restricts access in some way (has walls).

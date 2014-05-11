@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Instagram
+
 <span style="float:right">http://www.cui.edu/portals/0/Images/Logos/instagram-logo.jpg</span>
 {{stub}}
 

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OAuth
+
 {{stub}}
 
 '''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.

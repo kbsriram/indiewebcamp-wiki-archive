@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/Cambridge
+
 = <span class="p-name summary">IndieWebCampCambridge 2014</span> =
 [[File:harvard-berkman-center.jpg|thumb|300px|right|Harvard's Berkman Center for Internet and Society in Cambridge, MA]]
 The very first IndieWebCamp in Cambridge - one of many IndieWeb [[events]].

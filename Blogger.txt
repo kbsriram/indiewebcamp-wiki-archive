@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Blogger
+
 <span style="float:right">http://uploads.pixyblog.com/news/logo-blog-blogger.png</span>
 {{stub}}
 

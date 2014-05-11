@@ -1,3 +1,5 @@
+http://indiewebcamp.com/checkin
+
 {{stub}}
 
 '''Checkin''' means the action of checking into a [[location]] and sharing that information. The action itself is often referred to as a ''checkin''.

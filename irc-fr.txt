@@ -1,3 +1,5 @@
+http://indiewebcamp.com/irc-fr
+
 = #indiewebcamp on freenode =
 == Démarrage Rapide ==
 Vous pouvez utiliser une application client IRC telle que [http://colloquy.info/ Colloquy] (Mac ou iOS) ou [https://market.android.com/details?id=org.yaaic&feature=search_result Yaaic sur Android] pour nous rejoindre : 

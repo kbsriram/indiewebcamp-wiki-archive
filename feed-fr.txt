@@ -1,3 +1,5 @@
+http://indiewebcamp.com/feed-fr
+
 {{stub-fr}}
 
 La capacité de publier et s'abonner à des flux de contenus est un bloc de construction vital de l'indieweb.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Instapaper
+
 {{stub}}
 
 '''<dfn>Instapaper</dfn>''' is a content hosting [[silo]] for [[bookmarks]].

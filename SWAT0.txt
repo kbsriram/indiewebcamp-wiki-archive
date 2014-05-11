@@ -1,3 +1,5 @@
+http://indiewebcamp.com/SWAT0
+
 {{stub}}
 
 See the [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 description of SWAT0 on W3.org].

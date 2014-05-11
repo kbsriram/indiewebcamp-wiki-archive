@@ -1,3 +1,5 @@
+http://indiewebcamp.com/MediaGoblin
+
 {{stub}}
 
 '''[http://mediagoblin.org/ MediaGoblin]''' is a media ([[picture]] and [[video]]) storage [[project]] for a web server.

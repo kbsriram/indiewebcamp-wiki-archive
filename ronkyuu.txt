@@ -1,3 +1,5 @@
+http://indiewebcamp.com/ronkyuu
+
 '''<dfn>[https://github.com/bear/ronkyuu ronkyuu]</dfn>''' is a Python open source [[project]] that is being designed to handle all [[IndieWeb]] requirements for static sites.
 
 == Features ==

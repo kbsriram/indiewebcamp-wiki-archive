@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/NYC/Sessions
+
 = Day 1 =
 == Introduction and Demos ==
 Brief introduction by organizers and demos of participants of what they have working on their own site before the camp.

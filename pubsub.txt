@@ -1,3 +1,5 @@
+http://indiewebcamp.com/pubsub
+
 {{stub}}
 
 Subscribing to updates to a URL is an extremely useful [[building-block]] for the indieweb.

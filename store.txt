@@ -1,3 +1,5 @@
+http://indiewebcamp.com/store
+
 As the number of IndieWeb related apps grow, so will the job of choosing which apps you want to install and what is compatible with your server. The goal is to create an easy to browse "App Store" like experience
 
 === Client App Store Examples ===

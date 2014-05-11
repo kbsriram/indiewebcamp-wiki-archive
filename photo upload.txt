@@ -1,3 +1,5 @@
+http://indiewebcamp.com/photo_upload
+
 {{stub}}
 = photo upload =
 <dfn>Photo upload</dfn> is the act of creating a [[post]] whose primary content is a [[photo]], typically captured by a camera on the same device that is creating the post.

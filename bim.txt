@@ -1,3 +1,5 @@
+http://indiewebcamp.com/bim
+
 {{stub}}
 
 '''<dfn>bim</dfn>''' is short for [[newcal]] bi-month, or 61 day period as defined in the [http://newcal.org/#bimdefinition NewCalendar definition of bim].

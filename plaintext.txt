@@ -1,3 +1,5 @@
+http://indiewebcamp.com/plaintext
+
 {{stub}}
 
 * Displaying HTML content from external sites (feeds, webmention, etc.) posses a security risk.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/microformats2
+
 {{stub}}
 
 See http://microformats.org/wiki/microformats2

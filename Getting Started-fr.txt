@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Getting_Started-fr
+
 ''Cette page a démarré sur [[Getting Started]]''
 
 = Démarrer sur l'IndieWeb =

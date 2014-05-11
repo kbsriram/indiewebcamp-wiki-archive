@@ -1,3 +1,5 @@
+http://indiewebcamp.com/weave
+
 {{stub}}
 
 [http://waterpigs.co.uk/extensions/weave Weave] is a cross-browser extension which uses the [[original-post-discovery]] algorithm to pull indieweb content into [[Twitter]] via [[POSSE]]d copies.

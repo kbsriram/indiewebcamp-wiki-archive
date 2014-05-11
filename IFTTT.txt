@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IFTTT
+
 {{stub}}
 
 '''<dfn>[https://ifttt.com/ IFTTT]</dfn>''' is an abbreviation for IF This Then That, and is a [[spof]] for performing (semi?)-automated actions using [[feeds]].

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/web_intents
+
 {{stub}}
 
 '''<dfn>web intents</dfn>''' were a [[Google]] attempt to bring the features/interaction of Android Intents from the Android Application SDK to the web. They were prototyped in Chrome and then removed in early 2013.

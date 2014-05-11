@@ -1,3 +1,5 @@
+http://indiewebcamp.com/citation
+
 {{stub}}
 
 A '''<dfn>citation</dfn>''' is a reference to something someone said or wrote, typically a published work of some kind, these days often on the web.

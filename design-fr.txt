@@ -1,3 +1,5 @@
+http://indiewebcamp.com/design-fr
+
 <cite class="h-cite">Cette page a démarré sur [[design]]</cite>
 
 {{stub-fr}}

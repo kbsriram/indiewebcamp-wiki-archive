@@ -1,3 +1,5 @@
+http://indiewebcamp.com/silo-fr
+
 = Silo =
 Un <dfn>silo</dfn>, ou silo d'hébergement de contenu web, dans le contexte de l'IndieWeb, est un site web qui : 
 * vous oblige à créer un compte spécifique à ce site pour l'utiliser (silo d'identité)

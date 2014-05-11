@@ -1,3 +1,5 @@
+http://indiewebcamp.com/multiple-reply
+
 {{stub}}
 
 A '''<dfn>multiple reply</dfn>''' (multireply) is a [[reply]] written directly in response to <em>multiple</em> previous [[posts]]. 

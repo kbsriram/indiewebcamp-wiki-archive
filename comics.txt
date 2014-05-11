@@ -1,3 +1,5 @@
+http://indiewebcamp.com/comics
+
 {{stub}}
 
 '''<dfn>comics</dfn>''' are one of many types of [[posts]] that you can publish on your own site.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/giving-credit
+
 {{stub}}
 
 '''<dfn>giving credit</dfn>''' is a collection of cultural practices related to acknowledging and attributing text, hyperlinks, quotes, utterances to others, typically by name, as a way of recognizing their contribution(s).

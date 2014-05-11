@@ -1,3 +1,5 @@
+http://indiewebcamp.com/etherpad-archive
+
 Archive of past etherpad docs. 
 
 TODO: Archive these on the specific event pages.

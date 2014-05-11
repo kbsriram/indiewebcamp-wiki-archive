@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IRC
+
 = Join the discussion: #indiewebcamp chat =
 == Today's Log ==
 * http://indiewebcamp.com/irc/today

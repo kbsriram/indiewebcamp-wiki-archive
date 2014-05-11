@@ -1,3 +1,5 @@
+http://indiewebcamp.com/display-guidelines
+
 {{stub}}
 
 The idea: There should be standard markup and suggested styling for displaying information from other sites on your own.

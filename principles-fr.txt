@@ -1,3 +1,5 @@
+http://indiewebcamp.com/principles-fr
+
 ''Cette page a démarré sur [[principles]]''.
 
 Quelques principes et du poil à gratter pour bâtir/construire sur l'indie web...

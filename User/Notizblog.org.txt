@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ANotizblog.org
+
 <div class="floatright">http://pfefferle.org/photo.jpg</div>
 
 = Matthias Pfefferle =

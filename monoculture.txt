@@ -1,3 +1,5 @@
+http://indiewebcamp.com/monoculture
+
 {{stub}}
 
 '''<dfn>Monoculture</dfn>''' refers to the [[antipattern]] of one piece of software dominating (or trying to dominate) its field, often by being limited to communicating with other instances of the same codebase. A monoculture (same software running on servers run by different people) is one step above a [[silo]] (same software running on servers run by the same people or organization).

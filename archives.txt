@@ -1,3 +1,5 @@
+http://indiewebcamp.com/archives
+
 {{stub}}
 
 <dfn>Archives</dfn> refers to the total collection of blog [[posts]] on an indieweb site, often grouped by time period (e.g. years, months).

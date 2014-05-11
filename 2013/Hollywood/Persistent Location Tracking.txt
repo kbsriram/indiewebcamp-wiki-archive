@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Hollywood/Persistent_Location_Tracking
+
 === People ===
 * http://aaronparecki.com
 * http://rkn.la

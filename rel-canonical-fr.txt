@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-canonical-fr
+
 ''Cette page a démarré sur le lien canonique [[rel-canonical]]''
 
 {{stub-fr}}

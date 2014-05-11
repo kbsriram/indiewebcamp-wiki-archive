@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Hacker_News
+
 {{stub}}
 
 '''<dfn>[https://news.ycombinator.com/ Hacker News]</dfn>''' is a link [[aggregator]] as well as a [[silo]] for [[comments]] on those links.

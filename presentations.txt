@@ -1,3 +1,5 @@
+http://indiewebcamp.com/presentations
+
 {{stub}}
 
 '''For links to even more sources of IndieWeb news check out the [[news]] page'''

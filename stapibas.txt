@@ -1,3 +1,5 @@
+http://indiewebcamp.com/stapibas
+
 Standalone pingback server written in PHP, storing data in MySQL. 
 
 == Features ==

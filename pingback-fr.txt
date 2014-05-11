@@ -1,3 +1,5 @@
+http://indiewebcamp.com/pingback-fr
+
 ''Cette page a démarré sur [[pingback]]''
 
 {{stub-fr}}

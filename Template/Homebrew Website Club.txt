@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3AHomebrew_Website_Club
+
 <includeonly>{{Navbox
 |title = [[Homebrew Website Club]]
 |rows =

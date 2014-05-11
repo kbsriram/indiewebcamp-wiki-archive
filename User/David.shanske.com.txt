@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ADavid.shanske.com
+
 = David Shanske =
 
 Working on david.shanske.com as a testbed for deployment of some of the techniques to additional sites under my control. Also working on content for the site. No point in developing the infrastructure without it.

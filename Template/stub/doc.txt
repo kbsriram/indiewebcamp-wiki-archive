@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3Astub/doc
+
 This template is used to indicate an article is incomplete and encourages people to expand it. It should be placed at the top of the page.
 
 If an article seems thorough to you (and you consider yourself fairly knowledgeable on the subject and thus capable of reasonably determining as much), feel free to remove the <nowiki>{{stub}}</nowiki> template code.

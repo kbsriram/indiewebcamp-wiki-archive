@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IRC_People
+
 A list of [[IRC]] regulars, sorted by nick, and their normal timezones (winter/summer).
 
 Please keep sorted alphabetically

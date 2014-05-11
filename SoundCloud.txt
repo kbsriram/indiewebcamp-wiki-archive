@@ -1,3 +1,5 @@
+http://indiewebcamp.com/SoundCloud
+
 {{stub}}
 
 '''<dfn>[http://soundcloud.com/ SoundCloud]</dfn>''' is a [[silo]] for hosting/sharing/commenting on sounds and music.

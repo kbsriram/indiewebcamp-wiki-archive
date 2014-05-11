@@ -1,3 +1,5 @@
+http://indiewebcamp.com/feed_reader-fr
+
 {{stub-fr}}
 = lecteur de flux=
 Un <dfn>lecteur de flux</dfn> est une application (locale ou sur le web, par ex. Google Reader) qui s'abonne aux [[feeds-fr|flux]] sur le web et les présente dans une interface de lecture.

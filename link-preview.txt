@@ -1,3 +1,5 @@
+http://indiewebcamp.com/link-preview
+
 {{stub}}
 
 A '''<dfn>link preview</dfn>''' is what posts show about one or more embedded links, e.g. a headline, image, summary from the link destination.

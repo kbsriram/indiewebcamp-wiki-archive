@@ -1,3 +1,5 @@
+http://indiewebcamp.com/code
+
 {{stub}}
 
 '''<dfn>code</dfn>''' in the context of the indieweb, refers to source code, code files, typically in a revision control system, like [[Git]], often hosted at [[GitHub]].

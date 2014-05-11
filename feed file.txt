@@ -1,3 +1,5 @@
+http://indiewebcamp.com/feed_file
+
 {{stub}}
 
 A '''<dfn>feed file</dfn>''' is a [[feed]] represented as a separate file (as opposed to as part of an existing HTML page, e.g. [[homepage]]), typically in a custom feed-specific format (e.g. legacy XML like [[RSS]]/[[Atom]], or JSON like [[ActivityStreams]] 2.0). Feed files are superseded by simply marking up feeds already present on HTML pages, e.g. with [[h-entry]].

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IndieNews
+
 {{stub}}
 
 '''<dfn>[http://news.indiewebcamp.com IndieNews]</dfn>''' is an indieweb version of [[Hacker News]] where in order to:

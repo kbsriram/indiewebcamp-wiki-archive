@@ -1,3 +1,5 @@
+http://indiewebcamp.com/own-your-data-fr
+
 ''Cette page a démarré sur [[own-your-data]]''
 
 {{stub-fr}}

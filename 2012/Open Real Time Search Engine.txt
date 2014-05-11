@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/Open_Real_Time_Search_Engine
+
 Notes from: https://etherpad.mozilla.org/indiewebcamp-openrealtime
 
 OPENREALTIME.NET

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/creator-fr
+
 ''Cette page a démarré sur [[creator]]''
 
 = créateur indieweb =

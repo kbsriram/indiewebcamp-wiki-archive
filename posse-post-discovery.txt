@@ -1,3 +1,5 @@
+http://indiewebcamp.com/posse-post-discovery
+
 == Motivation ==
 
 '''Goal:''' perform original-post-discovery when the syndicated post does not contain a link to the original.

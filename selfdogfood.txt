@@ -1,3 +1,5 @@
+http://indiewebcamp.com/selfdogfood
+
 {{stub}}
 
 <dfn>selfdogfood</dfn> is a specific form of [[dogfooding]], that is, using <em>your own creations</em> on your own <em>personal site</em> that you <em>depend</em> on, day to day.

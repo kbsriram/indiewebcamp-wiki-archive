@@ -1,1 +1,3 @@
+http://indiewebcamp.com/start
+
 #redirect:[[Getting Started]]

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/anonymity
+
 {{stub}}
 
 * What is the indieweb take on anonymity?

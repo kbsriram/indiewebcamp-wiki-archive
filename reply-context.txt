@@ -1,3 +1,5 @@
+http://indiewebcamp.com/reply-context
+
 On a [[reply]] post, it is common practice (possibly established by [[Twitter]] on tweet permalinks) to display the context of what the post is in reply to, including linking to that original post with [[rel-in-reply-to]].
 
 == Why ==

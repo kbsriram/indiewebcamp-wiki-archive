@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Bridgy
+
 {{stub}}
 
 '''<dfn>[https://www.brid.gy/ Bridgy]</dfn>''' is an open source [[project]] and proxy that implements [[backfeed]] as a service.  Bridgy sends [[webmentions]] for [[comments]], [[like]]s, etc. on [[Facebook]], [[Twitter]], [[Google+]], and [[Instagram]]. 

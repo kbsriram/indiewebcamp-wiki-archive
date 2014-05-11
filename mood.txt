@@ -1,3 +1,5 @@
+http://indiewebcamp.com/mood
+
 {{stub}}
 
 '''<dfn>mood</dfn>''' is sometimes expressed explicitly in or about a [[post]], by the post [[author]].

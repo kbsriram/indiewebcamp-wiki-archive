@@ -1,3 +1,5 @@
+http://indiewebcamp.com/deleted
+
 {{stub}}
 
 A '''<dfn>deleted</dfn>''' is a post that has been removed. It may still have a permalink, for purposes of returning an HTTP 410 GONE status code, and a simple static HTML [[h-entry]] saying something like "This post has been deleted".

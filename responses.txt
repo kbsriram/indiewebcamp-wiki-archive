@@ -1,3 +1,5 @@
+http://indiewebcamp.com/responses
+
 {{stub}}
 
 A '''<dfn>response</dfn>''' is a post that is a reaction to another URL. Some examples of response post types are [[reply]] (comment), [[like]] (favorite), [[repost]] (reshare), mention, [[RSVP]], [[invitation]].

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/copywriting
+
 {{stub}}
 
 '''<dfn>copywriting</dfn>''' refers to the act of writing text, e.g. in content or in a user interface.

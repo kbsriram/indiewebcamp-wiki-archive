@@ -1,3 +1,5 @@
+http://indiewebcamp.com/enterprise
+
 {{stub}}
 
 An '''<dfn>enterprise</dfn>''' is a large, interconnected business that is made of individual units or departments. [http://blogs.gartner.com/mark_mcdonald/2009/06/15/is-your-company-an-enterprise-the-answer-matters/ According to Gartner], some defining characteristics include:

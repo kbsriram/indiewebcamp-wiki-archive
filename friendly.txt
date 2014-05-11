@@ -1,3 +1,5 @@
+http://indiewebcamp.com/friendly
+
 {{stub}}
 
 = How to make your site Indieweb Friendly =

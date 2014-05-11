@@ -1,3 +1,5 @@
+http://indiewebcamp.com/protocol
+
 {{stub}}
 
 '''<dfn>protocols</dfn>''' are defined ways for programs to interact with each other.

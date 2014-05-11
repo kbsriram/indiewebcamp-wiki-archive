@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-author-fr
+
 ''Cette page a démarré sur [[rel-author]]''
 {{stub-fr}}
 

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/UK/Planning
+
 == planners ==
 * [[User:Tantek|Tantek Çelik]]
 * [[User:Adactio|Jeremy Keith]]

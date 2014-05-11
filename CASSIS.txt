@@ -1,3 +1,5 @@
+http://indiewebcamp.com/CASSIS
+
 {{stub}}
 
 '''<dfn>CASSIS</dfn>''' is an acronym for '''Client And Server Scripting Implementation Subset'''. It's an intersection of the syntaxes of Javascript and PHP, as well as an open source library, cassis.js, that enables writing code once, and having it natively execute in both JS and PHP. Good for anything computational, application middleware logic, parsing, text/string manipulation, etc.

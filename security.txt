@@ -1,3 +1,5 @@
+http://indiewebcamp.com/security
+
 {{stub}}
 
 '''<dfn>security</dfn>''' in the context of the indieweb may refer to security concerns regarding [[personal domain]]s, [[web hosting]], [[https]] setup, private data, identity etc. Nearly everything on the indieweb has security concerns.

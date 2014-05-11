@@ -1,1 +1,3 @@
+http://indiewebcamp.com/hCard
+
 see: http://microformats.org/wiki/hcard

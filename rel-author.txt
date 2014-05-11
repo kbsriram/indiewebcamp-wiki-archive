@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-author
+
 {{stub}}
 
 See: http://microformats.org/wiki/rel-author

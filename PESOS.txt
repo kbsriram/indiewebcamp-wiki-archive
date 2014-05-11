@@ -1,3 +1,5 @@
+http://indiewebcamp.com/PESOS
+
 '''<dfn>PESOS</dfn>''' is an acronym/abbreviation for '''Publish Elsewhere, Syndicate (to your) Own Site'''. It's a [[syndication-models|Syndication Model]] where publishing flow starts with posting to 3rd party services, then using some infrastructure (e.g. feeds, pingbacks, webhooks) to create an archive copy under your domain.
 
 The opposite (and preferable) approach is [[POSSE]], whereby a user publishes original content to their own site, and then syndicates copies to 3rd party services, preferably with perma(short)links back to the originals on their own site.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3AHodgestar.za.net
+
 == Simon Cross ==
 
 Vumi developer. Organizer of PyConZA.

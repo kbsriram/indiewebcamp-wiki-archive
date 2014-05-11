@@ -1,3 +1,5 @@
+http://indiewebcamp.com/migration
+
 Ideally people will create their IndieWeb sites and their data will live at the same URL forever and ever into eternity. 
 
 In reality, it seems this is unlikely, as people do change domain names as well as publishing platforms from time to time- the best we can do is have a plan to handle this gracefully.

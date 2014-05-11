@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Tent.io
+
 {{stub}}
 
 '''<dfn>[http://tent.io Tent.io]</dfn>''' is a [[project]] that is a "suite of distributed networking protocols" and alternative to [[OStatus]]

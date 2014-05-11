@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OpenSocial
+
 {{stub}}
 
 '''<dfn>[http://opensocial.org/ OpenSocial]</dfn>''' is a "standards-based component model for cloud based social apps."[http://opensocial.org/]

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/syndication_formats
+
 Content hosted under your domain should be presented as semantically marked up HTML+microformats. If you have not yet done this, go do it now!
 
 Here's an example of a densely marked-up note:

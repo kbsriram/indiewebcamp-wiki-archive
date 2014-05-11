@@ -1,3 +1,5 @@
+http://indiewebcamp.com/projects-fr
+
 ''Cette page a démarré sur [[projects]]''
 
 = Projets Indie Web =

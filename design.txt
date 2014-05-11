@@ -1,3 +1,5 @@
+http://indiewebcamp.com/design
+
 {{stub}}
 
 '''<dfn>design</dfn>''' is a catchall term used to refer to everything that affects users about a page/site including:

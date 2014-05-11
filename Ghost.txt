@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Ghost
+
 {{stub}}
 
 '''<dfn>Ghost</dfn>''' is an in-development blogging platform [[project]]. 

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/posts-elsewhere-fr
+
 ''Cette page a démarré sur <span class="rel-canonical">[[post-elsewhere]]</span>''
 {{stub-fr}}
 

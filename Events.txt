@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Events
+
 '''Welcome to the IndieWeb events page!'''
 
 ''For information on [[event]] [[posts]], see:''

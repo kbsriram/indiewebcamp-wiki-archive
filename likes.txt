@@ -1,3 +1,5 @@
+http://indiewebcamp.com/likes
+
 {{stub}}
 
 '''<dfn>likes</dfn>''' are sometimes part of the information about a [[post]] displayed on the post itself, sometimes in a [[posts#Footer_sections|post footer]]. [[Silos]] such as [[Facebook]] and [[Instagram]] show the number of likes on posts in various ways:

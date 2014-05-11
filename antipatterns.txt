@@ -1,3 +1,5 @@
+http://indiewebcamp.com/antipatterns
+
 As there are indieweb [[principles]] and [[building-blocks]], there are also the opposite, antipatterns which are anithetical to a diverse and growing indieweb.
 
 == at some point ==

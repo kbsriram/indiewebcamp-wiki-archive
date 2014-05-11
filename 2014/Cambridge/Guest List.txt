@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/Cambridge/Guest_List
+
 <div class="h-event vevent">
 == IndieWebCamp Cambridge 2014 ==
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>

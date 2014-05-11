@@ -1,3 +1,5 @@
+http://indiewebcamp.com/identity-elsewhere
+
 {{stub}}
 
 IndieWeb sites often have sections of their website (typically home page) that link to profile pages on social network [[silos]]. These are often in a list with the heading "Elsewhere".

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/comments-presentation
+
 = Comments Presentation =
 Expansion of a section of the page on [[comment]] [[posts]] on how to display received comments.
 

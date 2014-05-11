@@ -1,3 +1,5 @@
+http://indiewebcamp.com/antipatterns-fr
+
 ''Cette page a démarré sur [[iwc:antipatterns]]''
 
 Tout comme il existe des [[principles-fr|principes]] et des [[building-blocks-fr|blocs-de-construction]] indieweb, il y a aussi l'opposé, les anti-modèles qui sont antithétiques à un indieweb diversifié et croissant.

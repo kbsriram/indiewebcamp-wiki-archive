@@ -1,3 +1,5 @@
+http://indiewebcamp.com/syndication-models-fr
+
 = Modèles de Syndication =
 
 La plupart des flux de publication de l'indieweb nécessitent une étape vers les services tiers.

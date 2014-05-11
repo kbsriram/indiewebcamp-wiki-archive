@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Web_Analytics
+
 =Session Notes=
 
 ==Notes from [[User:Tantek|Tantek]]==

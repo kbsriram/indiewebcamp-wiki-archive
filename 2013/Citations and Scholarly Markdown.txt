@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Citations_and_Scholarly_Markdown
+
 == Session on Scholarly Markdown / Web Citations ==
 
 ([https://etherpad.mozilla.org/indiewebcamp-citation etherpad notes from our session], now represented below)

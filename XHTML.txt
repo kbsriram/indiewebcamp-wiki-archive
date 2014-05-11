@@ -1,3 +1,5 @@
+http://indiewebcamp.com/XHTML
+
 {{stub}}
 
 '''<dfn>XHTML</dfn>''' is a markup standard (W3C) for HTML that has been superseded by HTML5.

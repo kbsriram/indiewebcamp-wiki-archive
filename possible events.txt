@@ -1,3 +1,5 @@
+http://indiewebcamp.com/possible_events
+
 This page is a place to moot possible IndieWeb events. If you want an IndieWeb Camp (or a Homebrew Website Club or something similar) in your city, pop it up on here so we can track interest in the community for having events elsewhere.
 
 == Paris 2014 ==

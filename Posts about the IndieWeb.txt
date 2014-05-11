@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Posts_about_the_IndieWeb
+
 '''For links to even more sources of IndieWeb news check out the [[news]] page'''
 
 Posts about the indieweb (in chronological order)

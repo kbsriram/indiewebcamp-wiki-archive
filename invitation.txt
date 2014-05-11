@@ -1,3 +1,5 @@
+http://indiewebcamp.com/invitation
+
 {{stub}}
 
 An '''<dfn>invitation</dfn>''' is a type of [[post]] that is both a [[reply]] to an [[event]] post, and a notification to one or more individuals that they have been invited to that event.

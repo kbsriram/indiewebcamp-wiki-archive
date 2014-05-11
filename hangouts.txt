@@ -1,3 +1,5 @@
+http://indiewebcamp.com/hangouts
+
 {{stub}}
 
 '''<dfn>Hangouts</dfn>''' are [[Google+]]’s videoconferencing tool.

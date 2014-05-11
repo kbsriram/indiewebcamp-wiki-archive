@@ -1,3 +1,5 @@
+http://indiewebcamp.com/why-fr
+
 ''Cette page a démarré sur [[why]]''
 
 <blockquote>"You're here because you know something. What you know you can't explain, but you feel it. You've felt it your entire life, that there's something wrong with the world <nowiki>[wide web]</nowiki>." — [https://secure.wikimedia.org/wikiquote/en/wiki/The_Matrix Morpheus, The Matrix]<ref>"Tu es venu parce que tu sais quelque chose. Tu as un savoir qui t'habite mais tu ne te l'expliques pas. Tu l'as toujours ressenti, ressenti que le monde ne tournait pas rond.</ref></blockquote>

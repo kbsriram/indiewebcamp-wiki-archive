@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Wikipedia
+
 {{stub}}
 
 Wikipedia.org is a collaboratively edited, openly licensed, multilingual centralized encyclopedia on numerous topics.

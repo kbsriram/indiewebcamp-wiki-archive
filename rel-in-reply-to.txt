@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-in-reply-to
+
 {{stub}}
 
 '''<dfn>rel=in-reply-to</dfn>''' is a rel value for indicating the destination of a link is an original [[post]] that the current page is a [[reply]] to.

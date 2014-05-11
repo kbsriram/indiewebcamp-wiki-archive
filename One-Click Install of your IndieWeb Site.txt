@@ -1,3 +1,5 @@
+http://indiewebcamp.com/One-Click_Install_of_your_IndieWeb_Site
+
 Wordpress's famous five-minute install is the bar for how easy it should be to get your own instance of a personal indie website. Our job is to make it at least that simple or we will exclude all but the most technically savvy. This session was dedicated to identifying a UX flow so we can start building a working prototype.
 
 WORDPRESS MODEL of custom installation

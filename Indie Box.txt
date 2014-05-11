@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Indie_Box
+
 {{stub}}
 
 '''<dfn>[http://indieboxproject.org/ Indie Box]</dfn>''' is a combination software and hardware [[project]] to build a personal home server that runs various web applications.

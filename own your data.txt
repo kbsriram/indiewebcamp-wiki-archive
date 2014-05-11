@@ -1,3 +1,5 @@
+http://indiewebcamp.com/own_your_data
+
 {{stub}}
 
 '''<dfn>own your data</dfn>''' is one of the [[principles]] and rallying cries of the IndieWeb movement.

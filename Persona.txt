@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Persona
+
 {{stub}}
 
 See http://browserid.org/

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/IndieAuth
+
 <div style="float: right; clear:both; padding: 10px; margin: 0 0 0 auto; width: 240px; border: 1px #ccc solid; background-color: #fffee7;">IndieAuth Provider Status: {{indieauth-status}}</div>
 == What is IndieAuth ==
 IndieAuth is a way to '''use your own domain name''' to sign in to websites. It's like [[OpenID]], but simpler! 

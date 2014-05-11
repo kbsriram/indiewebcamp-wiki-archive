@@ -1,3 +1,5 @@
+http://indiewebcamp.com/SNSRouter
+
 {{stub}}
 
 '''<dfn>SNSRouter</dfn>''' is a web UI [[project]] built upon [[SNSAPI]] where one can read an aggregated timeline from different sites, mass forward messages, and update statuses on all channels.

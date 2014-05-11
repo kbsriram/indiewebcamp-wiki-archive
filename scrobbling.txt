@@ -1,3 +1,5 @@
+http://indiewebcamp.com/scrobbling
+
 == IndieWeb Scrobbling ==
 
 Creating an IndieWeb implementation of a [http://en.wiktionary.org/wiki/scrobble scrobbling] ''server'' or pass-through relay would free data about one's music listening activity and history from the Last.fm silo. One would scrobble tracks to their own personal server before syndicating the activity to other social sites like Last.fm.  All of the scrobbling activity would be archived in a database on one's personal web server. A simple implementation need only implement the basic functionality present in the [http://www.last.fm/api/show?service=443 Last.fm API] such that existing Last.fm client software could be used with minimal modification.

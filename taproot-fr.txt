@@ -1,3 +1,5 @@
+http://indiewebcamp.com/taproot-fr
+
 ''Cette page a démarré sur [[taproot]]''
 
 {{stub-fr}}

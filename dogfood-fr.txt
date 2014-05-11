@@ -1,3 +1,5 @@
+http://indiewebcamp.com/dogfood-fr
+
 ''Cette page a démarré sur [[dogfood]]''
 
 {{stub-fr}}

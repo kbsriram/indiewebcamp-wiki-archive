@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/Guest_List
+
 <div class="h-event vevent">
 == Event ==
 <span class="p-name summary">IndieWebCamp</span> [[2014]] takes place <time class="dt-start dtstart" datetime="2014-06-28T09:30:00-0700">June 28, 2014 at 9:30am</time> through <time class="dt-end dtend" datetime="2014-06-29T18:00:00-0700">June 29 at 6pm</time> in <span class="p-location location h-adr adr"><span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span></span> and <span class="p-location location h-adr adr"><span class="p-locality locality">New York City</span>, <span class="p-region region">New York</span></span>!

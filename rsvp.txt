@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rsvp
+
 {{stub}}
 
 An '''<dfn>RSVP</dfn>''' is a type of [[post]] that is a [[reply]] to an [[event]] post.

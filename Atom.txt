@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Atom
+
 <span style="float:right"><a href="http://dret.net/lectures/services-spring08/img/atom-logo.png">http://www.intertwingly.net/images/atom-logo75px.gif</a></span>
 <!-- http://www.topdj.pl/www/grafika/wolne/atom-logo.gif -->
 <!-- http://readwrite.com/files/files/files/images/atomenabled_logo.png -->

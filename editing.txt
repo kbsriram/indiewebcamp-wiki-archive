@@ -1,3 +1,5 @@
+http://indiewebcamp.com/editing
+
 == Introduction ==
 This web site runs on [http://mediawiki.org/ MediaWiki], the same software that runs [http://wikipedia.org/ Wikipedia]. It's powerful and mature, but if you haven't used it before, the learning curve for even basic writing and formatting can be steep.
 

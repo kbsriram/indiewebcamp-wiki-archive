@@ -1,3 +1,5 @@
+http://indiewebcamp.com/composite_stream
+
 {{stub}}
 
 A '''<dfn>composite stream</dfn>''' is a [[stream]] that interleaves multiple types of [[posts]], such as [[notes]] and [[articles]].

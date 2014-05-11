@@ -1,3 +1,5 @@
+http://indiewebcamp.com/webmention.io-fr
+
 {{stub-fr}}
 
 <dfn>'''[http://webmention.io webmention.io]'''</dfn> est un projet open-source et un service hébergé pour recevoir des [[pingback-fr|pingbacks]] de la part de votre site indieweb.

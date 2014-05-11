@@ -1,3 +1,5 @@
+http://indiewebcamp.com/note
+
 = note =
 A '''<dfn>note</dfn>''' is a [[post]] that is typically short, plain text, and written/posted quickly.
 

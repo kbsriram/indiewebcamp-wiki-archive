@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Trsst
+
 {{stub}}
 
 '''<dfn>Trsst</dfn>''' is an attempt to build a decentralized version of [[Twitter]] based on [[RSS]].

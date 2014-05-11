@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Federating_Systems_with_Peer-to-Peer_Architectures
+
 =Session Notes=
 
 ==Notes from [[Amber Case]]==

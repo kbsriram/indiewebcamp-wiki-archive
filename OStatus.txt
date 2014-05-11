@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OStatus
+
 {{stub}}
 
 '''<dfn>OStatus</dfn>''' is a suite of protocols for distributed social networking: [[Atom]] [[ActivityStreams]], [[PubSubHubbub]], [[Salmon]], [[WebFinger]] per https://twitter.com/kevinmarks/status/365560040326840320 / Evan Prodromou.

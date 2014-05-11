@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ABret.io
+
 '''<span style="font-size:2em" class="h-card">[http://bret.io/ Bret Comnes]</span>'''
 
 == my indie web setup ==

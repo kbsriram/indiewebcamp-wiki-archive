@@ -1,3 +1,5 @@
+http://indiewebcamp.com/OpenID-fr
+
 ''Cette page a démarré sur [[OpenID]]''
 
 {{stub-fr}}

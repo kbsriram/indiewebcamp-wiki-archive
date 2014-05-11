@@ -1,3 +1,5 @@
+http://indiewebcamp.com/SNSAPI
+
 {{stub}}
 
 '''<dfn>SNSAPI</dfn>''' is a lightweight cross platform middleware [[project]] for Social Networking Services.

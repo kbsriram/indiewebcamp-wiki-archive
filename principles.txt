@@ -1,3 +1,5 @@
+http://indiewebcamp.com/principles
+
 == Key Principles ==
 Some key principles of building on the indie web...
 

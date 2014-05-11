@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2013/Reducing_the_Size_of_the_Stack
+
 {{stub}}
 
 notes at: https://etherpad.mozilla.org/indiewebcamp-truemvc

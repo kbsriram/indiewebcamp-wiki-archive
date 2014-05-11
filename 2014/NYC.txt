@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/NYC
+
 <div class="h-event vevent">
 = <span class="p-name summary">IndieWebCampNYC 2014</span> =
 [[Image:indie-web-camp-nyc-2014-116.jpg|250px|thumb|right|<span>Indie Web Camp [[2014/NYC|NYC 2014 day 1]]</span>]]

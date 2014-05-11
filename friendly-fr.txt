@@ -1,3 +1,5 @@
+http://indiewebcamp.com/friendly-fr
+
 ''Cette page a démarré sur [[friendly]] ([[rel-canonical-fr]])''
 
 {{stub-fr}}

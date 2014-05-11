@@ -1,3 +1,5 @@
+http://indiewebcamp.com/how-to-sponsor
+
 == About IndieWebCamp ==
 
 IndieWebCamp is a gathering of web creators building and sharing open web technologies to advance the state of the indie web. We get together for a weekend to talk about what has been done to empower people to own their online identities, and then spend a day hacking and creating.

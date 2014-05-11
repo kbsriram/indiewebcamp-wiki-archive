@@ -1,3 +1,5 @@
+http://indiewebcamp.com/FeedBurner
+
 <span style="float:right">http://sitesinoneday.com/wp-content/uploads/2013/03/feedburner.jpg</span>
 
 {{stub}}

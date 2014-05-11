@@ -1,3 +1,5 @@
+http://indiewebcamp.com/cloud
+
 {{stub}}
 
 '''<dfn>cloud</dfn>''' within the context of the indieweb refers to "cloud computing", computing services which provide:

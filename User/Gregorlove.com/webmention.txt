@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3AGregorlove.com/webmention
+
 = Webmention =
 '''Webmention''' is the first bit of #indieweb that I added to my site on 2014-02-04. I [https://github.com/gRegorLove/nucleus-plugin-webmention released the plugin] to the public on 2014-03-08.
 

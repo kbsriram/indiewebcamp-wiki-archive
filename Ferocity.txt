@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Ferocity
+
 {{stub}}
 
 Ferocity is tommorris' new Rails-based blogging system. Capabilities:

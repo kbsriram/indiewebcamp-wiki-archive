@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ASnarfed.org
+
 '''<span style="font-size:2em" class="h-card">[https://snarfed.org/ Ryan Barrett]</span>'''
 
 == my indie web projects ==

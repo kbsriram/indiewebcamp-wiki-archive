@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-syndication
+
 {{stub}}
 
 '''<dfn>rel-syndication</dfn>''' is a way to discoverably link from your original blog post permalinks to syndicated copies of it on other sites, e.g. [[silos]].

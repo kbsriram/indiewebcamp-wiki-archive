@@ -1,3 +1,5 @@
+http://indiewebcamp.com/indieweb-messaging
+
 {{indieauth-todo}}
 
 Protocol outline for how to combine microformats2, WebMention and IndieAuth to send private messages between two people or between groups of people.

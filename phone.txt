@@ -1,3 +1,5 @@
+http://indiewebcamp.com/phone
+
 {{stub}}
 
 '''<dfn>phone</dfn>''' in the context of the indieweb refers to using your own personal site to supplant or replace the typical functionality of a "phone", in particular making an audio (and sometimes video) call between two or more people, perhaps with them starting from your personal site.

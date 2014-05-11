@@ -1,3 +1,5 @@
+http://indiewebcamp.com/App_Links
+
 '''<dfn>[http://applinks.org/ App Links]</dfn>''' are a technology launched 2014-04-30(?) by [[Facebook]] at their F8 Developer Conference.
 
 They are intended to solve [http://www.kevinmarks.com/f8-2014.html##stuck+in+a+mobile+web+browser Ilya Sukhar's problem] of feeling [https://twitter.com/kevinmarks/status/462482334604726272 "trapped in the browser"] when clicking a link in a mobile app. The intention is to enable cross-platform deep-linking into apps by providing a way for web pages to specify equivalent URLs and applications to load them in for iOS, Android, Windows Mobile and mobile web.

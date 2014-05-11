@@ -1,3 +1,5 @@
+http://indiewebcamp.com/web_hosting
+
 {{stub}}
 
 '''<dfn>Web hosting</dfn>''' is perhaps the primary regular cost in maintaining an Indie Web Site (more expensive than most domain name registrations/renewals). Web hosting services serve web pages on a domain of your choice.

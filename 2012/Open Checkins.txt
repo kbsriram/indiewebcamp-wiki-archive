@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/Open_Checkins
+
 = Open Checkins =
 
 https://etherpad.mozilla.org/indieweb-checkins

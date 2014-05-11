@@ -1,3 +1,5 @@
+http://indiewebcamp.com/queueing
+
 {{stub}}
 
 Approaches for handling work asynchronously:

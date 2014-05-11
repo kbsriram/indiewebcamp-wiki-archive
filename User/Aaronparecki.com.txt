@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3AAaronparecki.com
+
 [[Image:aaronpk.jpg|right|200px]]
 = Aaron Parecki =
 CTO, Esri R&D Center, Portland. Formerly co-founder, Geoloqi.

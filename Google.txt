@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Google
+
 {{stub}}
 
 '''<dfn>Google</dfn>''' is primarily used for searching the open web, but also hosts a number of content silos:

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/generations
+
 '''<dfn>Generations</dfn>''' in the context of the indieweb refer to clusters of potential IndieWeb adopters in a series of waves that are expected to naturally adopt the indieweb for themselves and then help inform the next generation. Each generation is expected to lower barriers for adoption successively for the next generation.
 
 [[Image:indieweb-generations-diagram.jpg|650px|thumb|center|<span style="white-space:nowrap">Diagram showing IndieWeb Generations.</span>]]

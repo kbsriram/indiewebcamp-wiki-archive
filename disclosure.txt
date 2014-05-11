@@ -1,3 +1,5 @@
+http://indiewebcamp.com/disclosure
+
 {{stub}}
 
 A '''<dfn>disclosure</dfn>''' is a bit of content, typically on a [[home page]], on an indie web site that proactively discloses some aspect about the site that the site owner wants the user to explicitly be aware of. E.g.

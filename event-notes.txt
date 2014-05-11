@@ -1,3 +1,5 @@
+http://indiewebcamp.com/event-notes
+
 {{stub}}
 
 Notes on how to run a successful IndieWebCamp.

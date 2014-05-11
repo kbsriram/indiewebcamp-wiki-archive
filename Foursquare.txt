@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Foursquare
+
 {{stub}}
 
 '''<dfn>[http://foursquare.com Foursquare]</dfn>''' is a location-based [[checkin]] [[silo]] that allows optional posting of a [[photo]] and/or a [[note]] along with a checkin. Photos and notes (as [[comments]]) can also be added to existing checkins. Only the author of the checkin may add photos, but any of their friends may add comments

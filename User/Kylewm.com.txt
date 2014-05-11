@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3AKylewm.com
+
 I'm (<span class="h-card">[http://kylewm.com Kyle Mahan]</span>) working on a Python/Flask based micro-blogging engine [[Red Wind]] that supports POSSE to Facebook and Twitter, sends and receives webmentions, sends PuSH notifications, and backfeeds comments and replies from silos thanks to Bridgy.
 
 == Itches ==

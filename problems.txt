@@ -1,3 +1,5 @@
+http://indiewebcamp.com/problems
+
 {{stub}}
 
 This is a fractional subset of the set of problems that the IndieWeb community is working on:

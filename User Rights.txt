@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User_Rights
+
 = User Rights =
 A brainstorming session during [[2012/UK|IndieWebCampUK 2012]].
 

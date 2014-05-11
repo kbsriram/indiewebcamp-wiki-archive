@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Readmill
+
 {{stub}}
 
 '''<dfn>[http://readmill.com/ Readmill]</dfn>''' was a [[silo]] for reading ebooks and making annotations. It is [[silo-deaths#Readmill|shutting down]] on 2014-07-01.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/template
+
 {{stub}}
 
 A '''<dfn>template</dfn>''' is a file used to generate a page. Templates typically have codes, instructions, or special tags that are used by a publishing tool to fill in content. The result is then returned as a page, or sometimes constructed clientside.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Issues
+
 {{stub}}
 
 Issues to do with the IndieWebCamp wiki, site, IRC channel etc.

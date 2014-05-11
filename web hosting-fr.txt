@@ -1,3 +1,5 @@
+http://indiewebcamp.com/web_hosting-fr
+
 = Hébergement Web =
 
 {{stub-fr}}

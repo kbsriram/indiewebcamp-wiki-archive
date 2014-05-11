@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Cliqset
+
 {{stub}}
 
 '''<dfn>Cliqset</dfn>''' (cliqset.com) was a microblogging [[silo]] similar to [[Twitter]] for posting [[notes]] that was shut down by its founders on 2010-11-22.[http://readwrite.com/2010/11/22/social_networking_trailblazers_pull_the_plug_on_cl][http://blog.louisgray.com/2010/11/founders-moving-on-from-social.html]

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/PESETAS
+
 {{stub}}
 
 '''<dfn>PESETAS</dfn>''' is an acronym/abbreviation for '''Publish Elsewhere, Syndicate Everything To A Silo'''. 

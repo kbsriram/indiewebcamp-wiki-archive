@@ -1,3 +1,5 @@
+http://indiewebcamp.com/photos
+
 {{stub}}
 
 A '''<dfn>photo</dfn>''' is a [[post]] whose primary content is a photograph or other image.

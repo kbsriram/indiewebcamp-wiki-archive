@@ -1,3 +1,5 @@
+http://indiewebcamp.com/licensing
+
 {{ stub }}
 
 == Open Source ==

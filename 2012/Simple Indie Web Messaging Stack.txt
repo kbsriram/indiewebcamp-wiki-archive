@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2012/Simple_Indie_Web_Messaging_Stack
+
 Using SIMS
 
 Compare  https://github.com/aaronpk/IndieWeb-Messaging

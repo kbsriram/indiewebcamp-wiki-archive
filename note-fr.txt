@@ -1,3 +1,5 @@
+http://indiewebcamp.com/note-fr
+
 ''Cette note a démarré sur [[note]]''
 = note =
 Une <dfn>note</dfn> est un [[post-fr|post]] généralement court, en plein-texte et écrit/posté rapidement.

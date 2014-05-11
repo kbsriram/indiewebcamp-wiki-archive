@@ -1,3 +1,5 @@
+http://indiewebcamp.com/card
+
 {{stub}}
 
 A '''<dfn>card</dfn>''' in the context of the indieweb are small information summaries—often summaries of specific, external web pages.

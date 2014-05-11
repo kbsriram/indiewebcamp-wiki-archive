@@ -1,3 +1,5 @@
+http://indiewebcamp.com/consuming
+
 {{stub}}
 
 How to consume various indieweb [[building-blocks]]:

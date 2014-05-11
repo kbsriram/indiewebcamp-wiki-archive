@@ -1,3 +1,5 @@
+http://indiewebcamp.com/permalinks
+
 {{stub}}
 
 A '''<dfn>permalink</dfn>''' is a URL which typically represents and retrieves a single [[post]] (also explicitly called a <i>post permalink</i>).

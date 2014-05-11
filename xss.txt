@@ -1,3 +1,5 @@
+http://indiewebcamp.com/xss
+
 ==XSS from webmentions==
 
 If you have implemented [[webmention]]s on your site, you should be aware of XSS attacks. OWASP has a [https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet good summary]  of preventative measures.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014/SF/Guest_List
+
 <div class="h-event vevent">
 == Event ==
 

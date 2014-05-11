@@ -1,3 +1,5 @@
+http://indiewebcamp.com/wiki-projects
+
 {{stub}}
 
 IndieWebCamp [[projects]] related to [[wiki-page]] hosting/creation/editing on your own site.

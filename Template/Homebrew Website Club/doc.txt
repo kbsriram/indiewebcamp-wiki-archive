@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3AHomebrew_Website_Club/doc
+
 This template is used to generate the [[Homebrew Website Club]] navigation box at the bottom of related pages. It uses the [[Template:Navbox|navbox]] and [[Template:Navbox-row|navbox-row]] templates.
 
 == Blank Template ==

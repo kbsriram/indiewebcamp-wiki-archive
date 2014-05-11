@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-in-reply-to-fr
+
 ''Cette page a démarré sur [[rel-in-reply-to]]''
 
 {{stub-fr}}

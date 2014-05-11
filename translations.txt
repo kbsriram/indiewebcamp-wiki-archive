@@ -1,3 +1,5 @@
+http://indiewebcamp.com/translations
+
 {{stub}}
 
 Display conventions for linking to alternate translations of one of your web pages?

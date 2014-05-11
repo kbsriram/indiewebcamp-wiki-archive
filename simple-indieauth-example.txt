@@ -1,3 +1,5 @@
+http://indiewebcamp.com/simple-indieauth-example
+
 {{stub}}
 
 This page describes using IndieAuth for authentication rather than [[auth-brainstorming|authorization]]. In this case, no token endpoint or Micropub endpoint are needed, and the user did not delegate authorization to a specific endpoint.

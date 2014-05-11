@@ -1,3 +1,5 @@
+http://indiewebcamp.com/database-antipattern
+
 = databases for storage =
 Using databases for the primary storage of your content is a known [[antipattern]].
 

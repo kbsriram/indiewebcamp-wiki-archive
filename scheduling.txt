@@ -1,3 +1,5 @@
+http://indiewebcamp.com/scheduling
+
 {{stub}}
 
 '''<dfn>scheduling</dfn>''' in the context of the indieweb, refers to the feature of setting a specific time for a [[post]] to be published in the future. Also known as delayed posting.

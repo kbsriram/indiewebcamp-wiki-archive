@@ -1,3 +1,5 @@
+http://indiewebcamp.com/short-domains
+
 = short URL domains =
 
 This page is for document the domains that we pick out and use for our personal URL shortening, analysis of their reliability/dependability, and just overall experience.

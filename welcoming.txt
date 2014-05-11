@@ -1,3 +1,5 @@
+http://indiewebcamp.com/welcoming
+
 {{stub}}
 
 '''<dfn>Welcoming</dfn>''' is how we as a community welcome new members to our community.

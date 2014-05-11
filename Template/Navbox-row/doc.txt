@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Template%3ANavbox-row/doc
+
 This template is used to generate a row for use inside a navigation box.
 
 == Blank Template ==

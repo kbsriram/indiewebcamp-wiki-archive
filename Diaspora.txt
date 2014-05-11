@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Diaspora
+
 {{stub}}
 
 '''<dfn>Diaspora</dfn>''' (or D*) is an open source [[project]] for hosting a social network on your own server that [[federates]] with other Diaspora instances, which are called "pods".

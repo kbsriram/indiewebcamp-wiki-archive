@@ -1,3 +1,5 @@
+http://indiewebcamp.com/news
+
 {{stub}}
 
 '''<dfn>News</dfn>''' is where you keep up with the latest news and developments in the IndieWebCamp Community. 

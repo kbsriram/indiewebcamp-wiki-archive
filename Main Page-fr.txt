@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Main_Page-fr
+
 <public><div style="float:right; width: 120px; border: 1px #ccc solid; padding: 0px; margin-left: 10px; text-align: center; background-color: white;">
 [[Special:UserLogin|Connectez-vous avec votre domaine]]
 </div></public>

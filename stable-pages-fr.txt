@@ -1,3 +1,5 @@
+http://indiewebcamp.com/stable-pages-fr
+
 =Pages stables=
 
 Ceci est une liste des pages qui sont relativement stables, et n'ont que des modifications minimales/éditoriales, ce qui les rend plus facile à synchroniser avec les version anglaises au moment d'effectuer des traductions.

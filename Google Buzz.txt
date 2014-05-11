@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Google_Buzz
+
 {{stub}}
 
 '''<dfn>Google Buzz</dfn>''' was a [[Google]] [[silo]] for posting small text updates ("buzz"), similar to [[Twitter]], but without the 140 character limitation.

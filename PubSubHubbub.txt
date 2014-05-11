@@ -1,3 +1,5 @@
+http://indiewebcamp.com/PubSubHubbub
+
 {{stub}}
 
 '''<dfn>[https://code.google.com/p/pubsubhubbub/ PubSubHubbub]</dfn>''' (PuSH) is a notification-based protocol for publishing and subscribing to [[feeds]]/[[streams]] in real time. Currently there are no known indieweb sites that subscribe to anything using PuSH.

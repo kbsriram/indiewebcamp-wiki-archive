@@ -1,3 +1,5 @@
+http://indiewebcamp.com/XMPP
+
 {{stub}}
 
 '''Extensible Messaging and Presence Protocol (<dfn>XMPP</dfn>)''' is an open [[messaging]] standard, perhaps best known in its use for cross-platform instant-messaging application interoperability.

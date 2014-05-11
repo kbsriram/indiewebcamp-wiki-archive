@@ -1,3 +1,5 @@
+http://indiewebcamp.com/proprietary
+
 {{stub}}
 
 A '''<dfn>proprietary</dfn>''' [[API]] typically has one or more of the following characteristics:

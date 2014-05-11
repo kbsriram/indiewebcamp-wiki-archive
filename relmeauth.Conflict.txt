@@ -1,3 +1,5 @@
+http://indiewebcamp.com/relmeauth
+
 '''<dfn>relmeauth</dfn>''' may refer to:
 * [[RelMeAuth]] technology
 * [https://github.com/themattharris/RelMeAuth/ relmeauth] open source PHP library implementation of [[RelMeAuth]]

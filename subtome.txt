@@ -1,3 +1,5 @@
+http://indiewebcamp.com/subtome
+
 {{stub}}
 
 SubToMe (Subscribe To Me, [http://subtome.com website]) is a button content publishers can put on their sites which enables users to subscribe to their feed in whatever reader they choose — sort of a universal follow button.

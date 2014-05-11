@@ -1,3 +1,5 @@
+http://indiewebcamp.com/dns
+
 {{stub}}
 
 '''<dfn><abbr title="domain name server">DNS</abbr></dfn>''' is an abbreviation for Domain Name Server and often used to refer to the configuring thereof.

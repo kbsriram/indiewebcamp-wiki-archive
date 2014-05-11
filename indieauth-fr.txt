@@ -1,3 +1,5 @@
+http://indiewebcamp.com/indieauth-fr
+
 ''Cette page a démarré sur <span class="rel-canonical">[[IndieAuth]]</span>''
 
 <div style="float: right; clear:both; padding: 10px; margin: 0 0 0 auto; width: 240px; border: 1px #ccc solid; background-color: #fffee7;">IndieAuth Provider Status: {{indieauth-status-fr}}</div>

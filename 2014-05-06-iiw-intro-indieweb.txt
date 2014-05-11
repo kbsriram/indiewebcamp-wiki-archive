@@ -1,3 +1,5 @@
+http://indiewebcamp.com/2014-05-06-iiw-intro-indieweb
+
 = Introduction to the IndieWeb IIW Session =
 
 Notes taken mostly by [[User:aaronparecki.com|Aaron Parecki]], with some remote notes by [[User:tantek.com|Tantek Çelik]] at [[2014-05-06-iiw|IIW on 2014-05-06]] on https://etherpad.mozilla.org/iiw - archived here.

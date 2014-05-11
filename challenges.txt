@@ -1,3 +1,5 @@
+http://indiewebcamp.com/challenges
+
 {{stub}}
 
 '''<dfn>Challenges</dfn>''' refer to obstacles, problems, or barriers that individuals face with setting up, using, and/or maintaining indieweb sites and their [[projects]]. 

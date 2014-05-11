@@ -1,3 +1,5 @@
+http://indiewebcamp.com/hovercard
+
 Displaying a summary of a user when their username is hovered over is a well-established UI pattern
 
 == Documented Examples ==

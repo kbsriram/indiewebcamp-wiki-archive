@@ -1,3 +1,5 @@
+http://indiewebcamp.com/h-entry-fr
+
 ''Cette page a démarré sur [[h-entry]]''
 
 {{stub-fr}}

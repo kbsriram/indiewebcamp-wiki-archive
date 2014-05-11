@@ -1,3 +1,5 @@
+http://indiewebcamp.com/hashtags
+
 {{stub}}
 
 '''<dfn>hashtags</dfn>''' are the use of the hash "#" symbol followed immediately by a word/phrase/abbreviation to explicitly denote a topic inline in a [[post]]. Popularized on [[Twitter]], they're now everpresent on [[Instagram]] and other [[silos]] where they link to aggregations of posts inside those silos with those tags.

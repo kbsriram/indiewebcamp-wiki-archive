@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Flickr/Wordpress_Upstream_Posting
+
 ==Flickr Backup Project==
 [[Image:FlickrBackup.png|150px|left]]
 The idea behind this project is to make a way to backup one's Flickr account and host it on a WordPress account. Afterwards, to post to WordPress and have those images post out to Flickr, making Flickr the backup for one's data, and not the primary repository. 

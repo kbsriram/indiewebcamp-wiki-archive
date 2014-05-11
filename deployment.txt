@@ -1,3 +1,5 @@
+http://indiewebcamp.com/deployment
+
 = Deploying software on IndieWeb sites =
 
 How do you deploy your software (whatever it is, CMS etc., whatever language(s)) to your indieweb site and update it, revert it etc.?

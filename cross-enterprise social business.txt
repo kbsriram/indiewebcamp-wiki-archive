@@ -1,3 +1,5 @@
+http://indiewebcamp.com/cross-enterprise_social_business
+
 {{stub}}
 
 '''<dfn>cross-enterprise social business</dfn>''' is a phrase used in the [http://www.w3.org/2013/socialweb/ home page of the W3C Workshop on Social Standards]. It's meaning is unclear, although it is likely to refer to businesses which use social technology to communicate with other businesses.

@@ -1,3 +1,5 @@
+http://indiewebcamp.com/favorite
+
 {{stub}}
 
 A '''<dfn>favorite</dfn>''' is a common [[webaction]] on many [[silos]] (e.g. [[Flickr]], [[Twitter]]), typically visually indicated with a five pointed star symbol that fills in with a color when activated (pink, orange). A favorite is similar to but somewhat different from a [[like]].

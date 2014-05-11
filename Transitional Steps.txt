@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Transitional_Steps
+
 While you are [[Getting Started]], transitional steps may be useful:
 
 === Redirect ===

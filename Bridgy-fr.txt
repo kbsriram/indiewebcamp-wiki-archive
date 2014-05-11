@@ -1,3 +1,5 @@
+http://indiewebcamp.com/Bridgy-fr
+
 {{stub-fr}}
 
 '''<dfn>[https://www.brid.gy/ Bridgy]</dfn>''' est un [[project-fr|projet]] open source et un service de proxy qui envoie des [[webmentions-fr|webmentions]] pour les [[comments-fr|commentaires]], [[like-fr|like]]s, etc. sur [[Facebook-fr|Facebook]], [[Twitter-fr|Twitter]], [[Google+-fr|Google+]] et [[Instagram-fr|Instagram]]. 

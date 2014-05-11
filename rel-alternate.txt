@@ -1,3 +1,5 @@
+http://indiewebcamp.com/rel-alternate
+
 {{stub}}
 
 See: http://microformats.org/wiki/rel-alternate.

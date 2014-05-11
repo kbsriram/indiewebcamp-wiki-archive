@@ -1,3 +1,5 @@
+http://indiewebcamp.com/User%3ABrient.net
+
 == <a href="http://brient.net" rel="me">Brient Hess</a> ==
 
 A Portland-area geek, photographer, and writer. Currently in the very earliest stages of developing for the Indie Web, after having taken a decade hiatus from maintaining an active internet presence.
