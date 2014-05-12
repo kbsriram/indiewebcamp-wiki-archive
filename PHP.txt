@@ -12,5 +12,9 @@ http://indiewebcamp.com/PHP
 * [[Taproot]]
 * [[WordPress]]
 
+== Libraries ==
+* [https://github.com/indieweb/php-mf2 php-mf2] - Microformats 2 parser
+* [https://github.com/indieweb?query=php more libraries on the indieweb Github]
+
 == See Also ==
 * [[Python]]

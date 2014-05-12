@@ -1,9 +1,8 @@
 http://indiewebcamp.com/Taproot
 
-<div class="h-entry">
 = <span class="p-name">Taproot</span> =
 
-<span class="p-summary"><a class="u-url" href="http://taprootproject.com">Taproot</a> is <span class="p-author h-card">[[User:WaterPigs.co.uk|Barnaby Walters]]</span>’ publishing software, named on <time class="dt-published">2014-03-24</time>. It’s written in [[PHP]] 5.4 and drives most of [http://waterpigs.co.uk waterpigs.co.uk]. It is not currently released to the public.</span> However, various parts of it have been extracted into libraries:
+<span class="p-summary"><a class="u-url" href="http://taprootproject.com">Taproot</a> is <span class="p-author h-card">[[User:WaterPigs.co.uk|Barnaby Walters]]</span>’ publishing software, written in [[PHP]] 5.4 and driving most of [http://waterpigs.co.uk waterpigs.co.uk]. It is not currently released to the public.</span> However, various parts of it have been extracted into libraries:
 
 * [https://github.com/indieweb/php-mf2 php-mf2] for parsing [[microformats]]2 data
 ** also [https://github.com/indieweb/php-mf2-shim php-mf2-shim] for getting mf2 data out of silos
@@ -34,6 +33,8 @@ In addition to the indiewebcamp [[principles]], these are some principles I have
 * '''Easy things should be easy, remove friction so hard things are only has hard as they need to be''' [http://waterpigs.co.uk/notes/1168/]
 * '''Use event listener patterns to build upon the same data in intelligent ways''' [http://waterpigs.co.uk/notes/1100/]
 * '''Build reusable, framework-agnostic components''' and release ''them'' to the public, not monolithic products.
+
+Taproot was named on <time class="dt-published">2014-03-24</time>.
 
 == IndieWeb Support ==
 Taproot supports the following:
@@ -164,4 +165,3 @@ A still of the posting UI just after the note has saved:
 == See Also ==
 * [http://waterpigs.co.uk/notes?tagged=taproot Barnaby’s notes tagged with Taproot]
 * [[projects]]
-</div>

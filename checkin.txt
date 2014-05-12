@@ -2,7 +2,7 @@ http://indiewebcamp.com/checkin
 
 {{stub}}
 
-'''Checkin''' means the action of checking into a [[location]] and sharing that information. The action itself is often referred to as a ''checkin''.
+A '''<dfn>checkin</dfn>''' is the action of checking into a [[location]] and sharing that information. The term is often also used as a verb, to ''check in''.
 
 Services like Foursquare, Gowalla (shutdown after being acquired by Facebook), Dodgeball (shutdown after being acquired by Google), Google Latitude (also shutdown by Google) are social community sites specifically designed for sharing checkins.
 

@@ -1,6 +1,6 @@
 http://indiewebcamp.com/User%3ANotizblog.org
 
-<div class="floatright">http://pfefferle.org/photo.jpg</div>
+<div class="floatright">http://en.gravatar.com/userimage/43087/1c8944dcd21662dd22e97052690f954b.jpg</div>
 
 = Matthias Pfefferle =
 Webworker from Germany

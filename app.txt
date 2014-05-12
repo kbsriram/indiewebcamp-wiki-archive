@@ -1,9 +1,10 @@
 http://indiewebcamp.com/app
 
-<div style="float:right">[http://xkcd.com/1174/ http://imgs.xkcd.com/comics/app.png]</div>
 {{stub}}
 
 '''<dfn>Apps</dfn>''' are less functional versions of web sites that are usually restricted to one or more proprietary [[platforms]].
+
+[http://xkcd.com/1174/ http://imgs.xkcd.com/comics/app.png][http://xkcd.com/1367/ http://imgs.xkcd.com/comics/installing.png]
 
 == The problem with apps ==
 

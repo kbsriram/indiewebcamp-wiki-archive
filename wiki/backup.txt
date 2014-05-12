@@ -14,7 +14,7 @@ After adding the folder, your btsync client will begin downloading all the files
 : <code>wget -rm <nowiki>http://indiewiki.rascul.io</nowiki></code>
 : <code>rsync -avz rsync://indiewiki.rascul.io:/indiewiki .</code>
 
-[[User:kbsriram.com|KB]] has placed a [https://github.com/kbsriram/indiewebcamp-wiki-archive baseline archive at github] as of May11, 2014 and will update it ad-hoc.
+[[User:kbsriram.com|KB]] has placed a [https://github.com/kbsriram/indiewebcamp-wiki-archive baseline archive at github] as of May11, 2014 and will update it ad-hoc. Scripts/cronjobs (being tested on a laptop that perambulates between cafes) is at https://gist.github.com/kbsriram/0ae713dfa46f3676e2b5
 
 == Archive Methods ==
 

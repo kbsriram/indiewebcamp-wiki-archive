@@ -1,9 +1,11 @@
 http://indiewebcamp.com/WordPress
 
 [[File:wordpress_logo.png|thumb|right]]
-'''<dfn>WordPress</dfn>''' may refer to
+'''<dfn>WordPress</dfn>''' is an open source blog software as well as a blog hosting service.
+
 * '''WordPress open source software''', available at http://wordpress.org
 * '''[http://wordpress.com WordPress.com]''' blog hosting service (silo)
+
 == WordPress software ==
 One of many IndieWeb [[Projects]], [http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog.
 

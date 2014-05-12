@@ -2,7 +2,9 @@ http://indiewebcamp.com/Twitter
 
 __TOC__
 = Twitter =
-Twitter.com is a popular content hosting [[silo]] most well known for 140 character text notes.
+
+'''<dfn>Twitter.com</dfn>''' is a popular content hosting [[silo]] most well known for 140 character text notes.
+
 == Recommendations ==
 === CC license your tweets ===
 ''Note, tweetcc's creators decided to take it down in July 2013."[https://twitter.com/Malarkey/status/361844728922259457]

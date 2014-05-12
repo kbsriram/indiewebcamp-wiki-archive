@@ -3,6 +3,8 @@ http://indiewebcamp.com/User%3ATantek.com
 <span style="float:right;margin-left:1em">https://pbs.twimg.com/profile_images/423350922408767488/nlA_m2WH.jpeg</span>
 '''<span style="font-size:2em" class="h-card">[http://tantek.com/ Tantek Çelik]</span>'''
 
+'''<dfn>Tantek Çelik</dfn>''' is the co-founder of IndieWebCamp and works on open web standards at Mozilla.
+
 == inbox ==
 I'm collecting requests from [[IRC]] here when they're something I can't handle quickly and immediately. Roughly FIFO, feel free to re-arrange if you have reasons to suggest a specific prioritization
 * 2014-049 review and simplify [[comments-presentation#How_to_display|comments presentation display]] to remove conditionals that overlap/wrap in odd places

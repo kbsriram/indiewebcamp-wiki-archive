@@ -6,7 +6,7 @@ http://indiewebcamp.com/p3k
 
 = pзk =
 
-'''pзk''' (pronounced "peek") is the name of the software that runs [http://aaronparecki.com aaronparecki.com] and [http://caseorganic.com caseorganic.com]
+<span class="p-summary">'''<dfn>pзk</dfn>''' (pronounced "peek") is the name of the software that runs [http://aaronparecki.com aaronparecki.com] and [http://caseorganic.com caseorganic.com].</span>
 
 <div style="clear:both;"></div>
 

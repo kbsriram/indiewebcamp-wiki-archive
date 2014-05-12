@@ -1,0 +1,32 @@
+http://indiewebcamp.com/this-week-in-the-indieweb
+
+'''<dfn>This Week in the IndieWeb</dfn>''' is a weekly digest of activities of the IndieWebCamp community. It is most frequently a compilation of wiki edits for the week.
+
+This digest is designed to be syndicated to offline media such as physical readers (Kindle, etc) or email.
+
+== How to Subscribe ==
+
+Currently you can ask [[User:Aaronparecki.com|aaronpk]] to subscribe to the updates by providing an email address. (If enough people request this, I'll create a web interface for it.)
+
+=== Subscribe via Kindle ===
+
+To receive automatic updates to your Kindle, you will need to subscribe your Kindle's "send-to-email" address. You will first need to add the wiki's email address to your whitelist, the settings can be found under [https://www.amazon.com/gp/digital/fiona/manage?ie=UTF8&ref_=kinw_myk_surl_1&signInRedirect=1&#pdocSettings Personal Document Settings]. Add <code>thisweek@indiewebcamp.com</code> as an approved email address, then provide your Kindle's email address to Aaron.
+
+== Contents ==
+
+The digest currently contains:
+
+* A summary of all new and changed wiki articles, including the number of edits and the list of people who edited each page
+* For each page, a list of edits and edit comments 
+* For all new pages, the current page content is also included, so that new pages can be read in full while offline
+* Edits marked as "minor" are excluded
+
+== Archives ==
+
+Archives of previous newsletters can be found below.
+
+http://indiewebcamp.com/this-week/
+
+
+
+__NOTOC__
