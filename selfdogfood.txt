@@ -19,6 +19,8 @@ Selfdogfooding has several required components, the first two of which it shares
 
 * "no recent commits = evidence of absence of selfdogfooding = ignorable" - [[User:Tantek.com|Tantek]] ([http://indiewebcamp.com/irc/2013-07-03/line/1372836510 2013-07-03 in IRC]).
 
+* "any web server software that isn't actively selfdogfooded by its creators on their own personal domains is fragile and should not be trusted. and if web software creators themselves don't have a personal domain they use on the web then the web software is categorically untrustworthy."  (speaking to the unfortunate demise of [[Open Photo]], e.g. on Barnaby's site, and the screenshots on there that he'd linked to from [[patterns/note-list#Documented_Examples]] & [[patterns/note#Documented_Examples]]) {{t}} 2014-05-12 in IRC
+
 
 * If I make software for <nowiki>[someone else]</nowiki>, am I ever going to rely on it? Unlikely <br/>If I make software which solves my own problems in a useful way, might others find it useful? Much more likely. - [[User:Waterpigs.co.uk|Barnaby Walters]] ([http://indiewebcamp.com/irc/2013-08-21/line/1377126915 2013-08-21 in iRC])
 

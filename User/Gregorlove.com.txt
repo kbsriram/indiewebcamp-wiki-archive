@@ -9,7 +9,7 @@ __NOTOC__
 <p> [http://twitter.com/gRegorLove @gRegorLove] </p>
 </div>
 
-I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I intend to implement a plugin for [[webmention]]s and other Indie Web goodies.
+<span class="p-summary">My name is <dfn style="font-style: normal;">gRegor Morrill</dfn> and I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.</span>
 
 PHP is my primary language, but I am branching out into Python lately to broaden my experience.
 
@@ -29,11 +29,6 @@ I am interested in:
 == Braindump ==
 * Help decrease jargon/improve usability.
 ** E.g. Review/improve [[WordPress#Themes]] so we can point to 'install this theme, this plugin, and start posting'
-
-=== mf2 date and time parsing ===
-'''Edit^2:''' Nevermind. I needed more coffee as I was making silly mistakes. :)
-
-See [[User:Gregorlove.com/sandbox]]
 
 == My site ==
 As mentioned above, I have been using Nucleus CMS for quite some time. The extensibility of it attracted me all those years ago. Unfortunately, development on Nucleus has nearly stopped and I am unsure of its future. I am tempted to rebuild my site on the Processwire framework, but for now I am still with Nucleus. I thought contributing some indieweb plugins would be good, even if very few people end up using them.

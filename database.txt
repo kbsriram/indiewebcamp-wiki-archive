@@ -1,4 +1,15 @@
 http://indiewebcamp.com/database
 
+{{stub}}
+
+A '''<dfn>database</dfn>''' is software and or storage accessed via the software for storing data in a structured way, used by some indieweb [[projects]].
+
+== Software ==
+Database software. See each of these for specific IndieWeb example uses thereof:
+* [[MongoDB]]
+* [[MySQL]]
+* [[PostgreSQL]]
+
+== See Also ==
 * [[database-antipattern|Database Antipattern]]
 * [[database-cache|Database Cache]]

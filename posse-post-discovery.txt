@@ -1,8 +1,8 @@
 http://indiewebcamp.com/posse-post-discovery
 
-== Motivation ==
+'''<dfn>POSSE-Post-Discovery</dfn>''' is a way to find the canonical version of a post when a syndicated copy does not contain a link to the original.
 
-'''Goal:''' perform original-post-discovery when the syndicated post does not contain a link to the original.
+== Motivation ==
 
 Some silos make it difficult or unpleasant to include a permalink or citation in POSSE'd copies.
  

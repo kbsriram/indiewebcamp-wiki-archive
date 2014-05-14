@@ -2,11 +2,11 @@ http://indiewebcamp.com/post
 
 {{stub}}
 
-“post” can refer to either:
+'''<dfn>post</dfn>''' can refer to either:
 
-* A discreet piece of content (perhaps a [[note]] or and [[article]]) — see also [[posts]]
+* A discreet piece of content (perhaps a [[note]] or an [[article]]) — see also [[posts]]
 * The act of creating the aforementioned content
-** Also used elsewhere, e.g “posted a comment”, “posted a photo”
+** Also used elsewhere, e.g "posted a comment", "posted a photo"
 
 == How to ==
 * [[authorship|Determine the author of a post]]

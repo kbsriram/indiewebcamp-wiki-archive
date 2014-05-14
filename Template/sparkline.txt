@@ -1,0 +1,3 @@
+http://indiewebcamp.com/Template%3Asparkline
+
+<img src="{{{1}}}" class="u-photo" style="height:1.2em;vertical-align:bottom"/>

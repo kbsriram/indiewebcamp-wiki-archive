@@ -6,6 +6,27 @@ http://indiewebcamp.com/Foursquare
 
 Checkin notes have a length limitation of 200 characters.
 
+== Event support ==
+Foursquare does some amount of tracking of what events are happening at venues in their venue database.
+
+Thus part of their UI provides the user of optionally also checking into a specific [[event]] at a [[venue]], e.g. a particular showing of a movie at a movie theater, or a concert at a music hall.
+
+The result is that others seeing your checkin see that you also checked in at a specific event at the venue, e.g.:
+
+[[File:foursquare-event-screenshot.png|320px]]
+
+== Venue claiming ==
+Foursquare provides the ability for someone officially associated with a venue to "claim" that venue which then gives that person more authority over the venue, including the ability to associate events with the venue (as documented above)
+
+See also:
+* http://www.slideshare.net/OkimoClinic/how-to-create-an-event-on-foursquare
+
+In short:
+* someone from the venue has to go to https://foursquare.com/venue/claim
+* and claim it as a venue they manage
+* they make you give a phone number to "receive a call to verify your claim". The call asks you to record a sentence stating your name and relationship to the venue. The call appears to not be manually screened, but presumably is archived.
+* they'll either mail you a postcard, or you can pay $1-20 (depending on city) with a credit card to "verify" it
+
 == See Also ==
 * [[location]]
 * [[geo]]

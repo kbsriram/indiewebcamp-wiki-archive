@@ -14,6 +14,7 @@ The IETF has a [document with recommendations for Secure Use of TLS and DTLS htt
 I started to expand this page because I use Nginx as my HTTPd server and realized that I can help others who may also be inclined to do so. Please list any sites you know of that also use Nginx for their IndieWeb server.
 * [https://bear.im bear.im] uses Nginx for the static site and journal site.
 * [https://aaronparecki.com aaronparecki.com] uses Nginx with php-fpm to serve [[p3k]]
+* {{kylewm}} uses nginx and uwsgi to serve [[Red Wind]]
 * [https://indiewebcamp.com indiewebcamp.com] uses Nginx with php-fpm to run MediaWiki
 
 === /etc/nginx/nginx.conf ===
@@ -131,6 +132,45 @@ server {
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
     }
 }
+</pre>
+
+== Using uWSGI with Ngnix ==
+
+This is how I ({{kylewm}}) configured nginx to proxy to uWSGI (which in turn runs my [[Python]]/Flask application). nginx serves resources under /static directly.
+
+<pre>
+server {
+    listen       80;
+    server_name  kylewm.com;
+    access_log /srv/www/redwind/logs/access.log;
+    error_log /srv/www/redwind/logs/error.log;
+    client_max_body_size 10M;
+
+    location / { try_files $uri @redwind; }
+    location @redwind {
+      include uwsgi_params;
+      uwsgi_pass unix:/tmp/uwsgi.sock;
+    }
+    location /static {
+      root /home/kmahan/redwind/redwind;
+      expires 30d;
+    }
+}
+</pre>
+
+And here is the uWSGI configuration to launch the application (communicates with nginx via /tmp/uwsgi.sock)
+
+<pre>
+[uwsgi]
+master=true
+processes=4
+threads=2
+socket=/tmp/uwsgi.sock
+chmod-socket=666
+spooler=spool
+module=redwind:app
+pidfile=/tmp/redwind.pid
+daemonize=uwsgi.log
 </pre>
 
 == Frequently Asked Questions and issues ==

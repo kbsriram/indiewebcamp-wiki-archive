@@ -27,6 +27,11 @@ Archives of previous newsletters can be found below.
 
 http://indiewebcamp.com/this-week/
 
+== Ideas ==
+
+Other things you'd like to see in the weekly summary:
+
+* list pages that have received webmentions this week (in descending order of # of mentions)
 
 
 __NOTOC__

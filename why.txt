@@ -22,7 +22,9 @@ Our content is becoming more important, and sometimes even critical to our lives
 * '''Link destinations see you / your site as a referrer''' and credit you with sending traffic. Some silos (Twitter, Facebook, YouTube) wrap all links published in posts with their own link-redirectors (t.co, www.facebook.com/l.php?u=, www.youtube.com/redirect?q=) thus making the link destination think they're getting traffic from the silo in general, rather than from you and your profile. Links on your own site, however, notify destinations through the HTTP REFERER (sic) that your site (and thus you) are sending them traffic directly. [[User:Tantek.com|Tantek]] 15:09, 13 March 2013 (PDT)
 * '''Amazon affiliate links work.''' As part of their link-wrapping strategy, silos (e.g. Twitter, Facebook) may strip affiliate information from Amazon links, and/or only link to the where an Amazon link redirects to, and/or add their own silo-specific Amazon affiliate code to all the Amazon links in your posts! When you publish Amazon affiliate links in posts on your own site, the links work as expected. [[User:Tantek.com|Tantek]] 15:09, 13 March 2013 (PDT)
 === More robust ===
-* '''Fix links when they break.''' Another advantage of hosting your own content, you can fix links from your posts to others' sites when those links break (e.g. compare j.mp link vs longurl(edited 2013-058) on http://tantek.com/2010/145/t1/algorithmic-permashortlinks-diso-2-interview-ownyourdata). [[User:Tantek.com|Tantek]] 16:58, 27 February 2013 (PST)
+* '''Fix links when they break.''' Another advantage of hosting your own content, you can fix links from your posts to others' sites when those links break. Real world examples:
+** 2013-02-27 compare j.mp link vs longurl(edited 2013-058) on http://tantek.com/2010/145/t1/algorithmic-permashortlinks-diso-2-interview-ownyourdata). [[User:Tantek.com|Tantek]] 16:58, 27 February 2013 (PST)
+** 2014-05-13 http://tantek.com/2014/133/t2/moved-com-org-updated-links-indieweb-can
 * ...
 
 === Avoiding problems ===

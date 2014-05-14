@@ -73,6 +73,7 @@ Please keep sorted alphabetically
 * {{irc user|4c4d.com|sparverius|America/Los_Angeles}}
 * {{irc user|Tantek.com|tantek|America/Los_Angeles}}
 * {{irc user|Tommorris.org|tommorris|Europe/London}}
+* {{irc user|tiagopinto.pt|tpinto|Europe/London}}
 * {{irc user|trodrigues.net|trodrigues|Europe/Berlin}}
 * {{irc user|kodfabrik.se|voxpelli|Europe/Stockholm}}
 * {{irc user|vrypan.net|vrypan|Europe/Athens}}

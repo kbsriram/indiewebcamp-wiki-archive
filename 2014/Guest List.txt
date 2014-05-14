@@ -52,10 +52,6 @@ If you're not a creator, but want to be, or want to create and contribute to the
 In the meantime, be sure to get setup with your own personal identity so you can contribute to the wiki, and start learning what you can do to add your personal site to the indie web.
 
 == Official Guest List ==
-'''Venue Capacity: 50'''
-* signed-up: 
-* spots remaining: 50
-
 Want to help? [[2014/Planning|Sign up to volunteer!]].
 
 Create your account, then add yourself using the [[Template:Attendee|attendee template]]:
@@ -85,6 +81,10 @@ Then consider adding IndieWebCamp [[buttons]] to your website.
 
 ==== East ====
 Sign up for IndieWebCamp 2014 East in New York City, NY!
+
+'''Venue Capacity: 30'''
+* signed-up: 6
+* spots remaining: 24
 
 {{Attendee
 |name = Bear
@@ -142,7 +142,7 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 |url = http://tantek.com/
 |org_name = Mozilla
 |org_url = http://mozilla.com
-|projects = [http://cassisproject.com/ CASSIS]&nbsp;JS∩PHP (on [http://github.com/tantek/cassis github]), 
+|projects = looking into where to stay in NYC, [http://cassisproject.com/ CASSIS]&nbsp;JS∩PHP (on [http://github.com/tantek/cassis github]), 
 [http://tantek.com/w/Whistle Whistle] (URL shortener), 
 [http://tantek.com/w/Falcon Falcon] (my CMS), 
 [http://microformats.org/wiki/RelMeAuth RelMeAuth]
@@ -152,6 +152,10 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 
 ==== West ====
 Sign up for IndieWebCamp 2014 West in Portland, OR!
+
+'''Venue Capacity: 50'''
+* signed-up: 6
+* spots remaining: 44
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]

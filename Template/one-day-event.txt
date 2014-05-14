@@ -14,7 +14,7 @@ http://indiewebcamp.com/Template%3Aone-day-event
 
 		<p style="margin-top: 0;"> <strong class="p-name summary">{{{event_name}}}</strong> </p>
 
-		<p> When: <span class="dt-start"><span class="value" title="{{{{{|safesubst:}}}#time:F j, Y|{{{event_date}}}}}">{{{event_date}}}</span> <span class="value" title="{{{event_start_time}}}">{{{event_start_time}}}{{#if: {{{event_utc_offset}}}|<span style="display: none;">{{{event_utc_offset}}}</span> }}</span></span>–<span class="dt-end"><span class="value" title="{{{event_date}}}" style="display: none;">{{{event_date}}}</span><span class="value" title="{{{event_end_time}}}">{{{event_end_time}}}{{#if: {{{event_utc_offset}}}|<span style="display: none;">{{{event_utc_offset}}}</span> }}</span></span> ({{#if: {{{event_utc_offset}}}|{{{event_utc_offset}}} <abbr>UTC</abbr>|local time}}) </p>
+		<p> When: <span class="dt-start"><span class="value" title="{{{{{|safesubst:}}}#time:F j, Y|{{{event_date}}}}}">{{{event_date}}}</span> <span class="value" title="{{{event_start_time}}}">{{{event_start_time}}}{{#if: {{{event_utc_offset}}}|<span style="display: none;">{{{event_utc_offset}}}</span> }}</span>–<span class="dt-end">{{{event_end_time}}}{{#if: {{{event_utc_offset}}}|<span style="display: none;">{{{event_utc_offset}}}</span> }}</span></span> ({{#if: {{{event_utc_offset}}}|{{{event_utc_offset}}} <abbr>UTC</abbr>|local time}}) </p>
 
 		<p> Where: <span class="p-location location">{{{event_location}}}</span> </p>
 

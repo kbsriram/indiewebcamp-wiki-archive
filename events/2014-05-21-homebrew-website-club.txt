@@ -4,7 +4,8 @@ http://indiewebcamp.com/events/2014-05-21-homebrew-website-club
 = <span class="p-name summary">Homebrew Website Club Meetup</span> =
 == Details ==
 === When ===
-<span class="dt-start dtstart"><time class="value">2014-05-21</time> at <time class="value">18:30</time></span>-<span class="dt-end dtend"><time class="value">19:30</time> local time</span>
+
+<span class="dt-start dtstart"><time class="value">2014-05-21 (all times local)</time>: <br/>17:30-18:30 Writing hour<br/><time class="value">18:30</time></span>-<span class="dt-end dtend"><time class="value">19:30</time> Homebrew Website Club broadcast & peer-to-peer</span>
 
 === Where ===
 ;San Francisco
@@ -32,6 +33,7 @@ San Francisco:
 * ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
 
 Portland:
+* http://calagator.org/events/1250466210
 * ... (need indieweb [[event]] for indie [[RSVP]]s)
 * ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
 
@@ -41,15 +43,20 @@ Chicago:
 
 == RSVP ==
 '''Optional RSVP.''' You're encouraged to RSVP by any or all of:
-* adding your name below, 
+* adding your name below (and indicate parenthetically if you're in for writing hour)
 * sending an indie [[RSVP]] to the respective indie [[event]] listed above for your location, 
 * RSVPing on its POSSE copy on Facebook (also linked above)
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{t}} (in for writing hour!)
+* [[User:Kevinmarks.com|Kevin Marks]] (in for writing hour!)
+* [[User:andigalpern.com|Andi Galpern]] (in for writing hour!)
+* {{kylewm}} (can't make writing hour)
 * ... add yourself!
 
 '''Portland:'''
+* {{aaronpk}} (in for writing hour!)
 * ... add yourself!
 
 '''Chicago:'''

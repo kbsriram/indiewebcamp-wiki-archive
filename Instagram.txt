@@ -3,7 +3,7 @@ http://indiewebcamp.com/Instagram
 <span style="float:right">http://www.cui.edu/portals/0/Images/Logos/instagram-logo.jpg</span>
 {{stub}}
 
-[http://instagram.com/ Instagram.com] is a popular image hosting [[silo]] most well known for square [[photos]] that have been processed with an image filter. In 2013, Instagram added support for 15 second [[video]] posts.
+'''<dfn>[http://instagram.com/ Instagram]</dfn>''' is a popular image hosting [[silo]] most well known for square [[photos]] that have been processed with an image filter. In 2013, Instagram added support for 15 second [[video]] posts.
 
 ==Exporting your data==
 [http://instaport.me/ Instaport.me] and [http://flickstagram.org flickstagram.org] let you export your Instagram photos.
@@ -29,7 +29,7 @@ And bingo, you've effectively created a POSSE copy of your photo on Instagram si
 
 At this point you can also use a service like [[Bridgy]] to [[backfeed]] comments on the photo from Instagram to your own site.
 
-==== IndieWeb Implementations ====
+=== IndieWeb Implementations ===
 * [[User:Aaronparecki.com|Aaron Parecki]] is [https://github.com/aaronpk/p3k/issues/29 working on this] for [[p3k]].
 * ...
 
@@ -38,6 +38,7 @@ At this point you can also use a service like [[Bridgy]] to [[backfeed]] comment
 * Work has also been done on determining its unofficial API (which is against Instagram's terms of service, but allows you to post): https://github.com/mislav/instagram/wiki
 * Instagram Worm uploaded photos using private/undocumented API (needs citation)
 * Instagram private API changes affect unofficial apps and photos uploaded via unofficial apps http://www.theverge.com/2013/7/30/4570610/instagram-deleting-photos-from-instance-windows-phone-app
+* [http://instagram.com/developer/endpoints/locations/ location of photos] - indicates use of [[Facebook]] places ID, [[Foursquare]] venue id (both v1 and v2 of their API)
 
 ==UX Observation==
 * Videos and Photos have a very similar UI. --[[User:Bret.io|Bret.io]] 00:38, 1 July 2013 (PDT)
@@ -45,7 +46,8 @@ At this point you can also use a service like [[Bridgy]] to [[backfeed]] comment
 ** [http://instagram.com/p/bMlGL1g9RG/ Example of video]
 ** [http://instagram.com/p/bMj4vvA9ez/ Example of photo]
 
-==Downtime==
+== Criticism ==
+===Downtime===
 * 2014-04-12 Instagram feeds were down as reported in this @Instagram tweet which itself has been deleted!
 ** https://twitter.com/instagram/statuses/455025601553108993
 ** <blockquote>We’re working to fix a feed delivery issue. Thank you for your patience.</blockquote>
@@ -53,6 +55,19 @@ At this point you can also use a service like [[Bridgy]] to [[backfeed]] comment
 
 * 2013-08-28 17:27-0400 EDT
 [https://twitter.com/tessa/status/372834695391612928 https://pbs.twimg.com/media/BSyTLhLCAAAIF7o.png]
+
+=== Switch from Foursquare to Facebook venues ===
+Sometimes in 2014-05, Instagram switch from using [[Foursquare]]'s venue database (e.g. in the iOS app UI) to using [[Facebook]]'s places database.
+
+This has resulted in:
+* fewer venue matches
+* less accurate venue locations
+* loss of venue information when cross-posting from Instagram to Foursquare (i.e. checks you into the wrong location, or a generic neighborhood rather than a specific venue)
+
+See also:
+* 2014-05-11 https://twitter.com/parislemon/status/465554365286084608 <blockquote>Instagram's decision to use Facebook's much worse place database over Foursquare's has made the product worse. Stupid.</blockquote>
+* 2014-05-11 https://twitter.com/parislemon/status/465555168851816448 <blockquote>The moment a decision is made for business/political reasons, the product starts to decay. Even if only a little bit.</blockquote>
+* 2014-05-12 <cite>[https://medium.com/five-hundred-words/dad4c3736409 Instagram Just Geotagged Us To Hell]</cite>
 
 == See also ==
 * [[silos]]

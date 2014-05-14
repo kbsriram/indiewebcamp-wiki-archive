@@ -16,7 +16,7 @@ See [[events]] for dates/locations/URLs of upcoming meetings!
 
 === Established Meetings ===
 * San Francisco, CA
-** Organizer(s): [[User:Tantek.com|Tantek]], [[User:Snarfed.org|Ryan Barrett]]
+** Organizer(s): [[User:Tantek.com|Tantek]], [[User:Snarfed.org|Ryan Barrett]], [[User:Werd.io|Ben Werdmüller]]
 * Portland, OR
 ** Organizer(s): [[User:Aaronparecki.Com|Aaron Parecki]], Dietrich, Crystal
 * Chicago, IL
