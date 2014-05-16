@@ -1,0 +1,19 @@
+http://indiewebcamp.com/Loqi
+
+{{stub}}
+
+'''<dfn>Loqi</dfn>''' is a friendly and useful bot present in the #indiewebcamp [[IRC]] channel and other channels.
+
+== Ideas ==
+=== who uses xyz ===
+=== anyone here use xyz ===
+=== who supports xyz ===
+These questions (when present at the start of a message, optionally terminated by a ?) could be answered with a link to /xyz#IndieWeb_Examples
+
+=== why xyz ===
+=== why should I use xyz ===
+=== why should I support xyz ===
+These questions (when present at the start of a message, optionally terminated by a ?) could be answered with a link to /xyz#Why
+
+== See Also ==
+* [[IRC]]

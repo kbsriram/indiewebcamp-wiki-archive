@@ -76,7 +76,7 @@ To support paging and eventually, tags and other lookups, post metadata is cache
 }
 </pre>
 
-The datastore is mirrored on git.kylewm.com[http://git.kylewm.com/?p=site-data.git;a=summary], though it lags behind the live data somewhat
+The datastore is mirrored in a private repo on git.kylewm.com, though it lags behind the live data somewhat
 
 == Screenshots ==
 

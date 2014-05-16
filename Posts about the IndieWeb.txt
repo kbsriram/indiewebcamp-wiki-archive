@@ -15,6 +15,7 @@ Posts about the indieweb (in chronological order)
 * 2013-12-12 [http://www.onemanandhisblog.com/archives/2013/12/leweb_-_kevin_marks_on_the_web_that_will.html Kevin Marks on the web that will win] from #leweb
 * 2013-11-04 Josh Johnston: [http://x-team.com/2013/11/the-power-to-create/ The Power to Create]
 * 2013-09-26 Johannes Ernst: [http://upon2020.com/blog/2013/09/the-indieweb-community-has-it-nailed-selfdogfood/ The IndieWeb community has it nailed: #selfdogfood]
+* 2013-09-16 Kevin Beynon: [http://kevinbeynon.com/article/34/webmentions_and_the_real_social_web Webmentions and the REAL Social Web]
 * 2013-08-29 The New Statesman: [http://www.newstatesman.com/business/2013/08/us-government-taking-your-facebook-data-it-doesnt-stop-there The US government is taking your Facebook data. But it doesn't stop there]
 * 2013-08-21 Aral Balkan: [http://aralbalkan.com/notes/beware-of-geeks-bearing-gifts/ Beware of geeks bearing gifts]
 * 2013-08-21 Tim's Weblog: [http://www.strehle.de/tim/weblog/archives/2013/08/21/1641 Indie Web resources: Silos vs. an open Web]

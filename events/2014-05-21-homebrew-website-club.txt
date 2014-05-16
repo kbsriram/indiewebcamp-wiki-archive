@@ -14,10 +14,6 @@ http://indiewebcamp.com/events/2014-05-21-homebrew-website-club
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
-;Chicago
-:<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Intelligentsia Coffee</span>], <span class="adr"><span class="p-street-address street-address">53 East Randolph St.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 18:30 CDT''
-
 === What ===
 <div class="p-description description">
 Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with likeminded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... 
@@ -34,10 +30,6 @@ San Francisco:
 
 Portland:
 * http://calagator.org/events/1250466210
-* ... (need indieweb [[event]] for indie [[RSVP]]s)
-* ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
-
-Chicago:
 * ... (need indieweb [[event]] for indie [[RSVP]]s)
 * ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
 
@@ -59,14 +51,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * {{aaronpk}} (in for writing hour!)
 * ... add yourself!
 
-'''Chicago:'''
-* ... add yourself!
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-05-21 IRC discussion archives 2014-05-21]
-
-'''Chicago'''
-
 
 '''San Francisco'''
 

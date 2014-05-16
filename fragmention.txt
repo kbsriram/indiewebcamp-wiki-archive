@@ -62,6 +62,9 @@ Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus sign
 == Proposed icon ==
 [[File:highlink.svg]] - This combines highlighting with linking and is thus a classic over-literal design by an engineer. Graphic designers very much welcomed to come up with something better.
 
+== Using Fragmentions in a TOC ==
+Because Fragmentions by default link to the first occurrence of a phrase, it's not possible to use them in a table of contents on the same page if the table of contents appears above the things you're linking to. This is because the fragmentions would then link to themselves.
+
 = Related work =
 The NY Times has [http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/ a tool for annotating articles], but it makes a very complex anchor and requires a very specific algorithm. [https://github.com/NYTimes/Emphasis source here]
 

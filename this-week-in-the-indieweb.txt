@@ -33,5 +33,4 @@ Other things you'd like to see in the weekly summary:
 
 * list pages that have received webmentions this week (in descending order of # of mentions)
 
-
-__NOTOC__
+__TOC__

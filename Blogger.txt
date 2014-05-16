@@ -21,6 +21,9 @@ Issues folks have run into with Blogger's custom domain support.
 
 * ...
 
+== webmention ==
+Blogger doesn't have built in support for [[webmention]]s, but [[Bridgy]] can send, receive, and display webmentions for Blogger blogs. You can also receive webmentions with [[webmention.io]] and [https://webmention.herokuapp.com/ webmention.herokuapp.com].
+
 == Criticism ==
 === templates use XML ===
 Blogger templates still require use of their custom XML, which has inconveniences like:

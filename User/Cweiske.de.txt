@@ -4,7 +4,7 @@ http://indiewebcamp.com/User%3ACweiske.de
 
 Software written by cweiske to leave the cloud / host everything yourself:
 * [https://cweiske.de/phancap.htm phancap] - website screenshot service
-* [http://sourceforge.net/projects/phorkie/ phorkie] - git-clonable pastebin
+* [[phorkie]] - git-clonable pastebin
 * [http://semanticscuttle.sourceforge.net/ SemanticScuttle] - social bookmarking
 * [http://cweiske.de/tagebuch/ssh-dyndns.htm ssh-dyndns] - self-hosted dyndns service
 * [[stapibas]] - linkback server

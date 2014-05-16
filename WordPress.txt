@@ -38,7 +38,7 @@ You can [[POSSE]] manually, but most people automate it. WordPress has many plug
 Other plugins that can be used to POSSE:
 * [https://wordpress.org/plugins/tumblr-crosspostr/ Tumblr Crosspostr] (Tumblr only)
 
-If you POSSE, it's good practice to include [[rel-syndication]] links on your WordPress posts. Try the [http://wordpress.org/plugins/relsyndication/ rel-syndication plugin] for that(Currently only supports the Social plugin).
+If you POSSE, it's good practice to include [[rel-syndication]] links on your WordPress posts. Try the [http://wordpress.org/plugins/relsyndication/ rel-syndication plugin] for that(Currently only supports the Social plugin, the [https://github.com/jihaisse/wordpress-syndication GitHub mainline] has minimal support of Tumblr, Twitter and Facebook for NextScripts SNAP ).
 
 If you also want to go the other direction and pull your social network posts and data back to WordPress, there are [[PESOS]] plugins too. To start, try [http://www.enthropia.com/labs/wp-lifestream/ Lifestream].
 
@@ -197,6 +197,9 @@ It is possible to manually [[POSSE]] [[articles]] to Wordpress.com.
 Shane Becker is manually POSSEing his articles to Wordpress.com.
 * http://iamshane.com/articles/2010/11/7/1/no-more-sharecropping
 ** POSSE copy: https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping
+
+=== webmention ===
+WordPress.com doesn't have built in support for [[webmention]]s, but [[Bridgy]] can send, receive, and display webmentions for WordPress.com blogs. You can also receive webmentions with [[webmention.io]] and maybe [https://webmention.herokuapp.com/ webmention.herokuapp.com].
 
 === cURL Problem ===
 On 2014-05-06 it was [http://indiewebcamp.com/irc/2014-05-06/line/1399412640 reported] that http://indiewebify.me returned an empty result when attempting to check gabrielscheer.com. That domain is hosted on wordpress.com and it appears that wordpress.com is blocking some cURL requests based on the User-Agent. At a minimum, it appears that wordpress.com is blocking cURL requests with the Guzzle User-Agent.

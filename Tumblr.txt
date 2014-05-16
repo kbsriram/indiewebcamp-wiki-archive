@@ -68,6 +68,9 @@ The following Tumblrs have proper [[h-entry]] markup (per the above instructions
 * http://tantek.tumblr.com/  (also uses <code>&lt;link rel=author&gt;</code> for site and post [[authorship]])
 * ...
 
+=== Add webmention support ===
+Tumblr doesn't have built in support for [[webmention]]s, but [[Bridgy]] can send, receive, and display webmentions for Tumblr blogs. You can also receive webmentions with [[webmention.io]] and [https://webmention.herokuapp.com/ webmention.herokuapp.com].
+
 === Export ===
 Tumblr's v1 read API is blissfully simple to use although now deprecated. It returns custom XML but it is fairly straightforward to transform this into HTML etc.
 

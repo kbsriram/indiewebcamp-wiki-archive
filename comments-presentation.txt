@@ -89,6 +89,10 @@ The post the comments are in reply to should be a top-level h-entry, and comment
 
 See: http://microformats.org/wiki/comment-brainstorming#microformats2_p-comment_h-entry
 
+==== p-summary on comment body ====
+The class p-summary is used on the p-comment h-cite because the expectation is that the site may have summarized (or truncated) the actual content from the original reply post, using the summary/truncating algorithms above.
+
+==== empty in-reply-to inside comments ====
 In addition, since the displayed comments are on the page with the URL that they are "in-reply-to", you can add an empty u-in-reply-to property which will automatically become the permalink when parsed due to URL absolute canonicalization rules. E.g. this inside each displayed comment:
 
 <code><nowiki><a href="" class="u-in-reply-to"></a></nowiki></code>

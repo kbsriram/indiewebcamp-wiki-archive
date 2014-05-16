@@ -1,14 +1,19 @@
 http://indiewebcamp.com/IRC
 
 = Join the discussion: #indiewebcamp chat =
-== Today's Log ==
+== Today's Discussions ==
+Read recent indieweb discussions:
 * http://indiewebcamp.com/irc/today
 
 == Quick Start ==
-Use a browser to quickly join:
+Use a browser to quickly join the live discussion chat:
 * '''[http://webchat.freenode.net/?channels=indiewebcamp&nick=indie-visitor webchat #indiewebcamp discussion]'''
 
-Or use an IRC client application such as:
+== What is IRC ==
+'''<dfn>IRC</dfn>''' is an abbreviation for Internet Relay Chat and is the primary discussion forum for the  indiewebcamp community, in particular the #indiewebcamp channel on the irc.freenode.net server.
+
+== IRC client applications ==
+You can also use an IRC client application such as:
 * [http://colloquy.info Colloquy] — open source (free on Mac, nominal fee on iOS)
 * Firefox: [https://addons.mozilla.org/en-US/firefox/addon/chatzilla/ Chatzilla] IRC plugin.
 * [http://limechat.net/mac/ Limechat] (Mac or iOS)
@@ -17,13 +22,15 @@ Or use an IRC client application such as:
 * [https://market.android.com/details?id=org.yaaic&feature=search_result Yaaic on Android]
 * [https://chrome.google.com/webstore/detail/circ/bebigdkelppomhhjaaianniiifjbgocn CIRC on ChromeOS or in the Chrome browser]
 
-Join:
+Set up your client application to join:
 * irc://irc.freenode.net/indiewebcamp
 * Server: irc.freenode.net
 * Port: 6667
 * Channel: #indiewebcamp
 
+IRC applications are convenient for automatically reconnecting you to the discussion channel, with your chosen nickname, and offer more configuration and alerting options than the web interface.
 
+== Freenode Services ==
 The indiewebcamp IRC channel is hosted on the freenode.net server.  See [[#Joining_a_server_and_channel|Joining a server and channel]] for info about configuring additional services (authenticated nicknames, etc.).
 
 == Activity ==

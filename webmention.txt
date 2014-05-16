@@ -108,8 +108,8 @@ In addition to just a link (mention) there are several special types of mentions
 * [[repost]]
 
 == Implementations ==
-=== IndieWeb implementations ===
-The following users/sites have implemented sending and or receiving webmentions, in rough chronological order:
+=== IndieWeb Examples ===
+The following users/sites have <span id="IndieWeb_implementations">implemented</span> sending and or receiving webmentions, in rough chronological order:
 * [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on [http://aaronparecki.com/ aaronparecki.com] as of 2013-05-26. Details:
 ** All posts send webmentions (as of 2013-05-26 first (semi-)automatic webmention sent on 2013-03-31) upon posting (asynchronously with posting UI, no results reported).
 ** Events, notes (including RSVPs), replies accept webmentions (as of 2013-05-26)
@@ -226,8 +226,8 @@ For parsing the mentions, the following may come in handy:
 Some open source publishing software supports webmentions.
 * [[idno]] sends webmentions and accepts webmention comments
 * [[p3k]] sends webmentions for all posts and accepts webmention comments on events, notes, replies, RSVPs
+* [[phorkie]] sends and accepts webmentions to notify remote instances about forks
 * [[Taproot]]
-* …
 
 '''Plugins''' exist for some open source publishing software:
 * [[Wordpress#Mentions]]
