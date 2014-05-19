@@ -1,0 +1,22 @@
+http://indiewebcamp.com/webhook
+
+{{stub}}
+
+A '''<dfn>webhook</dfn>''' is a mechanism for notifying a server about updates to some content in realtime by making an HTTP request. Often also referred to as a "callback URL".
+
+Often the payload of a webhook is something small, such as a message that indicates new content for the application or for a specific user, rather than including the actual data itself.
+
+== APIs that support webhooks ==
+[[Instagram]] has a realtime API which sends updates to your application any time any authorized user posts a new photo.[http://instagram.com/developer/realtime/]
+
+Apps can register webhooks with the [[Jawbone]] API to receive callbacks for user events.[https://jawbone.com/up/developer/pubsub]
+
+== IndieWeb Examples ==
+Examples of IndieWeb sites that have enabled some form of webhook:
+
+* ...
+
+== See Also ==
+* [[pubsub]]
+* [[webmention#Asynchronous_status_notification|webmention asynchronous status notification]]
+* [[PubSubHubbub]]

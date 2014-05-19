@@ -27,7 +27,10 @@ See also:
 * 2013-08-01 [http://www.bogost.com/blog/oauth_of_fealty.shtml OAuth of Fealty] / "Resignation beyond sorrow on the Facebook Platform and beyond"
 
 === See Original ===
-Some indieweb sites (e.g. aaronparecki.com, kylewm.com) POSSE to FB and put in a "See Original" link in POSSE copies of posts there that link back to the original indieweb post! In addition, [[Bridgy]] looks for such "See Original" links as part of its [[original-post-discovery]] implementation. 
+
+: '''Warning:''' Based on problems we've had with Bridgy Publish, I ([[User:Kylewm.com|Kylewm.com]]) am starting to suspect that this use case is somewhere between unsupported and an unintentional bug in Facebook, which only seems to work for the app developer's account and may be shut down in the future. Facebook expects custom actions to be registered by your app, and custom [https://developers.facebook.com/docs/opengraph/using-actions/v2.0#howto-actionlinks Action Links] to point to a common endpoint on the application's domain.
+
+Some indieweb sites POSSE to FB and put in a "See Original" link in POSSE copies of posts there that link back to the original indieweb post! In addition, [[Bridgy]] looks for such "See Original" links as part of its [[original-post-discovery]] implementation. 
 
 Each Facebook post [https://developers.facebook.com/docs/graph-api/reference/user/feed/#publish can include one custom "action"] with any title and link. The parameter "actions" is  a JSON-encoded map that contains a "name" entry ("See Original" in this case) and a "link" entry. Note: Bridgy currently only looks for custom actions named "See Original" (case-insensitive) when doing original-post-discovery.
 

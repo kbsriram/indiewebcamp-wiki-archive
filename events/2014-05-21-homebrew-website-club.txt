@@ -34,7 +34,7 @@ Portland:
 * ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
 
 == RSVP ==
-'''Optional RSVP.''' You're encouraged to RSVP by any or all of:
+'''Optional RSVP - just show up!''' You're encouraged to RSVP by any or all of:
 * adding your name below (and indicate parenthetically if you're in for writing hour)
 * sending an indie [[RSVP]] to the respective indie [[event]] listed above for your location, 
 * RSVPing on its POSSE copy on Facebook (also linked above)
@@ -50,7 +50,6 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland:'''
 * {{aaronpk}} (in for writing hour!)
 * ... add yourself!
-
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-05-21 IRC discussion archives 2014-05-21]

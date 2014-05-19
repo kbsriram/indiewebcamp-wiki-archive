@@ -2,14 +2,14 @@ http://indiewebcamp.com/IndieAuth
 
 <div style="float: right; clear:both; padding: 10px; margin: 0 0 0 auto; width: 240px; border: 1px #ccc solid; background-color: #fffee7;">IndieAuth Provider Status: {{indieauth-status}}</div>
 == What is IndieAuth ==
-IndieAuth is a way to '''use your own domain name''' to sign in to websites. It's like [[OpenID]], but simpler! 
+'''<dfn>IndieAuth</dfn>''' is a way to '''use your own domain name''' to sign in to websites. It's like [[OpenID]], but works with services you probably already use!
 
 It works by linking your website to one or more authentication providers such as [[Twitter]] or [[Google]], then entering your domain name in the login form on websites that support IndieAuth.
 
 IndieAuth setup on your [[personal domain]] is a requirement for [[IndieMark]] Level 1.
 
 == IndieWeb Examples ==
-Every person/site in [[Special:RecentChanges]] has setup IndieAuth on their personal domain, since it is required to edit the wiki!
+Every person/site in [[irc-people]] and [[Special:RecentChanges]] has setup IndieAuth on their personal domain, since it is required to edit the wiki!
 
 == Why ==
 The #1 reason to setup IndieAuth is because you've found this wiki, and setting up IndieAuth will allow you to login and contribute to the [[community]], including doing common things like:
@@ -20,14 +20,14 @@ There are also some [[IndieMark]] features that are built upon having IndieAuth 
 
 == How to ==
 === Set up ===
-* Add a link on your home page to your various social profiles with the attribute rel="me"
+* Add a link on your home page to your various social profiles with the attribute <code>rel="me"</code>
 * Ensure your profiles link back to your home page
 * Enter your domain in a "Web Sign-In" box to being using your own domain as your online identity!
 
 See: [https://indieauth.com/setup full setup instructions] 
 
 === Use IndieAuth for your OpenID ===
-Using IndieAuth as an OpenID delegate allows you to sign in to any site that [[OpenID#Consuming_Sites|consumes OpenID]] using your IndieAuth setup. 
+Using indieauth.com as an OpenID delegate allows you to sign in to any site that [[OpenID#Consuming_Sites|consumes OpenID]] using your IndieAuth setup.
 
 To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the <code>&lt;head&gt;</code> element) of your website, replacing "aaronparecki.com" with your domain of course.
 
@@ -37,8 +37,7 @@ To use indieauth.com as an OpenID delegate for the OpenID identifier of your sit
 </pre>
 
 == Details ==
-* IndieAuth is an implementation of [[Web sign-in]]/[[RelMeAuth]] with a REST API on top.
-* More details: [http://spec.indieauth.com/ IndieAuth specification]
+* IndieAuth is an implementation of [[Web sign-in]]/[[RelMeAuth]] with an HTTP API
 
 == FAQ ==
 === Why is my https domain not working? ===

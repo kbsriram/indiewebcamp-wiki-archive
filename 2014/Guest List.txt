@@ -137,6 +137,14 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 }}
 
 {{Attendee
+|name = [[User:kartikprabhu.com|Kartik Prabhu]]
+|img = http://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s320-c/Recursion-small.jpg
+|url = http://kartikprabhu.com/
+|projects = contributed to [https://github.com/kartikprabhu/mf2py mf2py], [[ronkyuu]]
+|elsewhere = [https://twitter.com/kartik_prabhu @kartik_prabhu], [https://plus.google.com/+KartikPrabhu +Kartik Prabhu]
+}}
+
+{{Attendee
 |name = [[User:Tantek.com|Tantek Çelik]]
 |img = http://tantek.com/logo.jpg
 |url = http://tantek.com/

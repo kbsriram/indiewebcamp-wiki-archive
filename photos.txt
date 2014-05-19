@@ -19,13 +19,17 @@ There are different approaches to posting photos. E.g.
 You should own your photos like you own any other content you create. Many photos sites have [[site-deaths|gone down]] over the years, taking invaluable personal memories with them.
 
 == IndieWeb Examples ==
+=== Aaron Parecki ===
+{{aaronpk}} has been posting photos to his own site since [[2014/SF|IndieWebCamp SF]] on 2014-03-08, using [[OwnYourGram]] to turn [[Instagram]] into a publishing client.
+* e.g. http://aaronparecki.com/notes/2014/05/06/3/iiw-indieweb
+
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with images in.
+
 === Ben Werdmuller ===
 [[User:Werd.io|Ben Werdmuller]] uses [[idno]] to post photos (including taking them with a mobile web upload interface that uses the camera!) on [http://werd.io/ werd.io] (since ????-??-??), and [[POSSE]]s them to [[Facebook]] and [[Flickr]] (since ????-??-??)
 * e.g. ??? a photo post permalink on werd.io
 * mobile photography and posting demonstrated live at IndieWebCamp [[2013]] in Portland.
-
-=== Barnaby Walters ===
-[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with images in.
 
 === Ryan Barrett ===
 [[User:Snarfed.org|Ryan Barrett]] uses [[WordPress]] to post photos on [https://snarfed.org/pictures snarfed.org/pictures] since around [https://snarfed.org/draw_group 2003-03-06].
@@ -86,12 +90,7 @@ Advantages to POSSEing actual photos to Twitter, rather than just a link to a ph
 Software you can install on your IndieWeb server to host your own photos
 === Trovebox ===
 {{main|Trovebox}}
-Trovebox (formerly <span id="OpenPhoto">OpenPhoto</span>) is software you can install to post and share your own photos.
-
-Criticisms:
-* '''Poor integration'''. fails to easily integrate with any other posting software, e.g. for posting [[notes]], [[articles]], and photos into a single stream on your homepage.
-* '''Poor stream management'''. <blockquote>"it's fine as a full photo management stack, that's just not what I want in terms of publishing a photo stream." - [http://indiewebcamp.com/irc/2013-04-16#t1366140041 aaronpk on IRC]</blockquote>
-* '''Poor small/odd image size handling'''. <blockquote>"I have found it sub-optimal for small images (it scales them up to horrible dimensions) and weirdly shaped images (screenshots/panoramas, both of which i do a lot)" - [http://indiewebcamp.com/irc/2013-04-16#t1366140083 Barnabywalters on IRC]</blockquote>
+Trovebox (formerly <span id="OpenPhoto">OpenPhoto</span>) is software you can install to post and share your own photos. There are several [[Trovebox#Criticism|documented criticisms]] of this software as it has been used by people in the community.
 
 == See Also ==
 * [[photo upload]]

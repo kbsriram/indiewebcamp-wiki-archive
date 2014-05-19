@@ -2,7 +2,7 @@ http://indiewebcamp.com/micropub
 
 {{stub}}
 
-Micropub is an API spec that is used to create h-entry or h-event posts on one's own domain using third-party clients.
+'''<dfn>Micropub</dfn>''' is an API spec that is used to create h-entry or h-event posts on one's own domain using third-party clients.
 
 For example, a native iPhone client similar to a Twitter client can post short notes to your own site, or an app can post photos to your site.
 
@@ -26,9 +26,9 @@ Add a &lt;link&gt; tag in the HTML head of your home page, or send an HTTP Link 
 
 == Authentication ==
 
-Authorization should be handled via the [[IndieAuth]] protocol (a few minor additions to OAuth 2.0). 
+Authorization should be handled via the [[IndieAuth]] protocol (built on top of OAuth 2.0).
 
-An app that wants to post to a user's micropub endpoint will need to obtain authorization.
+An app that wants to post to a user's Micropub endpoint will need to obtain authorization.
 
 When making requests to the Micropub endpoint, the access token should be sent in either an HTTP header or in a post body parameter as described in the [http://tools.ietf.org/html/rfc6750#section-2 OAuth Bearer Token RFC].
 
@@ -333,6 +333,13 @@ Sites and applications that publish via micropub.
 * [[User:waterpigs.co.uk]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new The post UI] is publicly accessible, but of course only authorized users can make posts 
 * [[User:notenoughneon.com]]'s post UI creates notes and articles via micropub.
 * ...
+
+== Brainstorming ==
+
+Q: should a markdown-based client send the "content" field as markdown or rendered html? If the latter, should it send an auxiliary field with the raw markdown?
+* Backends that store posts as markdown will want the raw version.
+* Sending HTML means that even endpoints that don't use markdown could make use of a markdown editor for authoring.
+* {{aaronpk}} points out that this will not be very useful without the ability to fetch raw content, and resubmit an edited version (which will mean expanding the spec significantly)
 
 == See Also ==
 * [[post]] - [[h-entry]]

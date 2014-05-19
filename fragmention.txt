@@ -27,6 +27,7 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 * [http://indiewebcamp.com/fragmention##this+wiki this wiki] itself! Thanks [http://aaronparecki.com/ Aaron]
 * [https://drupal.org/sandbox/ocean/2247743 A drupal plugin] by Drew Robinson
 * [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
+* [http://nerd.vasilis.nl/linking-fragments-page/##a+few+lines+of+CSS Styled with a tiny CSS animation] by Vasilis van Gemert
 
 == silo implementations ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
@@ -64,6 +65,16 @@ Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus sign
 
 == Using Fragmentions in a TOC ==
 Because Fragmentions by default link to the first occurrence of a phrase, it's not possible to use them in a table of contents on the same page if the table of contents appears above the things you're linking to. This is because the fragmentions would then link to themselves.
+
+== What if the linked-to text occurs more than once? ==
+
+In [[User:Kevinmarks.com|Kevin Marks]]' [http://www.kevinmarks.com/poemfragmentions.html##What+if+the+linked-to+text+occurs+more+than+once follow-up post], he suggests using more words to create a unique reference, rather than trying to find a technical solution to the problem. 
+
+Proposed solution to reference the nth occurrence of a phrase:
+
+* http://kartikprabhu.com/static/demo/fragmention.html##was+still
+* http://kartikprabhu.com/static/demo/fragmention.html##was+still++2
+* http://kartikprabhu.com/static/demo/fragmention.html##was+still++-1
 
 = Related work =
 The NY Times has [http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/ a tool for annotating articles], but it makes a very complex anchor and requires a very specific algorithm. [https://github.com/NYTimes/Emphasis source here]

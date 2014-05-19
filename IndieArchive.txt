@@ -2,7 +2,7 @@ http://indiewebcamp.com/IndieArchive
 
 {{stub}}
 
-'''<dfn>IndieArchive</dfn>''' is a [[project]] to collaboratively grow an archive of pages [[replies|replied to]] (possibly also [[comment|mentioned]]) in indie web [[posts]].
+'''<dfn>IndieArchive</dfn>''' is a [[project]] to collaboratively grow an [[archive]] of pages [[replies|replied to]] (possibly also [[comment|mentioned]]) in indie web [[posts]].
 
 * [[Github]]: https://github.com/i-a
 * Live raw files: http://i-a.github.io/
@@ -85,6 +85,7 @@ A site that notices certain off-site links are frequently clicked could begin ar
 This could also be done directly by clients browsing sites too. Frequently visited sites are archived locally. Infrequently visited sites are just not archived ("forgotten").
 
 == See Also ==
+* [[archive]]
 * [[projects]]
 * [[replies]]
 * [[mentions]]

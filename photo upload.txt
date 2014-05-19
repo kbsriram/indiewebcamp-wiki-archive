@@ -21,10 +21,14 @@ This presents the opportunity to build a [[PuPuPu]] system with Instagram as a p
 *** -> syndication with permalinks to:
 **** [[Facebook]]
 **** [[Flickr]]
+**** [[Twitter]]
 **** [[Wikimedia Commons]] (for photos you don't mind contributing as CC BY-SA, CC BY, CC0/PD or equivalent)
 **** ...
 
 Technically this would be Push-Push-Publishing, since the notifications from Instagram are done in real-time using the [[PuSH]] protocol.
+
+=== Implementations ===
+The [[OwnYourGram]] service enables you to use Instagram as a publishing client for posting photos to your own site.
 
 == HTML5 photo uploads ==
 HTML5 extends the input element to permit pages to declaratively attempt photo uploads with:

@@ -2,8 +2,7 @@ http://indiewebcamp.com/Web_sign-in
 
 {{stub}}
 
-'''<dfn>[http://microformats.org/wiki/web_sign-in Web sign-in]</dfn>''' is a way to sign-in to websites with your personal web address.
-Web sign-in supersedes [[OpenID]].
+'''<dfn>[http://microformats.org/wiki/web_sign-in Web sign-in]</dfn>''' is a way to sign in to websites using your personal web address. Web sign-in supersedes [[OpenID]].
 
 == Why ==
 {{main|Why web sign-in}}
@@ -23,7 +22,7 @@ See http://microformats.org/wiki/web_sign-in for a more detailed description of 
 See http://microformats.org/wiki/relmeauth#open_source_implementations for more.
 
 == Articles ==
-* 2013-08-26 [http://waterpigs.co.uk/articles/squarespace-web-sign-in/ How to set up Web Sign In on your @squarespace website]
+* 2013-08-26 [http://waterpigs.co.uk/articles/squarespace-web-sign-in/ How to set up Web Sign-in on your @squarespace website]
 * ...
 
 See also [[IndieAuth#Articles|IndieAuth articles]].

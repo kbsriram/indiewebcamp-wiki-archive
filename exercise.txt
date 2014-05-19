@@ -1,0 +1,60 @@
+http://indiewebcamp.com/exercise
+
+{{stub}}
+
+'''<dfn>exercise</dfn>''' is a (typically) ''passive'' [[post]] type that represents some form of physical activity. Its content is often similar to a [[note]] or can easily be represented as plain text.
+
+Tags: fitness, fitbit, pedometer, physical activity, run, running, workout, workouts, health, tracking
+
+== IndieWeb Examples ==
+=== Aaron Parecki ===
+[[User:Aaronprecki.com|Aaron Parecki]] has been tracking pushups using his Pushups app via [[p3k]]'s [[micropub]] support on aaronparecki.com since ????-??-??
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] has been tracking pushups using his Pushups web app via [[Taproot]]'s [[micropub]] support on Waterpigs.co.uk since ????-??-??
+
+== Silo Examples ==
+=== Jawbone ===
+[[Jawbone]]'s [[API]] has a lot of stuff:
+* https://jawbone.com/up/developer/endpoints
+
+=== MapMyFitness ===
+[[MapMyFitness]] has an app and website:
+* [[MapMyRun]], mapmyrun.com which claims to be able to aggregate fitness posts/activities from nearly all other fitness silos, and then provides access to them with an API.
+**  https://www.mapmyapi.com/Standard_API
+** It may be interesting to explore mapmyrun.com to [[PESETAS]] fitness information and then use their open API to feed it all into your own site.
+
+=== Nike ===
+[[Nike]] has various fitness tracking applications (iOS, Android, ???)
+* [[Nike+]] Running
+* ...
+
+=== Strava ===
+[[Strava]] tracks bicycle rides.
+
+It's possible to setup Strava to push into Jawbone
+* [[User:aaronparecki.com|Aaron Parecki]] is doing this since ????-??-??
+
+== Challenges ==
+* Too much hassle (AKA "high friction data collection") http://aaronparecki.com/articles/2012/10/28/1/low-friction-personal-data-collection
+
+== Brainstorming ==
+Some brainstorming about exercise posts, including simple text-only syntaxes that could be used in notes:
+
+=== Step Tracking ===
+Syntax: number-of-steps #steps anything-extra
+
+Examples:
+
+* http://waterpigs.co.uk/notes?tagged=steps
+
+==== BMI Tracking ====
+Syntax: number #bmi
+
+Examples:
+
+* http://evan.status.net/tag/bmi
+
+== See Also ==
+* [[Nike+]]
+* [[notes]]
+* [[posts]]

@@ -300,6 +300,15 @@ Indieweb enthusiasts currently using it on their own site:
 * [[User:ben.thatmustbe.me|Ben Roberts]]  on [http://ben.thatmustbe.me ben.thatmustbe.me]
 * ...
 
+=== Voto ===
+{{main|Voto}}
+
+Voto is [[User:vasilis.nl|Vasilis van Gemert]]'s personal photo gallery. He's written about [http://nerd.vasilis.nl/voto-self-hosted-indieweb-photo-gallery/ the ideas behind it] on his blog.
+
+Indieweb enthusiasts currently using it on their own site:
+* [[User:vasilis.nl|Vasilis van Gemert]]  on [http://vasilis.nl/voto/ vasilis.nl/voto/]
+* ...
+
 === Other Experimental Projects ===
 Other projects which are experimental quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
 

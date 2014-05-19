@@ -133,6 +133,7 @@ Antidote:
 * Encourage participants in monoculture projects to join [[IRC]] and signup on the [[Guest List]] to attend the next IndieWebCamp. By engaging these projects productively, perhaps we can help improve them and their cross-project interop.
 
 == See also ==
+* [[architecture astronomy]]
 * [[principles]]
 * [[building-blocks]]
 * [[friendly]]

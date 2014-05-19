@@ -100,6 +100,9 @@ For this to work, an original post that accepts and displays [[comments]] should
 ** Note in the reply-context that the original appears to have been deleted, but keep the reply-context from before.
 ** This may be something we need to do individual UI experimentation on to get a feel for what are good options to consider.
 
+Examples:
+* http://aaronparecki.com/replies/2014/05/17/1/ - replied to a tweet which was deleted
+
 == Silo Examples ==
 {{main|reply-context-examples#Silo_Examples}}
 Some silos display reply-contexts, including [[App.net]] (who mark them up with h-cite) and [[Twitter]].

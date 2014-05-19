@@ -5,15 +5,22 @@ Real-world examples of [[reply-contexts]], how they are presented, visual design
 == Indieweb Examples ==
 
 === Aaron Parecki ===
-On aaronparecki.com:
-
+[[User:aaronparecki.com|Aaron Parecki]] uses [[p3k]] which shows reply-contexts for replies on aaronparecki.com:
+==== reply to a note ====
 Reply context with original post text (auto-linked), dt-published (linked to original post permalink), author name/photo/URL:
 
 [[File:example-reply-showing-context-aaronpk.png|link=http://aaronparecki.com/replies/2013/04/19/2/indieweb]]
 
+* http://aaronparecki.com/replies/2013/04/19/2/indieweb
+* http://aaronparecki.com/replies/2013/04/25/1/indieweb-qs
+
+==== reply to a deleted note ====
+* http://aaronparecki.com/replies/2014/05/17/1/ is a reply to a tweet which was later deleted. Instead the reply-context shows and links to the IRC log of the deleted tweet.
+
+==== reply to a photo ====
 [[File:example-reply-to-photo-showing-context.png]]
 
-* http://aaronparecki.com/replies/2013/04/25/1/indieweb-qs
+==== multireplies ====
 IndieWeb examples of displaying a [[multiple-reply|reply to multiple]] other posts
 * http://aaronparecki.com/replies/2013/04/21/1/
 * http://aaronparecki.com/replies/2012/12/05/15/leweb

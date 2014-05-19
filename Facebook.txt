@@ -102,6 +102,17 @@ And then applications that wish to use that field for a one-off rel-me equivalen
 Careful parsing it, people often put multiple whitespace- or newline-separated urls.
 
 == Criticism ==
+=== Prefers Pageviews Over Efficient UX ===
+Per the documentation in [[reader#Integrated_Activity_Reading]], one of Facebook's UI experiments involved an integrated reading experience that showed by posts and other "activities" in a single reading stream:
+
+https://d23f6h5jpj26xu.cloudfront.net/gpnggaky8d1gog_small.jpg
+
+What they found was that it was ''too'' efficient - users were reading things and not clicking to see additional pages.
+
+Thus they abandoned the experiment, instead preferring a UI that generates more pageviews over a UI that is more efficient for users.
+
+This may present an opportunity for IndieWeb [[UX]] to exceed [[silo]] UX.
+
 === Hyperlink Fear Interstitial ===
 
 https://pbs.twimg.com/media/BjNq5GbCUAAMf1Z.png
@@ -109,6 +120,9 @@ https://pbs.twimg.com/media/BjNq5GbCUAAMf1Z.png
 [[Facebook]] mobile app (apparently) warning the user about [[Twitter]] t.co link-wrapped links as having "a problem".
 
 via https://twitter.com/kyle_wm/status/446818317408280576
+
+=== Harmful to Body Image ===
+* 2014-04-10 LiveScience / Agata Blaszczak-Boxe: <cite>[http://www.livescience.com/44723-facebook-women-body-image.html Dislike: Facebook May Hurt Women's Body Image]</cite>
 
 == Articles ==
 Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):

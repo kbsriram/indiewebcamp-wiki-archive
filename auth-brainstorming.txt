@@ -83,6 +83,8 @@ The authorization server should present an interface describing the request bein
 ** May include an interface that allows the user to adjust the scope that will actually be granted
 
 == Token Endpoint ==
+{{main|token-endpoint}}
+
 The token endpoint is responsible for issuing access tokens. The request will contain an '''authorization code''' and the response will include an access token.
 
 === Summary ===
@@ -164,7 +166,7 @@ Location: http://aaronparecki.com/post/100
 === Verifying access tokens ===
 
 ==== Using the Token Endpoint ====
-The micropub endpoint can query the token endpoint to verify the access token given. To verify the access token, the micropub endpoint makes a POST request to the token endpoint with the following values:
+The micropub endpoint can query the token endpoint to verify the access token given. To verify the access token, the micropub endpoint makes a GET request to the token endpoint with the access token in the header:
 
 <pre>
 GET https://tokens.indieauth.com/token

@@ -156,6 +156,7 @@ Such public posting of moves would also allow for anyone to jump in and attempt 
 Since notes are such a ubiquitous content posting type (Thanks to [[Twitter]]), it's no surprise that subtypes of notes are evolving for representing additional structure or types of information. Let's document them as they emerge.
 
 === Health Fitness Tracking ===
+{{main|exercise}}
 Tags: fitbit, pedometer, physical activity
 
 Challenges:

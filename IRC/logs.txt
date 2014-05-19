@@ -1,0 +1,11 @@
+http://indiewebcamp.com/IRC/logs
+
+<IRCLogIndex channel="#indiewebcamp" />
+<div style="clear:both;"></div>
+
+=== Logs on Your iPhone Home Screen ===
+To add the IRC logs to your iPhone home screen, visit the page below on your phone:
+
+http://indiewebcamp.com/irc/today?bookmark
+
+Follow the link on that page. Then, from Safari, add that page to your home screen.

@@ -2,23 +2,8 @@ http://indiewebcamp.com/User%3ASnarfed.org
 
 '''<span style="font-size:2em" class="h-card">[https://snarfed.org/ Ryan Barrett]</span>'''
 
-== my indie web projects ==
+I'm best known for [[Bridgy]], a hosted service that provides [[backfeed]], [[POSSE]], and [[webmention]]s for blog providers.
 
-* '''Current:''' [http://brid.gy/ brid.gy] [[backfeed]]s comments on POSSEd silo posts via webmention. It's up and running! I'm currently tweaking it and adding features, e.g. likes/favorites and reposts.
-* '''Next:''' http://freedom.io/ migrates your silo posts to a blog. It currently migrates from Facebook, Twitter, Google+, and Instagram to WordPress, Tumblr, and Blogger. It's functional, but needs UX design. Design and build the UX, then launch it.
-* The "unofficial" collection implements the [[OStatus]] protocol suite for silos: Facebook, Twitter, Google+, and (partially) Instagram. The naming pattern and branding is pretty bad, and probably needs a reboot. Suggestions are welcome!
-** [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial] is a library and REST API that converts silo data to [[microformats2]] and [[ActivityStreams]] formats. [https://snarfed.org/2012-03-12_activitystreams_for_facebook_and_twitter More details.]
-** [https://github.com/snarfed/portablecontacts-unofficial portablecontacts-unofficial] is a library and REST API that converts silo social graphs to [[PortableContacts]] format. [https://snarfed.org/2012-02-22_portablecontacts_for_facebook_and_twitter More details.]
-** [https://github.com/snarfed/webfinger-unofficial webfinger-unofficial] is a [[WebFinger]] server for silos. [https://snarfed.org/2012-01-16_webfinger_for_facebook_and_twitter More details.]
-** [https://github.com/snarfed/salmon-unofficial salmon-unofficial] is a [http://salmon-protocol.org/ Salmon] server for silos. [https://snarfed.org/2012-07-14_salmon_for_facebook_twitter_and_google_plus More details.]
-** [https://github.com/snarfed/ostatus-unofficial ostatus-unofficial] will eventually implement the  rest of [[OStatus]] for silos - PuSH hub and server, subscribe/unsubscribe, status updates and pings, etc. It's currently incomplete.
-* [https://facebook-atom.appspot.com/ facebook-atom] and [https://twitter-atom.appspot.com/ twitter-atom] generate and serve Atom feeds of your Facebook news feed, Twitter stream, and any Twitter list. [https://snarfed.org/2012-03-12_activitystreams_for_facebook_and_twitter More background.] They're built on top of activitystreams-unofficial.
-* [https://snarfed.org/2012-11-30_facebook_to_wordpress Facebook to Wordpress] is a script that copies your Facebook posts to a WordPress blog of your choice. It was the inspiration for http://freedom.io/.
+I also wrote and maintain [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial], a library and REST API that converts between silo APIs and [[ActivityStreams]]/[[microformats2]] ([https://snarfed.org/2012-03-12_activitystreams_for_facebook_and_twitter details], [https://github.com/search?q=%40snarfed+unofficial related projects]). A few IndieWeb projects use it, e.g. [https://facebook-atom.appspot.com/ facebook-atom] and [https://twitter-atom.appspot.com/ twitter-atom].
 
-== my indie web setup ==
-
-https://snarfed.org/ is my home. [https://snarfed.org/about More details.] It's WordPress with the [https://github.com/pfefferle/wordpress-uf2 uf2] and [https://github.com/pfefferle/wordpress-webmention webmention] plugins, with some tweaks, so it serves [[microformats2]] and [https://snarfed.org/replies sends] and accepts [[webmentions]].
-
-I [[POSSE]] to Twitter, Facebook, Google+, and Instagram manually. I've tried automating, but I usually syndicate to just a subset of the silos, depending on the content, and I sometimes customize the syndicated posts' content too. My post volume is low enough that it's not (yet) a burden.
-
-I use http://brid.gy/ and https://salmon-unofficial.appspot.com/ to [[backfeed]] comments/replies.
+My web site is [https://snarfed.org/ snarfed.org]. It's [[WordPress]] with IndieWeb plugins and minor tweaks. I [[POSSE]] posts manually, I use [https://www.brid.gy/about#publish Bridgy Publish] to POSSE [[likes]], [[comments]], [[repost|retweets]], and [[RSVPs]] automatically, and I use [[Bridgy]] to backfeed silo responses.

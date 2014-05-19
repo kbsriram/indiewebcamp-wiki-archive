@@ -216,6 +216,7 @@ For webmention endpoint discovery:
 ==== Handling ====
 Handling receiving webmentions:
 * PHP Minimum Viable Webmention handler: https://gist.github.com/adactio/6484118
+* [https://github.com/pear2/Services_Linkback pear2/Services_Linkback] - '''PHP''' pingback+webmention client + server library
 * …
 
 For parsing the mentions, the following may come in handy:
@@ -251,6 +252,15 @@ Some services one can use to receive or send webmentions.
 ==== webmention.io ====
 {{main|webmention.io}}
 [http://webmention.io webmention.io] is an open-source project and hosted service for receiving [[webmentions]] and [[pingbacks]] on behalf of your indieweb site.
+
+==== checkmention ====
+https://checkmention.appspot.com/ lets you test your webmention implementation on your indieweb site, and whether it robustly detects certain types of XSS attacks.
+
+==== node-webmention-testpinger ====
+[https://github.com/voxpelli/node-webmention-testpinger node-webmention-testpinger] is a tool to ping your site with a variety of [[webmentions]] markup. Contains copies of a couple of real world examples of mentions that it enables you to ping locally to a development copy of your site.
+
+==== node-webmention-testendpoint ====
+[https://github.com/pfefferle/node-webmention-testendpoint node-webmention-testendpoint] is tool to test your [[webmentions]] client. Generates a demo-post and a demo-endpoint to test if your client parses the webmention-endpoint correctly and to check if the ping body is transmitted correctly.
 
 === Wish List ===
 * A tiny, no-dependencies js file which can fetch indiecomment data from webmention.io and dump it into an element, enabling 2-step indiecomment support:
