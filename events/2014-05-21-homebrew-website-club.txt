@@ -14,9 +14,14 @@ http://indiewebcamp.com/events/2014-05-21-homebrew-website-club
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
+;London
+:<span class="p-location location h-card vcard">[http://gofreerange.com/<span class="p-name fn p-org org">Go Free Range</span>], 1st floor, <span class="adr"><span class="p-street-address street-address">87 Worship Street</span>, <span class="p-locality locality">London</span>, <abbr class="p-postal-code postal-code">EC2A 2BE</abbr></span></span>
+
 === What ===
 <div class="p-description description">
-Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with likeminded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... 
+{{new}} 17:30-18:30 '''Writing hour''' before the meetup. Come on by to blog or do other writing quietly.
+
+'''Homebrew Website Club Meetup''': Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with likeminded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... 
 
 See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew Website Club Newsletter Volume 1 Issue 1] for a description of the first meeting.
 </div>
@@ -25,13 +30,13 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-05-21-homebrew-website-club</span>
 
 San Francisco:
-* ... (need indieweb [[event]] for indie [[RSVP]]s)
-* ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
+* Indie event: http://werd.io/2014/homebrew-website-club-5
+* Facebook POSSE copy: https://www.facebook.com/events/1509367239285562
 
 Portland:
 * http://calagator.org/events/1250466210
-* ... (need indieweb [[event]] for indie [[RSVP]]s)
-* ... (need [[Facebook]] [[POSSE]] copy of said indieweb event!)
+* Indie event: http://aaronparecki.com/events/2014/05/21/1/homebrew-website-club
+* Facebook POSSE copy: https://www.facebook.com/events/245556792313620/
 
 == RSVP ==
 '''Optional RSVP - just show up!''' You're encouraged to RSVP by any or all of:
@@ -44,11 +49,18 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * {{t}} (in for writing hour!)
 * [[User:Kevinmarks.com|Kevin Marks]] (in for writing hour!)
 * [[User:andigalpern.com|Andi Galpern]] (in for writing hour!)
+* [[User:4c4d.com|Laurence]] (maybe for writing hour)
 * {{kylewm}} (can't make writing hour)
 * ... add yourself!
 
 '''Portland:'''
 * {{aaronpk}} (in for writing hour!)
+* [[User:metafluff.com|Dietrich Ayala]] (in for writing hour!)
+*[[User:paulmunday.net|Paul Munday]](maybe some of the writing hour)
+* ... add yourself!
+
+'''London:'''
+* [[User:chrisroos.co.uk|Chris Roos]]
 * ... add yourself!
 
 == Notes ==

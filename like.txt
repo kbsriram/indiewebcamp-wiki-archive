@@ -5,6 +5,7 @@ http://indiewebcamp.com/like
 '''<dfn>like</dfn>''' is a popular [[webaction]] button and in some cases [[post]] type on various [[silos]] such as [[Facebook]] and [[Instagram]]. It is similar to but different from a [[favorite]].
 
 == How ==
+=== mark up and post a like ===
 To post a "like", the post's [[h-entry]] MUST hyperlink to the permalink of the thing that is being liked, with <code>class="u-like-of"</code>. E.g.
 <pre><nowiki>
 <span class="h-entry"> ... 
@@ -14,6 +15,26 @@ To post a "like", the post's [[h-entry]] MUST hyperlink to the permalink of the 
 Demonstrates an h-entry for a "like" of <nowiki>http://someothersite.example.com/permalink47</nowiki>.
 
 The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>. 
+
+=== receive and markup incoming likes ===
+
+Likes are received in exactly the same way [[comments]] are, by accepting incoming [[webmentions]] to URLs on your site. When validating the webmention source, check for a h-entry with a <code>like-of</code> property pointing to the target URL (your URL). If there is on, that h-entry is a like of your page! Store it however you wish, and optionally display it on the liked page.
+
+Likes are commonly displayed either as a [[facepile]], separate from any other comments/responses ([http://aaronparecki.com/notes/2014/05/18/1/imessage example]), or inline with other responses ([http://waterpigs.co.uk/notes/4W1Ekd/ example]).
+
+Likes are marked up similarly to other [[responses]]. Here’s an example h-entry with a like:
+
+<pre><nowiki>
+<article class="h-entry">
+  <a class="p-author h-card" href="http://waterpigs.co.uk">Barnaby Walters</a>
+  <div class="e-content">Blah blah blah, this is a note</div>
+  
+  <article class="p-like h-cite">
+    <a class="p-author h-card" href="http://example.com">Example Liker</a> liked this.
+    <a class="u-like-of" href=""></a>
+  </article>
+</article>
+</nowiki></pre>
 
 === Previously ===
 Previously the class "u-like" was used, but "u-like-of" is better.

@@ -131,6 +131,7 @@ It becomes more and more time consuming to maintain a large list of subscription
 == Silo examples ==
 Many social content hosting [[silos]] have integrated reader like features, but only for "feeds" of accounts on the particular silo.
 * [[Facebook]] - logged in home page has a "news feed" that essentially provides feed reader like functionality of the [[activities]] (including posts) of friends of the logged in account.
+** Issues: some sites have successfully gamed the Facebook news feed to dominate, e.g. Upworthy: <br/> [https://twitter.com/felixsalmon/status/429732451741872128 https://pbs.twimg.com/media/BfawXsMCIAAqSrW.png]
 * [[Tumblr]] - logged in dashboard has a feed reader of Tumblr users followed by the logged in account
 * [[Twitter]] - logged in home page is a feed reader of Twitter users followed by the logged in account
 

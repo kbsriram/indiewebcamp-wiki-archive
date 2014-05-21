@@ -269,7 +269,15 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 |elsewhere = [https://twitter.com/_crossdiver @_crossdiver], 
 [https://github.com/ike github.com/ike]
 }}
-
+{{Attendee
+|name = [[User:Brennannovak.com|Brennan Novak]]
+|img = https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg
+|url = https://brennannovak.com
+|org_name = 
+|org_url = 
+|projects = [https://mailpile.is Mailpile], [https://social-igniter.com Social-Igniter] 
+|elsewhere = [https://github.com/brennannovak github.com/brennannovak], [https://twitter.com/brennannovak @brennannovak]
+}}
 </div> <!-- h-event vevent -->
 
 === Regrets ===

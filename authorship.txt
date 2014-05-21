@@ -5,7 +5,7 @@ http://indiewebcamp.com/authorship
 '''<dfn>authorship</dfn>''' is a claim about who the author(s) of a [[post]] are.
 
 == Determining ==
-How to determine authorship of a post on a page - AKA the Authorship Algorithm / processing model for implementations.
+How to determine authorship of a post on a page - AKA the Authorship [[discovery]] algorithm / processing model for implementations.
 
 # parse the [[h-entry]] for the post on the page. if no h-entry, then there's no post to find authorship for, abort.
 # if the h-entry has a p-author, use that and its [[h-card]] to determine the author of the post.
@@ -80,6 +80,7 @@ Only if the rel-author page lacks an hCard do we then fallback to looking for a 
 ** Should be extracting it into an independent lib soon -[[User:Www.sandeep.io|Www.sandeep.io]] 01:23, 24 July 2013 (PDT)
 
 == See Also ==
+* [[discovery]]
 * [[posts]]
 * [[h-entry]]
 * [[h-card]]

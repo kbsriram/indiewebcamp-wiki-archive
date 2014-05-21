@@ -43,3 +43,4 @@ IndieWeb Community members using a database for storage with their projects:
 * [[building blocks]]
 
 [[Category:building-blocks]]
+[[Category:dictionary]]

@@ -2,7 +2,7 @@ http://indiewebcamp.com/discovery
 
 {{stub}}
 
-= Discovery =
+'''<dfn>discovery</dfn>''' for the indieweb is a set of algorithms to start with a URL like a home page or post permalink, and determine information about that URL, such as [[authorship]], [[page-name]], and date published.
 
 On the IndieWeb, you are your URL and your URL is you. With a well-designed indieweb site, as humans we can discover all the information you choose to share about yourself.
 
@@ -50,9 +50,24 @@ Proposal:
 To discover information about a [[post]] on a post permalink page:
 * parse the page for [[h-entry]] and retrieve post name, summary, url, contents, author accordingly.
 === Authorship ===
+{{main|authorship}}
+Summary: (see main [[authorship]] page for full algorithm)
 * if the author is also an [[h-card]] parse that for more information about the author such as name, photo, logo, url, etc.
 * if there is no p-author, then look for a [[rel-author]] link.
 ** follow it, and retrieve the representative h-card from the destination for author information
+=== Post Name ===
+Assuming a post permalink page, see:
+* [[page-name-discovery]]
+=== Publication Date ===
+* if the h-entry has a <code>dt-published</code> property, use that.
+** This is the only thing that's been implemented. Here are some fallbacks:
+* else the following sources may be used to infer it (brainstorming)
+** check the URL path. If the start (? or somewhere near the start?) of the URL path of the permalink is:
+** <code>/YYYY/MM/DD/</code> = publication date ISO YYYY-MM-DD
+*** sites using this: aaronparecki.com
+** <code>/YYYY/DDD/</code> = publication date ISO Ordinal YYYY-DDD
+*** sites using this: tantek.com
+** ...
 
 == POSSE copies ==
 To find the POSSE copies of an original post, on that original post's permalink page:
@@ -95,4 +110,6 @@ We should deprecate separate feeds as
 == See Also ==
 * [[posts]]
 * [[POSSE]]
+* [[authorship]]
+* [[page-name-discovery]]
 * [[original-post-discovery]]

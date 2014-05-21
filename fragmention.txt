@@ -1,6 +1,6 @@
 http://indiewebcamp.com/fragmention
 
-Fragmention is an experimental idea to link/refer to an arbitrary part of a document.
+'''<dfn>Fragmention</dfn>''' is an experimental idea to link/refer to an arbitrary part of a document.
 
 = Overview =
 
@@ -31,6 +31,9 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 
 == silo implementations ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
+* [http://bthdonohue.com/post/85643490431/instapaper-fragmentions Instapaper Support] 
+** creates fragmention URLs for highlights and POSSEs them to twitter, tumblr, facebook etc. 
+** Adds fragmention support to the Instapaper browser plugins for Chrome and Safari
 
 = Challenges =
 

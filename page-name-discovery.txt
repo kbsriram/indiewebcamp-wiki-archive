@@ -2,7 +2,7 @@ http://indiewebcamp.com/page-name-discovery
 
 {{stub}}
 
-'''<dfn>page name discovery</dfn>''' is the process of starting from a URL and its HTML and coming up with human readable text to use as linktext for that URL when linking to it, e.g. in response to receiving a [[webmention]].
+'''<dfn>page name discovery</dfn>''' is the process of starting from a URL and its HTML and coming up with a human readable name for that URL. There are many use-cases for wanting  human readable text for a URL, e.g. to use as linktext when linking to it, e.g. in response to receiving a [[webmention]] from that URL.
 
 == Algorithm ==
 When you receive a [[webmention]] and want some linktext for the source link:
@@ -12,7 +12,7 @@ When you receive a [[webmention]] and want some linktext for the source link:
 # else use "Untitled", optionally appending the [[datetime]] (of when the [[webmention]] was received).
 
 Details:
-* If the name you discovery via this algorithm is "too long" (by whatever constraints you have for your site/content), see [[comments-presentation]] for more details on how to handle it.
+* If the name you [[discover]] via this algorithm is "too long" (by whatever constraints you have for your site/content), see [[comments-presentation]] for more details on how to handle it.
 
 == FAQ ==
 === meta tags ===
@@ -34,6 +34,7 @@ A: Same thing, but both proprietary and less open than [[OGP]] (which is at leas
 Also, ignoring metacrap provides incentive to publishers to markup their *visible* content on the page, which is better for them (more reliable over time than invisible meta), and better for the consuming page (that more reliable means it's more trustworthy for the consuming page).
 
 == See Also ==
+* [[discovery]]
 * [[authorship]]
 * [[datetime]]
 * [[webmention]]

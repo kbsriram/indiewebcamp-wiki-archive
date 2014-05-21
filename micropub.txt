@@ -346,3 +346,6 @@ Q: should a markdown-based client send the "content" field as markdown or render
 * [[event]] - [[h-event]]
 * [[login-brainstorming]]
 * [[auth-brainstorming]]
+* [[micropub-endpoint]]
+
+[[Category:IndieAuth]]

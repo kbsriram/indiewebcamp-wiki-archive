@@ -52,16 +52,37 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 
 == Help Out ==
 === sponsor ===
-* [[how-to-sponsor|How to sponsor IndieWebCamp]]
-* Pre-party - 
-* Venue - 
-* Breakfast Saturday - 
-* Coffee Saturday - 
-* Lunch Saturday - food cart lunch!
-* Dinner Saturday - sponsored by _____
-* Breakfast Sunday - 
-* Coffee Sunday - 
-* Lunch Sunday - 
+[[how-to-sponsor|How to sponsor IndieWebCamp]]
+
+<table><tr><td width="50%">
+==== West Coast (Portland) ====
+
+* Pre-party: 
+* Venue: '''Esri R&D Center Portland'''
+* Breakfast Saturday: 
+* Coffee Saturday: 
+* Lunch Saturday: food cart lunch!
+* Dinner Saturday: 
+* Breakfast Sunday: 
+* Coffee Sunday: 
+* Lunch Sunday:
+
+</td><td width="50%">
+==== East Coast (New York) ====
+
+* Pre-party: 
+* Venue: '''New York Times'''
+* Breakfast Saturday: 
+* Coffee Saturday: 
+* Lunch Saturday: 
+* Dinner Saturday: 
+* Breakfast Sunday: 
+* Coffee Sunday: 
+* Lunch Sunday:
+
+</td></tr></table>
+
+'''[[Bridgy]]''' (may be allocated however is best)
 
 === inbox ===
 Put suggestions for Indie Web Camp 2014 here, inline or as links to your own notes.

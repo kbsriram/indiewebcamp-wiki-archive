@@ -9,6 +9,7 @@ Find videos about the indieweb:
 Videos about the indieweb (in reverse chronological order)
 === 2014 ===
 * 2014-03-19 Willow sketch explanation of [[principles]], [[why]], [[silos]]: [http://youtu.be/PRCqOyN4cjE Indie Web] (YouTube, 5:02)
+* 2014-03-07 [https://www.youtube.com/watch?v=7sP4k2nPu7w IndieWeb Ad - SquareSpace Ad Parody]
 * 2014-02-07 [[User:Caseorganic.com|Amber Case]]: [http://vimeo.com/86329113 Designing for privacy in mobile and web apps] (Vimeo, 35:44) at [[events/2014-02-07-design-privacy-mobile-web-apps|IxDA14 session]].
 * 2014-01-13 [[User:Caseorganic.com|Amber Case]]: [http://www.youtube.com/watch?v=Au4bHb5twF4 Rise of the Indieweb] (YouTube, 44:59) at a [[events/2014-01-13-rise-of-the-indieweb-amber-case|New Relic FutureTalks event]].
 

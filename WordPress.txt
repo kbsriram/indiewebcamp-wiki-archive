@@ -67,6 +67,7 @@ If you've made it this far, congrats! You're a fully functioning member of the I
 * [https://github.com/pfefferle/wordpress-webactions WebActions]
 * [https://gist.github.com/pfefferle/1724438 blavatars (icons)]
 * [http://wordpress.org/plugins/indieauth/ IndieAuth]
+* [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress IndieWeb reply, repost, like, and RSVP bookmarklets]
 
 === Optional plugins ===
 * [http://wordpress.org/plugins/browserid/ BrowserID/Persona]

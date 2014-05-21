@@ -230,3 +230,4 @@ Want to help? See if you can contribute to one or more of the following:
 * [[indieauth-authorization-brainstorming|IndieAuth Authorization Brainstorming]]
 
 [[Category:building-blocks]]
+[[Category:IndieAuth]]

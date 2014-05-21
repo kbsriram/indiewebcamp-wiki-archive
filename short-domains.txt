@@ -2,7 +2,7 @@ http://indiewebcamp.com/short-domains
 
 = short URL domains =
 
-This page is for document the domains that we pick out and use for our personal URL shortening, analysis of their reliability/dependability, and just overall experience.
+This page is for documenting the domains that we pick out and use for our personal URL shortening, analysis of their reliability/dependability, and just overall experience.
 
 == why personal short URLs ==
 === backlinks from syndication ===
@@ -33,6 +33,28 @@ Short URLs also enable, and/or better encourage additional URL sharing scenarios
 * print
 
 For more on this, see: [http://tantek.com/w/Whistle#whyshortURLs why short URLs and why do you need your own].
+
+== IndieWeb Examples ==
+
+=== aaron.pk ===
+
+Short URLs at aaron.pk send a 302 redirect to a route at aaronparecki.com which expands it to the full post URL. This way there is no server-side code required on aaron.pk other than a web server that can send redirects.
+
+Example:
+
+<pre>http://aaron.pk/n4W8a
+-> http://aaronparecki.com/-n4W81
+-> http://aaronparecki.com/notes/2014/05/18/1/
+-> http://aaronparecki.com/notes/2014/05/18/1/imessage
+</pre>
+
+=== jmb.so ===
+
+The root domain jmb.so simply redirects to jonnybarnes.net. The only type of short URL set up so far is for notes. The URL scheme for notes used on jonnybarnes.net is very simple. They take the form jonnybarnes.net/note/{id} where {id} is a decimal number. The associated short URL is jmb.so/t/{nb60} where {nb60} is the [[NewBase60]] encoding of {id}.
+
+=== ... ===
+
+add notes on your own implementation here.
 
 == criticisms ==
 

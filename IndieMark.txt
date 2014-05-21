@@ -37,8 +37,8 @@ These (numbered items) are all requirements for IndieMark Level 1. Total of 1.0 
 #** [[rel-me]] links to your "other profiles" on the web (e.g. at [[silos]]) and have them link back.
 # 0.4 pts '''[[posts]]''' - #ownyourdata - '''Post some kind of original content''' on your own site, split into:
 #* 0.2 pts '''[[permalinks]]''' - multiple [[posts]] with permalinks for the content on your own site
-#* 0.2 pts '''[[h-entry]] markup''' on your posts (at least 2 posts, with p-name, p-summary, dt-published, u-url)
-# 0.2 pts '''<span id="level-1-search"><span id="level-0-search">[[search]]</span></span>''' - searchability is required for level 1
+#* 0.2 pts '''[[h-entry]] markup''' on your posts (at least 2 posts, with e.g. p-name, p-summary, dt-published, u-url properties). [http://indiewebify.me/validate-h-entry/ Test your h-entry support!]
+# 0.2 pts '''<span id="level-1-search"><span id="level-0-search">[[search]]</span></span>''' - searchability is required for level 1. You must do all of these for the 0.2 pts:
 #* '''allow robots to index'''. Permissive or no robots.txt. Either don't have /robots.txt, or if you have one, it MUST allow search engines to index the abovementioned posts.
 #* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on Javascript to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
 #* '''site-specific searchability'''. Be able to use "site:yoursite.example.com search-term" in [[Google]] and other search engines (that support site-specific searches) directly to find and display your posts in search results.
@@ -49,7 +49,7 @@ Each of those four areas ([[identity]], [[authentication]], [[posts]], [[search]
 IndieMark Level 2 has the general theme of improving your personal identity, and <strong>posting notes on your own site</strong> instead of Twitter (and [[POSSE]]ing to Twitter if you have an account there).
 
 Level 2 is based on all Level 1 requirements, plus:
-* '''[[h-card]]''' contact info and representative '''[[icon]]''' on home page
+* '''[[h-card]]''' contact info and representative '''[[icon]]''' on home page. [http://indiewebify.me/validate-h-card/ Validate your h-card!]
 * post <strong>multiple types of [[posts]]</strong> on your own site, including <strong>auto-linked [[notes]]</strong> (e.g. instead of tweeting directly)
 * <strong>[[POSSE]] to [[silos]]</strong> that you used to use or where your friends still read stuff, and provide at least a <strong>link to those copies and/or simple [[web actions]]</strong> buttons to perform actions on your posts accordingly.
 * can <strong>navigate across posts</strong> on your site
@@ -71,8 +71,9 @@ Level 2 is much more than just "I started a blog". That might have been good eno
 0.2 points
 * multiple post types (2+) required
 
-0.1 for each post type you post to your own site from this list (up to 0.2 points total)
-* [[notes]] - like tweets or status updates. required.
+0.1 for each post type you post to your own site from this list (up to 0.2 points total).<br/>I.e. <strong>Implement any two or more of:</strong>
+* [[notes]] - like tweets or status updates. You really SHOULD do notes as one of your post types.
+* [[bookmarks]]
 * [[articles]] - like a blog
 * [[replies]]
 * [[rsvp]]
