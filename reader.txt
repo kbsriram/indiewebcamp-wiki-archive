@@ -2,7 +2,7 @@ http://indiewebcamp.com/reader
 
 {{stub}}
 
-A '''<dfn>reader</dfn>''' in the context of the indieweb is the portion/feature integrated into an indieweb site that provides a way to read content from other indieweb sites, possibly including posts from the current site as well.
+A '''<dfn>reader</dfn>''' (or <dfn>indie reader</dfn>) in the context of the indieweb is the portion/feature integrated into an indieweb site that provides a way to read content from other indieweb sites, possibly including posts from the current site as well.
 
 If you're looking for pre-indieweb / legacy feed readers (e.g. like Google Reader) see:
 * [[feed reader]]

@@ -1,31 +1,34 @@
 http://indiewebcamp.com/webactions
 
-= web actions =
 A '''<dfn>web action</dfn>''' is the interface and user experience of taking a specific discrete action, across the web, from one site to another site or application.[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]
 
 The concept of "web actions" was introduced to both capture the emergence of this new type of web interaction (e.g. the spread of "Blog this, Digg, Read later, Follow, Like, Share, Tweet, +1" buttons across pages[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]), and as a user-centric reframing of the previous developer-centric notion of "[[web intents]]".
 
 At IndieWebCamp 2011, both [[Standardizing_Web_Intents|discussions]] and a [[2011/Demos#web_intents_user_experience|UX effort]] demonstrated that the term "web intents" was too confusing and too abstract to effectively do user centered research and design in the area. The term "web action" is based on the fact that from the user's perspective, they think they are taking an '''action''' when they click these buttons. When the term was tried out with others creating designs/UX in the space, it seemed to work much better to convey understanding. 
 
-Most recently, web actions were presented and discussed at OSBridge 2012:
+Web actions were presented and discussed at OSBridge 2012:
 * http://tantek.com/presentations/2012/06/osb12-web-actions/
 
 - [[User:Tantek|Tantek]]
 
 == Use Cases ==
-There are two use cases that are worthy of exploring for webactions:
+There are at least two key use cases that are worthy of exploring for webactions:
 
+=== Action Buttons ===
 1. Provide the familiar buttons UI of [[Twitter]], so that [[notes]] on your own site feel "at least as useful" as syndicated tweet copies. This is for the scenario where a reader of your tweets clicks a permalink on the tweet copy, navigates back to the original on your own site (perhaps to read more or view better embedded images / video), the reader can still favorite/reply/retweet/tweet etc. your note (all verbs/buttons which will act on the tweet copy of that note).
 
 There's been some demand for this in response to [[POSSE]]ing out to Twitter:
 <blockquote><p>Oops, the page I clicked thru to doesn't amplify the tweet, it simply repeats it. Bad UX. But there's more.[https://twitter.com/zeldman/status/24224559787941888]</p><p>If I want to reply to t's tweet, I can't do it from his site. I have to back-button back to Twitter. Lotta clicks.[https://twitter.com/zeldman/status/24224682530050048]</p>(and my ([[User:Tantek.com|Tantek]]) followup: http://tantek.com/2011/009/t4/falcon-needs-reply-buttons-fave-rt-coming, referenced in the broader post: http://tantek.com/2011/010/b1/owning-your-data)</blockquote> 
 
+=== Inline Comment UI ===
 2. Provide a UI for indieweb users to comment / link-blog your notes/articles on their own site
 
 By designing, developing for these two particular use cases, it may provide us a with a constrained enough design-space that we can come up with simple uses/guidelines for webactions that produce a good user experience on indieweb posts.
 
+=== Quote This ===
 3. Additionally, some news articles include "Tweet this" links <em>inside</em> an article, inline with the content, or quotes. Such "Tweet this" links appear to be contextually handcrafted, including an elided version of the text they're adjacent to, along with a permalink to the article, and a "via @-name" where @-name is the article author or publisher's Twitter account. E.g.:
 * http://gigaom.com/2013/11/05/how-jack-dorsey-approached-the-payments-market-as-a-buyer/ (cropped screenshots of "Tweet this" inline in context welcome)
+Generically, "Quote this" is a better non-silo-specific phrase for this functionality.
 
 == Brainstorming ==
 === action markup ===

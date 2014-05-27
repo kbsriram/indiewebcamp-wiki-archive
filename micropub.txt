@@ -100,6 +100,7 @@ The following properties may be included in a request to create a new [[h-entry]
 * published
 * updated
 * category = tag1, tag2, tag3
+* slug 
 * location
 * in-reply-to
 * syndication
@@ -327,19 +328,59 @@ If we can figure out how a <code>&lt;form class="h-entry"&gt;</code> should work
 
 == Clients ==
 Sites and applications that publish via micropub. 
-* [[User:aaronparecki.com]]'s [https://github.com/aaronpk/PushupCounter-iOS PushupCounter-iOS] is an iOS client for publishing exercise data.
-* [[User:aaronparecki.com]]'s [http://ownyourgram.com/ OwnYourGram] is a tool to reverse-syndicate instagram photos to your personal site, using micropub. 
-** sign up process contains lots of useful documentation and debugging information to help get new micropub implementations working.
-* [[User:waterpigs.co.uk]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new The post UI] is publicly accessible, but of course only authorized users can make posts 
-* [[User:notenoughneon.com]]'s post UI creates notes and articles via micropub.
+* [[Quill]] is a reference Micropub client you can use to post notes to your site.
+** The signup process walks you through configuring your website to accept Micropub requests from apps like this.
+* [[User:aaronparecki.com|aaronpk]]'s [https://github.com/aaronpk/PushupCounter-iOS PushupCounter-iOS] is an iOS client for publishing exercise data.
+* [[User:aaronparecki.com|aaronpk]]'s [http://ownyourgram.com/ OwnYourGram] is a tool to reverse-syndicate instagram photos to your personal site, using micropub. 
+** The signup process contains lots of useful documentation and debugging information to help get new micropub implementations working.
+* [[User:waterpigs.co.uk|Barnaby]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new The post UI] is publicly accessible, and you can use it to make posts on your own website. 
+* [[User:notenoughneon.com|Emma]]'s post UI creates notes and articles via micropub.
 * ...
 
 == Brainstorming ==
 
+=== Alternate Content Types ===
 Q: should a markdown-based client send the "content" field as markdown or rendered html? If the latter, should it send an auxiliary field with the raw markdown?
 * Backends that store posts as markdown will want the raw version.
 * Sending HTML means that even endpoints that don't use markdown could make use of a markdown editor for authoring.
 * {{aaronpk}} points out that this will not be very useful without the ability to fetch raw content, and resubmit an edited version (which will mean expanding the spec significantly)
+
+=== Micropub for Comments ===
+
+Goal: if Aaron is reading Barnaby's website, create an inline comment form on Barnaby's site that can post a comment directly to Aaron's website.
+
+If Aaron's site supports Micropub, Aaron's browser (or Barnaby's server) could make a Micropub request with the contents of the comment form directly to Aaron's website. However, Aaron cannot trust either Barnaby's comment form (it could have malicious hidden properties or change the request before submitting) or Barnaby's server.
+
+==== Trust-Less Micropub ====
+
+Rather than Aaron's server issuing an access token to Barnaby's server (which essentially would allow Barnaby's server to post content on Aaron's site as Aaron), "trust-less Micropub" describes a way to support posting content via Micropub without granting full access to the third party client.
+
+1. Aaron is reading a post on Barnaby's website and wants to comment. He fills out the comment form and clicks the "sign in to post" button. 
+
+TODO: screenshot mockup 
+
+2. Barnaby's site begins the IndieAuth "authentication" flow to discover Aaron's website and his micropub endpoint. The request only includes the "comment" (or maybe "preview"?) scope value, and not the "post" scope, since Barnaby's site is merely trying to identify Aaron, not obtain authorization to act as him.
+
+TODO: screenshot mockup 
+
+3. After successfully signing in, Barnaby's server now has an access token for Aaron's site and knows his Micropub endpoint.
+
+4. When Aaron submits the comment form, Barnaby's server (or Aaron's browser, it's equivalent) makes a POST request to Aaron's Micropub endpoint containing the following:
+* comment text
+* other required micropub fields (e.g. h=entry)
+* access token
+* redirect URI - where to redirect Aaron's browser to after the comment is posted
+
+5. Rather than immediately posting the comment, Aaron's browser is directed to Aaron's own website with a token in the URL corresponding to the comment request. Aaron's website authenticates Aaron however it wants, and displays the request of the action Barnaby's website is trying to take. This may look something like the following:
+
+TODO: screenshot mockup 
+
+6. After Aaron approves the request, his server posts the comment and then redirects his browser to the redirect URI specified in the original request, taking him back to Barnaby's post.
+
+
+See the [http://indiewebcamp.com/irc/2014-05-22#t1400801724 original IRC discussion].
+
+
 
 == See Also ==
 * [[post]] - [[h-entry]]

@@ -1,0 +1,9 @@
+http://indiewebcamp.com/Firefox
+
+{{stub}}
+
+'''<dfn>Firefox</dfn>''' is a free, open source web browser made by [[Mozilla]].
+
+== SocialAPI ==
+
+Firefox exposes a “Social API”, allowing sites to easily integrate their UIs into the browser’s native UI

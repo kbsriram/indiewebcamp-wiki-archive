@@ -15,7 +15,7 @@ The IndieWeb is a people-focused alternative to the ‘corporate web’.
 | '''You are better connected'''<br>Your articles and status messages can [[POSSE|go to all services]], not just one, allowing you to engage with everyone. Even replies and likes on other services can [[backfeed|come back to your site]] so they’re all in one place.<br><br>
 |-
 ! width="64" style="vertical-align:top;" background-color: #f9f9f9; |[[file:icon_2003.png|48px]]
-|'''You are in control'''<br>You can post anything you want, in any format you want, with no one monitoring you. In addition, you share simple readable links such as ''mywebsite.com/ideas''. These links are [[permalinks|permanent]] and will always work.<br><br>
+|'''You are in control'''<br>You can post anything you want, in any format you want, with no one monitoring you. In addition, you share simple readable links such as ''example.com/ideas''. These links are [[permalinks|permanent]] and will always work.<br><br>
 |}
 
 === Beyond Blogging and Decentralization ===
@@ -38,7 +38,7 @@ We meet every other Wednesday<abbr title="skipping any official US Holidays">*</
 
 The next Homebrew Website Club meetup is:
 <div class="h-event vevent">
-* <time class="dtstart dt-start">2014-05-21 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-05-21-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location">SF, Portland, and Chicago</span>'''
+* <time class="dtstart dt-start">2014-06-04 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-06-04-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location">London, Chicago, Portland, and SF!</span>'''
 </div>
 {{clear}}
 

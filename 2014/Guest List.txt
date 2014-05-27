@@ -1,58 +1,48 @@
 http://indiewebcamp.com/2014/Guest_List
 
 <div class="h-event vevent">
-== Event ==
-<span class="p-name summary">IndieWebCamp</span> [[2014]] takes place <time class="dt-start dtstart" datetime="2014-06-28T09:30:00-0700">June 28, 2014 at 9:30am</time> through <time class="dt-end dtend" datetime="2014-06-29T18:00:00-0700">June 29 at 6pm</time> in <span class="p-location location h-adr adr"><span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span></span> and <span class="p-location location h-adr adr"><span class="p-locality locality">New York City</span>, <span class="p-region region">New York</span></span>!
+== <span class="p-name summary">IndieWebCamp 2014</span> ==
+[[2014|IndieWebCamp 2014]] is:
+* '''When:''' <time class="dt-start dtstart" datetime="2014-06-28T09:30:00-0700">June 28, 2014 at 9:30am</time> through <time class="dt-end dtend" datetime="2014-06-29T18:00:00-0700">June 29 at 6pm</time>
+* '''Where''': <span class="p-location location h-adr adr"><span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span></span> and <span class="p-location location h-adr adr"><span class="p-locality locality">New York City</span>, <span class="p-region region">New York</span></span>
+* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014</span>
+<!-- * Indie Event: '''<span class="u-url url">http://werd.io/2014/indiewebcamp-nyc</span>''' Reply with an [[RSVP]] post on your own site and send a [[webmention]]! 
+* <a class="u-url url" href="https://www.facebook.com/events/283401211828660">RSVP on Facebook</a>
+-->
+* <a class="u-url url" href="http://lanyrd.com/2014/indiewebcamp-2/">RSVP on Lanyrd</a>
+* <a class="u-url url" href="http://plancast.com/p/lg3r">RSVP on Plancast</a>
 
 Additional URLs: 
-* <a class="u-url url" href=""></a> e.g. calagator
-* <a class="u-url url" href=""></a> e.g. lanyrd
-* <a class="u-url url" href=""></a> e.g. plancast
-
-== Requirements ==
-=== personal identity ===
-To add yourself to the guest list:
-# '''[[Special:UserLogin|Log in]] with your own domain!'''
-# Add yourself to the [[#Creators]] section
-
-
-Using your Google/Facebook/Github or other [[silo]] URL as your identity is not indie enough!
-
-If you're serious about the Indie Web, then you can demonstrate that by [[How_to_set_up_IndieAuth_on_your_own_domain|setting up your own domain]].
-
-=== creators only ===
-Like previous years, [[2012/Guest_List#creators_only|2012]], [[2013/Guest_List#creators_only|2013]], IndieWebCamp 2014 is for active [[Creators|creators]] only in order to focus the limited time we have on productive real world discussions and code/design/ux sharing that will help us move forward.
-
-Being a creator means you must do one or more of:
-* '''code'''. create or contribute to indieweb open source projects
-* '''design'''. create or contribute to indieweb designs, graphic, layout, adaptive or otherwise.
-* '''ux'''. create wireframes or other indieweb user interface flows 
-
-As an ''indieweb'' creator, you must be using the things you create (code, design, ux) on your personal site.
-
-As an indieweb ''camp'' creator, you must ''share'' at least some small part of what you create and run on your personal site.
-
-Still not sure if you're an indieweb creator?
-
-Check out the [[Creator]] wiki page.
-
-=== apprentices to creators ===
-Perhaps <span id="apprentices_to_builders">you</span> don't have a personal site.
-
-Perhaps you're a creator, but only for other people, and don't actively create things for your own site.
-
-Maybe you're really excited about the IndieWeb and want to join it as soon as you can!
-
-You can still attend IndieWebCamp as an apprentice to a creator.
-
-A creator may bring an apprentice, and is completely responsible for them.
-
-If you're not a creator, but want to be, or want to create and contribute to the indieweb but don't know where to start, team up with a creator, and ask them to add you. 
-
-In the meantime, be sure to get setup with your own personal identity so you can contribute to the wiki, and start learning what you can do to add your personal site to the indie web.
+* <a class="u-url url" href="http://calagator.org/events/1250465892">Calagator</a>
 
 == Official Guest List ==
-Want to help? [[2014/Planning|Sign up to volunteer!]].
+{| border="2" cellpadding="10" cellspacing="0" align="center"
+|+
+
+|-
+
+! style="background:#ffdead;" | '''Creators''': Add yourself
+! style="background:#ffdecc;" | '''Bloggers''': blog your RSVP
+! style="background:#ffdede;" | '''Apprentices''': Get your creator to add you
+
+|-
+
+
+| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain!'''
+
+| Already blogging on your own domain? Great! '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/Guest_List this RSVP page]''' and send a [[pingback]] to it.
+
+| Perhaps you're a creator, but only for other people, and don't actively create things for your own site. Or maybe you're really excited about the IndieWeb and want to join it as soon as you can!
+
+|-
+
+| Add yourself to the [[#Creators]] section using the [[Template:Attendee|attendee template]], then add your name linked to your wiki user page and a self-hosted profile photo 128px square. 
+
+| If you're an active blogger (i.e. at least once a month)  yet don't feel like you would call yourself a creator, it would still be great to have you participate in IndieWebCamp. If you can setup [[IndieAuth]] on your domain, go ahead and add yourself in the [[#Bloggers]] section as well.
+
+| If you're not a creator, but want to be, or want to create and contribute to the IndieWeb but don't know where to start, team up with a creator, and ask them to add you. You can still attend IndieWebCamp as an apprentice to a creator. 
+
+|}
 
 Create your account, then add yourself using the [[Template:Attendee|attendee template]]:
 * Your name linked to your wiki user page
@@ -63,6 +53,8 @@ Create your account, then add yourself using the [[Template:Attendee|attendee te
 * Links to your other web profiles (optional)
 
 Then consider adding IndieWebCamp [[buttons]] to your website.
+
+Want to help? [[2014/Planning|Sign up to volunteer!]].
 
 <!--
 === Wait List ===
@@ -83,8 +75,8 @@ Then consider adding IndieWebCamp [[buttons]] to your website.
 Sign up for IndieWebCamp 2014 East in New York City, NY!
 
 '''Venue Capacity: 30'''
-* signed-up: 6
-* spots remaining: 24
+* signed-up: 7
+* spots remaining: 23
 
 {{Attendee
 |name = Bear
@@ -162,8 +154,8 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 6
-* spots remaining: 44
+* signed-up: 8
+* spots remaining: 42
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -193,6 +185,15 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/benjaminchait @benjaminchait]
 }}
 {{Attendee
+|name = [[User:Bret.io|Bret Comnes]]
+|img = http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=128
+|url = http://bret.io
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/bretolius @bretolius]
+}}
+{{Attendee
 |name = [[User:elladurham.com|Ella Durham]]
 |img = http://elladurham.com/images/elladurham-indieweb-128px.jpg
 |url = http://elladurham.com/
@@ -211,13 +212,20 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/gRegorLove @gRegorLove]
 }}
 {{Attendee
-|name = [[User:Bret.io|Bret Comnes]]
-|img = http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=128
-|url = http://bret.io
-|org_name = 
-|org_url = 
-|projects = 
-|elsewhere = [https://twitter.com/bretolius @bretolius]
+|name      = [[User:Iamshane.com|Shane Becker]]
+|img       = http://iamshane.com/assets/shane-becker-avatar-circle-small.png
+|url       = http://iamshane.com
+|org_name  = Hypernova
+|org_url   = http://hypernova.io
+|projects  = [https://github.com/veganstraightedge/New_Base_60 NewBase60 gem], [https://github.com/homesteading Homesteading]
+|elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
+}}
+{{Attendee
+|name = Paul Munday
+|img = http://www.gatheringstorms.org/images/icon.jpg
+|url = http://paulmunday.net
+|projects = [https://github.com/tallus/monomatapa Monomotapa]
+|elsewhere = [https://github.com/tallus/ github.com/tallus/]
 }}
 
 === Apprentices ===
@@ -283,9 +291,13 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 === Regrets ===
 Folks that can't make it (but hopefully can participate before/after remotely!)
 
-{{Attendee-placeholder}}
-
-<!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
+{{Attendee
+|name = Jason Garber
+|img = http://sixtwothree.org/jgarber.png
+|url = http://sixtwothree.org
+|projects = 
+|elsewhere = [https://twitter.com/jgarber @jgarber], [https://github.com/jgarber623 github.com/jgarber623]
+}}
 
 === Missed You ===
 Sorry to miss you folks - hopefully you can make it next year!

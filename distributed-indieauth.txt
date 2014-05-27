@@ -1,45 +1,38 @@
 http://indiewebcamp.com/distributed-indieauth
 
-{{indieauth-todo}}
+{{stub}}
+
+== Level 1: Enable web sign-in ==
+Link your website with a [[rel=me]] link to a common OAuth provider such as Github or Twitter. Or you can put your email address or phone number on your site to use Persona or SMS-based authentication.
+
+=== More ===
+* [[simple-indieauth-example]]
+
+== Level 2: Enable web sign-in with your own authorization server ==
+Find or create an authorization server and tell IndieAuth clients to use it when signing in.
+
+=== Use an authorization service ===
+Use an authorization service such as https://indieauth.com
+
+=== Create your own authorization endpoint ===
+* [[authorization-endpoint]]
+
+=== More ===
+* [[login-brainstorming]] (rough notes)
+
+== Level 3: Use other IndieWeb apps ==
+In order to use IndieWeb apps such as [[OwnYourGram]] or [[Taproot]] to post to your own site, you effectively need to turn your site into an OAuth provider. 
+
+=== Use a token endpoint service ===
+Such as https://tokens.indieauth.com
+
+=== Create your own token endpoint ===
+* [[token-endpoint]]
+
+=== Create your micropub endpoint ===
+* [[micropub-endpoint]]
+
+=== More ===
+* [[auth-brainstorming]] (rough notes)
 
 __TOC__
-
-== Background ==
-One of the most common critiques of [[IndieAuth]] is that it is essentially centralized, requiring indieauth.com in order to function. 
-
-While [https://github.com/aaronpk/IndieAuth IndieAuth is open source] and you can install it on your own server, this only solves half the problem. In reality, sites like indiewebcamp.com have been hard-coded to communicate with indieauth.com, so even if you spin up your own instance, you'll still be using indieauth.com to sign in to indiewebcamp.com.
-
-A better solution would be for each user's domain name to be able to point to an IndieAuth server of its choosing.
-
-== Protocol Flow ==
-
-For example, if [[User:Aaronparecki.com|aaronparecki.com]] is trying to sign in to the indiewebcamp.com wiki, but wants to use his own IndieAuth server, he could add a tag on his site like the following:
-
-<pre>
-&lt;link rel="indieauth" href="https://indieauth.aaronparecki.com/"&gt;
-</pre>
-
-Now, when indiewebcamp.com wants to go sign aaronparecki.com in, it would do something like this:
-
-# Make an HTTP request to aaronparecki.com and look for the <code>rel="indieauth"</code> tag.
-# Direct Aaron's browser to the authorize endpoint on that IndieAuth server, which would be <code>https://indieauth.aaronparecki.com/?me=aaronparecki.com&redirect_uri=http://indiewebcamp.com/login</code>
-# After Aaron logs in, his browser would be redirected to the wiki: <code>http://indiewebcamp.com/login?me=aaronparecki.com&code=gk7n4opsyuUxhvF4</code>
-# The wiki now needs to verify the code, but it needs to know the correct IndieAuth server to use to verify. It again makes a request to aaronparecki.com and looks for the rel tag, and uses that server to verify.
-# Verification is done as normal, except to the server indicated by aaronparecki.com. This would end up being a GET request to https://indieauth.aaronparecki.com/?code=gk7n4opsyuUxhvF4. The response would be returned as <code>{ "me":"http://aaronparecki.com/" }</code>
-
-== Notes ==
-
-=== Distributed ===
-The nice thing about this is that ultimately any IndieAuth server can verify anybody. If aaronparecki.com doesn't specify a particular IndieAuth server, the wiki could choose to use any server it trusts, such as indieauth.com. This provides a mechanism to "bootstrap" the adoption of IndieAuth by giving people a way to run their own provider and falling back to indieauth.com if they don't want to.
-
-=== Alternate Auth Mechanisms ===
-Another reason to run your own IndieAuth server is that you can choose to add alternate authentication mechanisms or other OAuth providers on your own without needing to get it supported by indieauth.com. If you really wanted, you could tie your IndieAuth server into an LDAP server for example.
-
-=== Performance at Scale ===
-Because the code is opaque to the client, the IndieAuth server can put whatever it wants in the code as long as it can verify it. Large-scale systems will tend to prefer signed tokens rather than maintaining a token database that requires a DB lookup to verify the code. 
-
-For example, the server could generate a code in the format "{domain}_{signature}" where the signature is generated with a secret known only to the IndieAuth server. When the request to verify the code comes in, the server can just verify the signature to avoid storing the codes in a database.
-
-== See Also ==
-
-* [http://indiewebcamp.com/irc/2013-08-26#t1377541900 A walkthrough of distributed indieauth] in the IRC logs

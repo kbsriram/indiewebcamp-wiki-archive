@@ -88,3 +88,5 @@ Content-Type: application/x-www-form-urlencoded
 
 me=https://aaronparecki.com/
 </pre>
+
+[[Category:IndieAuth]]

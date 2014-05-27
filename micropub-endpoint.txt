@@ -99,4 +99,9 @@ and optionally an HTML or other body with more information. Below is a list of p
 * <code>HTTP 403 Forbidden</code> - An access token was provided, but the authenticated user does not have permission to complete the request.
 * <code>HTTP 400 Bad Request</code> - Something was wrong with the request, such as a missing "h" parameter, or other missing data. The response body may contain more human-readable information about the error.
 
+== Indieweb Examples ==
+
+* {{aaronpk}} has a Micropub endpoint on his site since 2013-10-14
+* [[User:Kartikprabhu.com|Kartik Prabhu]] has a [https://kartikprabhu.com/micropub micropub endpoint] on his site since 2014-05-25
+
 [[Category:IndieAuth]]

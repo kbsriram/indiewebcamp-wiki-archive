@@ -26,9 +26,8 @@ Programming language libraries for doing so:
 See also:
 * 2013-08-01 [http://www.bogost.com/blog/oauth_of_fealty.shtml OAuth of Fealty] / "Resignation beyond sorrow on the Facebook Platform and beyond"
 
-=== See Original ===
 
-: '''Warning:''' Based on problems we've had with Bridgy Publish, I ([[User:Kylewm.com|Kylewm.com]]) am starting to suspect that this use case is somewhere between unsupported and an unintentional bug in Facebook, which only seems to work for the app developer's account and may be shut down in the future. Facebook expects custom actions to be registered by your app, and custom [https://developers.facebook.com/docs/opengraph/using-actions/v2.0#howto-actionlinks Action Links] to point to a common endpoint on the application's domain.
+=== See Original ===
 
 Some indieweb sites POSSE to FB and put in a "See Original" link in POSSE copies of posts there that link back to the original indieweb post! In addition, [[Bridgy]] looks for such "See Original" links as part of its [[original-post-discovery]] implementation. 
 
@@ -37,6 +36,21 @@ Each Facebook post [https://developers.facebook.com/docs/graph-api/reference/use
 [[File:SeeOriginal2.png]]
 
 [https://www.facebook.com/kyle.mahan/posts/10100820646679399?stream_ref=5 On Facebook]
+
+
+'''Warning:''' Based on problems we've had with Bridgy Publish, I ([[User:Kylewm.com|Kylewm.com]]) am starting to suspect that this use case is somewhere between unsupported and an unintentional bug in Facebook, which only seems to work for the app developer's account and may be shut down in the future. Facebook expects custom actions to be registered by your app, and custom [https://developers.facebook.com/docs/opengraph/using-actions/v2.0#howto-actionlinks Action Links] to point to a common endpoint on the application's domain.
+
+=== Mention Tagging ===
+
+It is not possible to "mention tag" (equivalent to @-mention on twitter) other users using the normal /me/feed API edge. This appears to be "by design" to prevent spammy apps from mentioning people (and is an example of a place where a silo API provides less functionality than the native posting UI).
+
+Below I tried to mention a user in a post and it was ignored:<br>[[File:fb-post-me-feed-failed-mention.png]]
+
+There are a few (less than perfect) alternatives:
+
+* The only way to mention tag someone via the API is to use Actions and Objects. You do not have to create a custom action -- for sharing a blog post, action=<code>news.publishes</code> and object=<code>article</code> works. This requires that you embed OpenGraph metadata on your post permalink pages. To publish, send a POST to the /me/news.publishes edge and include the field <code>article=http://example.com/your_post</code>.<br>[[File:fb-post-news-publishes.png]]
+** Your app must be manually approved (by FB staff) for "User Tagging" and "User Messages" for that specific action before you will be allowed to tag anyone but yourself.
+* You can make posts like "... was at [a place] with [some people]", with the /me/feed edge. Add user IDs (numeric ID or mention token from /me/taggable_friends. username does not work here) to the <code>tags</code> field, and also include a <code>place</code> (the ID of a Facebook Place).<br>[[File:fb-post-taggged-place-and-user.png]]
 
 === IndieWeb Examples ===
 In rough order of implementation:

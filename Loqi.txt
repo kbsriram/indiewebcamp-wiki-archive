@@ -15,6 +15,9 @@ These questions (when present at the start of a message, optionally terminated b
 === why should I support xyz ===
 These questions (when present at the start of a message, optionally terminated by a ?) could be answered with a link to /xyz#Why
 
+=== who is xyz ===
+look up IRC nick "xyz" on /irc-people and reply with link to /User:xyz.com
+
 == See Also ==
 * [[IRC]]
 * [http://loqisaur.tumblr.com/ Loqi's Adventures in IRC]

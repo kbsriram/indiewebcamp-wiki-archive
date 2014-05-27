@@ -25,6 +25,7 @@ http://indiewebcamp.com/p3k
 == Source Code ==
 While the core of p3k is not open source, many components are. Below is a list of the components used in p3k.
 
+* [[Quill]] - note posting interface (https://github.com/aaronpk/Quill)
 * [https://github.com/indieweb/php-mf2 php-mf2] - a PHP Microformats 2 parser
 * [https://github.com/indieweb/mention-client-php mention-client-php] - a PHP client to send [[webmentions]] and [[pingbacks]]
 * [https://github.com/aaronpk/Timezone-API Timezone-API] - an API to find the timezone at a latitude and longitude
@@ -193,6 +194,27 @@ Indexes:
 *   KEY `post_id` (`post_id`)
 
 This can be used to find the canonical URL of a syndicated post given its URL on Twitter or Instagram.
+
+== Storage ==
+All content in p3k is stored as files on disk. 
+
+There is a top-level folder for each post type, articles, notes, replies, events, metrics, travel, presentations. (If I had to do this from scratch, I wouldn't have made this distinction at this level).
+
+Each folder contains subfolders for the year and month.
+
+For everything except metrics, the structure is:
+* <code>YYYY/mm/dd-n.md</code> where n is the nth post on that day.
+
+For metrics, the filenames are the full timestamp:
+* <code>YYYY/mm/dd/HHMMSS.md</code>
+
+{|
+| [[File:2014-05-25-aaronpk-articles-filesystem.png]]
+| [[File:2014-05-25-aaronpk-notes-filesystem.png]]
+| [[File:2014-05-25-aaronpk-metrics-filesystem.png]]
+|}
+
+If there are any associated photos or files for a post, they go into a subfolder with the same name as the base name of the file. In the "notes" example above, the photo attached to the "08-4.md" note lives in a folder named "08-4".
 
 == Working On ==
 The things I am currently implementing in p3k:

@@ -2,7 +2,7 @@ http://indiewebcamp.com/simple-indieauth-example
 
 {{stub}}
 
-This page describes using IndieAuth for authentication rather than [[auth-brainstorming|authorization]]. In this case, no token endpoint or Micropub endpoint are needed, and the user did not delegate authorization to a specific endpoint.
+This page describes using IndieAuth for authentication rather than [[auth-brainstorming|authorization]]. In this case, no token endpoint or Micropub endpoint are needed, and '''the user did not delegate authorization to a specific endpoint''' so the client searches for known authentication providers.
 
 == Examples ==
 
@@ -35,7 +35,9 @@ The wiki should present an interface describing the request being made. It must 
 * The name of the site making the request
 * Give the user choices of using any supported auth providers they have listed on their home page
 
-== The Redirect URI ==
+== Complete ==
 
-=== Verifying the authorization code ===
 After the site authenticates the user at one of their mutually agreed upon providers, the site can consider the user signed in.
+
+
+[[Category:IndieAuth]]

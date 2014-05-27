@@ -88,6 +88,9 @@ More on:
 ==== url uid ====
 Alternatively, if an h-feed has a u-url u-uid property that is not the URL of the current page itself, then that u-url u-uid URL can be treated as the canonical full feed.
 
+== Articles ==
+* [http://blog.superfeedr.com/indieweb-microformats-fragments-subscriptions/ "IndieWeb: fragment subscriptions to microformats"] on Superfeedr.
+
 == See Also ==
 * [[feeds]]
 * [[microformats2]]

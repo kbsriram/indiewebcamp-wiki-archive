@@ -13,6 +13,9 @@ http://indiewebcamp.com/Google
 * ...
 Google also provides hosted client services:
 * [[Gmail]] - hosted email service
+And notification services:
+* [[Google Alerts]] - http://www.google.com/alerts
+* [[Google now]] - http://www.google.com/landing/now/
 
 == Exporting From Google ==
 * See: Data Liberation Front

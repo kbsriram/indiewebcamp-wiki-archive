@@ -15,8 +15,9 @@ Join us for two days of brainstorming &amp; creating at <span class="p-name summ
 
 == RSVP ==
 * '''[[2014/Guest_List|Guest List]]''' - add yourself (and optionally an apprentice)
-* Lanyrd: <a class="u-url url" href=""></a>
-* Plancast: <a class="u-url url" href=""></a>
+* Lanyrd: <a class="u-url url" href="http://lanyrd.com/2014/indiewebcamp-2/">lanyrd.com/2014/indiewebcamp-2/</a>
+* Plancast: <a class="u-url url" href="http://plancast.com/p/lg3r">plancast.com/p/lg3r</a>
+
 Additional listings:
 * Calagator: http://calagator.org/events/1250465892 
 

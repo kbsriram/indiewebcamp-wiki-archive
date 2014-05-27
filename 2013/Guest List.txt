@@ -450,7 +450,7 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 | [https://github.com/sandeepshetty github.com/sandeepshetty], [https://github.com/converspace github.com/converspace], [https://github.com/phpish github.com/phpish], [https://twitter.com/sandeepshetty @sandeepshetty]
 
 |- class="p-attendee attendee h-card vcard"
-| http://iamshane.com/images/shane-becker-avatar-circle-small.png
+| http://iamshane.com/assets/shane-becker-avatar-circle-small.png
 | <span class="p-name fn">[[User:Iamshane.com|Shane Becker]]</span> (<span class="p-org org">[http://farmhouse.la The Farmhouse]</span>)
 | <span class="u-url url">http://iamshane.com/</span>
 | [https://github.com/veganstraightedge/New_Base_60 NewBase60] (URL shortener based on Whistle), [https://github.com/homesteading Homesteading], [http://farmhouse.la/conf Farmhouse Conf]

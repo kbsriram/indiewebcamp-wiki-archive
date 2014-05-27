@@ -20,7 +20,7 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 * Refining the deployed Wordpress Theme
 * Switching publishing from a Wordpress plugin to Bridgy.
 * Thinking of creating a Bridgy plugin for Wordpress
-* Created a Wordpress plugin based on Facepile theme code already in use on site that does the same for any theme. You can find it at [https://github.com/dshanske/semantic-comments Github]
+* Semantic Comments Plugin - Wordpress plugin based on code I am already using on my site. Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. You can find it at [https://github.com/dshanske/semantic-comments Github]
 
 == Wordpress Custom Post Types Planning ==
 

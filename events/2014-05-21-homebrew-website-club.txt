@@ -39,8 +39,8 @@ Portland:
 * Facebook POSSE copy: https://www.facebook.com/events/245556792313620/
 
 == RSVP ==
-'''Optional RSVP - just show up!''' You're encouraged to RSVP by any or all of:
-* adding your name below (and indicate parenthetically if you're in for writing hour)
+'''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
+* ''' adding your name below''' (and indicate parenthetically if you're in for writing hour)
 * sending an indie [[RSVP]] to the respective indie [[event]] listed above for your location, 
 * RSVPing on its POSSE copy on Facebook (also linked above)
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
@@ -51,12 +51,14 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * [[User:andigalpern.com|Andi Galpern]] (in for writing hour!)
 * [[User:4c4d.com|Laurence]] (maybe for writing hour)
 * {{kylewm}} (can't make writing hour)
+* [[User:matthewlevine.com|Matthew Levine]] (in for writing hour!)
 * ... add yourself!
 
 '''Portland:'''
 * {{aaronpk}} (in for writing hour!)
-* [[User:metafluff.com|Dietrich Ayala]] (in for writing hour!)
 *[[User:paulmunday.net|Paul Munday]](maybe some of the writing hour)
+*[[User:alexlinsker.com|Alex Linsker]] (in for some of writing hour) exploring metaphors today
+*[[User:psyhigh.com | Darin Sennett]] (just for the talking)
 * ... add yourself!
 
 '''London:'''
@@ -76,6 +78,10 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
+
+[[File:2014-05-21-hwc-screen.jpg|600px]]
+
+[https://twitter.com/andigalpern/status/469354917602131968 https://pbs.twimg.com/media/BoN7z1SIcAAa2Us.jpg]
 ...
 
 {{Homebrew Website Club}}

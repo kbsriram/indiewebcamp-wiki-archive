@@ -17,6 +17,13 @@ A '''<dfn>bookmark</dfn>''' is a [[post]] that is typically comprised of a URL a
 ** URL
 ** Tags
 ** Text note with one or more URLs inline
+
+* [[User:adactio.com|Jeremy Keith]] posts bookmarks on [http://adactio.com/links/ adactio.com/links] and POSSEs them to [https://delicious.com/adactio Delicious]. These bookmark posts contain:
+** URL
+** Title
+** tags
+** Description
+
 == Silos ==
 Bookmark hosting silos:
 * [[Instapaper]]

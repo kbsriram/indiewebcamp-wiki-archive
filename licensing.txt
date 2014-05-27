@@ -51,3 +51,4 @@ Copyleft licenses require that derivative works remain open source, and often re
 == External Links ==
 
 *  Jeff Attwod: [http://blog.codinghorror.com/pick-a-license-any-license/ Pick a License, Any License]
+* [http://choosealicense.com/licenses/ Choose a License]: Helpful high-level comparison

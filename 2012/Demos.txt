@@ -9,7 +9,7 @@ IndieWebCamp 2012
 * 17:00 Teroperate
 
 == Beeminder for the IndieWeb ==
-1. Beeminder for the IndieWeb - demoed by Betheny
+1. Beeminder for the IndieWeb - demoed by [[User:Bethaknee.com|Bethany]]
 
 callback slurp URL in config page on beeminder.com
 

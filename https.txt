@@ -185,27 +185,49 @@ Why?
 Proposed [[IndieMark]] Levels of recommended support for HTTPS on your own website, as part of a security component
 
 === Level 1 security ===
-Level 1 - "don't do the wrong thing"
-* Why? Don't provide a bad user experience 
-* E.g. Avoid: 
-** https://waterpigs.co.uk/ <blockquote>Unable to connect<br><br>Firefox can't establish a connection to the server at waterpigs.co.uk.</blockquote>
-** ...
+Level 1 - "Don't do the wrong thing". (what's the minimal "not wrong thing"?). Possible reasonable behaviors:
+* '''Refuse the connection''', because if you don't support SSL, generally you're not listening on port 443, so clients can't connect. Challenge: the user has no idea what is wrong, nor how to fix it (i.e. retry going to the site with "http:" instead).
+
+Why? 
+* Avoid a misleading user experience.
+
+Examples:
+* [[User:waterpigs.co.uk|Barnaby Walters]] on waterpigs.co.uk, if you try to [https://waterpigs.co.uk/ access via https], the browser shows something like: <blockquote>Unable to connect<br><br>Firefox can't establish a connection to the server at waterpigs.co.uk.</blockquote>
 
 === Level 2 security ===
-Level 2 - support it for your admin pages with a self-signed cert
-* Why? Security, otherwise anyone can hack your CMS and post stuff as you. (e.g. firesheep) 
-* Example: https://dunlaps.net/darius/wp-login.php
-* How to make Wordpress use SSL: http://codex.wordpress.org/Administration_Over_SSL
+Level 2 - support it for your admin pages with a self-signed certificate.
+* E.g. How to make Wordpress use SSL: http://codex.wordpress.org/Administration_Over_SSL
 Note: If you actually get a real SSL cert and serve your admin interface from the same domain, you are actually in Level 3.
 
+Why? 
+* Security for write-access to your site! Otherwise anyone can hack your CMS and post stuff as you. (e.g. using a tool like Firesheep)
+
+Examples:
+* YYYY-YY-YY https://dunlaps.net/darius/wp-login.php
+* 2014-05-23 [[User:tantek.com|Tantek Çelik]] for tantek.com on his [[Falcon]] admin interface at https://tantek.com/falcon
+
 === Level 3 security ===
-Level 3 - provide your front-end over both https and http with a cert from a trusted CA
-* Why? 
-* Example: https://aaronparecki.com/ https://pauloppenheim.com/
+Level 3 - provide your front-end over both http and https with a cert from a trusted CA
+Why? 
+* "Why not?" - GWG
+* ... add 
+Examples: 
+* ????-??-?? [[User:aaronparecki.com|Aaron Parecki]] on https://aaronparecki.com/ 
+* ????-??-?? [[User:pauloppenheim.com|Paul Oppenheim]] on https://pauloppenheim.com/
+* 2014-05-23 [[User:David.shanske.com|David Shanske]] on https://david.shanske.com/
+* ... add yourself here with the date you reached level 3
 
 === Level 4 security ===
 Level 4 - serve everything over https and send redirects from http -> https
-* Example: https://snarfed.org/ (via HSTS header) https://willnorris.com/ (via 301 redirect)
+
+Why?
+* ... add reasons why to upgrade to level 4 over level 3 here
+
+Examples:
+* ????-??-?? [[User:snarfed.org|Ryan Barrett]] on https://snarfed.org/ (via HSTS header) 
+* ????-??-?? [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (via 301 redirect)
+* 2014-05-23 [[User:kartikprabhu.com|Kartik Prabhu]] on https://kartikprabhu.com/ (via 301 redirect)
+* ????-??-?? [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect)
 
 === Level 5 security ===
 Level 5 - use correct ciphers, etc (see https://www.ssllabs.com/ssltest/)

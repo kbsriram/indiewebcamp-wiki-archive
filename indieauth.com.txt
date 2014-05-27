@@ -1,0 +1,24 @@
+http://indiewebcamp.com/indieauth.com
+
+{{stub}}
+
+'''<dfn>indieauth.com</dfn>''' provides two services: for developers, it handles authenticating users via [[RelMeAuth]], and users can delegate to it as their authorization server.
+
+== For Developers ==
+
+https://indieauth.com/developers
+
+== For Users ==
+
+https://indieauth.com/setup
+
+== FAQ ==
+
+https://indieauth.com/faq
+
+== See Also ==
+* [[IndieAuth]]
+* [[:Category:IndieAuth]]
+* [[micropub]]
+
+[[Category:IndieAuth]]

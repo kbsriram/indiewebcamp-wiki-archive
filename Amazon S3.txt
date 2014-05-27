@@ -1,0 +1,30 @@
+http://indiewebcamp.com/Amazon_S3
+
+{{stub}}
+
+'''<dfn>Amazon S3</dfn>''' is a file hosting service from Amazon. 
+
+== IndieWeb Examples ==
+=== [http://lionzan.me/ lionzan.me] ===
+Leonardo Zangrando hosts his website on S3.
+
+These are the notes that I took while cerating my S3 Jekyll Indieweb site.
+
+* Create account AWS
+* Create account AS3 in AWS
+* Create bucket in AS3 and initialise Cloudfront for website delivery via AWS - instructions here https://github.com/laurilehmijoki/s3_website#how-to-use-cloudfront-to-deliver-your-blog
+* Install Jekyll on local - instructions here http://jekyllrb.com/docs/home/
+* Write a post and commit (?) -  from terminal, in blog local folder type command  $ jekyll build
+* Upload blog to ASW - in terminal in blog local folder type command  $ s3_website push
+
+Other sources
+* Other instructions for deployment on GitHub here http://jekyllbootstrap.com/ - not tried
+* for tutorial check also http://www.andrewmunsell.com/tutorials/jekyll-by-example/#why-jekyll - used to install jekyll on aws s3, but now apparently the tutorial is $15 :(
+* check also blogging framework http://octopress.org/ - installed a GitHub version, but still not working, site doesn't build (dunno why)
+* http://yeswejekyll.com/ very intersting, with links to different templates by http://foundation.zurb.com/
+* http://klepas.org/jekyll-a-static-site-generator/
+
+== See Also ==
+* [[hosting]]
+* [[Jekyll]]
+* http://aws.amazon.com/s3/

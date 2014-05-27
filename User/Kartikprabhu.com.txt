@@ -32,7 +32,7 @@ I post articles, notes, photos on [http://kartikprabhu.com Parallel Transport].
 
 * start posting likes, reposts, links
 
-* enable https and SSL stuff
+* enable https and SSL stuff (Done: as of 2014-05-23)
 
 * use [[micropub]] to build a good posting UI alternative to Django's admin.
 

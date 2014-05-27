@@ -4,8 +4,25 @@ http://indiewebcamp.com/Python
 
 '''<dfn>Python</dfn>''' is a programming language and web server runtime environment used for many IndieWeb [[projects]].
 
-== Libraries == 
+== IndieWeb Examples ==
+Examples of indieweb community members who are using Python on their personal sites:
+=== Bear ===
+[[User:bear.im|Bear's]] uses [[Hakkan]], a Python based static site generator, to run hisruns personal site  [https://bear.im/bearlog/ bearlog] and uses the following Python 
+* ronkyuu
+* mf2py
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on Django (Python framework) + MySQL and uses the following Python IndieWeb projects:
+* ronkyuu
+* mf2py
+* mf2util
 
+=== Kyle Mahan ===
+[[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] (written Python) to run his personal site kylewm.com with the following Python projects:
+* Flask
+* mf2py
+* mf2util
+
+== Libraries == 
 Generally useful libraries being developed by IndieWeb participants in Python.
 
 * [[ronkyuu]], a collection of tools for sending webmentions and verifying rel=me.
@@ -15,7 +32,6 @@ Generally useful libraries being developed by IndieWeb participants in Python.
 * [[mf2util]] is a microformats2-specific parsing utility. Useful for reading the relevant properties for comments and reply-contexts. Also has some special handling for date/times that converts them into Python datetime or date objects.
 
 === Third-party Libraries ===
-
 Non-IndieWeb-specific libraries that may still be of interest.
 
 * [http://docs.python-requests.org/en/latest/ Requests]: By far the best way to interact with any HTML endpoint.
@@ -23,27 +39,16 @@ Non-IndieWeb-specific libraries that may still be of interest.
 * [http://bleach.readthedocs.org/en/latest/ Bleach]: sanitizer and autolinker. Useful for removing dangerous code from e.g., for displaying remote content. Excludes almost everything by default.
 
 == Projects ==
-
-IndieWeb and interesting dependencies
-
+IndieWeb projects built with Python:
 * [[Bridgy]] (open source) runs on Google AppEngine
 ** [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial]
 ** [https://github.com/snarfed/oauth-dropins oauth-dropins]
 ** webmention-tools
 ** mf2py
-* [[Hakkan]] is a static site generator that runs [[User:bear.im|Bear's]] personal site  [https://bear.im/bearlog/ bearlog]
-** ronkyuu
-** mf2py
-* [[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on Djang+MySQL
-** ronkyuu
-** mf2py
-* [[Red Wind]] runs [[User:kylewm.com|Kyle Mahan]]'s personal site
-** Flask
-** mf2py
-** mf2util
+* [[Hakkan]]
+* [[Red Wind]]
 
 == Hosting ==
-
 Python does not have PHP's ubiquity, and finding hosting can be a little bit more of a challenge. See [[web_hosting]] for more details.
 
 * Google AppEngine (webapp, Django)
@@ -53,3 +58,4 @@ Python does not have PHP's ubiquity, and finding hosting can be a little bit mor
 
 == See Also ==
 * [[PHP]]
+* [[projects]]

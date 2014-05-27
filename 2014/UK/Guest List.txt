@@ -64,6 +64,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |elsewhere = “barnabywalters” on various silos
 }}
 
+{{Attendee
+|name = Peter Molnar
+|img = https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128
+|url = https://petermolnar.eu
+|org_name = 
+|org_url = 
+|projects = wordpress-syndication contributor
+|elsewhere = petermolnar@twitter
+}}
+
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
 
 === Bloggers ===

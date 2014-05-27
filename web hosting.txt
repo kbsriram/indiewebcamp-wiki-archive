@@ -102,6 +102,7 @@ FTP access with PHP or Perl CGI in a shared hosting environment
 * [http://pair.com/ Pair] has been around forever, has lots of reasonable plans, and is generally very clueful.
 * [http://freeshell.org/ freeshell.org] aka the SDF Public Access UNIX System
 * [https://www.webfaction.com/ Webfaction] has lots of plans, supported languages and databases; runs Apache/ngnix.
+* [http://asmallorange.com/ a small orange] has nice shared hosting starting at 250MB for $35/year. Good customer support. [[User:Kylewm.com|Kylewm.com]] has had good experiences with them in the past.
 * ...
 
 Other opinions: [http://www.hostjury.com/ HostJury] is a crowd-sourced web host review service, though whether the crowd is sufficiently large and diverse to reduce the bias to a useful level is unclear.

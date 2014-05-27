@@ -13,3 +13,4 @@ http://indiewebcamp.com/archive
 == See Also ==
 * [[IndieArchive]]
 * [[wget]]
+* [[wiki/backup]]
