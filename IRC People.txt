@@ -72,6 +72,7 @@ Please keep sorted alphabetically
 * {{irc user|aheadrobot.com|smagdali|Europe/London}}
 * {{irc user|snarfed.org|snarfed|America/Los_Angeles}}
 * {{irc user|4c4d.com|sparverius|America/Los_Angeles}}
+* {{irc user|Paulmunday.net|tallpaul|America/Los_Angeles}}
 * {{irc user|Tantek.com|tantek|America/Los_Angeles}}
 * {{irc user|Tommorris.org|tommorris|Europe/London}}
 * {{irc user|tiagopinto.pt|tpinto|Europe/London}}

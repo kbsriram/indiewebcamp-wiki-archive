@@ -150,6 +150,8 @@ Here's an example of debugging a single SSL issue:
 * https://github.com/snarfed/bridgy/issues/20
 * http://indiewebcamp.com/irc/2014-01-04#t1388872084
 
+Brand new StartSSL certificates may give an OCSP validation error for 6-24 hours after purchase. This seems to only affect Firefox and resolves itself when the certificate propagates to the validation server[https://forum.startcom.org/viewtopic.php?f=15&t=2654]. Firefox users can disable the check temporarily with Edit > Preferences > Advanced > Certificates > Validation, and uncheck "Use the Online Certificate Status Protocol"
+
 ==== Local ====
 When developing a website locally, it may be useful to be able to test the site via https. For example, when writing an OAuth client, some providers will not redirect to a page that does not use https.
 
@@ -221,17 +223,26 @@ Examples:
 Level 4 - serve everything over https and send redirects from http -> https
 
 Why?
-* ... add reasons why to upgrade to level 4 over level 3 here
+* all your site URLS will be consistent
+* you'll never end up with mixed http/https content which is blocked by default on Firefox & Chrome
+see: https://blog.mozilla.org/security/2013/05/16/mixed-content-blocking-in-firefox-aurora/, https://code.google.com/p/chromium/issues/detail?id=81637
 
 Examples:
 * ????-??-?? [[User:snarfed.org|Ryan Barrett]] on https://snarfed.org/ (via HSTS header) 
-* ????-??-?? [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (via 301 redirect)
 * 2014-05-23 [[User:kartikprabhu.com|Kartik Prabhu]] on https://kartikprabhu.com/ (via 301 redirect)
 * ????-??-?? [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect)
+* 2014-05-28 {{kylewm}} on https://kylewm.com (via 301 redirect)
 
 === Level 5 security ===
-Level 5 - use correct ciphers, etc (see https://www.ssllabs.com/ssltest/)
-* Example: https://willnorris.com/ (https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com)
+Level 5 - use correct ciphers, etc per https://www.ssllabs.com/ssltest/ (all previous levels required, i.e. document method of http to https redirection)
+
+Why?
+* HTTPS is good, better with forward secrecy: http://news.netcraft.com/archives/2013/06/25/ssl-intercepted-today-decrypted-tomorrow.html
+* some ciphers are not safe, some are slower than others and SSL breaches are dangerous: https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
+
+Examples
+* 2014-MM-DD [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (See https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com and note: http to https via 301 redirect)
+* 2014-MM-DD https://petermolnar.eu/ (See https://www.ssllabs.com/ssltest/analyze.html?d=petermolnar.eu)
 
 == Criticism ==
 * <span class="h-cite"><time class="dt-published">2014-04-09</time> <span class="p-author h-card">Sean Doig</span>: <cite class="p-name">[http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death Heartbleed should bleed X.509 to death]</cite>, <span class="p-url">http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death</span></span>

@@ -1,0 +1,14 @@
+http://indiewebcamp.com/apprentice
+
+==Apprentices to Creators==
+
+* Perhaps you don't have a personal site.
+* Perhaps you're a creator, but only for other people, and don't actively create things for your own site.
+* Maybe you're really excited about the IndieWeb and want to join it as soon as you can!
+* You can still be an apprentice to a creator.
+* If you're not a creator, but want to be, or want to create and contribute to the indieweb but don't know where to start, team up with a creator.
+* In the meantime, be sure to get setup with your own personal identity so you can contribute to the wiki, and start learning what you can do to add your personal site to the indie web.
+
+== For Creators ==
+
+Creators may choose take on an apprentice. If the appentice is attending an Indiewebcamp event, the creator is responsible for the apprentice.
