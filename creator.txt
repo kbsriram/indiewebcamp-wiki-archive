@@ -1,8 +1,6 @@
 http://indiewebcamp.com/creator
 
-= indieweb creator =
-
-What is an ''indieweb'' ''creator''?
+A '''<dfn>creator</dfn>''' in the context of the indieweb is someone who owns their domain, uses it as their primary identity on the web, creates (e.g. code, design, ux) for their site, and openly shares at least some of those creations.
 
 == indieweb ==
 {{main|indieweb}}
@@ -31,5 +29,15 @@ It's ok to start small, even just a function or two, or some graphics files, or 
 
 The point is to take ''something'' that is powering or has empowered ''your'' indieweb site, that you work on, develop, improve, create, and share it with others, in the hopes that it will help empower and improve their indieweb sites.
 
+== IndieWebCamps ==
+As a creator, you're encouraged to sign-up to and participate in IndieWebCamps, to meet other creators, collaborate on improving each others sites, and growing the IndieWeb.
+
+See upcoming IndieWebCamp [[events]].
+
+You are encouraged to bring an [[apprentice]] to IndieWebCamp, to help them get their [[own domain]] and [[Getting_Started|setup]] their identity and content on their own site.
+
 == see also ==
 * [[create]] - the act of creating a post
+* [[design]]
+* [[ux]]
+* [[apprentice]]

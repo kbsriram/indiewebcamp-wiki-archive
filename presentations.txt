@@ -6,7 +6,9 @@ http://indiewebcamp.com/presentations
 
 Presentations and slide decks about the indieweb (in chronological order)
 === 2014 ===
-* 2014-05-02 15:35+11:00 Tantek Çelic: #WDC14 Keynote "The Once and Future IndieWeb" 
+* 2014-05-29 15:00-07:00 Aaron Parecki: AWE2014 Presentation "[http://aaronparecki.com/presentations/2014/05/29/1/awe-2014 The Future of Quantified Self and Data Ownership]"
+** [http://aaronparecki.com/presentations/2014/05/29/1/files/slides/ launch presentation]
+* 2014-05-02 15:35+11:00 Tantek Çelik: #WDC14 Keynote "The Once and Future IndieWeb" 
 ** https://etherpad.mozilla.org/ep/pad/view/wdc14/latest
 ** [https://twitter.com/search?f=realtime&q=%23wdc14%20%28%40t%20OR%20indieweb%20OR%20indiewebcamp%29&src=typd Twitter]
 * ...

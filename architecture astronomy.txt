@@ -8,5 +8,9 @@ http://indiewebcamp.com/architecture_astronomy
 
 "They tend to work for really big companies that can afford to have lots of unproductive people with really advanced degrees that don't contribute to the bottom line."[http://www.joelonsoftware.com/articles/fog0000000018.html]
 
+== Articles ==
+* [http://www.joelonsoftware.com/articles/fog0000000018.html Don't Let Architecture Astronauts Scare You]
+* [http://www.joelonsoftware.com/items/2009/09/23.html The Duct Tape Programmer]
+
 == See Also ==
 * [[antipatterns]]

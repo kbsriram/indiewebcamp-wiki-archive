@@ -190,66 +190,100 @@ Proposed [[IndieMark]] Levels of recommended support for HTTPS on your own websi
 Level 1 - "Don't do the wrong thing". (what's the minimal "not wrong thing"?). Possible reasonable behaviors:
 * '''Refuse the connection''', because if you don't support SSL, generally you're not listening on port 443, so clients can't connect. Challenge: the user has no idea what is wrong, nor how to fix it (i.e. retry going to the site with "http:" instead).
 
-Why? 
+'''Why?'''
 * Avoid a misleading user experience.
 
-Examples:
+'''IndieWeb Examples'''
 * [[User:waterpigs.co.uk|Barnaby Walters]] on waterpigs.co.uk, if you try to [https://waterpigs.co.uk/ access via https], the browser shows something like: <blockquote>Unable to connect<br><br>Firefox can't establish a connection to the server at waterpigs.co.uk.</blockquote>
+* ...
+
 
 === Level 2 security ===
 Level 2 - support it for your admin pages with a self-signed certificate.
 * E.g. How to make Wordpress use SSL: http://codex.wordpress.org/Administration_Over_SSL
 Note: If you actually get a real SSL cert and serve your admin interface from the same domain, you are actually in Level 3.
 
-Why? 
-* Security for write-access to your site! Otherwise anyone can hack your CMS and post stuff as you. (e.g. using a tool like Firesheep)
+'''Why?'''
+* '''Security for write-access to your site!''' Otherwise anyone can hack your CMS and post stuff as you. (e.g. using a tool like Firesheep to sniff your login session cookies, and re-use them to gain access to your admin pages.)
 
-Examples:
-* YYYY-YY-YY https://dunlaps.net/darius/wp-login.php
-* 2014-05-23 [[User:tantek.com|Tantek Çelik]] for tantek.com on his [[Falcon]] admin interface at https://tantek.com/falcon
+'''IndieWeb Examples'''
+* {{t}} for tantek.com on his [[Falcon]] admin interface at https://tantek.com/falcon/ [http://tantek.com/2014/143/t1/setup-self-signed-ssl-certificate-site-admin since 2014-05-23]
+* ...
+
 
 === Level 3 security ===
 Level 3 - provide your front-end over both http and https with a cert from a trusted CA
-Why? 
+
+'''Why?'''
+* You can link from [[silo]] profiles to your site via https
+* You can start using (requiring!) your https URL for [[IndieAuth]] logins (e.g. into the wiki)
+* Your readers can securely access your site without a scary warning message pop-up.
+* [[privacy]] for your readers (what they are choosing to read)[http://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS]
 * "Why not?" - GWG
 * ... add 
-Examples: 
-* ????-??-?? [[User:aaronparecki.com|Aaron Parecki]] on https://aaronparecki.com/ 
-* ????-??-?? [[User:pauloppenheim.com|Paul Oppenheim]] on https://pauloppenheim.com/
-* 2014-05-23 [[User:David.shanske.com|David Shanske]] on https://david.shanske.com/
+
+'''IndieWeb Examples'''
+* [[User:pauloppenheim.com|Paul Oppenheim]] on https://pauloppenheim.com/ (cert from dreamhost which uses comodo) since 2012-01.
+* Tim Bray on https://www.tbray.org/ [http://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS since 2012-12-02].
+* {{aaronpk}} on https://aaronparecki.com/ since 2013-11-10
+* [[User:Dunlaps.net|Darius Dunlap]] on https://dunlaps.net/darius [https://dunlaps.net/darius/2014/03/25/indieweb-update/ since 2014-03-07] (at [[2014/SF|IndieWebCampSF]]).
+** Level 2: previously, self-signed cert on his [[WordPress]] admin interface at https://dunlaps.net/darius/wp-login.php since YYYY-YY-YY.
+* [[User:David.shanske.com|David Shanske]] on https://david.shanske.com/ since 2014-05-23.
 * ... add yourself here with the date you reached level 3
 
 === Level 4 security ===
-Level 4 - serve everything over https and send redirects from http -> https
+Level 4 - serve everything (home page, permalinks, images etc.) over https and send redirects from http -> https. I.e. your pages automatically get at least a lock icon in the browser address bar (and no warnings).
 
-Why?
-* all your site URLS will be consistent
-* you'll never end up with mixed http/https content which is blocked by default on Firefox & Chrome
-see: https://blog.mozilla.org/security/2013/05/16/mixed-content-blocking-in-firefox-aurora/, https://code.google.com/p/chromium/issues/detail?id=81637
+'''Why?'''
+* All your site URLs will be consistent
+* Avoid showing readers a warning message or triangle icon in the browser address bar
+* Avoid mixed http/https content which is blocked by default on Firefox & Chrome. See: https://blog.mozilla.org/security/2013/05/16/mixed-content-blocking-in-firefox-aurora/, https://code.google.com/p/chromium/issues/detail?id=81637
 
-Examples:
-* ????-??-?? [[User:snarfed.org|Ryan Barrett]] on https://snarfed.org/ (via HSTS header) 
+'''IndieWeb Examples in rough order of implementation'''
+* 2013-??-?? [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect)
+* 2014-??-?? [[User:snarfed.org|Ryan Barrett]] on https://snarfed.org/ (via HSTS header) 
 * 2014-05-23 [[User:kartikprabhu.com|Kartik Prabhu]] on https://kartikprabhu.com/ (via 301 redirect)
-* ????-??-?? [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect)
 * 2014-05-28 {{kylewm}} on https://kylewm.com (via 301 redirect)
+** All new posts, resources, including external user pics.
+** Caveat: There are some older posts with embedded images from http that still give the mixed content warning.
+
+'''Check the browser's address bar''' where your URL is displayed and make sure:
+# There's a lock icon before (in front of) the URL in the address bar
+# There's no warning triangle icon (in front of) the URL in the address bar
+
+'''FAQ:''' <br/>
+'''How do you ensure that external content is over https?''' E.g. if I have an avatar for a comment from {{t}} it will be over http since he uses http.
+* When you receive a webmention, download the image from the [[h-card]] and serve it from your own server.
+* Unless it's a [[Twitter]] mention, in which case link to:
+** <code><nowiki>https://twitter.com/username/profile_image</nowiki></code>
+** See [[Twitter#Profile_Image_URLs]] for more on Twitter profile images.
+
+'''Brainstorming:'''
+* '''Move "get at least a lock icon" to a new "level 5"''' requirement/achievement, and bump existing level 5 to 6. Reasoning: it's much harder to serve all resources via https (e.g. external profile images), than just all your own HTML pages, and it's still greatly beneficial to serve at least all your HTML pages always with https.
+** For now, since all existing Level 4 https examples all serve everything (including resources) using https and thus get the lock icon, no need to create another level until we have real world examples that would benefit.
+
 
 === Level 5 security ===
-Level 5 - use correct ciphers, etc per https://www.ssllabs.com/ssltest/ (all previous levels required, i.e. document method of http to https redirection)
+Level 5 - use correct ciphers, support forward secrecy, etc. per https://www.ssllabs.com/ssltest/ (all previous levels required, i.e. document method of http to https redirection)
 
-Why?
+'''Why?'''
 * HTTPS is good, better with forward secrecy: http://news.netcraft.com/archives/2013/06/25/ssl-intercepted-today-decrypted-tomorrow.html
-* some ciphers are not safe, some are slower than others and SSL breaches are dangerous: https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
+* Some ciphers are not safe, some are slower than others and SSL breaches are dangerous: https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
 
-Examples
-* 2014-MM-DD [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (See https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com and note: http to https via 301 redirect)
-* 2014-MM-DD https://petermolnar.eu/ (See https://www.ssllabs.com/ssltest/analyze.html?d=petermolnar.eu)
+'''IndieWeb Examples'''
+* [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (See https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com and note: http to https via 301 redirect) [https://willnorris.com/2013/11/improving-my-https-support since 2013-11-25]
+** Level 4 (all https all the time) before that [https://willnorris.com/2012/12/all-https-all-the-time since 2012-12-16]
+* [[User:Petermolnar.eu|Péter Molnár]] on https://petermolnar.eu/ (See https://www.ssllabs.com/ssltest/analyze.html?d=petermolnar.eu) since 2014-MM-DD.
+
 
 == Criticism ==
 * <span class="h-cite"><time class="dt-published">2014-04-09</time> <span class="p-author h-card">Sean Doig</span>: <cite class="p-name">[http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death Heartbleed should bleed X.509 to death]</cite>, <span class="p-url">http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death</span></span>
 
+
 == Sessions ==
 Sessions at IndieWebCamps about https:
 * 2014-03-07 [[2014/SF/https|IndieWebCampSF https]]
+
 
 == See Also ==
 * [[Apache]]

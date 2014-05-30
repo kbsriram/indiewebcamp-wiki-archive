@@ -1,9 +1,8 @@
 http://indiewebcamp.com/Twitter
 
 __TOC__
-= Twitter =
 
-'''<dfn>Twitter.com</dfn>''' is a popular content hosting [[silo]] most well known for 140 character text notes.
+'''<dfn>Twitter</dfn>''' (also known as <dfn>Twitter.com</dfn>) is a popular content hosting [[silo]] most well known for 140 character text [[notes]].
 
 == Recommendations ==
 === CC license your tweets ===
@@ -283,6 +282,19 @@ https://twitter.com/genmon/status/459257786875265025/photo/1
 https://pbs.twimg.com/media/Bl-chggIMAAGyBZ.png
 
 Facebook on the left, new Twitter UI on the right.
+
+== Additional Resources ==
+=== Profile Image URLs ===
+Programmatically, the official way to get a Twitter user's profile image is to use the
+<code>profile_image_url</code> and <code>profile_image_url_https</code> fields returned by the [https://dev.twitter.com/docs/api/1.1/get/users/show users/show] v1.1 API call. [https://dev.twitter.com/docs/user-profile-images-and-banners More details.]
+
+Unfortunately, those fields are absolute URLs for the *current* profile image, and usually break when the user changes their profile image.
+
+Unofficial alternatives: these both 302 redirect to the current profile picture. Replace <code>username</code> with the Twitter username without the @.
+* <code><nowiki>https://twitter.com/username/profile_image</nowiki></code>
+* <code><nowiki>http://avatars.io/twitter/username</nowiki></code>
+
+[[User:Snarfed.org|Ryan]] thinks the first one might be based on the [https://dev.twitter.com/docs/api/1/get/users/profile_image/:screen_name users/profile_image] v1 API call. If so, it will probably disappear soon, since the v1 API is already disabled. That's just speculation though.
 
 == See Also ==
 * [[silos]]

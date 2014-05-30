@@ -27,6 +27,7 @@ Please keep sorted alphabetically
 * {{irc user|donpark.org|donpdonp|America/Los_Angeles}}
 * {{irc user|dpk.io|dpk|Europe/London}}
 * {{irc user|notenoughneon.com|emmak|America/Los_Angeles}}
+* {{irc user|ellton.tk|ellton|America/Sao_Paulo}}
 * {{irc user|erikmaarten.com|erikmaarten|Asia/Tokyo}}
 * {{irc user|gregorlove.com|gRegor`|America/Chicago}}
 * {{irc user|david.shanske.com|gwg|America/New_York}}
@@ -56,6 +57,7 @@ Please keep sorted alphabetically
 * {{irc user|markmhendrickson.com|markmhendrickson|America/Los_Angeles}}
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}
+* {{irc user|mowens.com|mko|America/San_Francisco}}
 * {{irc user|t37.net|neuro` / fdevillamil|Europe/Paris}}
 * {{irc user|standblog.org|nitot|Europe/Paris}}
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}

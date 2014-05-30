@@ -7,7 +7,7 @@ What should be on your indie web site home page?
 
 == Getting Started ==
 If you're just [[getting started]]:
-* [[profile]] / contact information with an [[hCard]]
+* [[about]] / [[profile]] / contact information with an [[hCard]]
 ** examples of contact info / about info only: aralbalkan.com, ebdesign.se, old (pre-2012) adactio.com
 * [[How_to_set_up_web_sign-in_on_your_own_domain|web-sign-in support]]
 
@@ -33,3 +33,5 @@ When signed-in to your own site, it might be useful to have:
 == related ==
 * [[2012/UK/Demos]] - specifically, General discussion / UX thoughts.
 * [[feeds]]
+* [[about]]
+* [[icon]]

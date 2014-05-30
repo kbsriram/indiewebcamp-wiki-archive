@@ -4,8 +4,10 @@ http://indiewebcamp.com/User%3APaulmunday.net
 
 Lives in Portland Oregon.
 
-Personal site [paulmunday.net] built using [http://flask.pocoo.org Flask].
+Personal site [http://paulmunday.net paulmunday.net] built using [http://flask.pocoo.org Flask].
 
 The code is available on github: [https://github.com/tallus/monomatapa Monomotapa].
 
 tallpaul on Freenode IRC.
+
+Can also be found here: [http://www.gatheringstorms.org www.gatheringstorms.org]

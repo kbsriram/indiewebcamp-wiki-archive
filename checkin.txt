@@ -41,6 +41,10 @@ In rough launch/implementation order:
 [[User:Werd.io|Ben Werdmuller]] is using [[idno]] to post checkins since ????-??-??. e.g.:
 * ... (need checkin permalink)
 
+=== Kyle Mahan ===
+{{kylewm}} is using [[Red Wind]] on kylewm.com to publish checkins since 2014-03-24. E.g.:
+* https://kylewm.com/checkin/2014/05/27/1
+
 == questions ==
 More explorations/brainstorms than FAQ yet.
 === just a note with a location ===
@@ -95,3 +99,4 @@ You just checked in with friend F at location A, your friend F just checked in a
 * [[media checkin]]
 * [[POSSE]]
 * [http://aaronparecki.com/2012/296/article/1/creating-content-on-the-indie-web Creating Content on the Indie Web] ([[User:Aaronparecki.com|aaronparecki.com]])
+* [[exercise]]

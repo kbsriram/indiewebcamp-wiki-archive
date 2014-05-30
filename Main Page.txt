@@ -51,7 +51,7 @@ See more [[events|upcoming IndieWeb events]]
 
 See [[Previous IndieWebCamps]], most recently the 2014 [[2014/NYC|NYC]] & [[2014/SF|SF]], 2013 [[2013/UK|UK]], and the main [[2013|IndieWebCamp 2013]]. IndieWebCamp has a [[code-of-conduct]]. 
 
-The next IndieWebCamp is:
+<span id="next">The next IndieWebCamp is:</span>
 <div class="h-event vevent">
 === <span class="p-name summary">IndieWebCamp 2014</span> ===
 {{main|2014}}

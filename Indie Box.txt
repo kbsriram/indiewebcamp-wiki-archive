@@ -10,8 +10,9 @@ Sessions about Indie Box:
 
 == Articles ==
 Articles about the Indie Box project:
-* 2014-05-08 <cite>[http://boingboing.net/2014/05/08/crowdfunding-indie-box-a-huma.html Cory Doctorow at BoingBoing: Crowdfunding Indie Box, a human-usable personal server to replace big Internet companies]</cite>
+* 2014-05-29 <cite>[http://indieboxproject.org/blog/2014/05/indiegogo-crowdfunding-canceled/ IndieGoGo crowdfunding canceled]</cite> See also: [http://indiecomputing.com/c/crowdfunding-faq/ Crowdfunding FAQ]
 * 2014-05-12 <cite>[http://www.wired.com/2014/05/out-in-the-open-indie-box/ Klint Finley on Wired.com: Out in the Open: The Tiny Box That Lets You Take Your Data Back From Google]</cite>
+* 2014-05-08 <cite>[http://boingboing.net/2014/05/08/crowdfunding-indie-box-a-huma.html Cory Doctorow at BoingBoing: Crowdfunding Indie Box, a human-usable personal server to replace big Internet companies]</cite>
 and more articles collected on the [http://indieboxproject.org/blog/2014/05/indie-box-press-coverage-is-amazing/ Indie Box Project blog].
 
 == See Also ==

@@ -1,19 +1,18 @@
 http://indiewebcamp.com/about
 
-About
-
-About is a common page or section on sites that acts as an overview of the site. On a personal site, this would be usually be in the form of an expanded [[h-card]]. This can either be on a dedicated page, on every page, or often on the front page. 
+"'''<dfn>About</dfn>'''" is a commonly occurring page or section on a site that provides an introduction, overview, or summary of the site. On a personal site, this would be usually be in the form of an expanded [[h-card]] about the person. About information can either be on a dedicated page, on every page (e.g. in a [[footer]]), or often on the site [[home page]].
 
 The key part of the About is the p-note of the h-card, which attempts to introduce the site visitor to the person in a simple and plain manner. 
 
 == Guidelines ==
-
-A good About p-note has to be brief. There is always the opportunity to expand later. This is not a resume. This is to introduce people to the author.
+A good About p-note has to be brief. There is always the opportunity to expand later. This is not a resume. This is to introduce people to the author and owner of the site.
 
 == Examples in the wild==
-
-* [[User:tantek.com|Tantek]]  "My name is Tantek. I work on open web standards and the indie web. I code, design, run, climb, and fight for the users."
+* {{tantek}} on tantek.com: "My name is Tantek. I work on open web standards and the indie web. I code, design, run, climb, and fight for the users."
 * [[User:Waterpigs.co.uk|Barnaby Walters]] - "I am a British web developer and luthier working at Vísar in Reykjavík, Iceland."
 * [[User:aaronparecki.com|Aaron Parecki]] - "Aaron Parecki is CTO of the Esri R&D Center, Portland, and the co-founder of IndieWebCamp. He is known for having tracked his location at 5 second intervals since 2008, and for co-founding Geoloqi, a location-based software company acquired by Esri in 2012. His work has been featured in Wired, Fast Company and more. He made Inc. Magazine's 30 Under 30 for his work on Geoloqi." He also links to a full/expanded biography.
 * [[User:snarfed.org|Ryan Barrett]] - "I live, work, and play in San Francisco. I code, write, and post pictures here."
 * [[User:bear.im|Bear]] - "Opsasaurus Ursus - professional curmudgeon currently working at &yet on the Operations Team."
+
+== See Also ==
+* [[home page]]
