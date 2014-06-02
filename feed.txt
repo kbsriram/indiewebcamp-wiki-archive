@@ -75,15 +75,16 @@ There is however still some inertial legacy XML support, some of which you may f
 
 === Criticism ===
 XML feeds like RSS and Atom are known to be problematic for a variety of reasons, here are a few.
-* [[DRY]] violation - feed/post content is typically already visible on HTML pages, thus the XML version is a (sometimes lower fidelity even) duplicate.
-* visiting a link to an RSS or Atom feed results in seeing a pile of XML in the browser. There have been [https://mondaybynoon.com/beginning-to-style-your-rss-feed/ attempts] to make the XML more presentable using XSLT and CSS, basically resulting in what looks like a web page
-* added maintenance cost of separate code path for generating XML, coercing embedded content to be XML-friendly, validating, testing etc.
-* inefficient[http://hublog.hubmed.org/archives/001969.html] (perhaps because extra code to support them was hastily written due to being lower priority than visible HTML)
-* "RSS and Atom are not rich enough to describe the kind of social web activities that we have today" — [http://tantek.com/2013/169/t5/rss-atom-not-rich-enough-social-web-osb2013]
-* ATOM feeds up to (maybe greater than) 4.5x the size of HTML+microformats [http://tantek.com/2013/272/t1/exceeded-monthly-bandwidth-culprit-atom]
-** This is not true, they are on average smaller - see [http://cweiske.de/tagebuch/atom-vs-hfeed-size.htm]
-
-Consuming ATOM or RSS has been shown to be problematic and fragile — one of the creators of NewsGator documented [http://inessential.com/2013/03/18/brians_stupid_feed_tricks 40+ common problems with feeds], most of which don’t happen when consuming visible HTML web pages (e.g. marked up with [[h-entry]]). Some of them still might, but in general most of them either don't, or are quickly automatically fixed because, well, people (including readers of a site) notice that visible HTML is broken and it typically gets fixed quite quickly.
+* '''[[DRY]] violation''' - feed/post content is typically already visible on HTML pages, thus the XML version is a (sometimes lower fidelity even) duplicate.
+* '''Bad RSS link User Experience''' - visiting a link to an RSS or Atom feed results in seeing a pile of XML in the browser. There have been [https://mondaybynoon.com/beginning-to-style-your-rss-feed/ attempts] to make the XML more presentable using XSLT and CSS, basically resulting in what looks like a web page
+* '''Maintenance tax''' - added maintenance cost of separate code path for generating XML, coercing embedded content to be XML-friendly, validating, testing etc.
+* '''Inefficient code to generate'''[http://hublog.hubmed.org/archives/001969.html] (perhaps because extra code to support them was hastily written due to being lower priority than visible HTML)
+* '''Dated - not rich enough''' - "RSS and Atom are not rich enough to describe the kind of social web activities that we have today" — [http://tantek.com/2013/169/t5/rss-atom-not-rich-enough-social-web-osb2013]
+* '''Atom feed files many times larger than equivalent HTML''' - An Atom feed file is up to (maybe greater than) 4.5x the size of the equivalent HTML+microformats file.[http://tantek.com/2013/272/t1/exceeded-monthly-bandwidth-culprit-atom]
+** When the HTML is split into separate files for each post, that plus the index is still barely bigger than a single Atom file.[http://cweiske.de/tagebuch/atom-vs-hfeed-size.htm]. 
+** When a single Atom file is compared to the equivalent single HTML file, whether for one post, or for many posts, in that one file, the Atom file is significantly bigger. 
+** For text notes, an Atom file is a <em>multiple</em> of the size of the equivalent HTML file.
+* '''Consuming feed files is problematic and fragile.''' Consuming ATOM or RSS has been shown to be problematic and fragile — one of the creators of NewsGator documented [http://inessential.com/2013/03/18/brians_stupid_feed_tricks 40+ common problems with feeds], most of which don’t happen when consuming visible HTML web pages (e.g. marked up with [[h-entry]]). Some of them still might, but in general most of them either don't, or are quickly automatically fixed because, well, people (including readers of a site) notice that visible HTML is broken and it typically gets fixed quite quickly.
 
 === Backward Compatibility ===
 There are legacy systems, e.g. some [[feed readers]], which only support older technologies such as XML-based feeds. For backward compatibility with those you may want to consider publishing the following:
@@ -96,11 +97,12 @@ There are legacy systems, e.g. some [[feed readers]], which only support older t
 Documentation of when sites stop publishing and/or consuming legacy RSS/Atom feeds. See also [[site-deaths]].
 
 ==== 2013 ====
-* 2013-11-06 Not a shutdown (yet), but reduced/damaged functionality to RSS Podcasts in Apple iTunes 11.1 per Apple Communities post: [https://discussions.apple.com/thread/5333380 Figuring out podcasts in iTunes 11.1 and iOS 7]
-* 2013-08-14 [http://hublog.hubmed.org/archives/001969.html Switching off HubMed's RSS and Atom feeds]: <blockquote>I've been considering stopping HubMed's feeds, and the demise of Google Reader seemed like a good incentive to do some spring cleaning. '''They were quite inefficient''' old scripts, which '''made the shared hosting provider unhappy''', so today I decided to switch the feeds off.</blockquote> '''emphasis''' added.
-* 2013-06-30 [[Google]] Reader (RSS and Atom consumer) shut down.
-* 2013-04-11 [http://discussion.evernote.com/topic/37000-removing-rss-feed-support-from-public-notebooks/ Evernote Removing RSS support for public notebooks]: <blockquote>We currently have support for RSS feeds for public notebooks to allow subscribers to automatically get updates to those notebooks. Last night's (4/10/2013) release of the web service removed this support. Attempts to access Public Notebook RSS feeds will return a 404 HTTP response code instead of the heretofore expected content. At this point, the feature was imposing excessive load on the service relative to its use and utility, and the decision was made to remove it.</blockquote>
-* 2013-03 [http://brodiesnotes.blogspot.co.uk/2013/03/workarounds-for-people-who-used-rss.html Twitter removed RSS feeds]. [https://dev.twitter.com/discussions/11582 Twitter support discussion]: <blockquote>Keep in mind though that v1 of the API is now deprecated and will cease functioning in March 2013. RSS feeds are no longer supported by the API after that date.</blockquote>
+* 2013-11-06 '''Apple iTunes 11.1 reduced RSS functionality.''' Not a shutdown (yet), but reduced/damaged functionality to RSS Podcasts in Apple iTunes 11.1 per Apple Communities post: [https://discussions.apple.com/thread/5333380 Figuring out podcasts in iTunes 11.1 and iOS 7]
+* 2013-08-14 '''[http://hublog.hubmed.org/archives/001969.html Switching off HubMed's RSS and Atom feeds]''': <blockquote>I've been considering stopping HubMed's feeds, and the demise of Google Reader seemed like a good incentive to do some spring cleaning. '''They were quite inefficient''' old scripts, which '''made the shared hosting provider unhappy''', so today I decided to switch the feeds off.</blockquote> '''emphasis''' added.
+* 2013-07-01 '''Yahoo! RSS Alerts''' shut down.[http://yahoo.tumblr.com/post/54125001066/keeping-our-focus-on-whats-next][http://www.webpronews.com/yahoo-kills-altavista-axis-webplayer-browser-plus-downloads-more-2013-07]
+* 2013-06-30 '''[[Google]] Reader''' (RSS and Atom consumer) shut down.
+* 2013-04-11 '''[http://discussion.evernote.com/topic/37000-removing-rss-feed-support-from-public-notebooks/ Evernote Removing RSS support for public notebooks]''': <blockquote>We currently have support for RSS feeds for public notebooks to allow subscribers to automatically get updates to those notebooks. Last night's (4/10/2013) release of the web service removed this support. Attempts to access Public Notebook RSS feeds will return a 404 HTTP response code instead of the heretofore expected content. At this point, the feature was imposing excessive load on the service relative to its use and utility, and the decision was made to remove it.</blockquote>
+* 2013-03 '''[http://brodiesnotes.blogspot.co.uk/2013/03/workarounds-for-people-who-used-rss.html Twitter removed RSS feeds]'''. [https://dev.twitter.com/discussions/11582 Twitter support discussion]: <blockquote>Keep in mind though that v1 of the API is now deprecated and will cease functioning in March 2013. RSS feeds are no longer supported by the API after that date.</blockquote>
 
 ==== 2012 ====
 * 2012-10-20 [[FeedBurner]] APIs shut down (per https://developers.google.com/feedburner/ ). See also: http://pleasedontkillfeedburner.com/

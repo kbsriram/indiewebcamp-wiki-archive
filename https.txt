@@ -240,7 +240,6 @@ Level 4 - serve everything (home page, permalinks, images etc.) over https and s
 * Avoid mixed http/https content which is blocked by default on Firefox & Chrome. See: https://blog.mozilla.org/security/2013/05/16/mixed-content-blocking-in-firefox-aurora/, https://code.google.com/p/chromium/issues/detail?id=81637
 
 '''IndieWeb Examples in rough order of implementation'''
-* 2013-??-?? [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect)
 * 2014-??-?? [[User:snarfed.org|Ryan Barrett]] on https://snarfed.org/ (via HSTS header) 
 * 2014-05-23 [[User:kartikprabhu.com|Kartik Prabhu]] on https://kartikprabhu.com/ (via 301 redirect)
 * 2014-05-28 {{kylewm}} on https://kylewm.com (via 301 redirect)
@@ -271,10 +270,11 @@ Level 5 - use correct ciphers, support forward secrecy, etc. per https://www.ssl
 * Some ciphers are not safe, some are slower than others and SSL breaches are dangerous: https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
 
 '''IndieWeb Examples'''
+* [[User:Bear.im|Bear]] on https://bear.im since [https://bear.im/bearlog/2013/177/nginx-ssl-config-for-forward-secrecy since 2013-06-26] (http->https via 301 and [https://www.ssllabs.com/ssltest/analyze.html?d=bear.im A+ w/PFS from ssltest]).
 * [[User:willnorris.com|Will Norris]] on https://willnorris.com/ (See https://www.ssllabs.com/ssltest/analyze.html?d=willnorris.com and note: http to https via 301 redirect) [https://willnorris.com/2013/11/improving-my-https-support since 2013-11-25]
 ** Level 4 (all https all the time) before that [https://willnorris.com/2012/12/all-https-all-the-time since 2012-12-16]
 * [[User:Petermolnar.eu|Péter Molnár]] on https://petermolnar.eu/ (See https://www.ssllabs.com/ssltest/analyze.html?d=petermolnar.eu) since 2014-MM-DD.
-
+* [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect, A+ on ssllabs: https://www.ssllabs.com/ssltest/analyze.html?d=jonnybarnes.net&hideResults=on) since 2014-05-31
 
 == Criticism ==
 * <span class="h-cite"><time class="dt-published">2014-04-09</time> <span class="p-author h-card">Sean Doig</span>: <cite class="p-name">[http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death Heartbleed should bleed X.509 to death]</cite>, <span class="p-url">http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death</span></span>

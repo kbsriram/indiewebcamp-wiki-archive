@@ -32,8 +32,8 @@ If the Indie Web site supports POSSEing to one or more [[silo]] destinations, it
 === More use cases ===
 For more use-cases see: [[syndication-link-use-cases]]
 
-== IndieWeb examples ==
-IndieWeb sites that implement [[rel-syndication]] links on their post permalinks, in rough order of implementation:
+== IndieWeb Examples ==
+<span id="IndieWeb_examples">IndieWeb sites</span> that implement [[rel-syndication]] links on their post permalinks, in rough order of implementation:
 
 * [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on aaronparecki.com (since 2013-04-10), e.g. [http://aaronparecki.com/notes/2013/10/18/2/realtimeconf-mapattack] to [https://twitter.com/aaronpk/status/391335890179469312 Twitter]
 * [[User:Tantek.com|Tantek Çelik]] using [[Falcon]] on tantek.com ([http://tantek.com/2013/174/t4/view-conversation-rel-syndication-posse-indiewebcamp since 2013-06-23]), e.g. [http://tantek.com/2013/303/t1/do-not-bend-silos-realize-no-need] to [https://twitter.com/t/status/395457511534632960 Twitter]

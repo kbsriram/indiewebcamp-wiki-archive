@@ -1,0 +1,10 @@
+http://indiewebcamp.com/retweet
+
+{{stub}}
+
+A '''<dfn>retweet</dfn>''' is a [[silo]]-native [[repost]] of a [[tweet]] on [[Twitter]].
+
+== See Also ==
+* [[repost]]
+* [[favorite]]
+* [[Twitter]]

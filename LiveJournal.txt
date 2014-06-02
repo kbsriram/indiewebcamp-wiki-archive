@@ -1,35 +1,3 @@
-http://indiewebcamp.com/LiveJournal
+http://indiewebcamp.com/livejournal
 
-{{stub}}
-
-'''<dfn>[http://livejournal.com/ LiveJournal]</dfn>''' is a blogging [[silo]].
-
-== Criticisms ==
-=== Deletion of inactive accounts ===
-If your account is inactive (haven't logged in or posted in a while), LiveJournal may delete it, including all posts & permalinks, with only a 15 day email notice.
-
-Thus it appears LiveJournal is slowly and quietly deleting post permalinks from the web.
-
-
-On 2014-05-05 [[User:Tantek.com|Tantek Çelik]] received an email apparently from "lj_notify@livejournal.com":
-
-<blockquote><p>
-Subject: Purging of your LiveJournal account
-</p><p>
-We noticed that your account tantek has less than three entries and hasn't
-been logged into in over two years. LiveJournal is deleting inactive empty
-accounts. Pursuant to our housekeeping policy, your LiveJournal account
-tantek is scheduled to be deleted in 15 days.
-</p><p>
-If you wish to reactivate your account to avoid this deletion, please visit
-http://www.livejournal.com and log in within 15 days of this notification.
-</p><p>
-If you do not remember the password for your account, you can reset it:
-http://www.livejournal.com/support/faqbrowse.bml?faqid=17. Best regards,<br/>
-LiveJournal Team<br/>
-www.livejournal.com/
-</p>
-</blockquote>
-
-== See Also ==
-* [[silos]]
+#redirect:[[LiveJournal]]

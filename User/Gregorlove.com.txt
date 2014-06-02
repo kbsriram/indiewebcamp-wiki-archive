@@ -1,6 +1,8 @@
 http://indiewebcamp.com/User%3AGregorlove.com
 
-= gRegor Morrill =
+<dfn>'''gRegor Morrill'''</dfn> is a software engineer living in Chicago, Illinois.
+
+= Introduction =
 __NOTOC__
 
 <div style="float: right; width: 150px; padding: 10px; border: 1px solid #ccc; margin: 0 0 1em 1em; background-color: #fff;">[[File:gRegorMorrill.jpg]]

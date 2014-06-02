@@ -5,7 +5,7 @@ http://indiewebcamp.com/Federated_Social_Web_Summit
 The '''<dfn>Federated Social Web Summit</dfn>''' was an annual event from 2010-2012.
 
 == Portland 2010 ==
-The first Federated Social Web Summit (FSWS) was held in 2010 (FSWS2010) in Portland, Oregon and organized primarily by [[StatusNet]] (Evan Prodromou in particular). [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/Federated_Social_Web_Summit_2010 W3C redirect/archive link]
+The first Federated Social Web Summit (FSWS) was held on [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/FedAll2010/Announcement 2010-07-18] (FSWS2010) in Portland, Oregon organized primarily by [[StatusNet]] (Evan Prodromou in particular). [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/Federated_Social_Web_Summit_2010 W3C redirect/archive link]
 
 The event was invitation-only, however the barrier to receive an invitation was quite low.
 

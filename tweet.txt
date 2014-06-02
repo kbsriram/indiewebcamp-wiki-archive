@@ -1,0 +1,10 @@
+http://indiewebcamp.com/tweet
+
+{{stub}}
+
+A '''<dfn>tweet</dfn>''' is a [[note]] (or [[reply]]) posted on [[Twitter]].
+
+== See Also ==
+* [[note]]
+* [[reply]]
+* [[Twitter]]

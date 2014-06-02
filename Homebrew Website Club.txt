@@ -2,7 +2,7 @@ http://indiewebcamp.com/Homebrew_Website_Club
 
 {{stub}}
 
-'''Homebrew Website Club''' is a bi-weekly meetup of people passionate about or interested in creating, improving, building, designing their own website, in the same structure as the [[Homebrew Computer Club]] meetings.
+<dfn>'''Homebrew Website Club'''</dfn> is a bi-weekly meetup of people passionate about or interested in creating, improving, building, designing their own website, in the same structure as the [[Homebrew Computer Club]] meetings.
 
 == Description ==
 Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy?

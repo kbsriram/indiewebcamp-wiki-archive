@@ -14,6 +14,10 @@ http://indiewebcamp.com/events/2014-06-04-homebrew-website-club
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
+;Chicago
+:<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Intelligentsia Coffee</span>], <span class="adr"><span class="p-street-address street-address">53 East Randolph St.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
+:''Note the Chicago meeting is at 18:30 CDT''
+
 === What ===
 <div class="p-description description">
 {{new}} 17:30-18:30 '''Writing hour''' before the meetup. Come on by to blog or do other writing quietly.
@@ -45,6 +49,10 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland:'''
 * ... add yourself!
 
+'''Chicago:'''
+* {{gRegor}}
+* ... add yourself!
+
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-06-04 IRC discussion archives 2014-06-04]
 
@@ -52,6 +60,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 
 '''Portland'''
+
+
+'''Chicago'''
 
 === Blog posts ===
 Blog posts before the meeting:

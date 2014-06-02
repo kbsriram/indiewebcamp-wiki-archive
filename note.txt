@@ -1,17 +1,70 @@
 http://indiewebcamp.com/note
 
-= note =
-A '''<dfn>note</dfn>''' is a [[post]] that is typically short, plain text, and written/posted quickly.
+A '''<dfn>note</dfn>''' is a [[post]] that is typically short unstructured* plain text, written & posted quickly, that has its own permalink page.
 
-Displaying an individual note (tweet/status update) on its own permalink page is a common pattern.
+Creating, publishing, and owning your own notes is a key step towards reducing dependence on [[Twitter]].
 
-== Documented Examples ==
-* [[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note/list here], including examples from:
-** Facebook (Web UI)
-** Twitter (Web, Mac App)
-** waterpigs.co.uk
-** aaronparecki.com
-** tantek.com
+<nowiki>*</nowiki>Though <em>unstructured</em> meaning without a heading/title or any other explicit structure, notes can include several lines of text or even lists using "*" or numerical markers due to common [[note#White_space|whitespace support]].
+
+== Why ==
+Most of the reasons [[why]] apply quite strongly to publishing your [[notes]] on your own website. In addition:
+* '''Simplest post building block.''' All [[posts]] have a simple text component, whether name, caption, comment, or text equivalent. Build notes first, and then you have a building block you can build upon for every other post type. This is the smallest step you can take to owning the timestamped content you publish.
+* '''Do better than [[Twitter]]''', here are a few ways. Choose those that matter to you:
+** '''presentation''': your notes permalink pages can be cleaner and have more informative presentation (e.g. a [[facepile]] of all [[favorites]]/[[retweets]], not just a few) than tweet permalinks
+** '''interactivity''': better auto-linking and auto-embedding than proprietary [[Twitter Cards]], multiple embeds instead of just one. E.g. use the [[CASSIS]] <code>auto_link</code> function which works better than Twitter's auto-linking/embedding.
+** '''navigation''': providing next/previous and other navigation links
+** '''direct linking''': direct hyperlinks rather than t.co wrappers around your links
+** '''speed''': load simpler HTML+CSS note pages rather than all of the JS that Twitter depends on.
+** '''editability''': you can edit your own notes, you cannot edit tweets.
+** '''flexibility''': post notes longer than 140 characters.
+
+== IndieWeb Examples ==
+Here are <span id="Documented_Examples">documented examples</span> of IndieWebCamp participants' sites that support publishing notes and do so (i.e. before [[POSSE]]ing to silos). In date order (earliest first) :
+
+=== Tantek ===
+[[User:Tantek.com|Tantek Çelik]] using [[Falcon]] on tantek.com [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01].
+
+=== Brennan Novak ===
+[[User:Brennannovak.com|Brennan Novak]] on brennannovak.com [https://brennannovak.com/notes/1 since 2010-07-17].
+
+=== Barnaby Walters ===
+[[User:waterpigs.co.uk|Barnaby Walters]] using [[Taproot]] on Waterpigs.co.uk [http://waterpigs.co.uk/notes/28/ since 2012-03-24] (note shows 2012-04-14 updated date, but [https://twitter.com/BarnabyWalters/status/183664301767278593 POSSE tweet] shows 2012-03-24 date). Notes previous to that one were imported/crossposted from diasp.org onto Waterpigs.co.uk (did not originate there).
+
+=== Aaron Parecki ===
+[[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on aaronparecki.com since [http://aaronparecki.com/2012/232/note/1 2012-08-19].
+
+=== Sandeep Shetty ===
+[[User:Sandeep.io|Sandeep Shetty]] using [[Converspace]] on sandeep.io [http://www.sandeep.io/1 since 2012-11-05].
+
+=== Ben Werdmuller ===
+[[User:Benwerd.com|Ben Werdmüller]] using [[idno]] on werd.io [http://werd.io/view/51a7fb55bed7de2f06761712 since 2013-05-31].
+
+=== Amber Case ===
+[[User:caseorganic.com|Amber Case]] using [[p3k]] on caseorganic.com [http://caseorganic.com/notes/2013/09/08/3/indiewebcampuk since 2013-09-08] (note [https://twitter.com/caseorganic/status/376673242452221952 POSSE tweet same day]).
+
+=== Shane Becker ===
+[[User:iamshane.com|Shane Becker]] on iamshane.com [http://iamshane.com/notes/2013/10/23/9 since 2013-10-23] (note [https://twitter.com/veganstraightedge/status/393157895300202496 POSSE tweet same day]).
+
+=== Chloe Weil ===
+[[User:Chloeweil.com|Chloe Weil]] on Chloe Weil [http://chloeweil.com/note?id=407934756358463488 since 2013-12-03] (note [https://twitter.com/chloeweil/status/407934756358463488 POSSE tweet same day]). See also related blog post:
+* 2013-12-04: [http://chloeweil.com/blog/hipster Hipster]: "I built Twitter."
+
+=== Frederic ===
+[[User:t37.net|Frédéric de Villamil]] using [[publify]] on t37.net [http://t37.net/note/30913-quoting-t-about-having-multiple-indieweb-projects-instead-of-monoculture-no-real since 2014-01-10] (note [https://twitter.com/fdevillamil/status/421728525390204928 POSSE tweet same day]
+
+=== Michael Bester ===
+Michael Bester on michaelbester.com [http://michaelbester.com/notes/KRyRb since 2014-01-13] (note [https://twitter.com/mibester/status/422743724410425344 POSSE tweet same day] with [[permashortcitation]] support!). See also related blog post:
+* 2014-01-16: [http://michaelbester.com/journal/online-homesteading Online Homesteading]
+
+=== Glenn Jones ===
+[[User:glennjones.net|Glenn Jones]] on glennjones.net [http://glennjones.net/notes/2014-01-15 since 2014-01-15] (was since 2014-01-14 but that note appears to be gone!).
+
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com|Kartik Prabhu]] on kartikprabhu.com [https://kartikprabhu.com/notes/test-note-totally-te since 2014-03-08].
+
+=== Jeremy Keith ===
+[[User:adactio.com|Jeremy Keith]] on adactio.com [http://adactio.com/notes/6803/ since 2014-05-27] (Note POSSE copy [https://twitter.com/adactio/status/471076735417864192 may say 2014-05-26] presumably because of timezone differences, Jeremy's is in BST, while a PDT viewer sees datetime adjusted accordingly). See also related blog post:
+* 2014-06-01 [http://adactio.com/journal/6826/ Notes from a small website]
 
 == Common Aspects ==
 There are certain UI elements which are common to most implementations. These include:
@@ -58,14 +111,15 @@ Compare for example:
 ==== Location ====
 [[Location]] (AKA <span id="Geo">[[Geo]]</span>) of notes is somewhat rare and not very well done. Nonetheless, there are questions, use-cases, and examples.
 
-===== IndieWeb Thoughts =====
-Questions:
-* What's the point of posting a note/tweet with location information? (one that's not a checkin)
-** What does it do for me (as the user posting it)?
-** And what does it do for people reading my notes/tweets? 
-** Why is it interesting/useful to anyone?
+===== Why location =====
+'''Why?''' What's the point of posting a note/tweet with location information? (one that's not a checkin)
+* What does it do for me (as the user posting it)?
+* And what does it do for people reading my notes/tweets? 
+* Why is it interesting/useful to anyone?
 
 Related but different: [[checkins]], [[events]], [[photos]] with location.
+
+Here are use-cases for why your notes should support location information:
 
 Use-cases for posting geo / post location information with notes:
 * '''location specific service provider help'''
@@ -84,7 +138,22 @@ Use-cases for posting geo / post location information with notes:
 * if you '''don't know where you are and need help''', then some (even possibly error-prone) geo information may be better than nothing
 ** but now we're talking quite a bit of an edge case.
 
-===== Twitter tweet with location =====
+===== How To Add Location=====
+Use the <code>p-location</code> property to markup location information inside an [[h-entry]].
+
+In addition, use [[h-geo]] or [[h-adr]] to markup the details of your location information, whether lat/long coordinates or a structured address, respectively.
+
+===== IndieWeb Location Examples =====
+* [[User:Waterpigs.co.uk|Barnaby Walters]] using [[Taproot]] on waterpigs.co.uk [http://waterpigs.co.uk/notes/285/ since 2012-09-22]
+* [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on aaronparecki.com since ????-??-?? (needs citation) with p-location inside h-entry
+* [[User:tommorris.org|Tom Morris]] using [[Ferocity]] on tommorris.org since ????-??-?? (needs citation) 
+* [[User:Adactio.com|Jeremy Keith]] on adactio.com [http://adactio.com/notes/6803/ since 2014-05-27] with a naked h-geo inside the note h-entry.
+
+===== Silo examples =====
+Silo examples can be useful for research purposes and to help inform indieweb design.
+
+====== Twitter tweet with location ======
+
 Live example:
 * https://twitter.com/aaronpk/status/276466935372341248
 
@@ -151,6 +220,11 @@ Perhaps chess moves (and resulting board state) could be posted as a special kin
 If the move is response to a move on another indiewebsite, then in addition to using [[webmention]] for move completion notification, the POSSE'd response move could also indicate with Twitter's in-reply-to-status-id the POSSE'd tweet of the previous move. See [[comment#POSSE_a_comment|how to POSSE a comment]]/[[in-reply-to]]/[[rel-syndication]] for details of how to do this.
 
 Such public posting of moves would also allow for anyone to jump in and attempt to play a next move by posting a reply move. The player of the previous move would then receive multiple webmentions and could decided which move (or both) to reply to in turn.
+
+== Screenshots ==
+* [[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note/list here], including examples from:
+** Facebook (Web UI)
+** Twitter (Web, Mac App)
 
 == Subtypes ==
 Since notes are such a ubiquitous content posting type (Thanks to [[Twitter]]), it's no surprise that subtypes of notes are evolving for representing additional structure or types of information. Let's document them as they emerge.

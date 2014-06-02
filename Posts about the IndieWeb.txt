@@ -4,12 +4,14 @@ http://indiewebcamp.com/Posts_about_the_IndieWeb
 
 Posts about the indieweb (in chronological order)
 === 2014 ===
+* 2014-06-02 Peter Mollnar: [https://petermolnar.eu/blog/indieweb-decentralize-web-centralizing-ourselves/ Indieweb – decentralize the web while centralizing ourselves]
 * 2014-04-25 Dan Gillmor: [http://www.slate.com/blogs/future_tense/2014/04/25/indiewebcamps_create_tools_for_a_new_internet.html Welcome to the Indie Web Movement]
 * 2014-03-26 [[User:User:Kartikprabhu.com|Kartikprabhu.com]]: [http://kartikprabhu.com/article/indieweb-love-blog The Indieweb. or: how I learnt to stop worrying and love the blog]
 * 2014-03-25 [http://electricabacus.wordpress.com/2014/03/25/the-indieweb-revolution-and-other-reasons-you-should-learn-to-code/ The IndieWeb, Revolution, and Other Reasons You Should Learn to Code]
 * 2014-02-14 [[User:Caseorganic.com|Caseorganic]]: [http://caseorganic.com/articles/2014/02/12/3/homebrew-website-club-newsletter-volume-2-issue-3---portland-edition Homebrew Website Club Newsletter Volume 2 Issue 3 - Portland Edition]
 * 2014-01-31 Jeena: [https://jeena.net/indieweb IndieWeb; Join us! - Independent but together.]
 * 2014-01-26 Brad Feld: [http://www.feld.com/wp/archives/2014/01/stopping-writing-web-sites.html Stopping Writing For Other Web Sites]
+* 2014-01-16 Michael Bester: [http://michaelbester.com/journal/online-homesteading Online Homesteading]
 
 === 2013 ===
 * 2013-12-12 [http://www.onemanandhisblog.com/archives/2013/12/leweb_-_kevin_marks_on_the_web_that_will.html Kevin Marks on the web that will win] from #leweb

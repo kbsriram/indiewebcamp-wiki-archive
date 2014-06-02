@@ -1,5 +1,22 @@
 http://indiewebcamp.com/User%3AGregorlove.com/sandbox
 
+= [[Template:expense-row]] testing =
+
+<table border="1" cellspacing="0">
+{{expense-row
+| date = 2014-06-01
+| description = Sample expense
+| payer = John Doe
+| payer_url = http://example.com/payer
+| payee = HostingCo
+| payee_url = http://example.com/payee
+| amount = 25
+| currency_symbol = €
+}}
+</table>
+
+[[../|test link to parent page]]
+
 = One-day-event template testing =
 
 == One-day-event with no UTC offset ==

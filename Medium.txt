@@ -19,6 +19,7 @@ Shane Becker is manually POSSEing his articles to Medium, e.g.:
 * https://medium.com/surveillance-state/19a5db211e47 (currently 404s - anyone have an archive?)
 * 2013-07-08 <cite>The Problem With Medium: A Shiny Content Farm is Still a Content Farm</cite> https://medium.com/writers-on-writing/336300490cbb
 * 2013-07-10 https://twitter.com/t/status/355069622325747713
+* 2014-05-30 [http://indiewebcamp.com/irc/2014-05-30/line/1401478311 Medium doesn't support footnotes]
 
 == See Also ==
 * [[article]]

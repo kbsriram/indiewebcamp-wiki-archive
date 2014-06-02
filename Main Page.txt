@@ -31,7 +31,7 @@ Have a look at [[IRC#Logs|current discussions]] and [[Special:RecentChanges|rece
 Check out [[Projects|what we're building]] and join the [[IRC|discussion]] (irc://irc.freenode.net/indiewebcamp) or the next event:
 
 == Homebrew Website Club ==
-[[Image:hwc-2014-099.jpg|250px|thumb|right|<span style="white-space:nowrap">Homebrew Website Club [[events/2014-04-09-homebrew-website-club|2014-04-09]]</span>]]
+<div style="float:right">[[events/2014-05-21-homebrew-website-club|<img src="https://pbs.twimg.com/media/BoN7z1SIcAAa2Us.jpg" width="250px"/>]]<div style="white-space:nowrap">Homebrew Website Club [[events/2014-05-21-homebrew-website-club|2014-05-21]]</div></div>
 '''<dfn>Homebrew Website Club</dfn>''' is a biweekly meetup of people passionate about or interested in creating, improving, building, designing their own website, in the same structure as the Homebrew Computer Club meetings. [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter]
 
 We meet every other Wednesday<abbr title="skipping any official US Holidays">*</abbr> right after work, 18:30-19:30, across cities and [[IRC|online]].

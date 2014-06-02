@@ -100,3 +100,12 @@ The administrator interface allows me to add hostnames to a blacklist. Webmentio
 * Add a "mentions" page which is a stream of incoming, approved webmentions
 * Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.
 * Add a "status" URL that webmention senders can check whether their webmention was accepetd/denied
+
+== Display Concepts ==
+For people that "like" ''and'' reply to a post, I would prefer to display all their information grouped together. In this scenario, I basically view the comment as the primary content and the "like" as meta information that is displayed underneath it.
+
+My site uses a rather minimalist design currently and I feel that a [[facepile]] would clutter it up by duplicating avatars displayed on the page. I also prefer a textual description of the action, which can include the source of the action (Facebook, Twitter, etc.) This provides the same amount of information as a facepile, but in a more compact way.
+
+The implementation of this is still in progress. Below is a screenshot of the concept, mocked up in-browser. It is based on this comment: http://gregorlove.com/2014/01/1178/#w9
+
+[[File:gregorlove-reply-and-like-2014-06-02.jpg|650px]]

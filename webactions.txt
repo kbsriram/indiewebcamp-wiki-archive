@@ -159,26 +159,25 @@ We need a registry of common verbs to use with web actions. This should be built
 * [[webactions-verbs-research]]
 * [[webactions-verbs-brainstorming]]
 
-== Action tag examples in the wild ==
-Examples of real world web sites using the <code>&lt;action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
+== IndieWeb Examples ==
+<span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
 
 === Barnaby Walters ===
-'''[[User:Waterpigs.co.uk|Barnaby Walters]]''' notes, e.g. 
+'''[[User:Waterpigs.co.uk|Barnaby Walters]]''' on notes [http://waterpigs.co.uk/notes/1123/ since at least 2013-03-15], e.g. 
 * http://waterpigs.co.uk/notes/1123/
 * have <code>&lt;action></code> tags with verbs: <code>post</code>, <code>reply</code>, <code>bookmark</code>
 === Laurent ===
-'''[[User:Eschnou.com|Laurent]]''' (all posts?), e.g. 
+'''[[User:Eschnou.com|Laurent]]''' (all posts?) since ????-??-??, e.g. 
 ** http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
 ** have <code>&lt;action></code> tags with verb: <code>post</code>
 === Tantek ===
-'''[[User:Tantek.com|Tantek]]''''s posts have the following web actions (using [[Falcon]]) as of 2013-09-08:
+'''[[User:Tantek.com|Tantek]]''''s posts have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
 * [[articles]], e.g.:
 ** http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-elsewhere
 ** have <code>&lt;action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
 * [[notes]], e.g.:
-** http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor
-** have <code>&lt;action></code> tags with verbs '''<code>props</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.:
-[http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor [[File:tantek-com-demo-note-2013-251.png]]]
+** 
+** have <code>&lt;action></code> tags with verbs '''<code>props</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
 
 === Indienews ===
 '''Indienews''' comments pages, e.g.

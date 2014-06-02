@@ -36,8 +36,8 @@ Google has shutdown a number of silos:
 See [[site-deaths]] for more.
 
 == Dead Services ==
-Google has (or will soon) shutdown a number of services:
-* Google Reader (expected 2013-04-30)
+Google has shutdown a number of services:
+* Google Reader
 * Social Graph API
 * [http://en.wikipedia.org/wiki/Google_Real-Time_Search Google Real-Time Search] (shut down 2011-07-02).
 * ...

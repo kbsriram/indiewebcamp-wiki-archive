@@ -4,19 +4,37 @@ http://indiewebcamp.com/Loqi
 
 '''<dfn>Loqi</dfn>''' is a friendly and useful bot present in the #indiewebcamp [[IRC]] channel and other channels.
 
+== Commands and Queries ==
+Loqi will respond to certain commands and queries entered in the chat.
+
+Questions can optionally include a question mark at the end.
+
+; !standards
+: Responds with the link http://xkcd.com/927/
+
+; what is xyz
+: Looks up "xyz" on the wiki and responds with the first sentence of the page that includes a [[dfn|dfn element]].
+
+; who is xyz
+: Looks up "xyz" on the wiki and responds with the first sentence of the page that includes a [[dfn|dfn element]].
+: ''Idea'': Looks up the IRC nickname "xyz" on [[irc-people]] and responds with a link to the wiki User page, [[User:xyz]]
+
+; username++
+: Adds 1 point of [[karma]] to the username and responds with the total karma points for that username.
+: While typically used on chat usernames, karma can be added to any text value, e.g. "coffee++"
+
+; username--
+: Subtracts 1 point of [[karma]] from the username and responds with the total karma points for that username.
+: This is typically used on non-username text values, e.g. "silos--". Be nice to each other. :)
+
 == Ideas ==
-=== who uses xyz ===
-=== anyone here use xyz ===
-=== who supports xyz ===
-These questions (when present at the start of a message, optionally terminated by a ?) could be answered with a link to /xyz#IndieWeb_Examples
+; who uses xyz
+: This question could respond with a link to [[xyz#IndieWeb_Examples]].
+: Alternative syntax: "anyone here use xyz", "who supports xyz"
 
-=== why xyz ===
-=== why should I use xyz ===
-=== why should I support xyz ===
-These questions (when present at the start of a message, optionally terminated by a ?) could be answered with a link to /xyz#Why
-
-=== who is xyz ===
-look up IRC nick "xyz" on /irc-people and reply with link to /User:xyz.com
+; why xyz
+: This question could respond with a link to [[xyz#Why]].
+: Alternative syntax: "why should I use xyz", "why should I support xyz"
 
 == See Also ==
 * [[IRC]]

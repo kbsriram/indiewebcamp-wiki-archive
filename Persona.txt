@@ -3,3 +3,7 @@ http://indiewebcamp.com/Persona
 {{stub}}
 
 See http://browserid.org/
+
+== Criticisms ==
+=== Reliance on javascript ===
+Persona/browserid [https://developer.mozilla.org/en-US/Persona/The_implementor_s_guide/Supporting_users_without_JavaScript relies on javascript] to work, forcing consumers to implement separate authentication functionality to support all users.

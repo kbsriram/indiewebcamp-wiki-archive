@@ -49,11 +49,15 @@ OpenID also has a lot of unnecessary bloat as a spec: [[wikipedia:i-name|i-names
 List of notable websites that consume OpenID:
 * [http://opensourcebridge.org/wiki/Main_Page Open Source Bridge wiki]
 * [http://slashdot.org/ Slashdot]
+** Seems to have been removed - <span class="h-card">[[User:Aaronparecki.com|Aaron Parecki]]</span> 16:22, 31 May 2014 (PDT)
 * [http://www.vox.com/signup Vox]
 * [http://cufp.org/ CUFP (Commercial Users of Functional Programming)]
 * [https://nostarch.com/user?destination=node%2F14 No Starch Press]
 * [https://hootsuite.com/login HootSuite]
+** [[:File:2014-05-31-hootsuite-dropping-openid-support.png|"HootSuite will remove support for OpenID in 2014"]]
 * [http://sourceforge.net/ Source Forge]
+** OpenID login removed from primary login screen, but still available at https://sourceforge.net/account/login.php?openid
+** Source: http://sourceforge.net/p/forge/site-support/5782/#0f5e
 * [http://stackoverflow.com/ Stack overflow]
 * [http://status.net/ Status.net]
 * [https://gitorious.org/login?method=openid Gitorious]

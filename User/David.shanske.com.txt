@@ -26,7 +26,5 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 
 
 * Post - The default post type in Wordpress is called post. I already have a function that renames it to Article in the Wordpress display, but does nothing else, to preserve compatibility. Custom Post Formats will be disabled for Articles
-* Note - short, plain-text... tags but no categories. Custom Post Formats will be enabled for Notes to incude the various appearance styles that could be in the theme. This would be things like photos, videos, and links/bookmarks.
-* Like - Likes would include both traditional likes and reposts. A repost is a like with context. The markup would also thus be different. But neither have content associated with them.
-* Reply/RSVP - A reply is essentially a like or a repost with content attached in terms of how it would work. An RSVP is a specific type of reply. Reply with Context is an option for a Reply.
+* Note - short, plain-text... tags but no categories. A note would have a reply field for reply/like/reply-context. There would be a custom taxonomy to cover: none(just a note), like, reply, photo, video, rsvp.
 * Event - There are already event content types for Wordpress people have created. This would be an indieweb version of same.

@@ -63,6 +63,7 @@ Please keep sorted alphabetically
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}
 * {{irc user|greptilian.com|pdurbin|America/New_York}}
 * {{irc user|peat.org|peat|America/Los_Angeles}}
+* {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
 * {{irc user|Notizblog.org|pfefferle|Europe/Berlin}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
 * {{irc user|rascul.io|rascul|America/New_York}}

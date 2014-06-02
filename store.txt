@@ -1,18 +1,20 @@
 http://indiewebcamp.com/store
 
+A '''<dfn>store</dfn>''' (or <dfn>marketplace</dfn>) is a service for installing applications on a device, typically a mobile client device.
+
 As the number of IndieWeb related apps grow, so will the job of choosing which apps you want to install and what is compatible with your server. The goal is to create an easy to browse "App Store" like experience
 
 === Client App Store Examples ===
-
-The two most popular client app stores in existence are:
-
+There are proprietary client app stores for installing proprietary clients:
 * [https://itunes.apple.com/us/genre/ios/id36?mt=8 Apple App Store]
 * [https://play.google.com/store Google Play Store]
+Both stores enable mobile devices to install '''client-side''' proprietary apps that usually upload data to remote web services or [silos].
 
-Both stores enable mobile devices to install '''client-side''' apps that usually upload data to remote web services or [silos].
+And at least one open web based app store for installing web apps:
+* [https://marketplace.firefox.com/ Firefox Marketplace]
+Which enables mobile devices to install clientside web apps packaged with an [https://developer.mozilla.org/en-US/Apps/Build/Manifest App Manifest].
 
 === Server Side Apps ===
-
 In its first many iterations and use cases The Indie App Store will likely not be installing "native" apps on a mobile device, but rather '''server-side apps''' on a cloud server, laptop, Raspberry Pi, or personal computer. The goal is to make the setup process as easy as modern client-side app stores.
 
 == Advantages ==
@@ -39,7 +41,7 @@ There are numerous aspects that make '''app stores''' the most successful method
 
 Most app stores have a method of rating apps & leaving comments that are publicly viewable. This user feedback is essential to the health of an app store and the larger software eco system as it provides app developers with feedback to improve their software, and enables users to make the best choice they can when installing software.
 
-==== Free & Paid Downloads ====
+==== Free and Paid Downloads ====
 
 Despite the Indie App Store being aimed at primarily Free & open source software, it is not impossible to envision people wanting to sell apps that the end user must purchase. Creating methods of securing software purchases (licensing, keys, etc...) are of the scope of Indie App Store, it might very well be worth exploring to build in a simple "Pay What You Want" style purchase layer to applications that pay money directly to developers or platform providers.
 
@@ -320,3 +322,7 @@ Random assorted ideas that could be used for different aspects of the Store idea
 
 * Mac OS, build a GUI later on top of [http://brew.sh Homebrew]
 * [[User:Werd.io|Ben Werdmuller]] wrote [http://benwerd.com/2009/10/12/danger-in-the-cloud-a-proposal/ a lengthy piece] about this idea in 2009
+
+== See Also ==
+* [[icon]]
+* [[manifest]]

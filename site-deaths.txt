@@ -1,8 +1,6 @@
 http://indiewebcamp.com/site-deaths
 
-'''<dfn>Site deaths</dfn>''' are one of the big reasons [[why]] you should own your own identity and content on the web.
-
-'''<dfn>Site deaths</dfn>''' are when sites go offline, taking their content & permalinks with them, and breaking the web accordingly.
+<span style="float:right">[http://www.xkcd.com/1361/ http://imgs.xkcd.com/comics/google_announcement.png]</span> '''<dfn>Site deaths</dfn>''' are when sites go offline, taking their content and permalinks with them, and breaking the web accordingly. Site deaths are one of the big reasons [[why]] you should own your own identity and content on the web.
 
 This is a chronology of content hosting sites that have died, removing millions (billions?) of permalinks from the web. This is specifically for content hosting sites which permitted end-user posting. Not random sites nor pure "app" sites where there's no loss of user data. If a game site goes down and takes down play history/scores, or if Gmail went away those would both represent '''loss of user data''' (though no public permalinks).
 
@@ -13,17 +11,24 @@ This is a partial list, please add more, e.g. from other sources like:
 * [http://archiveteam.org/index.php?title=Deathwatch#Watchlist ArchiveTeam Watchlist].
 * [http://ourincrediblejourney.tumblr.com Our Incredible Journey] - "a snarky and angry response to companies and people who profit from an acquisition while showing little regard for the efforts of the thousands of people who spent time on their service.". Creation thereof: [http://www.gyford.com/phil/writing/2013/02/27/our-incredible-journey.php 2013-02-27 Our Incredible Journey]
 
-Expected/announced site deaths. Move to past as site deaths occur. Soonest first:
+Expected/announced site deaths. Check them upon announced shutdown date.
+* If site shutdown is confirmed, move to '''[[#Past]]''' by year.
+* If site is still up as of shutdown date, move to '''[[#Any_Day_Now]]'''
 
-* 2014-05-16 '''Loom''' cloud-based photo storage
-** Announced being acquired by DropBox 2014-04-17. [https://blog.loom.com/loom-is-joining-dropbox-2/] [http://www.theverge.com/2014/4/17/5624890/dropbox-acquires-loom]
-** No longer enrolling new users. Existing Loom users can continue to use our service until May 16, 2014
 
-* 2014-05-30 '''Editorially''' collaborative writing and editing platform
-** Service will be shut down; did not get enough users to make it sustainable. Users have until shut down date to export their data. Archive will include a plain text file for every version of every document you have access to; it will also include comments, version notes, tags, activity, and other metadata about your documents. That metadata will be provided in the form of a YAML file. https://editorially.com/help
-*** 2014-02-12: http://stet.editorially.com/articles/goodbye/
-
+Soonest first:
 * 2014-06-01 '''Ubuntu One''' cloud sync service run by Canonical, makers of Ubuntu, to be [https://one.ubuntu.com/services/shutdown/ discontinued].
+
+* 2014-06-08 '''Justin.tv''' deleting all archived videos with one week notice.
+** "All VODs will be removed after June 8, 2014. We recommend downloading your recorded videos before the date."
+** 2014-05-29 https://help.justin.tv/entries/41803380-Changes-to-Video-Archive-System
+
+* 2014-06-25 '''Springpad''' "will be shutting down."[https://springpad.com/about]
+** 2014-05-22 The Verge: <cite>[http://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors One-time Evernote rival Springpad to close its doors]</cite>
+** https://twitter.com/rtaibah/status/472471865571557376
+** https://springpad.com/blog/2014/05/announcement-springpad-shutting-down/
+** https://springpad.com/blog/2014/05/springpad-says-goodbye/
+** [https://springpad.com/savemystuff Export Your Data], e.g. to Evernote
 
 * <span id="Readmill">2014-07-01 '''[[Readmill]]'''</span> "app will no longer be available ... All of your books, reading data and account information will be permanently deleted. User information will not be archived, shared or saved in any way."[https://readmill.com/epilogue].
 ** <blockquote>[https://readmill.com/export Export data] includes books, followers, followings, readings, highlights, reviews, comments and likes on your highlights and reviews, and highlights you liked. </blockquote>
@@ -41,9 +46,17 @@ Speculative:
 == Any Day Now ==
 These sites are officially closed, but some functionality may still be working (e.g. logging in and viewing your activity).
 
-* 2014-02-01 '''myOpenID''' shutting down, site already doesn’t load as of 2013-09-04. No public notification yet, email quoted [http://waterpigs.co.uk/notes/4RsEr7/ here] and [http://p.cweiske.de/54 here in full]
-** 2014-02-10 still able to sign-in to myopenid.com, and e.g. [https://www.myopenid.com/activity view account activity].- [[User:Tantek.com|Tantek]] 16:21, 10 February 2014 (PST)
+* 2014-05-16 '''Loom''' cloud-based photo storage
+** Announced being acquired by DropBox 2014-04-17. [https://blog.loom.com/loom-is-joining-dropbox-2/] [http://www.theverge.com/2014/4/17/5624890/dropbox-acquires-loom]
+** No longer enrolling new users. Existing Loom users can continue to use our service until May 16, 2014
+** 2014-05-31 site appears to still be up for existing users. - [[User:Tantek.com|Tantek]]
 
+* 2014-02-01 '''myOpenID''' officially closing on 2014-02-01, but appears to still be online.
+** Initial shutdown email quoted [http://waterpigs.co.uk/notes/4RsEr7/ here] and [http://p.cweiske.de/54 here in full]
+** 2014-05-31 still able to sign-in to myopenid.com, and e.g. [https://www.myopenid.com/activity view account activity]. - [[User:Tantek.com|Tantek]]
+
+
+__TOC__
 == Past ==
 This is an incomplete list. Please help by adding examples from these sources (in particular when user authored content was lost): 
 * [http://ourincrediblejourney.tumblr.com/ Our Incredible Journey] - tumblr of screenshots of company acquisition postings along with (simultaneous or subsequent) shutdown notices.
@@ -55,40 +68,12 @@ See also (and add one-line summaries to) the [[history|history page]].
 
 In reverse chronological order:
 
-=== citations needed ===
-Please find URLs that substantiate these shutdown, cite accordingly, and move to the respective year section below:
-
-* 2013-06-28 '''Yahoo! Axis''' (citation needed)
-**If you installed the browser plug-in, it will no longer work. If you downloaded the app, it will continue to work, but won’t be actively maintained. We encourage you to use the Yahoo! Search app for iOS and Android.
-
-* 2013-06-28 '''Yahoo! Browser Plus''' (citation needed)
-**To see all of our current developer offerings, please go here.
-
-* 2013-06-28 '''Citizen Sports''' (citation needed)
-**You can still get all the latest sports news on Yahoo! Sports, play fantasy sports like Fantasy Football,  and stay up-to-date when you’re on the go with our new Yahoo! Sports app for iOS and Android.
-
-* 2013-06-30 '''Yahoo! WebPlayer''' (citation needed)
-**If you’re a publisher and currently using Yahoo! WebPlayer on your site, after June 30 the Yahoo! WebPlayer won’t load. Your users will continue to be able to play media files using native browser support. You may wish to locate and remove the following line in your code: script type="text/javascript" src="http://webplayer.yahooapis.com/player.js"
-
-* 2013-07-01 '''FoxyTunes''' (citation needed)
-**To see the latest in the music world, please visit Yahoo! Music.
-
-* 2013-07-01 '''Yahoo! RSS Alerts''' 
-**To continue to get the latest content that you care about, you can subscribe to Keyword News alerts at our Yahoo! Alerts and receive them via email.
-
-* 2013-07-08 '''Yahoo! Neighbors Beta'''
-**You can visit Yahoo! Local Search to find out what’s going on in your neighborhood.
-
-* 2013-07-08 '''AltaVista''' 
-**Please visit Yahoo! Search for all of your searching needs.
-
-* 2013-07-25 '''Yahoo! Stars India''' 
-**To stay up on all your favorite celebrity news, check out Yahoo! India OMG!.
-
-* 2013-07-31 '''Yahoo! Downloads Beta'''
-** Yahoo! Downloads will no longer support 3rd party downloads. It will continue to offer downloads of Yahoo! products like Yahoo! Toolbar  or Yahoo! Messenger.
-
 === 2014 ===
+* 2014-05-30 '''Editorially''' collaborative writing and editing platform
+** Service will be shut down; did not get enough users to make it sustainable. Users have until shut down date to export their data. Archive will include a plain text file for every version of every document you have access to; it will also include comments, version notes, tags, activity, and other metadata about your documents. That metadata will be provided in the form of a YAML file. https://editorially.com/help
+*** 2014-02-12: http://stet.editorially.com/articles/goodbye/
+** 2014-12-31: "Remaining data backups will be permanently deleted" (until then "users may request a backup of their data by emailing support@editorially.com" - http://editorially.com/ )
+
 * 2014-04-30 '''Qik''' video hosting service retiring. [http://support.qik.com/entries/26205425-Qik-service-retiring-in-April-2014-IMPORTANT-PLEASE-READ Qik service retiring in April 2014 – IMPORTANT, PLEASE READ] <blockquote>On April 30, 2014, Qik.com will be retiring. [...] Videos uploaded, shared and embedded using Qik will no longer be available through Qik.</blockquote>
 ** See Also: http://perfectpath.co.uk/2014/03/27/qik-before-its-too-late-indieweb/
 
@@ -142,6 +127,8 @@ Please find URLs that substantiate these shutdown, cite accordingly, and move to
 * 2013-08-09 '''Silent Circle''' Maryland-based encrypted private email provider preemptively shut down following suit of Lavabit. [http://bits.blogs.nytimes.com/2013/08/08/two-providers-of-encrypted-e-mail-shut-down/?_r=0 Two Providers of Secure E-Mail Shut Down], [http://techcrunch.com/2013/08/08/silent-circle-preemptively-shuts-down-encrypted-email-service-to-prevent-nsa-spying/ Silent Circle Preemptively Shuts Down Encrypted Email Service To Prevent NSA Spying]
 * 2013-08-08 '''Lavabit''' Texas-based encrypted private email provider shut down due to its affiliation with being whistleblower Edward Snowden's email provider since 2010. Lavabit's founder Ladar Levison decided to shut down the service after a cost benefit analysis on whether to shut down the service or become "complicit in crimes against the American people". [http://boingboing.net/2013/08/08/lavabit-email-service-snowden.html Lavabit, email service Snowden reportedly used, abruptly shuts down]
 * 2013-07-24 '''Snapjoy''' shut down after being acquired by Dropbox. [http://blog.snapjoy.com/2013/snapjoy-is-closing/ article]
+* 2013-07-08 '''Yahoo! Neighbors Beta''' (was local.yahoo.com/neighbors) shutdown.[http://yahoo.tumblr.com/post/54125001066/keeping-our-focus-on-whats-next][http://www.webpronews.com/yahoo-kills-altavista-axis-webplayer-browser-plus-downloads-more-2013-07]
+** Unknown number of user questions & answers lost.
 * 2013-06-12 '''Myspace.com User blogs''' after MySpace redesign. [http://techcrunch.com/2013/06/12/bring-the-blogs-back/ MySpace Punishes Its Few Remaining Friends By Vanishing Their Blogs]
 * 2013-04-30 '''Upcoming.org''' after being acquired by Yahoo
 * 2013-04-30 '''Posterous.com''' [http://blog.posterous.com/thanks-from-posterous Thanks from Posterous] after [http://blog.posterous.com/big-news being acquired by Twitter]
