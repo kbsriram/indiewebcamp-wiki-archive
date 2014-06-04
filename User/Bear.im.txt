@@ -1,9 +1,10 @@
 http://indiewebcamp.com/User%3ABear.im
 
-__FORCETOC__
-===Bear===
+'''<dfn>Bear</dfn>''' is an Operations engineer living near Philadelphia, PA.
 
-====Bio====
+= Introduction =
+__NOTOC__
+
 Operations for [http://andyet.com &yet]
 
 past jobs: Mozilla Release Engineer, Operations for Seesmic, Operations and Release Engineer for Open Source Applications Foundation

@@ -1,7 +1,13 @@
 http://indiewebcamp.com/User%3ARascul.io
 
+[[Image:rascul_and_his_dog.jpg|right|150px]]
 = Ray Schulz =
+'''<dfn>Ray Schulz</dfn>''' is a slacker who likes to make things.
 
-I like to make things.
+My site will be at [http://rascul.io http://rascul.io]. It's in progress.
 
-My site will be at [http://rascul.io http://rascul.io] but while I'm working on it you can probably check it out at [http://crash.rascul.io http://crash.rascul.io].
+Here are some other places I might be found:
+* https://github.com/rascul
+* https://twitter.com/rascul3
+* https://keybase.io/rascul
+* http://last.fm/user/rascul3

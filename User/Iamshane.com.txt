@@ -1,6 +1,7 @@
 http://indiewebcamp.com/User%3AIamshane.com
 
-[[Image:Shane-Becker-iamshane.com-avatar.png|left|150px]]
+<span style="float:left;margin-right:1em"><img src="http://iamshane.com/assets/shane-becker-avatar-circle-small.png" /></span>
+'''<span style="font-size:2em" class="h-card">[http://iamshane.com Shane Becker]</span>'''
 
 = About Me =
 <div class="vcard h-card">

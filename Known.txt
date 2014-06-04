@@ -1,20 +1,26 @@
 http://indiewebcamp.com/Known
 
-{{stub}}
+'''<dfn>[http://withknown.com Known]</dfn>''' is an open publishing / community platform [[project]]. It aims to be a simple, beautiful way to share your story using a variety of media from any device. It adheres to the IndieWeb [[building-blocks|technologies]] and [[principles]].
 
-'''<dfn>Known</dfn>''' (formerly idno) is an open publishing / community platform [[project]] currently being developed in public [https://github.com/idno on GitHub].
+== Goals & Model ==
 
-Goals: easy to install, use and customize, and which adheres to IndieWeb [[building-blocks|technologies]] and [[principles]]. 
+Known aims to be easy to install, use and customize. It adheres to IndieWeb [[building-blocks|technologies]] and [[principles]].
 
-Stable release: will be made from [http://idno.co idno.co] later in 2013. 
+Known is also a full-time business endeavor. It aims to demonstrate that a sustainable, valuable business can be built on IndieWeb [[principles]].
 
-[[User:benwerd.com|Ben Werdmuller]] is hoping to work with third-party [[web hosting|hosting providers]] to make it easy for users to get an idno site that is both turnkey and fully under their control.
+[[User:werd.io|Ben Werdmuller]] and [[User:erinjorichey.com|Erin Jo Richey]] have founded Known, Inc as a seed-funded startup incubated at [http://matter.vc Matter Ventures].
 
-idno has a full plugin architecture, making use of PHP lazy loading and the observer pattern. This makes it very easy to create new content types or behaviors. Documentation for included endpoints are forthcoming.
+== Development ==
 
-It also includes many existing IndieWeb libraries published by many in the community, as well as Ben's own Bonita templating engine.
+Known will be released on [http://withknown.com withknown.com] in summer 2014. Both a fully-hosted version and a self-hosted version will be available. Users will be able to move their content from one to the other, in order to (for example) try the software using the hosted version before configuring their own server.
 
-idno is being developed with the rule that "indie" content - internal posts, likes, etc - are bundled as included plugins in the main source code repository. If you want to [[POSSE]] to external sites, you need to install those plugins separately (although they may also be included in a downloadable distribution of the content).
+Documentation is being written at [http://docs.withknown.com docs.withknown.com].
+
+=== Plugins & themes ===
+
+Known has a full plugin architecture, making use of [[PHP]] lazy loading and the observer pattern. This makes it very easy to create new content types or behaviors.
+
+Known is being developed with the rule that "indie" content - internal posts, likes, etc - are bundled as included plugins in the main source code repository. If you want to [[POSSE]] to external sites, you need to install those plugins separately (although they may also be included in a downloadable distribution of the content).
 
 Currently, content includes:
 
@@ -33,12 +39,14 @@ Supported [[webmention]] annotations include:
 * Reshares
 * [[RSVPs]]
 
-idno also has a [[Webfinger]] endpoint that plugins can extend.
+Known also has a [[Webfinger]] endpoint that plugins can extend.
+
+== Sites ==
 
 People currently using it on their own site:
 * [http://werd.io Ben Werdmuller] - werd.io
 * [http://s.ly Jesse Vincent] - s.ly
-* [http://erinjo.idno.co Erin Jo Richey] - erinjo.idno.co
+* [http://erinjo.is Erin Jo Richey] - erinjo.is
 * [http://mapkyca.com Marcus Povey] - mapkyca.com
 * [http://unreally.com Jack] - unreally.com
 * ...
@@ -57,7 +65,7 @@ People currently using it on their own site:
 
 === IndieFriends ===
 
-idno is designed to be a multi-user system (although Ben is currently using it as a single-user site). The intention, therefore, is to implement a traditional asymmetrical social networking friends / following model - with an IndieWeb spin.
+Known is designed to be a multi-user system (although Ben and Erin are currently using it as single-user sites). The intention, therefore, is to implement a traditional asymmetrical social networking friends / following model - with an IndieWeb spin.
 
 * Each user will have a following page, with [[h-card|h-cards]] marked up using [[XFN]] links to each followed user's [[profile]].
 * When User A starts following User B, an appropriate link is made on the following page. A [[WebMention]] is sent with the source set to User A's following page, and the target set to User B's [[profile]] page.
@@ -68,7 +76,7 @@ In a future embodiment, each step in the webmention process could be signed on a
 
 === Reader! ===
 
-Because it's not enough to publish: a way to _consume_ IndieWeb content from an idno user's followed sites and users.
+Because it's not enough to publish: a way to _consume_ IndieWeb content from a Known user's followed sites and users.
 
 == See Also ==
 * [[projects]]

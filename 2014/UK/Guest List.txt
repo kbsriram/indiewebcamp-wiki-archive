@@ -74,6 +74,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |elsewhere = petermolnar@twitter
 }}
 
+{{Attendee
+|name = Jeremy Keith
+|img = http://adactio.com/icon.png
+|url = http://adactio.com/
+|org_name = Clearleft
+|org_url = http://clearleft.com/
+|projects = small snippets of PHP and HTML for webmentions and POSSEing
+|elsewhere = adactio@twitter, github, flickr, dribbble, huffduffer, instagram, findings, ffffound, readlists
+}}
+
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
 
 === Bloggers ===

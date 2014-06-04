@@ -24,6 +24,13 @@ A '''<dfn>bookmark</dfn>''' is a [[post]] that is typically comprised of a URL a
 ** tags
 ** Description
 
+* [[User:iamshane.com|Shane Becker]] posts bookmarks on [http://iamshane.com/bookmarks iamshane.com/bookmarks]. He sub-categorizes them by adding a "fave", "read-later", "watch-later" or "listen-later" tags to a bookmark post. The linked title of a bookmark post goes to the bookmarked URL, not the bookmark post's permalink. Bookmark posts have a '''⇜''' before the title to help indicate that the link goes to an external site. The '''⇜''' is applied using a CSS :before selector and a content property to keep it out of the actual HTML/microformat content. These bookmark posts contain:
+** URL
+** Title
+** tags
+** Excerpt (optiona)
+** Description (optiona)
+
 == Silos ==
 Bookmark hosting silos:
 * [[Instapaper]]

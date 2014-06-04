@@ -1,17 +1,15 @@
 http://indiewebcamp.com/User%3AGregorlove.com
 
-<dfn>'''gRegor Morrill'''</dfn> is a software engineer living in Chicago, Illinois.
-
 = Introduction =
 __NOTOC__
 
 <div style="float: right; width: 150px; padding: 10px; border: 1px solid #ccc; margin: 0 0 1em 1em; background-color: #fff;">[[File:gRegorMorrill.jpg]]
-<p> <strong>gRegor Morrill</strong> </p>
+<p class="p-summary" style="font-size: 0.85em;"> gRegor Morrill is a software engineer living in Chicago, Illinois. </p>
 <p> [http://gRegorLove.com gRegorLove.com] </p>
-<p> [http://twitter.com/gRegorLove @gRegorLove] </p>
+<p> {{twitter-link|username=gRegorLove}} </p>
 </div>
 
-<span class="p-summary">My name is <dfn style="font-style: normal;">gRegor Morrill</dfn> and I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.</span>
+My name is gRegor Morrill and I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.
 
 PHP is my primary language, but I am branching out into Python lately to broaden my experience.
 

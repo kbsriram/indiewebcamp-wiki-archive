@@ -34,8 +34,9 @@ After adding the folder, your btsync client will begin downloading all the files
 === btsync ===
 <table><tr><td width="50%">
 ==== Pros ====
-* Keeps archive copies in sync nearly instantly
+* Keeps archive copies in sync nearly instantly (updates every 5 minutes)
 </td><td>
+
 ==== Cons ====
 * Proprietary sync protocol
 </td></tr></table>

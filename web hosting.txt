@@ -176,9 +176,12 @@ A discrete, physical server, on a rack or otherwise, which you get full access t
 * [http://serverbeach.com ServerBeach]
 * [http://softlayer.com SoftLayer]
 ** Used by [[User:werd.io|Ben Werdmuller]]
-
+* [http://www.hetzner.de/en/ Hetzner (Germany)]
+** Used by [[User:petermolnar.eu|Peter Molnar]]
+** they have "remarketed" servers offer for a very nice price [https://robot.your-server.de/order/market Hetzner Online Server Auction]
 Advantages of a server:
 * Full control (as VPS) and speed; no need to share resources beyond bandwidth
+* large disk space could be used for online backup and server could be a host for a group of sites/peole
 
 Disadvantages:
 * Price (although depending on load they can be more cost effective than a VPS)
@@ -187,6 +190,7 @@ Disadvantages:
 IndieWeb community members using this approach:
 * [[User:werd.io|Ben Werdmuller]]
 * [[User:bear.im|Bear]]
+* [[User:petermolnar.eu|Peter Molnar]]
 
 === Home Hosting ===
 Home Hosting / Indie Hosting is a new type of hosting is starting to emerge largely in part due to the [http://www.raspberrypi.org Raspberry Pi], a small single-board computer with a CPU, RAM, GPU, and USB ports that use an SD Card for a disk storage. One can purchase a Pi for under $100 with enclosure case. It is relatively simple for someone comfortable on the command line to turn a Pi into a home server. There are numerous projects that aim to make the process of installing software on a Pi as easy as possible.

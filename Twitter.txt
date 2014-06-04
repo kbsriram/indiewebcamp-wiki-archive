@@ -1,7 +1,6 @@
 http://indiewebcamp.com/Twitter
 
-__TOC__
-
+<span style="float:right">https://pbs.twimg.com/profile_images/2284174758/v65oai7fxn47qv9nectx_200x200.png</span>
 '''<dfn>Twitter</dfn>''' (also known as <dfn>Twitter.com</dfn>) is a popular content hosting [[silo]] most well known for 140 character text [[notes]].
 
 == Recommendations ==
@@ -21,6 +20,7 @@ Etc. your tweets to do so, per that CC license (e.g. CC-BY, attributing you) ind
 ==== Reverse Syndicating At-Replies ====
 Per the [[POSSE]] model, you may want to reverse-syndicate @-replies on Twitter to the tweet-copies of your post as "comments" back into your post permalink page on your own site. By using TweetCC, you can check to see if those @-replying to you have CC-licensed their tweets and then incorporate them using the CC license, displaying them however they fit in with your site design, instead of having to shoehorn Twitter's display "guidelines" into your site / post-permalink page design.
 
+__TOC__
 == Data Export ==
 === Download all your tweets ===
 # Go to: https://twitter.com/settings/account 
@@ -295,6 +295,13 @@ Unofficial alternatives: these both 302 redirect to the current profile picture.
 * <code><nowiki>http://avatars.io/twitter/username</nowiki></code>
 
 [[User:Snarfed.org|Ryan]] thinks the first one might be based on the [https://dev.twitter.com/docs/api/1/get/users/profile_image/:screen_name users/profile_image] v1 API call. If so, it will probably disappear soon, since the v1 API is already disabled. That's just speculation though.
+
+Twitter profile images can also be found by choosing "View Image" on context menu on a profile, those URLs may end with:
+* _normal.png - 48px square
+* _200x200.png - 200px square
+* _400x400.png - 400px square
+* or no "_" and just .png - actual uploaded size
+You can change any of the above suffixes to any others in order to get a few different sizes.
 
 == See Also ==
 * [[silos]]

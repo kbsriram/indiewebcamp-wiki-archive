@@ -36,6 +36,9 @@ Here are <span id="Documented_Examples">documented examples</span> of IndieWebCa
 === Sandeep Shetty ===
 [[User:Sandeep.io|Sandeep Shetty]] using [[Converspace]] on sandeep.io [http://www.sandeep.io/1 since 2012-11-05].
 
+=== Tom Morris ===
+[[User:Tommorris.org|Tom Morris]] using [[Ferocity]] on tommorris.org [http://tommorris.org/posts/8154 since 2013-03-21] (note [https://twitter.com/tommorris/status/314625894146768896 POSSE tweet same day]). Earlier "notes" on tommorris.org are likely a result of imports from Twitter and Tumblr archives rather than posts originating on tommorris.org.
+
 === Ben Werdmuller ===
 [[User:Benwerd.com|Ben Werdmüller]] using [[idno]] on werd.io [http://werd.io/view/51a7fb55bed7de2f06761712 since 2013-05-31].
 
@@ -108,10 +111,10 @@ Compare for example:
 * posting application/tool
 * posting location - aka geo
 
-==== Location ====
+=== Location ===
 [[Location]] (AKA <span id="Geo">[[Geo]]</span>) of notes is somewhat rare and not very well done. Nonetheless, there are questions, use-cases, and examples.
 
-===== Why location =====
+==== Why location ====
 '''Why?''' What's the point of posting a note/tweet with location information? (one that's not a checkin)
 * What does it do for me (as the user posting it)?
 * And what does it do for people reading my notes/tweets? 
@@ -138,21 +141,21 @@ Use-cases for posting geo / post location information with notes:
 * if you '''don't know where you are and need help''', then some (even possibly error-prone) geo information may be better than nothing
 ** but now we're talking quite a bit of an edge case.
 
-===== How To Add Location=====
+==== How To Add Location====
 Use the <code>p-location</code> property to markup location information inside an [[h-entry]].
 
 In addition, use [[h-geo]] or [[h-adr]] to markup the details of your location information, whether lat/long coordinates or a structured address, respectively.
 
-===== IndieWeb Location Examples =====
+==== IndieWeb Location Examples ====
 * [[User:Waterpigs.co.uk|Barnaby Walters]] using [[Taproot]] on waterpigs.co.uk [http://waterpigs.co.uk/notes/285/ since 2012-09-22]
 * [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on aaronparecki.com since ????-??-?? (needs citation) with p-location inside h-entry
 * [[User:tommorris.org|Tom Morris]] using [[Ferocity]] on tommorris.org since ????-??-?? (needs citation) 
 * [[User:Adactio.com|Jeremy Keith]] on adactio.com [http://adactio.com/notes/6803/ since 2014-05-27] with a naked h-geo inside the note h-entry.
 
-===== Silo examples =====
+==== Silo location examples ====
 Silo examples can be useful for research purposes and to help inform indieweb design.
 
-====== Twitter tweet with location ======
+===== Tweet with location =====
 
 Live example:
 * https://twitter.com/aaronpk/status/276466935372341248
@@ -164,13 +167,49 @@ Problems:
 Past Example when Twitter used to show a map on tweet permalinks of the location:
 * http://www.flickr.com/photos/aaronpk/7771330904/
 
-== White space ==
-Typical [[silo]] notes implementations display most whitespace written in their posting interfaces. E.g.
-=== Facebook ===
+=== Whitespace ===
+(this may be worth breaking out into a separate page on /note-whitespace)
+
+Typical [[silo]] notes implementations display most whitespace written in their posting interfaces. IndieWeb implementations should preserve whitespace also.
+==== Why Preserve Whitespace ====
+There are some interesting use cases to preserving white space, in particular line breaks. 
+
+Besides the obvious use-cases of poetry, paragraphs, and lists, there is for example, chess games (and moves!)
+
+* https://twitter.com/alapapa/status/312053522755641344
+
+This leads us to the use case of '''indieweb spectator [http://en.wikipedia.org/wiki/Correspondence_chess correspondence chess]'''. That is, two players could play a chess game just by posting moves on their own indieweb sites as replies to each others' moves.
+
+Perhaps chess moves (and resulting board state) could be posted as a special kind of [[note]] [[post]] type (a game-move or game-turn?) and then [[POSSE]]'d to Twitter with whitespace intact. 
+
+If the move is response to a move on another indiewebsite, then in addition to using [[webmention]] for move completion notification, the POSSE'd response move could also indicate with Twitter's in-reply-to-status-id the POSSE'd tweet of the previous move. See [[comment#POSSE_a_comment|how to POSSE a comment]]/[[in-reply-to]]/[[rel-syndication]] for details of how to do this.
+
+Such public posting of moves would also allow for anyone to jump in and attempt to play a next move by posting a reply move. The player of the previous move would then receive multiple webmentions and could decided which move (or both) to reply to in turn.
+
+==== Indieweb whitespace thinking ====
+Due to the expectations set by dominant [[silo]] implementations, any note authoring/composing UI should preserve line-breaks, blank lines, and multiple space characters when writing/authoring, displaying/presenting, and ideally, when syndicating ([[POSSE]]).
+
+Especially now that even Twitter has set consistent expectations from its posting UI, there's a strong case that a user switching from Twitter to an indieweb note posting UI would expect whitespace and linebreaks to "just work".
+
+Obviously indieweb implementations would have to preserve white-space in posting UI to storage to display round-trips. Then in the presentation they could either:
+* a. '''&lt;br/> substitutions''' - Indieweb implementations could (are any already?) automatically insert <code>&lt;br></code> tags for linebreak whitespaces (similarly to auto-linking URLs in notes). But this wouldn't handle multiple sequential space characters.
+* b. '''white-space:pre-wrap''' - Alternatively (preferably) indieweb implementations should use <code>white-space:pre-wrap</code> similar to how Twitter does.
+
+Thus b. white-space:pre-wrap seems to be the logical choice for indieweb implementations.
+
+==== IndieWeb Whitespace Examples ====
+* '''tantek.com''' [[Falcon]] [[notes]] as of 2013-105 (retroactively supported in storage & styling back to 2013-001) preserve whitespace, present it, and [[POSSE]] it to [[Twitter]] which then preserves the whitespace when copying it to [[Facebook]], e.g.:
+** Original post: http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon
+** POSSE tweet with linebreaks: https://twitter.com/t/status/323994155690909699
+** Tweet copy to FB with linebreaks: https://www.facebook.com/tantek.celik/posts/10100581192582203
+* ...
+
+==== Silo Whitespace Examples ====
+===== Facebook =====
 [[Facebook]] status updates are notes (no post title) that preserve sequential space characters and line breaks.
-=== Google ===
+===== Google =====
 [[Google+]] posts are similarly just notes (no post title) that also preserve sequential space characters and line breaks.
-=== Twitter ===
+===== Twitter =====
 [[Twitter]] now has multiple implementations that preserve white space characters in presentation:
 * '''Twitter.com''' (as of ~2013-03-13)[http://news.cnet.com/8301-1023_3-57574167-93/twitter-adds-line-breaks-and-gets-hit-with-the-ugly-stick/][http://mashable.com/2013/03/13/twitter-line-breaks/][http://www.digitaltrends.com/social-media/twitter-linebreaks/][http://smallbiztrends.com/2013/03/twitter-line-breaks.html][http://techcrunch.com/2013/03/14/what-are-twitter-line-breaks-good-for/]
 ** e.g. https://twitter.com/hotdogsladies/status/4809602603
@@ -188,39 +227,7 @@ Encoding - analysis of the above tweet:
     white-space: pre-wrap;
 }</nowiki></code></blockquote>
 
-=== Indieweb thinking ===
-Due to the expectations set by dominant [[silo]] implementations, any note authoring/composing UI should preserve  line-breaks, blank lines, and multiple space characters when writing/authoring, displaying/presenting, and ideally, when syndicating ([[POSSE]]).
-
-Especially now that even Twitter has set consistent expectations from its posting UI, there's a strong case that a user switching from Twitter to an indieweb note posting UI would expect whitespace and linebreaks to "just work".
-
-Obviously indieweb implementations would have to preserve white-space in posting UI to storage to display round-trips. Then in the presentation they could either:
-* a. '''&lt;br/> substitutions''' - Indieweb implementations could (are any already?) automatically insert <code>&lt;br></code> tags for linebreak whitespaces (similarly to auto-linking URLs in notes). But this wouldn't handle multiple sequential space characters.
-* b. '''white-space:pre-wrap''' - Alternatively (preferably) indieweb implementations should use <code>white-space:pre-wrap</code> similar to how Twitter does.
-
-Thus b. white-space:pre-wrap seems to be the logical choice for indieweb implementations.
-
-=== Indieweb implementations ===
-* '''tantek.com''' [[Falcon]] [[notes]] as of 2013-105 (retroactively supported in storage & styling back to 2013-001) preserve whitespace, present it, and [[POSSE]] it to [[Twitter]] which then preserves the whitespace when copying it to [[Facebook]], e.g.:
-** Original post: http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon
-** POSSE tweet with linebreaks: https://twitter.com/t/status/323994155690909699
-** Tweet copy to FB with linebreaks: https://www.facebook.com/tantek.celik/posts/10100581192582203
-* ...
-
-=== Use Cases ===
-There are some interesting use cases to preserving white space, in particular line breaks. 
-
-Besides the obvious use-cases of poetry, paragraphs, and lists, there is for example, chess games (and moves!)
-
-* https://twitter.com/alapapa/status/312053522755641344
-
-This leads us to the use case of '''indieweb spectator [http://en.wikipedia.org/wiki/Correspondence_chess correspondence chess]'''. That is, two players could play a chess game just by posting moves on their own indieweb sites as replies to each others' moves.
-
-Perhaps chess moves (and resulting board state) could be posted as a special kind of [[note]] [[post]] type (a game-move or game-turn?) and then [[POSSE]]'d to Twitter with whitespace intact. 
-
-If the move is response to a move on another indiewebsite, then in addition to using [[webmention]] for move completion notification, the POSSE'd response move could also indicate with Twitter's in-reply-to-status-id the POSSE'd tweet of the previous move. See [[comment#POSSE_a_comment|how to POSSE a comment]]/[[in-reply-to]]/[[rel-syndication]] for details of how to do this.
-
-Such public posting of moves would also allow for anyone to jump in and attempt to play a next move by posting a reply move. The player of the previous move would then receive multiple webmentions and could decided which move (or both) to reply to in turn.
-
+__TOC__
 == Screenshots ==
 * [[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note/list here], including examples from:
 ** Facebook (Web UI)

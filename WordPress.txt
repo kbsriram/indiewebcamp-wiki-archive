@@ -1,6 +1,7 @@
 http://indiewebcamp.com/WordPress
 
-[[File:wordpress_logo.png|thumb|right]]
+<span style="float:right;padding-left:1em;background:#fff"><img style="width:150px;display:inline-block;" src="http://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" /></span>
+
 '''<dfn>WordPress</dfn>''' is an open source blog software as well as a blog hosting service.
 
 * '''WordPress open source software''', available at http://wordpress.org
@@ -99,6 +100,7 @@ IndieWebCamp participants using it on their primary site:
 * [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
 * [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
 * [[User:david.shanske.com|David Shanske]] on [http://david.shanske.com david.shanske.com]
+* [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu]
 
 [[File:aaronpk-bookmarks.png|300px|right]]
 IndieWebCamp participants using it one of their other sites
@@ -123,17 +125,15 @@ Themes:
 * A barebones theme that has [[microformats2]] - point the designers/developers that want to build a theme to use that.
 ** gRegor is considering doing this with the HTML5blank.com theme.
 * Some common defaults that non-technical users could try out, like Twenty Fourteen with [[microformats2]] support added
-** GWG is working on a full blog-style theme that could be used to start a site today, which you can see on his site. It is based on a fork of _s(Underscores) for Indieweb, which is the stripped down starter theme on which the default Wordpress theme, TwentyFourteen, is based. That fork without any styling is also going to be available as well as soon as some improvements are backported.
+** GWG is working on a full blog-style theme that could be used to start a site today, which you can see on his site. It is based on a fork of _s(Underscores) for Indieweb, which is the stripped down starter theme on which the default Wordpress theme, TwentyFourteen, is based. A fork of that with minimal styling using bootstrap is also going to be available as well as soon as some improvements are backported.
 Plugins:
-* GWG also started on a plugin to add custom post types to Wordpress and is looking for help in planning the post types that would result in the least alteration of the Wordpress system. The plugin is tentatively named Indieweb Custom Post Types. It may not come to fruition because of the author's reluctance to so deeply change Wordpress, which defeats the purpose of a general solution.
-** The purpose of the custom post types is to show custom post editors to minimize the need for manual markup.
-** The standard Post type remains, and just has the labels renamed to Articles and support for Post Formats is removed.
-** A new Notes post format is added, which has tags but no categories.
-** Responses
-*** Tried a Responses post format, but there would be too many cases
-*** Would need a Like Post Format that had no content box
-*** Would need a Reply Format which would be similar to the like format except with a content box
-*** Saving thought on RSVP/Events for later.
+* GWG also started on a plugin to add custom post types to Wordpress and was looking for help in planning the types that would result in the least alteration of the Wordpress system. It may not come to fruition because of the author's reluctance to so deeply change Wordpress, which defeats the purpose of a general solution. Work on a solution in this vein is still pending.
+
+=== Brainstorming ===
+* Based on interpretation of the Wordpress Codex custom post types are intended for creating entirely new content types, not extending the existing post type.
+
+* [[User:acegiak.net|Ashton McAllan]] is currently using custom metadata on standard post types and working out how to display which posts in the theme based on whether or not the metadata is populated for a post, considering classifying posts with a custom taxonomy to make for easier handling in the wordpress administration.
+* GWG had recently decided the best move to get semantic markup was a custom taxonomy with terms like like/reply/repost that could be acted on. He had been working on this with a new custom post type, notes. Based on comments by [[User:acegiak.net|Ashton McAllan]], he has decided to try the simpler suggestion of adding the custom taxonomy to the default post type.
 
 === Problems ===
 Problems with using WordPress software  from an IndieWeb perspective.
