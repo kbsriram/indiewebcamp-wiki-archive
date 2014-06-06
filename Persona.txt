@@ -2,8 +2,20 @@ http://indiewebcamp.com/Persona
 
 {{stub}}
 
+'''<dfn>Persona</dfn>''' is a protocol for [[email]]-based identity spearheaded by [[Mozilla]] that is supported by [[IndieAuth]] for [[rel-me]] links to email addresses.
+
 See http://browserid.org/
+
+== IndieWeb Examples ==
+Examples of IndieWeb sites which act as their own Persona provider, without relying on delegation to another email provider, or to the Mozilla default provider.
+* ... add yourself
+
+Examples of IndieWeb sites which consume (allow login via) Persona in particular (beyond using IndieAuth to do so).
+* ... add yourself
 
 == Criticisms ==
 === Reliance on javascript ===
 Persona/browserid [https://developer.mozilla.org/en-US/Persona/The_implementor_s_guide/Supporting_users_without_JavaScript relies on javascript] to work, forcing consumers to implement separate authentication functionality to support all users.
+
+== See also ==
+* [[IndieAuth]]

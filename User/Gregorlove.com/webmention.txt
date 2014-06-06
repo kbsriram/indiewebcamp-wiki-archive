@@ -39,7 +39,7 @@ If the host name of the <code>target</code> is not "gregorlove.com", an HTTP 400
 
 The post ID is extracted from the URL. If it is not found or does not match a published post, an HTTP 400 is returned with the message: "Webmention "target" is not a valid URL at this domain."
 
-If the incoming webmention passes all those checks, I log the post ID, an MD5 hash of the <code>source</code> and <code>target</code> URLs (see <em>updating webmentions</em>), the <code>source</code> and <code>target</code> URLs, and the datetime the webmention was received.
+If the incoming webmention passes all those checks, I log the post ID, an MD5 hash of the <code>source</code> and <code>target</code> URLs (see [[#Updating_webmentions|Updating webmentions]] below), the <code>source</code> and <code>target</code> URLs, and the datetime the webmention was received.
 
 Finally, an HTTP 202 is sent with the message: "Webmention queued for processing."
 
@@ -77,12 +77,6 @@ Processing only occurs when I initiate it, currently, but once I am certain ever
 
 I generate an md5 hash of the incoming <code>source</code> and <code>target</code> URLs and store this in a field that has a unique index. This means if a subsequent webmention is received with the same <code>source</code> and <code>target</code> URLs, the <code>INSERT . . . ON DUPLICATE KEY UPDATE</code> query will automatically update the previous webmention.
 
-== Displaying webmentions ==
-
-As of 2014-04-23, webmentions are displayed interleaved with local blog comments.
-
-* Example: http://gregorlove.com/2014/02/1180/
-
 == Whitelist ==
 
 The administrator interface allows me to add hostnames to a whitelist. Webmentions received from these hostnames will automatically be approved for display on the site. This is useful for auto-approving webmentions from trusted sites. Webmention spam does not appear to be a major problem yet, but it certainly could become one. :)
@@ -93,15 +87,13 @@ Speaking of spam . . .
 
 The administrator interface allows me to add hostnames to a blacklist. Webmentions received from these hostnames will still be processed, but will be marked as blacklisted and not displayed on the site. Currently there is not an interface to view these / individually approve them, but I will probably add something like that.
 
-== Todo ==
-* <span style="text-decoration: line-through;">Add backend webmention approval interface</span>
-* <span style="text-decoration: line-through;">Add ability to whitelist domains to automatically display their webmentions</span>
-* <span style="text-decoration: line-through;">Display "reply" webmentions on articles</span>
-* Add a "mentions" page which is a stream of incoming, approved webmentions
-* Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.
-* Add a "status" URL that webmention senders can check whether their webmention was accepetd/denied
+== Displaying webmentions ==
 
-== Display Concepts ==
+As of 2014-04-23, webmentions are displayed interleaved with local blog comments.
+
+* Example: http://gregorlove.com/2014/02/1180/
+
+=== Display Concepts ===
 For people that "like" ''and'' reply to a post, I would prefer to display all their information grouped together. In this scenario, I basically view the comment as the primary content and the "like" as meta information that is displayed underneath it.
 
 My site uses a rather minimalist design currently and I feel that a [[facepile]] would clutter it up by duplicating avatars displayed on the page. I also prefer a textual description of the action, which can include the source of the action (Facebook, Twitter, etc.) This provides the same amount of information as a facepile, but in a more compact way.
@@ -109,3 +101,11 @@ My site uses a rather minimalist design currently and I feel that a [[facepile]]
 The implementation of this is still in progress. Below is a screenshot of the concept, mocked up in-browser. It is based on this comment: http://gregorlove.com/2014/01/1178/#w9
 
 [[File:gregorlove-reply-and-like-2014-06-02.jpg|650px]]
+
+== Todo ==
+* <span style="text-decoration: line-through;">Add backend webmention approval interface</span>
+* <span style="text-decoration: line-through;">Add ability to whitelist domains to automatically display their webmentions</span>
+* <span style="text-decoration: line-through;">Display "reply" webmentions on articles</span>
+* Add a "mentions" page which is a stream of incoming, approved webmentions
+* Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.
+* Add a "status" URL that webmention senders can check whether their webmention was accepetd/denied

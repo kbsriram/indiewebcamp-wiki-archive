@@ -24,7 +24,17 @@ Other sources
 * http://yeswejekyll.com/ very intersting, with links to different templates by http://foundation.zurb.com/
 * http://klepas.org/jekyll-a-static-site-generator/
 
+== Considerations ==
+
+* If your site has modest traffic then you will have a low hosting bill. There is no minimum cost per month.
+* Amazon is responsible for keeping the hardware and software running, and Amazon probably has more resources for fixing problems than you do :-)
+* Content on S3 is stored redundantly.
+* It is very difficult to serve custom HTTP status codes (e.g. 301 redirects): you must create a dummy file at the appropriate URL and then use Amazon’s web-based management system to set up the status.
+* It is not possible to perform advanced URL rewriting on the server.
+* You cannot run your own software (e.g. PHP or Perl scripts) server-side.
+
 == See Also ==
 * [[hosting]]
 * [[Jekyll]]
+* [http://esham.io/2011/06/building-and-hosting-a-static-site Building and hosting a static site with Jekyll and Amazon S3 on Mac OS X]
 * http://aws.amazon.com/s3/

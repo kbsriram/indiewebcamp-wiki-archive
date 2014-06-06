@@ -95,18 +95,32 @@ People using WordPress on their primary or other sites.
 IndieWebCamp participants using it on their primary site:
 * [[User:Ozten.com|Austin King]] on [http://ozten.com/psto/ ozten.com/psto/]
 * [[User:Crystalbeasley|Crystal Beasley]] on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
-* [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org]
-* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com]
+* [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org] with:
+** [http://wordpress.org/plugins/indieauth/ IndieAuth]
+** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
+** and some experiments with [https://github.com/acegiak/Semantic-Linkbacks Semantic Linkbacks]
+* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] with:
+** URL Shortener via WP-Hum ([[selfdogfooding]])
 * [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
 * [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
 * [[User:david.shanske.com|David Shanske]] on [http://david.shanske.com david.shanske.com]
-* [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu]
+* [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu] with
+** [https://github.com/indieweb/wordpress-indieweb WordPress-Indiweb]
+** [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ Social Networks Auto Poster] for POSSE
+** an [https://github.com/petermolnar/wordpress-syndication extended version] of [https://github.com/jihaisse/wordpress-syndication rel-syndication for wordpress]
+** an [https://github.com/petermolnar/wp-post-formats extended version] of [https://github.com/crowdfavorite/wp-post-formats wp-post-formats]
+* [[User:ShaneHudson.net|Shane Hudson]] (2013 UK) on [http://shanehudson.net shanehudson.net]
+** Currently (Jan 2014) using built in post formats to add bookmarks/links privately, experimenting with making these public (as well as an app to post them easier) as well as POSSE'ing tweets and hopefully photos etc too.
 
 [[File:aaronpk-bookmarks.png|300px|right]]
 IndieWebCamp participants using it one of their other sites
 * [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
 * [[User:Erin_Jo_Richey|Erin Jo Richey]] on [http://flatfrogblog.com/ Flat Frog Blog]
-* [[User:Christopheducamp.com|Christophe Ducamp]] on [http://christopheducamp.com/b christopheducamp.com/b]
+* [[User:Christopheducamp.com|Christophe Ducamp]] on [http://christopheducamp.com/b christopheducamp.com/b] - testing WP plugins (research in progress - TBC - 2013-04-15).
+** URL Shortener via WP-Hum - activated since july 2012, ex. http://xtof.me/blog/b/405 
+** Currently testing [[POSSE]] [http://xtof.me/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#wp-extensions-posse research in progress] with 2 plugins activated simultaneously
+*** [http://jetpack.me/support/publicize/Publicize (JetPack module)] :  [http://christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#jetpack-publicize-exemple example w UI]
+*** [http://aaroncollegeman.com/sharepress/ SharePress] (FB pages broadcasting and twitter. [http://xtof.me/blog/test-sharepress-posse/ example w UI]). schedule POSSE. Short-url restricted to bit.ly. 
 
 IndieWebCamp community members using it on their primary site:
 * [[User:Acegiak.net|Acegiak]] on [http://Acegiak.net Acegiak.net]
@@ -115,7 +129,8 @@ Other independents using it on their primary site:
 * [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
 * [http://mediajunkie.com/ Christian Crumlish] 
 * [http://singpolyma.net Stephen Paul Weber]
-* [http://upon2020.com/ Johannes Ernst]
+* [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
+** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
 * ...
 
 === Working On ===
@@ -134,6 +149,8 @@ Plugins:
 
 * [[User:acegiak.net|Ashton McAllan]] is currently using custom metadata on standard post types and working out how to display which posts in the theme based on whether or not the metadata is populated for a post, considering classifying posts with a custom taxonomy to make for easier handling in the wordpress administration.
 * GWG had recently decided the best move to get semantic markup was a custom taxonomy with terms like like/reply/repost that could be acted on. He had been working on this with a new custom post type, notes. Based on comments by [[User:acegiak.net|Ashton McAllan]], he has decided to try the simpler suggestion of adding the custom taxonomy to the default post type.
+* [[User:snarfed.org|Ryan Barrett]] has a Press This-like plugin for inserting webmentions to a post from the bookmark bar: [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress IndieWeb Press This bookmarklets for WordPress] (or use the [https://github.com/pfefferle/wordpress-indieweb-press-this WordPress plugin])
+* [[User:petermolnar.eu|Peter Molnar]] has [https://github.com/petermolnar/wp-post-formats a fork of] [https://github.com/crowdfavorite/wp-post-formats/ WP Post Formats] extending the "link" post format with optional webmention meta; the data is extracted with a filter on the content in the [https://github.com/petermolnar/petermolnar.eu theme] and the [http://wordpress.org/plugins/webmention webmention] plugin handles the actual send.
 
 === Problems ===
 Problems with using WordPress software  from an IndieWeb perspective.

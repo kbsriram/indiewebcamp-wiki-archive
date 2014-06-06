@@ -7,7 +7,7 @@ http://indiewebcamp.com/Mailpile
 Currently Mailpile does not offer any IndieWeb integration, but it will, soon. The ideas being considered are:
 
 * Polling of rel=me to update a users address book
-* Email signatures wrapped in [microformats]
+* Email signatures wrapped in [[microformats]]
 * Publicly "shared" email conversations are marked up with h-card and such
 * Suggest some ideas... :)
 

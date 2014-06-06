@@ -16,7 +16,7 @@ Questions can optionally include a question mark at the end.
 : Looks up "xyz" on the wiki and responds with the first sentence of the page that includes a [[dfn|dfn element]].
 
 ; who is xyz
-: Looks up "xyz" on the [[irc-people]] page and responds with the first sentence of the page that includes a [[dfn|dfn element]].
+: Looks up "xyz" on the [[irc-people]] page and responds with the <code>p-summary</code>, or the first sentence of the page that includes a [[dfn|dfn element]].
 
 ; username++
 : Adds 1 point of [[karma]] to the username and responds with the total karma points for that username.

@@ -3,10 +3,11 @@ http://indiewebcamp.com/User%3AKartikprabhu.com
 <div class="h-card">
 <h1>[http://kartikprabhu.com Kartik Prabhu]</h1>
 <img style="float: right; padding: 0.25em; border:1px solid #eee;" src="http://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s320-c/Recursion-small.jpg" />
+
+'''<dfn>Kartik Prabhu</dfn>''' does mathematical physics and some other stuff, including posting and experimenting with the indieweb on [http://kartikprabhu.com Parallel Transport].
+
 </div>
 __NOTOC__
-
-I post articles, notes, photos on [http://kartikprabhu.com Parallel Transport].
 
 == Setup ==
 

@@ -33,6 +33,11 @@ Existing techniques:
 === IFTTT ===
 * [[User:Adactio.com|Adactio]] POSSEs out from adactio.com to Facebook using If This Then That (IFTTT).
 
+=== Bridgy ===
+You can use [[Bridgy]] to POSSe Facebook posts, comments, likes, and even event RSVPs. [https://www.brid.gy/about#publish Details here.]
+
+* [[User:Snarfed.org]]: [https://snarfed.org/responses#replies comments], [https://snarfed.org/responses#likes likes], [https://snarfed.org/responses#rsvps RSVPs]
+
 === Facebook API ===
 {{main|POSSE to Facebook}}
 Posting to one's wall is supported with the Facebook 'Graph API'. See [[POSSE to Facebook]] for details and examples.

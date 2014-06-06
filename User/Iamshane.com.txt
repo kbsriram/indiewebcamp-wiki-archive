@@ -1,28 +1,24 @@
 http://indiewebcamp.com/User%3AIamshane.com
 
-<span style="float:left;margin-right:1em"><img src="http://iamshane.com/assets/shane-becker-avatar-circle-small.png" /></span>
-'''<span style="font-size:2em" class="h-card">[http://iamshane.com Shane Becker]</span>'''
+= Shane Becker =
+'''<dfn>Shane Becker</dfn>''' is the co-founder of Hypernova which is making Homesteading. He lives and works at The Farmhouse in Hollywood, California.
 
-= About Me =
+
+<span style="float:left;margin-right:1em"><img src="http://iamshane.com/assets/shane-becker-avatar-circle-small.png" /></span>
+
 <div class="vcard h-card">
-  
-  
-I&rsquo;m  <a href="/" class="u-url url" rel="home me"> <span class="p-name n fn"><span class="p-given-name given-name">Shane</span> <span class="p-family-name family-name">Becker</span></span>. </a> I&rsquo;m <a href="/" class="u-url url" rel="home me"> I&rsquo;m <span class="p-name n fn"><span class="p-given-name given-name">Shane</span> <span class="p-family-name family-name">Becker</span></span>. </a> <span> Still vegan, still straightedge. Anarchist and atheist. </span> <span> I live in <span class="p-locality locality">Hollywood</span>, <span class="p-region region">CA</span> at <a class="u-url url" rel="external" href="http://farmhouse.la" title="The Farmhouse in Hollywood, California">The&nbsp;Farmhouse</a> with <a class="u-url url" rel="external" href="https://twitter.com/civthedog" title="@civthedog">Civ</a>. </span>
-  
+
 
 = #indieweb setup =
 
-My site ([http://iamshane.com http://iamshane.com]) is powered by [[Homesteading]]. Which is a work in progress.
+My site ([http://iamshane.com iamshane.com]) is powered by [[Homesteading]], which is a work in progress.
 
 
 = Other Projects =
 
-* [http://zinedistro.org Zine Distro]
-* [http://theresistancearmy.com The Resistance Army]
-* [http://iamshanebecker.com My Resume]
 * [http://dateedge.com Date Edge]
-
-
+* [http://farmhouse.co/publishing Farmhouse Publishing]
+* [http://opensourceoffsets.org Open Source Offsets]
 
 
 = Elsewhere =

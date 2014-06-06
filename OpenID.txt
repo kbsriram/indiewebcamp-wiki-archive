@@ -13,6 +13,20 @@ To use indieauth.com as an OpenID delegate for the OpenID identifier of your sit
 </pre>
 __TOC__
 
+== IndieWeb Examples ==
+Examples of IndieWeb sites which act as their own OpenID provider, without relying on delegation to another provider
+* [[User:cweiske.de|cweiske.de]] on http://cweiske.de/
+* ... add yourself
+
+Examples of IndieWeb sites which consume (allow login via) OpenID in particular (beyond using IndieAuth or any silo logins like Twitter, Facebook, Google+).
+* http://p.cweiske.de/
+* ... add yourself
+
+== Additional Examples ==
+Additional examples of sites either natively providing OpenID or consuming it, maintained by IndieWeb participants:
+* [[User:cweiske.de]] uses OpenID as backend login method for several TYPO3 instances
+* ...
+
 == FAQ ==
 === Why does IndieAuth not consume OpenID? ===
 Why doesn't [[IndieAuth]] support OpenID as an authentication mechanism?
@@ -63,6 +77,7 @@ List of notable websites that consume OpenID:
 * [https://gitorious.org/login?method=openid Gitorious]
 * [http://openstreetmap.org/ OpenStreetMap]
 * ...
+
 
 == See Also ==
 * [[RelMeAuth]]

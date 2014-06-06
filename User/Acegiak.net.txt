@@ -1,7 +1,8 @@
 http://indiewebcamp.com/User%3AAcegiak.net
 
 = Ashton McAllan =
-Web and game developer from Adelaide, South Australia.
+
+<span class="p-summary"><dfn>Acegiak</dfn> is a web and game developer from Adelaide, South Australia.</span>
 
 Developing [[WhisperFollow]]
 

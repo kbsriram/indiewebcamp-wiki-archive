@@ -38,7 +38,7 @@ We meet every other Wednesday<abbr title="skipping any official US Holidays">*</
 
 The next Homebrew Website Club meetup is:
 <div class="h-event vevent">
-* <time class="dtstart dt-start">2014-06-04 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-06-04-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location">London, Chicago, Portland, and SF!</span>'''
+* <time class="dtstart dt-start">2014-06-18 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-06-18-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location">London, Chicago, Portland, and SF!</span>'''
 </div>
 {{clear}}
 
@@ -60,7 +60,7 @@ The fourth annual [[2014|IndieWebCamp]] will for the first time be simultaneousl
 <abbr class="dt-start dtstart" title="2014-06-28"><time datetime="2014-06-28">June 28</time></abbr>-<abbr class="dt-end dtend" title="2014-06-29"><time datetime="2014-06-29">29</time></abbr>, 10:00-18:00.
 * Where: East & West, respectively:
 ** <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The New York Times</span>, <span class="h-adr adr"><span class="p-street-address street-address">40th Ave & 8th St.</span>, <span class="p-locality locality">New York City</span>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr></span></span>.
-** <span class="p-location location h-card vcard"><span class="p-name fn p-org org">ESRI R&D</span>, <span class="h-adr adr"><span class="p-street-address street-address">1120 NW Couch St, Suite 320</span>, <span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr></span></span>.
+** <span class="p-location location h-card vcard"><span class="p-name fn p-org org">ESRI R&D Center</span>, <span class="h-adr adr"><span class="p-street-address street-address">309 SW 6th Ave, Suite 600</span>, <span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr></span></span>.
 * RSVP on the [[2014/Guest_List|2014 Guest List]]. [[Special:UserLogin|Sign in]] with your domain and [[2014/Guest_List|add yourself]]! Attendees must actively [[creator|create]] for their personal domain name, or be an apprentice to someone who does.
 * URL: <span class="u-url url">http://indiewebcamp.com/2014</span>
 

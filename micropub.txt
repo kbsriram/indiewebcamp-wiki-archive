@@ -351,6 +351,10 @@ Sites and applications that publish via micropub.
 * [[User:notenoughneon.com|Emma]]'s post UI creates notes and articles via micropub.
 * ...
 
+== Implementations ==
+* [https://github.com/aaronpk/p3k-micropub p3k-micropub] '''PHP''' library used in [[p3k]]
+* [https://github.com/taproot/authentication taproot/authentication] '''PHP''' library used in [[Taproot]], implements both client app and resource provider authentication
+
 == Brainstorming ==
 
 === Alternate Content Types ===

@@ -46,7 +46,7 @@ This section is a stub. For additional history see [http://en.wikipedia.org/wiki
 * 2003-09-30 Voting closed, "Atom" [http://www.intertwingly.net/wiki/pie/NameFinalVote clear winner] among [http://www.intertwingly.net/wiki/pie/ProjectNameProposals numerous proposals].
 
 === RSS Atom wars ===
-From 2003-2007 (at least) there was significant energy put into debating the merits of using Atom vs RSS. A few articles during this time period help illustrate the tensions and conflicts:
+From 2003-2007 (at least) there was significant energy put into debating the merits of using [[Atom]] vs [[RSS]]. This quite heated ongoing debate earned the name of "<dfn>RSS Atom Wars</dfn>" or "<dfn>syndication wars</dfn>". A few articles during this time period help illustrate the tensions and conflicts:
 * 2004-03-10 CMSWire: [http://www.cmswire.com/cms/micro-cms/blog-format-wars-rss-vs-atom-let-there-be-rsspeace-000224.php Blog Format Wars, RSS vs. Atom, Let There be RSSPeace]
 * 2004-03-10 Seth Finkelstein: [http://sethf.com/infothought/blog/archives/000558.html RSS/Atom Wars - Peace In Our Time?]: <blockquote><p>How can you route around big media, revolutionize society, create new forms of participatory democracy, solve deeply complicated social problems ... when "we" '''CAN'T EVEN AGREE ON A FORMAT FOR WEB SITE CONTENT SYNDICATION?!'''</p><p>Really. Site syndication is a "little" problem. Nobody is going to literally die over it. Not like access to health care, or poverty, or world wars.</p></blockquote>['''ALL CAPS EMPHASIS''' is from original]
 * 2005-11-22 Jon Udell: [http://web.archive.org/web/20051124063153/http://weblog.infoworld.com/udell/2005/11/22.html Dueling simplicities][http://jonudell.net/udell/2005-11-22-dueling-simplicities.html]

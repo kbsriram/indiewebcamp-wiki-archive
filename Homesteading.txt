@@ -27,7 +27,7 @@ http://indiewebcamp.com/Homesteading
 ** Everything is a noun
 ** Sounds good in a sentence
 ** Appropriate for navigation
-** /a : /articles, /n : /notes, /p : /photos, /u : /bookmarks, /v : /videos
+** /b : /articles, /n : /notes, /p : /photos, /u : /bookmarks, /v : /videos
 
 == Backward Compatibility ==
 * Atom feed
@@ -80,9 +80,9 @@ All posts have these shared aspects:
 *** Pulled from post content ''and''
 *** Entered into tags field when creating new post
 * [[Permalink]]
-** /post-type/year/month/day/nth-post-of-this-type-of-this-day/slug/
+** /post-type/year/month/day/slug/
 ** E.g., [http://iamshane.com/articles/2013/3/31/1/the-squirrel-the-possum-and-the-gods-up-in-the-darkness /articles/2013/3/31/1/the-squirrel-the-possum-and-the-gods-up-in-the-darkness]
-** Except [[notes]], which have no slug
+** Except [[notes]], which has an nth-note-of-this-day as its slug
 * [[Permashortlink]]
 ** Algorithmic shorturls based on [[User:Tantek|Tantek Çelik's]] [http://tantek.com/w/Whistle Whistle]
 ** Using [https://github.com/veganstraightedge/new_base_60 NewBase60 RubyGem]
@@ -96,204 +96,11 @@ All posts have these shared aspects:
 ** E.g., '''Shane Becker''' '''published''' this '''note'''.
 * [http://microformats.org/wiki/h-entry H-Entry] post markup
 
-== IndieMark ==
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 1</caption>
-<tr>
-<th>Identity</th>
-<td>Personal domain: <a href="http://iamshane.com" title="I'm Shane Becker">iamshane.com</a></td>
-<td>0.2</td>
-</tr>
-
-<tr>
-<th>Authentication</th>
-<td>Created <a href="http://indiewebcamp.com/User:iamshane.com" title="User:Iamshane.com - IndieWebCamp">wiki account</a> by signing in with <a href="http://iamshane.com" title="I'm Shane Becker">iamshane.com</a> via <a href="http://IndieAuth.com">IndieAuth.com</a></td>
-<td>0.2</td>
-</tr>
-
-<tr>
-<th>Posts</th>
-<td>
-<a href="http://sbb.me/b" title="I'm Shane Becker : Articles">Articles</a>,
-<a href="http://sbb.me/a" title="I'm Shane Becker : Audio">Audio</a>.
-<a href="http://sbb.me/u" title="I'm Shane Becker : Products">Bookmarks</a>,
-<a href="http://sbb.me/n" title="I'm Shane Becker : Notes">Notes</a>,
-<a href="http://sbb.me/z" title="I'm Shane Becker : Products">Products</a>,
-<a href="http://sbb.me/v" title="I'm Shane Becker : Videos">Videos</a>,
-</td>
-<td>0.4</td>
-</tr>
-
-<tr>
-<th>Search*</th>
-<td>Google "<a href="https://google.com/search?q=indieweb+site:iamshane.com">site:iamshane.com</a>" works</td>
-<td>0.2</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>1.0</td>
-</tr>
-</table>
-
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Posts</caption>
-<tr>
-<th>Articles</th>
-<td><a href="http://sbb.me/b" title="I'm Shane Becker : Articles">Articles</a></td>
-<td>0.1</td>
-</tr>
-<tr>
-<th>Notes</th>
-<td><a href="http://sbb.me/n" title="I'm Shane Becker : Notes">Notes</a></td>
-<td>0.1</td>
-</tr>
-<tr>
-<th>Videos</th>
-<td><a href="http://sbb.me/v" title="I'm Shane Becker : Videos">Videos</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>Products</th>
-<td><a href="http://sbb.me/z" title="I'm Shane Becker : Products">Products</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>Audio</th>
-<td><a href="http://sbb.me/a" title="I'm Shane Becker : Audio">Audio</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>Bookmarks</th>
-<td><a href="http://sbb.me/u" title="I'm Shane Becker : Bookmark">Bookmark</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0.2</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Syndication</caption>
-<tr>
-<th>POSSE support : Articles</th>
-<td>Manually syndicated to <a href="https://veganstraightedge.wordpress.com">WordPress.com</a>.</td>
-<td>0.1</td>
-</tr>
-<tr>
-<th>POSSE support : Articles : permashortlinks (WordPress.com)</th>
-<td><a href="https://veganstraightedge.wordpress.com/2010/11/7/no-more-sharecropping/" title="No More Sharecropping!">All my WordPress.com posts</a> link back to <a href="http://sbb.me/b48f1" title="I&#x27;m Shane Becker : Article : No More Sharecropping!">sbb.me/bXXX1</a></td>
-<td>0.1</td>
-</tr>
-<tr>
-<th>POSSE support : Articles (Medium)</th>
-<td>Manually syndicated some posts to <a href="https://medium.com/@veganstraightedge">Medium</a>.</td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>POSSE support : Articles : permashortlinks (Medium)</th>
-<td><a href="https://medium.com/indieweb-thoughts/9d0e36524dbf/" title="No More Sharecropping!">All my Medium posts</a> link back to <a href="http://sbb.me/b48f1" title="I&#x27;m Shane Becker : Article : No More Sharecropping!">sbb.me/bXXX1</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>POSSE support : Videos</th>
-<td>Manually syndicated to <a href="http://vine.co" title="Vine">Vine</a>.</td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>POSSE support : Videos</th>
-<td>Manually syndicated to <a href="http://www.youtube.com/veganstraightedge" title="Shane Becker - YouTube">YouTube</a>.</td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>POSSE support : Videos : permashortlinks (YouTube)</th>
-<td><a href="http://www.youtube.com/watch?v=ztalmq1vlos" title="Blue Angels flying over Seattle - YouTube">All my YouTube videos</a> link back to <a href="http://sbb.me/v4KH1" title="I&#x27;m Shane Becker : Video : Blue Angels flying over Seattle">sbb.me/vXXX1</a></td>
-<td><strike>0.1</strike></td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0.2</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Posting UI</caption>
-<tr>
-<th>Minimal UI to cause POSSEing</th>
-<td>No posting UI yet</td>
-<td>0</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Navigation</caption>
-<tr>
-<th>Previous/Next Posts Navigation</th>
-<td>No linear nav yet</td>
-<td>0</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Search</caption>
-<tr>
-<th>Search UI</th>
-<td>No search yet</td>
-<td>0</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Aggregation</caption>
-<tr>
-<th>Aggregation / Syndication In</th>
-<td>No aggregation yet</td>
-<td>0</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0</td>
-</tr>
-</table>
-
-<table border="0" cellspacing="5" cellpadding="5">
-<caption>Level 2 : Web Actions</caption>
-<tr>
-<th>Hard-Coded Silo Actions</th>
-<td>No &lt;action&gt; tags yet</td>
-<td>0</td>
-</tr>
-<tr>
-<th>Total Points</th>
-<td>&nbsp;</td>
-<td>0</td>
-</tr>
-</table>
-
 == Open Source ==
 
-All of Homesteading will be open source. It's currently too much a mess tangled up with some personal things (API keys, private posts, etc) to release publicly. As I move forward, I'll do some house cleaning and codebase audit. Then I'll release it.
+All of Homesteading is open source. It's very much a work in progress, not ready to install and use "off the shelf".
+
+https://github.com/Homesteading
 
 The license will be the same license I always use: Public Domain.
 

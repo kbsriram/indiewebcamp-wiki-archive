@@ -143,6 +143,8 @@ IndieWeb community members using this approach:
 '''<dfn>Virtual Private Server</dfn>''' (VPS) is a hosting model where you get root access to a virtual system and can install whatever you want
 * [http://www.bytemark.co.uk/ Bytemark (UK)]
 * [https://flosoft.biz/products/vps/ Flosoft (DE)]
+* [https://hosteurope.de Hosteurope (DE)]
+** Used by [[User:cweiske.de|cweiske]]
 * [https://linode.com Linode]
 ** [http://www.flickr.com/photos/aaronpk/10029043743/ screenshot of support email re: virtual machine hardware failure]
 * [https://www.gandi.net/hosting/simple Gandi] provides simple pre configured virtual machines with PHP / NodeJS / MySQL / PgSQL / MongoDB starting 5$ a month. Servers are both in Europe and in the USA.
@@ -165,6 +167,7 @@ Disadvantages:
 IndieWeb community members using this approach:
 * [[User:aaronparecki.com|aaronpk]]
 * [[User:kylewm.com|Kyle Mahan]] runs Python/Flask on a Digital Ocean VPS
+* [[User:cweiske.de|cweiske]]
 
 === Dedicated Server ===
 A discrete, physical server, on a rack or otherwise, which you get full access to, can optionally upgrade (for an additional monthly fee if the server is rented), and install whatever you want.

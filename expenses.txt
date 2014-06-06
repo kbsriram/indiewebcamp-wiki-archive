@@ -3,7 +3,7 @@ http://indiewebcamp.com/expenses
 == Regular Expenses ==
 <table width="100%" border="1" class="expense" style="border-collapse: collapse;" cellpadding="3">
 <tr>
-  <th>Date</th>
+  <th width="90">Date</th>
   <th>Description</th>
   <th>Payer</th>
   <th>Payee</th>
@@ -62,6 +62,15 @@ http://indiewebcamp.com/expenses
 | payee = Dreamhost
 | payee_url = http://dreamhost.com
 | amount = 21.90
+}}
+{{expense-row
+| date = 2013-06-23
+| description = http://indiewebify.me
+| payer = Brennan Novak
+| payer_url = https://brennannovak.com
+| payee = Namecheap
+| payee_url = http://namecheap.com
+| amount = 8.99
 }}
 {{expense-row
 | date = 2013-01-15

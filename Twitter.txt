@@ -193,6 +193,7 @@ Examples, i.e. IndieWebCamp community members who are doing this:
 * [[User:Aaronparecki.com]] with [[p3k]] ([http://aaronparecki.com/replies/2013/09/26/2/indieauth example])
 * [[User:Tantek.com]] with [[Falcon]] (e.g. [http://tantek.com/2013/132/t2/been-t-since-day-joined-2006 reply post], [https://twitter.com/t/status/333649785062060034 POSSE tweet])
 * [[User:Tommorris.org]] with [[Ferocity]] (e.g. [http://tommorris.org/posts/8350 reply post], [https://twitter.com/tommorris/status/343394303252516864 tweet])
+* [[User:Snarfed.org]] with [[WordPress]] via [[Bridgy]] ([https://snarfed.org/responses#replies snarfed.org/responses#replies])
 
 === POSSE Replies to Twitter ===
 When posting a comment which is a reply to another indieweb post, the POSSE tweet of your comment should attempt to set the <code>in_reply_to_status_id</code> to the POSSE tweet of the indieweb post you're replying to.
@@ -211,6 +212,10 @@ If the indieweb post (or other URL) has no equivalent POSSE tweet and is not a t
 === POSSE Reposts of Tweets ===
 When posting a [[repost]] of a tweet, the proper POSSE behavior should be to do a native retweet (on Twitter) of the tweet that you're reposting on your own site.
 
+Examples:
+* [[User:Snarfed.org]] with [[WordPress]] via [[Bridgy]] ([https://snarfed.org/responses#retweets snarfed.org/responses#retweets])
+* {{kylewm}}: https://kylewm.com/share/2014/05/22/1
+
 === POSSE Reposts to Twitter ===
 When you do a [[repost]] of an indieweb post:
 * look for a [[rel-syndication]] hyperlink on the indieweb post permalink page to twitter.com
@@ -221,6 +226,9 @@ When you do a [[repost]] of an indieweb post:
 
 === POSSE Favorites of Tweets ===
 When posting a [[favorite]] of a tweet, the proper POSSE behavior should be to natively favorite (on Twitter) the tweet that you're favoriting on your own site.
+
+Examples:
+* [[User:Snarfed.org]] with [[WordPress]] via [[Bridgy]] ([https://snarfed.org/responses#likes snarfed.org/responses#likes])
 
 === POSSE Favorites to Twitter ===
 When you post a [[favorite]] of an indieweb post:

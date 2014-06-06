@@ -5,6 +5,10 @@ http://indiewebcamp.com/silo-quits
 '''<dfn>silo quits</dfn>''' are public statements by individuals announcing they have publicly "quit" posting on or using (at all) various [[silos]], either with intended permanence, or temporarily (i.e. taking a "social media break").
 
 == Silo quitters 2014 ==
+=== Brennan Novak ===
+[[Facebook]]
+* 2014-06-06 <cite>[https://brennannovak.com/essays/dear-facebook-goodbye Dear Facebook, Goodbye]</cite> <blockquote>In honor of the one year anniversary of Edward Snowden's revelations and in effort to #ResetTheNet, I am leaving Facebook. I will first download all my pictures, updates, and private messages and then delete my account data.</blockquote>
+
 === Tyler Finck ===
 [[Facebook]], [[Instagram]], [[Google+]]
 * 2014-05-06 Tyler Finck: <cite>[http://www.tylerfinck.com/2014/05/antisocial-networking/ Antisocial Networking]</cite> <blockquote><p>Last weekend I deleted my Instagram account, my Facebook Page, and my Google+ profile. [...]</p><p>Over the past year I’ve tweaked my website almost every month, editing code and experimenting live. I’ve also started to create content two or three times a month. This site has become the place that I’m ready to host almost everything I make. The one stop Tyler Finck shop, which sounds horrible but is the best summary of the journey that I didn’t even know I was on until very recently. [...]</p><p>Note: I plan on keeping my [[Twitter]] account active because after six years of use I still love it. My [[Flickr]] stream will soon become private as a means of backup and my [[Tumblr]] panoramas will be rolled into tylerfinck.com. [[Vimeo]]/[[YouTube]]? I’m not entirely sure what to do with them (since I utilize those sites only to serve up content). My love/hate relationship with [[Dribbble]] continues, and I’m still experimenting with [[Soundcloud]].</p></blockquote>

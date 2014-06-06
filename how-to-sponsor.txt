@@ -2,9 +2,35 @@ http://indiewebcamp.com/how-to-sponsor
 
 == About IndieWebCamp ==
 
-IndieWebCamp is a gathering of web creators building and sharing open web technologies to advance the state of the indie web. We get together for a weekend to talk about what has been done to empower people to own their online identities, and then spend a day hacking and creating.
+IndieWebCamp is a gathering of web creators building and sharing open web technologies to advance the state of the web. We get together for two days to talk about what has been done to empower people to own their online identities, and then spend a day hacking and creating.
 
-The event will attract roughly 60 highly engaged people interested in advancing the state of the open independent web.
+The events attract roughly 20-60 highly engaged people interested in advancing the state of the open independent web. Each event is kept small to encourage major participation by leaders in tech, journalism and design.
+
+=== Portland ===
+Portland is the location of the original IndieWebCamp event. 50-60 attendees including leaders from Mozilla, Google, Esri, OAuth, CSS and HTML W3C Committees and other major companies and contributors to the web.
+
+IndieWebCamp events in Portland have been hosted at
+* [http://www.elementaltechnologies.com/ Elemental Technologies]
+* [http://geoloqi.com Geoloqi]
+* [http://urbanairship.com/ Urban Airship]
+
+=== San Francisco ===
+IndieWebCamp San Francisco attracts core contributors to CSS and HTML W3C Committees, people from Google, Facebook, Mozilla, Esri and other influential organizations, as well as emerging startups and Stanford alumni. It is a small event located in the middle of the city. Approximately 20 participants with some remote attendees.
+
+IndieWebCamp San Francisco is hosted at the [https://sf.embassynetwork.com/ Embassy Network].
+
+=== New York City ===
+IndieWebCamp NYC is hosted at the New York Times office.
+
+The New York event attracts journalists, core web contributors, and major news organizations. Approximately 20 participants with several remote attendees.
+
+=== Brighton, UK ===
+The Brighton event is held along-side the dConstruct conference. The event attracts top designers and developers, especially in the field of next generation user experience design. Approximately 30 participants from all over Europe and the US with some remote attendees.
+
+=== Cambridge, Massachusetts === 
+The Cambridge event attracts theorists, journalists and technologists from MIT and Harvard working in the Media Lab and writing policy on privacy and the future of the web. Approximately 20 participants with some remote attendees.
+
+IndieWebCamp Cambridge is hosted at the Harvard Berkman Center for Internet and Society.
 
 == Sponsorship ==
 

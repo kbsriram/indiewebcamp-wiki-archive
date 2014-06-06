@@ -154,8 +154,8 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 8
-* spots remaining: 42
+* signed-up: 10
+* spots remaining: 40
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -183,6 +183,15 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |org_url = 
 |projects = 
 |elsewhere = [https://twitter.com/benjaminchait @benjaminchait]
+}}
+{{Attendee
+|name = [[User:werd.io|Ben Werdmuller]]
+|img = http://werd.io/file/538d0a4cbed7de5111a1ad31/thumb.jpg
+|url = http://werd.io/
+|org_name = Known
+|org_url = http://withknown.com
+|projects = [http://withknown.com/ Known] ([https://github.com/idno/idno GitHub])
+|elsewhere = [https://twitter.com/benwerd @benwerd]
 }}
 {{Attendee
 |name = [[User:Bret.io|Bret Comnes]]
@@ -221,11 +230,29 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
 }}
 {{Attendee
+|name = [[User:Adaburrows.com|J A Burrows]]
+|img = http://www.gravatar.com/avatar/44645c684eb67fc38f700fdf5ff4ff2c.png?s=128
+|url = http://adaburrows.com/
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/jburrows @jburrows], [https://github.com/adaburrows GitHub]
+}}
+{{Attendee
 |name = Paul Munday
 |img = http://www.gatheringstorms.org/images/icon.jpg
 |url = http://paulmunday.net
 |projects = [https://github.com/tallus/monomatapa Monomotapa]
 |elsewhere = [https://github.com/tallus/ github.com/tallus/]
+}}
+{{Attendee
+|name = [[User:Psyhigh.com|Darin Sennett]]
+|img = http://psyhigh.com/images/darin.jpg
+|url = http://psyhigh.com
+|org_name  = Psychic High School
+|org_url = http://psyhigh.com
+|projects =  
+|elsewhere = [https://twitter.com/psyhigh @psyhigh], [http://psychichighschool.tumblr.com/ tumblr: psychichighschool]
 }}
 
 === Apprentices ===

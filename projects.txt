@@ -36,28 +36,6 @@ Nginx is another popular HTTP (web) server software and open source.
 
 [http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog. Many IndieWebCamp participants use WordPress on their <em>primary</em> self-identifying site.
 
-IndieWebCamp participants using WordPress plus plugins for IndieWeb support on their primary site:
-* [[User:Christopheducamp.com|Christophe Ducamp]] (2012 UK remote): http://christopheducamp.com/blog - testing WP plugins (research in progress - TBC - 2013-04-15).   
-** URL Shortener via WP-Hum - activated since july 2012, ex. http://xtof.me/blog/b/405 
-** Currently testing [[POSSE]] [http://xtof.me/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#wp-extensions-posse research in progress] with 2 plugins activated simultaneously
-*** [http://jetpack.me/support/publicize/Publicize (JetPack module)] :  [http://christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#jetpack-publicize-exemple example w UI]
-*** [http://aaroncollegeman.com/sharepress/ SharePress] (FB pages broadcasting and twitter. [http://xtof.me/blog/test-sharepress-posse/ example w UI]). schedule POSSE. Short-url restricted to bit.ly. 
-* [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org] with:
-** [http://wordpress.org/plugins/indieauth/ IndieAuth]
-** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
-** and some experiments with [https://github.com/acegiak/Semantic-Linkbacks Semantic Linkbacks]
-* [[User:Willnorris.com|Will Norris]] (2011, 2013) on [http://willnorris.com/ willnorris.com] with:
-** URL Shortener via WP-Hum ([[selfdogfooding]])
-* [[User:Upon2020.com|Johannes Ernst]] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
-** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
-* ...
-
-IndieWebCamp participants using WordPress on their primary site:
-* [[User:Crystalbeasley|Crystal Beasley]] (2011) on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
-* [[User:ShaneHudson.net|Shane Hudson]] (2013 UK) on [http://shanehudson.net shanehudson.net]
-** Currently (Jan 2014) using built in post formats to add bookmarks/links privately, experimenting with making these public (as well as an app to post them easier) as well as POSSE'ing tweets and hopefully photos etc too.
-* ...
-
 === Jekyll ===
 {{main|Jekyll}}
 
