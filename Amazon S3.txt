@@ -5,7 +5,7 @@ http://indiewebcamp.com/Amazon_S3
 '''<dfn>Amazon S3</dfn>''' is a file hosting service from Amazon. 
 
 == IndieWeb Examples ==
-=== [http://lionzan.me/ lionzan.me] ===
+=== [http://lionzan.me lionzan.me] ===
 Leonardo Zangrando hosts his website on S3.
 
 These are the notes that I took while cerating my S3 Jekyll Indieweb site.
@@ -23,6 +23,10 @@ Other sources
 * check also blogging framework http://octopress.org/ - installed a GitHub version, but still not working, site doesn't build (dunno why)
 * http://yeswejekyll.com/ very intersting, with links to different templates by http://foundation.zurb.com/
 * http://klepas.org/jekyll-a-static-site-generator/
+
+=== [https://dateedge.com Date Edge] ===
+
+Date Edge is a straighteedge dating website made by [[Shaners|Shane Becker]] and [https://twitter.com/bookis Bookis]. It uses S3 for serving assets (images now, audio/videos later) and [[Cloudfront]] as a [[CDN]]. They pay $0.12 per GB transferred up to 10 TB. The first 1 GB transferred is free. For the month of 2014-05, they transferred 27.941 GB and paid $3.35 USD.
 
 == Considerations ==
 

@@ -30,7 +30,7 @@ And bingo, you've effectively created a POSSE copy of your photo on Instagram si
 At this point you can also use a service like [[Bridgy]] to [[backfeed]] comments on the photo from Instagram to your own site.
 
 === IndieWeb Implementations ===
-* [[User:Aaronparecki.com|Aaron Parecki]] is [https://github.com/aaronpk/p3k/issues/29 working on this] for [[p3k]].
+* [[User:Aaronparecki.com|Aaron Parecki]]'s [[OwnYourGram]] service provides PESOS from Instagram for any site that supports micropub.
 * ...
 
 == API ==
@@ -47,6 +47,13 @@ At this point you can also use a service like [[Bridgy]] to [[backfeed]] comment
 ** [http://instagram.com/p/bMj4vvA9ez/ Example of photo]
 
 == Criticism ==
+===Bad Silo Interop with Twitter===
+Shortly after it was purchased by Facebook, [http://techcrunch.com/2012/12/09/it-appears-that-instagram-photos-arent-showing-up-in-twitter-streams-at-all/ Instagram stopped including Twitter metadata] on their photo pages, so Twitter Cards no longer show image previews for Instagram photos.
+
+Instagram drives more traffic to their site, at the cost of a worse experience for users.
+
+Using [[OwnYourGram]] or another method of PESOSing your photos out of Instagram, you can control how your photos are shared on other silos like Twitter. (e.g., by including Twitter metadata, or by posting the photos directly).
+
 ===Downtime===
 * 2014-04-12 Instagram feeds were down as reported in this @Instagram tweet which itself has been deleted!
 ** https://twitter.com/instagram/statuses/455025601553108993

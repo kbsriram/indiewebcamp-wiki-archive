@@ -165,6 +165,11 @@ Independents (quite tech smart and capable) who had their WordPress blog(s) hack
 ** WordPress seems to have a non trivial security hole every 6 months and I never have the time to tend to my WP install. The last major problem resulted in my blog being infested with malware and my site blacklisted by google.  WordPress is like Windows.  It's probably not really less secure than the alternatives but its popularity is such that it makes an attractive target.  Most WordPress blogs are configured to ping an [http://codex.wordpress.org/Update_Services update service] so hackers have no trouble finding targets.  Any IndieWeb solution needs to think about automatic updates and defense in depth security. -- [[User:Michaelw.net|Michael.net]]
 * ...
 
+==== Fatal Error memory exhausted ====
+WordPress seems to run out of memory on servers sometimes, and give a message like:
+
+* e.g. on http://yottabytes.info/?p=10497 (on 2014-06-08 15:28 EDT): <blockquote> Fatal error: Allowed memory size of 41943040 bytes exhausted (tried to allocate 32 bytes) in /home/johnkrol/public_html/wp-includes/post.php on line 1961</blockquote>
+
 === Switching away from ===
 There has been a trend of folks switching away from WordPress for various reasons (e.g. problems noted above).  They seem to switch to one of three options, one indieweb, and two silo.
 

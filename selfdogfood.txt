@@ -37,7 +37,10 @@ Posts about selfdogfooding (most recent first)
 * http://tantek.com/2010/200/t3/fsws-coders-challenge-use-your-code-publish-your-site
 
 == Discussion ==
-* none currently.
+* It has come up in discussion several times that a more appealing term should be used. No consensus has been reached yet.
+** http://indiewebcamp.com/irc/2014-06-09#t1402337824
+*** {{gRegor}} likes the simple phrase "use your own product" or <abbr>UYOP</abbr> if an acronym is preferred. It's simple and to the point.
+** please add IRC links and summarize discussion...
 
 == FAQ ==
 === Use and development ===

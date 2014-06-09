@@ -1,0 +1,36 @@
+http://indiewebcamp.com/follow
+
+To '''follow''' is the concept of establishing a digital relationship to another person or entity so that you can receive updates from them over a given social media channel. The corresponding verb and action was first implemented by Twitter and then Instagram, it is now on many platforms and part of the digital cultural lexicon. 
+
+The difference between '''following''' and '''[[friending]]''' is that to follow does not require an agreement between both parties where as friending does. Following is an asymmetrical relationship, where as friending is symmetrical.
+ 
+The concept of '''following''' is integral to using a [[reader]] to consume content from a website or feed. Due to the similarities of "subscribing" to an email list or blog, that should be considered. There 
+
+=== Permanent Follow ===
+
+Performing a follow action on all platforms is a one time action done by clicking a button or entering your email address in a field and then clicking a button.
+
+* Twitter - follow
+* Instagram - follow
+* Mailing list - input email, click subscribe
+* Blog - subscribe (via FeedBurner / Google Reader style service)
+
+If one is no longer interested in receiving updates from a source, they must perform an '''unfollow''' which is  another manual action.
+
+* Twitter - unfollow
+* Instagram - unfollow
+* Mailing list - click on unsubscribe link in email, then confirm on webpage
+* Blog - unsubscribe via web interface
+
+=== Temporary Follow ===
+
+There is the idea of a temporary follow, which is like a normal follow, but a temporary follow automatically expires after a certain amount of time or other condition is met.
+
+Blog comments on the WordPress platform have a rough implementation of this idea. Once one leaves a comment "follows" a thread, the WordPress platform asks "Would you like be notified of additions to this conversation?" upon selecting yes, the user is notified of follow up discussion. Aside from WordPress the only app that seems to be doing something in respect to cross platform notifications of updates to conversations is [http://branch.com]
+
+Some examples where this could be really useful are:
+
+* Notify people involved in a previous conversation X about new post Y that relates to X "Orignal poster has 
+* Temporarily follow everyone at an event for duration of the event, then expire a week after event is complete
+
+The first example starts to border on the territory of [[notifications]] in providing simple UI feedback to a user!

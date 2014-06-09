@@ -1,13 +1,12 @@
 http://indiewebcamp.com/User%3AIamshane.com
 
 = Shane Becker =
-'''<dfn>Shane Becker</dfn>''' is the co-founder of Hypernova which is making Homesteading. He lives and works at The Farmhouse in Hollywood, California.
+'''<dfn>Shane Becker</dfn>''' is a co-founder of Hypernova which is making Homesteading. He lives and works at The Farmhouse in Hollywood, California.
 
 
 <span style="float:left;margin-right:1em"><img src="http://iamshane.com/assets/shane-becker-avatar-circle-small.png" /></span>
 
 <div class="vcard h-card">
-
 
 = #indieweb setup =
 

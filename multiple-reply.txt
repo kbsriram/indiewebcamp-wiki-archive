@@ -32,6 +32,11 @@ These indieweb reply post permalinks visually represent that the post is in repl
 * http://kylewm.com/reply/2014/03/21/1 (need to expand per above examples)
 * ...
 
+=== Jeena ===
+[[User:jeena.net|Jeena]] has added multiple replies be able to make easier to read threads on his own website. For example:
+* https://jeena.net/notes/181
+* shows up on two ther websites but even on https://jeena.net/notes/178 where the thread originated
+
 == Silo Limitations ==
 <span id="Current_Inadequacy">The problem.</span>
 

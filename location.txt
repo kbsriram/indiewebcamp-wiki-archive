@@ -19,6 +19,35 @@ http://indiewebcamp.com/location
 ** [http://www.geonames.org/export/ws-overview.html Geonames Web Services]
 *** findNearbyPlaceName used by StatusNet
 
+== How ==
+=== How to determine the location of a microformat ===
+To accommodate various different location use-cases, there are multiple places within a microformat structure where location data can be placed. Given a microformat, to determine it’s location:
+
+* create a stack of property maps where location data might be found, in order of priority
+* for each potential location property, search the stack for a valid property value
+
+In more detail (pseudocode):
+* given a microformat structure <var>mf</var>, to find the location it represents:
+* let <var>location-sources</var> be a list of microformats, containing the following, in this order:
+** <var>mf</var>
+** if <var>mf</var> has a ''location'' property which is a microformat, that value
+** if <var>mf</var> has an ''adr'' property which is a microformat, that value
+** if <var>mf</var> has a ''geo'' property:
+*** if the geo property is a microformat, that value
+*** else if the geo property is a string, parse it as a geo: URL and append a derived microformat containing the properties of the geo: URL: latitude+longitude if they’re both present, and altitude if it was present
+* for each of the following location properties, search the property map stack in order of priority for a valid value. As soon as one is found, consider that the value. If none are found, the microformat does not have this property
+** street-address
+** extended-address
+** post-office-box
+** locality
+** region
+** postal-code
+** country-name
+** label
+** latitude
+** longitude
+** altitude
+
 == See Also ==
 * [[geo]]
 * [[checkin]] / [[venue]]

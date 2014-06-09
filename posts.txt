@@ -36,6 +36,9 @@ Roughly ordered by apparent/anecdotal indieweb posting frequency:
 * [[rsvp]]
 * [[session]]
 * [[video]]
+
+Posts of various types may also be implicit [[mentions]] of other posts by linking to them, but the difference only matters to the receiver — i.e. there is no dedicated UI for people to publish a “mention” of something.
+
 Indieweb community members are working on publishing these real soon now:
 * ...
 Merely gleams in various eyes:

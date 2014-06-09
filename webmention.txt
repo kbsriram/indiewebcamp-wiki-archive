@@ -107,6 +107,13 @@ In addition to just a link (mention) there are several special types of mentions
 * [[like]]
 * [[repost]]
 
+=== accessing endpoints in the browser ===
+Some implementations now display a page that briefly explains webmentions when the webmention endpoint is accessed in a browser.
+
+* {{aaronpk}} at https://aaronparecki.com/webmention.php
+* [[User:kylewm.com|Kyle Mahan]] at https://kylewm.com/webmention
+* add yours...
+
 == Implementations ==
 === IndieWeb Examples ===
 The following users/sites have <span id="IndieWeb_implementations">implemented</span> sending and or receiving webmentions, in rough chronological order:
@@ -427,6 +434,7 @@ Synchronous webmention receivers should return the following status codes:
 ** Updated comment processed (for [[comment]] CRUD)
 ** Comment being held for human moderation
 ** [[comment]]/[[like]]/[[repost]] deleted on the target
+* '''202 Accepted''' - the webmention is still queued for processing
 * '''400 Bad Request''' - for any of the following conditions:
 ** Source URL not found
 ** Specified target URL not found

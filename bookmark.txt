@@ -2,38 +2,61 @@ http://indiewebcamp.com/bookmark
 
 {{stub}}
 
-= bookmark =
-A '''<dfn>bookmark</dfn>''' is a [[post]] that is typically comprised of a URL and title.
+A '''<dfn>bookmark</dfn>''' (or <dfn>linkblog</dfn>) is a [[post]] that is typically comprised of a URL and optional text accompanying it. The accompanying text is often the "title" of the HTML document at the URL, or a shortened version thereof, or author-chosen description of the URL. Bookmark posts sometimes have [[tags]] as well.
 
-== Documented Examples ==
-* [[User:Aaronparecki.com|Aaron]] posts bookmarks on [http://aaron.pk/bookmarks/ aaron.pk/bookmarks] using a custom Wordpress post type. These bookmark posts contain:
-** URL
-** Title
-** Optional tags
-** Optional snippet of text manually copied from the URL as a way to remember why I bookmarked it ([http://aaron.pk/bookmarks/?bookmark=hashcash example])
-** Optional note about why I bookmarked it
+== IndieWeb Examples ==
+=== Aaron Parecki ===
+[[User:Aaronparecki.com|Aaron Parecki]] uses [[WordPress]] to post bookmarks on [http://aaron.pk/bookmarks/ aaron.pk/bookmarks] using a custom Wordpress post type since 2010-12-18. These bookmark posts contain:
+* URL
+* Title/text
+* Optional tags
+* Optional snippet of text manually copied from the URL as a way to remember why I bookmarked it ([http://aaron.pk/bookmarks/?bookmark=hashcash example])
+* Optional note about why I bookmarked it
 
-* [[User:Waterpigs.co.uk|Barnaby Walters]] posts bookmarks on his site by tagging them "[http://waterpigs.co.uk/notes/?tagged=bookmark bookmark]". These bookmark posts contain:
-** URL
-** Tags
-** Text note with one or more URLs inline
-
-* [[User:adactio.com|Jeremy Keith]] posts bookmarks on [http://adactio.com/links/ adactio.com/links] and POSSEs them to [https://delicious.com/adactio Delicious]. These bookmark posts contain:
-** URL
-** Title
-** tags
-** Description
-
-* [[User:iamshane.com|Shane Becker]] posts bookmarks on [http://iamshane.com/bookmarks iamshane.com/bookmarks]. He sub-categorizes them by adding a "fave", "read-later", "watch-later" or "listen-later" tags to a bookmark post. The linked title of a bookmark post goes to the bookmarked URL, not the bookmark post's permalink. Bookmark posts have a '''⇜''' before the title to help indicate that the link goes to an external site. The '''⇜''' is applied using a CSS :before selector and a content property to keep it out of the actual HTML/microformat content. These bookmark posts contain:
-** URL
-** Title
-** tags
-** Excerpt (optiona)
-** Description (optiona)
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post bookmarks on his site waterpigs.co.uk as [[notes]] tagged with "[http://waterpigs.co.uk/notes/?tagged=bookmark bookmark]" since ????-??-??. These bookmark posts contain:
+* URL
+* Tags
+* Text note with one or more URLs inline
+=== Jeremy Keith ===
+[[User:adactio.com|Jeremy Keith]] posts bookmarks on his own site at [http://adactio.com/links/ adactio.com/links] since ????-??-?? and [[POSSE]]s them to [https://delicious.com/adactio Delicious]. These bookmark posts contain:
+* URL
+* Title
+* tags
+* Description
+=== Shane Becker ===
+[[User:iamshane.com|Shane Becker]] posts bookmarks on [http://iamshane.com/bookmarks iamshane.com/bookmarks] since ????-??-??. He sub-categorizes them by adding a "fave", "read-later", "watch-later" or "listen-later" tag to a bookmark post. The linked title of a bookmark post goes to the bookmarked URL, not the bookmark post's permalink. Bookmark posts have a '''⇜''' before the title to help indicate that the link goes to an external site. The '''⇜''' is applied using a CSS :before selector and a content property to keep it out of the actual HTML/microformat content. These bookmark posts contain:
+* URL
+* Title
+* tags
+* Excerpt (optional)
+* Description (optional)
 
 == Silos ==
 Bookmark hosting silos:
 * [[Instapaper]]
+Previously:
+* [[delicious]]
+
+== Similar Post Kinds ==
+Text of a '''bookmark post''' is most often the title of the linked resource, i.e. created by the author of the linked resource, rather than the person posting the bookmark post.
+
+This is a key distinction between a bookmark and other kinds of posts.
+
+=== Reply ===
+The text of a ''[[reply]]'' is written by the person posting the reply, and often a new statement in response to the original post.
+
+If the text of a bookmark post is written as commentary on the bookmark, then that should likely be a reply post instead.
+
+=== Repost ===
+The text of a [[repost]] comes from the entirety of the <em>content</em> of a bookmark rather than the name or title of the bookmarked resource.
+
+If the text of a bookmark post is the entirety of the contents of the thing that is bookmarked, then that should likely be a repost instead.
+
+=== Quotation ===
+The text of a [[quotation]] comes from part of the <em>content</em> of a bookmark rather than the name or title of the bookmarked resource.
+
+If the text of a bookmark post is merely part of the contents of the thing that is bookmarked, then that should likely be a quotation instead.
 
 == See Also ==
 * [[posts]]

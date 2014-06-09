@@ -1,0 +1,20 @@
+http://indiewebcamp.com/quotation
+
+{{stub}}
+
+A '''<dfn>quotation</dfn>''' is a type of post that includes a subset of the contents of another post, and a [[citation]] of that other post.
+
+A quotation of the entirety of another post should be a [[repost]] instead.
+
+A quotation which uses the name/title of another post (rather than its content) should be a [[bookmark]] instead.
+
+== IndieWeb Examples ==
+none currently.
+
+== Silo Examples ==
+* [[Tumblr]] supports an explicit quotation post kind, and presents quotation posts differently from other posts. (needs screenshots using default Tumblr skin)
+
+== See Also ==
+* [[posts]]
+* [[repost]]
+* [[bookmark]]

@@ -102,6 +102,7 @@ and optionally an HTML or other body with more information. Below is a list of p
 == Indieweb Examples ==
 
 * {{aaronpk}} has a Micropub endpoint on his site since 2013-10-14
-* [[User:Kartikprabhu.com|Kartik Prabhu]] has a [https://kartikprabhu.com/micropub micropub endpoint] on his site since 2014-05-25
+* [[User:Kartikprabhu.com|Kartik Prabhu]] has a [https://kartikprabhu.com/micropub micro pub endpoint] on his site since 2014-05-25
+* [[User:Bret.io]] uses [https://github.com/bcomnes/gitpub Gitpub]: A '''Node.js''' server that receives incoming micropub requests, generates a post file and pushes to a remote git repository.
 
 [[Category:IndieAuth]]

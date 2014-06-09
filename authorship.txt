@@ -79,6 +79,16 @@ Only if the rel-author page lacks an hCard do we then fallback to looking for a 
 * First pass at the authorship algo: [https://github.com/converspace/converspace/blob/795a70965ede4cdbdacdb5858d3eb3863bd46d20/webmention.php#L66 get_h_card()] (announcement: http://www.sandeep.io/116)
 ** Should be extracting it into an independent lib soon -[[User:Www.sandeep.io|Www.sandeep.io]] 01:23, 24 July 2013 (PDT)
 
+== Silo Implementations ==
+=== Google Search ===
+[[Google]]'s search spider supports only part of the authorship algorithm, rel=author, in an oddly [[silo]]-specific way:
+* if there's <code>rel=author</code> link on a page
+** if it links to a [[Google+]] profile, use that profile for authorship information
+** if it links to a [[home page]]
+*** if the home page has a <code>rel=me</code> link to a Google+ profile
+*** and the Google+ profile has profile link back to the home page
+*** then use that profile for authorship information
+
 == See Also ==
 * [[discovery]]
 * [[posts]]

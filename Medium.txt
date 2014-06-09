@@ -20,6 +20,9 @@ Shane Becker is manually POSSEing his articles to Medium, e.g.:
 * 2013-07-08 <cite>The Problem With Medium: A Shiny Content Farm is Still a Content Farm</cite> https://medium.com/writers-on-writing/336300490cbb
 * 2013-07-10 https://twitter.com/t/status/355069622325747713
 * 2014-05-30 [http://indiewebcamp.com/irc/2014-05-30/line/1401478311 Medium doesn't support footnotes]
+* 2014-06-09 Medium does not appear to show the full published date in the visible content. Instead there is a [[The-Open-Graph-protocol|Open Graph Protocol]] meta element: <code>meta property="article:published_time" content="2014-01-16T08:59:18.300Z"</code>
+** Example: https://medium.com/binary-times/use-your-own-product-or-die-ba3e2d738a55
+** It appears that the year is displayed depending how recent the article is. A 2013 article linked above includes the year in the visible content, but as of this writing (2014-06), the example link only shows "Jan 16," because it is recently published, in the current year.
 
 == See Also ==
 * [[article]]

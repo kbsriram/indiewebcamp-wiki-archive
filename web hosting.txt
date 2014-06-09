@@ -84,6 +84,7 @@ File hosting services which provide serving static files over HTTP
 * '''Amazon S3''' (very cheap): [http://docs.amazonwebservices.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html instructions] (via [https://twitter.com/aral/status/290841566422118403]). 
 
 Advantages of static hosting:
+* Very cheap. (See [http://indiewebcamp.com/Amazon_S3#Date_Edge Date Edge's usage/billing]
 * ...
 Disadvantages:
 * ...

@@ -2,13 +2,30 @@ http://indiewebcamp.com/repost
 
 {{stub}}
 
-'''<dfn>repost</dfn>''' is an umbrella term that covers the general practice of republishing another post typically on the same service or [[silo]].
-
-Perhaps the oldest form of reposting is the act of "reblogging" someone else's blog post, which typically consists of copying an entire blog post [[article]] from one site to another, keeping it intact, and not adding anything except perhaps a "reblogged from ___" bit of text at the start and/or end linking to the original from which it was reblogged.
+A '''<dfn>repost</dfn>''' on the indieweb is a [[post]] that is purely a 100% re-publication of another post. The act of <dfn>reposting</dfn> is an umbrella term that covers the general practice of republishing another post typically on the same service or [[silo]], but more and more across sites.
 
 Many silos including [[Twitter]], [[Facebook]], [[SoundCloud]] and [[Google+]] implement reposting — see [[repost#Silo_Examples]]
 
+Perhaps the oldest form of reposting is the act of "reblogging" someone else's blog post, which typically consists of copying an entire blog post [[article]] from one site to another, keeping it intact, and not adding anything except perhaps a "reblogged from ___" bit of text at the start and/or end linking to the original from which it was reblogged.
+
 (need screenshots of this in the wild, what a reblog looks like, what's the UX flow to reblog something)
+
+== Why ==
+Why implement reposting:
+* '''Retweet from your own site.''' Incrementally supporting reposts, especially with [[POSSE]] to Twitter, enables you to "retweet" from your own site, rather than depending on Twitter to do so.
+** This in turn ensures a copy of anything you retweet on your own site, in case the original is deleted/removed etc.
+* ...
+
+== IndieWeb Examples ==
+[[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io since at least ????-??-??, [http://www.sandeep.io/35 example]
+
+[http://barryfrost.com/ Barry Frost] has been experimenting with using <code>u-repost</code> for reposts since at least ????-??-??, example?
+
+[[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com since at least 2014-04-14, including multiple reposts: [http://kylewm.com/share/2014/04/14/1 example]
+
+Barnaby Walters’ manually reposted [http://waterpigs.co.uk/articles/getting-started-with-microformats2/ Getting Started With microformats2] on microformats.org using [[WordPress]]: http://microformats.org/2014/03/05/getting-started-with-microformats2
+
+[[Bridgy]] sends webmentions for Facebook and Google+ reshares and Twitter retweets, as reposts. It uses <code>class="u-repost u-repost-of"</code> to support both the established property name and the earlier, experimental property name.
 
 == How to Publish ==
 Use <code>class="u-repost-of"</code> to indicate that the URL being linked to is what is being reposted, for example:
@@ -25,16 +42,7 @@ demonstrates an h-entry for a "repost" of <nowiki>http://someothersite.example.c
 * The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>
 * This frees up "u-repost" (and "p-repost") to actually indicate that the URL being linked is a repost itself (e.g. similar to "p-comment").
 
-== IndieWeb Examples ==
-[[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io since at least ????-??-??, [http://www.sandeep.io/35 example]
 
-[http://barryfrost.com/ Barry Frost] has been experimenting with using <code>u-repost</code> for reposts since at least ????-??-??, example?
-
-[[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com since at least 2014-04-14, including multiple reposts: [http://kylewm.com/share/2014/04/14/1 example]
-
-Barnaby Walters’ manually reposted [http://waterpigs.co.uk/articles/getting-started-with-microformats2/ Getting Started With microformats2] on microformats.org using [[WordPress]]: http://microformats.org/2014/03/05/getting-started-with-microformats2
-
-[[Bridgy]] sends webmentions for Facebook and Google+ reshares and Twitter retweets, as reposts. It uses <code>class="u-repost u-repost-of"</code> to support both the established property name and the earlier, experimental property name.
 
 == Differentiating Reposts ==
 === Quote vs. Repost ===

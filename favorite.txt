@@ -32,6 +32,16 @@ Favorites:
 
 These differences may be subtle enough as to make it confusing if both were present in a system - there are no known systems that have both.
 
+== FAQ ==
+=== Do both or not ===
+Q: Should I have both favorite and like posts?
+
+A: Why?
+
+Do you want to use both favorite and like? if so, how do they differ to you?
+
+If not, just pick one and use that. The difference has been discussed quite a bit here, and trivial differences documented above: [[favorite#Differences_From_Like|Differences from like]].
+
 == See Also ==
 * [[like]]
 * [[silos]]

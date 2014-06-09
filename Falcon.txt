@@ -18,31 +18,42 @@ If some of this helps you with designing your own indieweb implementation, great
 Thanks, - [[User:Tantek.com|Tantek]] 19:37, 23 March 2013 (PDT)
 
 == Post Types ==
-Falcon supports the following 5 kinds of [[posts]]
-* '''[[notes]]''' - with 
-** white-space (serial space characters, line-breaks, blank lines)
-** auto-linking of URLs, @-names to Twitter
-** auto-embedding of JPG/PNG/GIF/MP4/MOV/OGV and Youtube/Vimeo URLs
-** [[POSSE]] to [[Twitter]] of up to 120 chars with permashortid of original post, or first 112-115 chars with ellipsing/truncating and permashortlink to original post. (assuming 6 char personal short domain, e.g. ttk.me)
-** [[webactions]]: Favorite, Retweet, Reply with Twitter fallbacks
-* '''[[articles]]''' - blog posts
-* '''[[reply]]''' notes - similar to notes, but for replying to tweets, commenting on other posts
-** with minimal [[reply-context]] support (linked URL of original being replied to)
-** with [[multi-reply]] reply-context presentation support too.
-** current reply limitations: 
-*** only replies to tweets (Tweet permalink URLs) are well supported. I've wanted to POSSE my @-replies to Twitter and have them thread properly on Twitter for a while, so even just implementing this helps me interact with friends who use Twitter instead of their own site (most people).
-*** replies to indieweb URLs are supported for posting / storing / presenting, but won't thread to their POSSE copies. I want to fix that before I post a reply to an indieweb post, because I really want my POSSE'd @-reply to thread properly to the POSSE'd copy of the original indieweb post. I want my replies to indieweb posts to be better (and no worse, in all ways) than my replies to tweets.
-* '''[[rsvp]]''' notes - similar to reply notes, but for RSVPing to indieweb [[event]] posts. (2013-264)
-** <code>p-rsvp</code> marked up with a <code>&lt;data&gt;</code> element in its [[reply-context]] where it says "RSVP yes to". E.g. [http://tantek.com/2013/264/t1/indiewebcamp-breakfast-rsvp].
-** only works for indieweb [[event]] posts - no POSSE reply threading support.
-** only supports RSVP "yes", via text of note starting with the literal text: "going to "
-** assumes <em>first</em> in-reply-to URL in the note is the URL of the [[event]] post being RSVPed to.
-** [[webmention]] must still be sent manually, e.g. via <code>curl</code>.
-* '''[[comics]]''' - similar to articles, except the post name is incorporated into the image and not displayed separately. The image is served wider than images in articles, and is marked up with: <blockquote><nowiki><div class="comic"><object type="image/jpeg" ...> fallback markup </object></div></nowiki></blockquote> In addition to the image, there's a further visible description, hyperlinked, semi-structured.
-** fallback markup inside the comic image describing the comic strip scene, actors, and dialog.
-*** including markup of the plain text post name (p-name) which is otherwise reflected in the comic image.
+Falcon supports the following 5 kinds of [[posts]].
 
-Note: auto-linking and auto-embedding is all accomplished with the open source [[CASSIS]] <code>auto_link</code> function.
+Note: auto-linking and auto-embedding for all types that support them is all accomplished with the open source [[CASSIS]] <code>auto_link</code> function.
+
+=== Notes ===
+'''[[notes]]''' posts are supported with 
+* white-space (serial space characters, line-breaks, blank lines)
+* auto-linking of URLs, @-names to Twitter
+* auto-embedding of JPG/PNG/GIF/MP4/MOV/OGV and Youtube/Vimeo URLs
+* [[POSSE]] to [[Twitter]] of up to 118 chars with permashortid of original post, or first 110-113 chars with ellipsing/truncating and permashortlink to original post. (assuming 6 char personal short domain, e.g. ttk.me)
+* [[webactions]]: Favorite, Retweet, Reply with Twitter fallbacks
+=== Articles ===
+'''[[articles]]''' as blog posts are supported with:
+* [[POSSE]] to [[Twitter]] of up to 113 chars long article name with permashortlink of full post, or first 110-113 chars with ellipsing/truncating and permashortlink to original post. (assuming 6 char personal short domain, e.g. ttk.me)
+* [[webactions]]: Post with Twitter Tweet fallback.
+* [[citation]] UI for copy pasting URL or HTML embed with [[h-cite]] markup.
+=== Reply ===
+'''[[reply]]''' notes are supported. Replies are similar to notes, but for replying to tweets, commenting on other posts.
+* with minimal [[reply-context]] support (linked URL of original being replied to)
+* with [[multi-reply]] reply-context presentation support too.
+* current reply limitations: 
+** replies directly to tweets (Tweet permalink URLs) are well supported. I've wanted to POSSE my @-replies to Twitter and have them thread properly on Twitter for a while, so even just implementing this helps me interact with friends who use Twitter instead of their own site (most people).
+** replies to indieweb URLs are supported for posting / storing / presenting, but won't thread to their POSSE copies.
+** multi-reply support provides a manual work-around for replying to an indieweb URL and also replying to the POSSE copy of that indieweb URL (and thus threading with it on Twitter).
+*** This gives me the ability to (but a bit inconveniently) post a reply to an indieweb post, and also post a POSSE'd @-reply that threads properly to the POSSE'd copy of the original indieweb post I'm replying to. There's two itches below for supporting replies either to POSSE tweets or original posts, automatically discovering the other if present, preferring the original post in reply-context presentation, and threading with the POSSE tweet if any.
+=== RSVP ===
+'''[[rsvp]]''' notes are supported. RSVPs are similar to reply notes, but for RSVPing to indieweb [[event]] posts. (since 2013-264)
+* <code>p-rsvp</code> marked up with a <code>&lt;data&gt;</code> element in its [[reply-context]] where it says "RSVP yes to". E.g. [http://tantek.com/2013/264/t1/indiewebcamp-breakfast-rsvp].
+* only works for indieweb [[event]] posts - no POSSE reply threading support.
+* only supports RSVP "yes", via text of note starting with the literal text: "going to "
+* assumes <em>first</em> in-reply-to URL in the note is the URL of the [[event]] post being RSVPed to.
+* [[webmention]] must still be sent manually, e.g. via <code>curl</code>.
+=== comics ===
+'''[[comics]]''' - similar to articles, except the post name is incorporated into the image and not displayed separately. The image is served wider than images in articles, and is marked up with: <blockquote><nowiki><div class="comic"><object type="image/jpeg" ...> fallback markup </object></div></nowiki></blockquote> In addition to the image, there's a further visible description, hyperlinked, semi-structured.
+* fallback markup inside the comic image describing the comic strip scene, actors, and dialog.
+** including markup of the plain text post name (p-name) which is otherwise reflected in the comic image.
 
 == POSSE Details ==
 Falcon currently supports [[POSSE]]ing:
@@ -74,6 +85,28 @@ Falcon supports:
 
 == Working On ==
 The next things I'm working on to add to Falcon:
+=== simple repost of tweets ===
+Recently (2014-06-04..05) I was at a conference where I wanted to retweet a quote someone else captured from one of the speakers rather than make a similar post myself.
+
+However this time I reached the point of not wanting to just retweet on Twitter any more - I wanted to retweet it from my site, thus keeping a copy on my site, while still [[POSSE]]ing a native retweet on Twitter.
+
+In short this means implementing:
+* '''Detecting storage''' of a <code>u-repost-of</code> property
+** treat first instance as canonical / primary, which can be loaded (following redirects) to get the original post
+** additional u-repost-of properties are assumed(required) to be the repost chain all the way to the original post.
+** keeping the retweet chain is useful in case one of the intermediate accounts is deleted
+* '''Posting UI''' - alter Posting UI accordingly for reposts of tweets
+** No character count
+** No ellipsing
+** '''Retweet''' rather than '''Tweet''' button
+* '''POSSE''' call [https://dev.twitter.com/docs/api/1/post/statuses/retweet/%3Aid Twitter retweet API] rather than update API
+* '''Save POSSE URL''' - save new retweet tweet id as rel=syndication into storage, so web action buttons work properly
+* '''Presentation''' for a repost, showing:
+** icon of original poster
+** original tweet posting time.
+** some sort of retweet icon to indicate that it was retweeted by me 
+** time when retweeted (perhaps near retweet icon and an icon of myself)
+
 === mobile recent articles box ===
 There have been enough times that I've referred to recent articles in a mobile context (while walking around with someone) on my or another's mobile device, that it would be useful to move my recent articles box to the top of my site even in the mobile view. Longer term, such a box should simply be a movable Falcon template item.
 
@@ -334,13 +367,14 @@ When displaying a post permalink or archive for a particular year, bim, month, o
 Each bim storage file is treated as [http://tantek.com/2010/302/b1/xhtml-dead-long-live-xml-valid-html5 XML-Valid HTML5] [[hAtom]] and XPath is used to retrieve <em>all</em> <code>.hentry</code> elements in document order. 
 
 For each such hentry, the first (in document order) instance of each of the following is retrieved (also using XPath) from the hentry's descendants:
-
 * <code>.published</code> - element parsed per the [http://microformats.org/wiki/value-class-pattern#Date_and_time_values Value Class Pattern: Date and time values]
 * <code>.entry-title</code> - element parsed for both plain text and nested markup
 * <code>.entry-content</code> - element parsed for both plain text and nested markup
 * <code>.using</code> - element parsed for plain text
 * <code>[rel~=bookmark]</code> - element parsed for its <code>href</code> attribute
 * id - the <code>id</code> attribute of the hentry element itself is also retrieved as plain text
+All instances of each of the following is retrieved (also using XPath)
+* <code>.u-in-reply-to</code> - element parsed for its <code>href</code> attribute
 All "parsed for plain text" instances trim leading/trailing whitespace but preserve all other whitespace both for [[note#Indieweb_implementations|note permalink presentation]], and for POSSEing notes to Twitter.
 
 Every time an "hentry" is published &amp; syndicated to a 3rd party service ([[POSSE]] style of course), falconpost.php appends a child element to the end of the "hentry" with:
@@ -357,7 +391,7 @@ In addition, falconpost.php stores in-reply-to information for reply notes by ap
 * <code>rel="in-reply-to"</code>
 * <code>href={absolute URL to original post being replied to}</code>
 * innertext - "In reply to: " and perhaps name of service and service-specific unique post identifier
-e.g.: <blockquote><code>&lt;a rel="in-reply-to" class="in-reply-to" href="http://twitter.com/_/status/330099833383833601">In reply to: 330099833383833601&lt;/a></code></blockquote>
+e.g.: <blockquote><code>&lt;a rel="in-reply-to" class="u-in-reply-to" href="http://twitter.com/_/status/330099833383833601">In reply to: 330099833383833601&lt;/a></code></blockquote>
 
 === Routing ===
 ==== Home page ====

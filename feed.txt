@@ -63,6 +63,7 @@ Use the following algorithm to get feed posts and details for a page:
 * let the default author be the representative h-card found on the page
 * let the posts in the feed be any h-entries found on the page
 * to find earlier/later posts from the same feed, look for rel=prev[ious] and rel=next URLs, parse them in the same way
+* Use the [[h-entry#How_to_consume_h-entry|h-entry consumption]] algorithm to process each h-entry found in the feed
 
 See also: microformats wiki section about [http://microformats.org/wiki/h-feed#Parsing Parsing h-feed].
 

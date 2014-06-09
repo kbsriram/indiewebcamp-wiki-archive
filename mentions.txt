@@ -1,3 +1,5 @@
 http://indiewebcamp.com/mentions
 
-#redirect:[[webmention]]
+“Mentions” may refer to:
+* Webmentions, notifications of linking sent using the [[webmention]] protocol
+* [[mention]] posts, a type of response created implicitly by linking
