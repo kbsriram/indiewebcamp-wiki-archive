@@ -219,6 +219,9 @@ Follow-ups:
 * http://www.netmagazine.com/news/drop-social-media-buttons-call-121990
 * http://www.netmagazine.com/features/big-question-should-we-drop-social-media-buttons
 
+Some statics on sharing button use:
+* http://css-tricks.com/poll-results-sharing-buttons/
+
 === Privacy concerns ===
 The social buttons used by a variety of silos often come with tracking cookies, meaning that the social networking services are alerted to the fact that logged-in readers have been reading content even if they do not actually take any actions (sharing, retweeting, +1ing/faveing). Depending on the nature of the content on your site, this may be a breach of your ethical standards and the reasonable standards of privacy. For instance, visits to sexuality, health and political sites may then lead tracking cookie organisations to draw unwanted or undesirable inferences that breach a users privacy.
 

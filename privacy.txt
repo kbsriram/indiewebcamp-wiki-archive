@@ -1,0 +1,14 @@
+http://indiewebcamp.com/privacy
+
+{{stub}}
+
+'''<dfn>Privacy</dfn>''' is “the ability of an individual or group to seclude themselves or information about themselves and thereby express themselves selectively”. [http://en.wikipedia.org/wiki/Privacy]
+
+As of 2014-06, anecdotally, most of the work done by the indiewebcamp community has been focused on publishing rather than privacy, although it’s an important factor for many people here, especially as we start publishing data such as checkins and personal metrics --[[User:Waterpigs.co.uk|Barnaby Walters]] 07:45, 10 June 2014 (PDT)
+
+Some sites have a '''<dfn>privacy policy</dfn>''', a form of [[disclosure]] about what kind of the information the site may retain about users, their usage, and who they might share it with.
+
+== See Also ==
+* [[private_posts]]
+* [[PGP]]
+* [[disclosure]]

@@ -13,6 +13,10 @@ Examples of IndieWeb sites which act as their own Persona provider, without rely
 Examples of IndieWeb sites which consume (allow login via) Persona in particular (beyond using IndieAuth to do so).
 * ... add yourself
 
+== Shutdowns ==
+The following sites used to provide or accept (consume) Persona logins but no longer do. Most recent first:
+* 2014-06-10 '''orchestrate.io''' is phasing out Persona login. The next time you sign in they require you to set a password.[http://orchestrate.io/blog/2014/06/10/userauth/]
+
 == Criticisms ==
 === Reliance on javascript ===
 Persona/browserid [https://developer.mozilla.org/en-US/Persona/The_implementor_s_guide/Supporting_users_without_JavaScript relies on javascript] to work, forcing consumers to implement separate authentication functionality to support all users.

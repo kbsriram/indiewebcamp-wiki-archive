@@ -124,11 +124,9 @@ The following are values that an '''App Store''' SHOULD have discoverable or rec
 
 ==== Vocabularies ====
 
-* [https://github.com/edumbill/doap/wiki DOAP] - "Description of a Project"
-
-==== Protocols ====
-
 * [http://microformats.org/wiki/h-product h-product] - microformat
+* [https://github.com/edumbill/doap/wiki DOAP] - "Description of a Project"
+** Looking at that git repo I cannot find simple examples, list of properties, or examples in the wild --[[User:Waterpigs.co.uk|Barnaby Walters]] 08:41, 11 June 2014 (PDT)
 
 === Examples ===
 

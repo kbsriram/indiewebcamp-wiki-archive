@@ -47,7 +47,7 @@ Taproot supports the following:
 * Notes have [[webactions]] with twitter intent fallback if POSSEd to twitter
 * ATOM fallback is provided for all [[feed]]s
 * Notes and articles are [[POSSE]]d to [[twitter]] automatically and manually/indirectly to [[facebook]]
-* Logging in using [[indieauth]]
+* Logging in using [[indieauth]] and [[distributed-indieauth]]
 * New post UI is publicly viewable and can be used to create new posts on other people’s [[micropub]]-enabled sites
 
 == Roadmap ==

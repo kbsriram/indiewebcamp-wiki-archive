@@ -1,0 +1,42 @@
+http://indiewebcamp.com/Shrewdness
+
+{{stub}}
+
+<dfn>Shrewdness</dfn> is a micropub-enabled reader web app, currently being developed by [[User:WaterPigs.co.uk|Barnaby Walters]].
+
+After experimenting with a flow-based-programming environment which doubled as a reader, an indieweb personal search engine and an anti-spam tool, I realised that all three things required the exact same plumbing, and that it made the most sense to build them all as one tool. That tool is Shrewdness, named after the collective noun for an aggregation of apes, as its job is going to be aggregating apes.
+
+* [https://github.com/barnabywalters/shrewdness code]
+* [http://waterpigs.co.uk/intertubes/ prototype]
+* [http://waterpigs.co.uk/notes/4T3FSd/ documenting pain points, enabling technologies]
+* [http://waterpigs.co.uk/notes/4V6Fna/ mockup of multi-feed subscription UI]
+
+== UI Design/Mockups ==
+
+Feed reader UI mockups, created in Sketch. Main view:
+
+<img src="http://waterpigs.co.uk/img/feedreader-feed-search-new-feed-prototype.png"  style="max-width: 100%;" />
+
+Designing the bootstrapping process, welcoming new users:
+
+<img src="http://waterpigs.co.uk/img/feedreader-start-up-iew-prototype.png"  style="max-width: 100%;" />
+
+== Feed Testing UI ==
+
+The bulk of the plumbing code for shrewdness is the indexing code which takes HTML and dices it up into neat posts which can be indexed by elasticsearch and presented as a feed. In order to test that code a UI is required which, given a feed URL, shows exactly how that feed will be parsed, indexed and displayed.
+
+<img src="http://waterpigs.co.uk/img/shrewdness-feed-test-ui.png" style="max-width: 100%;" />
+
+This, along with some pedagogy, could form the basis of a feed validation tool in the future.
+
+== Previous Work ==
+
+A screenshot of the personal indieweb search engine I made from my link archive:
+
+<img src="http://waterpigs.co.uk/img/2014-03-01-indie-search-halsway.png" style="max-width: 100%;" />
+
+Some screenshots of the anti-spam tool which got merged in to Shrewdness:
+
+<img src="http://waterpigs.co.uk/img/shrewdness-antispam-homepage.png" style="max-width: 100%;" />
+
+<img src="http://waterpigs.co.uk/img/shrewdness-antispam-crawling-dashboard.png" style="max-width: 100%;" />

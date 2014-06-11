@@ -7,10 +7,12 @@ A '''<dfn>disclosure</dfn>''' is a bit of content, typically on a [[home page]],
 * cookie tracking
 * analytics
 * affiliations with organizations (sometimes on specific [[posts]] that are topically related to those organizations)
-* services provided, such as webmentions.
+* services provided, such as webmentions
+* privacy policy, as it involves the above
 
 == IndieWeb Examples ==
 * Jeremy Zilar on his [http://silencematters.com/ silencematters.com] sidebar, has a Google Analytics disclosure and links to opt out and learn more: <blockquote>Note:<br/>I use Google Analytics to understand how people are using my website.<br/>Opt-out | Learn more</blockquote>
 
 == See Also ==
 * [[home page]]
+* [[privacy]]

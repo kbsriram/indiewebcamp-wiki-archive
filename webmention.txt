@@ -241,6 +241,7 @@ Some open source publishing software supports webmentions.
 * [[Wordpress#Mentions]]
 * [https://github.com/mapkyca/elgg-webmention Elgg]
 * [https://github.com/gRegorLove/nucleus-plugin-webmention Nucleus CMS]
+* [https://github.com/jgarber623/craft-webmention-client Craft CMS webmention client]
 * …
 
 === Services ===

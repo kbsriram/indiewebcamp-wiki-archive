@@ -154,8 +154,8 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 10
-* spots remaining: 40
+* signed-up: 12
+* spots remaining: 38
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -197,10 +197,10 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |name = [[User:Bret.io|Bret Comnes]]
 |img = http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=128
 |url = http://bret.io
-|org_name = 
-|org_url = 
-|projects = 
-|elsewhere = [https://twitter.com/bretolius @bretolius]
+|org_name = PSU:OIT:ARC
+|org_url = http://www.pdx.edu/arc/academic-and-research-computing
+|projects = [https://github.com/bcomnes/gitpub gitpub], [https://github.com/bcomnes/webmention.js webmention.js], editing the wiki
+|elsewhere = [https://twitter.com/bretolius @bretolius], [https://github.com/bcomnes/ github]
 }}
 {{Attendee
 |name = [[User:elladurham.com|Ella Durham]]
@@ -253,6 +253,13 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |org_url = http://psyhigh.com
 |projects =  
 |elsewhere = [https://twitter.com/psyhigh @psyhigh], [http://psychichighschool.tumblr.com/ tumblr: psychichighschool]
+}}
+{{Attendee
+|name = Colby Aley
+|img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
+|url = http://colbyaley.com/
+|projects = a2y (CMS under development)
+|elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
 }}
 
 === Apprentices ===
@@ -313,6 +320,15 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 |projects = [https://mailpile.is Mailpile], [https://social-igniter.com Social-Igniter] 
 |elsewhere = [https://github.com/brennannovak github.com/brennannovak], [https://twitter.com/brennannovak @brennannovak]
 }}
+{{Attendee
+|name = [[User:glennjones.net|Glenn Jones]]
+|img = http://glennjones.net/images/photo-small.png
+|url = https://glennjones.net
+|org_name = 
+|org_url = 
+|projects = [http://transmat.io Transmat], [https://github.com/glennjones/microformat-node microformat-node] [http://microformatshiv.com/ microformatshiv] [https://github.com/glennjones/webmentions webmentions-node]
+|elsewhere = [https://github.com/glennjones github.com/glennjones], [https://twitter.com/glennjones @glennjones]
+}}
 </div> <!-- h-event vevent -->
 
 === Regrets ===
@@ -322,7 +338,7 @@ Folks that can't make it (but hopefully can participate before/after remotely!)
 |name = Jason Garber
 |img = http://sixtwothree.org/jgarber.png
 |url = http://sixtwothree.org
-|projects = 
+|projects = [https://github.com/jgarber623/craft-webmention-client Craft CMS webmention client]
 |elsewhere = [https://twitter.com/jgarber @jgarber], [https://github.com/jgarber623 github.com/jgarber623]
 }}
 

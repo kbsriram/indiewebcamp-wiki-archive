@@ -4,7 +4,6 @@ http://indiewebcamp.com/events/2014-06-18-homebrew-website-club
 = <span class="p-name summary">Homebrew Website Club Meetup</span> =
 == Details ==
 === When ===
-
 <span class="dt-start dtstart"><time class="value">2014-06-18</time>: <br/>
 • <time class="value">18:30</time></span>-<span class="dt-end dtend"><time class="value">19:30</time> – Homebrew Website Club broadcast & peer-to-peer</span> meetup & beforehand:<br/>
 • optional 17:30-18:30 – quiet writing hour for the venues that explicitly have it.
@@ -22,6 +21,10 @@ All times are Pacific Time unless otherwise noted in venues.
 :<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Intelligentsia Coffee</span>], <span class="adr"><span class="p-street-address street-address">53 East Randolph St.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
 :''Note the Chicago meeting is at 18:30 CDT''
 
+;Minneapolis
+:<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Diamonds Coffee Shoppe</span>], <span class="adr"><span class="p-street-address street-address">1618 Central Ave NE</span>, <span class="p-locality locality">Minneapolis</span>, <span class="p-region region">Minnesota</span></span></span>
+:''Note the Minneapolis meeting is at 19:30 CDT'' (will sync with PDX and SF at 18:30 PDT)
+
 === What ===
 <div class="p-description description">
 {{new}} 17:30-18:30 '''Writing hour''' before the meetup. Come on by to blog or do other writing quietly.
@@ -36,9 +39,14 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 
 San Francisco:
 * add indieevent...
+* ... and POSSE copy
 
 Portland:
 * add indieevent...
+* ... and POSSE copy
+
+Minneapolis:
+* https://www.facebook.com/events/805644702779370
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -54,18 +62,27 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 '''Chicago:'''
+* {{gRegor}}
+* ... add yourself!
+
+'''Minneapolis:'''
+* {{tantek}}
 * ... add yourself!
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-06-18 IRC discussion archives 2014-06-18] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
-
+* ...
 
 '''Portland'''
-
+* ...
 
 '''Chicago'''
+* ...
+
+'''Minneapolis:'''
+* ...
 
 === Blog posts ===
 Blog posts before the meeting:

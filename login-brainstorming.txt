@@ -26,6 +26,8 @@ In this example, Aaron has delegated authorization to an external service:
 
 The site contains a web sign-in form prompting the user to enter their URL to sign in. Upon submitting the form, the site begins the auth process by discovering the user's auth endpoint.
 
+[[File:indieauth-web-sign-in.png]]
+
 == Discovery ==
 
 aaronparecki.com points to the authorization endpoint by specifying a rel values on the index page.
@@ -33,12 +35,14 @@ aaronparecki.com points to the authorization endpoint by specifying a rel values
 <pre>&lt;link rel="authorization_endpoint" href="https://indieauth.com/auth"&gt;</pre>
 
 == Authorization Endpoint ==
-The authorization endpoint is responsible for requesting authorization from the user and generating an '''authorization code'''. To start the sign-in flow, the user's browser will be directed to the authorization endpoint.
+The [[authorization-endpoint]] is responsible for requesting authorization from the user and generating an '''authorization code'''. To start the sign-in flow, the user's browser will be directed to the authorization endpoint.
 
 === Summary ===
 
 ==== Request ====
 Values are shown without URL encoding for readability.
+
+Starting the sign-in flow, direct the user's browser to the authorization endpoint with the parameters for the request. This is usually done via a <code>Location</code> header, but can optionally be an <code>&lt;a&gt;</code> tag with an href set to the authorization URL.
 
 <pre>
 https://indieauth.com/auth?me=https://aaronparecki.com/&
@@ -49,6 +53,17 @@ https://indieauth.com/auth?me=https://aaronparecki.com/&
 </pre>
 
 (Note: if response_type is omitted, it is assumed to be "id")
+
+;<tt>me</tt>
+: Full URI of the user's homepage
+;<tt>client_id</tt>
+: Full URI of the application's/website's home page
+;<tt>redirect_uri</tt>
+: Full URI to redirect back when the login process is finished
+;<tt>state</tt>
+: Application-internal state variable; can contain anything
+;<tt><strike>scope</strike></tt>
+: No scope parameter is used in this mode since the client is requesting identification only, not authorization.
 
 ==== Response ====
 The authorization server presents this information to the user, and when they approve, generates an '''authorization code''' and redirects the user to the redirect URI specified.

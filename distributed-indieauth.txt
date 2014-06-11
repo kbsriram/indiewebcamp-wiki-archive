@@ -1,5 +1,6 @@
 http://indiewebcamp.com/distributed-indieauth
 
+[[Category:IndieAuth]]
 {{stub}}
 
 == Level 1: Enable web sign-in ==
@@ -12,7 +13,7 @@ Link your website with a [[rel=me]] link to a common OAuth provider such as Gith
 Find or create an authorization server and tell IndieAuth clients to use it when signing in.
 
 === Use an authorization service ===
-Use an authorization service such as https://indieauth.com
+Use an authorization service such as https://indieauth.com or [[indieauth-openid]].
 
 === Create your own authorization endpoint ===
 * [[authorization-endpoint]]
@@ -34,5 +35,11 @@ Such as https://tokens.indieauth.com
 
 === More ===
 * [[auth-brainstorming]] (rough notes)
+
+
+== Sites that support distributed IndieAuth ==
+* [[OwnYourGram]] on http://ownyourgram.com/
+* [[Quill]] on https://quill.p3k.io/
+* [[Taproot]] on http://waterpigs.co.uk/
 
 __TOC__

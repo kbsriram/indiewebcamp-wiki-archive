@@ -2,10 +2,7 @@ http://indiewebcamp.com/pgp
 
 {{stub}}
 
-[https://tools.ietf.org/html/rfc4880 OpenPGP] (Pretty Good Privacy) is
-a message exchange format that uses public key cryptography to enable
-people to exchange encrypted and/or signed data. This page is intented
-for ideas about secure communication in the IndieWeb using OpenPGP.
+'''<dfn>[https://tools.ietf.org/html/rfc4880 OpenPGP]</dfn>''' (Pretty Good Privacy) is a message exchange format that uses public key cryptography to enable people to exchange encrypted and/or signed data. This page is intented for ideas about secure communication in the IndieWeb using OpenPGP.
 
 == IndieWeb Attendees using PGP to exchange encrypted messages ==
 

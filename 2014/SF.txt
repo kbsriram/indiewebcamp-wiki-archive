@@ -136,6 +136,11 @@ Articles and blog posts about IndieWebCamp SF:
 * 2014-02-27 Amber Case: <cite>[http://caseorganic.com/articles/2014/02/27/1/i-m-not-going-to-sxsw-this-year I'm not going to SXSW this year]</cite>
 * 2014-03-08 Dan Gillmor: <cite>[http://dangillmor.com/2014/03/08/learning-about-and-deploying-indieweb-tools/ Learning about, and deploying IndieWeb tools]</cite>
 
+== Photos ==
+[[File:2014-03-07-iwc-sf-pano.jpg|700px]]
+
+[[File:2014-03-08-iwc-sf-pano.jpg|700px]]
+
 == See Also ==
 * [[2014]]
 * [[events]]

@@ -20,6 +20,7 @@ Examples of IndieWeb sites which act as their own OpenID provider, without relyi
 
 Examples of IndieWeb sites which consume (allow login via) OpenID in particular (beyond using IndieAuth or any silo logins like Twitter, Facebook, Google+).
 * http://p.cweiske.de/
+* http://indieauth.id.cweiske.de/ via [[indieauth-openid]]
 * ... add yourself
 
 == Additional Examples ==
@@ -28,12 +29,14 @@ Additional examples of sites either natively providing OpenID or consuming it, m
 * ...
 
 == FAQ ==
-=== Why does IndieAuth not consume OpenID? ===
-Why doesn't [[IndieAuth]] support OpenID as an authentication mechanism?
+=== Why does indieauth.com not consume OpenID? ===
+Why doesn't [[indieauth.com]] support OpenID as an authentication mechanism?
 
 IndieAuth.com used to support OpenID, but there were a lot of problems with getting really weird errors back from OpenID providers inconsistently, and there seemed to be some issue with the omniauth OpenID plugin.
 
 IndieAuth.com can now be used as an OpenID provider (and thus delegate), however.
+
+You can use [[indieauth-openid]] if you want to sign in to IndieAuth sites with OpenID.
 
 == Shutdowns ==
 AKA <span id="Abandonment">Abandonment</span>. The following sites used to provide or accept (consume) OpenID as an identifier to log-in but no longer do. Most recent first:

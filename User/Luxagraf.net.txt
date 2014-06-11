@@ -8,4 +8,5 @@ is <span class="h-card"><a href="http://luxagraf.net/" class="external text">Sco
     <li>Full support for https</li>
     <li><strike>/notes sections for POSSE to twitter</strike>done</li>
     <li>send and backfeed webmentions for comments on notes and posts</li>
+    <li>Share photos to limited groups of people, e.g. only friends and family</li>
 </ul>

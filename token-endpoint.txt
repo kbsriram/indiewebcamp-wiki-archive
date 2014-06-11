@@ -12,7 +12,11 @@ If you later want to switch to hosting your own token endpoint, you can do so wi
 
 Requests will be made to the token endpoint after the client finishes communicating with the authorization server and obtains an auth code.
 
-=== Access Token Request ===
+A token endpoint must be able to both grant an access token as well as verify an access token.
+
+=== Granting an Access Token ===
+
+==== Access Token Request ====
 
 Requests to the token endpoint will contain the following parameters:
 
@@ -39,13 +43,13 @@ of this request:
 * <code>state</code>
 
 If the request is valid (the state, client_id, redirect_uri and code all correspond to the 
-authorization made by the user), he authorization endpoint will return a successful reply:
+authorization made by the user), the authorization endpoint will return a successful reply:
 
-<pre>me=http%3A%2F%2Faaronparecki.com&amp;scope=post</pre>
+<pre>me=https%3A%2F%2Faaronparecki.com&amp;scope=post</pre>
 
-This is how the token endpoint knows which scopes the user authorized 
+This is how the token endpoint knows which scopes the user authorized
 
-=== Generating an Access Token ===
+==== Generating an Access Token ====
 
 At this point, your token endpoint is ready to issue an access token to the app.
 
@@ -56,7 +60,7 @@ Since your token endpoint will be issuing the token, and your Micropub endpoint 
 the only thing that needs to validate tokens, how that works is entirely up to you, 
 and can even be changed later without any ill effects.
 
-==== Token Database ====
+===== Token Database =====
 
 A trivial way of creating access tokens is to use a database such as MySQL, Postgres,
 or Redis. Using this method, you would simply generate a long random string, and use
@@ -73,7 +77,7 @@ Unless you have a way of expiring and re-issuing tokens, your token database wil
 quickly grow in size and may eventually become unwieldy. Of course this also assumes
 that your website has a database to begin with, which is [[database-antipattern|not necessarily a safe assumption]].
 
-==== Self-Encoded Tokens ====
+===== Self-Encoded Tokens =====
 
 Self-encoded tokens are a way to create access tokens that doesn't require storing a 
 string in a database in order to look it up later. By encoding all of the token information
@@ -111,7 +115,7 @@ results in a string that is the access token.
 <pre>$token = JWT::encode($token_data, $encryption_key);</pre>
 
 
-=== Access Token Response ===
+==== Access Token Response ====
 
 However you generate an access token, you now have a string ready to reply to the client.
 
@@ -127,12 +131,38 @@ These should be returned as a www-form-encoded string in the response body, as f
 HTTP/1.1 200 OK
 Content-Type: application/x-www-form-urlencoded
 
-access_token=XXXXXX&amp;scope=post&amp;me=http%3A%2F%2Faaronparecki.com%2F
+access_token=XXXXXX&amp;scope=post&amp;me=https%3A%2F%2Faaronparecki.com%2F
 </pre>
 
 The reason for returning the "me" value is that the app does not yet know which user
 the authorization is for, and will use this value to discover the Micropub endpoint
 to make a request with the access token.
+
+=== Verifying an Access Token ===
+
+A [[micropub-endpoint|micropub endpoint]] will make a request to the token endpoint to verify that an incoming access token is valid.
+
+The micropub endpoint will make a request like the following:
+
+<pre>
+GET https://tokens.indieauth.com/token
+Authorization: Bearer xxxxxxxx
+</pre>
+
+The token endpoint looks at the token in the authorization header and verifies it. How exactly it does this is up to the implementation, such as in the example above of using either a self-encoded token or a database of tokens. After verifying the token is still valid, the token endpoint returns the information about the token such as the user and scope:
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: application/x-www-form-urlencoded
+
+me=https://aaronparecki.com/&
+client_id=https://ownyourgram.com&
+scope=post&
+issued_at=1399155608&
+nonce=501884823
+</pre>
+
+The micropub endpoint will then inspect these values and determine whether to proceed with the request.
 
 == See Also ==
 

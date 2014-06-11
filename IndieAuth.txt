@@ -133,6 +133,8 @@ What were these specific issues? Let's document them here:
 
 Github Issue: https://github.com/aaronpk/IndieAuth/issues/16
 
+You may use [[indieauth-openid]] to utilize [[OpenID]] for logging into indieauth sites.
+
 === Security ===
 * The token can be sent to IndieAuth without TLS (or the docs make it appear so) such a request should be refused (*not* redirected) to prevent DNS poisoning, MITM, and race-condition attacks.
 

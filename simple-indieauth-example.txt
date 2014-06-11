@@ -23,6 +23,8 @@ In this example, Aaron has not delegated authorization to an external service, b
 
 The site contains a web sign-in form prompting the user to enter their URL to sign in. Upon submitting the form, the site begins the auth process by discovering the user's auth endpoint, and if none is found, looks for supported rel=me services.
 
+[[File:indieauth-web-sign-in.png]]
+
 == Discovery ==
 
 aaronparecki.com points to multiple silo authorization services by specifying rel=me values on the index page.

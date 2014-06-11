@@ -40,6 +40,8 @@ Aaron's [[micropub]] endpoint is on his own domain:
 
 The app, ownyourgram.com, contains a web sign-in form prompting the user to enter their URL to sign in. Upon submitting the form, the app begins the auth process by discovering the user's endpoints.
 
+[[File:indieauth-web-sign-in.png]]
+
 == Discovery ==
 
 aaronparecki.com points to the three endpoints by specifying rel values on the index page.
@@ -100,7 +102,8 @@ me=https://aaronparecki.com/&
 code=xxxxxxxx&
 redirect_uri=https://ownyourgram.com/auth/callback&
 client_id=https://ownyourgram.com&
-state=1234567890
+state=1234567890&
+scope=post
 </pre>
 
 ==== Response ====

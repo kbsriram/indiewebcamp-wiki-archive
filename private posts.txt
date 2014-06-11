@@ -2,7 +2,7 @@ http://indiewebcamp.com/private_posts
 
 {{stub}}
 
-'''<dfn>private posts</dfn>''' refer to [[posts]] which are private to either the author or to a limited audience chosen by the author. Typical [[silos]] offer some form of private posts (or messaging, like email). This is a nascent area on the indieweb.
+'''<dfn>private posts</dfn>''' refer to [[posts]] which are [[privacy|private]] to either the author or to a limited audience chosen by the author. Typical [[silos]] offer some form of private posts (or messaging, like email). This is a nascent area on the indieweb.
 
 == Use Cases ==
 There are numerous use case for private posts, however here we are capturing use-cases raised by active Indieweb community members that wish to [[selfdogfood]] such features on their own site.
@@ -29,6 +29,7 @@ personal site / profile URL. apply caching as needed. once you make your address
 </blockquote>
 
 == See Also ==
+* [[privacy]]
 * [[indieweb-messaging]]
 * [[messaging]]
 * [[posts]]

@@ -25,7 +25,7 @@ For each h-entry, regardless of whether they’re being treated as a single post
 * to determine how to display the post as a comment, use the [[comment-presentation#How_to_display|comment presentation]] algorithm
 * to determine the published datetime:
 ** if the h-entry has a <var>published</var> or <var>updated</var> property which is a valid datetime
-*** if the datetime is floating (i.e. has no timezone), use the [[datetime#implying_timezone_from_webmentions implied timezone]] heuristic to determine the timezone
+*** if the datetime is floating (i.e. has no timezone), use the [[datetime#implying_timezone_from_webmentions|implied timezone]] heuristic to determine the timezone
 ** if the fixed published datetime is in the future, cap it to the present
 *** you may wish to preserve the source timezone in the derived time, and optionally also allow a small window within which “future” posts are accepted e.g. 10 minutes
 ** if there was no datetime, let the published datetime of the post be the datetime it was first seen

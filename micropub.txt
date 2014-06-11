@@ -102,6 +102,8 @@ The following properties may be included in a request to create a new [[h-entry]
 * category = tag1, tag2, tag3
 * slug 
 * location
+** as a [http://en.wikipedia.org/wiki/Geo_URI Geo URI], for example <code>geo:45.51533714,-122.646538633</code>
+** My micropub client currently has a map to mark the specific location in LatLng values, and a text input for an actual place name. So my client is sending a request of the form "&location=1.23,%40-4.56:An%40Address" [[User:Jonnybarnes.net|Jonnybarnes.net]] 07:57, 10 June 2014 (PDT)
 * in-reply-to
 * syndication
 ** Pass one or more URLs pointing to places where this entry already exists. Can be used for [[PESOS]] implementations.

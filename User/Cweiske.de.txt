@@ -3,6 +3,7 @@ http://indiewebcamp.com/User%3ACweiske.de
 * Blog: http://cweiske.de/tagebuch/
 
 Software written by cweiske to leave the cloud / host everything yourself:
+* [[indieauth-openid]] - Proxies IndieAuth authorization requests to one's OpenID server
 * [https://cweiske.de/phancap.htm phancap] - website screenshot service
 * [[phorkie]] - git-clonable pastebin
 * [http://semanticscuttle.sourceforge.net/ SemanticScuttle] - social bookmarking

@@ -1,21 +1,16 @@
 http://indiewebcamp.com/fragmention
 
-'''<dfn>Fragmention</dfn>''' is an experimental idea to link/refer to an arbitrary part of a document.
+A '''<dfn>fragmention</dfn>''' is an experimental extension to a URL to link and cite individual words or phrases of a document using double-hash anchors (<code>##</code>).
 
-= Overview =
+Example:
+* <code>http://www.kevinmarks.com/w3cannotation.html##most+robust+reference</code>
 
-Fragmentions enable you to use ## double-hash anchors as links to individual words or phrases on in a document.
-
-= Brainstorming =
-
-*  [[User:Kevinmarks.com|Kevin Marks]] had [http://indiewebcamp.com/irc/2014-04-16/line/1397696273 the idea] of using <pre>http://example.com/##this+is+a+test</pre> as a link to the part of the document with text <pre>this is a test</pre> and [[User:Jonathantneal.com|Jonathan Neal]] wrote a [https://github.com/chapmanu/fragmentions script] and a [https://chrome.google.com/webstore/detail/fragmentions/pgajkeekgcmgglngchhmcmnkffnhihck Chrome extension] to implement auto-scrolling to and highlighting fragmentions.
-
-= Usage =
-
+== Behavior ==
 Fragmentions find the first matching word or phrase in a document and focuses its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
 
-= Implementations =
-== indieweb implementations ==
+== IndieWeb Examples ==
+<span id="Implementations">Implementations</span> on IndieWeb sites.
+
 * [http://sandbox.thewikies.com/fragmentions/example.html##individual+words+and+phrases Jonathan's example page] 
 * [http://www.kevinmarks.com/w3cannotation.html##most+robust+reference Kevin's original page with Jonathan's script added]
 * [http://www.kevinmarks.com/fragmentions.html blogpost] explaining the idea more generally.
@@ -29,17 +24,17 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 * [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
 * [http://nerd.vasilis.nl/linking-fragments-page/##a+few+lines+of+CSS Styled with a tiny CSS animation] by Vasilis van Gemert
 
-== silo implementations ==
+__TOC__
+== Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
 * [http://bthdonohue.com/post/85643490431/instapaper-fragmentions Instapaper Support] 
 ** creates fragmention URLs for highlights and POSSEs them to twitter, tumblr, facebook etc. 
 ** Adds fragmention support to the Instapaper browser plugins for Chrome and Safari
 
-= Challenges =
-
+== Challenges ==
 While most find the idea of fragmentions delightful, there are differing ideas on how they should work. We ask contributors to justify feature requests with concrete real world examples, as tests in the wild may reveal best practices. Otherwise, any of these challenges could be appended with, ''“So, uh, what do you think?”''
 
-== Double-hashes in the wild ==
+=== Double-hashes in the wild ===
 
 The [http://tools.ietf.org/html/rfc3986#appendix-A URL spec] doesn't define fragments to contain hash signs, so links like <nowiki><a href="##foo"></nowiki> may fail validation, or be misparsed by strict URL parsers. if this is an issue, we may need to switch to #*
 : For future reference. Valid characters as per URL spec are: <nowiki>ALPHA / DIGIT / "-" / "." / "_" / "~" / "%" HEXDIG HEXDIG / "!" / "$" / "&" / "'" / "(" / ")" / "*" / "+" / "," / ";" / "=" / ":" / "@" / "/" / "?" </nowiki> -[[User:Sandeep.io|Sandeep.io]] 20:58, 23 April 2014 (PDT)
@@ -52,24 +47,24 @@ Further thought: as HTML5 ids can contain any text except a space character, any
 
 : The problem with this approach is that auto-linkers and URLs in other context (like plain text) don't know where the URL ends. -[[User:Sandeep.io|Sandeep.io]] 20:56, 23 April 2014 (PDT)
 
-== Sensitivity ==
+=== Sensitivity ===
 After trying it both ways, collapsing white space works better, as it is very hard to generate invisible escaped characters accurately.
 
 Matching case is strict, but makes it easier to target specific text. Ignoring case is cavalier, but makes it easier to target anything.
 
 The initial feedback is conflicting. Some expected fuzzy matching. Others expected specific matching. Most agreed that it depends on your specific use-cases, which are sorely lacking in most of the annotations discussions. Fuzzy matching could be seen as a further fallback strategy if direct matching fails.
 
-== URL encoding ==
+=== URL encoding ===
 
 Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus signs are interpreted as spaces or must be escaped (<nowiki>%2B</nowiki>). This makes for prettier, conforming URLs, but may also be confusing for users targeting phrases with special characters.
 
-== Proposed icon ==
+=== Proposed icon ===
 [[File:highlink.svg]] - This combines highlighting with linking and is thus a classic over-literal design by an engineer. Graphic designers very much welcomed to come up with something better.
 
-== Using Fragmentions in a TOC ==
+=== Using Fragmentions in a TOC ===
 Because Fragmentions by default link to the first occurrence of a phrase, it's not possible to use them in a table of contents on the same page if the table of contents appears above the things you're linking to. This is because the fragmentions would then link to themselves.
 
-== What if the linked-to text occurs more than once? ==
+=== What if the linked-to text occurs more than once? ===
 
 In [[User:Kevinmarks.com|Kevin Marks]]' [http://www.kevinmarks.com/poemfragmentions.html##What+if+the+linked-to+text+occurs+more+than+once follow-up post], he suggests using more words to create a unique reference, rather than trying to find a technical solution to the problem. 
 
@@ -79,7 +74,7 @@ Proposed solution to reference the nth occurrence of a phrase:
 * http://kartikprabhu.com/static/demo/fragmention.html##was+still++2
 * http://kartikprabhu.com/static/demo/fragmention.html##was+still++-1
 
-= Related work =
+== Related work ==
 The NY Times has [http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/ a tool for annotating articles], but it makes a very complex anchor and requires a very specific algorithm. [https://github.com/NYTimes/Emphasis source here]
 
 There is a w3c spec for addressing [http://www.w3.org/TR/media-frags Media Fragments] but it explicitly excludes HTML.
@@ -110,7 +105,7 @@ There is a w3c spec for addressing [http://www.w3.org/TR/media-frags Media Fragm
 
 See also: http://en.wikipedia.org/wiki/Fragment_identifier#Proposals
 
-= Discussion =
+== Discussion ==
 
 Alternative proposal: use quoted string literals. Example: <nowiki>http://example.com/index.html#"string to search"</nowiki>. &mdash;[[User:Sandeep.io|Sandeep.io]] 20:11, 23 April 2014 (PDT)
 On thinking about this a little, it doesn't sound like a good idea (for various reasons including the fact that the href attribute is quote delimited), but I like conveying the idea of "search for string literal" &mdash;[[User:Sandeep.io|Sandeep.io]] 20:30, 23 April 2014 (PDT)

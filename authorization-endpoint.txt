@@ -1,0 +1,45 @@
+http://indiewebcamp.com/authorization-endpoint
+
+{{stub}}
+
+An '''<dfn>authorization endpoint</dfn>''' is an HTTP endpoint that [[micropub]] and [[IndieAuth]] clients can use to identify a user or obtain an authorization code to be able to post to their website. 
+
+== Using an Authorization Service ==
+
+You can use an existing authorization service such as [[indieauth.com]] if you don't want to build your own authorization service.
+
+== Creating an Authorization Endpoint ==
+
+An authorization endpoint must be able to both generate authorization codes as well as verify authorization codes.
+
+=== Generating Authorization Codes ===
+
+
+=== Verifying Authorization Codes ===
+
+
+== FAQ ==
+==== Why are auth codes verified with a POST instead of a GET ====
+If auth codes are sent as a GET request in the query string, they may leak to log files or the HTTP "referer". The decision was made by the OAuth 2.0 working group to use POST requests and the HTTP Authorization header for sending these sensitive tokens and auth codes.
+* http://tools.ietf.org/html/rfc6819#section-4.6.7
+* http://tools.ietf.org/html/rfc6819#section-5.4.1
+
+==== Can the authorization codes be used more than once ====
+No, the authorization code must not be used more than once. If the code is used more than once, the authorization server must deny the request.[http://tools.ietf.org/html/rfc6749#section-4.1.2] A maximum lifetime of 10 minutes is recommended for the authorization codes, although many implementations have a lifetime of 30-60 seconds.
+
+==== Can I add additional parameters for the authorization request ====
+No, but you can use the "state" parameter to encode or reference additional application-specific parameters. The state parameter will be passed around and was designed for this purpose as well as to [http://tools.ietf.org/html/rfc6749#section-10.12 prevent CSRF attacks].
+
+==== Does the auth server have to support the state parameter ====
+Yes, the state parameter can be used by the client to maintain state between the request and the callback, so the auth server must support it. It is also used to [http://tools.ietf.org/html/rfc6749#section-10.12 prevent CSRF attacks].
+
+== Software implementing the authorization endpoint spec ==
+* [[indieauth.com]]
+* [[indieauth-openid]]
+
+== See Also ==
+* [[IndieAuth]]
+* [[micropub]]
+* [[login-brainstorming]]
+
+[[Category:IndieAuth]]
