@@ -1,14 +1,18 @@
 http://indiewebcamp.com/note-list
 
-Displaying a list of notes (tweets/status updates, i.e. short textual messages. Often highly time-context sensitive) is such a hugely common activity.
+{{stub}}
 
-== Documented Examples ==
+A '''<dfn>note list</dfn>''' is a common design pattern, like a [[stream]] of short textual messages e.g. tweets/status updates. Often highly time-context sensitive.
 
-* [[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note-list/list here], including examples from:
-** Facebook (Web UI)
-** Twitter (Web, Mac App)
-** waterpigs.co.uk
-** aaronparecki.com
+== IndieWeb Examples ==
+* waterpigs.co.uk
+* aaronparecki.com
+
+[[User:waterpigs.co.uk|Barnaby Walters]] has a collection of annotated screenshots [http://photos.waterpigs.co.uk/photos/tags-note-list/list here].
+
+== Silo Examples ==
+* Facebook (Web UI)
+* Twitter (Web, Mac App)
 
 == Common Denominators ==
 
@@ -33,3 +37,5 @@ There are certain UI elements which are common to most implementations. These in
 * [http://ui-patterns.com/patterns/ActivityStream ActivityStream Pattern Docs on ui-patterns.com]
 * [http://developer.yahoo.com/ypatterns/social/people/presence/updates.html Updates design pattern on Yahoo Pattern Library]
 * [http://www.designingsocialinterfaces.com/patterns.wiki/index.php?title=Updates Updates design pattern on Designing Social Interfaces wiki]
+* [[note]]
+* [[collections]]

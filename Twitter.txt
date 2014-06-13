@@ -238,6 +238,10 @@ When you post a [[favorite]] of an indieweb post:
 ** natively favorite that tweet URL on Twitter itself
 * end if
 
+== Embedding Tweets ==
+
+Twitter offers an embed link on its site that allows one to embed the appearance/text of a tweet in one's own page, as well as oembed option. As both the oembed and the embed include the text of the tweet in a blockquote, if Twitter shut down, this could continue to display the text minus the appearance.
+
 == iOS client ==
 
 ''See full article: [[Twitter-API]]''

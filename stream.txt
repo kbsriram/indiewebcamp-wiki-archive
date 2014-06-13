@@ -11,3 +11,4 @@ A [[composite stream]] includes multiple post types.
 * [[PuSH]]
 * [[hAtom]] / [[h-entry]]
 * [[reader]]
+* [[note-list]]

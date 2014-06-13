@@ -12,3 +12,6 @@ Supports federation by talking to other instances via [[webmention]]s (with ping
 Indieweb enthusiasts currently using it on their own site:
 
 * [[User:cweiske.de]] on http://p.cweiske.de/
+
+== Screenshots ==
+[[Image:phorkie_remote_fork_display.png|thumb|phorkie displaying forks on remote systems that notified the origin via webmentions]]

@@ -21,6 +21,14 @@ favorites of a user:
 photos of a user: (people tagged)
 * http://api.flickr.com/services/feeds/profile_photos.gne?nsid=39039882@N00&lang=en-us&format=atom
 
+== Privacy ==
+
+=== Location data has different privacy settings from the photos ===
+Photos on Flickr have a privacy setting for seeing the photo itself, and a separate privacy setting for viewing the location of the photo. For example it is possible to set a photo to public, but have the location only visible to "Friends and Family".
+
+=== Geofencing ===
+Flickr allows you to configure one or more geofences around locations such as "home" or "work", and any time photos are uploaded that fall into that area, the geo privacy will be set automatically.[http://blog.flickr.net/2011/08/30/introducing-geofences-on-flickr/]
+
 == Issues ==
 === Downtime ===
 * 2007-02-19 Flickr massage: [http://www.flickr.com/photos/tantek/420426227/ http://farm1.staticflickr.com/186/420426227_dda4d24789_o.png]

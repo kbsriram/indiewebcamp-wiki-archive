@@ -11,7 +11,9 @@ __NOTOC__
 
 My name is gRegor Morrill and I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.
 
-PHP is my primary language, but I am branching out into Python lately to broaden my experience.
+PHP is my primary language, but I would like to branch out into Python to broaden my experience.
+
+I helped start the Chicago chapter of the [[Homebrew Website Club]] and am looking forward to attending [[2014|IndieWebCamp West 2014]].
 
 == Contributions ==
 * [https://github.com/gRegorLove/nucleus-plugin-webmention Webmention plugin] for Nucleus CMS

@@ -2,6 +2,8 @@ http://indiewebcamp.com/Taproot
 
 = <span class="p-name">Taproot</span> =
 
+http://waterpigs.co.uk/taproot/logo.png
+
 <span class="p-summary"><a class="u-url" href="http://taprootproject.com">Taproot</a> is <span class="p-author h-card">[[User:WaterPigs.co.uk|Barnaby Walters]]</span>’ publishing software, written in [[PHP]] 5.4 and driving most of [http://waterpigs.co.uk waterpigs.co.uk]. It is not currently released to the public.</span> However, various parts of it have been extracted into libraries:
 
 * [https://github.com/indieweb/php-mf2 php-mf2] for parsing [[microformats]]2 data

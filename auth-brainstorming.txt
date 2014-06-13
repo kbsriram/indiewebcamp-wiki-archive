@@ -79,8 +79,8 @@ Location: https://ownyourgram.com/auth/callback?code=xxxxxxxx
 
 === Authorization ===
 The authorization server should present an interface describing the request being made. It must indicate:
-* The client_id making the request
-** Including the name and logo if an [[h-card]] is found on the client_id URL
+* The client_id making the request, which should be a valid URL
+** If [[h-product]] or [[h-x-app]] markup is found when fetching client_id, verify that any u-url/u-uid property given matches the client_id, and if so display the name and logo/photo properties of the app to ease identification. Note that the client_id MUST always be verified *and* displayed prominently to prevent identity spoofing
 * The requested scope
 ** May include an interface that allows the user to adjust the scope that will actually be granted
 

@@ -90,5 +90,6 @@ Please keep sorted alphabetically
 * {{irc user|christopheducamp.com|xtof|Europe/Paris}}
 * {{irc user|Vanderven.se Martijn|Zegnat|Europe/Stockholm}}
 * {{irc user|Traviswellman.com|zztr,zztw|America/Los_Angeles}}
+* {{irc user|wolftune.com|wolftune|America/Los_Angeles}}
 
 * ... add yourself (and sort yourself into the above, unless your IRC nickname really is last alphabetically :)

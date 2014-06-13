@@ -349,7 +349,7 @@ Sites and applications that publish via micropub.
 * [[User:aaronparecki.com|aaronpk]]'s [https://github.com/aaronpk/PushupCounter-iOS PushupCounter-iOS] is an iOS client for publishing exercise data.
 * [[User:aaronparecki.com|aaronpk]]'s [http://ownyourgram.com/ OwnYourGram] is a tool to reverse-syndicate instagram photos to your personal site, using micropub. 
 ** The signup process contains lots of useful documentation and debugging information to help get new micropub implementations working.
-* [[User:waterpigs.co.uk|Barnaby]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new The post UI] is publicly accessible, and you can use it to make posts on your own website. 
+* [[User:waterpigs.co.uk|Barnaby]]'s [[Taproot]] publishes notes via micropub. [http://waterpigs.co.uk/notes/new/ The post UI] is publicly accessible, and you can use it to make posts on your own website. As of 2014-06-12 it’s also marked up with h-product and h-x-app markup so that authorization UIs can provide a better experience whilst authorizing, without having to pre-register apps and upload logos
 * [[User:notenoughneon.com|Emma]]'s post UI creates notes and articles via micropub.
 * ...
 

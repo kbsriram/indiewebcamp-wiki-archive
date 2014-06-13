@@ -80,6 +80,10 @@ In order of deployment:
 * '''[[User:Kartikprabhu.com|Kartik Prabhu]]''' displaying minimal reply-contexts on kartikprabhu.com since at least 2014-03-17
 ** [http://kartikprabhu.com/notes/disappearing-ny-book example]
 
+* '''[[User:Snarfed.org]]''' displaying reply-contexts as embeds on [https://snarfed.org/ snarfed.org] (and like-contexts, repost-contexts, etc). [https://snarfed.org/responses See all replies.]
+** [https://snarfed.org/2014-06-05_twitter-therealfitz-this-analysis-of-restaurants Twitter example]
+** [https://snarfed.org/2014-05-28_alexis-shoemate-for-you-and-gina Facebook example]
+
 == Brainstorming ==
 === CRUD ===
 Though one advantage of storing and showing a reply-context is freezing the original context of what you're replying to, it may make sense to accept some updates.

@@ -167,6 +167,14 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/aaronpk @aaronpk], [https://github.com/aaronpk github.com/aaronpk]
 }}
 {{Attendee
+|name = [[User:Wolftune.com|Aaron Wolf]]
+|img = https://snowdrift.coop/static/img/aaron.jpg
+|url = http://wolftune.com/
+|org_name = Snowdrift.coop
+|org_url = https://snowdrift.coop
+|projects =  
+}}
+{{Attendee
 |name = [[User:Caseorganic.com|Amber Case]]
 |img = http://caseorganic.com/images/caseorganic-indieweb-128px.jpg
 |url = http://caseorganic.com/
@@ -203,6 +211,22 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/bretolius @bretolius], [https://github.com/bcomnes/ github]
 }}
 {{Attendee
+|name = Colby Aley
+|img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
+|url = http://colbyaley.com/
+|projects = a2y (CMS under development)
+|elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
+}}
+{{Attendee
+|name = [[User:Psyhigh.com|Darin Sennett]]
+|img = http://psyhigh.com/images/darin.jpg
+|url = http://psyhigh.com
+|org_name  = Psychic High School
+|org_url = http://psyhigh.com
+|projects =  
+|elsewhere = [https://twitter.com/psyhigh @psyhigh], [http://psychichighschool.tumblr.com/ tumblr: psychichighschool]
+}}
+{{Attendee
 |name = [[User:elladurham.com|Ella Durham]]
 |img = http://elladurham.com/images/elladurham-indieweb-128px.jpg
 |url = http://elladurham.com/
@@ -221,15 +245,6 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/gRegorLove @gRegorLove]
 }}
 {{Attendee
-|name      = [[User:Iamshane.com|Shane Becker]]
-|img       = http://iamshane.com/assets/shane-becker-avatar-circle-small.png
-|url       = http://iamshane.com
-|org_name  = Hypernova
-|org_url   = http://hypernova.io
-|projects  = [https://github.com/veganstraightedge/New_Base_60 NewBase60 gem], [https://github.com/homesteading Homesteading]
-|elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
-}}
-{{Attendee
 |name = [[User:Adaburrows.com|J A Burrows]]
 |img = http://www.gravatar.com/avatar/44645c684eb67fc38f700fdf5ff4ff2c.png?s=128
 |url = http://adaburrows.com/
@@ -239,6 +254,15 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/jburrows @jburrows], [https://github.com/adaburrows GitHub]
 }}
 {{Attendee
+|name = [[User:Upon2020.com|Johannes Ernst]]
+|img = http://upon2020.com/public/portrait-128x128.jpg
+|url = http://upon2020.com
+|org_name  = Indie Computing Corp.
+|org_url = http://indiecomputing.com
+|projects =  [http://indieboxproject.org/ Indie Box]
+|elsewhere = [https://twitter.com/Johannes_Ernst @Johannes_Ernst]
+}}
+{{Attendee
 |name = Paul Munday
 |img = http://www.gatheringstorms.org/images/icon.jpg
 |url = http://paulmunday.net
@@ -246,20 +270,13 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://github.com/tallus/ github.com/tallus/]
 }}
 {{Attendee
-|name = [[User:Psyhigh.com|Darin Sennett]]
-|img = http://psyhigh.com/images/darin.jpg
-|url = http://psyhigh.com
-|org_name  = Psychic High School
-|org_url = http://psyhigh.com
-|projects =  
-|elsewhere = [https://twitter.com/psyhigh @psyhigh], [http://psychichighschool.tumblr.com/ tumblr: psychichighschool]
-}}
-{{Attendee
-|name = Colby Aley
-|img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
-|url = http://colbyaley.com/
-|projects = a2y (CMS under development)
-|elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
+|name      = [[User:Iamshane.com|Shane Becker]]
+|img       = http://iamshane.com/assets/shane-becker-avatar-circle-small.png
+|url       = http://iamshane.com
+|org_name  = Hypernova
+|org_url   = http://hypernova.io
+|projects  = [https://github.com/veganstraightedge/New_Base_60 NewBase60 gem], [https://github.com/homesteading Homesteading]
+|elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
 }}
 
 === Apprentices ===
