@@ -10,9 +10,8 @@ http://indiewebcamp.com/User%3AKylewm.com
 * send webmention when comments are deleted; <strike>receive webmentions from deleted comments</strike>
 * <strike>Improve timezone handling 
 ** e.g., first comment on http://kylewm.com/article/2014/03/21/1/uploading-media-through-the-twitter-api was at 8:43am but displays as 1:43am</strike>. This is working well enough for now 
-* Mobile / photo uploads 
-** currently resized to small/medium/large automatically and embedded w/ link to the original.
-** I think that uploads from Android do not properly orient to portrait
+* <strike>Mobile / photo uploads
+** resize dynamically on first request for e.g., ?size=medium</strike>
 * Move flat file store into git (use python sh library to shell out to git)
 * Threaded conversations?
 ** write proof of concept thread discovery first
@@ -21,9 +20,11 @@ http://indiewebcamp.com/User%3AKylewm.com
 * Generalize article/note/reply/share/like, since they're already all the same data structure. 
 ** Sometimes an article is in reply to something else, but it's an article, not a reply
 ** Want to be able to add new ones (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
+* post notes and syndicate to twitter from the main page, fewer clicks
 
 === other ideas ===
 
+* Browser plugin to display a status icon if the current site accepts webmentions and/or pingbacks. Clicking could bring up more detailed information: h-feed, microformats2, microformats1, etc. [https://kylewm.com/reply/2014/06/06/1] 
 * <strike>Working on [[posse-post-discovery]]</strike>
 * Curious to explore what ([[generations|generation 2]]) people can do to "get their feet wet" without much effort/expense. E.g., you can skip around, add microformats without buying a domain name, and still get some fun benefits right away.
 * In the Bridgy mould, would it be useful to extract webmention sending as a separate service that could watch an h-feed and send mentions for links in new entries? PuSH consuming and monitoring for updates/deletes would be a little tricky.

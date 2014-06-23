@@ -85,9 +85,9 @@ Venue Capacity: 20
 |name = [[User:Werd.io|Ben Werdmuller]]
 |img = http://benwerd.com/gfx/benwerd.jpg
 |url = http://werd.io
-|org_name = Idno
-|org_url = http://idno.co
-|projects = http://idno.co
+|org_name = Known
+|org_url = http://withknown.com
+|projects = http://withknown.com
 |elsewhere = [https://twitter.com/benwerd @benwerd]
 }}
 {{Attendee
@@ -103,8 +103,8 @@ Venue Capacity: 20
 |name = [[User:Erinjorichey.com|Erin Jo Richey]]
 |img = http://erinjorichey.com/128.jpg
 |url = http://erinjorichey.com
-|org_name = 
-|org_url = 
+|org_name = Known
+|org_url = http://withknown.com
 |projects = 
 |elsewhere = [https://twitter.com/erinjo @erinjo], [http://erinjo.is erinjo.is]
 }}
@@ -126,7 +126,6 @@ Venue Capacity: 20
 |projects = 
 |elsewhere = [https://twitter.com/yourname @yourname]
 }}
-
 
 ===Volunteer===
 * Want to help?''' [[2014/Cambridge/Planning|Sign up to volunteer!]].

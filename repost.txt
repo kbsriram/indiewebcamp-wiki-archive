@@ -17,14 +17,29 @@ Why implement reposting:
 * ...
 
 == IndieWeb Examples ==
-[[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io since at least ????-??-??, [http://www.sandeep.io/35 example]
+=== Sandeep Shetty ===
+[[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io [http://www.sandeep.io/35 since at least 2013-06-04]. Examples:
+* http://www.sandeep.io/35
 
+=== Barry Frost ===
 [http://barryfrost.com/ Barry Frost] has been experimenting with using <code>u-repost</code> for reposts since at least ????-??-??, example?
 
-[[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com since at least 2014-04-14, including multiple reposts: [http://kylewm.com/share/2014/04/14/1 example]
+=== Barnaby Walters ===
+[[User:waterpigs.co.uk|Barnaby Walters]] manually reposted [http://waterpigs.co.uk/articles/getting-started-with-microformats2/ Getting Started With microformats2] on microformats.org using [[WordPress]] and <code>u-repost-of</code> markup [http://microformats.org/2014/03/05/getting-started-with-microformats2 on 2014-03-05]. Example(s):
+* http://microformats.org/2014/03/05/getting-started-with-microformats2 
 
-Barnaby Walters’ manually reposted [http://waterpigs.co.uk/articles/getting-started-with-microformats2/ Getting Started With microformats2] on microformats.org using [[WordPress]]: http://microformats.org/2014/03/05/getting-started-with-microformats2
+=== Ryan Barrett ===
+[[User:snarfed.org|Ryan Barrett]] uses [[WordPress]] to and the IndieWeb [[Press This]] bookmarklet to repost tweets and POSSE retweets [https://snarfed.org/2014-04-21_twitter-t-going-to-homebrew-website-club since at least 2014-04-21]. Examples:
+* https://snarfed.org/2014-04-21_twitter-t-going-to-homebrew-website-club
+** retweet of: https://twitter.com/t/status/458308409558040577
 
+=== Kyle Mahan ===
+[[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com [https://kylewm.com/share/2014/06/10/1 since at least 2014-06-10]. Example:
+* https://kylewm.com/share/2014/06/10/1
+** POSSE native retweet: https://twitter.com/kyle_wm/status/476161871926816768
+
+== Services ==
+=== Bridgy ===
 [[Bridgy]] sends webmentions for Facebook and Google+ reshares and Twitter retweets, as reposts. It uses <code>class="u-repost u-repost-of"</code> to support both the established property name and the earlier, experimental property name.
 
 == How to Publish ==

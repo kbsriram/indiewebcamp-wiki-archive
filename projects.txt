@@ -1,35 +1,49 @@
 http://indiewebcamp.com/projects
 
-'''Indie Web Projects'''
+These are '''<dfn>projects</dfn>''' you can use to get your site on the IndieWeb and improve your IndieWeb support.
 
-A list of projects supporting or being actively used by IndieWebCamp [[Guest_List|participants]] and community members to create the Indie Web.
+== Get On The IndieWeb ==
+The following open source projects can be installed on a website and will get you on the IndieWeb. In rough order of adoption and active use by the IndieWeb community:
 
-Split into production, experimental, hacks, and explorations as well as other for projects that are or appear to be IndieWeb related but are either not in use by any attendee or status is unknown.
+=== Known ===
+{{main|Known}}
+'''[[Known]]''' (formerly ''<span id="idno">idno</span>'') aims to be an open publishing / community platform that's easy to install, use and customize, and which adheres to IndieWeb technologies and principles. It's currently being developed in public [https://github.com/idno/idno on GitHub]; a stable release will be made from [http://idno.co idno.co] later in 2013. [[User:benwerd.com|Ben Werdmuller]] is hoping to work with third-party hosting providers to make it easy for users to get an idno site that is both turnkey and fully under their control.
 
-Within each quality level the projects are listed by:
-* Primary blogging / content hosting systems listed first, additional content hosting systems (e.g. for a specific content type only), and then other useful indieweb building block projects.
-* Then by # of IndieWebCamp participants + other independents using each project.
+IndieWebCamp participants that are using it on their own site:
+* [[User:Werd.io|Ben Werdmuller]] (author) on http://werd.io/ ([[selfdogfooding]])
+* [[User:Erinjorichey.com|Erin Jo Richey]]
+* ...
+Additional independents currently using it on their primary site:
+* Jesse Vincent on http://s.ly
+* ...
 
-Sorted within each quality level by number of IndieWebCamp participants actively using it on their primary self-identity site (thus you can quickly see which projects are the most "real", in-use, and likely well supported).
+== Get Inspired ==
+The following projects are actively being used by their creators ([[selfdogfood]]) and have excellent examples of indieweb sites both in [[design]], and [[IndieMark|indieweb feature support]]. These projects are not yet easily "installable" by someone other than the creator(s).
 
-See also offsite:
-* [http://libreprojects.net Libre Projects] - usable, hosted, open source web software
-* [https://github.com/indieweb github.com/indieweb organization] - repositories related to the indieweb. Once Mime adds [[2012/Guest_List|2012 participants]] to the organization, we'll be able to fork our projects to it so we can all follow each others' progress!
+These projects often provide at least some [[building blocks]] functionality in the form of open source shared libraries or functions which can help bootstrap anyone looking to build their own indieweb solution.
+
+=== p3k ===
+{{main|p3k}}
+'''[[p3k]]''' is personal publishing platform.
+
+IndieWebCamp participants that are using it on their primary site:
+* {{aaronpk}} (author) on http://aaronparecki.com/ ([[selfdogfooding]])
+* [[User:Caseorganic.com|Amber Case]] on http://caseorganic.com/
+* ...
+
+
+----
+below this line is...
+
+= Under Construction =
+
+<div style="padding:1em; background:yellow">This page is being simplified and focused on providing a quickly usable list of projects to help you get on the indie web and improve your [[IndieMark]]. For details about this page and the in-progress transition, see [[#About_This_Page|About This Page]].</div>
+
 
 == production ==
 Production = the software fully launched and good enough for other independents to <em>relatively</em> easily install, use, maintain, depend on.
 
 Server / Blogging / content hosting projects:
-
-=== Apache ===
-{{main|Apache}}
-
-Apache is the most popular HTTP (web) server software, and an open source project.
-
-=== Nginx ===
-{{main|nginx}}
-
-Nginx is another popular HTTP (web) server software and open source.
 
 === WordPress ===
 {{main|WordPress}}
@@ -73,6 +87,19 @@ IndieWebCamp participants who are or were using it on their own site:
 * Evan Prodromou (2012) : <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013 - being converted to [[pump.io]])
 * ...
 
+=== WordPress.com ===
+[[WordPress#WordPress.com_hosting_service|WordPress.com]] is a hosted blog service that runs on [[WordPress]]. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes WordPress.com a first-class (if limited) IndieWeb platform.
+
+=== Tumblr ===
+{{main|Tumblr}}
+
+[http://tumblr.com Tumblr] is a hosted blog service. You can author [[microformats]] by editing your template's HTML, and you can use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Tumblr a first-class (if limited) IndieWeb platform.
+
+=== Blogger ===
+{{main|Blogger}}
+
+[https://www.blogger.com Blogger] is a hosted blog service. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Blogger a first-class (if limited) IndieWeb platform.
+
 === Publify ===
 {{main|Publify}}
 [https://github.com/fdv/publify/ Publify] is a Ruby on Rails blogging engine with extended publishing capacities that's recently been taking a turn as an Indie Web project. Publify and supported plugins are free software released under the MIT licence. Publify needs a database like MySQL, PostgreSQL or SQLite.
@@ -88,6 +115,16 @@ Other independents that are using it on their <em>primary</em> self-identifying 
 * Frédéric de Villamil (neuro`) (since 2006): [http://t37.net t37.net]
 * Don Park (donpdonp) (since 2008) [http://donpark.org donpark.org]
 * ...
+
+=== Apache ===
+{{main|Apache}}
+
+Apache is the most popular HTTP (web) server software, and an open source project.
+
+=== Nginx ===
+{{main|nginx}}
+
+Nginx is another popular HTTP (web) server software and open source.
 
 === Other Production Projects ===
 Other projects which are production quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
@@ -115,25 +152,6 @@ Stuff that you've at least got running on your own site, but is perhaps not stab
 
 Experimental blogging / content hosting projects sorted by number of indieweb community members actively using them on their own primary personal site (and then alphabetically).
 
-=== p3k ===
-{{main|p3k}}
-'''[[p3k]]''' is personal publishing platform.
-
-IndieWebCamp participants that are using it on their primary site:
-* [[User:Aaronparecki.com]] (author) on http://aaronparecki.com/ ([[selfdogfooding]])
-* [[User:Caseorganic]] on http://caseorganic.com/
-* ...
-
-=== idno ===
-{{main|idno}}
-'''[[idno]]''' aims to be an open publishing / community platform that's easy to install, use and customize, and which adheres to IndieWeb technologies and principles. It's currently being developed in public [https://github.com/idno/idno on GitHub]; a stable release will be made from [http://idno.co idno.co] later in 2013. [[User:benwerd.com|Ben Werdmuller]] is hoping to work with third-party hosting providers to make it easy for users to get an idno site that is both turnkey and fully under their control.
-
-IndieWebCamp participants that are using it on their own site:
-* [[User:Werd.io|Ben Werdmuller]] (author) on http://werd.io/ ([[selfdogfooding]])
-* ...
-Additional independents currently using it on their primary site:
-* Jesse Vincent on http://s.ly
-* ...
 
 === Converspace ===
 {{main|Converspace}}
@@ -545,5 +563,48 @@ Other instances / earlier work:
 
 [[Category:how]]
 
+== About This Page ==
+The [[projects]] page is focused on providing a clear flat list of projects you can set up on your own site to join the indie web.
+
+Some design thinking for this page. 
+* Project inclusion requirements:
+** indieweb community adoption and active use 
+** [[selfdogfood]]
+* Project ordering criteria:
+** 1. What can I setup right now to '''get on''' the indieweb?
+** Prefer community member maintained projects over general tools
+** 2. What projects have '''inspiring''' indieweb examples? E.g.
+*** Have reasonably nice looking home page and permalinks
+*** Then ordered by apparent (actual in use) IndieMark level
+* Each project listing should:
+** list a few (1-3 max) indieweb examples actively using the project
+*** Full list of active users on the actual project page
+** preferably exemplary - i.e. of high [[IndieMark]]
+** "tour-worthy" - sites you'd want to show someone new to the indieweb as clear examples of appealing / useful / empowering indieweb sites.
+** at least 1 selfdogfood example of (most) primary project developer
+* Sections
+** Get rid of release vs experimental vs. etc. This distinction was useful originally, but now # of active indieweb users acts as a better evaluation of project usability/usefulness. Many "experimental" projects are more useful/usable and advancing faster than officially released/stable projects.
+** Primary indieweb site software (e.g. Known, p3k, Publify, Taproot, Ferocity, Falcon)
+** Service hubs / proxies (e.g. webmention.io, brid.gy)
+
++1 to this --<span class="h-card">{{sparkline|https://farm3.staticflickr.com/2926/14055807513_dea2b533b6_s.jpg}}[[User:Bret.io|Bret Comnes]]</span> 15:25, 18 June 2014 (PDT)
+
+=== Formerly ===
+Split into production, experimental, hacks, and explorations as well as other for projects that are or appear to be IndieWeb related but are either not in use by any attendee or status is unknown.
+
+Within each quality level the projects are listed by:
+* Primary blogging / content hosting systems listed first, additional content hosting systems (e.g. for a specific content type only), and then other useful indieweb building block projects.
+* Then by # of IndieWebCamp participants + other independents using each project.
+
+Sorted within each quality level by number of IndieWebCamp participants actively using it on their primary self-identity site (thus you can quickly see which projects are the most "real", in-use, and likely well supported).
+
+See also offsite:
+* [http://libreprojects.net Libre Projects] - usable, hosted, open source web software
+* [https://github.com/indieweb github.com/indieweb organization] - repositories related to the indieweb. Once Mime adds [[2012/Guest_List|2012 participants]] to the organization, we'll be able to fork our projects to it so we can all follow each others' progress!
+
 == See Also ==
+* [[Getting Started]]
+* [[IndieMark]]
+* [[PHP]] - PHP specific libraries and projects
 * [[Python]] - libraries and projects specific to the small, vocal minority of IWC Python developers
+* [[Ruby]] - Ruby specific libraries and projects

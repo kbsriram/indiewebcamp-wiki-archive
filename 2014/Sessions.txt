@@ -8,7 +8,7 @@ See: [[2014/Schedule|2014 Schedule]]
 __TOC__
 
 == Have ==
-''Add your session ideas for things you want to talk / lead a discussion about. Be sure to add your name.''
+''Add your session ideas for things you want lead a discussion about. Be sure to add your name.''
 
 === Session Title ===
 '''Proposed by: ___''' 
@@ -17,9 +17,10 @@ Description
 
 
 == Want ==
+''If you are interested in a topic but do not feel like you can lead the discussion, add it here.''
 
 === Session Topic ===
-'''Requested by: ___''' 
+'''Requested by: ___'''
 
 Details 
 

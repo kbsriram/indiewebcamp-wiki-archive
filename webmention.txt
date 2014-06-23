@@ -112,6 +112,7 @@ Some implementations now display a page that briefly explains webmentions when t
 
 * {{aaronpk}} at https://aaronparecki.com/webmention.php
 * [[User:kylewm.com|Kyle Mahan]] at https://kylewm.com/webmention
+* [[User:WaterPigs.co.uk|Barnaby Walters]] at [http://waterpigs.co.uk/mentions/webmention/ waterpigs.co.uk/mentions/webmention], containing a link to the wiki (more friendly than the spec), along with a short description and a form for easy webmention sending.
 * add yours...
 
 == Implementations ==
@@ -238,7 +239,7 @@ Some open source publishing software supports webmentions.
 * [[Taproot]]
 
 '''Plugins''' exist for some open source publishing software:
-* [[Wordpress#Mentions]]
+* [[Wordpress#webmention]]
 * [https://github.com/mapkyca/elgg-webmention Elgg]
 * [https://github.com/gRegorLove/nucleus-plugin-webmention Nucleus CMS]
 * [https://github.com/jgarber623/craft-webmention-client Craft CMS webmention client]

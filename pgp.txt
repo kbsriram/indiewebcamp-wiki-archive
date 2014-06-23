@@ -4,6 +4,24 @@ http://indiewebcamp.com/pgp
 
 '''<dfn>[https://tools.ietf.org/html/rfc4880 OpenPGP]</dfn>''' (Pretty Good Privacy) is a message exchange format that uses public key cryptography to enable people to exchange encrypted and/or signed data. This page is intented for ideas about secure communication in the IndieWeb using OpenPGP.
 
+<div style="float:right; width: 50%;">__TOC__</div>
+
+== Terminology ==
+;Pretty Good Privacy (PGP) 
+:This is the name of the original software created by Phil Zimmermann in 1991. It is now owned by PGP Incorporated.
+:The acronym "<abbr>PGP</abbr>" is commonly used as a catch-all when referring to this encryption format, though "<abbr>GPG</abbr>" is often the more technically correct term.
+
+;OpenPGP:
+:This is the name of the open standard for PGP encryption, proposed by Zimmermann to the IETF. The current RFC is https://tools.ietf.org/html/rfc4880.
+
+;GNU Privacy Guard (GnuPG or GPG):
+:This is the GPL-licensed, OpenPGP-compliant encryption software commonly used. Since the current version is 2.0.23, it is also referred to as "GPG2."
+
+== Reference ==
+
+* [https://help.riseup.net/en/security/message-security/openpgp/gpg-best-practices OpenPGP Best Practices - help.riseup.net]
+* [https://en.wikipedia.org/wiki/Pretty_Good_Privacy Pretty Good Privacy - Wikipedia]
+
 == IndieWeb Attendees using PGP to exchange encrypted messages ==
 
 * [[User:aaronparecki.com|Aaron Parecki]] and [[User:sandeep.io|Sandeep Shetty]] have exchanged private posts/replies encrypted using PGP, exchanging keys using [[Keybase]] [http://www.sandeep.io/178]
@@ -211,3 +229,7 @@ archived and examined by anyone.
 That is - I'd like to have endpoint-to-endpoint security - an attacker
 has to put malware on the device (or gain physical access to it)
 before they alter or look into the messages.
+
+== See Also ==
+* [https://en.wikipedia.org/wiki/Pretty_Good_Privacy Wikipedia: Pretty Good Privacy (PGP)]
+* [https://en.wikipedia.org/wiki/GNU_Privacy_Guard Wikipedia: GNU_Privacy_Guard (GPG)]

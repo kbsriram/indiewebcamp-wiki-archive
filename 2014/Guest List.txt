@@ -4,7 +4,7 @@ http://indiewebcamp.com/2014/Guest_List
 == <span class="p-name summary">IndieWebCamp 2014</span> ==
 [[2014|IndieWebCamp 2014]] is:
 * '''When:''' <time class="dt-start dtstart" datetime="2014-06-28T09:30:00-0700">June 28, 2014 at 9:30am</time> through <time class="dt-end dtend" datetime="2014-06-29T18:00:00-0700">June 29 at 6pm</time>
-* '''Where''': <span class="p-location location h-adr adr"><span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span></span> and <span class="p-location location h-adr adr"><span class="p-locality locality">New York City</span>, <span class="p-region region">New York</span></span>
+* '''Where''': <span class="p-location location h-adr adr"><span class="p-locality locality">Portland</span> <abbr class="p-region region" title="Oregon">OR</abbr></span>, <span class="p-location location h-adr adr"><span class="p-locality locality">New York City</span> <abbr class="p-region region" title="New York">NY</abbr>, and <span class="p-location location h-adr adr"><span class="p-locality locality">Berlin</span> <span class="p-country-name country-name">Germany</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014</span>
 <!-- * Indie Event: '''<span class="u-url url">http://werd.io/2014/indiewebcamp-nyc</span>''' Reply with an [[RSVP]] post on your own site and send a [[webmention]]! 
 * <a class="u-url url" href="https://www.facebook.com/events/283401211828660">RSVP on Facebook</a>
@@ -15,6 +15,7 @@ http://indiewebcamp.com/2014/Guest_List
 Additional URLs: 
 * <a class="u-url url" href="http://calagator.org/events/1250465892">Calagator</a>
 
+<div style="clear:both"></div>
 == Official Guest List ==
 {| border="2" cellpadding="10" cellspacing="0" align="center"
 |+
@@ -71,12 +72,48 @@ Want to help? [[2014/Planning|Sign up to volunteer!]].
 === Creators ===
 <span id="Builders">Alphabetically sorted by full display name.</span>
 
+==== Farther East ====
+Sign up for IndieWebCamp 2014 <span id="Further_East">Farther East</span> in Berlin, Germany!
+
+'''Venue Capacity: 15'''
+* signed-up: 5
+* spots remaining: 10
+
+{{Attendee
+|name = [[User:Brennannovak.com|Brennan Novak]]
+|img = https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg
+|url = https://brennannovak.com
+|org_name = Mailpile
+|org_url = https://mailpile.is
+|projects = [https://social-igniter.com Social-Igniter] 
+|elsewhere = [https://github.com/brennannovak github.com/brennannovak], [https://twitter.com/brennannovak @brennannovak]
+}}
+{{Attendee
+|name = [[User:Jancborchardt.net|Jan Borchardt]]
+|img = https://pbs.twimg.com/profile_images/3464033589/d3828cb0c5f7c84150e2ed7d2c74c1b6_400x400.jpeg
+|url = http://jancborchardt.net
+|org_name = ownCloud
+|org_url = http://owncloud.com
+|projects = [https://github.com/opensourcedesigners Open Source Designers] 
+|elsewhere = [https://github.com/jancborchardt github.com/jancborchardt], [https://twitter.com/jancborchardt @jancborchardt]
+}}
+
 ==== East ====
 Sign up for IndieWebCamp 2014 East in New York City, NY!
 
 '''Venue Capacity: 30'''
-* signed-up: 7
-* spots remaining: 23
+* signed-up: 8
+* spots remaining: 22
+
+{{Attendee
+|name = Andrei
+|img = http://deiu.rww.io/profile/avatar.jpg
+|url = https://fcns.eu
+|org_name = MIT
+|org_url = http://web.mit.edu
+|projects = [http://rww.io/ RWW.IO] (personal data store), [http://crosscloud.org/ CrossCloud] (redecentralizing the Web)
+|elsewhere = [https://twitter.com/therealdeiu @therealdeiu]
+}}
 
 {{Attendee
 |name = Bear
@@ -154,8 +191,8 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 12
-* spots remaining: 38
+* signed-up: 18
+* spots remaining: 32
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -182,15 +219,6 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |org_url = http://esri.com
 |projects = 
 |elsewhere = [https://twitter.com/caseorganic @caseorganic]
-}}
-{{Attendee
-|name = [[User:benjaminchait.net|Benjamin Chait]]
-|img = http://media.benjaminchait.net/img/benjaminchait(128px).jpg
-|url = http://benjaminchait.net/
-|org_name = 
-|org_url = 
-|projects = 
-|elsewhere = [https://twitter.com/benjaminchait @benjaminchait]
 }}
 {{Attendee
 |name = [[User:werd.io|Ben Werdmuller]]
@@ -236,6 +264,22 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/elladurham @elladurham]
 }}
 {{Attendee
+|name = Emma Kuo
+|img = http://www.gravatar.com/avatar/a7faab6f981f009f509afb17b3598c3f?s=128
+|url = http://notenoughneon.com/
+|projects = [https://github.com/notenoughneon/neonblog neonblog]
+|elsewhere = [https://twitter.com/notenoughneon @notenoughneon], [https://github.com/notenoughneon github.com/notenoughneon]
+}}
+{{Attendee
+|name = [[User:Erinjorichey.com|Erin Jo Richey]]
+|img = http://erinjorichey.com/erin.jpg
+|url = http://erinjorichey.com
+|org_name = Known
+|org_url = http://withknown.com
+|projects = [http://withknown.com/ Known] 
+|elsewhere = [https://twitter.com/erinjo @erinjo], [https://github.com/erinjo https://github.com/erinjo]
+}}
+{{Attendee
 |name = [[User:Gregorlove.com|gRegor Morrill]]
 |img = http://gregorlove.com/assets/img/profile.jpg
 |url = http://gRegorLove.com
@@ -254,6 +298,15 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/jburrows @jburrows], [https://github.com/adaburrows GitHub]
 }}
 {{Attendee
+|name = [[User:Www.jimtyhurst.com|Jim Tyhurst]]
+|img = http://www.gravatar.com/avatar/5a742bd2b663eaeb15ef6cdd8e0d9b7a.png
+|url = http://www.jimtyhurst.com/
+|org_name = Tyhurst Technology Group, LLC
+|org_url = http://www.tyhurst.com
+|projects = 
+|elsewhere = [https://twitter.com/jimtyhurst @jimtyhurst], [https://github.com/jimtyhurst/ github.com/jimtyhurst]
+}}
+{{Attendee
 |name = [[User:Upon2020.com|Johannes Ernst]]
 |img = http://upon2020.com/public/portrait-128x128.jpg
 |url = http://upon2020.com
@@ -262,6 +315,24 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |projects =  [http://indieboxproject.org/ Indie Box]
 |elsewhere = [https://twitter.com/Johannes_Ernst @Johannes_Ernst]
 }}
+{{Attendee
+|name = [[User:achangeiscoming.net|Jon Pincus]]
+|img = http://achangeiscoming.net/images/jon2014.jpg
+|url = http://achangeiscoming.net
+|org_name = 
+|org_url = 
+|projects = The Tapestries
+|elsewhere = [https://twitter.com/jdp23 @jdp23]
+}}
+
+{{Attendee
+|name = {{kylewm}}
+|img = https://kylewm.com/static/img/users/kyle_large.jpg
+|url = https://kylewm.com
+|projects = [[Red Wind]], [[mf2util]], contributor to [[mf2py]] and [[Bridgy]]
+|elsewhere = [https://twitter.com/kyle_wm @kyle_wm]
+}}
+
 {{Attendee
 |name = Paul Munday
 |img = http://www.gatheringstorms.org/images/icon.jpg
@@ -278,12 +349,28 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |projects  = [https://github.com/veganstraightedge/New_Base_60 NewBase60 gem], [https://github.com/homesteading Homesteading]
 |elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
 }}
+{{Attendee
+|name = [[User:championix.com|Jason Champion]]
+|img = http://zetacentauri.com/images/xangis.jpg
+|url = http://wbsrch.com/
+|org_name = Championix
+|org_url = http://championix.com
+|projects =
+|elsewhere = [https://twitter.com/xangis @xangis], [https://github.com/xangis github.com/xangis], [http://xangis.com], [http://freewavesamples.com], [http://stampscoinsnotes.com], [http://zetacentauri.com]
+}}
 
 === Apprentices ===
-Apprentices, add yourselves with your name, personal URL (if any), Creator, more info. Alphabetically sorted by given name.
+Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-apprentice template]]. Alphabetically sorted by given name.
 
-{{Attendee-placeholder
-|custom_message = Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
+==== West ====
+{{Attendee-apprentice
+|name = Amanda MacLean
+|apprentice_of = gRegor Morrill
+|img = 
+|url = http://amandamaclean.com
+|org_name = 
+|org_url = 
+|elsewhere = 
 }}
 
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
@@ -329,15 +416,6 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 [https://github.com/ike github.com/ike]
 }}
 {{Attendee
-|name = [[User:Brennannovak.com|Brennan Novak]]
-|img = https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg
-|url = https://brennannovak.com
-|org_name = 
-|org_url = 
-|projects = [https://mailpile.is Mailpile], [https://social-igniter.com Social-Igniter] 
-|elsewhere = [https://github.com/brennannovak github.com/brennannovak], [https://twitter.com/brennannovak @brennannovak]
-}}
-{{Attendee
 |name = [[User:glennjones.net|Glenn Jones]]
 |img = http://glennjones.net/images/photo-small.png
 |url = https://glennjones.net
@@ -346,11 +424,18 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 |projects = [http://transmat.io Transmat], [https://github.com/glennjones/microformat-node microformat-node] [http://microformatshiv.com/ microformatshiv] [https://github.com/glennjones/webmentions webmentions-node]
 |elsewhere = [https://github.com/glennjones github.com/glennjones], [https://twitter.com/glennjones @glennjones]
 }}
-</div> <!-- h-event vevent -->
 
 === Regrets ===
 Folks that can't make it (but hopefully can participate before/after remotely!)
-
+{{Attendee
+|name = [[User:benjaminchait.net|Benjamin Chait]]
+|img = http://media.benjaminchait.net/img/benjaminchait(128px).jpg
+|url = http://benjaminchait.net/
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/benjaminchait @benjaminchait]
+}}
 {{Attendee
 |name = Jason Garber
 |img = http://sixtwothree.org/jgarber.png

@@ -229,6 +229,26 @@ In 2010, the British developer Mischa Tuffield noted that Facebook and Google tr
 
 Wikipedia has rejected the introduction of social share buttons partly on the grounds of privacy ([https://en.wikipedia.org/wiki/Wikipedia:Perennial_proposals#Share_pages_on_Facebook.2C_Twitter_etc. Wikipedia:Perennial proposals]).
 
+=== Adblock Plus blocking ===
+The browser extension "Adblock Plus" as of version 2.6.3 (possibly earlier) is known to block some social share buttons, even just Twitter tweet action hyperlinks!
+
+The following Adblock Plus filters appear to be at least blocking follow, tweet, and retweet links:
+
+<pre><nowiki>
+##a[href^="https://twitter.com/intent/follow?"]
+##a[href^="https://twitter.com/intent/retweet?tweet_id"]
+##a[href^="https://twitter.com/intent/tweet?"]
+</nowiki></pre>
+
+If you're using Tweet Actions as silo-specific fallbacks for web actions, be aware that your fallbacks may not show up on users' machines with Ad Block plus installed.
+
+If you're a user of Adblock Plus, you can re-enable these by:
+* go to a page which has them (e.g. http://tantek.com/2014/164/t1/web-idealists-have-a-point )
+* choose "Open blockable items" from the red "ABP" stop icon in the toolbar
+* note the blocked items in red in the list that opens in a pane below the web page (same window)
+* right-click / ctrl-click on each red item and choose "Disable Filter"
+* reload the page - the buttons / tweet actions should show up.
+
 == Drop Delegated Logins ==
 While delegated logins aren't necessarily seen as a web action, they are at least superficially similar, in that they typically consist of a button with a particular social site brand. MailChimp decided to drop theirs, read why:
 * http://blog.mailchimp.com/social-login-buttons-arent-worth-it/

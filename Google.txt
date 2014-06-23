@@ -4,9 +4,10 @@ http://indiewebcamp.com/Google
 __TOC__
 '''<dfn>Google</dfn>''' is primarily used for [[#Search|searching]] the open web, but also hosts a number of content silos:
 * [[Blogger]] - one of the oldest blogging platforms, previously called "Blogspot" (and the software itself was called Blogger).
-* [[Google feedburner]]
 * [[Google Calendar]]
+* [[Google Code]]
 * [[Google Contacts]]
+* [[Google feedburner]]
 * [[Google+]] (AKA "Google Plus", G+, GPlus)
 * [[Picasa]]
 * [[YouTube]]
@@ -14,9 +15,14 @@ __TOC__
 
 Google also provides hosted client services:
 * [[Gmail]] - hosted email service
-And notification services:
+
+Notification services:
 * [[Google Alerts]] - http://www.google.com/alerts
 * [[Google now]] - http://www.google.com/landing/now/
+
+Various development tools:
+* [[Google Web Starter Kit]]
+* ...
 
 == Exporting From Google ==
 * See: Data Liberation Front

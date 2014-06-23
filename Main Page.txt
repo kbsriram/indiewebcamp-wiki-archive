@@ -38,7 +38,7 @@ We meet every other Wednesday<abbr title="skipping any official US Holidays">*</
 
 The next Homebrew Website Club meetup is:
 <div class="h-event vevent">
-* <time class="dtstart dt-start">2014-06-18 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-06-18-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London, -->Chicago, Minneapolis, Portland, and SF!</span>'''
+* <time class="dtstart dt-start">2014-07-02 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-07-02-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London, -->Chicago, Minneapolis, Portland, and SF!</span>'''
 </div>
 {{clear}}
 

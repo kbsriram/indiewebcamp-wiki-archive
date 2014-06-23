@@ -55,7 +55,7 @@ When parsing webmentions asynchronously and including a URI that can be used to 
 
 <code>{"response":"Webmention queued for processing.","status":"http://hostname/path/to/status/"}</code>
 
-==Processing webmentions ==
+== Processing webmentions ==
 
 Webmentions are processed asynchronously.
 
@@ -72,6 +72,19 @@ If no h-entry is found within the <code>source</code>, the author name is set to
 By default, processed webmentions are not marked as "displayed on site." Trusted hostnames can be added to a whitelist so they are automatically marked as "displayed on site."
 
 Processing only occurs when I initiate it, currently, but once I am certain everything is stable, I will probably use a cron to process the received webmentions log periodically.
+
+=== Relating webmentions together ===
+As of 2014-06-15, I added additional processing that maps together webmentions from the same person. The use-case is specifically for [[brid.gy]] when it sends separate webmentions for a comment and a like. I wanted to display the "like" as meta information directly under the comment instead of a separate comment.
+
+To achieve this, I have two additional database tables: <code>author_urls</code> and <code>webmentions_related</code>.
+
+The <code>author_urls</code> table keeps track of the webmention ID and the author URLs associated with it (one URL per row, so there may be multiple rows for the same webmention). When a webmention is processed, the author URLs are checked against the others for the same post. If there is a match, the two webmentions are considered related.
+
+The <code>webmentions_related</code> table keeps track of this relationship by storing the webmention ID and the webmention ID it is related to. ''Mentions'' are related to ''replies'' — not vice versa — since the former serves as meta information ("favorited this," or "liked this.") and the latter is the comment.
+
+When displaying comments, the <code>webmentions_related</code> table is first queried to build an array of the webmentions that serve as meta information. Then these webmention IDs are ''excluded'' from the query that retrieves the comments to display.
+
+When looping through each comment to display it, if meta information exists in the array, it is added on to the comment.
 
 == Updating webmentions ==
 

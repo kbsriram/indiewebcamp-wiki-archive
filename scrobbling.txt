@@ -10,3 +10,6 @@ Creating an IndieWeb implementation of a [http://en.wiktionary.org/wiki/scrobble
 Scrobbling activity could be syndicated in other formats (i.e. Activity Streams), or published in another form altogether such as a tweet or status update. 
 
 Scrobbling activity could be filtered prior to syndication. For example, before publishing a track, the software could first check the artist and/or track name is not present in a list of "guilty pleasures."
+
+== Libre.fm and GNU FM ==
+There exists https://libre.fm which uses [http://www.gnu.org/software/gnufm GNU FM]. Once could conceivably run this on their own site.

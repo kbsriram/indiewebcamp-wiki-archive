@@ -8,13 +8,26 @@ A quotation of the entirety of another post should be a [[repost]] instead.
 
 A quotation which uses the name/title of another post (rather than its content) should be a [[bookmark]] instead.
 
+== How to markup ==
+A quotation can be minimally marked up as a [[note]], with the entry content (<code>e-content</code>) containing:
+* a <code>&lt;blockquote&gt;</code> that wraps the quoted text itself (including explicit quotes "" “”)
+* a <code>&lt;cite class="h-cite"&gt;</code> that wraps a citation of the source of the quotation, with at a minimum:
+** a nested hyperlink (<code>&lt;a href&gt;</code>) linking to the source
+** link text of the name of the article/book/source
+
 == IndieWeb Examples ==
-none currently.
+=== Aaron Parecki ===
+{{aaronpk}} uses [[WordPress]] to post [[bookmarks]] on aaron.pk/bookmarks since ????-??-??, some of which are entire quotations, e.g.:
+* http://aaron.pk/bookmarks/?bookmark=the-value-of-a-founders-time
+* http://aaron.pk/bookmarks/?bookmark=to-everyone-who-is-complaining-about-popular-science-shutting-down-comments
+* http://aaron.pk/bookmarks/?bookmark=dylans-desk-frustration-and-fragmentation-rule-the-mobile-industry-for-now
 
 == Silo Examples ==
 * [[Tumblr]] supports an explicit quotation post kind, and presents quotation posts differently from other posts. (needs screenshots using default Tumblr skin)
 
 == See Also ==
 * [[posts]]
+* [[note]]
+* [[h-cite]]
 * [[repost]]
 * [[bookmark]]

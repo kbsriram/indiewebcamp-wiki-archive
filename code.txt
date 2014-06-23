@@ -2,15 +2,15 @@ http://indiewebcamp.com/code
 
 {{stub}}
 
-'''<dfn>code</dfn>''' in the context of the indieweb, refers to source code, code files, typically in a revision control system, like [[Git]], often hosted at [[GitHub]].
+'''<dfn>code</dfn>''' in the context of the indieweb, refers to source code, code files, typically in a revision control system, like [[Git]], hosted on an indieweb site. Code is also often hosted on the [[GitHub]] silo.
 
 == IndieWeb Examples ==
 === Christian Weiske ===
-[[User:Cweiske.de|Christian Weiske]] posts his source code at: http://git.cweiske.de/ using [[GitWeb]]
+[[User:Cweiske.de|Christian Weiske]] uses [[GitWeb]] to post his source code at http://git.cweiske.de/ since 2007
 * POSSE copy: https://github.com/cweiske, pushed onto github via a dedicated user: https://github.com/cweiske-mirror?tab=activity
 
 ==== Mirror setup ====
-On my server:
+On indieweb server:
 
 <pre>
 $ git init --bare project.git
@@ -34,12 +34,18 @@ $ printf '#!/bin/sh\ngit push --quiet github\n' > hooks/post-receive
 $ chmod +x hooks/post-receive
 </pre>
 
-This force-pushes the code got github, which means any changes on github that are not on my server get overwritten. Thus I cannot use the merge button on github, but have to merge manually.
+This force-pushes the code got github, which means any changes on github that are not on my server get overwritten. Thus cannot use the merge button on github, but have to merge manually.
 
 === Tantek ===
-[[User:Tantek.com|Tantek Çelik]] hosts the latest live version of [[CASSIS]] at: http://tantek.com/cassis.js (without revision control) and manually POSSEs it to https://github.com/tantek/cassis/blob/master/cassis.js (with revision history)
+[[User:Tantek.com|Tantek Çelik]] manually hosts the latest live version of [[CASSIS]] at: http://tantek.com/cassis.js (without revision control) and manually POSSEs it to https://github.com/tantek/cassis/blob/master/cassis.js (with revision history) since YYYY-MM-DD.
+
 === Aaron Parecki===
-[[User:Aaronparecki.com|Aaron Parecki]] hosts some repositories on a private [[GitLab]] instance. Some of these projects are shared with a few other people who are able to log in and contribute. All Aaron's public code is on GitHub, because it makes it easier to share and get contributions from others.
+[[User:Aaronparecki.com|Aaron Parecki]] uses a [[GitLab]] instance to host some private repositories on aaronparecki.com since YYYY-MM-DD. 
+* Some of these projects are shared with a few other people who are able to log in and contribute. 
+* All Aaron's public code is on [[GitHub]], because it makes it easier to share and get contributions from others.
+
+=== Ray Schulz  ===
+[[User:rascul.io|Ray Schulz]] uses [[cgit]] for the web interface and [[gitolite]] for the backend of http://git.rascul.io/ since YYYY-MM-DD.
 
 == Software ==
 Software you can use to host your own [[Git]] repository:
@@ -49,8 +55,8 @@ Software you can use to host your own [[Git]] repository:
 
 == See Also ==
 * [[posts]]
+* [[git]]
 * [[GitHub]]
-
 
 == Brainstorming ==
 === Cross-site fork buttons ===

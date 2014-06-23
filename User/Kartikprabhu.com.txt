@@ -43,6 +43,8 @@ __NOTOC__
 
 * receive mentions on Notes. (Hint: use url to identify posts instead of DB objects.) (Done: as of 2014-04-23)
 
+* better homepage idea: use homepage for updates, including status (like currently reading), latest notes and articles and also entry points to explore other things on the site. Reserve about page for info about self and site. Why?: homepage is where readers would land first, and presumably they are more interested in "what's new?"
+
 == Indie Projects ==
 
 Contributed to:

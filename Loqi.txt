@@ -27,6 +27,9 @@ Questions can optionally include a question mark at the end.
 : This is typically used on non-username text values, e.g. "silos--". Be nice to each other. :)
 
 == Ideas ==
+; what was xyz
+: alias for "what is xyz", e.g. What was Gowalla?
+
 ; who uses xyz
 : This question could respond with a link to [[xyz#IndieWeb_Examples]].
 : Alternative syntax: "anyone here use xyz", "who supports xyz"
@@ -34,6 +37,9 @@ Questions can optionally include a question mark at the end.
 ; why xyz
 : This question could respond with a link to [[xyz#Why]].
 : Alternative syntax: "why should I use xyz", "why should I support xyz"
+
+;extract and post h-entry
+:For Twitter links, Loqi extracts the tweet and posts it in the IRC channel. Be good if he extracted h-entry and posted the e-content for indieweb links! mf2-FTW!
 
 == See Also ==
 * [[IRC]]

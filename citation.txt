@@ -17,6 +17,24 @@ There are several specific indieweb uses of citations.
 * [[comments-display]] - indieweb comments that have been syndicated from their original reply URLs into a "Comments" section on an original post are all ''references'' to original material, and thus are also citations.
 * [[posts#Footer_sections|post footer sections]] - external references in footer sections (i.e. in addition to the abovementioned comments display section) are almost always also citations.
 
+== User Interface ==
+=== text input ===
+A site can provide text inputs with a citation URL (and/or full citation markup) pre-filled in for the reader to copy / paste. IndieWeb Examples:
+* {{tantek}} provides text inputs to copy the permalink and citation markup, e.g. bottom of http://tantek.com/2014/120/b1/markup-people-focused-mobile-communication
+* ...
+
+=== append to text selection copy ===
+Using javascript it appears possible to append a citation URL to the end of any text that a reader selects and uses the "[[copy]]" operation on.
+
+Possible source of script to do this:
+* http://www.wpbeginner.com/wp-tutorials/how-to-add-a-read-more-link-to-copied-text-in-wordpress/
+* http://www.jitbit.com/alexblog/230-javascript-injecting-extra-info-to-copy-pasted-text/
+
+Criticism. There have been some sites / script that in addition to adding the citation URL also do some sort of tracking of every copy action. This has been written up with some criticism:
+* http://daringfireball.net/2010/05/tynt_copy_paste_jerks
+
+Thus if you do choose to implement an approach that adds a citation URL automatically to text that is copied from your [[posts]], be respectful of your readers, and avoid any (especially surreptitious) tracking.
+
 == See Also ==
 * [[article]]
 * [[comments-display]]

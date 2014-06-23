@@ -216,6 +216,7 @@ Want to help? See if you can contribute to one or more of the following:
 == Talks ==
 * 2012-06-24: Aaron Parecki [http://opensourcebridge.org/sessions/856 gave a talk on IndieAuth] at Portland's Open Source Bridge 2012 conference! Tuesday June 26th at 4:45pm
 * 2013-08-13: Aaron Parecki [http://aaronparecki.com/presentations/2013/08/08/1/indieweb-w3c-workshop-on-social-standards gave a talk on IndieAuth] at the W3C Workshop on Social Business
+* 2014-05-06: Aaron Parecki [http://indiewebcamp.com/2014-05-06-iiw-indieauth held a session] at [http://www.internetidentityworkshop.com/ Internet Identity Workshop XVIII]
 
 == Articles ==
 * 2013-08-26 [http://waterpigs.co.uk/articles/squarespace-web-sign-in/ How to set up Web Sign In on your @squarespace website]
@@ -224,7 +225,6 @@ Want to help? See if you can contribute to one or more of the following:
 ** [[On Evolving IndieAuth Followup]]
 
 == See Also ==
-* http://spec.indieauth.com/
 * [[Web sign-in]]
 * [[RelMeAuth]]
 * [[microformats]]

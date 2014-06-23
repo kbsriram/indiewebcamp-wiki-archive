@@ -9,11 +9,11 @@ Link your website with a [[rel=me]] link to a common OAuth provider such as Gith
 === More ===
 * [[simple-indieauth-example]]
 
-== Level 2: Enable web sign-in with your own authorization server ==
+== Level 2: Choose your own authorization server ==
 Find or create an authorization server and tell IndieAuth clients to use it when signing in.
 
 === Use an authorization service ===
-Use an authorization service such as https://indieauth.com or [[indieauth-openid]].
+Use an authorization service such as [[indieauth.com]] or [[indieauth-openid]].
 
 === Create your own authorization endpoint ===
 * [[authorization-endpoint]]

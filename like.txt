@@ -18,7 +18,7 @@ The trailing preposition "of" helps communicate this in the same that we have <c
 
 === receive and markup incoming likes ===
 
-Likes are received in exactly the same way [[comments]] are, by accepting incoming [[webmentions]] to URLs on your site. When validating the webmention source, check for a h-entry with a <code>like-of</code> property pointing to the target URL (your URL). If there is on, that h-entry is a like of your page! Store it however you wish, and optionally display it on the liked page.
+Likes are received in exactly the same way [[comments]] are, by accepting incoming [[webmentions]] to URLs on your site. When validating the webmention source, check for a h-entry with a <code>like-of</code> property pointing to the target URL (your URL). If there is one, that h-entry is a like of your page! Store it however you wish, and optionally display it on the liked page.
 
 Likes are commonly displayed either as a [[facepile]], separate from any other comments/responses ([http://aaronparecki.com/notes/2014/05/18/1/imessage example]), or inline with other responses ([http://waterpigs.co.uk/notes/4W1Ekd/ example]).
 

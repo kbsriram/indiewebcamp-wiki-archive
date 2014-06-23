@@ -329,6 +329,8 @@ If we can figure out how a <code>&lt;form class="h-entry"&gt;</code> should work
 (this section is a stub, feel free to expand with a complete form element code example that shows what a form for posting a new h-entry or editing an existing h-entry would look like in terms of minimal HTML markup, then we can figure out the HTTP interaction from that)
 
 == Updating Objects ==
+
+=== Adding a Syndication URL ===
 Use case: adding a syndication link to a post after it has been published. For example, when a client supports posting first then syndicating to Twitter or Facebook after the fact, the site needs a way to update the original post with the new syndication URL.
 
 One possible way is to make a request similar to the original create request but with only the values that are changing. 
@@ -341,6 +343,21 @@ POST /micropub
 u=http://aaronparecki.com/notes/2014/06/01/2/indieweb
 &syndication=https://twitter.com/aaronpk/status/473186139172384770
 </pre>
+
+=== Adding Tags ===
+Use case: adding tags to a post after it's been created.
+
+<pre>
+POST /micropub
+
+u=http://aaronparecki.com/notes/2014/06/01/2/indieweb
+&tags=webmention
+</pre>
+
+Question: how to handle removing or replacing tags? One possibility is to have separate parameters for adding, removing and replacing the tags:
+* add_tags=webmention - adds the specified tags
+* remove_tags=indieweb - removes the specified tags
+* tags=webmention,indieweb - replaces the current tag list with the given tag list
 
 == Clients ==
 Sites and applications that publish via micropub. 

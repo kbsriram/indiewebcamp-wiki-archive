@@ -5,6 +5,8 @@ A '''<dfn>fragmention</dfn>''' is an experimental extension to a URL to link and
 Example:
 * <code>http://www.kevinmarks.com/w3cannotation.html##most+robust+reference</code>
 
+__TOC__
+
 == Behavior ==
 Fragmentions find the first matching word or phrase in a document and focuses its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
 
@@ -23,8 +25,8 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 * [https://drupal.org/sandbox/ocean/2247743 A drupal plugin] by Drew Robinson
 * [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
 * [http://nerd.vasilis.nl/linking-fragments-page/##a+few+lines+of+CSS Styled with a tiny CSS animation] by Vasilis van Gemert
+* [http://disquotational.appspot.com/ Disquotational] is a web service (and bookmarklet) for making fragmention links by [http://www.purelytheoretical.com/ Darryl McAdams]
 
-__TOC__
 == Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
 * [http://bthdonohue.com/post/85643490431/instapaper-fragmentions Instapaper Support] 
@@ -46,6 +48,9 @@ The initial feedback is that few people concern themselves with hash fragment va
 Further thought: as HTML5 ids can contain any text except a space character, any fragment with a space in CANNOT refer to an id, so could be treated as a fragmention. So any fragmention of more than one word may not even need the ##.
 
 : The problem with this approach is that auto-linkers and URLs in other context (like plain text) don't know where the URL ends. -[[User:Sandeep.io|Sandeep.io]] 20:56, 23 April 2014 (PDT)
+
+
+Firefox drops the first # on redirect: For instance http://kartikprabhu.com/static/demo/fragmention.html##was+still  redirects to an https version which should be https://kartikprabhu.com/static/demo/fragmention.html##was+still but Firefox drops one of the # to give https://kartikprabhu.com/static/demo/fragmention.html#was+still . Strangely enough http://kartikprabhu.com/static/demo/fragmention.html###was+still fixes this (Firefox only drops one #) and http://kartikprabhu.com/static/demo/fragmention.html#%23was+still also seems to work.
 
 === Sensitivity ===
 After trying it both ways, collapsing white space works better, as it is very hard to generate invisible escaped characters accurately.
@@ -70,9 +75,9 @@ In [[User:Kevinmarks.com|Kevin Marks]]' [http://www.kevinmarks.com/poemfragmenti
 
 Proposed solution to reference the nth occurrence of a phrase:
 
-* http://kartikprabhu.com/static/demo/fragmention.html##was+still
-* http://kartikprabhu.com/static/demo/fragmention.html##was+still++2
-* http://kartikprabhu.com/static/demo/fragmention.html##was+still++-1
+* https://kartikprabhu.com/static/demo/fragmention.html##was+still
+* https://kartikprabhu.com/static/demo/fragmention.html##was+still++2
+* https://kartikprabhu.com/static/demo/fragmention.html##was+still++-1
 
 == Related work ==
 The NY Times has [http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/ a tool for annotating articles], but it makes a very complex anchor and requires a very specific algorithm. [https://github.com/NYTimes/Emphasis source here]

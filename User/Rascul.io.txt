@@ -4,10 +4,11 @@ http://indiewebcamp.com/User%3ARascul.io
 = Ray Schulz =
 '''<dfn>Ray Schulz</dfn>''' is a slacker who likes to make things.
 
-My site will be at [http://rascul.io http://rascul.io]. It's in progress.
-
-Here are some other places I might be found:
+* https://rascul.io
 * https://github.com/rascul
 * https://twitter.com/rascul3
 * https://keybase.io/rascul
 * http://last.fm/user/rascul3
+
+== Projects ==
+* [http://git.rascul.io/crash crash] the software which runs https://rascul.io.

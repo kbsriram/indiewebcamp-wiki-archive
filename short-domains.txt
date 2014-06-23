@@ -52,6 +52,10 @@ Example:
 
 The root domain jmb.so simply redirects to jonnybarnes.net. The only type of short URL set up so far is for notes. The URL scheme for notes used on jonnybarnes.net is very simple. They take the form jonnybarnes.net/note/{id} where {id} is a decimal number. The associated short URL is jmb.so/t/{nb60} where {nb60} is the [[NewBase60]] encoding of {id}.
 
+=== cted.us ===
+
+Redirects to colintedford.com; no shortener in place yet. Current URL structure is domain/year/month/daytime-slug (e.g. cted.us/2014/06/230157-my-url-structure), meant to eventually accommodate yearly & monthly archives and slugless redirecting to slugged. I want to use [[NewBase60]] & etc. to shorten the date to three digits as Tantek & others do and the hour & minute to a character each (e.g. cted.us/Wz8p2).
+
 === ... ===
 
 add notes on your own implementation here.

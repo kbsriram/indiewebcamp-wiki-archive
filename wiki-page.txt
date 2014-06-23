@@ -26,9 +26,21 @@ Additional qualities:
 * '''backlinks''' - Mediawiki in particular has the "What links here" feature which you can click and see a list of all the pages that link to the current page. Such a feature could be useful for indieweb posts and wiki pages too - being able to one click see a list of all your pages/posts that link to a particular page or post.
 
 == IndieWeb Examples ==
-IndieWeb Community members that have wikis on their own personal sites:
-* [[User:Tommorris.org|Tom Morris]] has his own wiki at http://wiki.tommorris.org/
-* ...
+IndieWeb community members that have wikis on their own personal sites:
+=== Amber Case ===
+[[User:caseorganic.com|Amber Case]] uses [[MediaWiki]] for her own wiki at http://caseorganic.com/wiki/ since [http://caseorganic.com/personal-wiki/index.php?title=Main_Page&oldid=1 2011-07-11] which also supports:
+* login via [[IndieAuth]]!
+* editing by others if they login via IndieAuth and are on a whitelist(?)
+=== Tom Morris ===
+[[User:Tommorris.org|Tom Morris]] uses [[MediaWiki]] for his own wiki at http://wiki.tommorris.org/ since [http://wiki.tommorris.org/index.php?title=Main_Page&oldid=1 2013-04-01].
+
+== IndieWeb Partials ==
+IndieWeb community members that have some partial work towards a wiki on their personal sites:
+=== Tantek ===
+[[User:tantek.com|Tantek Çelik]] has a redirect on his own domain setup for wiki pages at /w/ since 2010(?), e.g.:
+* http://tantek.com/w/ - Wiki home page
+* http://tantek.com/w/WillpowerImprovement - a specific page
+This way he can at least share URLs he owns to his wiki pages, where presumably a future self-hosted wiki will live rather than redirecting to the [[PBWorks]] silo.
 
 == Hosted Examples ==
 There are also various wiki hosting sites / [[silos]].

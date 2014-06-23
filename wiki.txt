@@ -15,6 +15,7 @@ In addition to sequential / time-ordered [[posts]], many in the IndieWebCamp com
 Wiki pages are typically editable and versioned with visible / easily accessible version history & browsable versions. Wiki pages are often also multi-authored and have a multi-platform interface (like any web-based content hosting solution).
 
 * [[User:Tommorris.org|Tom Morris]] has his own wiki at http://wiki.tommorris.org/
+* [[User:caseorganic.com|Amber Case]] has her own wiki at http://caseorganic.com/wiki/
 * ...
 
 There are also various wiki hosting sites / [[silos]].

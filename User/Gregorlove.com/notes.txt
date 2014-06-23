@@ -1,0 +1,18 @@
+http://indiewebcamp.com/User%3AGregorlove.com/notes
+
+= Notes = 
+'''Notes''' are the second indieweb project I will be tackling.
+
+== Posting interface ==
+I began by mocking up, in HTML, the form for posting a new [[note]]. I want the form to have a simple and pleasing UI. To do this, I set the font-size larger and put some padding on the form inputs to give them some room to breathe.
+
+I am going to be a bit nontraditional and allow my notes to optionally have a title. Most notes will be short status updates, but I can imagine instances where I might want to jot down some notes with a title.
+
+I decided on one field for the URL if I'm replying-to/reposting. The checkbox below it will differentiate if the note is in-reply-to (default) or a repost of the URL.
+
+Then a separate checkbox determines if I'm also "liking" the URL.
+
+'''Current version:'''<br>
+(looks better [http://indiewebcamp.com/images/a/a8/gregorlove-add-note-2014-06-18.png full-size])
+
+[[File:gregorlove-add-note-2014-06-18.png|700px]]

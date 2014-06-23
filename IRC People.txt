@@ -13,6 +13,7 @@ Please keep sorted alphabetically
 * {{irc user|ben.thatmustbe.me|ben_thatmustbeme|America/New_York}}
 * {{irc user|Throwingbones.com|benprew|America/Los_Angeles}}
 * {{irc user|Werd.io|benwerd|America/Los_Angeles}}
+* {{irc user|bigbluehat.com|bigbluehat|America/New_York}}
 * {{irc user|sebastian.kip.pe|binbasti|Europe/Berlin}}
 * {{irc user|Brennannovak.com|bnvk|Atlantic/Reykjavik}}
 * {{irc user|www.atoddswithclarity.com|brainTrain|America/San_Francisco}}
@@ -63,6 +64,7 @@ Please keep sorted alphabetically
 * {{irc user|standblog.org|nitot|Europe/Paris}}
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}
 * {{irc user|greptilian.com|pdurbin|America/New_York}}
+* {{irc user|pauloppenheim.com|pauloppenheim|America/Los_Angeles}}
 * {{irc user|peat.org|peat|America/Los_Angeles}}
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
 * {{irc user|Notizblog.org|pfefferle|Europe/Berlin}}

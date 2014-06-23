@@ -30,6 +30,14 @@ Notes:
 * Trailing slash is required on root-level domains
 ** Whenever a URL has a trailing slash, filename on disk must be `index.html`
 
+== IndieWeb Examples ==
+=== Aaron Parecki ===
+{{aaronpk}} started keeping an archive since ????-??-?? of external linked to pages at:
+* https://github.com/i-a/i-a.github.io
+=== Barnaby Walters ===
+[[User:waterpigs.co.uk|Barnaby Walters]] is keeping an archive since ????-??-?? of external linked to pages at:
+* https://github.com/Taproot/archive
+
 == Origins ==
 A conversation between aaronpk and tantek on IRC about link rot and an OSCON session (2011? 2010?) that was about a [[WordPress]] plugin that automatically made personal archives of pages you linked to.
 

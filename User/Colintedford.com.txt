@@ -1,0 +1,75 @@
+http://indiewebcamp.com/User%3AColintedford.com
+
+== Colin Tedford ==
+
+I'm a cartoonist, among other things; not a technologist, but I maintain a few websites. I've had mine since 2004, at [http://colintedford.com colintedford.com] since 2005. Started off in Notepad, now on [[WordPress]], planning an eventual switch to something more flat & static. Never really warmed up to the silos (except [[LiveJournal]] which had a great comics community 'til most of them moved to [[Tumblr]] and [[Twitter]]). I have a [[Tumblr]] but haven't used it in a while.
+
+I found IWC some months ago, I don't remember how but I've been interested in related stuff for a while. Currently working my way through the [[IRC/logs|IRC logs]].
+
+=== IndieMark ===
+
+* Level 1: Complete except the microformat one. 0.8
+* Level 2: Halfway there. 0.5
+* Levels 3-5: Not so much yet.
+
+=== Current setup & practices ===
+
+* Software: [[WordPress]] since 2007-11-07 for main site (maybe earlier for former subsections).
+* [[Post]] types:
+** [[Articles]]
+** [[Notes]]
+** [[Comics]] (currently handled by [http://wordpress.org/plugins/webcomic/ Webcomic plugin] which is nice but I'm prepping to stop using it as part of an eventual migration from [[WordPress]])
+* [[POSSE]] to:
+**  [[Facebook]] manually since I signed up 2009-07-09 (also, I don't have a profile there, just a [http://www.facebook.com/pages/Colin-Tedford/231529070642 page]). This is my highest-priority silo because it's where most of my friends/followers are.
+** [[LiveJournal]] via [http://wordpress.org/plugins/lj-xp/ LiveJournal Crossposter plugin] for some years (I did it manually from when I signed up in 2006 to whenever I installed LJ-XP).
+* [[PESOS]] from Facebook manually since 2014-06-18 (just copying some older things I only posted there -- mostly Youtube music links)
+* [[Backfeed]] from Facebook manually since 2014-06-18, copying new & old comments. Leaving likes alone for now because displaying them isn't important to me, but I might want to collect them eventually & store them somewhere if it's easy.
+* [[short-domains|Short domain]] (cted.us) for an eventual link shortener (& current saving of a little typing).
+
+=== To Do ===
+
+==== For now ====
+
+First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb stuff where it makes sense.
+
+* Reformat so I can stop using Webcomic plugin.
+* Switch to more responsive theme, tweak as needed (but don't go overboard).
+* Add [[microformats]].
+* Self-signed [[https|SSL]] for logins.
+* Better comics navigation.
+* Yearly & monthly archives.
+
+==== Whenever I feel like it ====
+
+Lower-priority but easy, a nice way to make progress when I'm not up to harder problems.
+
+* Backfeed [[LiveJournal]] comments manually (considering using the LJ Crossposter plugin option to turn off LJ commenting & direct commenters to the original post so I only have to collect the old ones. Not urgent since I don't get many comments there.)
+* Maybe check if I posted anything only to [[LiveJournal]] that I care to import
+* Backfeed [[Tumblr]] comments (ie. any added content from reposts) manually
+* Maybe check if I care to import anything I only posted to [[Tumblr]]
+* Import whatever "posts" I can from the old static version of my site via the Internet Archive.
+* Distinguish [[photos]] as a [[post]] type, except more generically call them "pictures".
+
+==== Eventually ====
+
+* Auto-[[POSSE]] to & auto-[[backfeed]] from [[Facebook]] ([[backfeed]] is more urgent; [[POSSE]]ing by hand is pretty easy).
+* Migrate from [[WordPress]] to something mostly static. Currently planning to try [http://middlemanapp.com/ Middleman] but I have a lot of details to figure out (e.g. I want to be able to post when I'm away from my computer). I'd like to have a mostly-static system that's easy for laypeople to use (both for myself & so I can recommend it to people I know), but if I have to do it myself it may be a *long* wait.
+* Bettter distinguish [[notes]].
+* Send, receive, & display [[Webmention]]s. In line with my own current posting practice I would like to allow updates, but marked up correction-style with strikeouts & additions (which sounds hard to do). For [[delete|deletions]] I guess I'd just strikeout the whole comment & add a note that the author deleted it.
+* Not sure about [[likes]]. I certainly like knowing someone liked something I did, but I don't know how compelled I feel to display that info.
+* [[Events]].
+* [[RSVP]]s.
+* Mobile posting. Need something to replace the [[WordPress]] app (which I only started using in 2014-06 as I started finally getting my site in shape). Online admin? App? Local webform? SMS? I'd like to keep the site itself as static as possible.
+* [[Audio]].
+* [[Video]].
+* [[Reader]] (including legacy formats) -- currently planning to try [https://owncloud.com/ Owncloud]'s [[reader]] (since I want to try Owncloud anyway), but keeping [http://selfoss.aditu.de/ Selfoss] in mind since it already has a [[microformats]] [https://github.com/aaronpk/selfoss plugin].
+* [[Hashtags]]
+* Autolink bare URLs.
+* Algorithmic link shortener. Mainly wanting short URLs for print, to link to a full comic from an excerpt (though I'm sure I'll enjoy the other uses as well).
+* Whole-site [[https]].
+* [[Products]] -- I want to get back to selling my comics & merch through my own site instead of a third-party site.
+
+=== Former setup & practices ===
+
+* Hand-coding in Notepad (2005 through 2007). Main content types were [[notes]] (I didn't title my news updates ... and deleted them when they got old!) and [[comics]].
+* [[Blogger]] (self-hosted version) (2006? through 2007?) -- I don't think I ever used it for my main site but I did for one of my comic series. Mainly [[comics]] with perhaps an occasional [[articles|article]].

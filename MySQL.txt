@@ -11,6 +11,21 @@ IndieWeb community members that use MySQL on their personal site:
 * [[User:Gregorlove.com|gRegor Morrill]]'s gregorlove.com uses [http://nucleuscms.org Nucleus CMS] which uses MySQL as the primary data store.
 * [[p3k]] uses MySQL to query posts by different meta data, but does not store any post content in the database.
 
+== Criticism ==
+=== Lack of timezone in date columns ===
+MySQL date columns can only store <code>YYYY-mm-dd HH:MM:SS</code> precision. There is no way to specify the timezone along with a date. This means unless you create a second column to store the timezone offset or name, you will have no indication of the timezone of your date in the database.
+
+==== DATE, DATETIME, and TIMESTAMP types ====
+The MySQL <code>DATE</code> and <code>DATETIME</code> types do not store timezone values. It is recommended to use the <code>TIMESTAMP</code> type for maximum flexibility, because these values are converted to <abbr>UTC</abbr> before storage, and converted from <abbr>UTC</abbr> to the current timezone on retrieval.
+
+<blockquote><p>MySQL converts TIMESTAMP values from the current time zone to UTC for storage, and back from UTC to the current time zone for retrieval. (This does not occur for other types such as DATETIME.) By default, the current time zone for each connection is the server's time. The time zone can be set on a per-connection basis. As long as the time zone setting remains constant, you get back the same value you store. If you store a TIMESTAMP value, and then change the time zone and retrieve the value, the retrieved value is different from the value you stored. This occurs because the same time zone was not used for conversion in both directions. The current time zone is available as the value of the <code>time_zone</code> system variable.</p>
+<p> <cite>— http://dev.mysql.com/doc/refman/5.5/en/datetime.html</cite> </p>
+</blockquote>
+
+==== Fulltext Search ignores words shorter than 4 characters ====
+
+This restriction [https://dev.mysql.com/doc/refman/5.0/en/fulltext-natural-language.html##Some+words+are+ignored] makes searches for TLAs not possible using fulltext searching. If the length of the entire query is less than 4 characters the fulltext search can be replaced with a case-insensitive <code>LIKE</code> match, but this still lessens the accuracy of queries longer than 4 characters with significant terms shorter as they will be ignored.
+
 == See Also ==
 * [[PostgreSQL]]
 * [[database]]

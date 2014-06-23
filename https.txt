@@ -55,7 +55,7 @@ As another example, it seems like this command line should verify that a cert is
 <pre>error 20 at 0 depth lookup:unable to get local issuer certificate</pre>
 
 === Setup ===
-The IETF has a [document with recommendations for Secure Use of TLS and DTLS http://datatracker.ietf.org/doc/draft-ietf-uta-tls-bcp/?include_text=1].
+The IETF has a [http://datatracker.ietf.org/doc/draft-ietf-uta-tls-bcp/?include_text=1 document with recommendations for Secure Use of TLS and DTLS].
 
 ==== Apache ====
 [[Apache]] is pretty easy. [https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/ Here's a good how-to post.] TL;DR: Put the certificate files somewhere your Apache user can read, then set the <code>SSLCertificate*</code> config directives, e.g.:

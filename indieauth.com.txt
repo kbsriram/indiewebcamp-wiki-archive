@@ -10,7 +10,18 @@ https://indieauth.com/developers
 
 == For Users ==
 
+=== Basic Setup Guide ===
 https://indieauth.com/setup
+
+=== Using TOTP with indieauth.com ===
+A quick guide to setting up TOTP (e.g. the Google Authenticator app) with indieauth.com
+
+https://indieauth.com/totp
+
+=== Using GPG with indieauth.com ===
+You can sign in to sites with indieauth.com by signing a challenge with your GPG key! Instructions for setting up GPG auth:
+
+https://indieauth.com/gpg
 
 == FAQ ==
 

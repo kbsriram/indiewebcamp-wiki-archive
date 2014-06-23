@@ -43,7 +43,7 @@ Most app stores have a method of rating apps & leaving comments that are publicl
 
 ==== Free and Paid Downloads ====
 
-Despite the Indie App Store being aimed at primarily Free & open source software, it is not impossible to envision people wanting to sell apps that the end user must purchase. Creating methods of securing software purchases (licensing, keys, etc...) are of the scope of Indie App Store, it might very well be worth exploring to build in a simple "Pay What You Want" style purchase layer to applications that pay money directly to developers or platform providers.
+Despite the Indie App Store being aimed at primarily Free & open source software, it is not impossible to envision people wanting to sell apps that the end user must purchase. Creating methods of securing software purchases (licensing, install keys, etc...) are out of scope of this project, it is worth exploring integration of simple "fixed" or "pay what you want" [[payment]] methods that pay money directly to developers or platform providers.
 
 ==== Updating Apps ====
 
@@ -313,6 +313,14 @@ The [[Indie Box Project]] aims to make an easy to install great Free software / 
 </pre>
 
 And here is their example of more [https://github.com/indieboxproject/indie-owncloud/blob/master/indie-box-manifest.json complex full Instruction set] for the same application.
+
+== Interface Guidelines ==
+
+Platform creators will most likely want the App Store experience of installing things to be as branded and cohesive to the rest of their user experience as possible- this only makes sense, and is in fact a better user experience.
+
+That said, creating a serious of user flows and '''interface guidelines''' seems helpful as to this end goal, once a user learns the flows and processes (which are modeled after Apple's iOS & Google's Play app stores) users will be easily able to perform the action they are trying to.
+
+[[File:Indie_App_Store_Index.png|200px|Indie App Store Index]]
 
 == Ideas ==
 

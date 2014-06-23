@@ -42,6 +42,8 @@ YouTube has also re-appropriated content without permission, transferring owners
 * http://waxy.org/2012/03/youtube_bypasses_the_dmca/
 === Link Wrapping ===
 YouTube links outbound links from posted content in <nowiki>www.youtube.com/redirect?q=</nowiki> URLs.
+=== Unequal treatment of indie artists ===
+* 2014-06-19 <cite>[http://www.engadget.com/2014/06/19/youtube-music-video-blocking/ YouTube won't block music videos from Indie labels, but it won't pay them either]</cite> <blockquote><p>[...] Labels who haven't signed up to the website's new terms, the majority of which are independents like XL Recordings, will have their artist channels blocked in the next few days.  ... labels who won't sign up to the paid tier are also kicked out of YouTube's ad-supported monetization scheme. So while we may still be able to find Lotus Flower on a Radiohead fan's channel, the band itself won't get a single penny.</p><p>[...] YouTube isn't even playing fair, offering "highly unfavorable and non-negotiable terms" which undercut the fees paid to Spotify, Rdio and Deezer, as well as being '''less generous than the money paid to the major labels like Warner, Sony and Universal.''' [...]</p></blockquote> '''Emphasis''' added.
 
 == See Also ==
 * [[silos]]

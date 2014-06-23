@@ -1,0 +1,52 @@
+http://indiewebcamp.com/WordPress/Development
+
+Purpose of this page is to document discussions/brainstorming regarding Indieweb [[WordPress]] Themes and Plugins to operate together, despite the author and future development, as well as advice/suggested practices.
+
+=== Working On ===
+There are several projects to improve both the level and ease of supporting [[IndieMark|IndieWeb formats & protocols]] in WordPress.
+
+Themes:
+* A barebones theme that has [[microformats2]] - point the designers/developers that want to build a theme to use that.
+** gRegor is considering doing this with the HTML5blank.com theme.
+*** [https://github.com/pfefferle/SemPress SemPress]  supports a solid mf2 structure and is easily customizable/extendable --[[User:Notizblog.org|Matthias Pfefferle]]
+*** My understanding is that SemPress is a great out-of-the-box theme, but I also wanted a "blank" theme that indieweb designers could build from scratch on. — [[User:Gregorlove.com|gRegor]] ([[User talk:Gregorlove.com|talk]]) 08:51, 17 June 2014 (PDT)
+* Some common defaults that non-technical users could try out, like Twenty Fourteen with [[microformats2]] support added
+** GWG is working on a full blog-style theme that could be used to start a site today, which you can see on his site. It is based on a fork of _s(Underscores) for Indieweb, which is the stripped down starter theme on which the default Wordpress theme, TwentyFourteen, is based. A fork of that with minimal styling using bootstrap is under construction, using lessons learned from the original construction.
+
+
+Plugins:
+* GWG with contributions from acegiak has authored a plugin to add a custom taxonomy to Wordpress to classify responses to external URLs...this allows 'Likes', 'Replies', 'Reposts', 'Bookmarks', etc. The plugin is called [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] and is complete enough for basic use.
+
+=== Brainstorming ===
+* Based on interpretation of the Wordpress Codex custom post types are intended for creating entirely new content types, not extending the existing post type.
+
+* [[User:acegiak.net|Ashton McAllan]] is currently using custom metadata on standard post types and working out how to display which posts in the theme based on whether or not the metadata is populated for a post, considering classifying posts with a custom taxonomy to make for easier handling in the wordpress administration.
+* GWG had recently decided the best move to get semantic markup was a custom taxonomy with terms like like/reply/repost that could be acted on. He had been working on this with a new custom post type, notes. Based on comments by [[User:acegiak.net|Ashton McAllan]], he has decided to try the simpler suggestion of adding the custom taxonomy to the default post type.
+* [[User:snarfed.org|Ryan Barrett]] has a Press This-like plugin for inserting webmentions to a post from the bookmark bar: [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress IndieWeb Press This bookmarklets for WordPress] (or use the [https://github.com/pfefferle/wordpress-indieweb-press-this WordPress plugin])
+* [[User:petermolnar.eu|Peter Molnar]] has [https://github.com/petermolnar/wp-post-formats a fork of] [https://github.com/crowdfavorite/wp-post-formats/ WP Post Formats] extending the "link" post format with optional webmention meta; the data is extracted with a filter on the content in the [https://github.com/petermolnar/petermolnar.eu theme] and the [http://wordpress.org/plugins/webmention webmention] plugin handles the actual send.
+
+
+== Filters ==
+
+"Filters are functions that WordPress passes data through, at certain points in execution, just before taking some action with the data (such as adding it to the database or sending it to the browser screen). Filters sit between the database and the browser (when WordPress is generating pages), and between the browser and the database (when WordPress is adding new posts and comments to the database); most input and output in WordPress passes through at least one filter. WordPress does some filtering by default, and your plugin can add its own filtering." [
+http://codex.wordpress.org/Plugin_API#Filters | Wordpress Codex]
+
+For the purpose of interoperability between Indieweb plugins and themes, GWG and pfefferle discussed using common filter names in Indieweb Wordpress themes to aid in development.
+
+Suggestion for Common Filter Names/Placement (Work in Progress)
+* Themes based on _s contain an entry-meta class which contains the metadata for the entry. 
+** A top-entry-meta filter which adds additional meta data to a div class entry-meta above the content
+** A bottom-entry-meta filter which adds additional meta data to a div class entry-meta below the content
+*** what about "header_entry_meta" and "footer_entry_meta" to be more descriptive? --[[User:Notizblog.org|Matthias Pfefferle]]
+* A above-content and a below-content filter which appear immediately above and below the e-content div
+** most plugins/themes are using "before" and "after" instead of "above" and "below". it describes when the action is fired instead of where... what do you think of "before_content" and "after_content"? --[[User:Notizblog.org|Matthias Pfefferle]]
+** I am not sure if this is needed at all, because the `the_content` filter should be enough to add something above or below the content. --[[User:Notizblog.org|Matthias Pfefferle]]
+* I would suggest to use underscores (instead of hyphens) in actions to use the same style as the [http://codex.wordpress.org/Plugin_API/Action_Reference WordPress "actions"] --[[User:Notizblog.org|Matthias Pfefferle]]
+
+The above would allow metadata to be added/removed by plugins in a designated place above/below the content, either inside a block designated for meta data or not.
+
+== See Also ==
+* [[WordPress]]
+* [[projects]]
+* [[silos]]
+* [[blogs]]

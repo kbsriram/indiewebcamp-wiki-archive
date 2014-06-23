@@ -11,7 +11,8 @@ Join us for two days of brainstorming &amp; creating at <span class="p-name summ
 * '''When:''' from <span class="dt-start dtstart">June 28, 2014 (<time class="value">2014-06-28</time>) at <span class="value">9:30am</span></span> through <span class="dt-end dtend">June 29 (<time class="value">2014-06-29</time>) at <span class="value">6pm</span></span> 
 * '''West Coast''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Esri R&D Center, Portland</span>, <span class="h-adr adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <span class="p-region region" title="Oregon">OR</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">97204</span></span>. <span class="u-url">http://pdx.esri.com</span></span>
 * '''East Coast''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The New York Times Building</span>, <span class="h-adr adr"><span class="p-street-address street-address">620 8th Ave</span>, <span class="p-locality locality">New York</span>, <span class="p-region region" title="New York">NY</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">11225</span></span>.</span>
-* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/</span>
+* '''Berlin''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The Agora Collective</span>, <span class="h-adr adr"><span class="p-street-address street-address">Mittelweg 50</span>, <span class="p-locality locality">Neukölln</span>, <span class="p-region region" title="Berlin">Berlin</span>, <abbr class="p-country-name country-name" title="United States">Germany</abbr>, <span class="p-postal-code postal-code">12053</span></span>. <span class="u-url">http://agoracollective.org</span></span>
+* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014</span>
 
 == RSVP ==
 * '''[[2014/Guest_List|Guest List]]''' - add yourself (and optionally an apprentice)
@@ -31,19 +32,9 @@ Also consider signing up for [http://opensourcebridge.org/ Open Source Bridge], 
 * etherpad index: http://etherpad.mozilla.org/indiewebcamp
 
 === Remote Indiewebcamp Parties ===
-
 Indiewebcamp has a strong tradition of remote participation, typically utilising IRC, google hangouts and etherpad during as well as after the event. If you can't get to the Portland event, consider remote participating or finding/running an indiewebcamp remote party near you.
 
 Indieweb Remote Parties:
-
-
-== Get Your Flights and Hotel ==
-Flights: If you're flying from the SF/Bay Area to Portland (PDX),  Alaska, Southwest, and Virgin America are recommended and have frequent flights to PDX.
-
-Hotels:
-* Ace Hotel
-* Paramount Hotel
-* Nearby AirBNB
 
 == Share ==
 See [[buttons]] and put one your blog/site sidebar for IndieWebCamp 2014!
@@ -59,7 +50,6 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 
 <table><tr><td width="50%">
 ==== West Coast (Portland) ====
-
 * Friday Pre-party: [[Known]]
 * Venue: '''Esri R&D Center Portland'''
 * Breakfast Saturday: 
@@ -84,6 +74,14 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 * Lunch Sunday:
 
 </td></tr></table>
+
+== Get Your Flights and Hotel ==
+Flights: If you're flying from the SF/Bay Area to Portland (PDX),  Alaska, Southwest, and Virgin America are recommended and have frequent flights to PDX.
+
+Hotels:
+* Ace Hotel
+* Paramount Hotel
+* Nearby AirBNB
 
 === inbox ===
 Put suggestions for Indie Web Camp 2014 here, inline or as links to your own notes.
@@ -116,7 +114,7 @@ See also the overall [[to-do]] page for IndieWebCamp.com in general.
 * create the [[2014/Sessions]] and [[2014/Schedule]] pages from [[2013/Sessions]] and [[2013/Schedule]].
 
 == Other Activities ==
-Other Activities to check out in Portland/NYC before / after IndieWebCamp
+Other Activities to check out in Portland/NYC/Berlin before / after IndieWebCamp
 
 * NYC: [http://www.carnegiehall.org/Calendar/2014/6/27/0800/PM/Neil-Gaiman-The-Truth-is-a-Cave-in-the-Black-Mountains/ Neil Gaiman: "The Truth is a Cave in the Black Mountains"] ''Presenting a synchronized multimedia storytelling event, Neil Gaiman reads his story The Truth Is a Cave in the Black Mountains. Illustrations are provided by renowned artist Eddie Campbell.''
 

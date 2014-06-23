@@ -60,10 +60,11 @@ Example github activity [[Atom]] [[feed]] whereby you can export or [[PESOS]] yo
 * https://github.com/tantek.atom (for account name "tantek")
 
 == Self-hosted alternatives ==
+{{main|git#Software}}
 There are various self-hosted alternatives to github:
-* http://gitlab.org
-* https://github.com/tv42/gitosis
-* https://gitorious.org
+* [[gitlab]]
+* [[gitosis]]
+* [[gitorious]]
 
 == See Also ==
 * [[code]]

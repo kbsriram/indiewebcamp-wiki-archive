@@ -73,10 +73,11 @@ Key (in rough order of how ideas develop, succeed)
 * 2010-05-26 (C): '''[[POSSE]]''' concept described by Tantek[http://www.monkinetic.com/2010/05/26/tantek-celik-diso-20-brass-tacks]
 * 2010-07-18 (E): '''[[Federated_Social_Web_Summit#Portland_2010|Federated Social Web Summit]]''' (FSWS2010) in Portland, Oregon
 * 2010-07-18 (C): '''IndieWeb''' Movement conceived by Aaron Parecki & Tantek Çelik after FSWS2010
-* 2010-10-06 (C): '''[[POSSE]]''' architecture drawn by Tantek at Mozilla, Mountain View[http://www.flickr.com/photos/tantek/5301870765/]
+* 2010-10-06 (C): '''[[POSSE]]''' architecture drawn by Tantek at Mozilla, Mountain View[http://www.flickr.com/photos/tantek/5301870765/] including '''[[backfeed]]''' functionality, then referred to as "reverse syndicate".
+* 2010-10-08 (E):  '''Open Web FooCamp''' at O'Reilly Campus, Sebastopol, CA, attended by Tantek where upon arriving he blogged <cite>[http://tantek.com/2010/281/b1/what-is-the-open-web What is the Open Web?]</cite> before the opening session.
 
 == 2011 ==
-* 2011-06-25 (E): '''First [[2011|IndieWebCamp]]''' by Tantek Çelik,  Aaron Parecki, Amber Case, Crystal Beasley in Portland, Oregon
+* 2011-06-25 (E): '''First [[2011|IndieWebCamp]]''' organized by Tantek Çelik,  Aaron Parecki, Amber Case, Crystal Beasley in Portland, Oregon
 
 == 2012 ==
 * 2012-03-28 (I): '''[[IndieAuth]]''' implemented by Aaron Parecki[http://indiewebcamp.com/irc/2012-03-28#t1333002549]
@@ -84,7 +85,7 @@ Key (in rough order of how ideas develop, succeed)
 * 2012-06-20 (T): '''[[POSSE]]''' term proposed by Tantek Çelik & Will Norris at that event[http://tantek.com/2012/173/t1/posse-core-indieweb-approach]
 * 2012-06-22 (T): '''[[PESOS]]''' term proposed by Tantek[http://tantek.com/2012/174/t2/opposite-posse-pesos-publish-elsewhere]
 * 2012-06-30 (E): '''[[2012|IndieWebCamp 2012]]''' in Portland, Oregon
-* 2012-09-09 (E): '''[[2012/UK|IndieWebCampUK 2012]]''' in Brighton, England
+* 2012-09-09 (E): First '''[[2012/UK|IndieWebCampUK]]''' in Brighton, England
 * 2012-10-26 (E): '''[[Federated_Social_Web_Summit#San_Francisco_2012|Federated Social Web Summit San Francisco]]'''
 
 == 2013 ==
@@ -95,7 +96,11 @@ Key (in rough order of how ideas develop, succeed)
 * 2013-06-25 (I): '''[http://bret.io/2013/06/25/t2/ First cross-site indieweb RSVP post]''' by [[Bret Comnes]] 
 * 2013-06-25 (I): '''[http://aaronparecki.com/replies/2013/06/25/3/indiewebcamp Second cross-site indieweb RSVP post]''' by [[Aaron Parecki]] using [[p3k]]
 * 2013-09-07 (E): '''[[2013/UK|IndieWebCampUK 2013]]''' in Brighton, England
-* 2013-12-01 (L): '''[https://www.brid.gy/ Bridgy]''' Service that watches for activity on syndicated content and sends webmentions back to the original post (ex: likes or favorites). by [[Ryan Barrett]].
+* 2013-12-01 (L): '''[https://www.brid.gy/ Bridgy]''' launched - first '''[[backfeed]] as a service''' that watches for activity (e.g. likes, reposts, comments) on content POSSEd to silos (e.g. Twitter, Facebook, G+) and sends webmentions back to the original post. by [[Ryan Barrett]].
+
+== 2014 ==
+* 2014-03-07 (E): First '''[[2014/SF|IndieWebCampSF]]''' in San Francisco, CA
+* 2014-04-26 (E): First '''[[2014/NYC|IndieWebCampNYC]]''' hosted by the New York Times in New York.
 
 == needs cleanup ==
 ---

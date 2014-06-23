@@ -54,6 +54,8 @@ Homesteading currently supports the following kinds of [[posts]]:
 ** [http://iamshane.com/videos iamshane.com/videos]
 * [[Bookmarks]]
 ** [http://iamshane.com/bookmarks iamshane.com/bookmarks]
+* [[Weights]]
+** [http://iamshane.com/weights iamshane.com/weights]
 * '''TODO''': [[Checkins]]
 * '''TODO''': [[Events]]
 * '''TODO''': [[Lists]]

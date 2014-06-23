@@ -7,7 +7,6 @@ http://indiewebcamp.com/Diaspora
 [[Friendica]] implemented D* federation successfully, although there were some problems with post formats (IIRC D* syndicated markdown but friendica syndicated BB code --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 08:23, 12 July 2013 (PDT)). [[StatusNet]] can subscribe to D* feeds.
 
 == Standards Support ==
-
 Diaspora makes use of several social web standards, including:
 
 * Parts of [[OStatus]]: 
@@ -16,7 +15,6 @@ Diaspora makes use of several social web standards, including:
 * [[hCard]]
 
 == Data Export ==
-
 Despite one of D*’s headline features being data portability, this (as of 2013-02) has not been implemented, and the data export features are sorely lacking. Image export does not function at all, and the XML file which can be downloaded only includes contact data, not actual posts.
 
 * Or, at least, that is my experience. This needs to be verified by someone else --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 12:25, 25 February 2013 (PST)
@@ -24,7 +22,12 @@ Despite one of D*’s headline features being data portability, this (as of 2013
 [https://github.com/barnabywalters/diaspora-export diaspora-export], created by [[User:WaterPigs.co.uk|Barnaby Walters]], is a python script for quickly exporting all of your public posts given only your profile URL. It spits out a JSON file which can then easily be transformed and imported into your own site.
 
 == IWC Attendee Articles ==
-
 * [http://waterpigs.co.uk/articles/diaspora-lessons/ Lessons to learn from Diaspora] by [[User:WaterPigs.co.uk|Barnaby Walters]]
-* Add yours here
-* …
+* Add yours here...
+
+== Statistics ==
+http://podupti.me/ shows stats about current Disapora pods in use 
+* notice the exceptionally high amount of pods in DE (e.g. see [[Despora]])
+
+== See Also ==
+* [[Despora]]

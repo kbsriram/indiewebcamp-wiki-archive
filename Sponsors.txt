@@ -3,15 +3,26 @@ http://indiewebcamp.com/Sponsors
 Want to help IndieWebCamp? Become a sponsor!
 * [[how-to-sponsor|How to sponsor IndieWebCamp]]
 
-== 2014 PDX Sponsors ==
+== 2014 Sponsors ==
 
-* See [[how-to-sponsor]] to sponsor [[2014|IndieWebCamp 2014 ]]!
+* See [[how-to-sponsor]] to sponsor [[2014|IndieWebCamp 2014]]!
+
+{|
+|align="center" style="padding: 20px;"|[[File:bridgy-logo.jpg|110px|link=http://www.brid.gy/]]
+| <h3>Bridgy</h3> '''[[Bridgy]]''' is an open source project and proxy that implements backfeed as a service. Bridgy sends webmentions for comments, likes, etc. on Facebook, Twitter, Google+, and Instagram.
+|-
+|align="center" style="padding: 20px;"|[[File:esri-logo.png|160px|link=http://pdx.esri.com/]]
+| <h3>Esri Portland</h3> '''[http://pdx.esri.com/ Esri Portland]''' is graciously hosting the 2014 event in Portland.
+|-
+|align="center" style="padding: 20px;"|[[File:nyt-logo.png|160px|link=http://www.nytimes.com/]]
+| <h3>The New York Times</h3> '''[http://www.nytimes.com/ The New York Times]''' is graciously hosting the 2014 event in NYC.
+|}
 
 == 2014 SF Sponsors ==
 IndieWebCamp thanks the following [[2014/SF|2014 SF]] sponsors:
 
 {|
-|align="center" style="padding: 20px;"|[[File:bridgy-logo.jpg|110px|link=https://www.brid.gy/]]
+|align="center" style="padding: 20px;"|[[File:bridgy-logo.jpg|110px|link=http://www.brid.gy/]]
 | <h3>Bridgy</h3> '''[[Bridgy]]''' is an open source project and proxy that implements backfeed as a service. Bridgy sends webmentions for comments, likes, etc. on Facebook, Twitter, Google+, and Instagram.
 |-
 |align="center" style="padding: 20px;"|[[File:idno-logo.png|110px|link=http://idno.co]]

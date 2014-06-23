@@ -54,12 +54,12 @@ Which brings us to...
 [[File:semantic-linkbacks.png|100px|right]]
 [[WebMention]]s are also part of the core IndieWeb [[building-blocks]]. They let you send and receive replies, likes, etc. directly from your site.
 
-Try the [http://wordpress.org/plugins/webmention webmention] plugin ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available] for webmention plugin) and [https://github.com/acegiak/Semantic-Linkbacks semantic-linkbacks] plugin (requires FTP), which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]] and classic [[mentions]].
+Try the [http://wordpress.org/plugins/webmention webmention] plugin ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available] for webmention plugin) and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugin, which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]], [[RSVPs]] and classic [[mentions]].
 
 For the wordpress-webmention to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
 and "Allow people to post comments on new articles" checkboxes.
 
-Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive WebMentions directly form the [http://adactio.com/journal/6469/ comments section] of your blog.
+Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive WebMentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog.
 
 === More building blocks ===
 If you've made it this far, congrats! You're a fully functioning member of the IndieWeb! Here are a few more plugins you might want to try. Many require FTP or other more technical setup.
@@ -98,7 +98,7 @@ IndieWebCamp participants using it on their primary site:
 * [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org] with:
 ** [http://wordpress.org/plugins/indieauth/ IndieAuth]
 ** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
-** and some experiments with [https://github.com/acegiak/Semantic-Linkbacks Semantic Linkbacks]
+** [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic Linkbacks] ([[selfdogfooding]])
 * [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] with:
 ** URL Shortener via WP-Hum ([[selfdogfooding]])
 * [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
@@ -131,26 +131,14 @@ Other independents using it on their primary site:
 * [http://singpolyma.net Stephen Paul Weber]
 * [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
 ** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
+* [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 but planning to move to something more static.
 * ...
 
-=== Working On ===
-There are several projects to improve both the level and ease of supporting [[IndieMark|IndieWeb formats & protocols]] in WordPress.
+=== Development ===
 
-Themes:
-* A barebones theme that has [[microformats2]] - point the designers/developers that want to build a theme to use that.
-** gRegor is considering doing this with the HTML5blank.com theme.
-* Some common defaults that non-technical users could try out, like Twenty Fourteen with [[microformats2]] support added
-** GWG is working on a full blog-style theme that could be used to start a site today, which you can see on his site. It is based on a fork of _s(Underscores) for Indieweb, which is the stripped down starter theme on which the default Wordpress theme, TwentyFourteen, is based. A fork of that with minimal styling using bootstrap is also going to be available as well as soon as some improvements are backported.
-Plugins:
-* GWG also started on a plugin to add custom post types to Wordpress and was looking for help in planning the types that would result in the least alteration of the Wordpress system. It may not come to fruition because of the author's reluctance to so deeply change Wordpress, which defeats the purpose of a general solution. Work on a solution in this vein is still pending.
+Several projects are actively under development for use in Wordpress. Plugins/themes considered complete enough for widespread use  will appear on this page. 
 
-=== Brainstorming ===
-* Based on interpretation of the Wordpress Codex custom post types are intended for creating entirely new content types, not extending the existing post type.
-
-* [[User:acegiak.net|Ashton McAllan]] is currently using custom metadata on standard post types and working out how to display which posts in the theme based on whether or not the metadata is populated for a post, considering classifying posts with a custom taxonomy to make for easier handling in the wordpress administration.
-* GWG had recently decided the best move to get semantic markup was a custom taxonomy with terms like like/reply/repost that could be acted on. He had been working on this with a new custom post type, notes. Based on comments by [[User:acegiak.net|Ashton McAllan]], he has decided to try the simpler suggestion of adding the custom taxonomy to the default post type.
-* [[User:snarfed.org|Ryan Barrett]] has a Press This-like plugin for inserting webmentions to a post from the bookmark bar: [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress IndieWeb Press This bookmarklets for WordPress] (or use the [https://github.com/pfefferle/wordpress-indieweb-press-this WordPress plugin])
-* [[User:petermolnar.eu|Peter Molnar]] has [https://github.com/petermolnar/wp-post-formats a fork of] [https://github.com/crowdfavorite/wp-post-formats/ WP Post Formats] extending the "link" post format with optional webmention meta; the data is extracted with a filter on the content in the [https://github.com/petermolnar/petermolnar.eu theme] and the [http://wordpress.org/plugins/webmention webmention] plugin handles the actual send.
+For brainstorming on development of Indieweb themes/plugins for Wordpress and discussion of common conventions to ensure interoperability, see [[WordPress/Development|WordPress Development]].
 
 === Problems ===
 Problems with using WordPress software  from an IndieWeb perspective.

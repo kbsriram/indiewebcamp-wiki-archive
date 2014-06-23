@@ -22,6 +22,7 @@ And contain either:
 IndieWeb Community members using flat files for storage with their projects:
 === HTML plus microformats ===
 * [[User:Tantek.com|Tantek]] on [http://tantek.com/ tantek.com] uses [[Falcon]] (time sharded per [[bim]])
+* [[User:Kevinmarks.com|Kevin Marks]] on [http://kevinmarks.com kevinmarks.com] stores posts formatted as HTML in [https://github.com/kevinmarks/kevin-marks.com GitHub] and deploys statically to Heroku.
 * ...
 
 === Markdown plus extensions ===

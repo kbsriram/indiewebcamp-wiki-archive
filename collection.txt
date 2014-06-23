@@ -1,0 +1,11 @@
+http://indiewebcamp.com/collection
+
+{{stub}}
+
+A '''<dfn>collection</dfn>''' is a type of [[post]] that lists and/or embeds multiple other posts.
+
+== IndieWeb Examples ==
+* http://kylewm.com/share/2014/04/14/1
+
+== See Also ==
+* [[album]]
