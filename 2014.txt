@@ -43,13 +43,14 @@ See [[buttons]] and put one your blog/site sidebar for IndieWebCamp 2014!
 Blog and post about IndieWebCamp. See what others are posting: http://tagboard.com/indiewebcamp
 
 == Help Out ==
-=== sponsor ===
-[[how-to-sponsor|How to sponsor IndieWebCamp]]
+=== Sponsor ===
+<span id="sponsor">[[how-to-sponsor|How to sponsor IndieWebCamp]]</span>
 
 * '''[[Bridgy]]''' (may be allocated however is best)
 
 <table><tr><td width="50%">
-==== West Coast (Portland) ====
+==== West Sponsors ====
+West Coast (Portland) sponsors:
 * Friday Pre-party: [[Known]]
 * Venue: '''Esri R&D Center Portland'''
 * Breakfast Saturday: 
@@ -61,27 +62,19 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 * Lunch Sunday: 
 
 </td><td width="50%">
-==== East Coast (New York) ====
-
-* Pre-party: 
-* Venue: '''New York Times'''
-* Breakfast Saturday: 
-* Coffee Saturday: 
-* Lunch Saturday: 
-* Dinner Saturday: 
-* Breakfast Sunday: 
-* Coffee Sunday: 
-* Lunch Sunday:
+==== East Sponsors ====
+East Coast (New York) sponsors:
+* Pre-party: ???? (being determined. got a preference? say something here!)
+* Venue: '''[[New York Times]]'''
+* Breakfast Saturday: New York Times
+* Coffee Saturday: New York Times
+* Lunch Saturday: [[&yet]]
+* Dinner Saturday: [[Mozilla]]
+* Breakfast Sunday: New York Times
+* Coffee Sunday: New York Times
+* Lunch Sunday: [[&yet]]
 
 </td></tr></table>
-
-== Get Your Flights and Hotel ==
-Flights: If you're flying from the SF/Bay Area to Portland (PDX),  Alaska, Southwest, and Virgin America are recommended and have frequent flights to PDX.
-
-Hotels:
-* Ace Hotel
-* Paramount Hotel
-* Nearby AirBNB
 
 === inbox ===
 Put suggestions for Indie Web Camp 2014 here, inline or as links to your own notes.
@@ -117,6 +110,22 @@ See also the overall [[to-do]] page for IndieWebCamp.com in general.
 Other Activities to check out in Portland/NYC/Berlin before / after IndieWebCamp
 
 * NYC: [http://www.carnegiehall.org/Calendar/2014/6/27/0800/PM/Neil-Gaiman-The-Truth-is-a-Cave-in-the-Black-Mountains/ Neil Gaiman: "The Truth is a Cave in the Black Mountains"] ''Presenting a synchronized multimedia storytelling event, Neil Gaiman reads his story The Truth Is a Cave in the Black Mountains. Illustrations are provided by renowned artist Eddie Campbell.''
+
+== Get Your Flights and Hotel ==
+Flights: If you're flying from the SF/Bay Area to Portland (PDX),  Alaska, Southwest, and Virgin America are recommended and have frequent flights to PDX. Virgin America also flies SFO-JFK or Newark.
+
+Portland Hotels:
+* Ace Hotel
+* Paramount Hotel
+* Nearby AirBNB
+
+New York Hotels:
+* Element New York Times Square West, 311 W 39th St, New York, NY 10018
+** just a couple of blocks from the New York Times building
+* Club Quarters-Midtown, 40 W 45th St, New York, NY 10036
+
+Berlin Hotels:
+* ...
 
 == Previously ==
 * [[2014/NYC]]

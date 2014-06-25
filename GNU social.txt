@@ -6,6 +6,10 @@ http://indiewebcamp.com/GNU_social
 
 On 2013-06-08, GNU social merged with (incorporated) [[StatusNet]] and Free Social.[https://www.gnu.org/software/social/merge.html]
 
+== IndieWeb Compatibility ==
+
+* As of 2014-04-23, posts are now marked up with microformats2 [https://social.umeahackerspace.se/conversation/115235 thanks to Mikael Nordfeldth] (one of the primary developers), spurred by [http://microformats.org/2014/06/20/microformats-org-turns-9-upgrade-to-microformats2 Microformats.org Turns 9]
+
 == Criticisms ==
 === Difficult to get information about ===
 <blockquote>As so very often with GNU projects it is really difficult to get information about it fast, you have to search and find it all over the internet</blockquote>[http://indiewebcamp.com/irc/2013-11-02#t1383405690]

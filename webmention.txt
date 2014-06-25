@@ -303,6 +303,7 @@ Should webmentions be sent for links to static asset URLs e.g. images, audio?
 What do existing implementations do?
 
 * [[Taproot]] sends webmentions to all URLs in a post without discriminating by type of link --[[User:Waterpigs.co.uk|Barnaby Walters]] 09:01, 26 November 2013 (PST)
+* [[Stapibas]] sends linkbacks to all URLs, independent of their type -- [[User:Cweiske]]
 
 === Should webmentions be sent for embeds ===
 Should webmentions be sent for resources embedded in a post like the URLs in "src" and "data" attributes?

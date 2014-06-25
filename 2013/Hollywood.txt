@@ -267,13 +267,10 @@ Sorry to miss you!
 
 Our thanks to these sponsors for supporting the event.
 
+<a href="http://google.com"><img src="https://indiewebcamp.com/sponsor-logos/full/google-logo.png" width="200"></a>
 
-[https://google.com [[File:google-logo.png]]]
-
-[http://trsst.com [[File:trsst.png]]]
+<a href="http://trsst.com"><img src="https://indiewebcamp.com/sponsor-logos/full/trsst-logo.png" width="200"></a>
 
 [[Category:Events]]
 [[Category:2013]]
 [[Category:Guest List]]
-
-<br /><br /><br /><br /><br />

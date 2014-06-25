@@ -9,8 +9,6 @@ It can also [[POSSE]] posts, comments/replies, retweets, likes/favorites, and ev
 Finally, it adds [[webmention]] support to [[Blogger]], [[Tumblr]], and [[WordPress#WordPress.com_hosting_service|WordPress.com]] blogs.
 
 == How to use ==
-[[File:bridgy-logo.jpg|200px|right]]
-
 Once you OAuth into Brid.gy with your Facebook/Twitter/Google+/Instagram identities, Bridgy polls your posts on each respectively, discovers original post links, and sends comments to those links as webmentions to your webmention endpoint (discovered from the original post links).
 
 It also serves the [[silo]] posts, comments, likes, etc. as [[microformats2]] for webmention targets to read.

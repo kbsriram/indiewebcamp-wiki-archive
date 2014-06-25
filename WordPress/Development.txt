@@ -35,15 +35,15 @@ For the purpose of interoperability between Indieweb plugins and themes, GWG and
 
 Suggestion for Common Filter Names/Placement (Work in Progress)
 * Themes based on _s contain an entry-meta class which contains the metadata for the entry. 
-** A top-entry-meta filter which adds additional meta data to a div class entry-meta above the content
-** A bottom-entry-meta filter which adds additional meta data to a div class entry-meta below the content
-*** what about "header_entry_meta" and "footer_entry_meta" to be more descriptive? --[[User:Notizblog.org|Matthias Pfefferle]]
-* A above-content and a below-content filter which appear immediately above and below the e-content div
-** most plugins/themes are using "before" and "after" instead of "above" and "below". it describes when the action is fired instead of where... what do you think of "before_content" and "after_content"? --[[User:Notizblog.org|Matthias Pfefferle]]
+** A header_entry_meta filter which adds additional meta data to a div class entry-meta inside the header
+** A footer_entry_meta filter which adds additional meta data to a div class entry-meta inside the footer
+** The two entries share a class entry-meta, which is used for commonly styling.
+* A before_content and an after_content filter which appear immediately above and below the e-content div
 ** I am not sure if this is needed at all, because the `the_content` filter should be enough to add something above or below the content. --[[User:Notizblog.org|Matthias Pfefferle]]
+** Response from GWG to above... the_content filter styles the return from the content editor. But, wrapped around that is the markup identifying the content. There may be a better way to do it, but the idea is to be able to add data that is not inside the content block, and not in the header or footer. Example... adding the in-reply-to, or adding a p-summary. What about wrapping the div around the_content in higher level filter, such as the entry_content filter??
 * I would suggest to use underscores (instead of hyphens) in actions to use the same style as the [http://codex.wordpress.org/Plugin_API/Action_Reference WordPress "actions"] --[[User:Notizblog.org|Matthias Pfefferle]]
 
-The above would allow metadata to be added/removed by plugins in a designated place above/below the content, either inside a block designated for meta data or not.
+The above would allow data to be added/removed by plugins in a designated place outside the content block, either inside a block designated for meta data in the header/footer or not.
 
 == See Also ==
 * [[WordPress]]

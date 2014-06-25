@@ -65,13 +65,13 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
-|name = Peter Molnar
-|img = https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128
-|url = https://petermolnar.eu
-|org_name = 
-|org_url = 
-|projects = wordpress-syndication contributor
-|elsewhere = petermolnar@twitter
+|name = Grant Richmond
+|img = http://terminalpixel.co.uk/img/grant-richmond-square.gif
+|url = http://grant-richmond.com/
+|org_name = Terminal Pixel
+|org_url = http://www.terminalpixel.co.uk/
+|projects = Developer Share Buttons
+|elsewhere = gfrichmond and terminalpixel all over
 }}
 
 {{Attendee
@@ -82,6 +82,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |org_url = http://clearleft.com/
 |projects = small snippets of PHP and HTML for webmentions and POSSEing
 |elsewhere = adactio@twitter, github, flickr, dribbble, huffduffer, instagram, findings, ffffound, readlists
+}}
+
+{{Attendee
+|name = Peter Molnar
+|img = https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128
+|url = https://petermolnar.eu
+|org_name = 
+|org_url = 
+|projects = wordpress-syndication contributor
+|elsewhere = petermolnar@twitter
 }}
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!

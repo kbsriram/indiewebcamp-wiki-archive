@@ -10,20 +10,29 @@ __TOC__
 == Have ==
 ''Add your session ideas for things you want lead a discussion about. Be sure to add your name.''
 
+=== Let's build an IndieWeb aggregator ===
+'''Proposed by: [[werd.io|Ben Werdmuller]]''' 
+
+Writing is only half the story. Let's get the ball rolling on an ecosystem of awesome indieweb readers across platforms.
+
 === Session Title ===
 '''Proposed by: ___''' 
 
 Description
 
-
 == Want ==
 ''If you are interested in a topic but do not feel like you can lead the discussion, add it here.''
+<!-- copy the "Session Topic" section below and fill in the information -->
+
+=== [[Micropub]] ===
+Requested by: {{gRegor}}
+
+General overview. What is it, why use it, etc.
 
 === Session Topic ===
 '''Requested by: ___'''
 
-Details 
-
+Details
 
 == Previous Years ==
 {{#categorytree:Session List|mode=pages|hideprefix=always|hideroot=on}}

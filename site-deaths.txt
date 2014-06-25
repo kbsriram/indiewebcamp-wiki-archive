@@ -1,6 +1,6 @@
 http://indiewebcamp.com/site-deaths
 
-<span style="float:right">[http://www.xkcd.com/1361/ http://imgs.xkcd.com/comics/google_announcement.png]</span> '''<dfn>Site deaths</dfn>''' are when sites go offline, taking their content and permalinks with them, and breaking the web accordingly. Site deaths are one of the big reasons [[why]] you should own your own identity and content on the web.
+<span style="float:right; margin: 0 0 1em 1em;">[http://www.xkcd.com/1361/ http://imgs.xkcd.com/comics/google_announcement.png]</span> '''<dfn>Site deaths</dfn>''' are when sites go offline, taking their content and permalinks with them, and breaking the web accordingly. Site deaths are one of the big reasons [[why]] you should own your own identity and content on the web.
 
 This is a chronology of content hosting sites that have died, removing millions (billions?) of permalinks from the web. This is specifically for content hosting sites which permitted end-user posting. Not random sites nor pure "app" sites where there's no loss of user data. If a game site goes down and takes down play history/scores, or if Gmail went away those would both represent '''loss of user data''' (though no public permalinks).
 
@@ -18,10 +18,7 @@ Expected/announced site deaths. Check them upon announced shutdown date.
 
 Soonest first:
 * 2014-06-01 '''Ubuntu One''' cloud sync service run by Canonical, makers of Ubuntu, to be [https://one.ubuntu.com/services/shutdown/ discontinued].
-
-* 2014-06-08 '''Justin.tv''' deleting all archived videos with one week notice.
-** "All VODs will be removed after June 8, 2014. We recommend downloading your recorded videos before the date."
-** 2014-05-29 https://help.justin.tv/entries/41803380-Changes-to-Video-Archive-System
+** ". . . user content will remain available for download until 31 July, at which time it will be deleted."
 
 * 2014-06-25 '''Springpad''' "will be shutting down."[https://springpad.com/about]
 ** 2014-05-22 The Verge: <cite>[http://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors One-time Evernote rival Springpad to close its doors]</cite>
@@ -69,9 +66,16 @@ See also (and add one-line summaries to) the [[history|history page]].
 In reverse chronological order:
 
 === 2014 ===
+* 2014-06-15 '''Justin.tv''' no longer archiving live broadcasts and will be deleting all archived videos with two weeks notice.
+** "All VODs will be removed after June 15, 2014. We recommend downloading your recorded videos before the date."
+*** Initially this reported "June 8, 2014", but as of 2014-06-24 the page says June 15.
+** 2014-05-29 https://help.justin.tv/entries/41803380-Changes-to-Video-Archive-System
+
 * 2014-05-30 '''Editorially''' collaborative writing and editing platform
 ** Service will be shut down; did not get enough users to make it sustainable. Users have until shut down date to export their data. Archive will include a plain text file for every version of every document you have access to; it will also include comments, version notes, tags, activity, and other metadata about your documents. That metadata will be provided in the form of a YAML file. https://editorially.com/help
 *** 2014-02-12: http://stet.editorially.com/articles/goodbye/
+** 2014-06-24: Announced that Editorially has been acquired by Vox Media and they want to "release parts of the code via an open source license." Interestingly, "Absolutely no user data — no names, email addresses, documents, or any other user data — will be transferred to Vox Media."
+*** http://stet.editorially.com/articles/editorially-joins-vox-media/
 ** 2014-12-31: "Remaining data backups will be permanently deleted" (until then "users may request a backup of their data by emailing support@editorially.com" - http://editorially.com/ )
 
 * 2014-04-30 '''Qik''' video hosting service retiring. [http://support.qik.com/entries/26205425-Qik-service-retiring-in-April-2014-IMPORTANT-PLEASE-READ Qik service retiring in April 2014 – IMPORTANT, PLEASE READ] <blockquote>On April 30, 2014, Qik.com will be retiring. [...] Videos uploaded, shared and embedded using Qik will no longer be available through Qik.</blockquote>

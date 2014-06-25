@@ -11,6 +11,8 @@ __NOTOC__
 
 == Setup ==
 
+* I mainly use my own custom setup called '''[[Bundle]]'''.
+
 * Django+MySQL with a lot of custom Python code, hosted on [https://www.webfaction.com/ Webfaction.com]
 
 * Post types currently active: Article and Notes

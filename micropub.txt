@@ -107,7 +107,6 @@ The following properties may be included in a request to create a new [[h-entry]
 * in-reply-to
 * syndication
 ** Pass one or more URLs pointing to places where this entry already exists. Can be used for [[PESOS]] implementations.
-** Maybe rename to better differentiate between syndicate and syndication? --[[User:Vanderven.se martijn|Vanderven.se martijn]] 14:06, 14 January 2014 (PST)
 * syndicate-to = twitter.com, alpha.app.net, facebook.com, etc.
 ** This property is slightly different from the others since it is giving a command to the server rather than describing an object.
 ** client should identify services by their domain name.
@@ -132,7 +131,7 @@ Content-type: application/x-www-form-urlencoded
 h=entry
 &content=The+%40Jawbone+UP%2C+my+favorite+of+the+%23quantifiedself+trackers%2C+finally+released+their+official+API%21+http%3A%2F%2Fjawbone.com%2Fup%2Fdeveloper%2F
 &category=jawbone,quantifiedself,api
-&syndicate=twitter.com
+&syndicate-to=twitter.com
 </pre>
 
 ===== Minimal Example =====
@@ -167,7 +166,7 @@ Content-type: application/x-www-form-urlencoded
 h=entry
 &content=%40BarnabyWalters+My+favorite+for+that+use+case+is+Redis.+It%27s+easy+to+set+up+and+use%2C+I+often+use+it+to+move+data+between+apps+written+in+different+languages+too.
 &in-reply-to=http://waterpigs.co.uk/notes/4S0LMw/
-&syndicate=twitter.com
+&syndicate-to=twitter.com
 </pre>
 
 ==== New Article ====

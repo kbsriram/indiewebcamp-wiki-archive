@@ -12,7 +12,20 @@ I decided on one field for the URL if I'm replying-to/reposting. The checkbox be
 
 Then a separate checkbox determines if I'm also "liking" the URL.
 
+After my initial version, I decided to re-order the fields:
+* ''Title'' will be used least often, so it's at the bottom.
+* I do not have POSSE set up yet, so ''Syndication'' will always be manual and thus used less often.
+* The ''Published Date'' and ''Timezone'' defaults to the current time, so will only be necessary for future posts, or to post in a different timezone.
+* ''Note'', ''Likes'', and ''Re-posts'' will be the most commonly used fields, so they're at the top.
+
 '''Current version:'''<br>
+(looks better [http://indiewebcamp.com/images/2/24/gregorlove-add-note-2014-06-23.png full-size])
+
+[[File:gregorlove-add-note-2014-06-23.png|700px]]
+
+<hr>
+
+'''Initial version:'''<br>
 (looks better [http://indiewebcamp.com/images/a/a8/gregorlove-add-note-2014-06-18.png full-size])
 
 [[File:gregorlove-add-note-2014-06-18.png|700px]]

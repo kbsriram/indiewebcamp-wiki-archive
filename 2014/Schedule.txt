@@ -11,12 +11,13 @@ All times are <strong>local</strong> times. We'll sync-up sessions across East/W
 <div class="h-event">
 == Friday, June 27, 2014 - <span class="p-name">IndieWebCamp Hosted Pre-Party</span> == 
 * <time class="dt-start" datetime="2014-06-27T16:30:00-0700">4:30pm</time>
-* <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+* <span class="p-location h-card"><span class="p-name">Pints</span>, <span class="p-adr"><span class="p-street-address">412 NW 5th Ave</span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+** drink tickets for registered attendees sponsored by [[Known]]!
+** <a class="u-url" href="http://calagator.org/events/1250466553">calagator.org</a>
+** <a class="u-url" href="http://aaronparecki.com/events/2014/06/27/1/indiewebcamp-pre-party">aaronparecki.com</a>
 * <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
-* Anyone is welcome, drink tickets will be available to registered IndieWebCamp attendees
-* Drink tickets thanks to our [[sponsors]]!
-* <a class="u-url" href=""></a>
-* <a class="u-url" href=""></a>
+** <a class="u-url" href=""></a>
+* Anyone is welcome, drink tickets will be available to registered IndieWebCamp attendees thanks to our [[sponsors]]
 </div>
 
 == Saturday, June 28, 2014 (Idea Sessions)==

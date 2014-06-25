@@ -119,6 +119,6 @@ The implementation of this is still in progress. Below is a screenshot of the co
 * <span style="text-decoration: line-through;">Add backend webmention approval interface</span>
 * <span style="text-decoration: line-through;">Add ability to whitelist domains to automatically display their webmentions</span>
 * <span style="text-decoration: line-through;">Display "reply" webmentions on articles</span>
+* <span style="text-decoration: line-through;">Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.</span>
 * Add a "mentions" page which is a stream of incoming, approved webmentions
-* Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.
 * Add a "status" URL that webmention senders can check whether their webmention was accepetd/denied

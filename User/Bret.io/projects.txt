@@ -1,4 +1,4 @@
-http://indiewebcamp.com/projects
+http://indiewebcamp.com/User%3ABret.io/projects
 
 These are '''<dfn>projects</dfn>''' you can use to get your site on the IndieWeb and improve your IndieWeb support.
 

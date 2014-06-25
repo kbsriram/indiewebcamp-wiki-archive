@@ -4,6 +4,16 @@ http://indiewebcamp.com/security
 
 '''<dfn>security</dfn>''' in the context of the indieweb may refer to security concerns regarding [[personal domain]]s, [[web hosting]], [[https]] setup, private data, identity etc. Nearly everything on the indieweb has security concerns.
 
+== Visibility ==
+Services that require logins or act as [[authorization-endpoint|authorization servers]] should provide a way for users to see an audit trail of events relating to their account.
+
+=== Examples ===
+==== [https://github.com/settings/security Github Security History] ====
+[[File:github-security-history-example.png|500px]]
+
+==== [https://www.google.com/settings/security Google Security Audit Log] ====
+[[File:google-security-history-example.png|500px]]
+
 == Breaches ==
 Security breaches as reported by sites
 
