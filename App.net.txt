@@ -10,7 +10,9 @@ App.net has a proprietary snowflake API similar to Twitter.
 
 == How to ==
 === Export your data from ADN ===
-* unknown
+Data can be exported from this page: https://account.app.net/settings/content/
+
+App.net then sends an email with a link to a ZIP file which contains all posts, messages etc. in JSON files that have the same format as their (snowflake) API.
 
 === POSSE to ADN ===
 ==== PourOver ====
@@ -80,6 +82,12 @@ Also of interest is that App.net offers a developer incentive program for develo
 * [http://blog.app.net/2013/03/01/updates-to-the-app-net-developer-incentive-program/ Updates to Developer Incentive Program, March 1, 2013]
 
 This seems like a ripe opportunity for a talented IndieWebDev to build a "hub" type app that does all the heavy lifting of web mentions, favoriting, following, and federation of data between Indie nodes and App.net networks. The end goal would be to allow any person on Alpha.App.net (or other App.net networks) to  seamlessly publish and reply between networks once they've authenticated the app!
+
+== Uncertain Future ==
+
+On May 6th, 2014 App.net has published a "State of the Union" blog post in which they have announced a team layoff and end of the Developer Incentive Program due to low subscription renewal rates: http://blog.app.net/2014/05/06/app-net-state-of-the-union/
+
+They have explicitly stated though that the service keeps on running "on an indefinite basis".
 
 == Posts about ==
 Posts about app.net

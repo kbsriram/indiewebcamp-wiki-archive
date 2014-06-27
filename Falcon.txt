@@ -1,6 +1,6 @@
 http://indiewebcamp.com/Falcon
 
-<span style="float:right">https://pbs.twimg.com/profile_images/651194638/falcon.png</span>
+<span style="float:right">https://pbs.twimg.com/profile_images/651194638/falcon_200x200.png</span>
 
 '''<dfn>[http://tantek.com/w/Falcon Falcon]</dfn>''' is a personal publishing (tweeting, blogging, realtime syndicating) web application.  There is an instance of Falcon running at [http://tantek.com tantek.com] and serving/syndicating blog and tweet content.
 
@@ -17,6 +17,7 @@ If some of this helps you with designing your own indieweb implementation, great
 
 Thanks, - [[User:Tantek.com|Tantek]] 19:37, 23 March 2013 (PDT)
 
+__TOC__
 == Post Types ==
 Falcon supports the following 5 kinds of [[posts]].
 
@@ -84,7 +85,8 @@ Falcon supports:
 ** Use-case: [[Status.net]] / Identica subscribers get real-time updates via PuSH notifications from tantek.com
 
 == Working On ==
-The next things I'm working on to add to Falcon:
+The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
+
 === simple repost of tweets ===
 Recently (2014-06-04..05) I was at a conference where I wanted to retweet a quote someone else captured from one of the speakers rather than make a similar post myself.
 
@@ -257,8 +259,8 @@ There is some support in Falcon for displaying archive pages but they need more 
 === more ===
 Beyond that, I find my prioritization changes often enough that I just keep a loose collection of thoughts/ideas/wants/brainstorms that I occasionally iterate on until something reaches the point of - hey, I could finish coding that in a day or two.
 
-== Itching ==
-These are a collection of annoyances that have respective features / improvements. As their annoyance level bubbles to the top, they're likely to become concrete "Working On" tasks.
+== Itches ==
+<span id="Itching">Itches</span> are other things I want on my site but haven't started implementing yet. They are a collection of annoyances that have respective features / improvements. As their annoyance level bubbles to the top, they're likely to become concrete "[[#Working_On|Working On]]" tasks.
 
 === Payment Links ===
 Similar to the mobile [[communication]] links, it would be good to have a set of [[payment]] links/buttons which show the user different ways to pay, in order of my preference, and then the user can choose which one they can and want to do.
@@ -324,6 +326,31 @@ Scratch: have every page on my site by default be a wiki page made "wiki-like" b
 
 Brainstorm started here:
 * [[wiki-projects#Brainstorming|wiki-projects: Brainstorming]]
+
+=== Private Groups ===
+Not high on my priority list (though would be necessary to figure out to extract myself from FB).
+
+Use-case: I've made use of private groups a bunch on [[Facebook]] in the past year. So I see their value. 
+
+I am not sure how the indieweb equivalent would work but I think something like this:
+
+I want to be able to from my own site make a private group work for indieweb folks:
+* Create a private group hosted on my domain (secondary: on an external custom group-specific domain)
+* Add people to it (by domain name)
+* or maybe just Invite people to join it
+* Post to it such that only those in the group can see it (expectation, future members could see it too)
+
+I want to be able to from my own site interact with a silo private group:
+* '''Watch''' ([[reading]]) posts and other activity on a private group on a [[silo]] like a [[Facebook]] group.
+* '''Publish''' (privately? to my personal site mirror of the private group?) 
+** Posts / notes to the private group, and POSSE to the silo private group
+** Replies to posts in the group and POSSE to the silo private group
+** Like posts in the group and POSSE to the silo private group
+* '''Receive notifications''' on my [[homepage]] of:
+** Mentions of my name in posts or comments in the silo private group
+** Likes in the silo private group of my comments or posts that were POSSEd to the silo private group
+** Comments in the silo private group of my comments or posts that were POSSEd to the silo private group
+* '''UI for responding''' to such notifications by creating a reply or liking or writing a new post as described in '''Publish'''
 
 == Implementation Design ==
 === Code Files ===
@@ -430,6 +457,10 @@ Legacy feed requests are routed by '''.htaccess''' directives to '''falcon.php''
 <pre>
 RewriteRule ^updates\.atom falcon.php
 </pre>
+
+== Logo ==
+<span style="float:left">https://pbs.twimg.com/profile_images/651194638/falcon_normal.png</span> 
+The Falcon logo is a [http://en.wikipedia.org/wiki/Glider_%28Conway%27s_Life%29 Glider from Conway's Game of Life] in a phase that resembles a falcon flying with its wings up and outstretched, and feet down and slightly back swooping downward to pick something up, e.g. a post from the author to go deliver to their indieweb site and syndicate out to other destinations as well.
 
 == Updates ==
 * https://twitter.com/Falcon - occasional updates

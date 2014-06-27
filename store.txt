@@ -8,6 +8,7 @@ As the number of IndieWeb related apps grow, so will the job of choosing which a
 There are proprietary client app stores for installing proprietary clients:
 * [https://itunes.apple.com/us/genre/ios/id36?mt=8 Apple App Store]
 * [https://play.google.com/store Google Play Store]
+* [https://www.ouya.tv/games/ OUYA store]
 Both stores enable mobile devices to install '''client-side''' proprietary apps that usually upload data to remote web services or [silos].
 
 And at least one open web based app store for installing web apps:
@@ -127,6 +128,62 @@ The following are values that an '''App Store''' SHOULD have discoverable or rec
 * [http://microformats.org/wiki/h-product h-product] - microformat
 * [https://github.com/edumbill/doap/wiki DOAP] - "Description of a Project"
 ** Looking at that git repo I cannot find simple examples, list of properties, or examples in the wild --[[User:Waterpigs.co.uk|Barnaby Walters]] 08:41, 11 June 2014 (PDT)
+*** see https://github.com/edumbill/doap/tree/master/examples
+*** list of properties: http://usefulinc.com/ns/doap - all the rdf:about names.
+**** <tt>anon-root</tt>
+**** <tt>ArchRepository</tt>
+**** <tt>ArchRepository</tt>
+**** <tt>audience</tt>
+**** <tt>BazaarBranch</tt>
+**** <tt>BKRepository</tt>
+**** <tt>BKRepository</tt>
+**** <tt>blog</tt>
+**** <tt>browse</tt>
+**** <tt>bug-database</tt>
+**** <tt>category</tt>
+**** <tt>created</tt>
+**** <tt>CVSRepository</tt>
+**** <tt>CVSRepository</tt>
+**** <tt>DarcsRepository</tt>
+**** <tt>description</tt>
+**** <tt>developer</tt>
+**** <tt>documenter</tt>
+**** <tt>download-mirror</tt>
+**** <tt>download-page</tt>
+**** <tt>file-release</tt>
+**** <tt>GitRepository</tt>
+**** <tt>helper</tt>
+**** <tt>HgRepository</tt>
+**** <tt>homepage</tt>
+**** <tt>implements</tt>
+**** <tt>language</tt>
+**** <tt>license</tt>
+**** <tt>location</tt>
+**** <tt>mailing-list</tt>
+**** <tt>maintainer</tt>
+**** <tt>module</tt>
+**** <tt>name</tt>
+**** <tt>old-homepage</tt>
+**** <tt>os</tt>
+**** <tt>platform</tt>
+**** <tt>programming-language</tt>
+**** <tt>Project</tt>
+**** <tt>release</tt>
+**** <tt>repository</tt>
+**** <tt>Repository</tt>
+**** <tt>revision</tt>
+**** <tt>screenshots</tt>
+**** <tt>service-endpoint</tt>
+**** <tt>shortdesc</tt>
+**** <tt>Specification</tt>
+**** <tt>SVNRepository</tt>
+**** <tt>tester</tt>
+**** <tt>translator</tt>
+**** <tt>vendor</tt>
+**** <tt>Version</tt>
+**** <tt>wiki</tt>
+** examples in the wild:
+*** http://pear.php.net/package/OpenDocument/doap (as all pear packages have a doap file)
 
 === Examples ===
 
@@ -182,6 +239,49 @@ The following are examples of some of these install manifest files by various pr
     ],
     "slug": "mailpile"
   }
+</pre>
+
+
+==== OUYA store ====
+Example of https://devs.ouya.tv/api/v1/apps/com.SmithereensGames.AcidTrip
+
+<pre>
+{
+    "app": {
+        "uuid": "ae95483b-2421-4706-bffe-1903376362b2",
+        "title": "Acid Trip",
+        "supportEmailAddress": "little.jacka33@gmail.com",
+        "supportPhone": null,
+        "website": "jacksonasmith.wordpress.com",
+        "mainImageFullUrl": "https:\/\/devs-ouya-tv-prod.s3.amazonaws.com\/apps\/08c0336f-7792-47ae-885d-cff339631f15\/com.SmithereensGames.AcidTrip\/ae95483b-2421-4706-bffe-1903376362b2\/ouya_icon.png",
+        "founder": true,
+        "apkFileSize": 43262213,
+        "firstPublishedAt": "2013-07-31T14:10:33Z",
+        "publishedAt": "2013-08-12T17:43:29Z",
+        "versionNumber": "1.1",
+        "likeCount": 143,
+        "overview": "Released in August 2013 by Smithereens Games.",
+        "filepickerScreenshots": [
+            "https:\/\/www.filepicker.io\/api\/file\/uc4tkXdoTIKFYcDn023B",
+            "https:\/\/www.filepicker.io\/api\/file\/ocDdzJuoTCPVtekfIjCA",
+            "https:\/\/www.filepicker.io\/api\/file\/tJOXL7XTRVWWea0dxu5k",
+            "https:\/\/www.filepicker.io\/api\/file\/GOSVEqSeTMWgp5ReT2wO"
+        ],
+        "contentRating": "Everyone",
+        "latestVersion": "ae95483b-2421-4706-bffe-1903376362b2",
+        "md5sum": null,
+        "publicSize": null,
+        "nativeSize": null,
+        "ratingAverage": 3.6,
+        "ratingCount": 262,
+        "developer": "Smithereens Games",
+        "description": "Acid Trip is an intense ride through a twisting and turning colorful tube. Challenge your friends and family to see who can get the highest score possible. Your speed slowly increases throughout playing, do your best to get the highest score possible.",
+        "premium": false,
+        "videoUrl": null,
+        "promotedProduct": null,
+        "primaryProduct": null
+    }
+}
 </pre>
 
 === Requirements ===

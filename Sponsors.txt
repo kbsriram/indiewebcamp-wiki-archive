@@ -22,6 +22,9 @@ Want to help IndieWebCamp? Become a sponsor!
 |-
 |align="center" style="padding: 20px;"|{{sponsor-logo|link=http://www.nytimes.com|logo=nyt|width=160}}
 | <h3>The New York Times</h3> '''[http://www.nytimes.com/ The New York Times]''' is graciously hosting the 2014 event in NYC.
+|-
+|align="center" style="padding: 20px;"|{{sponsor-logo|link=http://agoracollective.org|logo=agora|width=120}}
+| <h3>The Agora Collective</h3> '''[http://agoracollective.org Agora Collective]''' is graciously hosting the 2014 event in Berlin, Germany and dinner is being provided by [http://www.jolocom.com Jolocom]
 |}
 
 == 2014 SF Sponsors ==

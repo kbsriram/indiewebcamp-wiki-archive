@@ -5,31 +5,27 @@ http://indiewebcamp.com/User%3AKylewm.com
 == Itches ==
 
 === personal site ===
-* <strike>POSSE for replies/reposts/likes where my original refers to their original, and my POSSE copy to their POSSE copy. didn't realize this was a thing!</strike>
-* <strike>Tagging</strike>
-* send webmention when comments are deleted; <strike>receive webmentions from deleted comments</strike>
-* <strike>Improve timezone handling 
-** e.g., first comment on http://kylewm.com/article/2014/03/21/1/uploading-media-through-the-twitter-api was at 8:43am but displays as 1:43am</strike>. This is working well enough for now 
-* <strike>Mobile / photo uploads
-** resize dynamically on first request for e.g., ?size=medium</strike>
-* Move flat file store into git (use python sh library to shell out to git)
-* Threaded conversations?
-** write proof of concept thread discovery first
-* Ability to mark posts as private/friends-only (in-progress)
-* Accept/interpret domain-level webmentions (for tagging a person rather than a post). Looking for examples
-* Generalize article/note/reply/share/like, since they're already all the same data structure. 
-** Sometimes an article is in reply to something else, but it's an article, not a reply
-** Want to be able to add new ones (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
+* send webmention when comments are deleted
+* commit file store in git automatically, possibly delayed
+* Ability to be able to add new post-types (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
 * post notes and syndicate to twitter from the main page, fewer clicks
+* split out admin templates and "theme" templates
+** define path to theme templates in a config file
+* add form to send micropub comments and likes if visitor is logged in and supports μpub
+* (re)design ... want something lightweight but less boring/white (looked at html5up.net, pretty but heavy)
+
+=== generation 2 ===
+
+How can I help onboard tech-savvy non-developers (or developers who don't want to be a sysadmin). php is pretty well covered, thinking about alternatives.
+
+* Right now static site generators; still very technical, but easy to host.[https://kylewm.com/note/2014/06/20/2]
+* Small kernel of dynamic behavior (e.g., receive webmentions, save to file store, push to git, triggering a rebuild). Doesn't have to be fast -- this could be offloaded to a free heroku instance that could serve several different sites (like webmention.herokuapp.com).
+* Ideally would be static-generator-agnostic
 
 === other ideas ===
 
 * Browser plugin to display a status icon if the current site accepts webmentions and/or pingbacks. Clicking could bring up more detailed information: h-feed, microformats2, microformats1, etc. [https://kylewm.com/reply/2014/06/06/1] 
-* <strike>Working on [[posse-post-discovery]]</strike>
-* Curious to explore what ([[generations|generation 2]]) people can do to "get their feet wet" without much effort/expense. E.g., you can skip around, add microformats without buying a domain name, and still get some fun benefits right away.
 * In the Bridgy mould, would it be useful to extract webmention sending as a separate service that could watch an h-feed and send mentions for links in new entries? PuSH consuming and monitoring for updates/deletes would be a little tricky.
 * This is fuzzier. It would be cool to have a proxy server that could generate h-entry's from "arbitrary" sources: e.g., silos that are already supported by a-u, tumblr, blogger, wordpress, NYT, Wapo, LATimes. Useful for fetching reply context, maybe other stuff. 
 * micropub post-authoring tool, like Prose.io is to github pages. 
-* Is there a need for domain-aware microformats interpreter libraries? Idea: interpreter would live on top of existing parser and "normalize" posts by e.g., determining [[authorship]] of each h-entry and add the p-author property if it doesn't exist. Red Wind currently has an (itchy) hentry_parser module that massages h-entries into Author/Content/References . Update: it turns out aaronpk has already written something like this for php, [https://github.com/indieweb/php-comments]
 * Figure out an email situation somewhere between self-hosting postfix/dovecot and abandoning all hope to Gmail.
-* <strike>Self-host project source</strike>

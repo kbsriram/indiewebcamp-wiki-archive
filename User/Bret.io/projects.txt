@@ -1,5 +1,7 @@
 http://indiewebcamp.com/User%3ABret.io/projects
 
+<div style="padding:1em; background:yellow">This page is being simplified and focused on providing a quickly usable list of projects to help you get on the indie web and improve your [[IndieMark]]. For details about this page and the in-progress transition, see [[#About_This_Page|About This Page]].</div>
+
 These are '''<dfn>projects</dfn>''' you can use to get your site on the IndieWeb and improve your IndieWeb support.
 
 == Get On The IndieWeb ==
@@ -17,89 +19,6 @@ Additional independents currently using it on their primary site:
 * Jesse Vincent on http://s.ly
 * ...
 
-== Get Inspired ==
-The following projects are actively being used by their creators ([[selfdogfood]]) and have excellent examples of indieweb sites both in [[design]], and [[IndieMark|indieweb feature support]]. These projects are not yet easily "installable" by someone other than the creator(s).
-
-These projects often provide at least some [[building blocks]] functionality in the form of open source shared libraries or functions which can help bootstrap anyone looking to build their own indieweb solution.
-
-=== p3k ===
-{{main|p3k}}
-'''[[p3k]]''' is personal publishing platform.
-
-IndieWebCamp participants that are using it on their primary site:
-* {{aaronpk}} (author) on http://aaronparecki.com/ ([[selfdogfooding]])
-* [[User:Caseorganic.com|Amber Case]] on http://caseorganic.com/
-* ...
-
-
-----
-below this line is...
-
-= Under Construction =
-
-<div style="padding:1em; background:yellow">This page is being simplified and focused on providing a quickly usable list of projects to help you get on the indie web and improve your [[IndieMark]]. For details about this page and the in-progress transition, see [[#About_This_Page|About This Page]].</div>
-
-
-== production ==
-Production = the software fully launched and good enough for other independents to <em>relatively</em> easily install, use, maintain, depend on.
-
-Server / Blogging / content hosting projects:
-
-=== WordPress ===
-{{main|WordPress}}
-
-[http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog. Many IndieWebCamp participants use WordPress on their <em>primary</em> self-identifying site.
-
-=== Jekyll ===
-{{main|Jekyll}}
-
-[https://github.com/mojombo/jekyll/ Jekyll] is a blog-aware, static site generator.
-
-IndieWebCamp participants who are using it on their <em>primary</em> self-identifying site:
-* Ben Ward (2011,2012): [http://benward.me/blog/time-place-design-principals benward.me]
-* Bret Comnes (2013): [http://bret.io/ bret.io]
-* Jason Garber (2013): [http://sixtwothree.org/ sixtwothree.org]
-* ...
-
-Other independents that are using it on their <em>primary</em> self-identifying site:
-* Rudy Jahchan on [http://rudyjahchan.com/ rudyjahchan.com][http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/]
-* Leonardo Zangrando (2013) on [http://lionzan.me/ lionzan.me]
-* Asher Silberman on [http://www.ashersilberman.com/ ashersilberman.com]
-* Demis Flanagan on [https://demisflanagan.com demisflanagan.com]
-* ...
-
-=== MediaWiki ===
-[[File:caseorganic-wiki-screenshot.png|300px|right]]
-main article: [[MediaWiki]]
-
-[http://mediawiki.org MediaWiki] is web software you can use to create a beautiful website or wiki.
-
-IndieWebCamp participants who are using it on their own site:
-* Amber Case: http://caseorganic.com/wiki/
-* ...
-
-=== StatusNet ===
-{{main|StatusNet}}
-
-'''StatusNet''' is [http://status.net/open-source open source software] you can [http://status.net/wiki/Setup_your_own_StatusNet setup on your own server] for real time publishing.
-
-IndieWebCamp participants who are or were using it on their own site:
-* Evan Prodromou (2012) : <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013 - being converted to [[pump.io]])
-* ...
-
-=== WordPress.com ===
-[[WordPress#WordPress.com_hosting_service|WordPress.com]] is a hosted blog service that runs on [[WordPress]]. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes WordPress.com a first-class (if limited) IndieWeb platform.
-
-=== Tumblr ===
-{{main|Tumblr}}
-
-[http://tumblr.com Tumblr] is a hosted blog service. You can author [[microformats]] by editing your template's HTML, and you can use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Tumblr a first-class (if limited) IndieWeb platform.
-
-=== Blogger ===
-{{main|Blogger}}
-
-[https://www.blogger.com Blogger] is a hosted blog service. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Blogger a first-class (if limited) IndieWeb platform.
-
 === Publify ===
 {{main|Publify}}
 [https://github.com/fdv/publify/ Publify] is a Ruby on Rails blogging engine with extended publishing capacities that's recently been taking a turn as an Indie Web project. Publify and supported plugins are free software released under the MIT licence. Publify needs a database like MySQL, PostgreSQL or SQLite.
@@ -116,41 +35,19 @@ Other independents that are using it on their <em>primary</em> self-identifying 
 * Don Park (donpdonp) (since 2008) [http://donpark.org donpark.org]
 * ...
 
-=== Apache ===
-{{main|Apache}}
+== Get Inspired by Independence  ==
+The following projects are actively being used by their creators ([[selfdogfood]]) and have excellent examples of indieweb sites both in [[design]], and [[IndieMark|indieweb feature support]]. These projects are not yet easily "installable" by someone other than the creator(s).
 
-Apache is the most popular HTTP (web) server software, and an open source project.
+These projects often provide at least some [[building blocks]] functionality in the form of open source shared libraries or functions which can help bootstrap anyone looking to build their own indieweb solution.
 
-=== Nginx ===
-{{main|nginx}}
+=== p3k ===
+{{main|p3k}}
+'''[[p3k]]''' is personal publishing platform.
 
-Nginx is another popular HTTP (web) server software and open source.
-
-=== Other Production Projects ===
-Other projects which are production quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
-
-==== OpenVBX and TropoVBX ====
-[http://openvbx.org/ OpenVBX]/[https://github.com/disruptiveio/TropoVBX TropoVBX] - Self-hosted phone numbers!
-
-IndieWebCamp participants who are using it:
-* Aaron Parecki (2011-2012)
-** This sounds "indie", but how is it "indie ''web''"? - [[User:Tantek.com|Tantek]]
-** Technically it's not web, though it is installed on a web server and has an HTTP API. The real reason I listed it is because I feel the lines between phone and Internet communication are blurring, and this will become more important in the future. -[[User:Aaronparecki.com|Aaronparecki.com]] 08:37, 17 August 2012 (PDT)
-
-==== Libravatar ====
-[https://www.libravatar.org Libravatar] - Federated avatar hosting (like Gravatar)
-
-IndieWebCamp participants who are using it:
-* [[User:Cweiske.de|cweiske]] (from 2013)
-** Runs his own avatar server at http://avatar.cweiske.de/
-* [[User:Fmarier.org|François Marier]] (2013) http://fmarier.org/avatar/80132124e62b1dd920c406165552014fe740672de09bf1491143f92218d81b2d?s=80&.jpg
-** To display avatars on your site, use an [http://wiki.libravatar.org/libraries/ Open Source library or plugin] (e.g. [https://wordpress.org/extend/plugins/libravatar/ Wordpress plugin])
-** To host your own avatars on your domain, there are [http://wiki.libravatar.org/running_your_own/ a few options]. I personally just use a [https://gitorious.org/libravatar/libravatar-lite quick-n-dirty shell script].
-
-== experimental ==
-Stuff that you've at least got running on your own site, but is perhaps not stable/reliable enough for general sharing / use by others. Still useful to document what you *do* have running and use, share some of the code/design/UX, and lessons learned. Roughly ordered first by how "complete" the blogging/posting functionality is with known (URL required) attendee users, then other content tools, and other building blocks.
-
-Experimental blogging / content hosting projects sorted by number of indieweb community members actively using them on their own primary personal site (and then alphabetically).
+IndieWebCamp participants that are using it on their primary site:
+* {{aaronpk}} (author) on http://aaronparecki.com/ ([[selfdogfooding]])
+* [[User:Caseorganic.com|Amber Case]] on http://caseorganic.com/
+* ...
 
 === Bundle ===
 {{main|Bundle}}
@@ -201,6 +98,12 @@ IndieWebCamp participants who are using it on their primary site:
 * [[User:Bear.im|Bear]] (author) on [http://bear.im/bearlog https://bear.im/bearlog] ([[selfdogfooding]]) 
 * ...
 
+=== Red Wind ===
+[[Red Wind]] is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but undocumented and probably not of much use to anyone but the author, at least for now.
+
+IndieWebCamp participants that are using it on their own site:
+* [[User:kylewm.com|Kyle Mahan]] (author) on [http://kylewm.com kylewm.com]
+
 === Homesteading ===
 {{main|Homesteading}}
 
@@ -208,41 +111,6 @@ Homesteading is a personal publishing platform (created with Ruby on Rails) wher
 
 IndieWebCamp participants who are using it on their own site:
 * [[User:Iamshane.com|Shane Becker]] (author) on [http://iamshane.com iamshane.com] ([[selfdogfooding]])
-* ...
-
-=== Hello, world. ===
-An open-source tumblr/blog/rss reader/wordpress-like thingy.  Post your content easily and collect content from other rss/ostatus capable sites.  Also, lets you syndicate what you post onto other sites like FB, twitter, tumblr and grab their content as well (backwards-compatibility ;)  Technical-wise: uses the [http://ostatus.org/specification Ostatus] stack, passes [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 SWAT0], BrowserID for auth, written in Python but meant to run on shared servers.
-* Code at [https://github.com/mimecuvalo/helloworld Github].
-* Basic demos: [http://nightlight.ws/demo demo] [http://nightlight.ws/mime my personal stream]
-
-IndieWebCamp participants who are using it on their own site:
-* [[User:Mime|Mime Čuvalo]] (author) on [http://nightlight.ws/mime nightlight.ws/mime] ([[selfdogfooding]])
-** ping me if you want access to a test account on nightlight - or just download it and try it yourself!
-
-=== pump.io ===
-{{main|pump.io}}
-
-Pump.io is "a stream server that does most of what people really want from a social network."
-
-IndieWebCamp participants who are using it on their own site:
-* Evan Prodromou on e14n.com/evan ([[selfdogfooding]])
-* ...
-
-=== Red Wind ===
-[[Red Wind]] is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but undocumented and probably not of much use to anyone but the author, at least for now.
-
-IndieWebCamp participants that are using it on their own site:
-* [[User:kylewm.com|Kyle Mahan]] (author) on [http://kylewm.com kylewm.com]
-
-=== sadlittlewebjournal ===
-[http://jere.my/?page=writings&sub_page=archive&display=5 sadlittlewebjournal] is a Weblog written in Perl that utilizes PostgreSQL or MySQL and a straightforward ASCII interface. Site maintenance is done via an intuitive backend that allows one to add, delete, and modify previous entries. Other features include an integrated guestbook, a Web stat chart complete with ASCII bar graphs, and various other modularized features.
-
-Current POSSE feature include publishing news posts to an external Twitter or StatusNet feed, but the PESOS alternative is also supported: republishing posts syndicated from such a feed.  On the roadmap are comments using webmentions and microformats.
-
-* [http://jere.my/files/software/unix/sadlittlewebjournal Get the code]
-
-Indieweb enthusiasts currently using it on their own site:
-* [[User:Jere.my|Jeremy Malcolm]] (main developer) on [http://jere.my jere.my] ([[selfdogfooding]])
 * ...
 
 === Social Igniter ===
@@ -282,18 +150,31 @@ Indieweb enthusiasts currently using it on their own site:
 * [[User:Gregorlove.com|gRegor Morrill]] (contributor to Nucleus CMS) on [http://gregorlove.com gRegorLove.com] ([[selfdogfooding]])
 ** Released a [[webmention]] plugin [https://github.com/gRegorLove/nucleus-plugin-webmention available at GitHub].
 
+=== Hello, world. ===
+An open-source tumblr/blog/rss reader/wordpress-like thingy.  Post your content easily and collect content from other rss/ostatus capable sites.  Also, lets you syndicate what you post onto other sites like FB, twitter, tumblr and grab their content as well (backwards-compatibility ;)  Technical-wise: uses the [http://ostatus.org/specification Ostatus] stack, passes [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 SWAT0], BrowserID for auth, written in Python but meant to run on shared servers.
+* Code at [https://github.com/mimecuvalo/helloworld Github].
+* Basic demos: [http://nightlight.ws/demo demo] [http://nightlight.ws/mime my personal stream]
+
+IndieWebCamp participants who are using it on their own site:
+* [[User:Mime|Mime Čuvalo]] (author) on [http://nightlight.ws/mime nightlight.ws/mime] ([[selfdogfooding]])
+** ping me if you want access to a test account on nightlight - or just download it and try it yourself!
+
+=== sadlittlewebjournal ===
+[http://jere.my/?page=writings&sub_page=archive&display=5 sadlittlewebjournal] is a Weblog written in Perl that utilizes PostgreSQL or MySQL and a straightforward ASCII interface. Site maintenance is done via an intuitive backend that allows one to add, delete, and modify previous entries. Other features include an integrated guestbook, a Web stat chart complete with ASCII bar graphs, and various other modularized features.
+
+Current POSSE feature include publishing news posts to an external Twitter or StatusNet feed, but the PESOS alternative is also supported: republishing posts syndicated from such a feed.  On the roadmap are comments using webmentions and microformats.
+
+* [http://jere.my/files/software/unix/sadlittlewebjournal Get the code]
+
+Indieweb enthusiasts currently using it on their own site:
+* [[User:Jere.my|Jeremy Malcolm]] (main developer) on [http://jere.my jere.my] ([[selfdogfooding]])
+* ...
+
 === Words ===
 [https://github.com/josephg/words Words] is an open source blogging tool (fork of nornagon/words)[http://indiewebcamp.com/irc/2013-09-10/line/1378861894].
 
 Indieweb enthusiasts currently using it on their own site:
 * [[User:Josephg.com|Joseph Gentle]] on [http://josephg.com/ josephg.com]
-
-=== Federated Community ===
-The idea here is to use pop-based email, generic python scripting, and static html to set up a dynamic microblogging and photohosting site. Current workflow includes sending an email to a pop email account. Then when the python script finds the new email it downloads the email to my static html server and also sends out an email to my facebook and twitter accounts for syndication. Currently, the python script is located [https://github.com/geo-gs/federatedcommunity/tree/python here] and an example of the static html is located [https://github.com/geo-gs/gcarlson.github.com here]. Next up is adding in the ability to upload photo albums. After that, comments.
-
-Indieweb enthusiasts using it on their own site:
-* [[User:Geo.gs|George Em]] on [http://geo.gs/ geo.gs]
-* ...
 
 === OpenBlog ===
 {{main|OpenBlog}}
@@ -313,18 +194,188 @@ Indieweb enthusiasts currently using it on their own site:
 * [[User:vasilis.nl|Vasilis van Gemert]]  on [http://vasilis.nl/voto/ vasilis.nl/voto/]
 * ...
 
-=== Other Experimental Projects ===
+== IndieWeb with Existing Tools ==
+IndieWeb [[building blocks]] fit into many existing projects and tools relatively easily.  These are projects that have been adapted to use any number of the building blocks, roughly sorted by [[Indiemark]] and active support and interest by the IndieWeb community.
+
+Some of these tools can be used by independents to <em>relatively</em> easily install, use, maintain, depend on for Serving / Blogging / content hosting projects.
+
+=== WordPress ===
+{{main|WordPress}}
+
+[http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog. Many IndieWebCamp participants use WordPress on their <em>primary</em> self-identifying site.
+
+=== Jekyll ===
+{{main|Jekyll}}
+
+[https://github.com/mojombo/jekyll/ Jekyll] is a blog-aware, static site generator.
+
+TODO: Sort through these and put low indiemark scoring sites into the main page.
+
+IndieWebCamp participants who are using it on their <em>primary</em> self-identifying site:
+* Ben Ward (2011,2012): [http://benward.me/blog/time-place-design-principals benward.me]
+* Bret Comnes (2013): [http://bret.io/ bret.io]
+* Jason Garber (2013): [http://sixtwothree.org/ sixtwothree.org]
+* ...
+
+Other independents that are using it on their <em>primary</em> self-identifying site:
+* Rudy Jahchan on [http://rudyjahchan.com/ rudyjahchan.com][http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/]
+* Leonardo Zangrando (2013) on [http://lionzan.me/ lionzan.me]
+* Asher Silberman on [http://www.ashersilberman.com/ ashersilberman.com]
+* Demis Flanagan on [https://demisflanagan.com demisflanagan.com]
+* ...
+
+=== MediaWiki ===
+[[File:caseorganic-wiki-screenshot.png|300px|right]]
+main article: [[MediaWiki]]
+
+[http://mediawiki.org MediaWiki] is web software you can use to create a beautiful website or wiki.
+
+IndieWebCamp participants who are using it on their own site:
+* Amber Case: http://caseorganic.com/wiki/
+* ...
+
+=== pump.io ===
+{{main|pump.io}}
+
+Pump.io is "a stream server that does most of what people really want from a social network."
+
+IndieWebCamp participants who are using it on their own site:
+* Evan Prodromou on e14n.com/evan ([[selfdogfooding]])
+* ...
+
+== Projects for another Section / Page ==
+
+=== StatusNet ===
+{{main|StatusNet}}
+
+'''StatusNet''' is [http://status.net/open-source open source software] you can [http://status.net/wiki/Setup_your_own_StatusNet setup on your own server] for real time publishing.
+
+IndieWebCamp participants who are or were using it on their own site:
+* Evan Prodromou (2012) : <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013 - being converted to [[pump.io]])
+* ...
+
+=== WordPress.com ===
+[[WordPress#WordPress.com_hosting_service|WordPress.com]] is a hosted blog service that runs on [[WordPress]]. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes WordPress.com a first-class (if limited) IndieWeb platform.
+
+=== Tumblr ===
+{{main|Tumblr}}
+
+[http://tumblr.com Tumblr] is a hosted blog service. You can author [[microformats]] by editing your template's HTML, and you can use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Tumblr a first-class (if limited) IndieWeb platform.
+
+=== Blogger ===
+{{main|Blogger}}
+
+[https://www.blogger.com Blogger] is a hosted blog service. It includes [[microformats]] v1 by default, and you can author microformats2 by editing your template's HTML. You can also use [[Bridgy]] to send and receive [[webmentions]]. That combination makes Blogger a first-class (if limited) IndieWeb platform.
+
+=== Apache ===
+{{main|Apache}}
+
+Apache is the most popular HTTP (web) server software, and an open source project.
+
+=== Nginx ===
+{{main|nginx}}
+
+Nginx is another popular HTTP (web) server software and open source.
+
+=== Other Production Projects ===
+Other projects which are production quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
+
+==== OpenVBX and TropoVBX ====
+[http://openvbx.org/ OpenVBX]/[https://github.com/disruptiveio/TropoVBX TropoVBX] - Self-hosted phone numbers!
+
+IndieWebCamp participants who are using it:
+* Aaron Parecki (2011-2012)
+** This sounds "indie", but how is it "indie ''web''"? - [[User:Tantek.com|Tantek]]
+** Technically it's not web, though it is installed on a web server and has an HTTP API. The real reason I listed it is because I feel the lines between phone and Internet communication are blurring, and this will become more important in the future. -[[User:Aaronparecki.com|Aaronparecki.com]] 08:37, 17 August 2012 (PDT)
+
+==== Libravatar ====
+[https://www.libravatar.org Libravatar] - Federated avatar hosting (like Gravatar)
+
+IndieWebCamp participants who are using it:
+* [[User:Cweiske.de|cweiske]] (from 2013)
+** Runs his own avatar server at http://avatar.cweiske.de/
+* [[User:Fmarier.org|François Marier]] (2013) http://fmarier.org/avatar/80132124e62b1dd920c406165552014fe740672de09bf1491143f92218d81b2d?s=80&.jpg
+** To display avatars on your site, use an [http://wiki.libravatar.org/libraries/ Open Source library or plugin] (e.g. [https://wordpress.org/extend/plugins/libravatar/ Wordpress plugin])
+** To host your own avatars on your domain, there are [http://wiki.libravatar.org/running_your_own/ a few options]. I personally just use a [https://gitorious.org/libravatar/libravatar-lite quick-n-dirty shell script].
+
+==== Trovebox ====
+{{main|Trovebox}}
+<span id="TroveBox">[[Trovebox]]</span> (<span id="OpenPhoto_TroveBox">formerly</span> <span id="OpenPhoto">The OpenPhoto Project</span>) is a server-side photo application that lets you store your photos on Dropbox, Amazon S3 or in your garage, and serve them from URLs on your own domain.
+
+IndieWebCamp participants who are using it on their own site:
+* [[User:Upon2020.com]] (Johannes Ernst) is running a private instance for his family pictures
+* ...
+
+= Other Experimental Projects =
 Other projects which are experimental quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
+
+== Readers ==
+These are indieweb related projects that construct aggregate views of data from different websites and silos for the purpose of presenting a [[present shock]] view of recent posts.
 
 ==== IndieReader ====
 Selfoss mod that allows you to subscribe to IndieWeb sites. Aaron Parecki made a fork of selfoss, an open source reader and made it accept Microformats. Now you can subscribe to all the IndieWeb sites (people) you want directly from your own domain! Originally built during [http://indiewebcamp.com/events/2014-02-12-homebrew-website-club 2014-02-12 Homebrew Website Club]
 * http://aaronparecki.com/notes/2014/02/13/3/microformats-selfoss-indieweb 
 * http://caseorganic.com/articles/2014/02/13/1/indiereader-subscribe-to-people-from-your-own-site
 
+==== WhisperFollow ====
+{{main|Whisperfollow}}
+[http://wordpress.org/plugins/whisperfollow/ WhisperFollow] is a [[WordPress]] based social [[aggregator]] that currently supports [[RSS]], [[Atom]] and [[PubSubHubbub]].
+
+IndieWebCamp participants who are using it on their own site:
+* [http://machinespirit.net/acegiak acegiak]
+* ...
+
+==== Post Google Reader Readers ====
+{{main|feed_reader}}
+RSS/Atom feed readers are still used by a number of indieweb community members, even after the big shutdown.  What can we learn from these projects and who can we partner with going forward?  
+
+== Bridges, Hubs, and IndieWeb Data Sources == 
+
+=== Community Run ===
+
 ==== Bridgy ====
 {{main|Bridgy}}
 
 '''<dfn>[https://www.brid.gy/ Bridgy]</dfn>''' [[backfeed]]s [[replies]] to your [[POSSE]] copies to your site.
+
+==== Webmention.io ====
+[[webmention.io]] is an open-source project written in Ruby and a hosted service for receiving [[webmentions]] and [[pingbacks]] on behalf of your indieweb site.
+
+IndieWebCamp participants who are using it on their own site:
+* [http://aaronparecki.com Aaron Parecki]
+* [http://bret.io Bret Comnes]
+
+==== Superfeeder Pubsubhubbub ====
+TODO: Talk about superfeeder here.
+
+==== Taproot h-feed to atom ====
+TODO: Talk about barnaby's h-feed to atom tool.
+
+=== Self Hosted ===
+
+==== Pingback2hook ====
+Self hosted Pingback/Webmention middleware (written in PHP, inspired by Webmention.io) that takes pings, stores them, and fires off webhooks. Provides a query API.
+
+People who are using it on their own site:
+* [https://www.marcus-povey.co.uk Marcus Povey]
+
+;Code
+: https://github.com/mapkyca/pingback2hook
+
+==== stapibas ====
+{{main|stapibas}}
+
+Standalone pingback server written in PHP, storing data in MySQL. 
+* features:
+** receive webmentions and pingbacks
+** send out webmentions/pingbacks to each link on an html page
+
+Indieweb enthusiasts using it on their primary site:
+* [[User:Cweiske.de]] on [http://cweiske.de/ cweiske.de] ([[selfdogfooding]])
+
+Similar to [[#Pingback2hook]] and [[#Webmention.io]].
+
+== Privacy and Authentication ==
 
 ==== IndieAuth and RelMeAuth ====
 [[File:web-sign-in-screenshot.jpg|right|200px]]
@@ -341,6 +392,14 @@ IndieWebCamp participants' sites using RelMeAuth:
 ** See also: http://tantek.com/relmeauth/ for testing your site's RelMeAuth support (though signing into IndieWebCamp with IndieAuth currently provides better feedback, you may find this also useful for testing. - [[User:Tantek.com|Tantek]] 15:46, 23 March 2013 (PDT) )
 * ...
 
+==== ostatus-unofficial ====
+* Project members: [http://snarfed.org/ Ryan Barrett]
+* Goals: Implement the OStatus protocol suite by proxy for major sites like Facebook and Twitter that don't implement it themselves.
+* Background: http://snarfed.org/2011-07-27_facebook_app_for_ostatus
+* Status: [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial], [https://github.com/snarfed/portablecontacts-unofficial portablecontacts-unofficial], and [https://github.com/snarfed/webfinger-unofficial webfinger-unofficial] are up and running for both Facebook and Twitter. Salmon and OStatus are under development.
+
+== Shortcuts, Extensions and polyfills ==
+
 ====Indieweb Reply ====
 A cross-browser extension which hijacks social sharing buttons across the web and reply, favourite and retweet buttons on twitter.com to redirect to your own site whilst retaining metadata like profiled text for you to use in your own UIs. Available on [https://github.com/barnabywalters/IndieWeb-Reply-Browser-Extension GitHub].
 
@@ -351,35 +410,7 @@ An experimental cross-browser extension to help people retain ownership of the c
 
 * [[User:WaterPigs.co.uk|Barnaby Walters]] is actively using this with his own site
 
-==== Pingback2hook ====
-Self hosted Pingback/Webmention middleware (written in PHP, inspired by Webmention.io) that takes pings, stores them, and fires off webhooks. Provides a query API.
-
-People who are using it on their own site:
-* [https://www.marcus-povey.co.uk Marcus Povey]
-
-;Code
-: https://github.com/mapkyca/pingback2hook
-
-==== Trovebox ====
-{{main|Trovebox}}
-<span id="TroveBox">[[Trovebox]]</span> (<span id="OpenPhoto_TroveBox">formerly</span> <span id="OpenPhoto">The OpenPhoto Project</span>) is a server-side photo application that lets you store your photos on Dropbox, Amazon S3 or in your garage, and serve them from URLs on your own domain.
-
-IndieWebCamp participants who are using it on their own site:
-* [[User:Upon2020.com]] (Johannes Ernst) is running a private instance for his family pictures
-* ...
-
-==== stapibas ====
-{{main|stapibas}}
-
-Standalone pingback server written in PHP, storing data in MySQL. 
-* features:
-** receive webmentions and pingbacks
-** send out webmentions/pingbacks to each link on an html page
-
-Indieweb enthusiasts using it on their primary site:
-* [[User:Cweiske.de]] on [http://cweiske.de/ cweiske.de] ([[selfdogfooding]])
-
-Similar to [[#Pingback2hook]] and [[#Webmention.io]].
+== URL Shorteners == 
 
 ==== Whistle ====
 [http://tantek.com/w/Whistle Whistle] is an [[algorithmically]] reversible personal URL shortener. There is an instance of Whistle running at [http://ttk.me ttk.me].
@@ -389,20 +420,8 @@ IndieWebCamp participants who are using it on their own site:
 * [[User:Tantek|Tantek]] (author) on [http://ttk.me ttk.me] ([[selfdogfooding]])
 * ...
 
-==== WhisperFollow ====
-{{main|Whisperfollow}}
-[http://wordpress.org/plugins/whisperfollow/ WhisperFollow] is a [[WordPress]] based social [[aggregator]] that currently supports [[RSS]], [[Atom]] and [[PubSubHubbub]].
-
-IndieWebCamp participants who are using it on their own site:
-* [http://machinespirit.net/acegiak acegiak]
-* ...
-
-==== Webmention.io ====
-[[webmention.io]] is an open-source project written in Ruby and a hosted service for receiving [[webmentions]] and [[pingbacks]] on behalf of your indieweb site.
-
-IndieWebCamp participants who are using it on their own site:
-* [http://aaronparecki.com Aaron Parecki]
-* [http://bret.io Bret Comnes]
+== Message Busses == 
+These are tools for routing messages from place to place.
 
 ==== IRC ====
 [[File:irc-personal-hub.png|300px|right]]
@@ -413,15 +432,8 @@ The [http://aaronparecki.com/Loqi bot] in the IRC channel can control lights in 
 Its modular structure has made it extremely easy to quickly add new functionality, and as such, has probably slowed Aaron's development on other more accessible web-based equivalents.
 {{clear}}
 
-==== ostatus-unofficial ====
-* Project members: [http://snarfed.org/ Ryan Barrett]
-* Goals: Implement the OStatus protocol suite by proxy for major sites like Facebook and Twitter that don't implement it themselves.
-* Background: http://snarfed.org/2011-07-27_facebook_app_for_ostatus
-* Status: [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial], [https://github.com/snarfed/portablecontacts-unofficial portablecontacts-unofficial], and [https://github.com/snarfed/webfinger-unofficial webfinger-unofficial] are up and running for both Facebook and Twitter. Salmon and OStatus are under development.
-
-==== [[Unhosted]] ====
-* The idea here is to use statically hosted MVC apps and projects like [[remotestorage.io]] + local browser storage as a way to write applications that can work offline and edit data stored on the web.
-* Michiel B. de Jong uses a [https://github.com/michielbdejong/resite webserver] pointed at his remotestorage files to host his [https://michielbdejong.com/ website].
+==== Exobrain ====
+TODO: Talk about pfenwicks impressive perl based messaging bus for collecting data and routing it to destinations.
 
 ==== DiSo Actionstream for WordPress ====
 [https://singpolyma.net/plugins/actionstream/ DiSo Actionstream for WordPress] enables syndication of content from other sites to your own or writing a bit of code to insert local items.  This powers both the full actionstream at singpolyma.net and also the self-hosted microblog at µ.singpolyma.net
@@ -554,7 +566,14 @@ Used by:
 * [[User:Upon2020.com|Johannes Ernst]] is using it at home for web applications used by his family. Those include OwnCloud, Shaarli, Selfoss, Wordpress, and some home-grown ones.
 
 == abandoned ==
-Projects that may have supported indie web sites in the past but that appear to be abandoned:
+These are projects that indiewebcamp participants or community members added to the projects page, but now appear abandoned for the time being.  A temporary lapse or were more fundamental mistakes made?  Perhaps victims of [[antipatterns]]?  No matter the reason, what can we learn from these examples?  If you are the creator of one of these projects, what can you do to prevent ending up in the abandoned section and revive the project?  
+
+=== Federated Community ===
+The idea here is to use pop-based email, generic python scripting, and static html to set up a dynamic microblogging and photohosting site. Current workflow includes sending an email to a pop email account. Then when the python script finds the new email it downloads the email to my static html server and also sends out an email to my facebook and twitter accounts for syndication. Currently, the python script is located [https://github.com/geo-gs/federatedcommunity/tree/python here] and an example of the static html is located [https://github.com/geo-gs/gcarlson.github.com here]. Next up is adding in the ability to upload photo albums. After that, comments.
+
+Indieweb enthusiasts using it on their own site:
+* [[User:Geo.gs|George Em]] on [http://geo.gs/ geo.gs]
+* ...
 
 === glow ===
 [http://blog.glow.io glow] (last post 2011-07-12 advises using G+) supports integrations with Twitter and Facebook and a complete stack of federated social web protocols and standards (activitystrea.ms, poco, pubsubhubub, salmon, etc). 
@@ -608,6 +627,16 @@ Sorted within each quality level by number of IndieWebCamp participants actively
 See also offsite:
 * [http://libreprojects.net Libre Projects] - usable, hosted, open source web software
 * [https://github.com/indieweb github.com/indieweb organization] - repositories related to the indieweb. Once Mime adds [[2012/Guest_List|2012 participants]] to the organization, we'll be able to fork our projects to it so we can all follow each others' progress!
+
+
+=== experimental ===
+Stuff that you've at least got running on your own site, but is perhaps not stable/reliable enough for general sharing / use by others. Still useful to document what you *do* have running and use, share some of the code/design/UX, and lessons learned. Roughly ordered first by how "complete" the blogging/posting functionality is with known (URL required) attendee users, then other content tools, and other building blocks.
+
+Experimental blogging / content hosting projects sorted by number of indieweb community members actively using them on their own primary personal site (and then alphabetically).
+
+==== [[Unhosted]] ====
+* The idea here is to use statically hosted MVC apps and projects like [[remotestorage.io]] + local browser storage as a way to write applications that can work offline and edit data stored on the web.
+* Michiel B. de Jong uses a [https://github.com/michielbdejong/resite webserver] pointed at his remotestorage files to host his [https://michielbdejong.com/ website].
 
 == See Also ==
 * [[Getting Started]]

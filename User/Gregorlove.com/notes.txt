@@ -29,3 +29,6 @@ After my initial version, I decided to re-order the fields:
 (looks better [http://indiewebcamp.com/images/a/a8/gregorlove-add-note-2014-06-18.png full-size])
 
 [[File:gregorlove-add-note-2014-06-18.png|700px]]
+
+== Todo ==
+* . . .

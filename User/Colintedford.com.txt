@@ -37,7 +37,7 @@ First I want to clear up some long-standing issues with my site, prepping it to 
 * Add [[microformats]].
 * Self-signed [[https|SSL]] for logins.
 * Better comics navigation.
-* Yearly & monthly archives.
+* Yearly & monthly archives (no more paginated).
 
 ==== Whenever I feel like it ====
 

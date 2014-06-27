@@ -13,10 +13,8 @@ All times are <strong>local</strong> times. We'll sync-up sessions across East/W
 * <time class="dt-start" datetime="2014-06-27T16:30:00-0700">4:30pm</time>
 * <span class="p-location h-card"><span class="p-name">Pints</span>, <span class="p-adr"><span class="p-street-address">412 NW 5th Ave</span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
 ** drink tickets for registered attendees sponsored by [[Known]]!
-** <a class="u-url" href="http://calagator.org/events/1250466553">calagator.org</a>
-** <a class="u-url" href="http://aaronparecki.com/events/2014/06/27/1/indiewebcamp-pre-party">aaronparecki.com</a>
-* <span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
-** <a class="u-url" href=""></a>
+** <a class="u-url" href="http://calagator.org/events/1250466553">view on calagator.org</a>
+** <a class="u-url" href="http://aaronparecki.com/events/2014/06/27/1/indiewebcamp-pre-party">RSVP on aaronparecki.com</a>
 * Anyone is welcome, drink tickets will be available to registered IndieWebCamp attendees thanks to our [[sponsors]]
 </div>
 
@@ -27,7 +25,9 @@ Main etherpad: https://etherpad.mozilla.org/indiewebcamp
 <span class="p-name" >IndieWebCamp Day 1 Brainstorming Sessions</span>
 (<time class="dt-start" datetime="2014-06-28T09:30:00-0700">9:30</time>-<time class="dt-end" datetime="2014-06-29T18:00:00-0700">6:00</time>).
 
-<span class="p-location h-card"><span class="p-name">ESRI R&D</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span> and <span class="p-location h-card"><span class="p-name">The New York Times</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
+<span class="p-location h-card"><span class="p-name">Esri R&D Center</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span> and <span class="p-location h-card"><span class="p-name">The New York Times</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
+
+Also see: [[2014/Berlin/Schedule|Berlin Schedule]]
 
 {|border="1" style="border-collapse: collapse;" cellpadding="5" width="60%"
 |colspan="2" align="center"|Portland
@@ -170,7 +170,7 @@ Main etherpad: https://etherpad.mozilla.org/indiewebcamp
 <time class="dt-end" datetime="2014-06-29T18:00:00-0700" style="display:none;">6:00pm</time>
 
 == Sunday, June 29, 2014 (Work Sessions) ==
-<span class="p-location h-card"><span class="p-name">TBD</span>, <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span>
+<span class="p-location h-card"><span class="p-name">Esri R&D Center</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span></span> and <span class="p-location h-card"><span class="p-name">The New York Times</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span></span>
 
 {|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
 | Time

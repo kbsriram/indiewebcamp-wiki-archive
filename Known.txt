@@ -48,8 +48,10 @@ People currently using it on their own site:
 * [http://s.ly Jesse Vincent] - s.ly
 * [http://erinjo.is Erin Jo Richey] - erinjo.is
 * [http://mapkyca.com Marcus Povey] - mapkyca.com
-* [http://unreally.com Jack] - unreally.com
-* ...
+* [http://timowens.io/ Tim Owens] - timowens.io
+* [http://davidwiley.social/ David Wiley] - davidwiley.social
+* [http://amblin.io/ Matthew Gregg] - amblin.io
+* [http://ampoliros.net/ Hugo Roy] - ampoliros.net
 
 == Itches ==
 

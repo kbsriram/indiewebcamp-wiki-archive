@@ -1,8 +1,6 @@
 http://indiewebcamp.com/snowflake
 
-{{stub}}
-
-'''<dfn>snowflake</dfn>''' in the context of the indieweb, is typically used to refer in a derogatory way to "snowflake [[API]]s", APIs that are unique to a particular (often [[silo]]) website or service provider.
+'''<dfn>snowflake</dfn>''' in the context of the indieweb, is typically used to refer in a derogatory way to "snowflake [[API]]s", APIs that are (often [[silo]]) website or service provider-specific (unique like snowflakes) rather than an open standard.
 
 Typical sites ([[silos]]) and services create their own unique API because they think their service is special (when typically there are numerous others like it). Thus they are called "snowflake" APIs. 
 

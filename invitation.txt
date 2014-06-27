@@ -38,7 +38,7 @@ Here is a sample ''minimal'' invitation post user flow (from IRC[http://indieweb
 
 # Aaron posts an [[event]]
 # Ben posts an [[invitation]] to the event, inviting Caseorganic
-# Ben's site sends [[webmentions]] from that invitation post *both* to the event (on Aaron's site), and to Caseorganic (presumably a homepage webmention)
+# Ben's site sends [[webmentions]] from that invitation post *both* to the event (on Aaron's site), and to Caseorganic (presumably a [[homepage webmention]])
 # Aaron's event post handles receiving that invitation webmention, using some heuristic as to whether to allow it or not (e.g. it could check if Ben is already invited, and the event allows attendees to invite others or it could check if Ben is a friend, and the event is open to friends and friends of friends or some other option - e.g. just allow all invitations for now)
 # Caseorganic's site receives the webmention and adds it to the queue of site-level mentions. Upon retrieving the "source" of the webmention, it (somehow) recognizes it as invitation notification and provides Caseorganic the option to create an [[RSVP]] post in reply to the event post (and in reply to the invitation post!).
 # Caseorganic posts an RSVP, which replies to (hyperlinks with [[in-reply-to]]) Aaron's event post, and to Ben's invitation post.
@@ -50,7 +50,7 @@ Simplifications welcome.
 == IndieWeb Implementations ==
 In datetime order of implementation (earliest first)
 
-(none so far)
+* [[Bridgy]] implemented this for [[Facebook]] event invitees [https://github.com/snarfed/bridgy/issues/71 on 2014/02/26]. [https://www.brid.gy/rsvp/facebook/11500459/1449931115256635/31600719 Example.]
 
 == See also ==
 * [[posts]]

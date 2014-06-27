@@ -20,6 +20,7 @@ Please keep sorted alphabetically
 * {{irc user|Bret.io|bret|America/Los_Angeles}}
 * {{irc user|bjb.io|brianloveswords|America/New_York}}
 * {{irc user|Caseorganic.com|caseorganic|America/Los_Angeles}}
+* {{irc user|chrischerrett.co.uk|chrischerrett|Europe/London}}
 * {{irc user|Chrisroos.co.uk|chrisroos|Europe/London}}
 * {{irc user|cweiske.de|cweiske|Europe/Berlin}}
 * {{irc user|danbri.org|danbri|Europe/London}}
@@ -28,7 +29,7 @@ Please keep sorted alphabetically
 * {{irc user|donpark.org|donpdonp|America/Los_Angeles}}
 * {{irc user|dpk.io|dpk|Europe/London}}
 * {{irc user|notenoughneon.com|emmak|America/Los_Angeles}}
-* {{irc user|ellton.tk|ellton|America/Sao_Paulo}}
+* {{irc user|ellton.me|ellton|America/Sao_Paulo}}
 * {{irc user|erikmaarten.com|erikmaarten|Asia/Tokyo}}
 * {{irc user|gregorlove.com|gRegor`|America/Chicago}}
 * {{irc user|david.shanske.com|gwg|America/New_York}}
@@ -53,6 +54,7 @@ Please keep sorted alphabetically
 * {{irc user|kevinmarks.com|KevinMarks|America/San Jose}}
 * {{irc user|kylewm.com|kylewm|America/San_Francisco}}
 * {{irc user|lbj.org.uk|lauraj|Europe/London}}
+* {{irc user|lukasrosenstock.net|LukasRos|Europe/Berlin}}
 * {{irc user|luxagraf.net|luxagraf|America/New_York}}
 * {{irc user|marcus-povey.co.uk|mapkyca|Europe/London}}
 * {{irc user|marcthiele.com|marcthiele|Europe/Germany}}

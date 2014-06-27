@@ -18,6 +18,12 @@ I helped start the Chicago chapter of the [[Homebrew Website Club]] and am looki
 == Contributions ==
 * [https://github.com/gRegorLove/nucleus-plugin-webmention Webmention plugin] for Nucleus CMS
 
+== My site ==
+As mentioned above, I have been using Nucleus CMS for quite some time. The extensibility of it attracted me all those years ago. Unfortunately, development on Nucleus has nearly stopped and I am unsure of its future. I am tempted to rebuild my site on the Processwire framework, but for now I am still with Nucleus. I thought contributing some indieweb plugins would be good, even if very few people end up using them.
+
+* My [[User:Gregorlove.com/webmention|webmention implementation]]
+* My [[User:Gregorlove.com/notes|notes implementation]]
+
 == Interests ==
 I am interested in:
 * Adding a "notes" stream to my site distinct from the articles.
@@ -26,14 +32,12 @@ I am interested in:
 * Coming up with a better acronym than "POSSE." It sounds silly. ;)
 * Adding SSL. Secure all the things! ''Damn the Man''.
 * Setting up PGP ''securely''. Again, Damn the Man.
-* Attending IndieWebCamp 2014 (Portland)
+* Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]].
+** Set up a basic, custom CMS using ProcessWire
+* Determine what it will take to migrate from my CMS to the above-mentioned custom CMS.
+* My [[User:Gregorlove.com/webmention#Todo|Webmention to-do]] list
+* My [[User:Gregorlove.com/notes#Todo|Notes to-do]] list
 
 == Braindump ==
 * Help decrease jargon/improve usability.
 ** E.g. Review/improve [[WordPress#Themes]] so we can point to 'install this theme, this plugin, and start posting'
-
-== My site ==
-As mentioned above, I have been using Nucleus CMS for quite some time. The extensibility of it attracted me all those years ago. Unfortunately, development on Nucleus has nearly stopped and I am unsure of its future. I am tempted to rebuild my site on the Processwire framework, but for now I am still with Nucleus. I thought contributing some indieweb plugins would be good, even if very few people end up using them.
-
-* My [[User:Gregorlove.com/webmention|webmention implementation]]
-* My [[User:Gregorlove.com/notes|notes implementation]]

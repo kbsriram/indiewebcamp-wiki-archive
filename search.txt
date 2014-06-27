@@ -39,6 +39,12 @@ Search where your site handles all the indexing and search queries. (IndieMark s
 
 How to TBD.
 
+==== Software ====
+
+* [http://regain.sourceforge.net/ regain], Java,
+* [http://www.gigablast.com/ gigablast], C++
+* [http://www.sphider.eu/ sphider], PHP
+
 == Why ==
 Why should your site be searchable? 
 * You want your independently created and owned content to be found and preferably above and beyond content on [[silos]].

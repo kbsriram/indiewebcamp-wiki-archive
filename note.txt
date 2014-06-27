@@ -69,6 +69,10 @@ Michael Bester on michaelbester.com [http://michaelbester.com/notes/KRyRb since 
 [[User:adactio.com|Jeremy Keith]] on adactio.com [http://adactio.com/notes/6803/ since 2014-05-27] (Note POSSE copy [https://twitter.com/adactio/status/471076735417864192 may say 2014-05-26] presumably because of timezone differences, Jeremy's is in BST, while a PDT viewer sees datetime adjusted accordingly). See also related blog post:
 * 2014-06-01 [http://adactio.com/journal/6826/ Notes from a small website]
 
+=== gRegor Morrill ===
+{{gRegor}} on gregorlove.com since [http://gregorlove.com/notes/2014/06/25/1/ 2014-06-25]
+* [[POSSE]] via brid.gy: https://twitter.com/gRegorLove/status/481990276982919168
+
 == Common Aspects ==
 There are certain UI elements which are common to most implementations. These include:
 

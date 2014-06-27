@@ -81,6 +81,14 @@ IndieWeb folks using .gs short URLs:
 IndieWeb uses of .gy short URLs:
 * [[Bridgy]] proxy: http://brid.gy/
 
+=== im ===
+.im is the [https://secure.wikimedia.org/wikipedia/en/wiki/.im ccTLD for the Isle of Man].
+
+IndieWeb uses of .im short URLs:
+* bear.im: [[Bear.im | Bear]]
+
+Like .io, .im is rather expensive. The registrar is fairly easy to use but the number of resellars for .im are limited so people often use secondary nameserver services like FreeDNS to resolve their domain.
+
 === io ===
 .io is the [https://en.wikipedia.org/wiki/.io ccTLD for British Indian Ocean Territory]
 
@@ -118,6 +126,7 @@ Thus we consider .me domains to be reasonably stable.
 IndieWeb folks using .me short URLs:
 * Ben Ward: http://benward.me
 * Tantek Çelik: http://ttk.me
+* Will Norris: https://wjn.me
 * ...
 
 === pk ===

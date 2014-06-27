@@ -1,0 +1,15 @@
+http://indiewebcamp.com/IPv6
+
+'''IPv6''' is version 6 of the ''Internet Protocol''.
+
+
+== Why? ==
+There are numerous improvements in IPv6. The most pressing reason to implement IPv6 however is the increased address space. IPv4 uses 32-bit numbers to address devices connected to the internet. This means there are roughly 4.3 billion different addresses. The way these addresses are assigned, broadly speaking, is a central organisation called the IANA (Internet Assingned Numbers Authority) assisgns blocks of addresses to each of the five RIR (Regional Internet Registries) who the in turn assign addresses to their respective ISPs. Whilst none of the RIRs have currently run out of addresses, the IANA have.
+
+
+We've basically run out of IPv4 addresses. IPv6 however uses 128-bit numbers to address devices connected to the internet. Therefore running out of addresses is much less of a problem.
+
+== How ==
+The software side of things should be relatively easy. For example, in nginx its as simple as adding a listen [::]:80 line in the server{} block.
+
+Getting the server itself connectable over IPv6 can be a little more tricky.

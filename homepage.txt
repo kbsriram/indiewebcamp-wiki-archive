@@ -24,7 +24,7 @@ Some interesting indieweb home page examples of contact information (e.g. [[hCar
 * [[disclosure]] - disclosures of various types, e.g. cookies or analytics tracking
 
 == Homepage Brainstorming ==
-Things which could go on homepages which aren’t currently implemented.
+Things which could go on homepages which aren’t currently implemented, or are underimplemented. Sometimes there is an intent to implement.
 
 * [[payment]] links/buttons
 * local weather/daylight (extra context)
@@ -33,11 +33,14 @@ Things which could go on homepages which aren’t currently implemented.
 * actions like subscribe, contact, add to address book
 * latest comments
 
-I did some homepage sketches/brainstorming [https://github.com/Taproot/design/blob/master/homepage-brainstorming.jpg here] --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:32, 18 June 2013 (PDT)
-
 I might be adding links to /me (my profile page) and /about (about the site, license info, powered by, hosted at, etc.) to my homepage. --[[User:Sandeep.io|Sandeep Shetty]]
 
+=== Sketches ===
+I did some homepage sketches/brainstorming [https://github.com/Taproot/design/blob/master/homepage-brainstorming.jpg here] --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:32, 18 June 2013 (PDT)
+
+=== Webmention to homepage ===
 [[Webmention]]s sent directly to home pages could serve a number of use-cases:
+* notification of a person-mention (like an indieweb @-mention) on a post somewhere else
 * [[invitation]] to an indie [[event]]
 * notification of a new private [[message]] received
 

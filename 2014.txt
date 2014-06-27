@@ -74,7 +74,17 @@ East Coast (New York) sponsors:
 * Coffee Sunday: New York Times
 * Lunch Sunday: [[&yet]]
 
-</td></tr></table>
+</td></tr>
+<td width="50%">
+==== Further East Sponsors ====
+Berlin, Germany sponsors:
+* Venue: '''[http://agoracollective.org Agora Collective]'''
+* Dinner Saturday: [http://www.jolocom.com Jolocom]
+* Coffee Sunday: [[Mailpile]]
+
+</td><td width="50%"></td></tr>
+
+</table>
 
 === inbox ===
 Put suggestions for Indie Web Camp 2014 here, inline or as links to your own notes.

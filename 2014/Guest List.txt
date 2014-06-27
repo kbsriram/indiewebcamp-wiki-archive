@@ -98,6 +98,15 @@ Sign up for IndieWebCamp 2014 <span id="Further_East">Farther East</span> in Ber
 |projects = [https://github.com/opensourcedesigners Open Source Designers] 
 |elsewhere = [https://github.com/jancborchardt github.com/jancborchardt], [https://twitter.com/jancborchardt @jancborchardt]
 }}
+{{Attendee
+|name = [[User:Www.nicolas-bermond.com|Nicolas Bermond]]
+|img = http://www.nicolas-bermond.com/images/nicolas-bermond.jpeg
+|url = http://nicolas-bermond.com
+|org_name = 50A
+|org_url = http://50a.fr
+|projects = http://mydatalabs.com
+|elsewhere = [https://twitter.com/nicolas2fr @nicolas2fr]
+}}
 
 ==== East ====
 Sign up for IndieWebCamp 2014 East in New York City, NY!
@@ -202,8 +211,8 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 22
-* spots remaining: 28
+* signed-up: 33 (31 creators, 2 apprentices)
+* spots remaining: 17
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -250,11 +259,36 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/bretolius @bretolius], [https://github.com/bcomnes/ github]
 }}
 {{Attendee
+|name = Brian Hendrickson
+|img = http://megapump.com/defaultavatar.jpg
+|url = http://brianhendrickson.com
+|org_name = BatchGeo
+|org_url = https://batchgeo.com
+|projects = [http://feedfun.me FeedFun], [https://github.com/voitto/openmicroblogger OMB]
+|elsewhere = [http://twitter.com/brianjesse @brianjesse], [http://facebook.com/brianjesse facebook.com/brianjesse], [http://github.com/voitto github.com/voitto], [http://profiles.google.com/openmicroblogger google+/openmicroblogger], [http://blog.brianhendrickson.com Blog]
+}}
+{{Attendee
 |name = Colby Aley
 |img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
 |url = http://colbyaley.com/
 |projects = a2y (CMS under development)
 |elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
+}}
+{{Attendee
+|name = Crystal Beasley
+|img = https://pbs.twimg.com/profile_images/441022676564324352/nnFMZeXs_400x400.png
+|url = http://crystalbeasley.com/
+|projects = 
+|elsewhere = [https://twitter.com/skinny @skinny], [https://github.com/skinny97214 github.com/skinny97214]
+}}
+{{Attendee
+|name = Daniel Reeves
+|img = https://www.beeminder.com/images/bios/danny_100.png
+|url = http://dreev.es
+|org_name = Beeminder
+|org_url = http://beeminder.com
+|projects = [http://beeminder.com Beeminder], [http://tagti.me TagTime], [http://padm.us Etherpad]
+|elsewhere = [http://twitter.com/dreev @dreev], [http://facebook.com/dreev facebook.com/dreev], [http://github.com/dreeves github.com/dreeves], [http://profiles.google.com/dreeves google+/dreeves]
 }}
 {{Attendee
 |name = [[User:Psyhigh.com|Darin Sennett]]
@@ -361,6 +395,33 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/kyle_wm @kyle_wm]
 }}
 {{Attendee
+|name = Lillian Karabaic (coming Sunday only)
+|img = http://www.communitycyclingcenter.org/wp-content/uploads/2011/05/Lillian.jpg
+|url = http://www.anomalily.net
+|org_name = Independent Publishing Resource Center 
+|org_url = http://www.iprc.org
+|projects = [http://www.transportini.com/ TRANSPORTINI], [http://iprc-test.exnext.com/home Raiders of the Lost Archives] ,
+|elsewhere = [https://twitter.com/anomalily/ @anomalily],
+}}
+{{Attendee
+|name = Max Thayer
+|img = http://www.maxthayer.org/img/me.jpg
+|url = http://www.maxthayer.org
+|org_name = Orchestrate
+|org_url = http://orchestrate.io/
+|projects = [https://github.com/garbados/quilter Quilter], [https://github.com/garbados/eggchair EggChair]
+|elsewhere = [https://twitter.com/garbados @garbados], [https://github.com/garbados GH: garbados], [http://blog.maxthayer.org/ Blog]
+}}
+{{Attendee
+|name = [[User:ngoldman.me|Nate Goldman]]
+|img = http://ngoldman.me/photo.jpg
+|url = http://ngoldman.me/
+|org_name = Esri
+|org_url = https://esri.com
+|projects =
+|elsewhere = [https://twitter.com/ungoldman @ngoldman], [https://github.com/ngoldman/ github.com/ngoldman]
+}}
+{{Attendee
 |name = Paul Munday
 |img = http://www.gatheringstorms.org/images/icon.jpg
 |url = http://paulmunday.net
@@ -368,11 +429,39 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://github.com/tallus/ github.com/tallus/]
 }}
 {{Attendee
+|name = [[User:peat.org|Peat Bakke]]
+|img = https://pbs.twimg.com/profile_images/378800000481223710/4d436e587c95c37c4d8797c8b78f0f9a.jpeg
+|url = http://peat.org/
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/peat @peat]
+}}
+
+{{Attendee
+|name = [[User:reidbeels.com|Reid Beels]]
+|img = https://pbs.twimg.com/profile_images/471485905/photo-1.jpg
+|url = http://reidbeels.com
+|org_name = Open Source Bridge
+|org_url = http://opensourcebridge.org
+|projects = 
+|elsewhere = [https://twitter.com/reidab @reidab]
+}}
+{{Attendee
 |name = Scott Rosenberg
 |img = http://www.wordyard.com/wp-content/uploads/2014/04/sr2014lookup140.jpg
 |url = http://wordyard.com
 |projects = The Wordyard Project 
 |elsewhere = [https://twitter.com/scottros @scottros]
+}}
+{{Attendee
+|name = Sean McGregor
+|img = http://www.gravatar.com/avatar/ee8facdb895a1b1f97d9e7c286982686.png
+|url = http://seanbmcgregor.com/
+|org_name = Privly Foundation
+|org_url = http://privly.org
+|projects = [https://priv.ly/ Privly]
+|elsewhere = [https://twitter.com/seanmcgregor @seanmcgregor], [https://github.com/smcgregor github.com/smcgregor]
 }}
 {{Attendee
 |name      = [[User:Iamshane.com|Shane Becker]]
@@ -383,12 +472,28 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |projects  = [https://github.com/veganstraightedge/New_Base_60 NewBase60 gem], [https://github.com/homesteading Homesteading]
 |elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
 }}
+{{Attendee
+|name      = [[Ward Cunningham]]
+|img       = http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ward_Cunningham_1.jpg/624px-Ward_Cunningham_1.jpg
+|url       = http://ward.fed.wiki.org
+|org_name  = Cunningham & Cunningham, Inc.
+|org_url   = http://c2.com
+|projects  = [https://github.com/fedwiki federated wiki]
+}}
 
 === Apprentices ===
 Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-apprentice template]]. Alphabetically sorted by given name.
 
 ==== Farther East Apprentices ====
-...
+{{Attendee-apprentice
+|name = Anna Saulwick
+|apprentice_of = Brennnan Novak
+|img = https://brennannovak.com/uploads/profiles/34/anna-saulwick-128.jpg
+|url = https://twitter.com/AnnaSaulwick
+|org_name = 
+|org_url = 
+|elsewhere = 
+}}
 
 ==== East Apprentices ====
 {{Attendee-apprentice
@@ -415,18 +520,8 @@ Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-a
 {{Attendee-apprentice
 |name = Amanda MacLean
 |apprentice_of = gRegor Morrill
-|img = 
+|img = <img src="http://gp1.wac.edgecastcdn.net/802892/production_public/Photo/6749575/image/1313510926_10150409065245424_767575423_17094816_4803427_n.jpg" height="128" />
 |url = http://amandamaclean.com
-|org_name = 
-|org_url = 
-|elsewhere = 
-}}
-
-{{Attendee-apprentice
-|name = Anna Saulwick
-|apprentice_of = Brennnan Novak
-|img = https://brennannovak.com/uploads/profiles/34/anna-saulwick-128.jpg
-|url = https://twitter.com/AnnaSaulwick
 |org_name = 
 |org_url = 
 |elsewhere = 
@@ -434,6 +529,15 @@ Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-a
 
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
 
+{{Attendee-apprentice
+|name = Mike Caulfield
+|apprentice_of = Ward Cunningham
+|img = <img src="http://mikecaulfield.files.wordpress.com/2014/06/me.png?w=128"/>
+|url = http://hapgood.us/
+|org_name = Washington State University
+|org_url = http://wsu.edu
+|elsewhere = 
+}}
 
 <!-- Missed:
 

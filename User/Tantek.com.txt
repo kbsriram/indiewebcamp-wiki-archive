@@ -82,13 +82,23 @@ I am working on learning better:
 * type nerds. who doesn't?
 
 == working on ==
+Things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
+
+
 Community:
-* '''[[code-of-conduct]]'''
-Personal indieweb site functionality (adding to tantek.com)
-* '''[[Falcon]]''' - my personal content publishing software
-* '''citation UI''' - to provide simple copy/paste UI for citing posts (articles (done), notes, other) from my site.
-* '''[[webactions]]''' - to achieve and exceed UX parity with [[Twitter]]'s UI on notes on my own site
+* '''[[2014]]''' NYC co-organizing
 * '''[[link-preview]]''' - something standard for [[silos]] to implement (in addition to all their variant site-specific approaches) when providing link previews of my permalinks
+* '''[[code-of-conduct]]''' - fairly done, worth reviewing/iterating periodically. Keeping here in this list until indiewebcamp shows consistent diverse participation.
+
+
+Personal indieweb site functionality (adding to tantek.com) using my own personal content publishing software '''[[Falcon]]''', see for details:
+* '''[[Falcon#Working_On|Falcon: Working On]]'''
+* '''[[Falcon#Itches|Falcon: Itches]]'''
+
+
+And these too which need to get integrated by priority order into Falcon Working On / Itches sections:
+* '''[[citation]] UI''' - to provide simple copy/paste UI for citing posts (articles (done), notes, other) from my site.
+* '''[[webactions]]''' - to achieve and exceed UX parity with [[Twitter]]'s UI on notes on my own site
 * '''[[wiki]]''' - I'd like to implement static-file based wiki-like editing/versioning functionality on the static pages on my site, perhaps with explicit "save" edits posted to my updates as [http://tantek.com/w/Whistle#design d - diff, edit, change] [[posts]].
 
 == figured out ==

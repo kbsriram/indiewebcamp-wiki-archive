@@ -480,6 +480,9 @@ To deal with the variable response body problem:
 === propagation to a mobile device ===
 To make webmentions more useful, it would be great if there was some way to have them propagate as [[notifications]] to whatever devices the user has setup to receive such notifications.
 
+=== homepage webmentions ===
+See: [[homepage#Webmention_to_homepage|homepage: webmention to homepage]].
+
 == Alternatives ==
 Alternatives to webmention.
 === LINK verb ===
