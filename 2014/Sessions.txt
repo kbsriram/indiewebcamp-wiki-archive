@@ -56,6 +56,19 @@ What is the best way to find out about indiewebcamp events? or events from other
 
 I try to design a site that is elegantly minimalist, but it always comes out feeling cluttered, monochrome, and boring! How does one emphasize the important elements on a page without ditching all the indieweb accouterments like reply-contexts. I'd be interested in nuts and bolts talk about fonts, colors, margins, icons, rounded borders, and/or a more philosophical/holistic high-level discussion.
 
+=== Security of Indieweb Sites ===
+'''Requested by: [[User:Kartikprabhu.com|Kartik Prabhu]]'''
+
+With recent attacks on Twitter accounts (like @n and @j) and also the attack on codespaces.com, how can we make the indieweb more secure? If an army of well-trained engineers can not seem to do it, how do we as individuals accomplish that level of security?
+
+=== Indie-comments using trust-less micropub ===
+'''Requested by: [[User:Kartikprabhu.com|Kartik Prabhu]]'''
+
+How can we have indie-comment boxes, which not only post comments on a site, but also post it to the commenters site? Maybe an expanded discussion on [[micropub#Micropub_for_Comments|Micropub for comments]]
+
+
+Details
+
 === Session Topic ===
 '''Requested by: ___'''
 

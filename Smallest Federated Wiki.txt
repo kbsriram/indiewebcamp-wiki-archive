@@ -7,7 +7,10 @@ Who's leading up the project?
 * Project lead: Ward Cunningham
 
 What is the Smallest Federated Wiki?
-* Goals: produce the smallest possible federated wiki
+* Goals: produce produce a wiki that federates using fork history to find each other
+* 1st Year: SFW becomes a client-side application focused on open data
+* 2nd Year: Many plugins created that explore client-side sharing
+* 3rd Year: No longer small, focus shifts to being easily installed and useful
 
 What's its status?
 * [https://github.com/WardCunningham/Smallest-Federated-Wiki Ward Cunningham's repository] contains the front-end code and server implementations in Sinatra+Ruby and Express+Node.js
@@ -18,11 +21,19 @@ Check out [http://sandbox.fed.wiki.org/ the sandbox], where you can try out maki
 
 How does it work?
 
+Federated wiki embodies the CC-BY-SA license. It combines that with a simple JSON schema and the CORS headers that enable wiki-like sharing in the browser.
+
 What features does it have?
+
 
 What are the next things the creator(s) want to add to it?
 
 What other related itches are there that are inspiring scratches?
+
+At the 2014 Portland Camp I've added drag-and-drop journal merging. This has been promised since the beginning but didn't happen until camp asked for something new to be demoed in one day.
+
+https://github.com/fedwiki/wiki-client/pull/47
+
 
 '''How do I install it?'''
 

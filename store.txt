@@ -18,6 +18,8 @@ Which enables mobile devices to install clientside web apps packaged with an [ht
 === Server Side Apps ===
 In its first many iterations and use cases The Indie App Store will likely not be installing "native" apps on a mobile device, but rather '''server-side apps''' on a cloud server, laptop, Raspberry Pi, or personal computer. The goal is to make the setup process as easy as modern client-side app stores.
 
+[https://cldstr.com/ Cloudstore], operated by [[Upon2020.com|Johannes Ernst]] already does this for user-owned, or shared virtual servers. It is currently in beta, but registration is open to the public.
+
 == Advantages ==
 
 The goal of making an open data format that is shareable from app store to App Store has multiple advantages, the benefits of doing so will differ depending on what type of person is interacting with this data and in what way. The three types of entities in the app eco system to benefit from this will be stores, developers, and users.
@@ -74,6 +76,8 @@ The following apps / projects have expressed interest in creating data in the sh
 * [[Taproot]]
 * [[Idno]]
 * [[Bridgy]]
+* [https://owncloud.org ownCloud]
+* [http://litewrite.net Litewrite]
 
 ==== Platforms ====
 
@@ -84,6 +88,7 @@ The following platforms have voiced an interested in working towards a shared ap
 * [http://indiephone.eu IndiePhone]
 * [http://cozy.io Cozy]
 * [http://sandstorm.io Sandstorm]
+* [https://owncloud.org ownCloud]
 
 ==== Development Stages ====
 
@@ -125,6 +130,7 @@ The following are values that an '''App Store''' SHOULD have discoverable or rec
 
 ==== Vocabularies ====
 
+* [https://w3c.github.io/manifest/ W3C manifest for web app]
 * [http://microformats.org/wiki/h-product h-product] - microformat
 * [https://github.com/edumbill/doap/wiki DOAP] - "Description of a Project"
 ** Looking at that git repo I cannot find simple examples, list of properties, or examples in the wild --[[User:Waterpigs.co.uk|Barnaby Walters]] 08:41, 11 June 2014 (PDT)
@@ -190,6 +196,50 @@ The following are values that an '''App Store''' SHOULD have discoverable or rec
 The following are examples of some of these install manifest files by various projects creating these sort app store / installer experiences on user controlled hardware.
 
 === Store ===
+
+The w3c and Google agreed on the following [https://w3c.github.io/manifest/ manifest standard] which we will adhere to for all the values that exist.
+
+<pre>
+{
+  "name": "Super Racer 2000",
+  "icons": [{
+        "src": "icon/lowres",
+        "sizes": "64x64",
+        "type": "image/webp"
+      }, {
+        "src": "icon/hd_small",
+        "sizes": "64x64"
+      }, {
+        "src": "icon/hd_hi",
+        "sizes": "128x128",
+        "density": "2"
+      }],
+  "start_url": "/start.html",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
+</pre>
+
+There is also the competing [https://developer.mozilla.org/en-US/Apps/Build/Manifest#Example_manifest FireFox OS manifest] which is oddly a bit different than the w3c standard. It is worth noting the FF OS manifest has a lot of documentation for various other features like language support. Hopefully this will get adopted by the w3c.
+
+<pre>
+{
+  "name": "My App",
+  "description": "My elevator pitch goes here",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Your name or organization",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "en"
+}
+</pre>
+
+
+Since both the FireFox OS and w3c manifests are missing things that a "store" like experience demands, as well as server side dependencies and licenses.  Indie App store will forge on and add additional values as needed, then hopefully this can be adopted by the w3c at a later date!
 
 '''PrismBreak''' - [https://prism-break.org] is an open source directory of open source applications geared towards privacy, encryption. The following JSON snippet is how they render their static HTML site, it was a lose starting point for the app manifest idea that is becoming the store concept. This is very much '''Store''' data.
 

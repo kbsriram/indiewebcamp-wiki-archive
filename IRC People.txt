@@ -24,6 +24,7 @@ Please keep sorted alphabetically
 * {{irc user|Chrisroos.co.uk|chrisroos|Europe/London}}
 * {{irc user|cweiske.de|cweiske|Europe/Berlin}}
 * {{irc user|danbri.org|danbri|Europe/London}}
+* {{irc user|deiu.rww.io|deiu|America/New_York}}
 * {{irc user|dunlaps.net/darius|dariusdunlap|America/San_Francisco}}
 * {{irc user|metafluff.com|dietrich|America/Los_Angeles}}
 * {{irc user|donpark.org|donpdonp|America/Los_Angeles}}
@@ -62,6 +63,7 @@ Please keep sorted alphabetically
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}
 * {{irc user|mowens.com|mko|America/San_Francisco}}
+* {{irc user|felixniklas.de|mrflix|Europe/Berlin}}
 * {{irc user|t37.net|neuro` / fdevillamil|Europe/Paris}}
 * {{irc user|standblog.org|nitot|Europe/Paris}}
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}

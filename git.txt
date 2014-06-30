@@ -15,7 +15,7 @@ The following software can be installed to provide git services on your own site
 == Silos Running Open Source Software ==
 You can use their silo or host it yourself with their open source software:
 * [https://gitorious.org Gitorious] provides git and collaboration software.
-* [http://gitlab.org GitLab] is a complete git hosting solution which provides an interface similar to [[GitHub]].
+* [[GitLab]] is a complete git hosting solution which provides an interface similar to [[GitHub]].
 * http://repo.or.cz provides git repository hosting using [http://repo.or.cz/w/girocco.git girocco].
 
 == Examples ==

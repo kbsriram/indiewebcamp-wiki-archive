@@ -110,7 +110,12 @@ From a markup point of view:
 === Twitter ===
 [[Twitter]] has a notion of "retweet".
 
-On Twitter, retweeted statuses are displayed from the original author point of view in the activity stream of the retweeter.
+On Twitter, retweeted statuses are displayed from the original author point of view in the activity stream of the reader.
+
+[[File:2014-06-28-retweet.png]]
+
+==== 2013 retweet in stream ====
+Previously, retweets in streams of the retweeter looked like:
 
 [[File:retweet.png]]
 

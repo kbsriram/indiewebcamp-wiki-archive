@@ -34,6 +34,12 @@ Search where your site uses a 3rd party search service (e.g. Google), but still 
 
 How to TBD.
 
+==== Third Party Search Services ====
+* [https://www.google.com/cse Google Custom Search Engine]
+* [https://duckduckgo.com/search_box DuckDuckGo Search Box]
+* [https://swiftype.com/ Swiftype]
+* [http://tapirgo.com/ Tapir]
+
 === site search with site backend ===
 Search where your site handles all the indexing and search queries. (IndieMark search level 4)
 

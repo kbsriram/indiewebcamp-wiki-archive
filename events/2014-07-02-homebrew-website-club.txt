@@ -12,8 +12,8 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-:<span class="p-location location h-card vcard">[https://quip.com/ <span class="p-name fn p-org org">Quip</span>], [https://maps.google.com/maps?q=988+market+st+san+francisco <span class="adr"><span class="p-street-address street-address">988 Market St.</span>] (at 6th), 7th Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: (no writing hour)
+:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 17:30-18:30!
 
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
@@ -32,14 +32,15 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 </div>
 
 === URLs ===
-* <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-06-18-homebrew-website-club</span>
+* <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-07-02-homebrew-website-club</span>
 
 San Francisco:
 * add indieevent...
 * ... and POSSE copy
 
 Portland:
-* add indieevent...
+* http://calagator.org/events/1250466579
+* http://aaronparecki.com/events/2014/07/02/1/homebrew-website-club
 * ... and POSSE copy
 
 == RSVP ==
@@ -50,9 +51,12 @@ Portland:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{t}}
+* http://jden.us
 * ... add yourself!
 
 '''Portland:'''
+* {{aaronpk}}
 * ... add yourself!
 
 '''Chicago:'''

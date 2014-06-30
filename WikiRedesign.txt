@@ -1,0 +1,13 @@
+http://indiewebcamp.com/WikiRedesign
+
+Dev repo at http://github.com/peat/wiki
+
+== Todo ==
+
+* Testing on current site with plugins
+* Activate navigation links in the header
+* Clean up timestamps in event feed
+
+== Screenshot ==
+
+As of 6/29/2014 -- http://cl.ly/image/2R0z3S1C0b2X

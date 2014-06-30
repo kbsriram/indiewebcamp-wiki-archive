@@ -33,9 +33,9 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 |}
 
 === Capacity ===
-Venue Capacity: 20
-* Signed-up: 7 
-* Spots remaining: 13
+Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
+* Signed-up: 10 
+* Spots remaining: 10
 
 <!-- uncomment once we've hit capacity 
 === Wait List ===
@@ -62,6 +62,15 @@ Venue Capacity: 20
 |org_url = http://esri.com
 |projects = [[p3k]], [[webmention.io]], [[IndieAuth]], [[micropub]]
 |elsewhere = [https://twitter.com/aaronpk @aaronpk], [https://github.com/aaronpk github.com/aaronpk]
+}}
+{{Attendee
+|name = [[User:noakes.in | Alex Noakes]]
+|img = http://web.mit.edu/asnoakes/Public/noakespicindieauth.jpg 
+|url = http://noakes.in
+|org_name = MIT
+|org_url = http://web.mit.edu
+|projects = http://crosscloud.org
+|elsewhere = [https://github.com/asnoakes asnoakes]
 }}
 {{Attendee
 |name = [[User:Caseorganic.com|Amber Case]]
@@ -109,6 +118,15 @@ Venue Capacity: 20
 |elsewhere = [https://twitter.com/erinjo @erinjo], [http://erinjo.is erinjo.is]
 }}
 {{Attendee
+|name = [[User:happynchill.in | Happy Enchill]]
+|img = http://happynchill.in/assets/chilProfile.jpg
+|url = http://happynchill.in
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/happyNChill @happyNCHILL]
+}}
+{{Attendee
 |name = [[User:Greptilian.com|Philip Durbin]] (tentative)
 |img = http://tmp.greptilian.com/tmp/pdurbin128.jpg
 |url = http://greptilian.com
@@ -116,6 +134,24 @@ Venue Capacity: 20
 |org_url = http://crimsonfu.github.io
 |projects = http://irclog.greptilian.com
 |elsewhere = [https://twitter.com/philipdurbin @philipdurbin]
+}}
+{{Attendee
+|name = [[User:Rascul.io|Ray Schulz]]
+|img = https://rascul.io/img/avatar.jpg
+|url = https://rascul.io
+|org_name = 
+|org_url = 
+|projects = [http://git.rascul.io/crash/crash crash]
+|elsewhere = [https://twitter.com/rascul3 @rascul3]
+}}
+{{Attendee
+|name = [[User:Hawke.org_sandro|Sandro Hawke]]
+|img = http://www.w3.org/People/Sandro/IMG_5857_128.jpeg
+|url = http://www.w3.org/People/Sandro/
+|org_name = W3C/MIT
+|org_url = http://www.w3.org
+|projects = [https://github.com/sandhawke/crosscloud Crosscloud]
+|elsewhere = [https://twitter.com/sandhawke twitter], [https://github.com/sandhawke github] [http://www.linkedin.com/in/hawke linkedin] [https://www.facebook.com/sandro.hawke facebook] [https://plus.google.com/u/0/+SandroHawke/posts google+]
 }}
 {{Attendee
 |name = Your Name

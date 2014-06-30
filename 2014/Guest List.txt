@@ -76,9 +76,9 @@ Want to help? [[2014/Planning|Sign up to volunteer!]].
 Sign up for IndieWebCamp 2014 <span id="Further_East">Farther East</span> in Berlin, Germany!
 
 '''Venue Capacity: 15'''
-* signed-up: 5
-* spots remaining: 10
-* suggested donation €10
+* signed-up: 7
+* spots remaining: 8
+* suggested donation ~€10
 
 {{Attendee
 |name = [[User:Brennannovak.com|Brennan Novak]]
@@ -94,9 +94,18 @@ Sign up for IndieWebCamp 2014 <span id="Further_East">Farther East</span> in Ber
 |img = https://pbs.twimg.com/profile_images/3464033589/d3828cb0c5f7c84150e2ed7d2c74c1b6_400x400.jpeg
 |url = http://jancborchardt.net
 |org_name = ownCloud
-|org_url = http://owncloud.com
+|org_url = https://owncloud.org
 |projects = [https://github.com/opensourcedesigners Open Source Designers] 
 |elsewhere = [https://github.com/jancborchardt github.com/jancborchardt], [https://twitter.com/jancborchardt @jancborchardt]
+}}
+{{Attendee
+|name = [[User:jonrichter.de|Jon Richter]]
+|img = http://jonrichter.de/media/2014avatar.jpg
+|url = http://jonrichter.de
+|org_name = semantic network design
+|org_url = http://blog.geosemantik.de
+|projects = [http://14mmm.org MMM], [http://fed.wiki.org Federated Wiki]
+|elsewhere = [https://github.com/almereyda gh], [https://twitter.com/almereyda @almereyda]
 }}
 {{Attendee
 |name = [[User:Www.nicolas-bermond.com|Nicolas Bermond]]
@@ -107,13 +116,45 @@ Sign up for IndieWebCamp 2014 <span id="Further_East">Farther East</span> in Ber
 |projects = http://mydatalabs.com
 |elsewhere = [https://twitter.com/nicolas2fr @nicolas2fr]
 }}
+{{Attendee
+|name = [[User:lowfill.org|Diego Andrés Ramírez Aragón]]
+|img = https://pbs.twimg.com/profile_images/482885854822531072/-bQfWm7l.jpeg
+|url = http://lowfill.org
+|org_name = Somos más
+|org_url = http://somosmas.org
+|projects = 
+|elsewhere = [https://twitter.com/lowfill @lowfill],[https://github.com/lowfill Github]
+}}
+{{Attendee
+|name = [[User:lowfill.org|Christian Hildebrand]]
+|img = 
+|url = http://hildebrand.me
+|org_name = Agora
+|org_url = http://agoracollective.org
+|projects = 
+|elsewhere = [https://twitter.com/hildebrand @hildebrand],[https://facebook.com/hildebrand.me Facebook]
+}}
+{{Attendee
+|name = [[User:felixniklas.de|Felix Niklas]]
+|img = http://felixniklas.de/pic/felix.jpg
+|url = http://felixniklas.de
+|projects = 
+|elsewhere = [https://github.com/mrflix github.com/mrflix], [https://twitter.com/mrflix @mrflix]
+}}
+{{Attendee
+|name = [[User:liamkavanagh.com|Liam Kavanagh]]
+|img = 
+|url = http://liamkavanagh.com
+|projects = 
+|elsewhere = [https://twitter.com/badhandle]
+}}
 
 ==== East ====
 Sign up for IndieWebCamp 2014 East in New York City, NY!
 
 '''Venue Capacity: 30'''
-* signed-up: 11 (9 creators, 2 apprentices)
-* spots remaining: 19
+* signed-up: 13 (10 creators, 3 apprentices)
+* spots remaining: 17
 
 {{Attendee
 |name = [[User:Fcns.eu|Andrei Sambra]]
@@ -207,12 +248,21 @@ Sign up for IndieWebCamp 2014 East in New York City, NY!
 [https://github.com/tantek github.com/tantek]
 }}
 
+
+{{Attendee
+|name = [[User:TessaHorehled.com|Tessa Horehled]]
+|img = https://pbs.twimg.com/profile_images/471335687124709376/o6Ct_cY6_400x400.jpeg
+|url = https://tessahorehled.com/
+|projects = none
+|elsewhere = [https://twitter.com/tessa @tessa], [https://linkedin.com/tessahorehled linkedin]
+}}
+
 ==== West ====
 Sign up for IndieWebCamp 2014 West in Portland, OR!
 
 '''Venue Capacity: 50'''
-* signed-up: 33 (31 creators, 2 apprentices)
-* spots remaining: 17
+* signed-up: 35 (33 creators, 2 apprentices)
+* spots remaining: 15
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -250,6 +300,15 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/benwerd @benwerd]
 }}
 {{Attendee
+|name = [[User:bethaknee.com|Bethany Soule]]
+|img = https://www.beeminder.com/images/bios/bee_100.png
+|url = http://bethaknee.com
+|org_name = Beeminder
+|org_url = http://beeminder.com
+|projects = 
+|elsewhere = [https://twitter.com/thatgirl @thatgirl]
+}}
+{{Attendee
 |name = [[User:Bret.io|Bret Comnes]]
 |img = http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=128
 |url = http://bret.io
@@ -260,7 +319,7 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 }}
 {{Attendee
 |name = Brian Hendrickson
-|img = http://megapump.com/defaultavatar.jpg
+|img = https://pbs.twimg.com/profile_images/412140311234629632/1Tvs7z_u_400x400.jpeg
 |url = http://brianhendrickson.com
 |org_name = BatchGeo
 |org_url = https://batchgeo.com
@@ -268,18 +327,20 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [http://twitter.com/brianjesse @brianjesse], [http://facebook.com/brianjesse facebook.com/brianjesse], [http://github.com/voitto github.com/voitto], [http://profiles.google.com/openmicroblogger google+/openmicroblogger], [http://blog.brianhendrickson.com Blog]
 }}
 {{Attendee
-|name = Colby Aley
-|img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
-|url = http://colbyaley.com/
-|projects = a2y (CMS under development)
-|elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
-}}
-{{Attendee
 |name = Crystal Beasley
 |img = https://pbs.twimg.com/profile_images/441022676564324352/nnFMZeXs_400x400.png
 |url = http://crystalbeasley.com/
 |projects = 
 |elsewhere = [https://twitter.com/skinny @skinny], [https://github.com/skinny97214 github.com/skinny97214]
+}}
+{{Attendee
+|name = Daniel Patrick Johnson
+|img = https://avatars1.githubusercontent.com/u/425654?s=140
+|url = http://teknot.us
+|org_name = Solsticlipse
+|org_url = http://solsticlipse.com
+|projects = 
+|elsewhere = 
 }}
 {{Attendee
 |name = Daniel Reeves
@@ -395,7 +456,7 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/kyle_wm @kyle_wm]
 }}
 {{Attendee
-|name = Lillian Karabaic (coming Sunday only)
+|name = Lillian Karabaic
 |img = http://www.communitycyclingcenter.org/wp-content/uploads/2011/05/Lillian.jpg
 |url = http://www.anomalily.net
 |org_name = Independent Publishing Resource Center 
@@ -473,12 +534,54 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |elsewhere = [https://twitter.com/veganstraightedge @veganstraightedge], [https://github.com/veganstraightedge GH: veganstraightedge], [http://farmhouse.co The Farmhouse]
 }}
 {{Attendee
+|name      = [[User:halorgium.net|Tim Carey-Smith]]
+|img       = https://secure.gravatar.com/avatar/3200c5348a7c08c2f20fdaceac6804b0.jpg
+|url       = http://halorgium.net
+|projects  = [https://github.com/homesteading/homesteading-micropub-twitter Micropub for Twitter], 
+|elsewhere = [https://twitter.com/halorgium @halorgium], [https://github.com/halorgium GH: halorgium]
+}}
+{{Attendee
 |name      = [[Ward Cunningham]]
 |img       = http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ward_Cunningham_1.jpg/624px-Ward_Cunningham_1.jpg
 |url       = http://ward.fed.wiki.org
 |org_name  = Cunningham & Cunningham, Inc.
 |org_url   = http://c2.com
 |projects  = [https://github.com/fedwiki federated wiki]
+}}
+{{Attendee
+|name      = [[Eric Holscher]]
+|img       = https://pbs.twimg.com/profile_images/378800000576973409/e495f8033b5d39c6a54ffb50ccf4527b.jpeg
+|url       = http://ericholscher.com
+|org_name  = Read the Docs
+|org_url   = https://readthedocs.org
+|projects  = [https://github.com/rtfd/readthedocs.org Read the Docs]
+}}
+{{Attendee
+|name = Daniel Reichert
+|img = https://avatars0.githubusercontent.com/u/2509536
+|url = http://www.reichert.io
+|org_name = 
+|org_url = 
+|projects = Privly
+|elsewhere = 
+}}
+{{Attendee
+|name =Paul Fenwick
+|img = https://avatars1.githubusercontent.com/u/12072
+|url = http://pjf.id.au/
+|org_name = 
+|org_url = 
+|projects = [https://github.com/pjf/exobrain Exobrain]
+|elsewhere =  [https://twitter.com/pjf Twitter], [https://facebook.com/paul.fenwick Facebook], [https://github.com/pjf Github]
+}}
+{{Attendee
+|name = Philip Horger
+|img = https://avatars1.githubusercontent.com/u/289492
+|url = http://orchard.roaming-initiative.com/
+|org_name = Roaming Initiative
+|org_url = http://roaming-initiative.com/
+|projects = [https://github.com/campadrenalin/go-deje DEJE], [https://github.com/campadrenalin/djdns DJDNS], [https://github.com/campadrenalin/scrap scrap]
+|elsewhere =  [https://twitter.com/IJustRealized Twitter], [https://github.com/campadrenalin Github]
 }}
 
 === Apprentices ===
@@ -507,6 +610,16 @@ Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-a
 }}
 
 {{Attendee-apprentice
+|name = Glenda Bautista
+|apprentice_of = [[User:Tantek.com|Tantek Çelik]]
+|img = https://pbs.twimg.com/profile_images/451192883173793793/kOI9aRCb_200x200.jpeg
+|url = http://gl3nda.com/
+|org_name = 
+|org_url = 
+|elsewhere = [https://twitter.com/glenda @glenda]
+}}
+
+{{Attendee-apprentice
 |name = Happy Enchill
 |apprentice_of = [[User:Fcns.eu|Andrei Sambra]]
 |img = http://www.web.mit.edu/henchill/Public/happyenchill.jpg
@@ -520,7 +633,7 @@ Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-a
 {{Attendee-apprentice
 |name = Amanda MacLean
 |apprentice_of = gRegor Morrill
-|img = <img src="http://gp1.wac.edgecastcdn.net/802892/production_public/Photo/6749575/image/1313510926_10150409065245424_767575423_17094816_4803427_n.jpg" height="128" />
+|img = <img src="http://gp1.wac.edgecastcdn.net/802892/production_public/Photo/6749575/image/1313510926_10150409065245424_767575423_17094816_4803427_n.jpg" height="128" class="u-photo" />
 |url = http://amandamaclean.com
 |org_name = 
 |org_url = 
@@ -532,7 +645,7 @@ Apprentices, add yourselves using the [[Template:Attendee-apprentice| attendee-a
 {{Attendee-apprentice
 |name = Mike Caulfield
 |apprentice_of = Ward Cunningham
-|img = <img src="http://mikecaulfield.files.wordpress.com/2014/06/me.png?w=128"/>
+|img = <img src="http://mikecaulfield.files.wordpress.com/2014/06/me.png?w=128" class="u-photo"/>
 |url = http://hapgood.us/
 |org_name = Washington State University
 |org_url = http://wsu.edu
@@ -580,7 +693,7 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 }}
 {{Attendee
 |name = [[User:glennjones.net|Glenn Jones]]
-|img = http://glennjones.net/images/photo-small.png
+|img = https://pbs.twimg.com/profile_images/479275550754607108/Wd44l25r.jpeg
 |url = https://glennjones.net
 |org_name = 
 |org_url = 
@@ -595,6 +708,21 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 |org_url = 
 |projects = [http://indiewebcamp.com/wordpress IndieWordPress stack]
 |elsewhere = [https://github.com/pfefferle github.com/pfefferle], [https://twitter.com/pfefferle @ pfefferle]
+}} 
+{{Attendee
+|name = [[User:kevinmarks.com|Kevin Marks ]]
+|img = http://kevinmarks.com/km.jpg
+|url = http://kevinmarks.com
+|org_name = 
+|projects = noterlive, [[fragmention]] 
+|elsewhere = [https://twitter.com/kevinmarks  @kevinmarks ], 
+[https://github.com/kevinmarks  github.com/kevinmarks ]
+}}
+{{Attendee
+|name = [[User:Willnorris.com|Will Norris]]
+|img = https://willnorris.com/logo.jpg
+|url = https://willnorris.com
+|projects =
 }}
 
 === Regrets ===
@@ -614,6 +742,13 @@ Folks that can't make it (but hopefully can participate before/after remotely!)
 |url = http://sixtwothree.org
 |projects = [https://github.com/jgarber623/craft-webmention-client Craft CMS webmention client]
 |elsewhere = [https://twitter.com/jgarber @jgarber], [https://github.com/jgarber623 github.com/jgarber623]
+}}
+{{Attendee
+|name = Colby Aley
+|img = http://www.gravatar.com/avatar/2d5c3bff9c8301c1c4a37007ea1b69dc.png?s=128
+|url = http://colbyaley.com/
+|projects = a2y (CMS under development)
+|elsewhere = [https://twitter.com/aley @aley], [https://github.com/colbyaley github.com/colbyaley]
 }}
 
 === Missed You ===

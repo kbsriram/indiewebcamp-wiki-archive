@@ -8,7 +8,7 @@ http://indiewebcamp.com/WordPress
 * '''[http://wordpress.com WordPress.com]''' blog hosting service (silo)
 
 == WordPress software ==
-One of many IndieWeb [[Projects]], [http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog.
+One of many IndieWeb [[Projects]], [http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog. Estimates are that Wordpress powers 20% of sites for which the content management server is identifiable. 
 
 If you're interested in jumping into the IndieWeb, and you've  chosen WordPress as your tool of choice, great! Here are instructions that follow the step by step, ground up approach of [[IndieMark]].
 
@@ -111,6 +111,8 @@ IndieWebCamp participants using it on their primary site:
 ** an [https://github.com/petermolnar/wp-post-formats extended version] of [https://github.com/crowdfavorite/wp-post-formats wp-post-formats]
 * [[User:ShaneHudson.net|Shane Hudson]] (2013 UK) on [http://shanehudson.net shanehudson.net]
 ** Currently (Jan 2014) using built in post formats to add bookmarks/links privately, experimenting with making these public (as well as an app to post them easier) as well as POSSE'ing tweets and hopefully photos etc too.
+* [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
+** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
 
 [[File:aaronpk-bookmarks.png|300px|right]]
 IndieWebCamp participants using it one of their other sites
@@ -129,8 +131,6 @@ Other independents using it on their primary site:
 * [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
 * [http://mediajunkie.com/ Christian Crumlish] 
 * [http://singpolyma.net Stephen Paul Weber]
-* [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
-** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
 * [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 but planning to move to something more static.
 * ...
 

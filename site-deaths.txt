@@ -66,6 +66,8 @@ See also (and add one-line summaries to) the [[history|history page]].
 In reverse chronological order:
 
 === 2014 ===
+* 2014-09-30 '''Orkut''' will shut down but it looks like they might not break the public archives.
+** "We are preserving an archive of all public communities, which will be available online starting September 30, 2014. If you don't want your posts or name to be included in the community archive, you can remove Orkut permanently from your Google account." [http://en.blog.orkut.com/2014/06/tchau-orkut.html source]
 * 2014-06-15 '''Justin.tv''' no longer archiving live broadcasts and will be deleting all archived videos with two weeks notice.
 ** "All VODs will be removed after June 15, 2014. We recommend downloading your recorded videos before the date."
 *** Initially this reported "June 8, 2014", but as of 2014-06-24 the page says June 15.

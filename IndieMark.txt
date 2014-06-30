@@ -42,6 +42,7 @@ These (numbered items) are all requirements for IndieMark Level 1. Total of 1.0 
 #* '''allow robots to index'''. Permissive or no robots.txt. Either don't have /robots.txt, or if you have one, it MUST allow search engines to index the abovementioned posts.
 #* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on Javascript to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
 #* '''site-specific searchability'''. Be able to use "site:yoursite.example.com search-term" in [[Google]] and other search engines (that support site-specific searches) directly to find and display your posts in search results.
+#** '''Note:''' no actual search UI on your site is required for level 1. That's in level 2.
 
 Each of those four areas ([[identity]], [[authentication]], [[posts]], [[search]] - see each for how to and why details) helps fill out your Level 1 "ring". Completing all four completes your Level 1 ring and then you can claim IndieMark Level 1.
 

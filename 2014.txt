@@ -14,6 +14,25 @@ Join us for two days of brainstorming &amp; creating at <span class="p-name summ
 * '''Berlin''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The Agora Collective</span>, <span class="h-adr adr"><span class="p-street-address street-address">Mittelweg 50</span>, <span class="p-locality locality">Neukölln</span>, <span class="p-region region" title="Berlin">Berlin</span>, <abbr class="p-country-name country-name" title="United States">Germany</abbr>, <span class="p-postal-code postal-code">12053</span></span>. <span class="u-url">http://agoracollective.org</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014</span>
 
+== Schedule ==
+* [[2014/schedule|Schedule]] - see for links to sessions inline in schedule spots
+
+== Photos ==
+=== West Photos ===
+[http://www.flickr.com/photos/aaronpk/sets/72157645005699288/ more photos by aaronpk] 
+
+Day 1: 29 people pictured<br>
+[[File:indiewebcamp-pdx-2014-day1.jpg|720px]]
+<br>Day 2: 28 people pictured<br>
+[[File:indiewebcamp-pdx-2014-day2.jpg|720px]]
+
+=== East Photos ===
+Day 1:<br/>
+[[File:indiewebcamp_nyc2014.JPG|720px]]
+[[File:indiewebcamp_nyc2014_night_crew.jpg||720px]]
+<br/>Day 2:<br/>
+[[File:2014-180-iwc-nyc-bear-mit.jpg|720px]]
+
 == RSVP ==
 * '''[[2014/Guest_List|Guest List]]''' - add yourself (and optionally an apprentice)
 * Lanyrd: <a class="u-url url" href="http://lanyrd.com/2014/indiewebcamp-2/">lanyrd.com/2014/indiewebcamp-2/</a>
@@ -46,20 +65,18 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 === Sponsor ===
 <span id="sponsor">[[how-to-sponsor|How to sponsor IndieWebCamp]]</span>
 
-* '''[[Bridgy]]''' (may be allocated however is best)
-
 <table><tr><td width="50%">
 ==== West Sponsors ====
 West Coast (Portland) sponsors:
 * Friday Pre-party: [[Known]]
 * Venue: '''Esri R&D Center Portland'''
-* Breakfast Saturday: 
-* Coffee Saturday: 
+* Breakfast Saturday: [[Bridgy]]
+* Coffee Saturday: [[p3k]]
 * Lunch Saturday: food cart lunch!
-* Dinner Saturday: 
-* Breakfast Sunday: 
-* Coffee Sunday: 
-* Lunch Sunday: 
+* Dinner Saturday: [[Esri]]
+* Breakfast Sunday: [[Bridgy]]
+* Coffee Sunday: [[p3k]]
+* Lunch Sunday: [[Bridgy]]
 
 </td><td width="50%">
 ==== East Sponsors ====
@@ -75,6 +92,7 @@ East Coast (New York) sponsors:
 * Lunch Sunday: [[&yet]]
 
 </td></tr>
+<tr>
 <td width="50%">
 ==== Further East Sponsors ====
 Berlin, Germany sponsors:

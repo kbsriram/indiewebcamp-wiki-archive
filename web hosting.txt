@@ -156,7 +156,8 @@ IndieWeb community members using this approach:
 * [http://www.rackspace.com/ Rackspace]
 * [http://www.prgmr.com Prgrmr]
 ** Used by [[User:Tommorris.org|tommorris.org]]
-* ...
+* [http://lowendbox.com/ LowEndBox] is a site for reviews/offers of inexpensive VPS services from various companies. Your mileage may vary.
+
 
 Advantages of a VPS:
 * full control over software stack
