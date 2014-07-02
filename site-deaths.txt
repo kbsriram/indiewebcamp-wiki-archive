@@ -32,6 +32,8 @@ Soonest first:
 ** ???? Readmill profiles being lost, including followers/followings lists, readings, highlights, reviews, comments, likes, comments and likes on your highlights and reviews, and highlights liked
 ** ???? purchased ebooks lost
 
+* 2014-08-01: '''Svpply''' will be [https://svpply.com/sunset sunset] by eBay.  Export of link data added to the site is available from users' account settings.  In response, the founder launched a [https://www.kickstarter.com/projects/2103885170/very-goods-the-new-svpply Kickstarter campaign] to build a new version of the site, called Very Goods.
+
 * 2014-09-01: '''mlkshk.com''' image sharing site shutting down. [http://mlkshk.typepad.com/mlkshk/2014/04/goodbye.html]
 ** Reason: <blockquote>MLKSHK isn’t our primary source of income and it’s certainly not our primary focus. Despite earning very little from the site we still have to answer tech support, deal with spam, fix minor issues, fix major issues, keep the servers updated, sort out billing issues, and worry about the months we get linked on Reddit. Sometimes the server and bandwidth bill are more than we took in for the month—this is scary.</blockquote>
 ** Data export: <blockquote>Yes! You can either email hello@mlkshk.com with your user name or click the link “Request Zip File Of All My Images” on your account settings page. It should take about a day to process your request if we don’t get inundated with requests.</blockquote>

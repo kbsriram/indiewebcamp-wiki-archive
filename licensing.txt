@@ -29,6 +29,7 @@ This category seems to be by far the most popular among IndieWebCamp participant
 ** [[User:notenoughneon.com]], neonblog
 ** [[User:benwerd.io]], [[idno]]
 * BSD
+** {{kylewm}} [[Red Wind]]
 ** Modified BSD (3-clause) includes a non-endorsement clause (name of the copyright holder may not be used to endorse or promote...) that the SImplified (2-clause) license omits.
 * MIT License
 ** [[User:waterpigs.co.uk]], [[Taproot]]-related libraries
@@ -50,5 +51,5 @@ Copyleft licenses require that derivative works remain open source, and often re
 
 == External Links ==
 
-*  Jeff Attwod: [http://blog.codinghorror.com/pick-a-license-any-license/ Pick a License, Any License]
+*  Jeff Atwood: [http://blog.codinghorror.com/pick-a-license-any-license/ Pick a License, Any License]
 * [http://choosealicense.com/licenses/ Choose a License]: Helpful high-level comparison

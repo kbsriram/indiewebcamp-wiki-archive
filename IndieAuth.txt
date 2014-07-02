@@ -1,6 +1,5 @@
 http://indiewebcamp.com/IndieAuth
 
-<div style="float: right; clear:both; padding: 10px; margin: 0 0 0 auto; width: 240px; border: 1px #ccc solid; background-color: #fffee7;">IndieAuth Provider Status: {{indieauth-status}}</div>
 == What is IndieAuth ==
 '''<dfn>IndieAuth</dfn>''' is a way to '''use your own domain name''' to sign in to websites. It's like [[OpenID]], but works with services you probably already use!
 
@@ -27,9 +26,9 @@ There are also some [[IndieMark]] features that are built upon having IndieAuth 
 See: [https://indieauth.com/setup full setup instructions] 
 
 === Use IndieAuth for your OpenID ===
-Using indieauth.com as an OpenID delegate allows you to sign in to any site that [[OpenID#Consuming_Sites|consumes OpenID]] using your IndieAuth setup.
+Using [[indieauth.com]] as an OpenID delegate allows you to sign in to any site that [[OpenID#Consuming_Sites|consumes OpenID]] using your IndieAuth setup.
 
-To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the <code>&lt;head&gt;</code> element) of your website, replacing "aaronparecki.com" with your domain of course.
+To use [[indieauth.com]] as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the <code>&lt;head&gt;</code> element) of your website, replacing "aaronparecki.com" with your domain of course.
 
 <pre>
 <link rel="openid.delegate" href="http://aaronparecki.com/" />
@@ -38,6 +37,7 @@ To use indieauth.com as an OpenID delegate for the OpenID identifier of your sit
 
 == Details ==
 * IndieAuth is an implementation of [[Web sign-in]]/[[RelMeAuth]] with an HTTP API
+* [[indieauth.com]] is the primary implementation used by most people currently
 
 == FAQ ==
 === Why is my https domain not working? ===

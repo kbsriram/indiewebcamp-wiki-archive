@@ -16,7 +16,7 @@ All times are Pacific Time unless otherwise noted in venues.
 : with writing hour from 17:30-18:30!
 
 ;Portland
-:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
+:No Portland meetup this week
 
 ;Chicago
 :<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Intelligentsia Coffee</span>], <span class="adr"><span class="p-street-address street-address">53 East Randolph St.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
@@ -35,10 +35,11 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-07-02-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://werd.io/2014/homebrew-website-club-july-2-2014
+* https://www.facebook.com/events/692413424139132/
 
 Portland:
+* CANCELLED! Aaron is unable to host this week, so feel free to update this page if you want to host, even if it's at a nearby bar!
 * http://calagator.org/events/1250466579
 * http://aaronparecki.com/events/2014/07/02/1/homebrew-website-club
 * ... and POSSE copy
@@ -53,13 +54,16 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''San Francisco:'''
 * {{t}}
 * http://jden.us
+* [[User:Snarfed.org]]
 * ... add yourself!
 
 '''Portland:'''
-* {{aaronpk}}
+* {{aaronpk}} is sorry to be unable to host this week's meetup!
 * ... add yourself!
 
 '''Chicago:'''
+* [[User:Kartikprabhu.com| Kartik Prabhu]]
+* {{gRegor}}
 * ... add yourself!
 
 == Notes ==

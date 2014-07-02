@@ -4,9 +4,11 @@ Dev repo at http://github.com/peat/wiki
 
 == Todo ==
 
+* Collapse TOC on pages
 * Testing on current site with plugins
-* Activate navigation links in the header
 * Clean up timestamps in event feed
+* Remove orange underline from linked images
+* Fix preference navigation tabs
 
 == Screenshot ==
 

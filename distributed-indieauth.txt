@@ -15,6 +15,10 @@ Find or create an authorization server and tell IndieAuth clients to use it when
 === Use an authorization service ===
 Use an authorization service such as [[indieauth.com]] or [[indieauth-openid]].
 
+Link to it from your homepage as follows:
+
+<pre>&lt;link rel="authorization_endpoint" href="https://indieauth.com/auth"&gt;</pre>
+
 === Create your own authorization endpoint ===
 * [[authorization-endpoint]]
 

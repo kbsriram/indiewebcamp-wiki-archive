@@ -4,6 +4,18 @@ http://indiewebcamp.com/authorization-endpoint
 
 An '''<dfn>authorization endpoint</dfn>''' is an HTTP endpoint that [[micropub]] and [[IndieAuth]] clients can use to identify a user or obtain an authorization code to be able to post to their website. 
 
+== Endpoint Discovery ==
+
+Check the user's website for a link with a rel-value of "authorization_endpoint":
+
+<pre>&lt;link rel="authorization_endpoint" href="http://indieauth.example.org/"&gt;</pre>
+
+Use this URL as endpoint for processing.
+
+If no <tt>authorization_endpoint</tt> link can be found, the IndieAuth client software may fall back to e.g. [[indieauth.com]] by using <tt>https://indieauth.com/auth</tt> as URL.
+
+''TODO: MUST HTTP links be supported?''
+
 == Using an Authorization Service ==
 
 You can use an existing authorization service such as [[indieauth.com]] if you don't want to build your own authorization service.

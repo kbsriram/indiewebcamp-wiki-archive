@@ -41,6 +41,9 @@ Posts about selfdogfooding (most recent first)
 ** http://indiewebcamp.com/irc/2014-06-09#t1402337824
 *** {{gRegor}} likes the simple phrase "use your own product" or <abbr>UYOP</abbr> if an acronym is preferred. It's simple and to the point.
 ** please add IRC links and summarize discussion...
+* Drinking your own champagne, or self-champagneing
+** or just champagneing; doesn't need distinguish it from a preexisting term
+* Self-kool-aiding -- also has the connotation of buying into your own spiel
 
 == FAQ ==
 === Use and development ===

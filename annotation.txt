@@ -4,9 +4,17 @@ http://indiewebcamp.com/annotation
 
 An '''annotation''' is a comment added to arbitrary fragments of a post, in contrast to a  [[comment|traditional comment]] which refers to the entire post.
 
-= Silo Examples =
+== IndieWeb Examples ==
 
-== Medium ==
+* [[User:Kartikprabhu.com| Kartik Prabhu]] implemented "annotations" on his post [https://kartikprabhu.com/article/marginalia Marginalia] using [https://github.com/kartikprabhu/marginalia marginalia.js] as of 2014-06-29. The full site will be updated to use it soon.
+
+=== Code ===
+
+* [https://github.com/kartikprabhu/marginalia marginalia.js] is a javascript tool to add indieweb "annotations" using [[webmention]] and [[fragmention]]. It is released under a MIT license.
+
+== Silo Examples ==
+
+=== Medium ===
 
 [http://medium.com Medium] supports paragraph-level comments through a Twitter login. (Screenshots of the article [https://medium.com/cool-code-pal/b21bfc1f63c7] as on 2014-04-16) Posting a comment is triggered by clicking on a "+" sign on the top-right corner of a paragraph.
 
@@ -28,7 +36,7 @@ On mobile Firefox the overlay additionally includes highlighting on the original
 
 [[File:medium-annotation-sidebar-mobile.jpg|500px|center|Annotation overlay on mobile]]
 
-=== Criticism ===
+==== Criticism ====
 
 * small target links. The buttons for the annotations are too small; being hard to click/tap or accidental click/tap. See [http://indiewebcamp.com/irc/2014-04-17/line/1397720432]
 
@@ -36,6 +44,5 @@ On mobile Firefox the overlay additionally includes highlighting on the original
 
 * loss of context in the sidebar UI. The main content moves out of the screen and the reader loses context of the main content.
 
-= See Also =
-
+== See Also ==
 * [[fragmention|Fragmention]]

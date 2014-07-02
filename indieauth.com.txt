@@ -1,8 +1,10 @@
 http://indiewebcamp.com/indieauth.com
 
 {{stub}}
+<div style="float: right; clear:both; padding: 10px; margin: 0 0 0 auto; width: 240px; border: 1px #ccc solid; background-color: #fffee7;">IndieAuth Provider Status: {{indieauth-status}}</div>
 
-'''<dfn>indieauth.com</dfn>''' provides two services: for developers, it handles authenticating users via [[RelMeAuth]], and users can delegate to it as their authorization server.
+
+'''<dfn>indieauth.com</dfn>''' provides two services: for developers, it handles authenticating users via [[RelMeAuth]], and users can delegate to it as their [[authorization-endpoint|authorization server]].
 
 == For Developers ==
 

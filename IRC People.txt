@@ -43,6 +43,7 @@ Please keep sorted alphabetically
 * {{irc user|jeena.net|jeena|Europe/Stockholm}}
 * {{irc user|upon2020.com|jernst|America/Los_Angeles}}
 * {{irc user|silencematters.com|JeremyZilar|America/New_York}}
+* {{irc user|jden.us|jden|America/Los_Angeles}}
 * {{irc user|jihais.se|Jihaisse|Europe/Paris}}
 * {{irc user|jlsuttles.me|jlsuttles|America/San_Francisco}}
 * {{irc user|jonathantneal.com|JonathanNeal|Los_Angeles}}

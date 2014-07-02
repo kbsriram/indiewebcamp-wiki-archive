@@ -49,11 +49,17 @@ __NOTOC__
 
 * better reply-context and embedding.
 
-* auto-linking in notes and responses
+* auto-linking (such as @username) in notes and responses
 
 * chaining conversations.
 
+* notifications for new activity such as new responses to posts
+
+* cache or lazy load avatars for improved performance
+
 == Indie Projects ==
+
+* [https://github.com/kartikprabhu/marginalia marginalia.js] to add [[annotation]] support to indiewebsites.
 
 Contributed to:
 

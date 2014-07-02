@@ -17,6 +17,15 @@ Early (2012-09-09), [[p3k]] posting interface:
 
 [http://aaronparecki.com/2012/253/note/3 http://aaronparecki.com/notes/2012/09/09/3/files/indieweb-posting-ui.png]
 
+=== Tom Morris ===
+{{main|Ferocity#Posting_UI}}
+[[User:tommorris.org|Tom Morris]] uses [[Ferocity]] on tommorris.org with the following note creation interface since  2013-03-25 (or perhaps earlier)
+
+[[File:Ferocity posting UI.png]]
+
+* The circle-in-circle is for geolocation: clicking it on uses the browser geolocation API to set the location of the post.
+* The tickbox for Twitter lets him decide whether to syndicate the post to Twitter or not.
+
 === Jeremy Keith ===
 Since 2014-05-27, [[User:adactio.com|Jeremy Keith]]'s note creation UI ("simple update form") on his home page when he's logged into his site adactio.com:
 

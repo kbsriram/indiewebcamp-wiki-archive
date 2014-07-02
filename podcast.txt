@@ -1,0 +1,26 @@
+http://indiewebcamp.com/podcast
+
+{{stub}}
+
+== Submitting to iTunes for distribution ==
+
+See: [https://www.apple.com/itunes/podcasts/specs.html How to Submit a Podcast] at apple.com
+
+When submitting a podcast URL to iTunes, be sure to submit a URL on a domain that you control. For example, if using [[Libsyn]] to host your podcast mp3s, don't submit the RSS URL that they provide. Instead, host a page on your domain that sends a "302 Found" temporary redirect to the Libsyn URL. 
+
+== Changing podcast hosting providers ==
+
+=== Podcast URL under your control ===
+
+If your podcast URL is on your own domain, then you can just change the 302 redirect to point to the new hosting provider.
+
+=== Podcast URL not under your control ===
+If your podcast URL is not on your own domain, then the ability to change your URL is limited by whether your current host allows you to.
+
+Libsyn has a writeup of [http://support.libsyn.com/faqs/changing-your-feed-url-in-itunes/ how to change your feed URL]. 
+
+Essentially the process involves setting an additional property in the feed URL.
+
+<pre>
+<itunes:new-feed-url>http://newsite.example.com/podcast.rss</itunes:new-feed-url>
+</pre>

@@ -1,27 +1,34 @@
 http://indiewebcamp.com/store
 
-A '''<dfn>store</dfn>''' (or <dfn>marketplace</dfn>) is a service for installing applications on a device, typically a mobile client device.
+A '''<dfn>store</dfn>''' (or <dfn>marketplace</dfn>) is a service for installing applications on a device, typically a mobile client device, but also on web servers, typically remotely.
 
-As the number of IndieWeb related apps grow, so will the job of choosing which apps you want to install and what is compatible with your server. The goal is to create an easy to browse "App Store" like experience
+== Goal ==
+As the number of IndieWeb related apps grow, so will the job of choosing which apps you want to install and what is compatible with your server. The goal is to create an easy to browse "App Store" like experience for an indieweb site, both for installing apps on that site, and for publishing app stores themselves on indieweb sites.
 
-=== Client App Store Examples ===
+== App Store Examples ==
+=== Client ===
 There are proprietary client app stores for installing proprietary clients:
 * [https://itunes.apple.com/us/genre/ios/id36?mt=8 Apple App Store]
 * [https://play.google.com/store Google Play Store]
 * [https://www.ouya.tv/games/ OUYA store]
-Both stores enable mobile devices to install '''client-side''' proprietary apps that usually upload data to remote web services or [silos].
-
 And at least one open web based app store for installing web apps:
 * [https://marketplace.firefox.com/ Firefox Marketplace]
-Which enables mobile devices to install clientside web apps packaged with an [https://developer.mozilla.org/en-US/Apps/Build/Manifest App Manifest].
 
-=== Server Side Apps ===
-In its first many iterations and use cases The Indie App Store will likely not be installing "native" apps on a mobile device, but rather '''server-side apps''' on a cloud server, laptop, Raspberry Pi, or personal computer. The goal is to make the setup process as easy as modern client-side app stores.
+These stores enable mobile devices to install '''client-side''' proprietary apps that usually upload data to remote web services or [silos].
+=== Server ===
+In its first many iterations and use cases The Indie App Store will likely not be installing "native" apps on a mobile device, but rather '''server-side apps''' on a cloud server, laptop, Raspberry Pi, or personal computer. The goal is to make the setup process as easy as modern client-side app stores. Current examples:
 
-[https://cldstr.com/ Cloudstore], operated by [[Upon2020.com|Johannes Ernst]] already does this for user-owned, or shared virtual servers. It is currently in beta, but registration is open to the public.
+* [https://cldstr.com/ Cloudstore], operated by [[Upon2020.com|Johannes Ernst]] already does this for user-owned, or shared virtual servers. It is currently in beta, but registration is open to the public.
+
+== App Store Specifications ==
+=== W3C Manifest for web application ===
+The '''[https://w3c.github.io/manifest/ W3C Manifest for web application]''' is in actively open development. It supersedes "Open Web App Manifest".
+
+=== Open Web App Manifest ===
+'''[https://developer.mozilla.org/en-US/Apps/Build/Manifest Open Web App Manifest]''' is implemented in:
+* Firefox OS 1.0-1.1 (to present)
 
 == Advantages ==
-
 The goal of making an open data format that is shareable from app store to App Store has multiple advantages, the benefits of doing so will differ depending on what type of person is interacting with this data and in what way. The three types of entities in the app eco system to benefit from this will be stores, developers, and users.
 
 ==== App Stores (Platforms) ====
@@ -92,7 +99,7 @@ The following platforms have voiced an interested in working towards a shared ap
 
 ==== Development Stages ====
 
-Developing the Indie App Store will undoubtable be a long and challenging process involving outreach to existing projects, development of new software (installer clients), and many parties working towards a unified standard of data. It makes most sense to iterate on this incrementally through the following steps:
+Developing the Indie App Store will undoubtedly be a long and challenging process involving outreach to existing projects, development of new software (installer clients), and many parties working towards a unified standard of data. It makes most sense to iterate on this incrementally through the following steps:
 
 * App Download & Install instructions for humans
 * App Download & Install instructions for machines
@@ -129,8 +136,7 @@ The following are values that an '''App Store''' SHOULD have discoverable or rec
 * Dependencies
 
 ==== Vocabularies ====
-
-* [https://w3c.github.io/manifest/ W3C manifest for web app]
+Vocabularies related to describing a Web App:
 * [http://microformats.org/wiki/h-product h-product] - microformat
 * [https://github.com/edumbill/doap/wiki DOAP] - "Description of a Project"
 ** Looking at that git repo I cannot find simple examples, list of properties, or examples in the wild --[[User:Waterpigs.co.uk|Barnaby Walters]] 08:41, 11 June 2014 (PDT)
