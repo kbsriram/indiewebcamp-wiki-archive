@@ -16,5 +16,9 @@ http://indiewebcamp.com/PHP
 * [https://github.com/indieweb/php-mf2 php-mf2] - Microformats 2 parser
 * [https://github.com/indieweb?query=php more libraries on the indieweb Github]
 
+== Articles ==
+Articles about the use of PHP, especially for software that you are expected to download and install on your own domain:
+* http://rachelandrew.co.uk/archives/2013/10/17/unfashionably-profitable/
+
 == See Also ==
 * [[Python]]

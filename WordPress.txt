@@ -28,7 +28,7 @@ it. If you don't want to give up your current theme, try the
 [https://github.com/pfefferle/wordpress-uf2 wordpress-uf2 plugin] (requires FTP).
 
 === [[POSSE]] ===
-Along with [[personal-domain]]s, [[POSSE]] is one of the cornerstones of the IndieWeb. In short, instead of posting to social network [[silos]], you post to your own site and then copy to the silos.
+Along with [[personal-domain]]s, <span id="POSS">[[POSSE]]</span> is one of the cornerstones of the IndieWeb. In short, instead of posting to social network [[silos]], you post to your own site and then copy to the silos.
 
 You can [[POSSE]] manually, but most people automate it. WordPress has many plugins that do this. A few of the most popular are:
 * [http://jetpack.me/support/publicize/ Jetpack Publicize]
@@ -92,14 +92,14 @@ Rather than a theme [https://github.com/pfefferle/wordpress-uf2 uf2] is a plugin
 === People using WordPress ===
 People using WordPress on their primary or other sites.
 
-IndieWebCamp participants using it on their primary site:
+==== Using on their primary site ====
 * [[User:Ozten.com|Austin King]] on [http://ozten.com/psto/ ozten.com/psto/]
 * [[User:Crystalbeasley|Crystal Beasley]] on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
 * [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org] with:
 ** [http://wordpress.org/plugins/indieauth/ IndieAuth]
 ** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
 ** [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic Linkbacks] ([[selfdogfooding]])
-* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] with:
+* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] (2005 - [https://willnorris.com/2014/07/one-step-forward-two-steps-back July 2014]) with:
 ** URL Shortener via WP-Hum ([[selfdogfooding]])
 * [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
 * [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
@@ -114,9 +114,12 @@ IndieWebCamp participants using it on their primary site:
 * [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
 ** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
 
-[[File:aaronpk-bookmarks.png|300px|right]]
-IndieWebCamp participants using it one of their other sites
+* [[User:Acegiak.net|Acegiak]] on [http://Acegiak.net Acegiak.net]
+
+
+==== Using on one of their sites ====
 * [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
+** [[File:aaronpk-bookmarks.png|300px|right]]
 * [[User:Erin_Jo_Richey|Erin Jo Richey]] on [http://flatfrogblog.com/ Flat Frog Blog]
 * [[User:Christopheducamp.com|Christophe Ducamp]] on [http://christopheducamp.com/b christopheducamp.com/b] - testing WP plugins (research in progress - TBC - 2013-04-15).
 ** URL Shortener via WP-Hum - activated since july 2012, ex. http://xtof.me/blog/b/405 
@@ -124,10 +127,7 @@ IndieWebCamp participants using it one of their other sites
 *** [http://jetpack.me/support/publicize/Publicize (JetPack module)] :  [http://christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#jetpack-publicize-exemple example w UI]
 *** [http://aaroncollegeman.com/sharepress/ SharePress] (FB pages broadcasting and twitter. [http://xtof.me/blog/test-sharepress-posse/ example w UI]). schedule POSSE. Short-url restricted to bit.ly. 
 
-IndieWebCamp community members using it on their primary site:
-* [[User:Acegiak.net|Acegiak]] on [http://Acegiak.net Acegiak.net]
-
-Other independents using it on their primary site:
+==== Other independents using it on their primary site ====
 * [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
 * [http://mediajunkie.com/ Christian Crumlish] 
 * [http://singpolyma.net Stephen Paul Weber]

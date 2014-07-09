@@ -107,7 +107,7 @@ The following properties may be included in a request to create a new [[h-entry]
 * in-reply-to
 * syndication
 ** Pass one or more URLs pointing to places where this entry already exists. Can be used for [[PESOS]] implementations.
-* syndicate-to = twitter.com, alpha.app.net, facebook.com, etc.
+* syndicate-to = http://twitter.com/aaronpk, http://alpha.app.net/aaronpk, http://facebook.com/aaronpk, etc.
 ** This property is slightly different from the others since it is giving a command to the server rather than describing an object.
 ** client should identify services by their domain name.
 ** are syndication options needed in the client?
@@ -131,7 +131,7 @@ Content-type: application/x-www-form-urlencoded
 h=entry
 &content=The+%40Jawbone+UP%2C+my+favorite+of+the+%23quantifiedself+trackers%2C+finally+released+their+official+API%21+http%3A%2F%2Fjawbone.com%2Fup%2Fdeveloper%2F
 &category=jawbone,quantifiedself,api
-&syndicate-to=twitter.com
+&syndicate-to=http://twitter.com/aaronpk
 </pre>
 
 ===== Minimal Example =====
@@ -166,7 +166,7 @@ Content-type: application/x-www-form-urlencoded
 h=entry
 &content=%40BarnabyWalters+My+favorite+for+that+use+case+is+Redis.+It%27s+easy+to+set+up+and+use%2C+I+often+use+it+to+move+data+between+apps+written+in+different+languages+too.
 &in-reply-to=http://waterpigs.co.uk/notes/4S0LMw/
-&syndicate-to=twitter.com
+&syndicate-to=http://twitter.com/aaronpk
 </pre>
 
 ==== New Article ====
@@ -357,6 +357,96 @@ Question: how to handle removing or replacing tags? One possibility is to have s
 * add_tags=webmention - adds the specified tags
 * remove_tags=indieweb - removes the specified tags
 * tags=webmention,indieweb - replaces the current tag list with the given tag list
+
+== Syndicating a Post ==
+{{section-stub}}
+
+After a post is already created, it is sometimes desirable to syndicate a copy of it elsewhere. For example if I first post a photo to my site, then want to syndicate it to Twitter and Facebook after the fact.
+
+=== Simple Example ===
+A simple micropub request to syndicate an existing post may look like this:
+
+<pre>
+POST /micropub
+
+u=http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp
+&syndicate-to=https://twitter.com/aaronpk,https://facebook.com/aaronpk
+</pre>
+
+The micropub endpoint will retrieve the contents of the original post (including a photo if present) and syndicate it to the targets listed in the "syndicate-to" parameter.
+
+=== Custom Syndication Content ===
+
+What if you want to provide custom text to the site you are syndicating to? For example, since Twitter posts are limited to 160 characters, you may want to hand-craft a version of the post that fits within the limit.
+
+This may look like a standard micropub request where there is just no h=entry value since it's not creating a new post on the author's site. This way we can include a "content" field. The limitation of course is that only one content field can be present, so the syndicated text will be the same for all targets.
+
+<pre>
+POST /micropub
+
+u=http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp
+&syndicate-to=https://twitter.com/aaronpk
+&content=Shorter+version+of+the+post
+</pre>
+
+TODO: Is this a reasonable alternative POST request to specify custom content for multiple silos?
+
+<pre>
+POST /micropub
+
+u=http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp
+&syndicate-to[]=https://twitter.com/aaronpk
+&syndicate-to[]=https://facebook.com/aaronpk
+&content[https://twitter.com/aaronpk]=Shorter+version+of+the+post
+&content[https://facebook.com/aaronpk]=Content+to+post+to+Facebook
+</pre>
+
+In PHP and Ruby, this is interpreted as the following object (shown as JSON for convenience):
+
+<pre>
+{
+  "u": "http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp",
+  "syndicate-to": [
+    "https://twitter.com/aaronpk",
+    "https://facebook.com/aaronpk"
+  ],
+  "content": {
+    "https://twitter.com/aaronpk": "Shorter version of the post",
+    "https://facebook.com/aaronpk": "Content to post to Facebook"
+  }
+}
+</pre>
+
+
+
+=== Syndicating likes, reposts, etc ===
+
+If there is already a "like" post on your site, then syndicating this to Twitter or Facebook is just a standard syndicate request. The micropub endpoint should recognize that the post being syndicated is a "like" and handle it appropriately.
+
+<pre>
+POST /micropub
+
+u=http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp
+&syndicate-to=https://twitter.com/aaronpk
+</pre>
+
+=== Discovering Supported Syndication Targets ===
+
+Since any given micropub endpoint may support syndicating to websites that a client does not know about, the endpoint needs a way to indicate which syndication targets are supported.
+
+The client makes a GET request with <code>q=syndicate-to</code> to query the list of syndication endpoints supported.
+
+<pre>
+GET /micropub?q=syndicate-to
+Authorization: Bearer xxxxxxxxx
+
+syndicate-to=https://twitter.com/aaronpk,https://twitter.com/pkbot,https://facebook.com/aaronpk
+</pre>
+
+The list can be generated dynamically depending on the client making the request. For example, I may want to authorize an app to syndicate to [[IndieNews]] but not [[Twitter]]. In this case, when the app makes the request to find supported syndication targets, my site would only return the IndieNews URL.
+
+==== Scope ====
+A micropub endpoint may wish to restrict syndicating to some or all targets, only explicitly allowing it for specific clients. This can be accomplished with the "scope" parameter when the access token is obtained.
 
 == Clients ==
 Sites and applications that publish via micropub. 

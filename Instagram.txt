@@ -98,6 +98,11 @@ One potential up-side is when searching for venues, your custom locations now sh
 
 Creating this custom location prompts only for the name, the exact geo location is added automatically, meaning it is not possible to adjust the specific location of the venue.
 
+=== Censorship/removal of otherwise innocuous material ===
+
+* Instagram has [http://www.gaystarnews.com/article/instagram-removes-photo-gay-newlyweds-kissing030714 reportedly removed a photograph of a gay couple kissing at their wedding] as "inappropriate".
+* Instagram's removal of sexual content has been criticised as [http://www.thedailybeast.com/articles/2013/10/30/instagram-s-sex-censorship-is-inconsistent-and-hilarious.html being inconsistently enforced].
+
 == See also ==
 * [[silos]]
 * [[photos]]

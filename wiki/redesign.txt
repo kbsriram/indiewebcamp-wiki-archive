@@ -2,10 +2,11 @@ http://indiewebcamp.com/wiki/redesign
 
 At IndieWebCamp 2014 we had a session to [[2014/fix-the-indiewebcamp-wiki|redesign the wiki]]. The new theme is currently installed on the wiki, but not set to be the default theme yet. 
 
-You can:
+== Preview the New Theme ==
 * [http://indiewebcamp.com/?useskin=teahouse preview the new theme].
 * Set your default theme to "Teahouse" in your [[Special:Preferences|user preferences]]
 
+== Contribute to the Redesign ==
 If you want to suggest new CSS edits for the wiki, you can send a pull request to the Mediawiki skin here: https://github.com/indieweb/wiki
 
 If you are signed in to the wiki, there is an additional style tag added on the page:
@@ -15,3 +16,16 @@ If you are signed in to the wiki, there is an additional style tag added on the 
 (where example.com is actually your website)
 
 This gives you a way to make CSS edits to test things out on the real wiki with the full content rather than setting up your own MediaWiki install.
+
+
+== Todo ==
+
+* Collapse TOC on pages
+* Testing on current site with plugins
+* Clean up timestamps in event feed
+* Remove orange underline from linked images
+* Fix preference navigation tabs
+
+== Screenshot ==
+
+As of 6/29/2014 -- http://cl.ly/image/2R0z3S1C0b2X

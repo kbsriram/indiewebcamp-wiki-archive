@@ -24,11 +24,17 @@ You can use an existing authorization service such as [[indieauth.com]] if you d
 
 An authorization endpoint must be able to both generate authorization codes as well as verify authorization codes.
 
+=== Identification header ===
+The endpoint MUST return a
+<pre>IndieAuth: authorization_endpoint</pre>
+header for all requests.
+
+It can be used to verify that it's really an endpoint
+
 === Generating Authorization Codes ===
 
 
 === Verifying Authorization Codes ===
-
 
 == FAQ ==
 ==== Why are auth codes verified with a POST instead of a GET ====

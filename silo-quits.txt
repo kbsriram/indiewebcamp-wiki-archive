@@ -5,6 +5,12 @@ http://indiewebcamp.com/silo-quits
 '''<dfn>silo quits</dfn>''' are public statements by individuals announcing they have publicly "quit" posting on or using (at all) various [[silos]], either with intended permanence, or temporarily (i.e. taking a "social media break").
 
 == Silo quitters 2014 ==
+
+=== Chuq Von Rospach ===
+[[Facebook]]
+* 2014-06-29: Announced he is probably leaving Facebook in one week.
+* <cite>[http://www.chuqui.com/2014/06/facebook-steps/ Facebook Steps In It]</cite> <blockquote>My bottom line is that I keep looking for ways to spend less time on Facebook because I get very little value for the time spent there — I’d rather put that time into more productive things. Facebook just isn’t that interesting or useful, and I’m not thrilled with their tendency to set policies that ignore the needs and interests of their users in favor of things that benefit Facebook.</blockquote>
+
 === Brennan Novak ===
 [[Facebook]]
 * 2014-06-06 <cite>[https://brennannovak.com/essays/dear-facebook-goodbye Dear Facebook, Goodbye]</cite> <blockquote>In honor of the one year anniversary of Edward Snowden's revelations and in effort to #ResetTheNet, I am leaving Facebook. I will first download all my pictures, updates, and private messages and then delete my account data.</blockquote>

@@ -52,7 +52,7 @@ Disadvantages:
 * ...
 
 IndieWeb community members using this approach: 
-* [[User:Jonnybarnes|Jonny Barnes]] is using Fastmail's service for receibing/reading/sending jonnybarnes.net emails. Fastmail works by setting up a custom domain as an alias for your fastmail inbox.
+* [[User:Jonnybarnes.net|Jonny Barnes]] is using Fastmail's service for receiving/reading/sending jonnybarnes.net emails. Fastmail works by setting up a custom domain as an alias for your fastmail inbox.
 * [[User:Tantek|Tantek Çelik]] is using Gmail for receiving/reading/sending tantek.com emails.
 * ...
 
@@ -110,6 +110,9 @@ IndieWeb community members using this approach:
 [http://mailroute.net/services.html MailRoute] allows you to specify its mail servers in your domain's MX records and then specify what server domain or IP Address to forward sanitized emails to. It offers spam filtering, greylisting and a number of other features. Once you have an account and have configured it for your domain you are then ready to setup your local MTA.
 
 === Handling it Yourself ===
+
+==== Mail in a Box ====
+[https://mailinabox.email Mail in a Box] is a script that [http://razor.occams.info/ Josh Tauberer] has put together to turn a VPS into a functioning mail server.
 
 ==== Running your own mail server  ====
 

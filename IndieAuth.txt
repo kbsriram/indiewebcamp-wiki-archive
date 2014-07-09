@@ -94,7 +94,7 @@ __TOC__
 == The IndieAuth API ==
 The IndieAuth API lets you support [http://microformats.org/wiki/RelMeAuth RelMeAuth] logins without writing all the OAuth code for each provider!
 
-[http://indieauth.com/#documentation Read the full documentation]
+[https://indieauth.com/developers Read the full documentation]
 
 == Source Code ==
 The [https://github.com/aaronpk/IndieAuth IndieAuth source code] is available on Github. Feel free to fork it and submit pull requests if you make any changes!

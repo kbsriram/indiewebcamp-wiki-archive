@@ -55,6 +55,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * {{t}}
 * http://jden.us
 * [[User:Snarfed.org]]
+* [[User:Kevinmarks.com|Kevinmarks.com]]
+* [[User:walteryu.com|Walter Yu]]
+* [[User:dool.in|Dave Doolin]]
 * ... add yourself!
 
 '''Portland:'''
@@ -83,6 +86,10 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
+[[Image:hwc-2014-183-sf.jpg|640px]]
+
+San Francisco - photo by {{tantek}} (not pictured)
+
 
 ...
 

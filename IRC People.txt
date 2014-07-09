@@ -7,6 +7,7 @@ Please keep sorted alphabetically
 * {{irc user|Aaronparecki.com|aaronpk|America/Los_Angeles}}
 * {{irc user|acegiak.net|acegiak|Australia/Adelaide}}
 * {{irc user|Adactio.com|adactio|Europe/London}}
+* {{irc user|ashersilberman.com|addal|America/Los_Angeles}}
 * {{irc user|roblord.org|b0bg0d|America/San_Francisco}}
 * {{irc user|waterpigs.co.uk|barnabywalters|Atlantic/Reykjavik}}
 * {{irc user|Bear.im|bear|America/New_York}}
@@ -40,6 +41,7 @@ Please keep sorted alphabetically
 * {{irc user|hupili.net|hupili|HKT/HKT}}
 * {{irc user|www.iangreenleaf.com|iangreenleaf|America/Los_Angeles}}
 * {{irc user|natwelch.com|icco|America/San_Francisco}}
+* {{irc user|Upon2020.com|j12t|America/San_Francisco}}
 * {{irc user|jeena.net|jeena|Europe/Stockholm}}
 * {{irc user|upon2020.com|jernst|America/Los_Angeles}}
 * {{irc user|silencematters.com|JeremyZilar|America/New_York}}
@@ -92,11 +94,11 @@ Please keep sorted alphabetically
 * {{irc user|vrypan.net|vrypan|Europe/Athens}}
 * {{irc user|obloid.org|wagle|America/Toronto}}
 * {{irc user|willnorris.com|willnorris|America/Los_Angeles}}
+* {{irc user|wolftune.com|wolftune|America/Los_Angeles}}
 * {{irc user|petar.petrovic.io|wyomingplease|Europe/Belgrade}}
 * {{irc user|owenshepherd.net|XgF|Europe/London}}
 * {{irc user|christopheducamp.com|xtof|Europe/Paris}}
 * {{irc user|Vanderven.se Martijn|Zegnat|Europe/Stockholm}}
 * {{irc user|Traviswellman.com|zztr,zztw|America/Los_Angeles}}
-* {{irc user|wolftune.com|wolftune|America/Los_Angeles}}
 
 * ... add yourself (and sort yourself into the above, unless your IRC nickname really is last alphabetically :)

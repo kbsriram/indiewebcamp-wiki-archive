@@ -1,15 +1,3 @@
 http://indiewebcamp.com/WikiRedesign
 
-Dev repo at http://github.com/peat/wiki
-
-== Todo ==
-
-* Collapse TOC on pages
-* Testing on current site with plugins
-* Clean up timestamps in event feed
-* Remove orange underline from linked images
-* Fix preference navigation tabs
-
-== Screenshot ==
-
-As of 6/29/2014 -- http://cl.ly/image/2R0z3S1C0b2X
+#REDIRECT[[wiki/redesign]]

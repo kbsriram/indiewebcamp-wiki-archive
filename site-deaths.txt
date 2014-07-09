@@ -39,6 +39,8 @@ Soonest first:
 ** Data export: <blockquote>Yes! You can either email hello@mlkshk.com with your user name or click the link “Request Zip File Of All My Images” on your account settings page. It should take about a day to process your request if we don’t get inundated with requests.</blockquote>
 ** Will be working with Archive Team to have data stored there as well. [https://twitter.com/mlkshk/status/463448796785934336]
 
+* 2014-09-30 '''Orkut''' will shut down but it looks like they might not break the public archives.
+** "We are preserving an archive of all public communities, which will be available online starting September 30, 2014. If you don't want your posts or name to be included in the community archive, you can remove Orkut permanently from your Google account." [http://en.blog.orkut.com/2014/06/tchau-orkut.html source]
 Speculative:
 * 2017-04-30 '''Google''' and '''Facebook''' "might completely disappear"[http://www.forbes.com/sites/ericjackson/2012/04/30/heres-why-google-and-facebook-might-completely-disappear-in-the-next-5-years/]
 
@@ -68,8 +70,12 @@ See also (and add one-line summaries to) the [[history|history page]].
 In reverse chronological order:
 
 === 2014 ===
-* 2014-09-30 '''Orkut''' will shut down but it looks like they might not break the public archives.
-** "We are preserving an archive of all public communities, which will be available online starting September 30, 2014. If you don't want your posts or name to be included in the community archive, you can remove Orkut permanently from your Google account." [http://en.blog.orkut.com/2014/06/tchau-orkut.html source]
+* 2014-06-17 '''Codespaces.com''' experienced a DDOS and an unauthorized person gained access to their EC2 control panel.
+* From http://www.codespaces.com
+** <blockquote>. . . removed all EBS snapshots, S3 buckets, all AMI's, some EBS instances and several machine instances.</blockquote>
+** <blockquote>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.</blockquote>
+** <blockquote>Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.<br><br>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us.</blockquote>
+
 * 2014-06-15 '''Justin.tv''' no longer archiving live broadcasts and will be deleting all archived videos with two weeks notice.
 ** "All VODs will be removed after June 15, 2014. We recommend downloading your recorded videos before the date."
 *** Initially this reported "June 8, 2014", but as of 2014-06-24 the page says June 15.

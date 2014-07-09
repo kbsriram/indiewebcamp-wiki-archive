@@ -31,3 +31,13 @@ At some point, there may be companies willing to offer this kind of service with
 
 
 Note that taking advantage of free hosting that offers free subdomains leaves a lot of control of the domain in the hands of the host, putting your url at [http://indiewebcamp.com/why#Why_Indie_Web risk of a whole lot of things].   Similarly, universities, etc, tend to not provide long-term stability.
+
+== Avoid www subdomain ==
+Avoid using "www." on your domain.
+* It introduces an unnecessary security scoping (see above)
+* It's superfluous, per http://no-www.org/
+
+== See Also ==
+* [[dns]]
+* [[personal domain]]
+* [[short domain]]

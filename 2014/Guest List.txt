@@ -280,6 +280,7 @@ Sign up for IndieWebCamp 2014 West in Portland, OR!
 |org_name = Snowdrift.coop
 |org_url = https://snowdrift.coop
 |projects =  
+|elsewhere = [https://twitter.com/awolftune @awolftune]
 }}
 {{Attendee
 |name = [[User:Caseorganic.com|Amber Case]]

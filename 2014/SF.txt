@@ -102,8 +102,19 @@ Sessions notes are in the top level Etherpad:
 Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions complete)
 * [[2014/SF/Introductions|Introductions]]
 * [[2014/SF/https|HTTPS]]
-* <!-- [[2014/SF/Demos|Demos]] --> ...
-
+* [[2014/SF/Getting_Started|Getting Started]]
+* [[2014/SF/Communications|Communications]]
+* [[2014/SF/Comic|Comic]]
+* [[2014/SF/Unix|Unix]]
+* [[2014/SF/Privacy|Privacy]]
+* [[2014/SF/Your Friend The Silo|Your Friend The Silo]]
+* [[2014/SF/The Web and VR|The Web and VR]]
+* [[2014/SF/One Billion|One Billion]]
+* [[2014/SF/IndieAuth|IndieAuth]]
+* [[2014/SF/POSSE Patterns|POSSE Patterns]]
+* [[2014/SF/Apps|Apps]]
+* [[2014/SF/WordPress|WordPress]]
+* [[2014/SF/Demos|Demos]]
 
 == Demos ==
 * ... 

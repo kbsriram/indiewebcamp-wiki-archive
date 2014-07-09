@@ -6,7 +6,7 @@ http://indiewebcamp.com/Template%3AHomebrew_Website_Club
   {{Navbox-row
     |title = 2014
     |content = 
-[[events/2014-07-02-homebrew-website-club|07-02]] • [[events/2014-06-18-homebrew-website-club|06-18]] • [[events/2014-06-04-homebrew-website-club|06-04]] • [[events/2014-05-21-homebrew-website-club|05-21]] • [[events/2014-05-07-homebrew-website-club|05-07]] • [[events/2014-04-23-homebrew-website-club|04-23]] • [[events/2014-04-09-homebrew-website-club|04-09]] • [[events/2014-03-26-homebrew-website-club|03-26]] • [[events/2014-03-19-homebrew-website-club|03-19]] • [[events/2014-03-12-homebrew-website-club|03-12]] • [[events/2014-02-26-homebrew-website-club|02-26]] • [[events/2014-02-12-homebrew-website-club|02-12]] • [[events/2014-01-29-homebrew-website-club|01-29]] • [[events/2014-01-15-homebrew-website-club|01-15]]
+[[events/2014-07-30-homebrew-website-club|07-30]] • [[events/2014-07-16-homebrew-website-club|07-16]] • [[events/2014-07-02-homebrew-website-club|07-02]] • [[events/2014-06-18-homebrew-website-club|06-18]] • [[events/2014-06-04-homebrew-website-club|06-04]] • [[events/2014-05-21-homebrew-website-club|05-21]] • [[events/2014-05-07-homebrew-website-club|05-07]] • [[events/2014-04-23-homebrew-website-club|04-23]] • [[events/2014-04-09-homebrew-website-club|04-09]] • [[events/2014-03-26-homebrew-website-club|03-26]] • [[events/2014-03-19-homebrew-website-club|03-19]] • [[events/2014-03-12-homebrew-website-club|03-12]] • [[events/2014-02-26-homebrew-website-club|02-26]] • [[events/2014-02-12-homebrew-website-club|02-12]] • [[events/2014-01-29-homebrew-website-club|01-29]] • [[events/2014-01-15-homebrew-website-club|01-15]]
   }}
 
   {{Navbox-row

@@ -94,10 +94,30 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |elsewhere = petermolnar@twitter
 }}
 
+{{Attendee
+|name = Cole Peters
+|img = https://colepeters.com/photos/photos--profile/tcp2014-2e-1x1.jpg
+|url = https://colepeters.com
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/cole_peters @cole_peters], [http://blog.colepeters.com blog.colepeters.com], [http://lab.colepeters.com GitLab], [http://firstthingsfirst2014.org First Things First 2014]
+}}
+
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
 
 === Bloggers ===
 Alphabetically sorted by full display name.
+
+{{Attendee-apprentice
+|name = Kevin Beynon
+|img = http://kevinbeynon.com/images/avatars/mouseguard-128x128.png
+|url = http://kevinbeynon.com
+|apprentice_of = 
+|org_name = 
+|org_url = 
+|elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
+}}
 
 {{Attendee-placeholder
 |custom_message = Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!

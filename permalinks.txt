@@ -53,6 +53,19 @@ For more details and background/thinking, see the interview/article:
 * Custom structure
 ** Using a combination of [http://codex.wordpress.org/Using_Permalinks#Structure_Tags WordPress structure tags]
 
+==== Whistler ====
+Whistler is a Node.js module that implements a flexible version of the [[Whistle]] algorithm (by Tantek at http://tantek.com/w/Whistle) for shortening, expanding, and explaining links using [[NewBase60]].
+
+Whistler and the NewBase60 Node.js modules are both available on NPM and GitHub:
+* Whistler
+** NPM: https://npmjs.org/package/whistler
+** GitHub: https://github.com/mko/Whistler
+* NewBase60
+** NPM: https://npmjs.org/package/newbase60
+** GitHub: https://github.com/mko/NewBase60
+
+As of 2014-07-08, it currently powers an early version of https://mowens.com
+
 == Coping with loss of ==
 Permalinks [[site-deaths|die every year]]. If you're able to export your content you can rehost it on your own site, but the problem of dead permalinks remains. There are approaches to making dead permalinks at least discoverable, e.g. by searching for the text of a permalink URL in a web search engine.
 

@@ -92,9 +92,9 @@ The following platforms have voiced an interested in working towards a shared ap
 
 * [[Indie Box]]
 * [https://arkos.io ArkOS]
-* [http://indiephone.eu IndiePhone]
 * [http://cozy.io Cozy]
 * [http://sandstorm.io Sandstorm]
+* [http://cloudfleet.io CloudFleet]
 * [https://owncloud.org ownCloud]
 
 ==== Development Stages ====

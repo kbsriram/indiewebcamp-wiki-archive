@@ -63,6 +63,9 @@ vs. Python-Markdown with CodeHilite (though you can enable the <code>fenced_code
     code sample
 </pre></code>
 
+=== considered harmful ===
+[https://medium.com/@bbirdiman/markdown-considered-harmful-495ccfe24a52 Markdown considered harmful]
+
 == Tools ==
 === Firefox Addon ===
 *  https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer

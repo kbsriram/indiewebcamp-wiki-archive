@@ -17,9 +17,6 @@ Reply context with original post text (auto-linked), dt-published (linked to ori
 ==== reply to a deleted note ====
 * http://aaronparecki.com/replies/2014/05/17/1/ is a reply to a tweet which was later deleted. Instead the reply-context shows and links to the IRC log of the deleted tweet.
 
-==== reply to a photo ====
-[[File:example-reply-to-photo-showing-context.png]]
-
 ==== multireplies ====
 IndieWeb examples of displaying a [[multiple-reply|reply to multiple]] other posts
 * http://aaronparecki.com/replies/2013/04/21/1/
@@ -72,6 +69,15 @@ This reply context presentation was modeled after idno as a way to get something
 (as of 2014-04-30) Reply context shows a "In reply to" caption followed by a list of hyperlinked urls of the original post.
 
 [[File:KP-reply-context.jpg|link=http://kartikprabhu.com/notes/disappearing-ny-book]]
+
+== Brainstorming ==
+=== reply to a photo ===
+Mockup by {{aaronpk}} of how a reply-context in-reply-to a photo post could show a thumbnail of that photo:
+
+[[File:example-reply-to-photo-showing-context.png]]
+* Actual live post this mockup is based on: http://aaronparecki.com/replies/2013/04/30/3/
+** Note: it's a reply to a post on instagram.com
+* Reply to a photo-post on an indieweb site: http://aaronparecki.com/replies/2014/07/08/1/
 
 == Silo Examples ==
 

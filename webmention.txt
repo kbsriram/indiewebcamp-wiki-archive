@@ -113,6 +113,7 @@ Some implementations now display a page that briefly explains webmentions when t
 * {{aaronpk}} at https://aaronparecki.com/webmention.php
 * [[User:kylewm.com|Kyle Mahan]] at https://kylewm.com/webmention
 * [[User:WaterPigs.co.uk|Barnaby Walters]] at [http://waterpigs.co.uk/mentions/webmention/ waterpigs.co.uk/mentions/webmention], containing a link to the wiki (more friendly than the spec), along with a short description and a form for easy webmention sending.
+* [[User:kodfabrik.se|Pelle Wessman]] at https://webmention.herokuapp.com/api/webmention
 * add yours...
 
 == Implementations ==
@@ -256,7 +257,9 @@ Some services one can use to receive or send webmentions.
 [http://brid.gy/ brid.gy] is a service that sends [[webmentions]] for comments/replies, likes, and reposts on Facebook, Twitter, Google+, and Instagram posts. It uses [[original post discovery]] to find target links for the webmentions. [https://github.com/snarfed/bridgy GitHub repo here.]
 
 ==== stapibas ====
-* [[stapibas]] is a self-hosted service to send and receive webmentions for websites and blogs.
+[[stapibas]] is a self-hosted service to send and receive webmentions for websites and blogs.
+
+It can be used to send out webmentions and pingbacks for new posts on static sites.
 
 ==== webmention.io ====
 {{main|webmention.io}}

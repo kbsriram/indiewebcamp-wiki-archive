@@ -108,6 +108,8 @@ There is a w3c spec for addressing [http://www.w3.org/TR/media-frags Media Fragm
 
 [https://hypothes.is/blog/fuzzy-anchoring/ Hypothes.is fuzzy anchors] and [https://github.com/hypothesis/h/wiki/robust-anchors robust anchors] have some good discussion of the broader area, and some code too.
 
+[https://medium.com/@bbirdiman/lets-please-use-hashtag-terms-to-create-_arbitrary_-deep-links-f9185d5da2f0 Bowerbird proposed # for words in december 2013]
+
 See also: http://en.wikipedia.org/wiki/Fragment_identifier#Proposals
 
 == Discussion ==

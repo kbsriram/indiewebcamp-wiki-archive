@@ -19,20 +19,31 @@ There are different approaches to posting photos. E.g.
 You should own your photos like you own any other content you create. Many photos sites have [[site-deaths|gone down]] over the years, taking invaluable personal memories with them.
 
 == IndieWeb Examples ==
-=== Aaron Parecki ===
-{{aaronpk}} has been posting photos to his own site since [[2014/SF|IndieWebCamp SF]] on 2014-03-08, using [[OwnYourGram]] to turn [[Instagram]] into a publishing client.
-* e.g. http://aaronparecki.com/notes/2014/05/06/3/iiw-indieweb
+Sorted by earliest photo posts first.
 
-=== Barnaby Walters ===
-[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with images in.
+=== Ryan Barrett ===
+[[User:Snarfed.org|Ryan Barrett]] uses [[WordPress]] to post photos on [https://snarfed.org/pictures snarfed.org/pictures] since around [https://snarfed.org/draw_group 2003-03-06].
 
 === Ben Werdmuller ===
 [[User:Werd.io|Ben Werdmuller]] uses [[idno]] to post photos (including taking them with a mobile web upload interface that uses the camera!) on [http://werd.io/ werd.io] (since ????-??-??), and [[POSSE]]s them to [[Facebook]] and [[Flickr]] (since ????-??-??)
 * e.g. ??? a photo post permalink on werd.io
 * mobile photography and posting demonstrated live at IndieWebCamp [[2013]] in Portland.
 
-=== Ryan Barrett ===
-[[User:Snarfed.org|Ryan Barrett]] uses [[WordPress]] to post photos on [https://snarfed.org/pictures snarfed.org/pictures] since around [https://snarfed.org/draw_group 2003-03-06].
+=== Aaron Parecki ===
+{{aaronpk}} has been posting photos to his own site since [[2014/SF|IndieWebCamp SF]] on 2014-03-08, using [[OwnYourGram]] to turn [[Instagram]] into a publishing client.
+* e.g. http://aaronparecki.com/notes/2014/05/06/3/iiw-indieweb
+
+=== Jeremy Keith ===
+[[User:adactio.com|Jeremy Keith]] uses his own custom [[PHP]]-based CMS to post photos (with [[location]] info!) on adactio.com and [[POSSE]] them to [[Twitter]] since [http://adactio.com/notes/6978/ 2014-07-05]. Example:
+* http://adactio.com/notes/6978/
+** POSSE copy: https://twitter.com/adactio/status/485552177080201217
+
+
+== Notes with photos examples ==
+Not quite photo posts, but similar, [[notes]] with embedded photos are another approach to photo-like posts.
+
+=== Barnaby Walters ===
+[[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with embedded images.
 
 == Silos ==
 The following [[silos]] specialize in photo posting/hosting/sharing:
@@ -44,7 +55,17 @@ In addition, the following silos support photo posts in addition to other types 
 * [[Facebook]]
 * [[Google+]]
 
+Here are some notes on specific silo treatment of photos:
+
+=== Facebook ===
+With Facebook, you have the options of:
+* creating an actual [[photo]] post (preferred)
+** Note that the [[POSSE_to_Facebook#See_Original]] trick does not work with photo posts
+* or posting a status update ([[note]]) and linking to the original photo or if you're linking to a permalink on your own site (e.g. as part of [[POSSE]]ing), optionally using [[OGP]] to specify the image to use for a preview.<br>[[File:facebook-post-with-preview-image.png|none|thumb|Facebook note with preview image]]
+Creating an actual photo post looks much better.
+
 == Brainstorming ==
+{{main|photo brainstorming}}
 === People Tagging ===
 [[User:benwerd.com|Ben Werdmuller]] wondered if you could tag people in photos by linking to their profiles using HTML imagemaps (!) and marking up the imagemap links with microformats. That might look something like:
 
@@ -86,13 +107,17 @@ Advantages to POSSEing actual photos to Twitter, rather than just a link to a ph
 * Using the TwitterAPI hides the proprietariness, whereas using twittercards means your own website has proprietary metacrap on it
 * Twittercards set a worse example (proprietary metacrap) for others that may view source
 
+=== Hosting ===
+* When I start hosting my own photos, I have thought about using the Coral CDN. http://www.coralcdn.org/ {{gRegor}}
+
 == Software ==
 Software you can install on your IndieWeb server to host your own photos
-=== Trovebox ===
-{{main|Trovebox}}
-Trovebox (formerly <span id="OpenPhoto">OpenPhoto</span>) is software you can install to post and share your own photos. There are several [[Trovebox#Criticism|documented criticisms]] of this software as it has been used by people in the community.
+
+* GNU [http://mediagoblin.org/ Mediagoblin]
+* [[Trovebox]] (formerly <span id="OpenPhoto">OpenPhoto</span>)
 
 == See Also ==
+* [[photo brainstorming]]
 * [[photo upload]]
 * [[posts]]
 * [[notes]]

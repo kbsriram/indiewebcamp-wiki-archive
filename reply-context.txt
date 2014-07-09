@@ -42,6 +42,53 @@ For consistency with [[comment-presentation#How_to_markup|comment markup]], repl
 
 * Because h-entry implies syndication semantics, which are not what a reply-context is showing/conveying.
 
+== Levels ==
+There is a broad spectrum of reply-context presentation that can be roughly ordered in terms of fidelity and difficulty, from simplest/easiest to richest (silo-parity) and most challenging.
+=== URL ===
+Since a reply has to be [[in-reply-to]] to <em>something</em> (a URL), the simplest reply context is to simply show the URL (hyperlinked of course) of the original with perhaps a text label like:
+<blockquote>In reply to: hyperlinked-URL-of-original</blockquote>
+IndieWeb Examples of URL-only :
+* ... {{t}} does this ... example on [[reply-context-examples]]
+* ...
+
+=== icon ===
+The next easiest thing to add is the icon (or avatar) of the author of the original post. For example, replies to tweets can retrieve the icon purely by inspecting the URL for the first path segment for the Twitter username, and then embedding a dynamic image redirect URL, e.g.  https://twitter.com/benwerd/profile_image: https://twitter.com/benwerd/profile_image?x=.jpg See [[Twitter#Profile_Image_URLs|Twitter: Profile Image URLs]] for details.
+
+IndieWeb Examples of icon plus URL:
+* none so far
+
+=== published ===
+The original's published date is the next interesting (and slightly harder) thing to retrieve and display in a reply-context. With this step, an implementation must retrieve the original post and determine its "dt-published" (e.g. from parsing its [[h-entry]]).
+
+The date and time of the original should be displayed and hyperlinked to the original's URL.
+
+IndieWeb Examples of icon URL and dt-published:
+* none so far
+
+=== author name ===
+Determining the author's name and their icon (more broadly/reliably than above), requires implementing the [[authorship]] algorithm on the original post, which requires more work than just parsing it for its h-entry as above.
+
+IndieWeb Examples of icon URL dt-published and author name:
+* none so far
+
+=== original content ===
+Lastly, the <em>content</em> of an original post is the hardest thing to display <em>well</em> in a <em>singular</em> reply-context, due to numerous additional variables. Some challenges:
+* length of original content - how do you truncate/abbreviate (if at all) original content to "fit" into a reasonably sized reply-context?
+* markup in original
+** do you allow any markup from the original content (e.g. links, images)?
+** or do do you always display only plain text from originals?
+** or use your own auto-linking on the plain text from originals?
+
+IndieWeb Examples of icon URL dt-published author name and original content:
+* ... a lot of folks - see [[reply-context-examples]] and copy a short list here inline
+* ...
+
+=== reply thread ===
+Popular silos (e.g. [[Twitter]]) display an entire <em>thread</em> of reply-contexts of originals/replies from the tweet that you're replying to, and if it was a reply itself, what it replies to etc. on up through the original tweet at the start of the thread.
+
+IndieWeb Examples of icon URL dt-published author name original content for the <em>entire reply chain up through the original post that started the thread</em>:
+* none so far
+
 == Notifications ==
 Sites should send notifications using [[webmention]] for every [[h-cite]] / URL (u-url) in reply-contexts of posts.
 

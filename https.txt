@@ -8,6 +8,7 @@ There are two primary <span id="Types">types</span> of HTTPS:
 
 == How to ==
 * [https://konklone.com/post/switch-to-https-now-for-free Switch to HTTPS now for free] outlines how to set up SSL on your personal site with [[StartSSL]] (note the guide primarily deals with using nginx as your server)
+** Dreamhost-specific instructions  for setting up the StartSSL certificate: http://wiki.dreamhost.com/Secure_Hosting#Option_4
 
 === Buy ===
 Buying SSL certificates
@@ -229,6 +230,7 @@ Level 3 - provide your front-end over both http and https with a cert from a tru
 * [[User:Dunlaps.net|Darius Dunlap]] on https://dunlaps.net/darius [https://dunlaps.net/darius/2014/03/25/indieweb-update/ since 2014-03-07] (at [[2014/SF|IndieWebCampSF]]).
 ** Level 2: previously, self-signed cert on his [[WordPress]] admin interface at https://dunlaps.net/darius/wp-login.php since YYYY-YY-YY.
 * [[User:David.shanske.com|David Shanske]] on https://david.shanske.com/ since 2014-05-23.
+* {{gRegor}} on https://gregorlove.com since 2014-07-08
 * ... add yourself here with the date you reached level 3
 
 === Level 4 security ===
@@ -275,6 +277,7 @@ Level 5 - use correct ciphers, support forward secrecy, etc. per https://www.ssl
 ** Level 4 (all https all the time) before that [https://willnorris.com/2012/12/all-https-all-the-time since 2012-12-16]
 * [[User:Petermolnar.eu|Péter Molnár]] on https://petermolnar.eu/ (See https://www.ssllabs.com/ssltest/analyze.html?d=petermolnar.eu) since 2014-MM-DD.
 * [[User:jonnybarnes.net|Jonny Barnes]] on https://jonnybarnes.net/ (via 301 redirect, A+ on ssllabs: https://www.ssllabs.com/ssltest/analyze.html?d=jonnybarnes.net&hideResults=on) since 2014-05-31
+* {{rascul}} on https://rascul.io (via HSTS, A+ on ssllabs: https://www.ssllabs.com/ssltest/analyze.html?d=rascul.io) since 2014-06
 
 == Criticism ==
 * <span class="h-cite"><time class="dt-published">2014-04-09</time> <span class="p-author h-card">Sean Doig</span>: <cite class="p-name">[http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death Heartbleed should bleed X.509 to death]</cite>, <span class="p-url">http://lorddoig.svbtle.com/heartbleed-should-bleed-x509-to-death</span></span>

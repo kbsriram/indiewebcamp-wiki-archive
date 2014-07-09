@@ -137,6 +137,13 @@ Unless the application developer is the only user, Facebook now requires applica
 
 * A study published June 2, 2014 revealed that one week in 2012, Facebook tweaked the feeds of about 700,000 users to see if it could manipulate their mood and posting behavior [http://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/]
 
+== Advocates ==
+Robert Scoble defended using Facebook in a post, "[https://plus.google.com/+Scobleizer/posts/ZSJzgnvKaWy What will you miss when you quit Facebook?]"
+
+<blockquote>1. Filtered feed. Truth is this is a mixed bag. For me it's a HUGE deal because I have put thousands of hours into tuning my feed and I have many of the world's top technologists on Facebook.</blockquote>
+
+Someday Facebook will change ''something'' (or just [[site-deaths|disappear]]), and all these hours will be wasted. Imagine if he'd spent just 1/10th of that time working on his own site. — {{gRegor}}
+
 == Articles ==
 Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):
 * 2014-01-21 [http://business.time.com/2014/01/21/facebook-is-about-to-lose-80-of-its-users-study-says/ Facebook Is About to Lose 80% of Its Users, Study Says]

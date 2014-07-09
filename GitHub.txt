@@ -66,6 +66,10 @@ There are various self-hosted alternatives to github:
 * [[gitosis]]
 * [[gitorious]]
 
+== Criticism ==
+* You can lose your data due to unjustified DMCA takedowns:
+** [https://github.com/github/dmca/blob/master/2014-07-02-Qualcomm.md Takedown] and [http://ausdroid.net/2014/07/05/qualcomm-retracts-dmca-takedown-request-apologises-involved/ Apology]
+
 == See Also ==
 * [[code]]
 * [[commons]]

@@ -3,6 +3,38 @@ http://indiewebcamp.com/Twitter
 <span style="float:right">https://pbs.twimg.com/profile_images/2284174758/v65oai7fxn47qv9nectx_200x200.png</span>
 '''<dfn>Twitter</dfn>''' (also known as <dfn>Twitter.com</dfn>) is a popular content hosting [[silo]] most well known for 140 character text [[notes]].
 
+== Features ==
+Twitter provides the following features:
+
+* [[follow]] and unfollow
+* [[reader]] UI with an integrated UI to:
+* [[post]] a [[note]] or [[reply]] (optionally attaching 1-4 [[photos]]) at a [[permalink]] with:
+** [[retweets]] count
+** [[favorites]] count
+** [[comments-display]] (@-replies to it)
+** [[location]] (per user privacy preferences)
+** [[reply-context]] of in-reply-to tweets up through the start of the thread 
+** author buttons: Delete post, [[Pin]] post to top of profile
+** [[web actions]] for others to Reply, Retweet, Favorite
+** [[citation]] UI to share tweet via email, or copy/paste as a blockquote
+* [[repost]] (called "retweet" on Twitter) and unretweet others' tweets
+* [[like]] (called "favorite" on Twitter) and unfavorite any tweet
+* direct [[message]] anyone who is following you and
+** view or delete your previous private messages sent and received as conversations per person
+** show count of unread [[message]]s
+
+=== Replacing ===
+If you recreate these features on your own site, including [[POSSE]] support to Twitter for each, then you no longer have any need to directly use Twitter.
+
+To fully replace your usage of Twitter you must also support:
+* on a Twitter profile page (e.g. that you navigated to from a link elsewhere)
+** click "Follow" or "Unfollow" and have the action take place on your site instead (which your site could POSSE sync to Twitter as well)
+* on a tweet permalink: (e.g. that you navigated to from a link elsewhere)
+** click "Reply", "Retweet", or "Favorite" and have the action go to your site instead (which then POSSE's it back to Twitter).
+* import your pre-indieweb tweets to your own domain (accessible via your own site navigation, search, archives).
+
+The end result is that all your interactions with Twitter and Tweets via your own site need to be <em>at least</em> as seamless as Twitter's UI (so you'll use your own UI instead).
+
 == Recommendations ==
 === CC license your tweets ===
 ''Note, tweetcc's creators decided to take it down in July 2013."[https://twitter.com/Malarkey/status/361844728922259457]
@@ -20,7 +52,6 @@ Etc. your tweets to do so, per that CC license (e.g. CC-BY, attributing you) ind
 ==== Reverse Syndicating At-Replies ====
 Per the [[POSSE]] model, you may want to reverse-syndicate @-replies on Twitter to the tweet-copies of your post as "comments" back into your post permalink page on your own site. By using TweetCC, you can check to see if those @-replying to you have CC-licensed their tweets and then incorporate them using the CC license, displaying them however they fit in with your site design, instead of having to shoehorn Twitter's display "guidelines" into your site / post-permalink page design.
 
-__TOC__
 == Data Export ==
 === Download all your tweets ===
 # Go to: https://twitter.com/settings/account 
@@ -41,6 +72,7 @@ After you download your archive, you can update in using a Ruby Gem called [http
 
 * You can use [http://www.jwz.org/blog/2014/01/psa-back-up-your-shit/ this method] to download DMs from Twitter. It is complicated to set up and involves registering a new Twitter application. It can only archive about a year's worth of DMs.
 
+__TOC__
 == Porting to the IndieWeb ==
 === Implementations ===
 
@@ -250,7 +282,8 @@ The Twitter iOS client has an option to use a different API root, "intended for 
 
 It may be theoretically possible to re-implement enough of the Twitter API on your own site to set your own site as a "Twitter proxy server" and thus use the Twitter client as a client to post directly to your own site (and perhaps read from it as well).
 
-== Issues ==
+== Criticism ==
+Bad or failing behavior on the part of Twitter.
 === Downtime ===
 Live: http://downrightnow.com/twitter
 
@@ -260,6 +293,19 @@ Most recent first:
 * 2010-11-04 "Twitter server is down or being upgraded." [http://www.flickr.com/photos/tantek/5322875194/ http://farm6.staticflickr.com/5210/5322875194_908d728816_z.jpg]
 * 2009-09-16 "Twitter is over capacity" (AKA failwhale) [http://www.flickr.com/photos/factoryjoe/3927590515/ http://farm3.staticflickr.com/2571/3927590515_dcdac9ed95.jpg]
 
+=== spammy cross-posting to facebook ===
+This may be a side effect of both Twitter and Facebook doing arbitrary photo cropping (FB likes square images, Twitter likes 16:9 wide ones, both often crop rather than fit to space with background).
+Kevin Marks posted [https://twitter.com/kevinmarks/status/486657353744281600a screenshot of Facebook to twitter].
+[[File:fbupcomingclone0.png|600px]]
+
+When this was [https://www.facebook.com/kevinmarks/posts/10154414550240425 replicated to facebook by Twitter's app] it looked like this:
+
+[[File:fbupcomingclone.png|600px]]
+
+cropping the screenshot and requiring a clickthrough back to twitter to make it readable, with explicit text added by Twitter when cross-posting: <blockquote>Get the whole picture - <strong>and other photos from Kevin Marks</strong></blockquote> <strong>Emphasis</strong> added - which implies deliberate behavior of a spammy sort (using your cross-post to advertise broader use of Twitter than just that one permalink).
+
+== Issues ==
+Correctable issues with Twitter.
 === Email Identity Removal ===
 This 2013-05-17 screenshot seems to demonstrate an odd interaction and vulnerability on Twitter:
 
@@ -281,7 +327,12 @@ Related posts:
 === Early User Interface ===
 Twitter's early user interface (circa 2006-2007?) was quite simple and minimal:
 
-[http://caseorganic.com/presentations/2013/10/19/1/files/slides/?full#7 http://caseorganic.com/presentations/2013/10/19/1/files/slides/pictures/7-changing-user-interface-twitter.png]
+<a href="http://caseorganic.com/presentations/2013/10/19/1/files/slides/?full#7"><img src="http://caseorganic.com/presentations/2013/10/19/1/files/slides/pictures/7-changing-user-interface-twitter.png" width="700"></a>
+
+==== Features ====
+* Simplicity
+* Easy to navigate, one click from your stream to someone's profile
+* Could opt to see all @-replies, even if you only followed one side of it.<blockquote>In the early days, half of how I found new interesting people to follow was catching half a conversation and checking out who the other person was.--  {{gRegor}} on [http://indiewebcamp.com/irc/2014-07-02#t1404327330 IRC ]</blockquote>
 
 === Lots of UI revisions ===
 Look for #newtwitter and #newnewtwitter 

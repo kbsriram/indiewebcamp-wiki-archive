@@ -119,6 +119,27 @@ When displaying external content on my site for [[reply-context]] and [[comments
 
 [[File:p3k-external-files.png]]
 
+=== Local Nicknames ===
+When writing a note, I often want to address people by a nickname rather than by full name or full domain name. (I don't think "@aaronparecki.com" looks particularly good in a post.)
+
+I have a file called <code>users.txt</code> which contains a mapping of local nicknames to profile info including full name, website and avatar URL. I call this a "local" nickname because it may or may not be a nickname that the other person actually uses for themselves or exists on a silo. In practice, it mostly consists of Twitter usernames, however. 
+
+Sample data:
+
+<pre>
+@aaronpk      http://aaronparecki.com http://aaronparecki.com/images/aaronpk.png Aaron Parecki
+@caseorganic  http://caseorganic.com https://twimg0-a.akamaihd.net/profile_images/1788860814/kk-caseorganic_reasonably_small.jpg Amber Case
+@tantek       http://tantek.com http://tantek.com/photo.jpg Tantek Çelik 
+@t            http://tantek.com http://tantek.com/photo.jpg Tantek Çelik
+@snarfed	http://snarfed.org/	https://pbs.twimg.com/profile_images/2812992290/be21b6e4df4b499a98e87413b355c657_bigger.jpeg	Ryan Barrett
+</pre>
+
+Note that in the case of @snarfed, his twitter account is actually different.
+
+==== Issues ====
+* Fixed-column schemas are annoying to deal with and extend
+* Since some of these profile URLs are twitter URLs, they often change and many are out of date
+
 == Database ==
 
 p3k uses a [[database-cache|database as a cache]] and to quickly query lists of posts by category, tag, date or by other meta data. No actual post content is stored in the database, the post content is read from disk when needed. The database can be regenerated from the raw files on disk with a script, so there is no worry if the database is suddenly deleted or corrupted.

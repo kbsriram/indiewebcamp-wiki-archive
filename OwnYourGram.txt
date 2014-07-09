@@ -1,5 +1,3 @@
-http://indiewebcamp.com/OwnYourGram
+http://indiewebcamp.com/ownyourgram
 
-{{stub}}
-
-'''<dfn>[http://ownyourgram.com OwnYourGram.com]</dfn>''' is a service which streams your [[Instagram]] photos to your own site in real-time. After signing in with [[IndieAuth]], it sends your Instagram photos to your [[micropub]] endpoint.
+#redirect:[[OwnYourGram]]

@@ -4,6 +4,11 @@ http://indiewebcamp.com/Indie_Box
 
 '''<dfn>[http://indieboxproject.org/ Indie Box]</dfn>''' is a combination software and hardware [[project]] to  make it easy to run indie-style web applications on a personal server, and keep them maintained. Even geeks often have a hard time finding out how to install web apps, or regularly backing them up or upgrading them. For non-geeks, it's totally impossible, which is one of the reasons they need to go to the big silos instead of the indie web. Indie Box is intended to make this much more accessible to geeks and humans, so everybody can have their own site under they own control.
 
+== Information ==
+* [http://indieboxproject.org/blog/ IndieBox Project Blog]
+* [http://indieboxproject.org/wiki/Main_Page IndieBox Wiki]
+* [https://github.com/indieboxproject GitHub Organization]
+
 == Sessions ==
 Sessions about Indie Box:
 * [[2014-05-06-iiw-indiebox]] at [[IIW]]

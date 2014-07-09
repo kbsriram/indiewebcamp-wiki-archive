@@ -37,7 +37,11 @@ These (numbered items) are all requirements for IndieMark Level 1. Total of 1.0 
 #** [[rel-me]] links to your "other profiles" on the web (e.g. at [[silos]]) and have them link back.
 # 0.4 pts '''[[posts]]''' - #ownyourdata - '''Post some kind of original content''' on your own site, split into:
 #* 0.2 pts '''[[permalinks]]''' - multiple [[posts]] with permalinks for the content on your own site
-#* 0.2 pts '''[[h-entry]] markup''' on your posts (at least 2 posts, with e.g. p-name, p-summary, dt-published, u-url properties). [http://indiewebify.me/validate-h-entry/ Test your h-entry support!]
+#** 0.1 point per permalink up to 0.2 points
+#* 0.2 pts '''[[h-entry]] markup''' of those posts
+#** 0.1 point per post with h-entry up to 0.2 points
+#** with e.g. p-name, p-content, dt-published, u-url properties
+#** [http://indiewebify.me/validate-h-entry/ Test your h-entry support!]
 # 0.2 pts '''<span id="level-1-search"><span id="level-0-search">[[search]]</span></span>''' - searchability is required for level 1. You must do all of these for the 0.2 pts:
 #* '''allow robots to index'''. Permissive or no robots.txt. Either don't have /robots.txt, or if you have one, it MUST allow search engines to index the abovementioned posts.
 #* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on Javascript to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
@@ -47,7 +51,7 @@ These (numbered items) are all requirements for IndieMark Level 1. Total of 1.0 
 Each of those four areas ([[identity]], [[authentication]], [[posts]], [[search]] - see each for how to and why details) helps fill out your Level 1 "ring". Completing all four completes your Level 1 ring and then you can claim IndieMark Level 1.
 
 === Level 2 ===
-IndieMark Level 2 has the general theme of improving your personal identity, and <strong>posting notes on your own site</strong> instead of Twitter (and [[POSSE]]ing to Twitter if you have an account there).
+IndieMark Level 2 has the general theme of improving your personal identity, and <strong>posting multiple types of posts on your own site</strong>, one of which <em>should</em> be '''[[notes]]''' posted to your own site instead of Twitter (and [[POSSE]]ing to Twitter if you have an account there).
 
 Level 2 is based on all Level 1 requirements, plus:
 * '''[[h-card]]''' contact info and representative '''[[icon]]''' on home page. [http://indiewebify.me/validate-h-card/ Validate your h-card!]
@@ -74,15 +78,17 @@ Level 2 is much more than just "I started a blog". That might have been good eno
 
 0.1 for each post type you post to your own site from this list (up to 0.2 points total).<br/>I.e. <strong>Implement any two or more of:</strong>
 * [[notes]] - like tweets or status updates. You really SHOULD do notes as one of your post types.
-* [[bookmarks]]
 * [[articles]] - like a blog
 * [[replies]]
+* [[bookmarks]]
 * [[rsvp]]
-* [[checkins]]
+* [[checkins]] (indicating presence at a [[location]])
 * [[photos]]
 * [[videos]]
+* [[audio]]
 * [[event]]
 * [[comics]]
+This list is roughly ordered by the number of indieweb community members who have implemented each.
 
 See [[posts]] for a longer list of possible post types, that we may incrementally add to this set.
 

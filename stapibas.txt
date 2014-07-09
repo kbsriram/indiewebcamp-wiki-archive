@@ -1,10 +1,11 @@
 http://indiewebcamp.com/stapibas
 
-Standalone pingback server written in PHP, storing data in MySQL. 
+Standalone [[linkback]] server written in PHP, storing data in MySQL. 
 
 == Features ==
-* Receive webmentions and pingbacks 
-* Send out webmentions/pingbacks to each link in an Atom feed
+* Receive [[webmention]]s and [[pingback]]s 
+* Send out webmentions/pingbacks to each link in an [[Atom]] feed
+** This makes it possible to automatically send out linkbacks for [[2014/static-sites|statically hosted sites]].
 
 === Linkback status display ===
 * Status display is activated via a bookmarklet that injects a javascript into the current site

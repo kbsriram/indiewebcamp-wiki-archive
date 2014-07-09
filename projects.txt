@@ -116,16 +116,6 @@ Other independents that are using it on their <em>primary</em> self-identifying 
 * Don Park (donpdonp) (since 2008) [http://donpark.org donpark.org]
 * ...
 
-=== Apache ===
-{{main|Apache}}
-
-Apache is the most popular HTTP (web) server software, and an open source project.
-
-=== Nginx ===
-{{main|nginx}}
-
-Nginx is another popular HTTP (web) server software and open source.
-
 === Other Production Projects ===
 Other projects which are production quality but are not primary blogging / content hosting projects (the heart of an indieweb site).
 

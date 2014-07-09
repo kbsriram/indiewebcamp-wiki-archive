@@ -4,6 +4,8 @@ http://indiewebcamp.com/IndieArchive
 
 '''<dfn>IndieArchive</dfn>''' is a [[project]] to collaboratively grow an [[archive]] of pages [[replies|replied to]] (possibly also [[comment|mentioned]]) in indie web [[posts]].
 
+i-a.github.io was started as a possible shared repository of linked-to content. Presently it consists of a spec only, though several sites keep their own archive based on the concept.
+
 * [[Github]]: https://github.com/i-a
 * Live raw files: http://i-a.github.io/
 
@@ -32,10 +34,10 @@ Notes:
 
 == IndieWeb Examples ==
 === Aaron Parecki ===
-{{aaronpk}} started keeping an archive since ????-??-?? of external linked to pages at:
-* https://github.com/i-a/i-a.github.io
+{{aaronpk}} is keeping an archive since ????-??-?? of external linked to pages. 
+
 === Barnaby Walters ===
-[[User:waterpigs.co.uk|Barnaby Walters]] is keeping an archive since ????-??-?? of external linked to pages at:
+[[User:waterpigs.co.uk|Barnaby Walters]] is keeping an archive since ????-??-?? of external linked to pages, and has published a php library for maintaining and querying an archive:
 * https://github.com/Taproot/archive
 
 == Origins ==
