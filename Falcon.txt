@@ -228,9 +228,17 @@ Send [[webmentions]] for posted links:
 ==== improve reply-context support ====
 Improve reply-context support in reply posts:
 * ''Why?'' Provide readers better [[reply-context]] of the URL (or URLs - see [[multiple-reply]]) I'm replying to. Better user experience through increased comprehension from the provided context.
+** Building blocks for comments: all of this code serves as building blocks for [[comments-presentation]].
 * Currently works for showing all in-reply-to URLs (union of explicit [[rel-in-reply-to]] and u-in-reply-to markup). Necessary improvements:
 ** Show @-username in reply contexts for replies to Tweets
-** Copy and show Twitter @-user avatar, Tweet text, dt-published
+** Show [[reply-context#icon|icon in reply contexts]] for replies to tweets and indieweb posts
+*** Show icons for replies to indieweb posts using a [[nicknames-cache]]
+** Store and show [[reply-context#published|dt-published]] of original post
+** Store and show [[reply-context#author_name|full name of author]] of original post
+*** Start with a [[nicknames-cache]] implementation
+*** Improve with implementing [[authorship]] algorithm
+** Store and show [[reply-context#original_content|tweet text / p-summary]] of original post
+
 === improve rsvp reply notes ===
 Improve [[rsvp]] reply notes:
 * implement p-rsvp options of "no", "maybe", and "tracking"

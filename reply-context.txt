@@ -52,7 +52,11 @@ IndieWeb Examples of URL-only :
 * ...
 
 === icon ===
-The next easiest thing to add is the icon (or avatar) of the author of the original post. For example, replies to tweets can retrieve the icon purely by inspecting the URL for the first path segment for the Twitter username, and then embedding a dynamic image redirect URL, e.g.  https://twitter.com/benwerd/profile_image: https://twitter.com/benwerd/profile_image?x=.jpg See [[Twitter#Profile_Image_URLs|Twitter: Profile Image URLs]] for details.
+The next easiest thing to add is the icon (or avatar) of the author of the original post. 
+
+For example, replies to tweets can retrieve the icon purely by inspecting the URL for the first path segment for the Twitter username, and then embedding a dynamic image redirect URL, e.g.  https://twitter.com/benwerd/profile_image: https://twitter.com/benwerd/profile_image?x=.jpg See [[Twitter#Profile_Image_URLs|Twitter: Profile Image URLs]] for details.
+
+Replies to indieweb posts can retrieve the icon from a [[nicknames-cache]].
 
 IndieWeb Examples of icon plus URL:
 * none so far

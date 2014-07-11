@@ -46,6 +46,9 @@ GitHub isn't a very good host for large media files, especially if they change, 
 ====Jekyll Safe Mode====
 If you wish for GitHub to build your [[Jekyll]] website for you on their server, you must conform to the [https://help.github.com/articles/using-jekyll-with-pages restrictions associated with jekyll safe mode], which means no plugins.  You can pre-process with as many plugins as you want and upload raw html files instead as a simple workaround (similar to how [[octopress]] works).
 
+====No SSL on your own domains====
+While GitHub Pages supports shared SSL for pages under the *.github.io domain, it does not support using your own SSL cert for your own domain.
+
 == POSSE to GitHub ==
 For POSSEing source code to github, see [[code]].
 

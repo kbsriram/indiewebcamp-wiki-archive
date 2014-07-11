@@ -26,6 +26,7 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 * [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
 * [http://nerd.vasilis.nl/linking-fragments-page/##a+few+lines+of+CSS Styled with a tiny CSS animation] by Vasilis van Gemert
 * [http://disquotational.appspot.com/ Disquotational] is a web service (and bookmarklet) for making fragmention links by [http://www.purelytheoretical.com/ Darryl McAdams]
+* [https://kartikprabhu.com/article/marginalia##fragmentions+come+in Kartik's Site] - custom CSS for the highlights the paragraph in gray.
 
 == Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template

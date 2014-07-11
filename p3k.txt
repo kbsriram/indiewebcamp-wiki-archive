@@ -140,6 +140,9 @@ Note that in the case of @snarfed, his twitter account is actually different.
 * Fixed-column schemas are annoying to deal with and extend
 * Since some of these profile URLs are twitter URLs, they often change and many are out of date
 
+==== See Also ====
+[[nicknames-cache]]
+
 == Database ==
 
 p3k uses a [[database-cache|database as a cache]] and to quickly query lists of posts by category, tag, date or by other meta data. No actual post content is stored in the database, the post content is read from disk when needed. The database can be regenerated from the raw files on disk with a script, so there is no worry if the database is suddenly deleted or corrupted.

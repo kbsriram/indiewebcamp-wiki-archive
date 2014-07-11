@@ -127,6 +127,15 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 |elsewhere = [https://twitter.com/happyNChill @happyNCHILL]
 }}
 {{Attendee
+|name = [[User:johneckman.com|John Eckman]]
+|img = http://johneckman.com/photos/john.jpg
+|url = http://johneckman.com
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/jeckman @jeckman]
+}}
+{{Attendee
 |name = [[User:Greptilian.com|Philip Durbin]] (tentative)
 |img = http://tmp.greptilian.com/tmp/pdurbin128.jpg
 |url = http://greptilian.com

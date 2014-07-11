@@ -5,10 +5,14 @@ http://indiewebcamp.com/ronkyuu
 == Features ==
 * Sending Webmention by scanning source post and locating all mentions in the post's html. If the target post supports webmention (found via discovery,) the webmention endpoint will be sent a request.
 * Receiving Webmentions via a small Flask app with stubs for validation and updates
+* Discover authorization endpoints and auth token validation
 
 == Working On ==
-An event handler to trigger static site updates.
+* Getting IndieAuth to work
+* Micropub endpoint support
+* An event handler to trigger static site updates.
 
 == See Also ==
 * [[projects]]
 * [[webmention]]
+* [[stapibas]] - same in PHP

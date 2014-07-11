@@ -4,6 +4,19 @@ http://indiewebcamp.com/notifications
 
 '''<dfn>notifications</dfn>''' in the context of the IndieWeb refer to all forms and ways that an independent web site can receive a message indicating something of interest (server notifications), and potentially relay that information (preferably in realtime) to one or more devices used by the owner of that site (client notifications).
 
+== Use Cases ==
+There are numerous use cases for notifications, this is meant to capture a few that are currently real world and pervasive.
+
+=== Individual ===
+* text messages from contacts
+* calendar reminders
+* alarms
+
+=== Public-like ===
+* Amber Alert text messages
+* Weather alerts per http://www.nws.noaa.gov/com/weatherreadynation/wea.html
+* Sports scores (realtime, e.g. World Cup goals)
+
 == Server Notifications ==
 For server notifications, we use [[webmention]]
 
