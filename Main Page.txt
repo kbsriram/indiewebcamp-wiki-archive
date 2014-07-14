@@ -53,19 +53,25 @@ See [[Previous IndieWebCamps]], most recently the 2014 [[2014/NYC|NYC]] & [[2014
 
 <span id="next">The next IndieWebCamp is:</span>
 <div class="h-event vevent">
-=== <span class="p-name summary">IndieWebCamp 2014</span> ===
-{{main|2014}}
+=== <span class="p-name summary">IndieWebCampUK 2014</span> ===
 
-The fourth annual [[2014|IndieWebCamp]] will for the first time be simultaneously held on West (ESRI R&D, Portland) and East (The New York Times, New York City) coasts from
-<abbr class="dt-start dtstart" title="2014-06-28"><time datetime="2014-06-28">June 28</time></abbr>-<abbr class="dt-end dtend" title="2014-06-29"><time datetime="2014-06-29">29</time></abbr>, 10:00-18:00.
-* Where: East & West, respectively:
-** <span class="p-location location h-card vcard"><span class="p-name fn p-org org">The New York Times</span>, <span class="h-adr adr"><span class="p-street-address street-address">40th Ave & 8th St.</span>, <span class="p-locality locality">New York City</span>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr></span></span>.
-** <span class="p-location location h-card vcard"><span class="p-name fn p-org org">ESRI R&D Center</span>, <span class="h-adr adr"><span class="p-street-address street-address">309 SW 6th Ave, Suite 600</span>, <span class="p-locality locality">Portland</span>, <span class="p-region region">Oregon</span>, <abbr class="p-country-name country-name" title="United States of America">USA</abbr></span></span>.
-* RSVP on the [[2014/Guest_List|2014 Guest List]]. [[Special:UserLogin|Sign in]] with your domain and [[2014/Guest_List|add yourself]]! Attendees must actively [[creator|create]] for their personal domain name, or be an apprentice to someone who does.
-* URL: <span class="u-url url">http://indiewebcamp.com/2014</span>
+main article [[2014/UK]]
 
-Want to help out with IndieWebCamp? [[2014#Volunteers|Volunteer!]]
+The third IndieWebCamp in sunny Brighton - one of many IndieWeb [[events]].
 
+<div class="p-description description">
+Own your data.
+
+Rather than posting content on third-party silos of content, we should all own the content we're creating. Publish on your own domain, and syndicate out to silos.
+
+Join us at the Clearleft offices in Brighton for '''two days''' of BarCamp-style collaboration and discussions of how to use open web technologies to empower users to own their own identities & content, and advance the state of the indie web.
+</div>
+
+* '''When:''' <span class="dt-start dtstart"><time class="value">2014-09-06</time> <time class="value">10:00</time></span> through <span class="dt-end dtend"><time class="value">2014-09-07</time> at <time class="value">18:00</time></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Clearleft</span>, <br/><span class="h-adr adr"><span class="p-street-address street-address">68 Middle Street</span>, <br/><span class="p-locality locality">Brighton</span>, <span class="p-postal-code postal-code">BN1 1AL</span>, <span class="p-country-name country-name">United Kingdom</span></span>. <span class="u-url"></span></span>
+* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/UK</span>
+* '''Cost:''' Free
+* '''Directions:''' Map at [http://clearleft.com/canhelp/ clearleft.com]
 </div><!-- h-event -->
 
 === More Events ===

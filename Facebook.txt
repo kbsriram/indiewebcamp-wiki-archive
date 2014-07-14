@@ -133,6 +133,11 @@ via https://twitter.com/kyle_wm/status/446818317408280576
 
 Unless the application developer is the only user, Facebook now requires applications to be hand-approved by the Facebook team if they are to post to a user's stream. This requires an application logo, complete screenshot walkthrough, and full privacy policy.
 
+=== Facebook's big data collection allows intrusive inference about you ===
+
+* A 2013 study found that accurate predictions can be made about the personality, political preferences and even sexual orientations of Facebook users based only on which Facebook pages a user "likes", even if a user hasn't explicitly revealed that information on their profile. ([http://www.huffingtonpost.com/2013/03/11/facebook-likes-personality-traits_n_2854403.html Huffington Post writeup])
+* A 2009 study at MIT found that social network analysis of Facebook friend relationships could also reveal a user's sexuality. ([http://mashable.com/2009/09/21/facebook-friends-sexual-orientation/ Mashable])
+
 === Social experiment performed on users ===
 
 * A study published June 2, 2014 revealed that one week in 2012, Facebook tweaked the feeds of about 700,000 users to see if it could manipulate their mood and posting behavior [http://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/]

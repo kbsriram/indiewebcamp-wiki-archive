@@ -76,13 +76,19 @@ As of the end of 2013, [[Bridgy]] now sends webmentions for Facebook and Twitter
 * ???? - permalink to Barnaby's first indie like
 ** is a like of: ???
 
+=== Kyle Mahan ===
+{{kylewm}} posts likes on [https://kylewm.com kylewm.com] since 2014-03-13, e.g.,
+* https://kylewm.com/like/2014/03/13/2
+** is a like of http://caseorganic.com/notes/2014/03/12/1/
+* likes are POSSEd to Twitter if the target publishes a [rel-syndication] URL for Twitter
+
 === Kartik Prabhu ===
 Kartik Prabhu posts likes on ????.com since ????-??-??, e.g. 
 * ???? - permalink to Kartik's first indie like
 ** is a like of: ???
 
 === Acegiak ===
-[[User:Acegiak.net Acegiak]] posts likes on [http://acegiak.net/ acegiak.net]
+[[User:Acegiak.net Acegiak]] posts likes on [http://acegiak.net/ acegiak.net] since at least 2014-03-27.
 Acegiak's posts may have multiple verbs for a single piece of content.
 * http://acegiak.net/2014/03/28/kyle-mahan-all-how-i-hate-that-java-util-map-getobject-is-not-generified-probably-the-biggest-source-of-my-java-api-related-bugs-2/
 ** is a like of http://kylewm.com/note/2014/03/28/1

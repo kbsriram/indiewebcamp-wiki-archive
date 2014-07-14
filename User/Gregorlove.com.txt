@@ -9,7 +9,7 @@ __NOTOC__
 <p> {{twitter-link|username=gRegorLove}} </p>
 </div>
 
-My name is gRegor Morrill and I have been blogging on my domain since about 2002 using [http://nucleuscms.org Nucleus CMS]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.
+My name is gRegor Morrill and I have been blogging on my domain since about 2002 using [[Nucleus|Nucleus CMS]]. I have contributed to the Nucleus core code and several plugins over the years; I am implementing a plugin for [[webmention]]s and other Indie Web goodies.
 
 [[PHP]] is my primary programming language, but I would like to branch out into [[Python]] to broaden my experience.
 

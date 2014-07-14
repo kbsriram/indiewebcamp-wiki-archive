@@ -62,6 +62,11 @@ rel-syndication discovery algorithm:
 
 Any algorithm that has the same result as this algorithm may be used. E.g. as part of step 2 your code could parse the entire document simultaneously for <em>both</em> <code>rel</code> values and [[h-entry]] microformats rather than the separate parsing step in 3.1.
 
+== Implementations ==
+
+=== WordPress ===
+* [[User:Jihais.se]]'s [https://wordpress.org/plugins/relsyndication/ rel-syndication] plugin. Integrates with other POSSE plugins; currently just [http://wordpress.org/plugins/social/ Mailchimp Social].
+
 == See Also ==
 * [[syndication]]
 * [[POSSE]]

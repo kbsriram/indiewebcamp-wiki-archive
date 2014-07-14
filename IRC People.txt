@@ -36,6 +36,7 @@ Please keep sorted alphabetically
 * {{irc user|gregorlove.com|gRegor`|America/Chicago}}
 * {{irc user|david.shanske.com|gwg|America/New_York}}
 * {{irc user|tobilehman.com|habitmelon|America/Los_Angeles}}
+* {{irc user|hmans.io|hmans|Europe/Berlin}}
 * {{irc user|hodgestar.za.net|Hodgestar|Africa/Cape_Town}}
 * {{irc user|Jordan.io|href|Europe/Paris}}
 * {{irc user|hupili.net|hupili|HKT/HKT}}

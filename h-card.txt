@@ -20,6 +20,25 @@ You can check your homepage h-card for completeness and common mistakes using th
 * [http://indiewebify.me/validate-h-card/ indiewebify.me h-card]
 * [http://pin13.net/mf2/ pin13.net mf2 parser] (raw parsed JSON)
 
+== Issues ==
+
+* Some people (e.g. [[User:David.shanske.com|GWG]], [[User:kartikprabhu.com| Kartik]], [[User:Snarfed.org]], [[User:Mowens.com]], {{gRegor}}) would like a way to include both a minimal h-card on a page *and* a link to a "complete" h-card with more info, e.g. contact details or photo. [[authorship]] and [http://microformats.org/wiki/representative-hcard-parsing representative-hcard-parsing] are both related but slightly different, and both currently only use the inline h-card if it's available. The inline h-card could include a link to the expanded h-card.
+
+* Along the same lines, some people (e.g. [[User:Snarfed.org]], [[User:Mowens.com]], {{gRegor}}) would like to make some parts of their h-card invisible everywhere but still available to programmatic consumers. Examples include rel-me links to some silos, public encryption key. Related: [[antipatterns#invisible_metadata]]
+** On my site currently, my author h-card on each post is invisible because I do not feel the need to display my photo, URL, and name on every post. This would be different if it was a multiple-author site. {{gRegor}}
+
+To rephrase these as pure user features, and assuming no [[antipatterns#invisible_metadata|invisible metadata]]:
+
+* I'd like to show some personal profile information (e.g. name) on my posts, but not my picture. I may want to show additional profile info on another page, e.g. /about. That may include my picture, or it may not (including [[icon]]). When I [[comment]], [[like]], [[repost]] (etc.) someone else's post, and they render that response ([[comments-presentation]]), I'd like to let them show my additional profile info, including my picture, if they choose. ''[[authorship]] handles some of this, but maybe not all, e.g. the case where I don't show my picture anywhere on my site.''
+
+* Similarly, I'd like to show some personal profile information (e.g. name) on my [[homepage]], but not my picture. I may want to show additional profile info on another page, e.g. /about. That may include my picture, or it may not. When I use [http://microformats.org/wiki/RelMeAuth RelMeAuth],  [[IndieAuth]], etc to log into a site like this wiki, I'd like that site to be able to discover my additional profile info, including my picture, to show on its profile page for me, among other appropriate places. ''[http://microformats.org/wiki/representative-hcard-parsing representative-hcard-parsing] gets close, but not all the way. [[#Brainstorming]] below is a straw man extension that could help.''
+
+== Brainstorming ==
+
+One possible solution for the [[#Issues|partial plus complete h-card issue]] is to include a rel-me link to the full h-card and *not* mark up the partial profile info on the home page as an h-card. The [http://microformats.org/wiki/representative-hcard-parsing representative-hcard-parsing] algorithm would then follow the rel-me link and use its full data. Doesn't seem ideal, but it'd work.
+
+One problem with this is that the home page usually has many rel-me links, e.g. to silos, and we don't yet have a way to denote the "canonical" one. {{gRegor}}, [[User:Mowens.com]], and others have proposed using u-uid and/or a new rel-canonical property for this.
+
 == See Also ==
 
 * [[microformats]]

@@ -11,11 +11,12 @@ __TOC__
 Fragmentions find the first matching word or phrase in a document and focuses its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
 
 == IndieWeb Examples ==
+* [https://github.com/chapmanu/fragmentions client-side script] and 
+* [https://chrome.google.com/webstore/detail/fragmentions/pgajkeekgcmgglngchhmcmnkffnhihck Chrome extension] 
 <span id="Implementations">Implementations</span> on IndieWeb sites.
-
+* [http://www.kevinmarks.com/fragmentions.html initial discussion] and [http://www.kevinmarks.com/poemfragmentions.html follow-up] explaining the idea more generally
 * [http://sandbox.thewikies.com/fragmentions/example.html##individual+words+and+phrases Jonathan's example page] 
 * [http://www.kevinmarks.com/w3cannotation.html##most+robust+reference Kevin's original page with Jonathan's script added]
-* [http://www.kevinmarks.com/fragmentions.html blogpost] explaining the idea more generally.
 * [http://aaronparecki.com/articles/2014/03/23/1/posting-photos-on-my-own-site##start+using+this Aaron's site] - note the custom CSS for the highlighted paragraph
 * [http://shakespeare.sayit.mysociety.org/much-ado-about-nothing/act-iv/scene-i-a-church##link+my+dear+friend sayit.mysociety.org], thanks to Matthew Somerville. Shakespeare, government inquiries, and any other transcripts - [http://sayit.mysociety.org/ more information]
 * [https://github.com/idno/idno/commit/04f79c792d07dc14f8f32b320c9ec39427f06a09 idno adds support] thanks to [http://werd.io/ Ben Werdmüller]
@@ -113,7 +114,11 @@ There is a w3c spec for addressing [http://www.w3.org/TR/media-frags Media Fragm
 
 See also: http://en.wikipedia.org/wiki/Fragment_identifier#Proposals
 
+[http://www.businessinsider.com/the-inside-story-of-how-rap-genius-fired-a-cofounder--and-just-raised-40-million-annotated-2014-7#annotations/3411037 RapGenius now offers a highlight and annotate plugin] as seen here on Business Insider. They highlight phrases, not paragraphs
+
 == Discussion ==
 
-Alternative proposal: use quoted string literals. Example: <nowiki>http://example.com/index.html#"string to search"</nowiki>. &mdash;[[User:Sandeep.io|Sandeep.io]] 20:11, 23 April 2014 (PDT)
-On thinking about this a little, it doesn't sound like a good idea (for various reasons including the fact that the href attribute is quote delimited), but I like conveying the idea of "search for string literal" &mdash;[[User:Sandeep.io|Sandeep.io]] 20:30, 23 April 2014 (PDT)
+* Alternative proposal: use quoted string literals. Example: <nowiki>http://example.com/index.html#"string to search"</nowiki>. &mdash;[[User:Sandeep.io|Sandeep.io]] 20:11, 23 April 2014 (PDT)
+**On thinking about this a little, it doesn't sound like a good idea (for various reasons including the fact that the href attribute is quote delimited), but I like conveying the idea of "search for string literal" &mdash;[[User:Sandeep.io|Sandeep.io]] 20:30, 23 April 2014 (PDT)
+* [http://betterlink.io/posts/better-fragmention.html Betterlink] is a proprietary alternative that doesn't like [http://betterlink.io/posts/better-fragmention.html##Not+Targeting+the+Selection not highlighting the selection] and a [http://betterlink.io/posts/better-fragmention.html##Not+All+Browsers bug report about browser variations]
+** As far as I can see, all these 'objections' are of fragmention.js (the particular javascript polyfill) and not of fragmention (the idea of using text with ## to link to arbitrary phrases); which is a better linking method than Betterlink's confounding URLs e.g. http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html?bl-sid=97  -- [[User:Kartikprabhu.com|Kartik]] - 2014-07-13

@@ -24,8 +24,8 @@ All times are Pacific Time unless otherwise noted in venues.
 :18:00 at Moose & Sadies ([https://www.facebook.com/events/805644702779370/permalink/811169422226898/?comment_id=818600644817109&offset=0&total_comments=5 tentative])
 
 ;Chicago
-:<span class="p-location location h-card vcard">[http://www.intelligentsiacoffee.com/location/millennium-park-coffeebar <span class="p-name fn p-org org">Intelligentsia Coffee</span>], <span class="adr"><span class="p-street-address street-address">53 East Randolph St.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 18:30 CDT''
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">Panera Bread</span>, <span class="adr"><span class="p-street-address street-address">2 N. Michigan Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
+:''Note the Chicago meeting is at 18:30 CDT and at a new location this week.''
 
 === What ===
 <div class="p-description description">

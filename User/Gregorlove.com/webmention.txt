@@ -37,9 +37,11 @@ If the <code>target</code> parameter is missing, an HTTP 400  is returned with t
 
 If the host name of the <code>target</code> is not "gregorlove.com", an HTTP 400 is returned with the message: "Webmention "target" is not a valid URL at this domain."
 
-The post ID is extracted from the URL. If it is not found or does not match a published post, an HTTP 400 is returned with the message: "Webmention "target" is not a valid URL at this domain."
+<strike>The post ID is extracted from the URL. If it is not found or does not match a published post, an HTTP 400 is returned with the message: "Webmention "target" is not a valid URL at this domain."</strike>
 
-If the incoming webmention passes all those checks, I log the post ID, an MD5 hash of the <code>source</code> and <code>target</code> URLs (see [[#Updating_webmentions|Updating webmentions]] below), the <code>source</code> and <code>target</code> URLs, and the datetime the webmention was received.
+This post ID check was removed once I started posting notes on [http://gregorlove.com/notes/2014/06/25/1/ 2014-06-25]. The reasoning is that the post ID check was too tightly tied to the Nucleus CMS core code. Now I can receive webmentions at any URL path on gregorlove.com.
+
+If the incoming webmention passes all those checks, I log <strike>the post ID,</strike> an MD5 hash of the <code>source</code> and <code>target</code> URLs (see [[#Updating_webmentions|Updating webmentions]] below), the <code>source</code> and <code>target</code> URLs, and the datetime the webmention was received.
 
 Finally, an HTTP 202 is sent with the message: "Webmention queued for processing."
 
@@ -59,9 +61,13 @@ When parsing webmentions asynchronously and including a URI that can be used to 
 
 Webmentions are processed asynchronously.
 
+The <code>target</code> URL is fetched. If it returns HTTP 404, the log is updated with a message to that effect.
+
+The <code>source</code> URL is fetched. If it returns HTTP 410, the existing webmention in my database is flagged as deleted and no longer appears on my site.
+
 If the <code>target</code> is not found within the <code>source</code>, the log is updated with a message to that effect.
 
-Otherwise, if an h-entry is found within the <code>source</code>, it is parsed for content, permalink, author name, author photo, author logo, author url, published date, and updated date. These fields are stored in a separate table, ready to be displayed on the site at some point in the future.
+Otherwise, if an h-entry is found within the <code>source</code>, it is parsed for content, permalink, author name, author photo, author logo, author url, published date, and updated date. These fields are stored in a separate table.
 
 If an <code>in-reply-to</code> URL is found pointing to <code>target</code>, it is marked as a "reply." Otherwise it is marked as a "mention."
 
@@ -71,7 +77,7 @@ If no h-entry is found within the <code>source</code>, the author name is set to
 
 By default, processed webmentions are not marked as "displayed on site." Trusted hostnames can be added to a whitelist so they are automatically marked as "displayed on site."
 
-Processing only occurs when I initiate it, currently, but once I am certain everything is stable, I will probably use a cron to process the received webmentions log periodically.
+A cron is set up to process received webmentions every five minutes.
 
 === Relating webmentions together ===
 As of 2014-06-15, I added additional processing that maps together webmentions from the same person. The use-case is specifically for [[brid.gy]] when it sends separate webmentions for a comment and a like. I wanted to display the "like" as meta information directly under the comment instead of a separate comment.
@@ -85,6 +91,15 @@ The <code>webmentions_related</code> table keeps track of this relationship by s
 When displaying comments, the <code>webmentions_related</code> table is first queried to build an array of the webmentions that serve as meta information. Then these webmention IDs are ''excluded'' from the query that retrieves the comments to display.
 
 When looping through each comment to display it, if meta information exists in the array, it is added on to the comment.
+
+=== Checking Authorship ===
+[[authorship#Spoofing|Authorship spoofing]] is not a big concern at the moment, but it is still a legitimate problem to address. http://checkmention.appspot.com allows you to test your webmention support for [[XSS]] vulnerabilities as well as authorship spoofing.
+
+My initial attempt at solving this is to fetch the h-card from the author's claimed URL and see if it matches the claimed author name from the webmention. If no h-card is found on the author's claimed URL, or the name does not match, the webmention is flagged as potentially a spoof.
+
+These potentially spoofed webmentions are not displayed on my site by default. I can then review these to determine their legitimacy.
+
+I realize this process may not be the most efficient; feedback is welcome.
 
 == Updating webmentions ==
 
@@ -120,5 +135,6 @@ The implementation of this is still in progress. Below is a screenshot of the co
 * <span style="text-decoration: line-through;">Add ability to whitelist domains to automatically display their webmentions</span>
 * <span style="text-decoration: line-through;">Display "reply" webmentions on articles</span>
 * <span style="text-decoration: line-through;">Accept webmentions for just "gregorlove.com" - for generic mentions that are not in reply to a note/article.</span>
+* Update the plugin so other plugins (e.g. [[User:Gregorlove.com/notes|notes]]) can more easily "hook" into the send webmention functionality.
 * Add a "mentions" page which is a stream of incoming, approved webmentions
 * Add a "status" URL that webmention senders can check whether their webmention was accepetd/denied

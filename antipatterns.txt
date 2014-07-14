@@ -110,6 +110,8 @@ The problem is that absent an immediate visible feedback loop on such data, it h
 * invisible data gets out of sync with visible data on the page
 ** AKA rotten data
 
+The use case for invisible metadata is to make data available to computers but not visible to people. For example, [[User:Snarfed.org]] and others would like to make their [[h-card]]'s photo available to webmention consumers, so that e.g. they appear in [[comments-presentation]], but not visible on their home pages. See also [[h-card#Issues]].
+
 Examples of encouragements to use invisible metadata:
 * <code>&lt;meta&gt;</code> tags in HTML, used by:
 ** [[Facebook]]'s [[OGP]]

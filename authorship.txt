@@ -31,15 +31,14 @@ Note: the steps of checking for "url == uid == page's URL" and "url that's also 
 Authorship can potentially be spoofed, as the current algorithm may only look at the markup
 within an arbitrary page to determine the author.
 
-For example, any page with markup like http://paste.debian.net/plainh/587c8bb3
-
-would be parsed as being written by [http://waterpigs.co.uk/ Barnaby Walters]. Examples of such spoofing are
-present at
-
+For example, any page with markup like http://paste.debian.net/plainh/587c8bb3 would be parsed as being written by [http://waterpigs.co.uk/ Barnaby Walters]. Examples of such spoofing are
+present at:
 * http://waterpigs.co.uk/notes/4QbH5C/ (search for "Whose articles are these") 
 was not actually written by aaronpk, but posted on a debian pastebin site and linked via a webmention.
 * http://aaronparecki.com/notes/2013/10/12/2/indieweb  (search for "How does parsing work")
 is similarly spoofed.
+
+http://checkmention.appspot.com allows you to test receiving a spoofed webmention from Jonathan Ive.
 
 === Other theoretical ===
 Theoretical issues are grouped here for capturing purposes. If you find a real world example of one of these, feel free to promote it to an actual issue with its own === subhead.
