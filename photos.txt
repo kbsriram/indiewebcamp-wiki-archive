@@ -2,7 +2,7 @@ http://indiewebcamp.com/photos
 
 {{stub}}
 
-A '''<dfn>photo</dfn>''' is a [[post]] whose primary content is a photograph or other image.
+A '''<dfn>photo</dfn>''' is a [[post]] whose primary content is a photograph or other image, with an optional caption.
 
 A [[photo upload]] is typically how photo posts are created.
 
@@ -10,6 +10,7 @@ A [[photo upload]] is typically how photo posts are created.
 There are different approaches to posting photos. E.g.
 * As a [[note]] with a primary image
 * As an image, with text (caption) only following
+** the image is the focus of the post, and text is in service of the image.
 * Hosting variations - image files hosted on
 ** your primary webhost/domain
 ** a "photos." subdomain of your domain that maps to a cloud/CDN service like [[Amazon]] [[S3]] or [[Akamai]].
@@ -44,6 +45,15 @@ Not quite photo posts, but similar, [[notes]] with embedded photos are another a
 
 === Barnaby Walters ===
 [[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with embedded images.
+
+== Discussion ==
+* {{gRegor}}: I don't understand the distinction between 'photo' and 'note with photo.' It was suggested in chat by [[User:Mowens.com|mko]] that a 'photo' post would be a photo with no other content. However, this page indicates caption text may follow the photo. Per discussion, the caption would be the p-summary/p-name of the photo post. This seems to make it no different than a regular note, then, as far as microformat parsing. Example: http://gregorlove.com/notes/2014/07/15/2/ — [http://indiewebcamp.com/irc/2014-07-15#t1405445144 IRC log]
+** Per further discussion, mko explained that the caption would not appear in the e-content, as it does in my example. He offered these code examples to demonstrate the difference: https://gist.github.com/mko/f05e8cb0d2423f6deaa7
+
+* On a photo post, text is directly "related to the photo", where text in a note can be "conversational" or tangential. <blockquote>&lt;mko> Another example, from my own experience. I was the design lead at hi5. We did research into how users were using the Photos feature versus the Status Update feature (which had the ability to post a photo). Users posted photos without any text the vast majority of the time. When users posted status updates with photos, on the other hand, they almost never did so without accompanying text. On top of that, we found that when there was text accompanying a photo in the Photos section, it was almost always a caption related to the photo (with very few exceptions), whereas those in a status update that would go on the Friend Feed typically was conversational and not directly related to the photo.</blockquote>[http://indiewebcamp.com/irc/2014-07-15#t1405447134]
+
+* [[User:kartikprabhu.com| Kartik]]: I do not understand what would be the UI/UX difference in posting/reading a "photo with caption" vs "note with photo" ? Some examples (silo/indieweb) distinguishing these cases would be good.
+** [[User:Kylewm.com|Kylewm.com]]: I would consider [https://kylewm.com/note/2014/05/05/1 this post about going to a museum] a note with a photo that is not a photo post &mdash; The text stands alone; the image is secondary[[File:kylewm-note-with-photo-2014-07-15.png|none|thumb|A note with a photo]]
 
 == Silos ==
 The following [[silos]] specialize in photo posting/hosting/sharing:
@@ -95,6 +105,16 @@ In addition, it makes sense to consider POSSEing to generic silos, despite the f
 
 [[Bridgy]] Publish may help with POSSEing pictures to Twitter and FB. This is currently on the Bridgy todo list:
 * https://github.com/snarfed/bridgy/issues/85
+
+==== Distinguishing Photos from Notes ====
+
+[[Bridgy]] Publish has a concrete use-case where it would be useful to mechanically differentiate posts where the photo is primary, vs. notes with an included image that is not the focus of the note. Photo posts should be POSSEd as '''native''' photo post types on [[Facebook]] and included as attached media on [[Twitter]]. POSSEd notes would prefer to link to the original post, and possibly include the image as a "preview".
+
+The problem is that both types have the same mf2 representation: p-name/e-content for caption and u-photo for the image.
+
+Simplest implementation would just treat all <strike>posts</strike> notes with a u-photo as photo posts.
+
+[https://github.com/snarfed/bridgy/issues/85 Also tracked in GitHub.]
 
 ==== Why POSSE rather than TwitterCard ====
 (Not sure if this belongs here or on [[Twitter]] page, but capturing as part of this for now.)

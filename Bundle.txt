@@ -21,12 +21,15 @@ Bundle currently supports:
 
 == Tools Used ==
 Bundle internally uses the following tools:
+* Django as a web-framework for Python
+* MySQL as database
 * '''[[mf2py]]''' to parse microformats
 * '''[[ronkyuu]]''' to send and receive webmentions
 
 == Working On ==
 Currently working on:
-* Marginalia: a indieweb '''[[annotation]]''' system using '''[[webmention]]''' and '''[[fragmention]]'''
+* <del datetime="2014-07-15>"Marginalia: a indieweb '''[[annotation]]''' system using '''[[webmention]]''' and '''[[fragmention]]'''</del> See: [https://kartikprabhu.com/article/marginalia]
+* Lift: a wrapper around activitystreams ([https://github.com/snarfed/activitystreams-unofficial]) to parse incoming webmentions from silo URLs, maybe also to POSSE in the future.
 
 == See also ==
 * [[projects]]

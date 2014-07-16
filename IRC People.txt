@@ -24,6 +24,7 @@ Please keep sorted alphabetically
 * {{irc user|chrischerrett.co.uk|chrischerrett|Europe/London}}
 * {{irc user|Chrisroos.co.uk|chrisroos|Europe/London}}
 * {{irc user|cweiske.de|cweiske|Europe/Berlin}}
+* {{irc user|Jenmontes.com|cuibonobo|America/New York}}
 * {{irc user|danbri.org|danbri|Europe/London}}
 * {{irc user|deiu.rww.io|deiu|America/New_York}}
 * {{irc user|dunlaps.net/darius|dariusdunlap|America/San_Francisco}}

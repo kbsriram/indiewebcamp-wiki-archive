@@ -29,9 +29,11 @@ You can check your homepage h-card for completeness and common mistakes using th
 
 To rephrase these as pure user features, and assuming no [[antipatterns#invisible_metadata|invisible metadata]]:
 
-* I'd like to show some personal profile information (e.g. name) on my posts, but not my picture. I may want to show additional profile info on another page, e.g. /about. That may include my picture, or it may not (including [[icon]]). When I [[comment]], [[like]], [[repost]] (etc.) someone else's post, and they render that response ([[comments-presentation]]), I'd like to let them show my additional profile info, including my picture, if they choose. ''[[authorship]] handles some of this, but maybe not all, e.g. the case where I don't show my picture anywhere on my site.''
+* I'd like to show some personal profile information (e.g. name) on my posts, but not my picture. I may want to show additional profile info on another page, e.g. /about. That may include my picture, or it may not (including [[icon]]).
 
-* Similarly, I'd like to show some personal profile information (e.g. name) on my [[homepage]], but not my picture. I may want to show additional profile info on another page, e.g. /about. That may include my picture, or it may not. When I use [http://microformats.org/wiki/RelMeAuth RelMeAuth],  [[IndieAuth]], etc to log into a site like this wiki, I'd like that site to be able to discover my additional profile info, including my picture, to show on its profile page for me, among other appropriate places. ''[http://microformats.org/wiki/representative-hcard-parsing representative-hcard-parsing] gets close, but not all the way. [[#Brainstorming]] below is a straw man extension that could help.''
+* When I [[comment]], [[like]], [[repost]], or [[rsvp]] to someone else's post, and they render that response ([[comments-presentation]]), I'd like to let them show my additional profile info, including my picture, if they choose. ''[[authorship]] handles some of this, but maybe not all, e.g. the case where I don't show my picture anywhere on my site.''
+
+* Similarly, when I log into a site like this wiki with [[IndieAuth]] (etc.), I'd like the site to be able to discover my additional profile info, including my picture, to show on my profile page, activity, or other appropriate places. ''[http://microformats.org/wiki/representative-hcard-parsing representative-hcard-parsing] gets close, but not all the way. [[#Brainstorming]] below is a straw man extension that could help.''
 
 == Brainstorming ==
 

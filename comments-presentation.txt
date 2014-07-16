@@ -127,7 +127,7 @@ Automatically:
 ** http://www.sandeep.io/64
 * '''[[User:WaterPigs.co.uk|Barnaby Walters]]''' using [[Taproot]] and marking up using .p-comment.h-entry ([http://waterpigs.co.uk/notes/4QgMZN/ example])
 * '''[[User:Werd.io|Ben Werdmuller]]''' using [[idno]] ([http://werd.io/view/51d5097fbed7ded0633a5956#comments example])
-* '''[[User:Gregorlove.com|gRegor Morrill]]''' using Nucleus CMS
+* '''[[User:Gregorlove.com|gRegor Morrill]]''' using [[Nucleus|Nucleus CMS]]
 ** http://gregorlove.com/2014/01/1178/
 ** Displaying a consolidated list of local blog comments with webmentions, in chronological order.
 ** Displaying likes/favorites as meta information if a comment is received from the same person. See the [[User:Gregorlove.com/webmention#Relating_webmentions_together|implementation notes]] for more information.

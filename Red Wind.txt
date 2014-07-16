@@ -144,3 +144,7 @@ The interface for posting replies has been simplified quite a bit, with AJAXy st
 The sidebar reorients for small screens
 
 [[File:kylewm-redesign-mobile-2014-07-05.png|none|thumb|500px|Redesign on a small screen]]
+
+Interface for posting new notes, with clickable list of recent tags
+
+[[File:kylewm-tag-speedbar-2014-07-15.gif]]

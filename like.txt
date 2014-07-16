@@ -83,9 +83,9 @@ As of the end of 2013, [[Bridgy]] now sends webmentions for Facebook and Twitter
 * likes are POSSEd to Twitter if the target publishes a [rel-syndication] URL for Twitter
 
 === Kartik Prabhu ===
-Kartik Prabhu posts likes on ????.com since ????-??-??, e.g. 
-* ???? - permalink to Kartik's first indie like
-** is a like of: ???
+Kartik Prabhu posts likes on kartikprabhu.com since 2014-07-09, e.g. 
+* [https://kartikprabhu.com/notes/chloeweil] - permalink to Kartik's first indie like
+** is a like of: http://adactio.com/notes/7024/ & https://twitter.com/adactio/status/486979851287793667
 
 === Acegiak ===
 [[User:Acegiak.net Acegiak]] posts likes on [http://acegiak.net/ acegiak.net] since at least 2014-03-27.

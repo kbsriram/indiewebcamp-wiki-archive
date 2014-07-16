@@ -11,7 +11,7 @@ Examples of indieweb community members who are using Python on their personal si
 * ronkyuu
 * mf2py
 === Kartik Prabhu ===
-[[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on Django (Python framework) + MySQL and uses the following Python IndieWeb projects:
+[[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on [[Bundle]] and uses the following Python IndieWeb projects:
 * ronkyuu
 * mf2py
 * mf2util
@@ -47,6 +47,7 @@ IndieWeb projects built with Python:
 ** mf2py
 * [[Hakkan]]
 * [[Red Wind]]
+* [[Bundle]]
 
 == Hosting ==
 Python does not have PHP's ubiquity, and finding hosting can be a little bit more of a challenge. See [[web_hosting]] for more details.
