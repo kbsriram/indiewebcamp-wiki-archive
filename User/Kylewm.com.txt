@@ -5,14 +5,14 @@ http://indiewebcamp.com/User%3AKylewm.com
 == Itches ==
 
 === personal site ===
+* PESOS button to import a one-off tweet
+** or even automatically grab all recent tweets that aren't represented yet
 * send webmention when comments are deleted
 * commit file store in git automatically, possibly delayed
 * Ability to be able to add new post-types (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
-* post notes and syndicate to twitter from the main page, fewer clicks
+* <strike>post notes and syndicate to twitter from the main page, fewer clicks</strike>
 * split out admin templates and "theme" templates
-** define path to theme templates in a config file
-* add form to send micropub comments and likes if visitor is logged in and supports μpub
-* (re)design ... want something lightweight but less boring/white (looked at html5up.net, pretty but heavy)
+** <strike>define path to theme templates in a config file</strike>
 
 === generation 2 ===
 

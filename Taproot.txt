@@ -52,18 +52,19 @@ Taproot supports the following:
 * Logging in using [[indieauth]] and [[distributed-indieauth]]
 * New post UI is publicly viewable and can be used to create new posts on other people’s [[micropub]]-enabled sites
 
-== Roadmap ==
-
-(Less of a “road” map, more of a kind of vague treasure map with no compass. Like pirates have)
+== Itches ==
 
 Currently working on:
-* Adjusting Taproot to handle multiple post types better (much like [[idno]] in presentation)
-* Fixing [[Twitter]] [[POSSE]] truncation code
+* Nothing, away on holiday
 
 Next up, in approximate order of priority:
-* audio posts, maybe POSSE to soundcloud
-* likes and reposts
-* Use DOM [[templating]] for all templates
+* Publishing [[venues]] with reviews, inspired by [[User:Tommorris.org|Tom Morris]]
+* Publishing [[events]] and RSVPs, handling incoming RSVPs, figuring out invitations
+* Publishing [[recipes]]
+** Particularly I’m interested in presenting them in a way optimised for use in the kitchen from a laptop or tablet
+* Audio posts, potentially with POSSE to [[Soundcloud]]
+* Publishing likes and reposts
+* DOM [[templating]] for all templates
 * Extract more of the code behind my listeners and services into reusable open-source libraries
 
 Done (latest first):

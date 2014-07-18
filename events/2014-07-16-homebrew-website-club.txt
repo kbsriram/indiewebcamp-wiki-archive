@@ -14,7 +14,7 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-:<span class="p-location location h-card vcard">[http://matter.vc/ <span class="p-name fn p-org org">Matter</span>], [https://maps.google.com/maps?q=421+bryant+st+san+francisco <span class="adr"><span class="p-street-address street-address">421 Bryant St.</span>] (at 2nd), <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>: no writing hour this week.  Will be arriving around 5:30ish and we can stay as long as we want.
+:<span class="p-location location h-card vcard">[http://matter.vc/ <span class="p-name fn p-org org">Matter</span>], [https://maps.google.com/maps?q=421+bryant+st+san+francisco <span class="adr"><span class="p-street-address street-address">421 Bryant St.</span>] (at 2nd), <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>: no writing hour this week.
 
 ;Portland
 :<!-- <span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region" title="Oregon">OR</abbr></span></span> -->
@@ -91,7 +91,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ...
 
 '''Chicago'''
-* ...
+* Denton did not make it, unfortunately, but hopefully will next time.
+* {{gRegor}}  worked on caching profile photos from webmentions so they can be displayed over [[https]] without unsecure content warnings.
+* Kartik worked on cleaning up his code so others can use it and he can stop [[cowboy-coding]] everything.
 
 === Blog posts ===
 Blog posts before the meeting:

@@ -399,7 +399,7 @@ When displaying the most recent N posts, Falcon looks for YYYY/B.html files in t
 
 When displaying a post permalink or archive for a particular year, bim, month, or day, Falcon computes the paths to the necessary file(s) according to year and bim and reads them.
 
-Each bim storage file is treated as [http://tantek.com/2010/302/b1/xhtml-dead-long-live-xml-valid-html5 XML-Valid HTML5] [[hAtom]] and XPath is used to retrieve <em>all</em> <code>.hentry</code> elements in document order. 
+Each bim storage file is treated as [http://tantek.com/2010/302/b1/xhtml-dead-long-live-xml-valid-html5 XML-Valid HTML5] [[hAtom]] and XPath is used to retrieve <em>all</em> <code>.hentry</code> elements in document order inside the first <code>.hfeed</code> element. The <code>.hentry</code> elements are ordered most recently published first.
 
 For each such hentry, the first (in document order) instance of each of the following is retrieved (also using XPath) from the hentry's descendants:
 * <code>.published</code> - element parsed per the [http://microformats.org/wiki/value-class-pattern#Date_and_time_values Value Class Pattern: Date and time values]

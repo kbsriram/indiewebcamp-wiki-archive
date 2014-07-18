@@ -12,9 +12,9 @@ Indiewebcamp Creators who have imported previously siloed content into their own
 * …
 
 == Articles about data export ==
-
-* [http://waterpigs.co.uk/articles/data-export/ Data Export] — an analysis of the UI, UX and output formats of several silos offering data export services
-* Link to yours here
+* …
+* 2014-07-15 WIRED: <cite>[http://www.wired.com/2014/07/archive-social-networks How to Download and Archive Your Social Media Memories]</cite> - updated info/screenshots about exporting from [[Facebook]], [[Twitter]], [[Google]], and a rant about [[MySpace]].
+* 2013-12-31 Barnaby Walters: <cite>[http://waterpigs.co.uk/articles/data-export/ Data Export] </cite> — an analysis of the UI, UX and output formats of several silos offering data export services
 * …
 
 == Code to assist with data export/import ==
