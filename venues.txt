@@ -5,11 +5,18 @@ http://indiewebcamp.com/venues
 = Venues =
 A <dfn>venue</dfn> is a higher level abstraction of a [[location]] or address/[[geo]] that typically has a name, and is used for [[checkins]].
 
-== Indieweb Venues ==
 <dfn>indieweb venues</dfn> are the practice of self-hosting checkin venues (<dfn>self hosted venues</dfn>) on your own site with your own URLs.
 
-=== Technique ===
-* Just use [[hCard]] on indieweb venue URLs.
+== Indieweb Examples ==
+=== [[User:WaterPigs.co.uk|Barnaby Walters]] ===
+Barnaby Walters has been publishing venue data on [http://waterpigs.co.uk waterpigs.co.uk] since 2014-08-19, consisting of:
+* an index of venues, listed and plotted on a map on [http://waterpigs.co.uk/places/ waterpigs.co.uk/places/]
+* each venue has a URL with h-card containing name, address details, tags, map, review and URLs e.g. [http://waterpigs.co.uk/places/basilica-di-santa-maria-maggiore/ waterpigs.co.uk/places/basilica-di-santa-maria-maggiore/]
+* A publicly-visible (soon-to-be-[[micropub]]-app) [http://waterpigs.co.uk/places/new/ venue creation UI] including a map UI with geolocation and venue search powered by [[Nominatim]]
+
+== How To ==
+=== How To Publish ===
+Give each venue a URL containing a basic [[h-card]].
 
 ==== Extensions ====
 Possible extensions (encountered by indieweb community members in real world situations)

@@ -87,7 +87,116 @@ Falcon supports:
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
 
-=== simple repost of tweets ===
+=== webaction buttons in streams ===
+In short two things:
+# update look of [[web action]] buttons to be more [[Instagram]]-like
+# web action buttons on notes/articles in stream (home page) / collection (day and new month archives)
+
+Update look:
+
+I want to add web action buttons like [[Instagram]] has - I really like their grey boxy buttons with both icon and text, so something similar, e.g. in stream text mockup:
+
+<code style="display:block;white-space:pre-wrap;font-size:1.5em;line-height:1em; padding:1em"><nowiki>...
+11:40 on 2014-06-29 (ttk.me t4Wq1) using BBEdit 
+
+[ ♥ Like ] [ ♺ Repost ] [ ↩ Reply ]
+</nowiki></code>
+
+I find that Instagram's usage of a boxy grey backgrounded buttons serves also as a nice visual separator between posts there, so I'm hoping to get a similar effect with a line of such buttons under my posts on my stream.
+
+And update the [[citation]] UI on permalinks as well to be consistent. Text mockup:
+
+<code style="display:block;white-space:pre-wrap;font-size:1.5em;line-height:1em; padding:1em"><nowiki>...
+11:40 on 2014-06-29 (ttk.me t4Wq1) using BBEdit
+
+URL:  [  http: .... ]
+HTML: [  <cite class="h-cite"> ... ]
+</nowiki><strong style="color:#4099FF;font-family:Menlo,Courier New,monospace">t</strong> View (Conversation) on Twitter<nowiki>
+
+[ ♥ Like ] [ ♺ Repost ] [ ↩ Reply ]
+</nowiki></code>
+
+Note: these emoji are not visible on Linux (Fedora 20), nor Windows 7:
+* 🐓 rooster
+* 🐦 bird
+And these are not visible on Linux (Fedora 20)
+* 💬 talk bubble ([http://imgur.com/Cdtj6M2 works on Windows 7])
+
+=== improve replies details ===
+==== improve reply-context support ====
+Improve reply-context support in reply posts (some of this is easier than the other improve replies features below)
+* ''Why?'' Provide readers better [[reply-context]] of the URL (or URLs - see [[multiple-reply]]) I'm replying to. Better user experience through increased comprehension from the provided context.
+** Building blocks for comments: all of this code serves as building blocks for [[comments-presentation]].
+* Currently works for showing all in-reply-to URLs (union of explicit [[rel-in-reply-to]] and u-in-reply-to markup). Necessary improvements:
+** Show @-username in reply contexts for replies to Tweets
+** Show [[reply-context#icon|icon in reply contexts]] for replies to tweets and indieweb posts
+*** Show icons for replies to indieweb posts using a [[nicknames-cache]] and their Twitter icon
+**** distinguish presentation of a [[multi-reply]] to the same post+POSSE copy, vs multi-reply to different people/posts.
+** vvv Rest of this his harder than other improve replies features, and doing reposts, so reprioritize the remaining "improve replies details" task when I get to this point. vvv
+** Store and show [[reply-context#published|dt-published]] of original post
+** Store and show [[reply-context#author_name|full name of author]] of original post
+*** Start with a [[nicknames-cache]] implementation
+*** Improve with implementing [[authorship]] algorithm
+** Store and show [[reply-context#original_content|tweet text / p-summary]] of original post
+
+==== post reply to any URL and auto POSSE ====
+Do '''[[rel-syndication]] discovery of POSSE tweets''' in posting form / UI to support [[Twitter#POSSE_Replies_to_Twitter|POSSE Replies to Twitter]]
+* Per:
+** [[rel-syndication#POSSE_threading|use-case description]]
+** [[rel-syndication#Discovery|discovery algorithm]]
+* Using:
+** [[php-mf2]] statically with
+*** <code>[https://github.com/indieweb/php-mf2#parsing-rel-and-relalternate-values ->parseRelsAndAlternates()]</code>
+* So I can:
+** enter just the URL of an original indieweb post I'm replying to into my posting storage (or UI),
+** have Falcon's posting UI automatically discover the link to the tweet copy of the post 
+** add an in-reply-to link from my post to the tweet I'm replying to
+** have my reply POSSE copy thread with the POSSE tweet of the original.
+* ''Why?''
+** automatically thread the POSSE copy of my reply with the POSSE copy of the original indieweb post that I was replying to.
+** remove step of me having to look for the "also on twitter" link on an indieweb post and explicitly copy/paste it into my storage/UI.
+** Provide better user experience for those reading my posts on Twitter by providing them the threaded context right there in their reading experience.
+
+==== post reply to any tweet and auto indie-post reply ====
+Do '''[[original-post-discovery]]''' in posting form / UI (approach: use [http://waterpigs.co.uk/services/original-post original post endpoint] from server)
+* So I can:
+** enter just the URL of a tweet I'm replying to into my posting storage (or UI),
+** have Falcon's posting UI automatically discover the link to the original post (that the tweet is a copy of)
+** add an in-reply-to link from my post to the original post I'm replying to, before the in-reply-to of the tweet
+** while still having my reply POSSE copy thread with the POSSE tweet of the original.
+* ''Why?'' 
+** automatically link from my posts to more indieweb posts instead of their Tweet POSSE copies - prefer linking to indieweb original content and URLs
+** remove stress of having to check a tweet manually to see if it has an indieweb original version - less thinking about having to find an original permalink myself manually.
+==== send webmentions for posted links ====
+Send [[webmentions]] for posted links:
+* Using [[webmention#Discovery_in_PHP|Discovery in PHP]] approach to find endpoint then <code>curl</code> to send.
+* ''Why?'' 
+** Enable syndicating posts to [[IndieNews]] (assuming I have [[rel-syndication]] links to IndieNews implemented - perhaps as post option in my UI). Help demonstrate IndieNews as a proof of concept of an indieweb-friendly link aggregator.
+* '''in particular do a HEAD request first, then GET''' if no endpoints found and type is text/html or application/xhtml+xml.
+** ''Why?''
+*** simplest way to both minimize bytes requested by my server and avoid GETting non-HTML links (which I do link to plenty often in my posts)
+* '''if no webmention endpoints found, do fallback discovery for pingback''' inside same HEAD/GET results and send pingback, using an approach like https://gist.github.com/aaronpk/5744879
+** ''Why?''
+*** To support posting comments on indieweb community member's sites that receive pingbacks but not webmentions, e.g. Laurent's [https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html Testing #indieweb federation].
+* '''in particular to links I'm [[in-reply-to|replying to]]'''
+** ''Why?''
+*** '''To participate in [[comments-presentation#Current_Indiewebcamp_Practices|federated indieweb commenting]] on others' sites!''' (this is a big milestone for any indieweb implementation)
+*** '''To demo real-time comments showing up''', e.g. on aaronparecki.com
+*** To comment on IndieNews posts (assuming I have [[rel-in-reply-to]] links to IndieNews URLs implemented) as a proof of concept of an indieweb-friendly comment aggregator/threader.
+* <span id="show-webmentions">'''show webmention results'''</span> - Perhaps show a list of outbound links with send result for each (no webmention/pingback endpoint found, or green checkmark webmention/pingback sent, or red webmention/pingback rejected, distinguish webmention/pingback for each)
+** ''Why?''
+*** UIs that provide feedback on actions instill more confidence that the actions took place (similar to providing the tweet permalink of a successful POSSE to Twitter).
+*** Debug/diagnose possible problems with other indieweb sites (may expand later into part of the whitelist, webmention+howyouknowme protocol/UI)
+*** Convenient UI to specifically check (click-on) links with successful webmentions to see if they parsed my reply into their comments section correctly or did something else with it.
+*** Might help discover sites with newly added webmention/pingback receiving support.
+*** Could help demonstrate/explain how webmentions work
+
+=== implement reposts of tweets ===
+Implement [[reposts]] of tweets:
+* ''Why?'' So I can retweet tweets from my own site (rather than directly on Twitter), keeping a copy of the retweet on my own site, while still POSSEing the retweet on Twitter, so the original tweeter sees that I've reposted/retweeted it.
+
+<strong id="simple_repost_of_tweets">simple repost of tweets</strong>:
+
 Recently (2014-06-04..05) I was at a conference where I wanted to retweet a quote someone else captured from one of the speakers rather than make a similar post myself.
 
 However this time I reached the point of not wanting to just retweet on Twitter any more - I wanted to retweet it from my site, thus keeping a copy on my site, while still [[POSSE]]ing a native retweet on Twitter.
@@ -172,81 +281,15 @@ Support for publishing [[event]] posts, essentially:
 *** (semi-)automatic acceptance of RSVPs
 * home page: have them automatically appear as part of my stream/home page at the event start time 
 * upcoming box: have the next 3 upcoming events automatically appear on the "next 3 events" box on my home page
-
-=== improve replies details ===
-==== post reply to any URL and auto POSSE ====
-Do '''[[rel-syndication]] discovery of POSSE tweets''' in posting form / UI to support [[Twitter#POSSE_Replies_to_Twitter|POSSE Replies to Twitter]]
-* Per:
-** [[rel-syndication#POSSE_threading|use-case description]]
-** [[rel-syndication#Discovery|discovery algorithm]]
-* Using:
-** [[php-mf2]] statically with
-*** <code>[https://github.com/indieweb/php-mf2#parsing-rel-and-relalternate-values ->parseRelsAndAlternates()]</code>
-* So I can:
-** enter just the URL of an original indieweb post I'm replying to into my posting storage (or UI),
-** have Falcon's posting UI automatically discover the link to the tweet copy of the post 
-** add an in-reply-to link from my post to the tweet I'm replying to
-** have my reply POSSE copy thread with the POSSE tweet of the original.
-* ''Why?''
-** automatically thread the POSSE copy of my reply with the POSSE copy of the original indieweb post that I was replying to.
-** remove step of me having to look for the "also on twitter" link on an indieweb post and explicitly copy/paste it into my storage/UI.
-** Provide better user experience for those reading my posts on Twitter by providing them the threaded context right there in their reading experience.
-
-==== post reply to any tweet and auto indie-post reply ====
-Do '''[[original-post-discovery]]''' in posting form / UI (approach: use [http://waterpigs.co.uk/services/original-post original post endpoint] from server)
-* So I can:
-** enter just the URL of a tweet I'm replying to into my posting storage (or UI),
-** have Falcon's posting UI automatically discover the link to the original post (that the tweet is a copy of)
-** add an in-reply-to link from my post to the original post I'm replying to, before the in-reply-to of the tweet
-** while still having my reply POSSE copy thread with the POSSE tweet of the original.
-* ''Why?'' 
-** automatically link from my posts to more indieweb posts instead of their Tweet POSSE copies - prefer linking to indieweb original content and URLs
-** remove stress of having to check a tweet manually to see if it has an indieweb original version - less thinking about having to find an original permalink myself manually.
-==== send webmentions for posted links ====
-Send [[webmentions]] for posted links:
-* Using [[webmention#Discovery_in_PHP|Discovery in PHP]] approach to find endpoint then <code>curl</code> to send.
-* ''Why?'' 
-** Enable syndicating posts to [[IndieNews]] (assuming I have [[rel-syndication]] links to IndieNews implemented - perhaps as post option in my UI). Help demonstrate IndieNews as a proof of concept of an indieweb-friendly link aggregator.
-* '''in particular do a HEAD request first, then GET''' if no endpoints found and type is text/html or application/xhtml+xml.
-** ''Why?''
-*** simplest way to both minimize bytes requested by my server and avoid GETting non-HTML links (which I do link to plenty often in my posts)
-* '''if no webmention endpoints found, do fallback discovery for pingback''' inside same HEAD/GET results and send pingback, using an approach like https://gist.github.com/aaronpk/5744879
-** ''Why?''
-*** To support posting comments on indieweb community member's sites that receive pingbacks but not webmentions, e.g. Laurent's [https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html Testing #indieweb federation].
-* '''in particular to links I'm [[in-reply-to|replying to]]'''
-** ''Why?''
-*** '''To participate in [[comments-presentation#Current_Indiewebcamp_Practices|federated indieweb commenting]] on others' sites!''' (this is a big milestone for any indieweb implementation)
-*** '''To demo real-time comments showing up''', e.g. on aaronparecki.com
-*** To comment on IndieNews posts (assuming I have [[rel-in-reply-to]] links to IndieNews URLs implemented) as a proof of concept of an indieweb-friendly comment aggregator/threader.
-* <span id="show-webmentions">'''show webmention results'''</span> - Perhaps show a list of outbound links with send result for each (no webmention/pingback endpoint found, or green checkmark webmention/pingback sent, or red webmention/pingback rejected, distinguish webmention/pingback for each)
-** ''Why?''
-*** UIs that provide feedback on actions instill more confidence that the actions took place (similar to providing the tweet permalink of a successful POSSE to Twitter).
-*** Debug/diagnose possible problems with other indieweb sites (may expand later into part of the whitelist, webmention+howyouknowme protocol/UI)
-*** Convenient UI to specifically check (click-on) links with successful webmentions to see if they parsed my reply into their comments section correctly or did something else with it.
-*** Might help discover sites with newly added webmention/pingback receiving support.
-*** Could help demonstrate/explain how webmentions work
-==== improve reply-context support ====
-Improve reply-context support in reply posts:
-* ''Why?'' Provide readers better [[reply-context]] of the URL (or URLs - see [[multiple-reply]]) I'm replying to. Better user experience through increased comprehension from the provided context.
-** Building blocks for comments: all of this code serves as building blocks for [[comments-presentation]].
-* Currently works for showing all in-reply-to URLs (union of explicit [[rel-in-reply-to]] and u-in-reply-to markup). Necessary improvements:
-** Show @-username in reply contexts for replies to Tweets
-** Show [[reply-context#icon|icon in reply contexts]] for replies to tweets and indieweb posts
-*** Show icons for replies to indieweb posts using a [[nicknames-cache]]
-** Store and show [[reply-context#published|dt-published]] of original post
-** Store and show [[reply-context#author_name|full name of author]] of original post
-*** Start with a [[nicknames-cache]] implementation
-*** Improve with implementing [[authorship]] algorithm
-** Store and show [[reply-context#original_content|tweet text / p-summary]] of original post
+==== process and show webmentions ====
+As part of implementing "event activity (event creation, comments, RSVPs)", Falcon will have to process all webmentions received, parse/store them (with appropriate caching), and make them available for posts to display (as [[likes]], [[reposts]], [[comments]], and [[RSVPs]]).
 
 === improve rsvp reply notes ===
 Improve [[rsvp]] reply notes:
 * implement p-rsvp options of "no", "maybe", and "tracking"
 * use presence of p-rsvp to display an RSVP differently than a simple reply - more calendarish.
 * send a webmention - should get automatically from the above reply webmention implementation, but just explicitly noting this as something that needs to work.
-=== implement reposts of tweets ===
-Implement [[reposts]] of tweets:
-* ''Why?'' So I can retweet tweets from my own site (rather than directly on Twitter), keeping a copy of the retweet on my own site, while still POSSEing the retweet on Twitter, so the original tweeter sees that I've reposted/retweeted it.
+
 === implement reposts of indieweb posts ===
 Implement [[reposts]] of indieweb posts, and POSSE syndicated copy:
 * ''Why?'' So I can repost native indieweb posts, and if they have a rel-syndication link to tweet, then as part of POSSEing my post, the tweet of the original can be retweeted!

@@ -23,6 +23,7 @@ Please keep sorted alphabetically
 * {{irc user|Caseorganic.com|caseorganic|America/Los_Angeles}}
 * {{irc user|chrischerrett.co.uk|chrischerrett|Europe/London}}
 * {{irc user|Chrisroos.co.uk|chrisroos|Europe/London}}
+* {{irc user|ike.io|crossdiver|America/Los_Angeles}}
 * {{irc user|cweiske.de|cweiske|Europe/Berlin}}
 * {{irc user|Jenmontes.com|cuibonobo|America/New York}}
 * {{irc user|danbri.org|danbri|Europe/London}}

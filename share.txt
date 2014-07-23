@@ -12,7 +12,7 @@ See longer explanation:
 * http://tantek.com/2012/152/b1/citation-ui-focus-enabling-design#share-all-things
 
 == Examples ==
-
+Examples of specific sites (mis)using "share" and thus diluting its meaning.
 === Inappropriate (dilution) ===
 ==== ShareThis ====
 The [http://sharethis.com ShareThis] site and button may have been the beginning of the dilution / meaninglessness of "share". Simply try the button on their own site, look at the options, and it covers all kinds of things far beyond the original Facebook "share" meaning:
@@ -35,9 +35,13 @@ Install nearly any app on Android and it will add itself to the "Share" menu no 
 ==== Twitter ====
 * Share tweet via email --http://techcrunch.com/2012/11/15/twitter-adds-share-tweet-via-email-so-you-can-loop-in-people-not-on-twitter/
 
-
 ==== Others ====
 * Share links --http://techcrunch.com/2012/11/15/twitter-adds-share-tweet-via-email-so-you-can-loop-in-people-not-on-twitter/
+
+== Icons ==
+Because share has become meaningless, the icons to represent "share" have also diverged.
+
+See: https://bold.pixelapse.com/minming/share-the-icon-no-one-agrees-on
 
 == Criticism ==
 * Need citations. "Share is a watered down verb" feels like personal opinion, because to me it's not. --[[User:Sandeep.io|Sandeep Shetty]]

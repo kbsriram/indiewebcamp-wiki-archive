@@ -17,8 +17,9 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 ** Links – sharing a link to a website/story
 * Site has the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
 
-==Features in Development==
+==In Development==
 * Refining the deployed Wordpress Theme
 * Switching publishing from a Wordpress plugin to Bridgy.
 * Thinking of creating a Bridgy plugin for Wordpress
 * Semantic Comments Plugin - Wordpress plugin based on code I am already using on my site. Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. You can find it at [https://github.com/dshanske/semantic-comments Github]
+* Simple Location plugin

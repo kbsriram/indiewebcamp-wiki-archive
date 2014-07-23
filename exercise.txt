@@ -29,10 +29,15 @@ Tags: fitness, fitbit, pedometer, physical activity, run, running, workout, work
 * ...
 
 === Strava ===
-[[Strava]] tracks bicycle rides.
+[[Strava]] tracks bicycle rides and runs.
 
 It's possible to setup Strava to push into Jawbone
 * [[User:aaronparecki.com|Aaron Parecki]] is doing this since ????-??-??
+
+Strava allows you to download an export of all your data, which includes all the trips as individual [[GPX]] files.
+
+=== RunKeeper ===
+[[RunKeeper]] tracks bicycle rides and runs and other types of exercise.
 
 == Challenges ==
 * Too much hassle (AKA "high friction data collection") http://aaronparecki.com/articles/2012/10/28/1/low-friction-personal-data-collection

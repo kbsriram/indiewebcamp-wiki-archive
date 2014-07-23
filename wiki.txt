@@ -38,6 +38,9 @@ You can upload files to this wiki via email, which is often easier to do on a ph
 Send a file attachment to <code>upload@indiewebcamp.com</code>. Any text in the body of your email will be added as the description of the photo. The subject line is ignored. You will get an email response after the wiki processes the photo, but you might need to check your spam folder for the reply.
 
 == Suggestions ==
+See:
+* [[wiki/redesign]] for latest work on broader design improvements
+
 Suggestions and bug reports for improving the IndieWebCamp.com wiki. Please provide suggestions as github issues here:
 * https://github.com/indieweb/wiki/issues
 

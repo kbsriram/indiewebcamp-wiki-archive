@@ -1,0 +1,15 @@
+http://indiewebcamp.com/ikiwiki
+
+{{stub}}
+
+'''<dfn>[http://ikiwiki.info/ ikiwiki]</dfn>''' is an open source server software [[project]] for hosting a wiki on your own site. It uses revision control like [[Git]] for storage.
+
+ikiwiki uses http://xapian.org/ for search.
+
+== IndieWeb Examples ==
+=== Philip Durbin ===
+[[User:greptilian.com|Philip Durbin]] uses ikiwiki on http://wiki.greptilian.com/
+
+== See Also ==
+* [[wiki-projects]]
+* [[Branchable]]

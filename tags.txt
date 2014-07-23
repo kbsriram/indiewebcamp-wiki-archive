@@ -2,7 +2,9 @@ http://indiewebcamp.com/tags
 
 {{stub}}
 
-'''<dfn>tags</dfn>''' or '''<dfn>tagging</dfn>''' may refer to:
+'''<dfn>tags</dfn>''' or '''<dfn>tagging</dfn>''' refers to categorizing or labeling content according to free form words or phrases, including particular instances such as labeling the people in a photo, specifically known as [[people-tagging]].
+
+Tagging is:
 * a method of categorizing content by applying free form words and phrases to it, not part of any formal taxonomy (more of a folksonomy), popularized in Web 2.0 by various silos ([[Delicious]] (original site defunct) & [[Flickr]]), blogging tools (e.g. [[WordPress]]), and blog search engines (Technorati (original tag search defunct)).
 * '''[[hashtags]]''' - a method of tagging [[posts]] merely by prefixing the literal text of the tag inline in the post content with hash or pound character '#'. Popularized on [[Twitter]], hashtags have been adopted on other silos as such as [[Instagram]], Google+, [[Tumblr]], [http://newsroom.fb.com/News/633/Public-Conversations-on-Facebook Facebook], etc.
 * '''Private Tags''' -  a tag that is only visible to the content creator.
@@ -11,6 +13,7 @@ http://indiewebcamp.com/tags
 ** I have a #readlater tag that I would love to have private -[[User:Www.sandeep.io|Www.sandeep.io]] 16:37, 11 September 2013 (PDT)
 * [[User:Sandeep.io|Sandeep Shetty]] uses a #private tag (as a way to reduce an interface element that is required less often) to make posts only visible to him. 
 ** You can combine Private tags and #private to make both tags and content visible only to the author.
+* [[people-tag]] - tagging a [[post]], often [[photos]], as being about or of a person.
 
 == IndieWeb Examples ==
 === Aaron Parecki ===
@@ -24,3 +27,4 @@ His tag aggregation pages include a list of the following, all date-time ordered
 == See Also ==
 * [[hashtags]]
 * [[rel-tag]]
+* [[people-tag]]

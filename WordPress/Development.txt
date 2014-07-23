@@ -50,6 +50,21 @@ Suggestion for Common Filter Names/Placement (Work in Progress)
 
 The above would allow data to be added/removed by plugins in a designated place outside the content block, either inside a block designated for meta data in the header/footer or not.
 
+== Location == 
+
+Wordpress does not have built-in location awareness or geodata storage for posts. However, it does have a [http://codex.wordpress.org/Geodata standard] for its storage. 
+
+It consists of standard keys for geodata in the meta for posts, pages, users, comments, etc. 
+* geo_latitude
+* geo_longitude
+* geo_public - 1 is public, 0 is private. If there is no geo_public, assume public
+* geo_address - freeform textual description of coordinates. Accuracy level/detail/language is arbitrary
+
+The advantage of using the standard meta keys is support by various plugins. 
+
+GWG is working on a plugin for Wordpress that uses these values, plus a fifth geo_venue, which would indicate the [[venue]]. The plugin, tentatively called Simple Location, is supposed to add this support to Wordpress. There are plugins that offer location support, but none that implement it in a way best compatible with the location aspect described in the wiki and many would be overbuilt for the purpose.
+
+
 == See Also ==
 * [[WordPress]]
 * [[projects]]

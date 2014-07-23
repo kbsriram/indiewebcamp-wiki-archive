@@ -1,3 +1,3 @@
-http://indiewebcamp.com/Web_Actions
+http://indiewebcamp.com/Web_actions
 
-#redirect:[[webactions]]
+#REDIRECT [[webactions]]

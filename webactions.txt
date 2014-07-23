@@ -2,14 +2,93 @@ http://indiewebcamp.com/webactions
 
 A '''<dfn>web action</dfn>''' is the interface and user experience of taking a specific discrete action, across the web, from one site to another site or application.[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]
 
-The concept of "web actions" was introduced to both capture the emergence of this new type of web interaction (e.g. the spread of "Blog this, Digg, Read later, Follow, Like, Share, Tweet, +1" buttons across pages[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]), and as a user-centric reframing of the previous developer-centric notion of "[[web intents]]".
+== Why ==
+You should put web action buttons (or links) on your posts so that users can quickly interact with them and perform common actions such as:
+* [[like]] (or [[favorite]])
+* [[repost]]
+* [[reply]]
 
-At IndieWebCamp 2011, both [[Standardizing_Web_Intents|discussions]] and a [[2011/Demos#web_intents_user_experience|UX effort]] demonstrated that the term "web intents" was too confusing and too abstract to effectively do user centered research and design in the area. The term "web action" is based on the fact that from the user's perspective, they think they are taking an '''action''' when they click these buttons. When the term was tried out with others creating designs/UX in the space, it seemed to work much better to convey understanding. 
+You should also consider putting web action buttons on your posts even when inline in a [[stream]] ([[composite stream|composite]], home page, or archive pages), so that users can quickly interact with your posts while reading through a collection of them (without having to dive into and out of each post to interact with it).
 
-Web actions were presented and discussed at OSBridge 2012:
-* http://tantek.com/presentations/2012/06/osb12-web-actions/
+== How ==
+=== Wrap tweet or share ===
+Use the <code>&lt;action&gt;</code> tag to wrap any third party / [[silo]] action buttons/links you might already have on your site, e.g. "Tweet" / share / +1 buttons. Here is an example of wrapping an existing Tweet button (from [http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering an actual blog post]), whitespace/indenting added for readability.
 
-- [[User:Tantek|Tantek]]
+<pre><nowiki>
+<action do="post" with="http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering">
+ <span class="tweet-button">
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering" data-text="IndieWebCamp 2014 — Thoughts Before The Gathering:" data-count="horizontal" data-via="t" data-related="html5now:microformats">Tweet</a>
+  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+ </span>
+</action>
+</nowiki></pre>
+
+Note that everything inside the <code>&lt;span class="tweet-button"&gt;</code> is markup from Twitter, including the javascript. It's not required for web actions, just the markup that was there from before.
+
+=== Wrap favorite reply retweet ===
+If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can wrap those in  <code>&lt;action&gt;</code> tags so that those with <code>&lt;action&gt;</code> tag support will be able to automatically interact using their own site rather than a silo. Here's some sample markup (again [http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides from an actual post]), note that text verbs have been updated to use the general [[like]], [[reply]], [[repost]] terms rather than Twitter's terms. Again whitespace added for wrapping/readability (and non-essential attributes removed)
+
+<pre><nowiki>
+<action do="like" 
+ with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
+ <a target="" 
+  href="https://twitter.com/intent/favorite?tweet_id=481682185359880192">
+  <img src="http://si0.twimg.com/images/dev/cms/intents/icons/favorite_hover.png" alt=""/> 
+  Like
+ </a>
+</action>
+<action do="repost" 
+ with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
+ <a target="" 
+  href="https://twitter.com/intent/retweet?tweet_id=481682185359880192">
+  <img src="http://si0.twimg.com/images/dev/cms/intents/icons/retweet_hover.png" alt=""/> 
+  Repost
+ </a>
+</action>
+<action do="reply" 
+ with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
+ <a target="" 
+  href="https://twitter.com/intent/tweet?in_reply_to=481682185359880192">
+  <img src="http://si0.twimg.com/images/dev/cms/intents/icons/reply_hover.png" alt=""/> 
+  Reply
+ </a>
+</action>
+</nowiki></pre>
+
+== IndieWeb Examples ==
+<span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
+
+=== Barnaby Walters ===
+'''[[User:Waterpigs.co.uk|Barnaby Walters]]''' on notes [http://waterpigs.co.uk/notes/1123/ since at least 2013-03-15], e.g. 
+* http://waterpigs.co.uk/notes/1123/
+* have <code>&lt;action></code> tags with verbs: <code>post</code>, <code>reply</code>, <code>bookmark</code>
+=== Laurent ===
+'''[[User:Eschnou.com|Laurent]]''' (all posts?) since ????-??-??, e.g. 
+** http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
+** have <code>&lt;action></code> tags with verb: <code>post</code>
+=== Tantek ===
+'''[[User:Tantek.com|Tantek]]''''s posts have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
+* [[articles]], e.g.:
+** http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-elsewhere
+** have <code>&lt;action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
+* [[notes]], e.g.:
+** 
+** have <code>&lt;action></code> tags with verbs '''<code>like</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
+
+=== Indienews ===
+'''Indienews''' comments pages, e.g.
+* http://news.indiewebcamp.com/post/shawfactor.com/2013/08/06/thoughts-on-extending-webmentions/
+* have <code>&lt;action inline></code> elements with <code>reply</code> verbs enabling in-context commenting ([http://waterpigs.co.uk/notes/4RRNLz/ demo])
+
+=== Barry Frost ===
+Some of Barry Frost's post have webactions as of 2013-10-01[http://barryfrost.com/posts/38], e.g.:
+* http://barryfrost.com/posts/38, http://barryfrost.com/posts/50
+* have <code>&lt;action></code> elements with bookmark, post, reply verbs and Twitter tweet action fallbacks.
+
+=== Glenn Jones ===
+'''[[User:glennjones.net|Glenn Jones]]''' notes, e.g. 
+* http://glennjones.net/notes/
+* have <code>&lt;action></code> element and fallback to Twitter actions.
 
 == Use Cases ==
 There are at least two key use cases that are worthy of exploring for webactions:
@@ -30,6 +109,7 @@ By designing, developing for these two particular use cases, it may provide us a
 * http://gigaom.com/2013/11/05/how-jack-dorsey-approached-the-payments-market-as-a-buyer/ (cropped screenshots of "Tweet this" inline in context welcome)
 Generically, "Quote this" is a better non-silo-specific phrase for this functionality.
 
+__TOC__
 == Brainstorming ==
 === action markup ===
 The 2012-06-28 OSBridge "Web Actions" presentation [http://tantek.com/presentations/2012/06/osb12-web-actions/#slide15 proposed] the <code>&lt;action></code> tag as follows:
@@ -48,7 +128,7 @@ Where:
 ** '''<code>post</code>''' - more specific than "share", more general than "comment", or "tweet"/"reply", though those might show up in a UI where a reader expected a Twitter-like experience
 ** '''<code>reply</code>''' - specifically to reply to the current URL. Twitter uses a different icon. IndieNews and Barnaby.co.uk both have reply actions.
 ** '''<code>repost</code>''' - generalization or Twitter's "retweet", Tumblr's "reblog" ("retumbl?"),  Pinterest "repin"
-** '''<code>props</code>''' - generalization of Twitter "favorite", Facebook "like", GooglePlus "+1". Alternatively, could split this up into separate verbs for "favorite" and "like", or further specialize: "heart" (Instagram "like"), "star" (Flickr "favorite" and Twitter "favorite"). It's not clear which approach (general or specific) is better. People do assign different meanings to favoriting vs. liking. (there's a photo on flic.kr/tantek with a conversation about this but can't find it now)
+** '''<code>like</code>''' - generalization of Twitter "favorite", Facebook "like", GooglePlus "+1". Alternatively, could split this up into separate verbs for "favorite" and "like", or further specialize: "heart" (Instagram "like"), "star" (Flickr "favorite" and Twitter "favorite"). It's not clear which approach (general or specific) is better. People do assign different meanings to favoriting vs. liking. (there's a photo on flic.kr/tantek with a conversation about this but can't find it now)
 * '''<code>with</code>''' takes a URL that represents a direct object for the verb to act on
 
 See also: [[webactions-verbs-brainstorming]]
@@ -63,7 +143,7 @@ In general, successful interfaces have very few web actions on a piece of conten
 
 ==== note ====
 A [[note]] is most similar to a Twitter tweet, thus the following actions are recommended as buttons to be placed in the footer of a note, after info about the note such as date published, location:
-* props/favorite
+* like/favorite/heart/props
 * repost/retweet
 * reply
 If you [[POSSE]] to Twitter, providing familiar verbs (even wording and icons) provides a more comfortable and lower cognitive load actions interface to your readers.
@@ -86,10 +166,10 @@ By analyzing [[silo]] designs we see some patterns for what order actions are di
 * most commonly taken action(s) first
 * the last thing a user might want to do as last
 
-# '''props/favorite/like.''' [[Facebook]] and [[Instagram]] put "Like" first, [[Flickr]] puts "Favorite" first, and [[Google+]] puts +1 first. The reason for this is that it is likely both:
+# '''like/favorite/props.''' [[Facebook]] and [[Instagram]] put "Like" first, [[Flickr]] puts "Favorite" first, and [[Google+]] puts +1 first. The reason for this is that it is likely both:
 #* The most common action taken
 #* The action that has the lowest impact, and thus lowest cognitive load of consideration.
-# '''repost/retweet.''' [[Twitter]] puts retweet second. In addition, retweeting takes a bit more consideration than favorite (i.e. "Do I really want to send this to all my followers?"), and yet, requires less thinking than a comment (i.e. "What should I to say/add to this text?"), thus it makes sense to put (if at all) "repost" after "props" but before "reply".
+# '''repost/retweet.''' [[Twitter]] puts retweet second. In addition, retweeting takes a bit more consideration than favorite (i.e. "Do I really want to send this to all my followers?"), and yet, requires less thinking than a comment (i.e. "What should I to say/add to this text?"), thus it makes sense to put (if at all) "repost" after "like" but before "reply".
 # '''reply/comment.''' [[Facebook]] and [[Instagram]] both put "Comment" last (second, immediately after like). [[Twitter]] is an exception here and puts it first, likely to encourage the generation of more content on Twitter itself, since original tweets are the primary currency of Twitter (they don't do much to surface favorites in their UI). It makes sense to place "reply" at the end as commenting on a post requires the most cognitive load and thus is something a user would want to do <em>after</em> they've considered (and perhaps done) lower cognitive load options.
 
 The "(...) More" button/link in [[Instagram]] and [[Twitter]] is not a web action itself, but rather a way of hiding "other" much less common actions from the UI (progressive disclosure). 
@@ -153,46 +233,10 @@ It's expected that indieweb sites will likely all end up with slightly different
 * whatever silos we choose to POSSE to (already a personal preference)
 
 == Verbs ==
-
 We need a registry of common verbs to use with web actions. This should be built based on research into real world usage and brainstorming on top of that:
 
 * [[webactions-verbs-research]]
 * [[webactions-verbs-brainstorming]]
-
-== IndieWeb Examples ==
-<span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
-
-=== Barnaby Walters ===
-'''[[User:Waterpigs.co.uk|Barnaby Walters]]''' on notes [http://waterpigs.co.uk/notes/1123/ since at least 2013-03-15], e.g. 
-* http://waterpigs.co.uk/notes/1123/
-* have <code>&lt;action></code> tags with verbs: <code>post</code>, <code>reply</code>, <code>bookmark</code>
-=== Laurent ===
-'''[[User:Eschnou.com|Laurent]]''' (all posts?) since ????-??-??, e.g. 
-** http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
-** have <code>&lt;action></code> tags with verb: <code>post</code>
-=== Tantek ===
-'''[[User:Tantek.com|Tantek]]''''s posts have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
-* [[articles]], e.g.:
-** http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-elsewhere
-** have <code>&lt;action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
-* [[notes]], e.g.:
-** 
-** have <code>&lt;action></code> tags with verbs '''<code>props</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
-
-=== Indienews ===
-'''Indienews''' comments pages, e.g.
-* http://news.indiewebcamp.com/post/shawfactor.com/2013/08/06/thoughts-on-extending-webmentions/
-* have <code>&lt;action inline></code> elements with <code>reply</code> verbs enabling in-context commenting ([http://waterpigs.co.uk/notes/4RRNLz/ demo])
-
-=== Barry Frost ===
-Some of Barry Frost's post have webactions as of 2013-10-01[http://barryfrost.com/posts/38], e.g.:
-* http://barryfrost.com/posts/38, http://barryfrost.com/posts/50
-* have <code>&lt;action></code> elements with bookmark, post, reply verbs and Twitter tweet action fallbacks.
-
-=== Glenn Jones ===
-'''[[User:glennjones.net|Glenn Jones]]''' notes, e.g. 
-* http://glennjones.net/notes/
-* have <code>&lt;action></code> element and fallback to Twitter actions.
 
 == Web Action Browser Support ==
 If you install a browser (or browser extension) that implements the action tag, you can click on action buttons on other sites (e.g. like those listed in the examples in the wild above), and then have the actions direct to your own site.
@@ -277,6 +321,15 @@ Benefits:
 === Apps which submit to to delegate URLs ===
 
 * '''[http://waterpigs.co.uk/pushups pushups]''' is a simple, standalone HTML+JS+CSS (download to clone) nose-activated pushup counting UI. Give it a URL, and when you’re done it delegates the data to the URL you provide, which is remembered using localstorage.
+
+== History ==
+=== 2011 ===
+The concept of "web actions" was introduced to both capture the emergence of this new type of web interaction (e.g. the spread of "Blog this, Digg, Read later, Follow, Like, Share, Tweet, +1" buttons across pages[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]), and as a user-centric reframing of the previous developer-centric notion of "[[web intents]]".
+
+At IndieWebCamp 2011, both [[Standardizing_Web_Intents|discussions]] and a [[2011/Demos#web_intents_user_experience|UX effort]] demonstrated that the term "web intents" was too confusing and too abstract to effectively do user centered research and design in the area. The term "web action" is based on the fact that from the user's perspective, they think they are taking an '''action''' when they click these buttons. When the term was tried out with others creating designs/UX in the space, it seemed to work much better to convey understanding. 
+=== 2012 ===
+Web actions were presented and discussed at OSBridge 2012:
+* http://tantek.com/presentations/2012/06/osb12-web-actions/
 
 == Events ==
 Session notes from events where web actions have been discussed:

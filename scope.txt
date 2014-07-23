@@ -2,9 +2,10 @@ http://indiewebcamp.com/scope
 
 {{stub}}
 
-In [[OAuth]], scope is a way to selectively grant access to parts of your account to third-party applications.
+In [[OAuth]] terminology, '''<dfn>scope</dfn>''' is a way to limit what parts of your account are accessible by third-party applications.
 
 For example, you can choose to allow one application to read your basic profile info, while another application may be authorized to post on your behalf. 
 
 == See Also ==
 * [[micropub]]
+* [[:Category:IndieAuth]]

@@ -89,6 +89,8 @@ Creating an actual photo post looks much better.
 == Brainstorming ==
 {{main|photo brainstorming}}
 === People Tagging ===
+{{main|people tagging}}
+
 [[User:benwerd.com|Ben Werdmuller]] wondered if you could tag people in photos by linking to their profiles using HTML imagemaps (!) and marking up the imagemap links with microformats. That might look something like:
 
 <code><img src="some_photo.jpg" alt="Tantek, Aaron and Amber!" usemap="#peeps" class="u-photo">

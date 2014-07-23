@@ -9,6 +9,8 @@ http://indiewebcamp.com/Respect_Network
 Per: https://twitter.com/benwerd/status/464502782276292608
 <blockquote>Respect uses XDI as a transmission protocol. http://en.wikipedia.org/wiki/XDI  The #indieweb approach, as a comparison: http://indiewebify.me/  #iiw</blockquote>
 
+* I looked at this standard for 10 minutes and was bewildered. It was hard to find an implementation or how to actually use it, when I finally did, the markup was hideous to look at [[User:BrennanNovak.com]]
+
 === Closed ===
 per https://twitter.com/benwerd/status/464503235739279360:
 <blockquote>

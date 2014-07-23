@@ -10,21 +10,22 @@ See also, Evan explains pump.io on IRC: http://indiewebcamp.com/irc/2013-06-10#t
 
 Evan also explains pump.io and federated social web on the [http://notapodcast.co.uk/post/57337280889/9-the-prince-of-aberystwyth TINAP podcast].
 
-== Indieweb Compatibility ==
-Indieweb support is awaiting acceptance of a pull request.
+== IndieWeb Compatibility ==
 
-[https://e14n.com/evan Evan P] has [http://bret.io/2013/08/08/t5/ expressed interest] in pump.io communicating via indieweb style [[comment | comments]]. 
-* [https://github.com/e14n/pump.io/pull/871 Add Microformats 2 PR] - waiting since 2013-11-03.
-* [https://github.com/e14n/pump.io/pull/871 Closed without comment by Evan P] - 2014-06-22
-** Likely due to [https://e14n.com/evan/note/5udvV3IYSlS4zQz6u3cpvQ Conversion from JavaScript to CoffeeScript] (see comment by Laura Arjona)
+pump.io uses its own protocol for communicating between servers, based on ActivityStreams. There are no known examples of communication to/from indieweb sites.
+
+[https://e14n.com/evan Evan P] ''has'' [http://bret.io/2013/08/08/t5/ expressed interest] in pump.io communicating via indieweb style [[comment | comments]].
 
 == Issues ==
-=== Unknown Delay Adopting IndieWeb Standards ===
+=== Rejected pull request for microformats ===
 Evan has indicated he is interested in receiving contributions to pump.io that will implement indieweb standards:
 * [[microformats]]
 * [[webmention]], etc.
-However the pull request to do so is already over 6 months old:
-* [https://github.com/e14n/pump.io/pull/871 Pull request] to add uF2 on 2013-11-03
+
+However, [[User:bret.io]]'s pull request adding microformats classes was not accepted and eventually closed:
+* [https://github.com/e14n/pump.io/pull/871 Add Microformats 2 PR] - 2013-11-03
+* [https://github.com/e14n/pump.io/pull/871 Closed by Evan P] - 2014-06-22
+** Suspect they closed many PRs as a result of [https://e14n.com/evan/note/5udvV3IYSlS4zQz6u3cpvQ Conversion from JavaScript to CoffeeScript] (see comment by Laura Arjona)
 
 == See Also ==
 * [[projects]]

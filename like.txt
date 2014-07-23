@@ -1,8 +1,8 @@
 http://indiewebcamp.com/like
 
 {{stub}}
-
-'''<dfn>like</dfn>''' is a popular [[webaction]] button and in some cases [[post]] type on various [[silos]] such as [[Facebook]] and [[Instagram]]. It is similar to but different from a [[favorite]].
+<span style="float:right;height:128px;font-size:128px;color:red">♥</span>
+'''<dfn>like</dfn>''' is a popular [[webaction]] button and in some cases [[post]] type on various [[silos]] such as [[Facebook]] and [[Instagram]] (represented as a heart (♥)). It is similar to but different from a [[favorite]].
 
 == How ==
 === mark up and post a like ===
@@ -35,13 +35,6 @@ Likes are marked up similarly to other [[responses]]. Here’s an example h-entr
   </article>
 </article>
 </nowiki></pre>
-
-=== Previously ===
-Previously the class "u-like" was used, but "u-like-of" is better.
- 
-Advantages of u-like-of over u-like for this purpose:
-* '''Reads better''' <blockquote>it reads better, more consistently with in-reply-to, e.g. “this post is in-reply-to that post”, “this post is a like-of that post” — Barnaby Walters</blockquote><blockquote>KartikPrabhu supports like-of for ease of reading specially easy for beginners</blockquote>
-* '''Frees up u-like for linking to permalinks of likes'''. This frees up "u-like" (and "p-like") to actually indicate that the URL being linked is a like itself (e.g. similar to "p-comment").
 
 == IndieWeb Examples ==
 Examples in the wild of indieweb creators publishing reposts. Add yourself!
@@ -95,8 +88,30 @@ Acegiak's posts may have multiple verbs for a single piece of content.
 * http://acegiak.net/2014/03/27/hexington-stand-up-comic-gifskumail-nanjiani/
 ** is a like, repost and comment of http://hexington.tumblr.com/post/80872320480/stand-up-comic-gifs-kumail-nanjiani
 
+__TOC__
+== Silo Examples ==
+=== Facebook ===
+👍 [[Facebook]] popularized [[like]] as a verb and "likes" as an indicator on posts.
+They used a thumbs up icon
+=== Instagram ===
+<span style="color:grey">♥</span> [[Instagram]] also uses [[like]] in their UI, but gives it a heart icon.
+
+== Variants ==
+Some sites have a feature similar to likes but called something else.
+=== We Heart It ===
+<span style="color:red">♥</span> [http://weheartit.com/ We Heart It] uses the text word "heart" as a verb and "hearted" as a past tense indicator.
+
+
 == Discussion ==
+=== Likes of different things ===
 Facebook seems to differentiate between likes of posts and likes of pages. This seems like an important semantic difference. Is the indieweb equivalent of liking a page a [[favourite]]? - [[user:acegiak.net]]
+
+=== Previous markup ===
+<span id="Previously">Previously</span> the class "u-like" was used, but "u-like-of" is better.
+ 
+Advantages of u-like-of over u-like for this purpose:
+* '''Reads better''' <blockquote>it reads better, more consistently with in-reply-to, e.g. “this post is in-reply-to that post”, “this post is a like-of that post” — Barnaby Walters</blockquote><blockquote>KartikPrabhu supports like-of for ease of reading specially easy for beginners</blockquote>
+* '''Frees up u-like for linking to permalinks of likes'''. This frees up "u-like" (and "p-like") to actually indicate that the URL being linked is a like itself (e.g. similar to "p-comment").
 
 == Related ==
 Possibly related posts and videos to "likes" and "liking"

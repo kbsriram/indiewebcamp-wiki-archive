@@ -1,15 +1,30 @@
 http://indiewebcamp.com/likes
 
 {{stub}}
+<span style="float:right;height:128px;font-size:128px">👍</span>
+'''<dfn>likes</dfn>''' are sometimes part of the information about a [[post]] displayed on the post itself, sometimes in a [[posts#Footer_sections|post footer]]. 
 
-'''<dfn>likes</dfn>''' are sometimes part of the information about a [[post]] displayed on the post itself, sometimes in a [[posts#Footer_sections|post footer]]. [[Silos]] such as [[Facebook]] and [[Instagram]] show the number of likes on posts in various ways:
-* "17 likes" - Instagram, for 11(?) or more likes.
-* inline space/comma separated list of linked usernames/fullnames - Instagram/Facebook for some number of likes below a threshold number
+== IndieWeb Examples ==
+There are a few IndieWeb sites which receive and handle [[webmentions]] for [[like]] posts and display them in various ways (as a [[facepile]], as a list, mixed in with other interactions like [[reposts]] and [[comments]]).
+
+Need to add them here!
+* ...
+
+__TOC__
+== Silo Examples ==
+[[Silos]] such as [[Facebook]] and [[Instagram]] show the number of likes on posts in various ways:
+=== Facebook ===
+"👍 so-and-so and nn others liked this"
+
+* inline space/comma separated list of linked usernames/fullnames for some number of likes below a threshold number.
 * inline comma separated list of linked fullnames followed by "and 84 others like this" text, where "84" is the remaining number of likes and is linked to a modal popup that displays a list. - Facebook
 
-There's also the notion of a ''like'' post itself:
-* [[like]] post
+=== Instagram ===
+"17 likes" - for 11(?) or more likes.
 
+* inline space/comma separated list of linked usernames/fullnames for some number of likes below a threshold number.
+
+== Similar ==
 Similar verbs/info/post-types:
 * favorites (e.g. on Twitter)
 * heart (sometimes just a heart symbol)

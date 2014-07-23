@@ -8,7 +8,7 @@ Twitter provides the following features:
 
 * [[follow]] and unfollow
 * [[reader]] UI with an integrated UI to:
-* [[post]] a [[note]] or [[reply]] (optionally attaching 1-4 [[photos]]) at a [[permalink]] with:
+* [[post]] a [[note]] or [[reply]] (optionally attaching 1-4 [[photos]] optionally [[people-tagged]]) at a [[permalink]] with:
 ** [[retweets]] count
 ** [[favorites]] count
 ** [[comments-display]] (@-replies to it)
@@ -19,21 +19,50 @@ Twitter provides the following features:
 ** [[citation]] UI to share tweet via email, or copy/paste as a blockquote
 * [[repost]] (called "retweet" on Twitter) and unretweet others' tweets
 * [[like]] (called "favorite" on Twitter) and unfavorite any tweet
+* post a mixed [[collection]] at a permalink of [[notes]] and [[replies]] (what Twitter calls [https://blog.twitter.com/2013/introducing-custom-timelines custom timelines])
 * direct [[message]] anyone who is following you and
 ** view or delete your previous private messages sent and received as conversations per person
 ** show count of unread [[message]]s
+* [[search]] over
+** all [[posts]] on Twitter
+*** only posts from those you follow
+*** only posts with media (e.g. [[photo]] or [[video]] even if just auto-embedded)
+*** only "top" posts ("top" undefined, some attempt at relevancy subset)
+*** only posts with [[location]] info that are "near you" ("nearness" undefined)
+** authors (people) of posts
+* [[notification]]s (see Twitter [https://support.twitter.com/articles/20169398-activity-and-notifications notification viewer] details) of when others
+** [[reply]] to your posts
+** [[favorite]] your posts
+** [[repost]] your posts
+** [[mention]] you in their posts
+** [[people-tag]] you in their posts
+** [[follow]] you
 
 === Replacing ===
 If you recreate these features on your own site, including [[POSSE]] support to Twitter for each, then you no longer have any need to directly use Twitter.
 
-To fully replace your usage of Twitter you must also support:
-* on a Twitter profile page (e.g. that you navigated to from a link elsewhere)
-** click "Follow" or "Unfollow" and have the action take place on your site instead (which your site could POSSE sync to Twitter as well)
-* on a tweet permalink: (e.g. that you navigated to from a link elsewhere)
-** click "Reply", "Retweet", or "Favorite" and have the action go to your site instead (which then POSSE's it back to Twitter).
-* import your pre-indieweb tweets to your own domain (accessible via your own site navigation, search, archives).
+To fully replace your usage of Twitter you must also support (roughly ordered by importance, expected frequency of usage)
+# import your pre-indieweb tweets to your own domain (accessible via your own site navigation, search, archives).
+# on a tweet permalink: (e.g. that you navigated to from a link elsewhere)
+#* click "Reply", "Retweet", or "Favorite" and have the action go to your site instead (which then POSSE's it back to Twitter).
+# on a Twitter profile page (e.g. that you navigated to from a link elsewhere)
+#* click "Follow" or "Unfollow" and have the action take place on your site instead (which your site could POSSE sync to Twitter as well)
+# expanded [[search]] for all the use-cases that you currently use Twitter search for. This is likely different for different people and is thus open to some interpretation. Here are some specifics to support [[search]] to replace your usage of Twitter. Support search of:
+#* all [[posts]] of from everyone who has posts on your site (just you if you're the only author)
+#** only posts from those you follow in your [[reader]] (or just your posts if you lack a reader)
+#** only posts with media (e.g. [[photo]] or [[video]] even if just auto-embedded)
+#** only "top" posts (make up your own meaning of "top" as Twitter's is undefined)
+#** only posts with [[location]] info that are "near you" (make up your own meaning as Twitter's is undefined)
+#* authors (people) of posts on your site (just yourself if you only show posts written by you)
+
 
 The end result is that all your interactions with Twitter and Tweets via your own site need to be <em>at least</em> as seamless as Twitter's UI (so you'll use your own UI instead).
+
+=== Clients ===
+Twitter has several clients that all have a fairly complete implementation of the above features:
+* web: http://twitter.com/
+* mobile web: http://m.twitter.com/
+* native [[mobile]] [[app]]s on MacOS (e.g. TweetDeck), iOS, and Android
 
 == Recommendations ==
 === CC license your tweets ===

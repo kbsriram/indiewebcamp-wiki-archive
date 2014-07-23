@@ -1,0 +1,17 @@
+http://indiewebcamp.com/reply-chain
+
+{{stub}}
+
+A '''<dfn>reply chain</dfn>''' is a threaded list of [[replies]] — and replies to those replies — displayed under the original post.
+
+== Silos ==
+An example of reply chaining on Twitter: https://twitter.com/benwerd/status/490958867803537408
+
+== Why ==
+
+== Markup ==
+
+== Indieweb Examples ==
+
+== See Also ==
+* [[comment]]

@@ -25,7 +25,7 @@ As mentioned above, I have been using Nucleus CMS for quite some time. The exten
 * My [[User:Gregorlove.com/notes|notes implementation]]
 
 == Interests ==
-I am interested in:
+In no particular order, I am interested in:
 * Adding a "notes" stream to my site distinct from the articles.
 ** Setting up distinct, well-designed presentations for different types of notes (e.g. quotes, links, status update, video), a la Tumblr
 * Displaying webmention replies on notes like I do on articles.
@@ -40,6 +40,10 @@ I am interested in:
 * Determine what it will take to migrate from my CMS to the custom CMS I set up for Amanda (see below)
 * My [[User:Gregorlove.com/webmention#Todo|Webmention to-do]] list
 * My [[User:Gregorlove.com/notes#Todo|Notes to-do]] list
+* Work on [[media_checkin]]s for books I'm reading and music I'm listening to, perhaps others.
+** I particularly enjoy using Goodreads.com currently to track my reading progress. Would like to do that on my site and cross-post there, instead.
+* Tweak new wiki theme
+* Set up [[checkins]], display maps with OpenStreetMap
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

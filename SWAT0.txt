@@ -2,4 +2,6 @@ http://indiewebcamp.com/SWAT0
 
 {{stub}}
 
+'''<dfn><abbr>SWAT0</abbr></dfn>''' is an abbreviation for The Social Web Acid Test level 0 and is an user-feature interoperability test for social web functionality defined in 2010.
+
 See the [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 description of SWAT0 on W3.org].

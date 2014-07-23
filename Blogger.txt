@@ -24,6 +24,14 @@ Issues folks have run into with Blogger's custom domain support.
 == webmention ==
 Blogger doesn't have built in support for [[webmention]]s, but [[Bridgy]] can send, receive, and display webmentions for Blogger blogs. You can also receive webmentions with [[webmention.io]] and [https://webmention.herokuapp.com/ webmention.herokuapp.com].
 
+== Users own their content ==
+[http://www.google.com/intl/en/policies/terms/ Google's TOS] ([https://support.google.com/blogger/answer/41935?hl=en&ref_topic=12467 which cover Blogger directly]; checked 2014-07-21) assert that users retain ownership and copyright over all content and IP they post. From
+[http://www.google.com/intl/en/policies/terms/#toc-content Your Content in Our Services]:
+
+<blockquote>
+Some of our Services allow you to upload, submit, store, send or receive content. You retain ownership of any intellectual property rights that you hold in that content. In short, what belongs to you stays yours.
+</blockquote>
+
 == Criticism ==
 === templates use XML ===
 Blogger templates still require use of their custom XML, which has inconveniences like:

@@ -65,6 +65,26 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
+|name = Brian Suda
+|img = http://suda.co.uk/images/gravatar.jpg
+|url = http://suda.co.uk
+|org_name = 
+|org_url = 
+|projects = H2V
+|elsewhere = “briansuda” on various silos
+}}
+
+{{Attendee
+|name = Cole Peters
+|img = https://colepeters.com/photos/photos--profile/tcp2014-2e-1x1.jpg
+|url = https://colepeters.com
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = [https://twitter.com/cole_peters @cole_peters], [http://blog.colepeters.com blog.colepeters.com], [http://lab.colepeters.com GitLab], [http://firstthingsfirst2014.org First Things First 2014]
+}}
+
+{{Attendee
 |name = Grant Richmond
 |img = http://terminalpixel.co.uk/img/grant-richmond-square.gif
 |url = http://grant-richmond.com/
@@ -95,13 +115,14 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
-|name = Cole Peters
-|img = https://colepeters.com/photos/photos--profile/tcp2014-2e-1x1.jpg
-|url = https://colepeters.com
-|org_name = 
-|org_url = 
-|projects = 
-|elsewhere = [https://twitter.com/cole_peters @cole_peters], [http://blog.colepeters.com blog.colepeters.com], [http://lab.colepeters.com GitLab], [http://firstthingsfirst2014.org First Things First 2014]
+|name = Tantek Çelik
+|img = http://tantek.com/logo.jpg
+|url = http://tantek.com/
+|org_name = Mozilla
+|org_url = https://www.mozilla.com/
+|projects = [http://cassisproject.com/ CASSIS] JS∩PHP (on [http://github.com/tantek/cassis github]),
+[[Falcon]] (my personal site publishing software), [http://tantek.com/w/Whistle Whistle] (URL shortener), [http://microformats.org/wiki/RelMeAuth RelMeAuth]
+|elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
 }}
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!

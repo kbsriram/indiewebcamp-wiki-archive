@@ -63,6 +63,19 @@ See: http://caseorganic.com/articles/2014/02/13/1/indiereader-subscribe-to-peopl
 
 See http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ for instructions on how to set up the Selfoss reader.
 
+=== Ben Werdmüller, Aaron Parecki, Emma Kuo ===
+
+At [[2014|IndieWebCamp 2014]], [[User:werd.io|Ben]], [[User:aaronparecki.com|Aaron]], and [[User:notenoughneon.com|Emma]] built an IndieReader demo/prototype in PHP reusing components from their personal site implementations. 
+
+* Source: https://github.com/benwerd/indiereader
+
+Features:
+* allows authoring comments and liking posts via micropub
+* reads microformatted subscription list from a URL
+* supports mf2 h-feeds as well as RSS/Atom feeds
+
+[[File:indiereader-IWC-2014-07-22.png|none|frame|300px]]
+
 == Brainstorming ==
 === Integrated Activity Reading ===
 From analyzing the screenshots in this article:

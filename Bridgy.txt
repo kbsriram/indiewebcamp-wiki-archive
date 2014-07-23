@@ -116,6 +116,16 @@ On 2014-03-11, 3 months after its relaunch with webmention support, Bridgy had:
 [[User:snarfed.org|Ryan]] started working on Bridgy in the summer of 2011, [http://snarfed.org/2012-01-08_bridgy_launched launched the first (WordPress-only) version] on 2012-01-08, and [http://snarfed.org/2013-12-09_brid-gy-meet-webmentions relaunched it with webmention support] on 2013-12-09.
 
 == FAQ ==
+=== Could Bridgy be decentralized ===
+'''Q:''' Could Bridgy be decentralized / decentralised / distributed / federated ?
+
+A: Yes, you can for yourself.
+# Install Bridgy ([https://github.com/snarfed/bridgy open source]) on your own server. (It runs on [http://appengine.google.com/ App Engine], so you'd probably want to use that, but you could also use a compatible [[web_hosting#Platform_as_Service|PaaS]] like [http://www.appscale.com AppScale], or a LAMP server with compatibility libraries.)
+# Configure it with Application API keys for the silos you want to backfeed from.
+# There is no step three.
+
+There are also other [[backfeed]] implementations.
+
 === What about links posted by others ===
 '''Q:''' Could Bridgy send notifications for links to your site posted by others? E.g. 
 * https://twitter.com/benwerd/status/451165922418388992

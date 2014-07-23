@@ -8,7 +8,9 @@ IndieWebCamp [[projects]] related to [[wiki-page]] hosting/creation/editing on y
 * Federated Wiki
 ** as conceived/created/developed/launched at IndieWebCamp [[2011]]
 * [[MediaWiki]]
-** Used by [[User:Tommorris.org|Tom Morris]] on wiki.tommorris.org.
+** Used by [[User:Tommorris.org|Tom Morris]] on http://wiki.tommorris.org/
+* [[ikiwiki]]
+** Used by [[User:greptilian.com|Philip Durbin]] on http://wiki.greptilian.com/
 
 == Brainstorming ==
 Thoughts on how an IndieWeb wiki could be implemented

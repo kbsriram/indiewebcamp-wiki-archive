@@ -21,6 +21,9 @@ All times are Pacific Time unless otherwise noted in venues.
 :TBD
 <!-- <span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span> -->
 
+;Minneapolis
+:TBD
+
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
 :''Note the Chicago meeting is at 18:30 CDT and at a new location''
@@ -45,6 +48,14 @@ Portland:
 * add indieevent...
 * ... and POSSE copy
 
+Minneapolis:
+* add indieevent...
+* ... and POSSE copy
+
+Chicago:
+* add indieevent...
+* ... and POSSE copy
+
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
 * ''' adding your name below''' (and indicate parenthetically if you're in for writing hour)
@@ -53,9 +64,13 @@ Portland:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{t}}
 * ... add yourself!
 
 '''Portland:'''
+* ... add yourself!
+
+'''Minnesota:'''
 * ... add yourself!
 
 '''Chicago:'''

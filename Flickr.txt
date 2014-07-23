@@ -21,6 +21,15 @@ favorites of a user:
 photos of a user: (people tagged)
 * http://api.flickr.com/services/feeds/profile_photos.gne?nsid=39039882@N00&lang=en-us&format=atom
 
+=== activity feed ===
+
+Flickr has a (totally undocumented?) feed of activity for the logged in user, where activity is anything you would normally be notified about in notifications (faves, comments, replies to photos you have replied on). To limit content to only photos in your own stream, add &activity_view=photostream
+
+* https://api.flickr.com/services/feeds/activity/all?user_id=me
+* https://api.flickr.com/services/feeds/activity/all?user_id=me&activity_view=photostream
+
+These require you to be logged in and redirect to a "secret" URL and may include activity on non-public photos.
+
 == Privacy ==
 
 === Location data has different privacy settings from the photos ===

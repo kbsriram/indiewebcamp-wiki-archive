@@ -12,6 +12,9 @@ Sorted alphabetically by domain name:
 
 * ...
 * http://aaronparecki.com/
+* http://bret.io/
+* http://home.tylergillies.club/
+* https://mowens.com
 * http://tantek.com/
 * http://tommorris.org/
 * ...
@@ -20,6 +23,7 @@ Sorted alphabetically by domain name:
 Additional IndieWebCamp shared-community resources:
 * https://twitter.com/indiewebcamp
 * https://twitter.com/indiewebcampuk
+* http://news.indiewebcamp.com
 
 == See Also ==
 * [[feed]]

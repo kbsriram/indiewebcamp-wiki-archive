@@ -1,0 +1,8 @@
+http://indiewebcamp.com/Bumble
+
+{{stub}}
+
+<dfn>Bumble</dfn> is a really simple markdown-based blog platform on node.js built by [[User:adambrault.com|Adam Brault]].
+
+* Open source: https://github.com/adambrault/bumble
+* Runs the &yet blog and many &yet employees' personal blogs

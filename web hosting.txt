@@ -197,10 +197,13 @@ IndieWeb community members using this approach:
 * [[User:bear.im|Bear]]
 * [[User:petermolnar.eu|Peter Molnar]]
 
-=== Home Hosting ===
-Home Hosting / Indie Hosting is a new type of hosting is starting to emerge largely in part due to the [http://www.raspberrypi.org Raspberry Pi], a small single-board computer with a CPU, RAM, GPU, and USB ports that use an SD Card for a disk storage. One can purchase a Pi for under $100 with enclosure case. It is relatively simple for someone comfortable on the command line to turn a Pi into a home server. There are numerous projects that aim to make the process of installing software on a Pi as easy as possible.
+=== Personal Clouds ===
+Personal Clouds / Indie Hosting is a new type of hosting is starting to emerge largely in part due to the [http://www.raspberrypi.org Raspberry Pi] and other similar devices. All said devices are small single-board computers with a CPU, RAM, GPU, and USB ports that offer some form of disk storage. One can usually purchase one of these devices for under $100 or slightly over. 
+
+There are many projects under development that make installing of server side software on personal clouds as easy as installing apps on a mobile device.
 
 * [[Indie Box]]
+* [[Sandstorm]]
 * [https://arkos.io ArkOS]
 * [https://cloudfleet.io Cloud Fleet]
 * [http://cozy.io Cozy]

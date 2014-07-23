@@ -1,12 +1,12 @@
 http://indiewebcamp.com/icon
 
-An '''<dfn>icon</dfn>''' in the context of the indieweb typically refers to a home page icon for an indieweb site. Different [[platforms]] require different markup to set an icon for a home page shortcut.
+An '''<dfn>icon</dfn>''' in the context of the indieweb typically refers to a home page icon for an indieweb site. Nearly all modern browsers support a simple rel=icon link, a few legacy and other browsers may require rel="shortcut icon", or a <kbd>/favicon.ico</kbd> (at the root).
 
 == Markup ==
-The <code>&lt;link rel="shortcut icon"&gt;</code> tag is a standard way for web pages to indicate an <code>icon</code> for the current page that is also suitable as the icon for a <code>shortcut</code> button to the current page.
+The <code>&lt;link rel="icon"&gt;</code> tag is a standard[http://www.w3.org/2005/10/howto-favicon] way for web pages to indicate an <code>icon</code> for the current page that is also suitable as the icon for a <code>shortcut</code> button to the current page.
 
 <pre><nowiki>
-<link rel="shortcut icon" href="logo.jpg" />
+<link rel="icon" href="logo.jpg" />
 </nowiki></pre>
 
 == iOS home screen ==
@@ -14,7 +14,7 @@ To create an explicit icon (rather than the default page thumbnail) for a shortc
 <pre><nowiki>
 <link rel="apple-touch-icon-precomposed" href="logo.jpg" />
 </nowiki></pre>
-The <code>link rel="apple-touch-icon-precomposed"</code> is an Apple proprietary link relation tag and must be used as is. It cannot be combined with other link rel values e.g. <code>link rel="shortcut icon apple-touch-icon-precomposed"</code>. Whereas that should work, and it's failure to work is a bug in iOS.
+The <code>link rel="apple-touch-icon-precomposed"</code> is an Apple proprietary link relation tag and must be used as is. It cannot be combined with other link rel values e.g. <code>link rel="icon apple-touch-icon-precomposed"</code>. Whereas that should work, and it's failure to work is a bug in iOS.
 
 ''Why <code>apple-touch-icon-precomposed</code> instead of <code>apple-touch-icon</code>?''
 
@@ -22,10 +22,10 @@ Because in iOS6 and earlier, Safari/iOS adds an ugly white drop shadow over the 
 
 == Android home screen ==
 === Chrome and Firefox for Android ===
-Both Chrome and Firefox for Android will work with the standard <code>rel="shortcut icon"</code> markup to enable users to save your icon in two steps: save the site as bookmark, then press-and-hold on the bookmark and select save to homescreen.
+Both Chrome and Firefox for Android will work with the standard <code>rel="icon"</code> markup to enable users to save your icon in two steps: save the site as bookmark, then press-and-hold on the bookmark and select save to homescreen.
 
 === Chrome M31 Beta for Android ===
-To enable one-step adding of your icon to the home screen in Chrome M31 Beta (or later) for Android, you need to also add this line of code to your head element (in addition to the standard <code>rel="shortcut icon"</code> markup described above).
+To enable one-step adding of your icon to the home screen in Chrome M31 Beta (or later) for Android, you need to also add this line of code to your head element (in addition to the standard <code>rel="icon"</code> markup described above).
 
 <pre><nowiki>
 <meta name="mobile-web-app-capable" content="yes" />
@@ -41,9 +41,12 @@ In rough order of implementation of an icon showing/representing themselves on t
 [[User:Adactio.com|Jeremy Keith]] on [http://adactio.com/ adactio.com] has a single favicon for generic shortcuts, and an Apple-specific icon for [[iOS]] support (since ~2008):
 
 <pre style="clear:both"><nowiki>
-<link rel="Shortcut Icon" type="image/ico" href="/favicon.ico" />
-<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="shortcut icon apple-touch-icon" type="image/png" href="/icon.png" />
 </nowiki></pre>
+He also has an icon in a "well known" location that iOS looks for it:
+* <nowiki>http://adactio.com/apple-touch-icon.png</nowiki>
+And that's how iOS finds his icon, not via the <code>&lt;link rel="shortcut icon apple-touch-icon"...</code>
 
 === Shane Becker ===
 {{icon|http://iamshane.com/apple-touch-icon-57-precomposed.png}}
@@ -58,6 +61,9 @@ In rough order of implementation of an icon showing/representing themselves on t
 <link rel="apple-touch-icon-precomposed"                 href="/apple-touch-icon-57-precomposed.png"  />
 </nowiki></pre>
 
+He also has an icon in a "well known" location that iOS looks for it:
+* <nowiki>http://iamshane.com/apple-touch-icon-precomposed.png</nowiki>
+
 === Aaron Parecki ===
 {{icon|http://aaronparecki.com/images/aaronpk-256.jpg}}
 [[User:Aaronparecki.com|Aaron Parecki]] on [http://aaronparecki.com/ aaronparecki.com] has a variety of sizes of icons of himself he uses for his home page icon for saving to a home screen on [[iOS]] (since 2012-07), using the following code:
@@ -67,6 +73,10 @@ In rough order of implementation of an icon showing/representing themselves on t
 <link rel="shortcut icon" type="image/jpg" href="/images/aaronpk-256.jpg">
 <link rel="apple-touch-icon-precomposed" href="/images/aaronpk-256.jpg">
 </nowiki></pre>
+He also has a redirect from a "well known" location that iOS looks for it:
+* <nowiki>http://aaronparecki.com/apple-touch-icon.png</nowiki>
+Which redirects to:
+* <nowiki>http://aaronparecki.com/images/aaronpk-54.png</nowiki>
 
 === Amber Case ===
 {{icon|http://caseorganic.com/images/caseorganic.jpg}}
@@ -89,12 +99,12 @@ In rough order of implementation of an icon showing/representing themselves on t
 
 === Tantek ===
 {{icon|http://tantek.com/logo.jpg}}
-[[User:Tantek.com|Tantek Çelik]] on [http://tantek.com/ tantek.com] has a single 128x128 avatar .jpg he uses both elsewhere on his site, and for his home screen icon for both [[iOS]] and [[Android]], including enabling Chrome M31 one-step "Add to home screen" (since 2013-11-30; switched to apple-touch-icon-precomposed on 2013-12-02), using the following code:
+[[User:Tantek.com|Tantek Çelik]] on [http://tantek.com/ tantek.com] has a single 128x128 avatar .jpg he uses both elsewhere on his site, and for his home screen icon for both [[iOS]] and [[Android]], including enabling Chrome M31 one-step "Add to home screen" (since 2013-11-30; on 2013-12-02 switched from <code>apple-touch-icon</code> to <code>apple-touch-icon-precomposed</code> value; on 2014-07-19 switched from <code>rel="shortcut icon"</code> to <code>rel="icon"</code> value), using the following code:
 
 <pre style="clear:both"><nowiki>
-<link rel="shortcut icon" href="logo.jpg" />
-<meta name="mobile-web-app-capable" content="yes" />
+<link rel="icon" href="logo.jpg" />
 <link rel="apple-touch-icon-precomposed" href="logo.jpg" />
+<meta name="mobile-web-app-capable" content="yes" />
 </nowiki></pre>
 
 ===Kartik Prabhu===
@@ -250,6 +260,15 @@ Chrome on left, Firefox on right
 
 * the "odd picture frame border" is from Firefox 25, Firefox 26 and above do not have that in my tests [[User:Bear.im|Bear.im]]
 
+On {{kylewm}}'s Samsung S3 running Android 4.4.2 and using the default Android browser to "Add to Home Screen", many sites have small icons with an orange flag behind them.<br/> [[File:kylewm-android-icons-2014-07-18.png|300px]]
+
+Compared to icons from Firefox for Android 30.0<br/>[[File:kylewm-android-firefox-icons-2014-07-19.png|300px]]
+
+* On {{gRegor}}'s Nexus 4 running Android 4.4.4 and using Chrome 35.0.1916.141:
+[[File:gregor-homescreen-2014-07-18.png|300px]]
+** Icons were added / screenshot taken on 2014-07-18.
+** Default bookmark names were not changed except for Erin Jo Richey, since hers defaulted to just "Known."
+
 === Firefox OS ===
 Using FirefoxOS, when you make a bookmark by pressing the Star button bottom right, it offers to add the site to the home screen.
 When you do, it puts the icon within a circle, with the corners not quite touching the circumference:<br/>
@@ -287,6 +306,16 @@ Code that Tumblr uses: (e.g. hannahdonovan.com when retrieved with an iOS UA)
 * '''iOS: Awkward hyperlink navigation.''' Launches as separate "web app" in iOS but permalinks (e.g. "Read More") switch to and open in Mobile Safari (known problem of using <code>apple-mobile-web-app-capable</code>)
 * '''iOS: Limited to iPhone4/iPod4Touch vertical dimensions''' Something about the meta viewport tag causes the separate "web app" to open in iPhone4/iPod4Touch vertical dimensions, leaving big unused black bars at the top and bottom in iPhone5/iPod5Touch.
 Both of these are reason enough to do your own shortcut icon markup / handling on your own site rather than depend on Tumblrs semi-awkward shortcut icon support.
+
+== Legacy Well Known Paths ==
+Some browsers on some [[platforms]] will look for icons in hard-coded locations on a website.
+=== favicon ===
+Internet Explorer versions 10 and before look for:
+* <code>/favicon.ico</code>
+=== apple-touch-icon ===
+iOS looks at the root of your server for:
+* <code>/apple-touch-icon.png</code>
+* <code>/apple-touch-icon-precomposed.png</code>
 
 == Advanced ==
 The following describe advanced or experimental techniques that are either non-trivial, potentially fragile, or both.

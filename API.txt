@@ -64,9 +64,11 @@ Because the consumption of APIs are intended for computer programmers rather tha
 While decreasing in popularity as of the time of writing (2013-11), there are still a wide variety of services that require the use of overly complicated standard protocols like [https://en.wikipedia.org/wiki/SOAP SOAP].
 
 === Fragility ===
+{{main|snowflakiness}}
 APIs are fragile for several reasons:
 # Site providers break their APIs all the time in version changes. [[Twitter]] has a long history of this.
 # APIs are ephemeral. They don't survive archiving or archives. In contrast [[microformats]] are part of the HTML and thus as long as you can get some HTML for something you parse it for microformats and get all the information that way.
+See [[snowflakiness]] as a term for referring to the inherent fragility of snowflake APIs.
 
 == FAQ ==
 === Why are APIs so popular ===

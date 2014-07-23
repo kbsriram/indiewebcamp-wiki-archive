@@ -1,6 +1,16 @@
 http://indiewebcamp.com/2014/fix-the-indiewebcamp-wiki
 
+== Participants ==
+This list was added well after the event, so please add if I have forgotten anyone:
+* Crystal Beasley
+* Peat Bakke
+* {{gRegor}}
+* {{bret}}
+* Ward Cunningham
+* . . .
+
 == What do you visit the wiki for most? ==
+Unordered - written down on the whiteboard as people shouted them out.
 * microformat reference
 * pics of attendees
 * IWC schedule & location
@@ -29,10 +39,10 @@ Ordered by two-dot voting of participants.
 * subscribe to new pages
 
 == Home Page ==
-* Remove Wiki sub-heading, "Main page" and "Search" links. These features are persistent on each page via the logo and search box.
-* Collapse sub-heading IndieWebCamp Events "Calendar", "Guest List", and "Schedule" into one link.
+* <s>Remove Wiki sub-heading, "Main page" and "Search" links. These features are persistent on each page via the logo and search box. </s>
+* <s>Collapse sub-heading IndieWebCamp Events "Calendar", "Guest List", and "Schedule" into one link.</s>
 * Format the home page more like a blog?
-* Collapse "Why" and "Principles" sidebar links into one?
+* <s>Collapse "Why" and "Principles" sidebar links into one?</s>
 * Diagram of suggested home page.
 ** Events promoted first, left main column
 ** Latest news beneath it, more like a blog (content from news.indiewebcamp.com with post summary)

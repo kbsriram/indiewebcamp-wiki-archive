@@ -76,6 +76,9 @@ Also experimenting with local search engine which indexes the archive of all the
 UI as of 2014-03-01, showing authorship information, page name, excerpt, URL:
 http://waterpigs.co.uk/img/2014-03-01-indie-search-halsway.png
 
+=== Emma Kuo ===
+[[User:notenoughneon.com]] has implemented native search on [http://notenoughneon.com/] to find text matches in the filestore. Search results show a snippet of the relevant post, with matches highlighted.
+
 == Design ==
 If in doubt: copy Google.
 

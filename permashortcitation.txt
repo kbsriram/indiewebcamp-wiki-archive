@@ -66,7 +66,7 @@ Citations (more needed):
 * "FYI, the links in your tweets are missing the slash" https://twitter.com/courtarro/status/453689172138926081
 * ...
 
-When doing original post discovery, [[Bridgy]] originally encountered too many false positives <ref>[http://indiewebcamp.com/irc/2014-03-21/line/1395422237 "too many false positives"]</ref> when looking for PSCs anywhere within the text. Now only looks for citations at the end of text (which can be problematic for tweets that include media w/ automatic media URL)
+When doing original post discovery, [[Bridgy]] originally encountered too many false positives [http://indiewebcamp.com/irc/2014-03-21/line/1395422237 "too many false positives"] when looking for PSCs anywhere within the text. Now only looks for citations at the end of text (which can be problematic for tweets that include media w/ automatic media URL)
 
 == More thoughts on use of ==
 The more we find conventions like these, both on our own sites, and on POSSEd content, the more we give people who live on silos clues about the indieweb, its existence, and maybe inspire curiosity at least. - tantek in IRC 2013-11-08.
@@ -81,9 +81,9 @@ It needs to be a *considerably* richer experience for the user to not get annoye
 
 ----
 
-just fyi, PSCs never got much adoption, and it's not clear that they will ... i wouldn't encourage using them, but that's just my opinion - snarfed on IRC 2014-03-21 <ref>[http://indiewebcamp.com/irc/2014-03-21/line/1395422272 "never got much adoption"]</ref>
+just fyi, PSCs never got much adoption, and it's not clear that they will ... i wouldn't encourage using them, but that's just my opinion - snarfed on IRC 2014-03-21 [http://indiewebcamp.com/irc/2014-03-21/line/1395422272 "never got much adoption"].
 
-as our "original posts" becomes more and more useful than any silo POSSE copy, it will make more and more sense to just use permashortlinks in POSSE copies - since users clicking on those will see more information (e.g. more indieweb/cross-site comments / likes) - tantek on IRC 2014-03-21 <ref>[http://indiewebcamp.com/irc/2014-03-21/line/1395436051 permashortlinks "will make more and more sense"]</ref>
+as our "original posts" becomes more and more useful than any silo POSSE copy, it will make more and more sense to just use permashortlinks in POSSE copies - since users clicking on those will see more information (e.g. more indieweb/cross-site comments / likes) - tantek on IRC 2014-03-21 [http://indiewebcamp.com/irc/2014-03-21/line/1395436051 permashortlinks "will make more and more sense"]
 
 == Origins ==
 How the current permashortcitation format evolved:
