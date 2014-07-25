@@ -161,6 +161,12 @@ Articles that may provide insights on how to motivate individuals to move from F
 * <span class="h-cite"><time class="dt-published">2013-02-25</time> <span class="p-author h-card">Douglas Rushkoff</span> <cite class="p-name">[http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html Why I'm quitting Facebook]</cite>. <span class="u-url">http://www.cnn.com/2013/02/25/opinion/rushkoff-why-im-quitting-facebook/index.html</span></span>
 * ...
 
+== FAQ ==
+
+'''Q:''' How do I watch videos on Facebook without Flash?
+
+'''A:''' Accessing the video through <code>https://m.facebook.com/</code> or <code>https://touch.facebook.com</code> will allow you to watch the video using HTML5 video.
+
 == See Also ==
 * [[silos]]
 * [[silo-quits]]

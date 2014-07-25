@@ -14,10 +14,34 @@ If you're interested in jumping into the IndieWeb, and you've  chosen WordPress 
 
 As you complete each step, try plugging your site into [http://indiewebify.me/ indiewebify.me]. It will give you instant feedback, confirming that it's working or helping you fix it if not.
 
-=== Getting started ===
+<div style="clear:right">__TOC__</div>
+
+== Getting started with Wordpress ==
 We'll assume you already have your own [[personal-domain]]. After that, you'll need [[web-hosting]]. There are plenty of good options. [http://wpengine.com/ WPEngine] is one of the best for both beginners and advanced hackers. [[#WordPress.com hosting service]] is solid and easy to use, but limits you to pre-approved plugins and themes.
 
-<div style="clear:right">__TOC__</div>
+=== Security and Spam Protection ===
+
+One of the most important things for new users to do is to properly secure their Wordpress installation. By default, the administrative user created during Wordpress installation is username 'admin'. This default account is a popular target, and it or any variant(administrator, etc.) should not be used as a username.
+
+==== Default Settings ====
+
+Disable registration of new users.
+
+==== Login Security Plugins ====
+
+There are many options in this area...
+
+* [http://wordpress.org/plugins/wp-fail2ban/ WP Fail2Ban]  logs all login attempts, whether successful or not, to the syslog of the server using LOG_AUTH. If you have server level access, you can act on these logs using Fail2Ban or other software to block IP addresses.
+
+==== Spam/Comment Protection ====
+
+Some individuals may prefer to disable local commenting in favor of only allowing commenting through webmentions. If local commenting is enabled, there should be some form of protection installed.
+
+* [http://wordpress.org/plugins/akismet/ Akismet] is a spam protection service by Automattic, the company that runs Wordpress.com and is thus a major contributor/sponsor of the Wordpress open source project. It is free for personal use.
+
+== Adding Indieweb Support/Elements to a Wordpress Site ==
+
+
 === [[IndieAuth]] ===
 Once you have WordPress up and running, you'll want to set up [[IndieAuth]]. The [http://wordpress.org/plugins/indieauth-links/ IndieAuth-Links] plugin makes this easy, but you can also use [http://en.support.wordpress.com/add-social-media-buttons-to-your-sidebar-or-footer/ Social Media Buttons] or a [http://codex.wordpress.org/WordPress_Widgets#Using_Text_Widgets Text Widget] to add the needed [[rel-me]] link(s). Detail can be found at [https://indieauth.com/setup indieauth.com/setup] Once you've done that, head over to [https://indieauth.com/ indieauth.com] and sign in!
 
@@ -143,8 +167,17 @@ For brainstorming on development of Indieweb themes/plugins for Wordpress and di
 === Problems ===
 Problems with using WordPress software  from an IndieWeb perspective.
 
+==== Security Issues ====
+
+Security vulnerabilities are found in many popular pieces of software, as their deployment makes them attractive targets. While there is currently limited options within the core of Wordpress, there are many security plugins that offer protection for Wordpress blogs.
+
 ==== Maintenance Vulnerability ====
-Independents (quite tech smart and capable) who had their WordPress blog(s) hacked due to being unable to keep up with security updates / maintenance (too much of a hassle/chore/tax on their time).
+Independents (quite tech smart and capable) who had their WordPress blog(s) hacked due to being unable to keep up with security updates / maintenance (too much of a hassle/chore/tax on their time). 
+
+However, since Version 3.7, Wordpress supports [http://codex.wordpress.org/Configuring_Automatic_Background_Updates|automatic background updates] to alleviate this issue. By default, automatic updates for minor releases and translations are enabled. There are configurable settings to allow major release updates, and updates for specific plugins. 
+
+The Core Automatic Update functionality can also be used to push critical security updates to popular plugins. This was used in April of 2014 when the popular JetPack plugin was discovered to have a critical vulnerability and the developers requested the security update be pushed via the system to all users who had not expressly disabled all updates. 
+
 * Clay Shirky:
 ** https://plus.google.com/u/0/+AdeOshineye/posts/6zUWbNKbWrM
 * Dan Brickley

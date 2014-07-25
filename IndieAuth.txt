@@ -51,6 +51,9 @@ While there are several reasons why [[Twitter]] might not working for IndieAuth 
 ** <kbd>https://twitter.com/indiewebcamp</kbd>
 * As of 2014-01 we are seeing occasional SSL errors trying to fetch profiles from twitter.com. Until this is resolved, you may wish to try using another provider such as Google+ or Github.
 
+=== Why am I getting "insecure redirect" errors? ===
+* If you get an error about an insecure redirect, check to see whether your silo link is going to https://yoursite which is in turn redirecting to http://yoursite.  (Dreamwidth is an example of a site that does this.)  If so, change the link to go directly to http://yoursite
+
 === Why is Google+ not working ===
 * Ensure you add your website under your "Other Profiles" section on your Google+ profile. Google only adds the rel=me markup for your "Other Profiles"
 * Ensure that your "Other Profiles" section has permissions set to "Public"
@@ -87,7 +90,7 @@ See: [[Why web sign-in]].
 <blockquote>"The problem is it's too easy to not own your email address (@gmail.com, etc) so it's not really an "indie" identifier. The point of IndieAuth is to encourage people to own their online identity."[http://aaronparecki.com/replies/2013/07/01/1/indieauth][https://twitter.com/aaronpk/status/351893272089735168]</blockquote>
 
 === More FAQ ===
-See [http://indieauth.com/#faq Frequently Asked Questions] for more FAQs.
+See [http://indieauth.com/faq Frequently Asked Questions] for more FAQs.
 
 __TOC__
 

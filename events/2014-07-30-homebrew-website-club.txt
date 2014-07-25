@@ -18,8 +18,7 @@ All times are Pacific Time unless otherwise noted in venues.
 : with writing hour from 17:30-18:30!
 
 ;Portland
-:TBD
-<!-- <span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span> -->
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
 ;Minneapolis
 :TBD
@@ -41,8 +40,8 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-07-30-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://werd.io/2014/homebrew-website-club-july-30-2014
+* POSSE [[Facebook]] copy: https://www.facebook.com/events/682246018521339
 
 Portland:
 * add indieevent...

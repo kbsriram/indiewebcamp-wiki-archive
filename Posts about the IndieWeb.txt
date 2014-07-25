@@ -4,6 +4,7 @@ http://indiewebcamp.com/Posts_about_the_IndieWeb
 
 Posts about the indieweb (in chronological order)
 === 2014 ===
+* 2014-07-23 Ogilvy: [http://www.ogilvydo.com/topics/tech-innovation/the-indie-web-friend-or-foe/ The Indie Web – friend or foe?]
 * 2014-07-07 Matthew Graybosch: [http://www.matthewgraybosch.com/2014/07/07/screw-digital-sharecropping-im-getting-a-posse/ Screw Digital Sharecropping. I’m Getting a Posse.]
 * 2014-07-03 Scott Rosenberg: [http://www.wordyard.com/2014/07/03/indieweb-and-respect-network-two-roads-to-decentralizing-the-network/ IndieWeb and Respect Network: Two roads to decentralizing the network]
 * 2014-06-12 Russell Davies: [http://www.campaignlive.co.uk/russell_davies/article/1298102/the-web-idealists-point-content-cant-truly-blossom-walled-gardens/ The web idealists have a point: content can't truly blossom in walled gardens]

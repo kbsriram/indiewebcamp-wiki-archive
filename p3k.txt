@@ -138,7 +138,7 @@ Note that in the case of @snarfed, his twitter account is actually different.
 
 ==== Issues ====
 * Fixed-column schemas are annoying to deal with and extend
-* Since some of these profile URLs are twitter URLs, they often change and many are out of date
+* Since some of these photo URLs are twitter URLs, they often change and many are already out of date
 
 ==== See Also ====
 [[nicknames-cache]]

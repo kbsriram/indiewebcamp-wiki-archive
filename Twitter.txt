@@ -6,9 +6,13 @@ http://indiewebcamp.com/Twitter
 == Features ==
 Twitter provides the following features:
 
-* [[follow]] and unfollow
+* [[signup]] &amp; [[login]] with a email address, user chosen username, password, and optional [[2FA]] (two-factor authentication) via SMS or Twitter Mobile Native App.
+** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]], TBI multi-factor [[IndieAuth]]
+* [[follow]], [[mute]][https://support.twitter.com/articles/20171399], and unfollow[https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
 * [[reader]] UI with an integrated UI to:
 * [[post]] a [[note]] or [[reply]] (optionally attaching 1-4 [[photos]] optionally [[people-tagged]]) at a [[permalink]] with:
+** [[autolink]]ing of URLs, @-names, #-[[hashtags]] in note/reply
+** [[link-preview]] of (only one, the first) URLs in note/reply, including [[autoembed]]ding of [[YouTube]] and other whitelisted media hosting sites. See [[Twitter Cards]] for details.
 ** [[retweets]] count
 ** [[favorites]] count
 ** [[comments-display]] (@-replies to it)
@@ -37,6 +41,18 @@ Twitter provides the following features:
 ** [[mention]] you in their posts
 ** [[people-tag]] you in their posts
 ** [[follow]] you
+*** and ability to [[block]][https://support.twitter.com/articles/117063-blocking-users-on-twitter] them
+*** and optionally report them as [[spam]][https://support.twitter.com/articles/64986-how-to-report-spam-on-twitter]
+* [[profile]] page (equivalent of indieweb [[homepage]]) configuration including
+** header image
+** [[icon]]
+** name (as displayed next to tweets)
+** location (plain text field)
+** website (supports [[rel-me]])
+** 160 character bio
+** [[Facebook]] connection to [[POSSE]] tweets to there
+** privacy toggle (all posts are public, or private, requiring approval for every follow request)
+** lots of other [[settings]]
 
 === Replacing ===
 If you recreate these features on your own site, including [[POSSE]] support to Twitter for each, then you no longer have any need to directly use Twitter.
@@ -62,7 +78,8 @@ The end result is that all your interactions with Twitter and Tweets via your ow
 Twitter has several clients that all have a fairly complete implementation of the above features:
 * web: http://twitter.com/
 * mobile web: http://m.twitter.com/
-* native [[mobile]] [[app]]s on MacOS (e.g. TweetDeck), iOS, and Android
+* native [[app]]s on MacOS (e.g. TweetDeck), and [[mobile]] platforms iOS &amp; Android
+* SMS - you can sign-up for Twitter and do most actions via SMS. See [http://microformats.org/wiki/twitter-syntax Twitter SMS syntax research].
 
 == Recommendations ==
 === CC license your tweets ===

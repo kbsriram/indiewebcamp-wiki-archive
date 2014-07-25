@@ -85,6 +85,11 @@ Used by:
 ** Debugging: "if there's an environment difference between my dev setup and production which causes an error, then I either debug live, or if it's going to take < 5 minutes I revert"
 ** Revert: check out a previous revision from git, using the hash number, finding a previous hash value in the git history (`git log`). 
 *** if there's a .bak folder as noted in "Upgrade", delete the current deploy folder, then rename the .bak folder to current.
+* [[User:cweiske.de]]
+** Two git remotes: One for the pure code, one for deployment
+** Changes can be pushed in the "pure code" remote without causing a live deployment
+** Pushing code to the deployment remote invokes a post-receive hook that checks the code out to the domain's document root
+** In addition to checking out, an update script is run that updates feeds with the latest posts and renders menus around the blog posts contents
 
 ==== Heroku git push ====
 [https://devcenter.heroku.com/articles/multiple-environments Use Heroku with git]

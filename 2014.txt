@@ -65,7 +65,8 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 * 2014-06-23 {{gRegor}}: <cite>[http://gregorlove.com/2014/06/1183/ The Dream of the '90s]</cite>
 * 2014-06-28 {{t}}: <cite>[http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering IndieWebCamp 2014 — Thoughts Before The Gathering]</cite>
 * 2014-07-02 Mike Caulfield: <cite>[http://hapgood.us/2014/07/02/indiewebcamp/ #indiewebcamp]</cite>
-* 2014-07-03 Scott Rosenberg: <cite>[http://www.wordyard.com/2014/07/03/indieweb-and-respect-network-two-roads-to-decentralizing-the-network/ IndieWeb and Respect Network: Two roads to decentralizing the network]
+* 2014-07-03 Scott Rosenberg: <cite>[http://www.wordyard.com/2014/07/03/indieweb-and-respect-network-two-roads-to-decentralizing-the-network/ IndieWeb and Respect Network: Two roads to decentralizing the network]</cite>
+* 2014-07-19 {{caseorganic}}: <cite>[http://caseorganic.com/articles/2014/07/19/2/indiewebcamp-2014-a-success IndieWebCamp 2014 a Success!]</cite>
 * ... add yours here!
 
 == Help Out ==
