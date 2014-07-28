@@ -10,24 +10,29 @@ __TOC__
 == Behavior ==
 Fragmentions find the first matching word or phrase in a document and focuses its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
 
-== IndieWeb Examples ==
+== Open Source ==
 * [https://github.com/chapmanu/fragmentions client-side script] and 
 * [https://chrome.google.com/webstore/detail/fragmentions/pgajkeekgcmgglngchhmcmnkffnhihck Chrome extension] 
+* [https://github.com/idno/idno/commit/04f79c792d07dc14f8f32b320c9ec39427f06a09 idno adds support] thanks to [http://werd.io/ Ben Werdmüller]
+* A [https://christiaanconover.com/code/wp-fragmention wordpress plugin] to add fragmentions by [https://christiaanconover.com/ Christiaan Conover]
+* [https://drupal.org/sandbox/ocean/2247743 A drupal plugin] by Drew Robinson
+* [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
+* [http://disquotational.appspot.com/ Disquotational] is a web service (and bookmarklet) for making fragmention links by [http://www.purelytheoretical.com/ Darryl McAdams]
+
+== IndieWeb Examples ==
 <span id="Implementations">Implementations</span> on IndieWeb sites.
 * [http://www.kevinmarks.com/fragmentions.html initial discussion] and [http://www.kevinmarks.com/poemfragmentions.html follow-up] explaining the idea more generally
 * [http://sandbox.thewikies.com/fragmentions/example.html##individual+words+and+phrases Jonathan's example page] 
 * [http://www.kevinmarks.com/w3cannotation.html##most+robust+reference Kevin's original page with Jonathan's script added]
 * [http://aaronparecki.com/articles/2014/03/23/1/posting-photos-on-my-own-site##start+using+this Aaron's site] - note the custom CSS for the highlighted paragraph
 * [http://shakespeare.sayit.mysociety.org/much-ado-about-nothing/act-iv/scene-i-a-church##link+my+dear+friend sayit.mysociety.org], thanks to Matthew Somerville. Shakespeare, government inquiries, and any other transcripts - [http://sayit.mysociety.org/ more information]
-* [https://github.com/idno/idno/commit/04f79c792d07dc14f8f32b320c9ec39427f06a09 idno adds support] thanks to [http://werd.io/ Ben Werdmüller]
-* A [https://christiaanconover.com/code/wp-fragmention wordpress plugin] to add fragmentions by [https://christiaanconover.com/ Christiaan Conover]
 * [http://blog.vrypan.net/2014/04/22/fragmentions/##inside+the+page Panayotis Vryonis' personal blog]
 * [http://indiewebcamp.com/fragmention##this+wiki this wiki] itself! Thanks [http://aaronparecki.com/ Aaron]
-* [https://drupal.org/sandbox/ocean/2247743 A drupal plugin] by Drew Robinson
-* [https://github.com/goblindegook/Fragmentions/ another wordpress plugin] by Luís R.
+
 * [http://nerd.vasilis.nl/linking-fragments-page/##a+few+lines+of+CSS Styled with a tiny CSS animation] by Vasilis van Gemert
-* [http://disquotational.appspot.com/ Disquotational] is a web service (and bookmarklet) for making fragmention links by [http://www.purelytheoretical.com/ Darryl McAdams]
 * [https://kartikprabhu.com/article/marginalia##fragmentions+come+in Kartik's Site] - custom CSS for the highlights the paragraph in gray.
+
+* {{t}} supports fragmentions on all tantek.com post permalinks [http://tantek.com/2014/207/t1/iteration-tech-proposals-cc0-wiki-preferred since 2014-07-26] using the <code>fragmention.min.js</code> open source polyfill, and CSS that highlights the element containing the fragmention in <span style="background:yellow">yellow</span> and fades to <span style="background:#ffffe0">very light yellow</span>.
 
 == Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template

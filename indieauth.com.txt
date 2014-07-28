@@ -35,3 +35,5 @@ https://indieauth.com/faq
 * [[micropub]]
 
 [[Category:IndieAuth]]
+
+__TOC__

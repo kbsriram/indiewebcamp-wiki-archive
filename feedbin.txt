@@ -1,0 +1,13 @@
+http://indiewebcamp.com/feedbin
+
+{{stub}}
+
+Feedbin is a traditional feed reader similar to google reader, but offers a much improved and simplified interface compared to gReader.
+
+Feedbin is free software: https://github.com/feedbin/feedbin  
+
+Inline footnote expansion: http://imgur.com/a/GaqqW#0
+
+* Community mebers using Feedbin:
+** {{ bret }}
+** ...

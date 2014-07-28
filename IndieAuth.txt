@@ -59,7 +59,6 @@ While there are several reasons why [[Twitter]] might not working for IndieAuth 
 * Ensure that your "Other Profiles" section has permissions set to "Public"
 
 === Why is IndieAuth and GitHub Pages not playing nicely? ===
-
 Are you getting a funny error when trying to log into IndieAuth with credentials hosted on your Github Pages powered website?  This is likely due to an outdated DNS record!  
 
 '''Quick fix:'''
@@ -68,6 +67,12 @@ Are you getting a funny error when trying to log into IndieAuth with credentials
 What is happening is that if your DNS record points to the old github pages IP address, it sometimes 301 redirects to `/` which is non-standard and IndieAuth does not currently support relative URLs when discovering credentials.  See this issue: https://github.com/aaronpk/IndieAuth/issues/46#issuecomment-34565297
 
 Github also wrote a blog post about this change, which many people missed: https://github.com/blog/1715-faster-more-awesome-github-pages
+
+=== How do I make my site do the authorization itself ===
+For how to do distributed or delegated IndieAuth, see [[distributed-indieauth]].
+
+=== How do I use a specific other site for my IndieAuth ===
+See [[distributed-indieauth]].
 
 === Why IndieAuth ===
 IndieAuth is part of the Indie Web movement to take back control of your online identity. Instead of logging in to websites as "you on Twitter" or "you on Facebook", you should be able to log in as just "you". We should not be relying on Twitter or Facebook to provide our authenticated identities, we should be able to use our own domain names to log in to sites everywhere.
@@ -228,6 +233,7 @@ Want to help? See if you can contribute to one or more of the following:
 ** [[On Evolving IndieAuth Followup]]
 
 == See Also ==
+* [[distributed-indieauth]]
 * [[Web sign-in]]
 * [[RelMeAuth]]
 * [[microformats]]

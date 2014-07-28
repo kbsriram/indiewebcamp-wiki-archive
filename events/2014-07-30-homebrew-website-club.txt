@@ -19,6 +19,7 @@ All times are Pacific Time unless otherwise noted in venues.
 
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
+: This week's Portland meetup is part of [http://pdx.devweek.org/ PDX DevWeek], so we will be running it as more of an unstructured hack night rather than the traditional format. We'll be going from 18:30 until 21:00.
 
 ;Minneapolis
 :TBD
@@ -44,8 +45,10 @@ San Francisco:
 * POSSE [[Facebook]] copy: https://www.facebook.com/events/682246018521339
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
+* http://calagator.org/events/1250466709
+* http://pdx.devweek.org/#indieweb-hacknight
+* http://aaronparecki.com/events/2014/07/30/1/homebrew-website-club
+* POSSE copy: https://www.facebook.com/events/889951157699774/
 
 Minneapolis:
 * add indieevent...
@@ -67,6 +70,8 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 '''Portland:'''
+* {{aaronpk}}
+* {{bret}}
 * ... add yourself!
 
 '''Minnesota:'''
@@ -74,6 +79,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 '''Chicago:'''
 * {{gRegor}}
+* [[User:Kartikprabhu.com| Kartik]]
 * ... add yourself!
 
 == Notes ==

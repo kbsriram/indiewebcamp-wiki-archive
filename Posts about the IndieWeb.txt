@@ -1,8 +1,10 @@
 http://indiewebcamp.com/Posts_about_the_IndieWeb
 
-'''For links to even more sources of IndieWeb news check out the [[news]] page'''
+Welcome to '''<dfn>news about the indieweb</dfn>''' where recent notable articles about the indieweb are cited and linked to keep you up to date.
+* Want to watch a talk about the indieweb? See: '''[[videos about the indieweb]]'''!
+Check out the [[news]] page for links to more sources of IndieWeb news.
 
-Posts about the indieweb (in chronological order)
+Articles about the indieweb (in chronological order)
 === 2014 ===
 * 2014-07-23 Ogilvy: [http://www.ogilvydo.com/topics/tech-innovation/the-indie-web-friend-or-foe/ The Indie Web – friend or foe?]
 * 2014-07-07 Matthew Graybosch: [http://www.matthewgraybosch.com/2014/07/07/screw-digital-sharecropping-im-getting-a-posse/ Screw Digital Sharecropping. I’m Getting a Posse.]

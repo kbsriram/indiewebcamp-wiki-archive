@@ -2,7 +2,7 @@ http://indiewebcamp.com/in-reply-to
 
 {{stub}}
 
-'''<dfn>in-reply-to</dfn>''' is a [[rel]] value for use where a post is a reply to another post. The post that is a reply should hyperlink to the other post with [[rel-in-reply-to]]. Often linked inside the [[reply-context]] of a reply post.
+'''<dfn>in-reply-to</dfn>''' is a [[rel]] value for use where a [[post]] [[permalink]] page is a [[reply]] to another post. The reply post should hyperlink to the other post with [[rel-in-reply-to]]. Often linked inside the [[reply-context]] of a reply post.
 
 See the [http://microformats.org/wiki/rel-in-reply-to rel-in-reply-to] specification for details.
 

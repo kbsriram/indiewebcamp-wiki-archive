@@ -1,5 +1,24 @@
 http://indiewebcamp.com/User%3AGregorlove.com/sandbox
 
+== Determining ==
+How to determine authorship of a post on a page - AKA the Authorship [[discovery]] algorithm / processing model for implementations.
+
+To determine authorship of a post on page '''A''':
+
+# Parse the [[h-entry]] for the post on page '''A'''. If no h-entry is found, then there's no post to find authorship for; abort.
+# If the h-entry has a p-author, use that and its [[h-card]] to determine the author of the post.
+# Otherwise, look for a top-level [[h-feed]] with author property and use that
+# Otherwise, if the page is a post permalink page (AKA the post's page) 
+## If the page has a [[rel-author]] link, continue with [[#rel-author parsing]] below
+## Otherwise, if there's an [[h-card]] on page '''A''' with u-url == rel-author URL, use that h-card for the author.
+# Otherwise, no deterministic author can be found. Implementations are encouraged to document additional heuristics below for consideration for incorporation in to the authorship algorithm.
+
+=== rel-author parsing ===
+# Fetch the rel-author page '''B''' and parse it for microformats2
+## If there's an [[h-card]] with a u-url == u-uid == page '''B''''s URL, use that h-card for the author.
+## Otherwise, if there's an [[h-card]] with u-url for which there's also a rel-me URL on page '''B''' (perhaps the same hyperlink element as the u-url, though not required to be), use that h-card for the author.
+
+<!--
 = Suggested wiki CSS tweak =
 
 == Level 2 heading ==
@@ -38,3 +57,4 @@ This suggested style is font-size: 135% instead of 132%, and font-weight: normal
 
 == Feedback ==
 Bugs, improvements?
+-->

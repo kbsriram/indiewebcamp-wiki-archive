@@ -44,6 +44,7 @@ In no particular order, I am interested in:
 ** I particularly enjoy using Goodreads.com currently to track my reading progress. Would like to do that on my site and cross-post there, instead.
 * Tweak new wiki theme
 * Set up [[checkins]], display maps with OpenStreetMap
+* Set up [[micropub]]
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

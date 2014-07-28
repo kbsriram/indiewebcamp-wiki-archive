@@ -52,6 +52,9 @@ Sorted by earliest photo posts first.
 ** https://twitter.com/adactio/status/486617601167339521
 ** https://www.flickr.com/photos/adactio/14604446101
 
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com|Kartik Prabhu]] uses [[Bundle]] to post photos as a part of notes since [https://kartikprabhu.com/notes/dusty-rhodes-watershed 2014-07-27]
+
 == Notes with photos examples ==
 Not quite photo posts, but similar, [[notes]] with embedded photos are another approach to photo-like posts.
 

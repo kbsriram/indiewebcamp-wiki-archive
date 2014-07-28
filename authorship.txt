@@ -7,15 +7,21 @@ http://indiewebcamp.com/authorship
 == Determining ==
 How to determine authorship of a post on a page - AKA the Authorship [[discovery]] algorithm / processing model for implementations.
 
-# parse the [[h-entry]] for the post on the page. if no h-entry, then there's no post to find authorship for, abort.
-# if the h-entry has a p-author, use that and its [[h-card]] to determine the author of the post.
-# otherwise look for a top-level [[h-feed]] with author property and use that
-# otherwise if the page is a post permalink page (AKA the post's page).
-## if the page has a [[rel-author]] link
-### go get the destination page and parse it for microformats2
-### if there's an [[h-card]] with a u-url == u-uid == that page's URL, use that h-card for the author.
-### else if there's an [[h-card]] with u-url for which there's also a rel-me link on that page (perhaps the same hyperlink element as the u-url, though not required to be), use that h-card for the author.
-### otherwise if there's an [[h-card]] on the post's page with a u-url == rel-author link's href, use that h-card for the author.
+# start with a particular <code>[[h-entry]]</code> to determine authorship for, and no <code>author</code>. if no <code>h-entry</code>, then there's no post to find authorship for, abort.
+# parse the <code>[[h-entry]]</code>
+# if the <code>h-entry</code> has an <code>author</code> property, use that
+# otherwise if the h-entry has a parent <code>[[h-feed]]</code> with <code>author</code> property, use that
+# if an <code>author</code> property was found
+## if it has an [[h-card]], use it, exit.
+## otherwise if <code>author</code> property is an <code>http(s)</code> URL, let the <var>author-page</var> have that URL
+## otherwise use the <code>author</code> property as the author name, exit
+# if there is no <var>author-page</var> and the <code>h-entry</code>'s page is a permalink page, then
+## if the page has a [[rel-author]] link, let the <var>author-page</var>'s URL be the href of the [[rel-author]] link
+# if there is an <var>author-page</var> URL
+## get the <var>author-page</var> from that URL and parse it for microformats2
+## if <var>author-page</var> has 1+ <code>[[h-card]]</code> with <code>url</code> == <code>uid</code> == <var>author-page</var>'s URL, then use first such <code>h-card</code>, exit.
+## else if <var>author-page</var> has 1+ <code>[[h-card]]</code> with <code>url</code> property which matches the <code>href</code> of  a [[rel-me]] link on the <var>author-page</var> (perhaps the same hyperlink element as the u-url, though not required to be), use first such <code>h-card</code>, exit.
+## if the <code>h-entry</code>'s page has 1+ <code>[[h-card]]</code> with <code>url</code> ==  <var>author-page</var> URL, use first such <code>h-card</code>, exit.
 # otherwise no deterministic author can be found. Implementations are encouraged to document additional heuristics below for consideration for incorporation in to the authorship algorithm.
 
 Note: the steps of checking for "url == uid == page's URL" and "url that's also a rel-me" were incorporated inline from the steps for [http://microformats.org/wiki/representative-hcard-parsing parsing a representative h-card]. Some improvements have been made here due to feedback from implementations in practice, and those improvements should be incorporated into an iteration of representative h-card.
@@ -50,7 +56,7 @@ Theoretical issues are grouped here for capturing purposes. If you find a real w
 === Name avatar display in comments ===
 In [[comments-presentation]], it describes how a site that accepts indieweb [[reply]] posts via webmention can retrieve those replies and display them as full-fledged comments on a post, including name and icon/avatar of commenter.
 
-[[hCard]] is the most common way that name, URL, photo information is published about a person on the web. Thus parsing for an author's [[h-card]] to retrieve their name and avatar makes the most sense.
+[[h-card]] is the most common way that name, URL, photo information is published about a person on the web. Thus parsing for an author's [[h-card]] to retrieve their name and avatar makes the most sense.
 
 == Algorithm Design Notes ==
 Why do we parse for the authorship details in the order that we do?
@@ -59,9 +65,9 @@ First, we prefer the p-author of the h-entry first because that is the most dire
 
 Only if the post itself lacks direct authorship information do we fall back to checking for a [[rel-author]] link, which is a fairly well established practice for linking from posts to pages representing authors.
 
-On such sites that use rel-author, they almost always point to a page that has a much richer hCard about the author than the post page itself, including a much higher likelihood of having a good photo / avatar image as part of that hCard. Thus we next prefer to go retrieve that rel-author destination, and look for a representative hCard there (per the "url == uid == page's URL" and "url that's also a rel-me" steps noted above).
+On such sites that use rel-author, they almost always point to a page that has a much richer h-card about the author than the post page itself, including a much higher likelihood of having a good photo / avatar image as part of that h-card. Thus we next prefer to go retrieve that rel-author destination, and look for a representative h-card there (per the "url == uid == page's URL" and "url that's also a rel-me" steps noted above).
 
-Only if the rel-author page lacks an hCard do we then fallback to looking for a likely smaller (if present) hCard on the post page itself that has a u-url of the same value as the destination of the rel-author, thus indicating that it is an hCard for the author.
+Only if the rel-author page lacks an h-card do we then fallback to looking for a likely smaller (if present) h-card on the post page itself that has a u-url of the same value as the destination of the rel-author, thus indicating that it is an h-card for the author.
 
 == Implementation heuristics ==
 === php mf2 getAuthor ===
