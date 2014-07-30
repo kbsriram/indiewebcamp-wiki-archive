@@ -1,0 +1,109 @@
+http://indiewebcamp.com/2014/Cambridge_Schedule
+
+== Saturday, October 11, 2014 (Discussion Sessions) ==
+<span class="p-location h-card"><span class="p-name">MIT Media Lab</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Cambridge</span>, <span class="p-region">MA</span></span></span>
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+| Time
+| Main Room
+| Conf. Room 1
+| Conf. Room 2
+| Conf. Room 3
+|-
+| 9:00
+|colspan="4" align="center"|Camp opens. Badge creation, networking, and breakfast.
+|-
+| 10:15
+|colspan="4" align="center"|'''[[2014/Introductions|Introductions]], [[2014/Cambridge/demos|Selfdogfood Demos]] of what works today'''
+|-
+| 11:00
+|colspan="4" align="center"|'''Session Scheduling'''
+|-
+| 12:00
+|
+|
+|
+|
+|-
+| 13:00
+|colspan="4" align="center"|'''Group Photo, then Lunch at Food Carts'''
+|-
+| 14:00
+|
+|
+|
+|
+|-
+| 15:00
+|
+|
+|
+|
+|-
+| 16:00
+|
+|
+|
+|
+|-
+| 17:00
+| 
+|
+|
+|
+|-
+| 17:00
+|colspan="4" align="center"|'''Intro to Workshop Day''', head to dinner! 
+|-
+|}
+
+
+== Sunday, October 12, 2014 (Work Sessions) ==
+<span class="p-location h-card"><span class="p-name">MIT Media Lab</span> <span class="p-adr"><span class="p-street-address"></span> <span class="p-locality">Cambridge</span>, <span class="p-region">MA</span></span></span>
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+| Time
+| Main Room
+| Conf. Room 1
+| Conf. Room 2
+| Conf. Room 3
+|-
+| 9:30
+|colspan="4" align="center"|Breakfast
+|-
+| 10:00 - 12:00
+|colspan="4" align="center"|'''[[2014/Introductions|Introductions]], Scheduling, Start Creating!'''
+|-
+| 12:00 - 1:00
+|colspan="4" align="center"|'''Lunch at Food Trucks'''
+|-
+| 13:00 - 14:00
+|
+|
+|
+|
+|-
+| 14:00 - 15:00
+|
+|
+|
+|
+|-
+| 15:00 - 16:00
+|
+|
+|
+|
+|-
+| 16:00
+|colspan="4" align="center"|'''[[2014/Demos|Demos]]'''
+|-
+| 17:00
+|colspan="4" align="center"|'''community cleanup'''
+|-
+| 17:30
+|colspan="4" align="center"|'''camp closed!'''
+|-
+| 17:45
+|colspan="4" align="center"|'''after party - TBD!'''
+|}

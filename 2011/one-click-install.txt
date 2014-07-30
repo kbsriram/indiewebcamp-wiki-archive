@@ -1,7 +1,5 @@
 http://indiewebcamp.com/2011/one-click-install
 
-{{stub}}
-
 '''<dfn>one click install</dfn>''' was one of the hack sessions at IndieWebCamp [[2011]].
 
 == one-click indieweb setup ==
@@ -9,19 +7,19 @@ http://indiewebcamp.com/2011/one-click-install
 
 He has created mockups of the process. You choose a domain name and then choose what services you want to run there. That's the entry point for starting out with an indie web presence. The tagline is "Claim your online identity." You are asked for 1) the desired URL, 2) an email address, 3) a password. 
 
-http://markmhendrickson.com/images/homestead1_shot.png
+<img src="http://markmhendrickson.com/static/data/posts/images/homestead1.png" style="max-width:100%" />
 
 The next step involves sucking in data from existing profiles such as Facebook, Twitter, LinkedIn, MySpace and blogging platforms. 
 
-http://markmhendrickson.com/images/homestead2_shot.png
+<img src="http://markmhendrickson.com/static/data/posts/images/homestead2.png" style="max-width:100%" />
 
 There needs to be a step for payment (for domain registration) next. 
 
-http://markmhendrickson.com/images/homestead3_shot.png
+<img src="http://markmhendrickson.com/static/data/posts/images/homestead3.png" style="max-width:100%" />
 
 Then the result is a profile page with your picture, your bio, your links elsewhere and a feed of activity. 
 
-http://markmhendrickson.com/images/homestead4_shot.png
+<img src="http://markmhendrickson.com/static/data/posts/images/homestead4.png" style="max-width:100%" />
 
 That's the initial experience and the idea is that people can then build on that.
 
@@ -34,5 +32,10 @@ The code for this can be found on github at:
 == see also ==
 * [[2011]]
 * [[2011/Schedule]]
+* [[2011/One-Click Install of your IndieWeb Site]]
 * [[2011/Demos#one-click_indieweb_setup]]
 * [[Getting Started]]
+* [[install]]
+
+[[Category:Session Notes]]
+[[Category:2011]]

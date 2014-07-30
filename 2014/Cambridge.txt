@@ -1,19 +1,19 @@
 http://indiewebcamp.com/2014/Cambridge
 
 = <span class="p-name summary">IndieWebCampCambridge 2014</span> =
-[[File:harvard-berkman-center.jpg|thumb|300px|right|Harvard's Berkman Center for Internet and Society in Cambridge, MA]]
-The very first IndieWebCamp in Cambridge - one of many IndieWeb [[events]].
+[[File:mit-logo.png|300px|right|MIT Logo]]
+Join us in Cambridge, MA for the very first IndieWebCamp at MIT - one of many IndieWeb [[events]].
 
 <div class="p-description description">
-Join us at Harvard's Berkman Center of Internet and Society for '''two days''' of a BarCamp-style gathering of web creators building and sharing open web technologies to empower users to own their own identities & content, and advance the state of the indie web!
+Join us at MIT for '''two days''' of a BarCamp-style gathering of web creators building and sharing open web technologies to empower users to own their own identities & content, and advance the state of the indie web!
 
-The IndieWeb movement is a global community that is building an open set of principles and methods that empower people to take back ownership of identity and data instead of sharecropping on 3rd party websites. Homestead, don’t sharecrop! 
+The IndieWeb movement is a global community that is building an open set of principles and methods that empower people to take back ownership of identity and data instead of relying on 3rd party websites. 
 
 At IndieWebCamp you’ll learn about ways to empower yourself to own your data, create and publish content on your own site, and only optionally syndicate to third-party silos. Along the way you’ll get a solid grounding in the history and future of Microformats, domain ownership, IndieAuth, WebMention and more!
 </div>
 
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
-* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Berkman Center for Internet & Society</span>, <span class="h-adr adr"><span class="p-street-address street-address">23 Everett Street</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02138</span></span>. <span class="u-url">http://cyber.law.harvard.edu/</span></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Media Lab</span>, <span class="h-adr adr"><span class="p-street-address street-address">77 Mass. Ave.</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.media.mit.edu/</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
 * '''Cost:''' Free
 
@@ -28,40 +28,37 @@ At IndieWebCamp you’ll learn about ways to empower yourself to own your data, 
 
 |-
 
-! style="background:#ffdead;" | Day 1: Discussion
-! colspan="2" style="background:#efefef;" | Day 2: Hacking
+! style="background:#ffdead;" | '''Day 1''' Discussion
+
+! colspan="2" style="background:#efefef;" | '''Day 2''' Hacking
 
 |-
 
+| <br>'''Day 1''' is about discussing in a BarCamp-like environment. Bring a topic you'd like to discuss or join in on topics as they are added to the board. 
 | 
-<br>09:00 Organizer setup
-<br>09:30 Doors open - badges
-<br>10:00 Introductions and demos
-<br>11:00 Sessions
-<br>13:00 Lunch
-<br>14:00 Sessions
-<br>17:00 Group photo
-<br>17:15 Last session
-<br>18:00 End of sessions for day 1
-
-| 
-<br>09:00 Organizer setup
-<br>09:30 Doors open - badges
-<br>10:00 Day 2 kick-off
-<br>11:00 Hack sessions
-<br>13:00 Lunch
-<br>14:00 Hack sessions continue
-<br>16:30 Demos
-<br>17:30 Clean-up
-<br>18:00 Camp closed!
-
-|-
-
-| 
-<br>'''Day 1''' is about discussing in a BarCamp-like environment. Bring a topic you'd like to discuss or join in on topics as they are added to the board. 
-
-|
 <br>'''Day 2''' is about implementing what we discussed. Work with others or on your own. We'll have demos at the end of the day to see what everyone worked on! 
+|-
+
+| 
+<br>'''09:00''' Organizer setup
+<br>'''09:30''' Doors open - badges
+<br>'''10:00''' Introductions and demos
+<br>'''11:00''' Sessions
+<br>'''13:00''' Lunch
+<br>'''14:00''' Sessions
+<br>'''17:00''' Group photo
+<br>'''17:15''' Last session
+<br>'''18:00''' End of sessions for day 1
+|
+<br>'''09:00''' Organizer setup
+<br>'''09:30''' Doors open - badges
+<br>'''10:00''' Day 2 kick-off
+<br>'''11:00''' Hack sessions
+<br>'''13:00''' Lunch
+<br>'''14:00''' Hack sessions continue
+<br>'''16:30''' Demos
+<br>'''17:30''' Clean-up
+<br>'''18:00''' Camp closed!
 |}
 
 == Participating ==
@@ -89,24 +86,64 @@ __TOC__
 
 === Questions for Organizers ===
 * What is the capacity of the venue?
-** 20
+** 60
 
 * How many rooms will we have for sessions at the venue, # of people, projectors? whiteboards?
-** Main Room / 20
-** Breakout Room 1 / 3-4
-** Breakout Room 2 / 3-4
-** Breakout Room 3 / 3-4
+** Main Room / 60
+** Breakout Room 1 / 20
+** Breakout Room 2 / 15
+** Breakout Room 3 / 10
 
 === Inbox ===
 Put suggestions for IndieWebCamp Cambridge 2014 here.
 * ...
 
-== Get Your Flights and Hotel ==
-Flights: Flying to the Boston Area (BOS) from SF? _____, ____ and ____ are recommended and have frequent flights to PDX. 
+== Get Your Flights and Hotel! ==
+====Getting to MIT ====
+'''Subway From Logan Airport'''
+From any terminal at Logan Airport, take the Silver Line bus to South Station. At South Station, change to the Red Line subway to Kendall/MIT (inbound toward Alewife). Under normal conditions the ride will take 
+about one-half hour and the fare is $2.00 (Charlie Card) or $2.50 (cash).
 
+'''Taxi From Logan Airport'''
+Taxi fare from the airport is about $35–$40. During non-rush hour, the taxi ride will take about 15 minutes. During rush hour, the ride could take 30 minutes or more.
+
+'''Car From Logan Airport''' 
+Leaving the airport, follow the signs to the Sumner Tunnel. Enter the tunnel and stay in the right lane. At the end of the tunnel, continue to stay in the right lane, start down an incline and bear to the right immediately at the sign for Storrow Drive. Take Exit 26 for Cambridge/Somerville. Follow the signs for Back Bay/Cambridge (do not take the exit for Cambridge/Somerville). Stay in the right lane and follow the signs for Storrow Drive Westbound. After you pass under the pedestrian walkbridges, change to the left lane and take the exit on your left for 2A North. Turn right onto the Harvard Bridge (Massachusetts Avenue). MIT's main entrance is 77 Massachusetts Avenue, and it will be on the right at the second set of traffic lights.
 Lodging:
-* Suggested lodging 1 (hotel with a free shuttle to Harvard!) 
-* Nearby AirBNB
+
+==Travel and Lodging==
+====[https://www.airbnb.com/s/77-Amherst-Street--Cambridge--MA--United-States?source=bb AirBNB Listings Close to Campus]====
+
+====Hotels near campus==== 
+Kendall Hotel
+*350 Main Street
+*Cambridge, MA 02142
+*http://www.kendallhotel.com/
+
+Boston Marriott Cambridge Hotel
+*2 Cambridge Center
+*Cambridge, MA 02142
+*Phone: (617) 494-6600 
+*http://www.marriottcambridge.com/
+
+Hyatt Regency Cambridge
+*575 Memorial Drive
+*Cambridge, MA 02139
+*Phone: (617) 492-1234
+*http://cambridge.hyatt.com/hyatt/hotels/index.jsp
+
+Le Meridien Cambridge @ MIT
+*20 Sidney Street 
+*Cambridge, MA 02139
+*Phone: (617) 577-0200
+*http://www.starwoodhotels.com/lemeridien/
+*Morning local shuttle service; contact hotel for details 
+
+Residence Inn at Marriott 
+*6 Cambridge Center
+*Cambridge, MA 02142
+*Phone: (617) 494-1885
+*http://www.marriott.com/property/propertypage/BOSCM
 
 == Volunteers ==
 Put your name here.
@@ -126,26 +163,21 @@ Put your name here.
 [[how-to-sponsor|How to sponsor IndieWebCamp]]
 
 == Sponsors ==
-Our thanks to these sponsors for supporting the event.
+Our thanks to these sponsors for supporting the event!
 
-* (sponsor name) 
-* 
+[[Image:esri-logo.gif|657px|center]]
 
 === To-do ===
 # Get a company to cover lunch each day (see Sponsor section).
 # Divide up roles/responsibilities among organizers/volunteers.
 # Do yours and help everyone else with theirs too.
 
-
 == See Also ==
-* [[2014]]
-* [[events]]
 * [http://cyborgcamp.com/ CyborgCamp MIT 2014]
 
-== Previously ==
-* [[2013]]
-* [[2012]]
-* [[2011]]
+{{IndieWebCamp}}
 
 [[Category:2014]]
 [[Category:Events]]
+
+__NOTOC__

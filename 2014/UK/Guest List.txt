@@ -55,6 +55,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 <span id="Builders">Alphabetically sorted by full display name.</span>
 
 {{Attendee
+|name = Al Power
+|img = http://alpower.com/alpower.jpg
+|url = http://alpower.com
+|org_name = 
+|org_url = 
+|projects =community events - [http://UXOxford.com UXOxford] ([http://www.meetup.com/UX-Oxford/messages/boards/thread/41426422 past events]) and in past [https://blog.mozilla.org/labs/2011/06/design-jam-oxford-1-time-to-wrap-up-a-fast-furious-jam-session/ DesignJam Oxford]. WebDev & Avid photographer. Keen to get data out of silos.
+|elsewhere = alpower @ [http://twitter.com/alpower twitter], [http://flickr.com/photos/alpower flickr], [http://instagram.com/alpower instagram], github
+}}
+
+{{Attendee
 |name = Barnaby Walters
 |img = http://waterpigs.co.uk/photo.jpg
 |url = http://waterpigs.co.uk
@@ -82,6 +92,17 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |org_url = 
 |projects = 
 |elsewhere = [https://twitter.com/cole_peters @cole_peters], [http://blog.colepeters.com blog.colepeters.com], [http://lab.colepeters.com GitLab], [http://firstthingsfirst2014.org First Things First 2014]
+}}
+
+{{Attendee
+|name = Glenn Jones
+|img = http://glennjones.net/images/photo-small-128.png
+|url = https://glennjones.net
+|org_name = 
+|org_url = 
+|projects = [http://transmat.io/ transmat], [http://microformat2-node.jit.su/ microformats-node],
+[http://identengine.com/ identengine]
+|elsewhere = [https://github.com/glennjones github], [https://twitter.com/glennjones twitter]
 }}
 
 {{Attendee

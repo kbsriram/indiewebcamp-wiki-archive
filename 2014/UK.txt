@@ -142,5 +142,4 @@ Put suggestions for Indie Web Camp New York City 2014 here.
 [[Category:Guest List]]
 
 == See Also ==
-* [[2014]]
-* [[events]]
+{{IndieWebCamp}}

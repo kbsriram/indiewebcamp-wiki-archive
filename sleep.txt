@@ -1,0 +1,14 @@
+http://indiewebcamp.com/sleep
+
+{{stub}}
+
+'''<dfn>sleep</dfn>''' is a [[passive]] [[metrics]] [[post]] type that indicates how much time (and often a graph of how deeply) a person has slept.
+
+== IndieWeb Examples ==
+=== Aaron Parecki ===
+{{aaronpk}} uses [[p3k]] to post sleep posts to aaronparecki.com since 2013(?) (need permalink to first sleep post and updated precise YYYY-MM-DD). Examples:
+* http://aaronparecki.com/metrics/2014/07/28/080552/
+
+== See Also ==
+* [[exercise]]
+* [[posts]]

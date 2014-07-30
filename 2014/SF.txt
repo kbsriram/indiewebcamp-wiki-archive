@@ -153,14 +153,9 @@ Articles and blog posts about IndieWebCamp SF:
 [[File:2014-03-08-iwc-sf-pano.jpg|700px]]
 
 == See Also ==
-* [[2014]]
 * [[events]]
 * [http://jsfest.com/ JSFest]
-
-== Previously ==
-* [[2013]]
-* [[2012]]
-* [[2011]]
+{{IndieWebCamp}}
 
 [[Category:2014]]
 [[Category:Events]]

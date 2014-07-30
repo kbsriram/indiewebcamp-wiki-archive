@@ -2,8 +2,7 @@ http://indiewebcamp.com/sandstorm
 
 {{stub}}
 
-'''<dfn>[https://sandstorm.io Sandstorm]</dfn>''' is open source software [[project]] that aims to make 
-self-hosted [[web_hosting#Personal_Clouds| personal clouds]].easy as well as offering a hosted paid version for less technically inclined users.
+'''<dfn>[https://sandstorm.io Sandstorm]</dfn>''' is open source software [[project]] that aims to make self-hosted [[web_hosting#Personal_Clouds| personal clouds]] easy as well as offering a hosted paid version for less technically inclined users.
 
 A handful of application are already supported by Sandstorm such as the [[Mailpile]] email client and [[Ghost]] blogging platform.
 

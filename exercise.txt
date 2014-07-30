@@ -1,16 +1,20 @@
 http://indiewebcamp.com/exercise
 
 {{stub}}
-
+<span style="float:right;height:128px;font-size:128px">💪</span>
 '''<dfn>exercise</dfn>''' is a (typically) ''passive'' [[post]] type that represents some form of physical activity. Its content is often similar to a [[note]] or can easily be represented as plain text.
 
 Tags: fitness, fitbit, pedometer, physical activity, run, running, workout, workouts, health, tracking, quantified self, metrics
 
 == IndieWeb Examples ==
-=== Aaron Parecki ===
-[[User:Aaronprecki.com|Aaron Parecki]] has been tracking pushups using his Pushups app via [[p3k]]'s [[micropub]] support on aaronparecki.com since ????-??-??
+__TOC__
 === Barnaby Walters ===
-[[User:Waterpigs.co.uk|Barnaby Walters]] has been tracking pushups using his Pushups web app via [[Taproot]]'s [[micropub]] support on Waterpigs.co.uk since ????-??-??
+[[User:waterpigs.co.uk|Barnaby Walters]] uses his open source HTML+CSS+JS [http://waterpigs.co.uk/pushups/ Pushups web app] (download to clone) to track (nose touch activated) and post (via [[Taproot]]'s [[micropub]] support) pushups as a [[note]] variant to waterpigs.co.uk since [http://waterpigs.co.uk/notes/4SYJit/ at least 2013-10-14]. Example:
+* http://waterpigs.co.uk/notes/4SYJit/
+
+=== Aaron Parecki ===
+{{aaronp}} uses his open source [http://marvelouslabs.com/pushup-counter pushup-counter iOS app] to track (nose touch activated) and post (via [[p3k]]'s [[micropub]] support) pushups to aaronparecki.com (through [[p3k#Pushups]]) since [http://aaronparecki.com/metrics/2013/11/28/143242/ at least 2013-11-28](or earlier?). Example:
+* http://aaronparecki.com/metrics/2013/11/28/143242/
 
 == Silo Examples ==
 === Jawbone ===

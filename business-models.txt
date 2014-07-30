@@ -108,6 +108,9 @@ Proprietary:
 
 == Patronage ==
 * [https://www.gittip.com/ Gittip]
+* [https://snowdrift.coop Snowdrift.coop] (not yet launched and active, public testing)
+
+See [https://snowdrift.coop/p/snowdrift/w/othercrowdfunding Snowdrift.coop's summary of funding sites] for a thorough discussion of all the various platforms for crowdfunding.
 
 == Other ==
 * People search

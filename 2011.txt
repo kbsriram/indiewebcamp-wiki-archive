@@ -14,9 +14,7 @@ http://indiewebcamp.com/2011
 </div>
 
 == See Also ==
-* [[2012]]
-* [[2012/UK]]
-* [[2013]]
+{{IndieWebCamp}}
 
 [[Category:Events]]
 [[Category:2011]]

@@ -25,6 +25,7 @@ Various development tools:
 * ...
 
 == Exporting From Google ==
+* [https://www.google.com/settings/takeout Google Takeout] allows you to export your data from Google's services.
 * See: Data Liberation Front
 * http://www.flailingmonkey.com/2013/03/26/moving-contacts-calendar-google/
 

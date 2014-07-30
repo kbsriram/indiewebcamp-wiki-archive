@@ -1,0 +1,28 @@
+http://indiewebcamp.com/start_a_page
+
+{{stub}}
+
+To '''<dfn>start a page</dfn>''' on the indiewebcamp wiki, either
+
+* Edit an existing page. Add a link to ''new-page'', then save the page.
+* Click the ''new-page'' link, then click "edit this page."
+'''or'''
+* Type the URL of the desired page directly into the browser address bar, then click "edit this page."
+
+
+Then start by copy pasting the following:
+<blockquote><nowiki>
+{{stub}}
+</nowiki></blockquote>
+
+And lastly, include a simple 1-2 sentence definition of what the page is about. E.g. if the page is about "WidgeCo", start with something like:
+<blockquote><nowiki>
+
+'''<dfn>WidgeCo</dfn>''' is a ...
+
+</nowiki></blockquote>
+and complete that sentence.
+
+== See Also ==
+* [[start]]
+* [[Getting Started]]

@@ -13,7 +13,7 @@ New research:
 * <3 - ASCII heart, used as substitute for “love”
 
 == Brainstorming ==
-A place to brainstorm indieweb microsyntax especially for plaintext [[notes]]
+A place to brainstorm indieweb microsyntax especially for plaintext [[notes]], and POSSEing of specific types of [[posts]] to plaintext-like [[POSSE]] destinations (e.g. [[Twitter]]])
 
 * <nowiki>@example.com/some-post => <a href="http://example.com/some-post" class="u-in-reply-to"></nowiki>
 ** We need pfefferle and acegiak to clarify their [http://indiewebcamp.com/irc/2013-06-21#t1371819076 use case]. Just adding links to the users domain in your post will send a webmention to the domain, so IMO it is unnecessary to prefix user domains with @ so I'm assuming they meant post urls. &mdash;[[User:Sandeep.io|Sandeep Shetty]]
@@ -23,6 +23,15 @@ A place to brainstorm indieweb microsyntax especially for plaintext [[notes]]
 ** "we wanted a way to mark which one was the reply-to without needing to edit the html because we want the plugins to be accessible to non-technical wordpress users -  plus, adding the html manually would be tiresome, so we're trying to work out a way to make it quick and easy" -[http://indiewebcamp.com/irc/2013-06-22#t1371902255 acegiak]
 
 * <nowiki><3 example.com =><a href="http://example.com" class="u-like"></nowiki>
+
+Various [[metrics]] could use emoji, i.e. when POSSEing to text-like destinations like [[Twitter]]
+* 🌜Slept 8 hours
+* 🚲 Evening Ride
+* 🚙 Drove 3.2 miles in 25 minutes
+* 🏃 Ran 3.2 miles in 25 minutes
+* 🚶 Walked 3.2 miles in 50 minutes
+* 💪 Did 13pushups
+* 👣 Weighed 153.3lbs
 
 == See Also ==
 * [[microformats]]

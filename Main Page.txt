@@ -81,8 +81,8 @@ Join us at the Clearleft offices in Brighton for '''two days''' of BarCamp-style
 {|align="left" width="600px" 
 |[[Image:indiewebcamp-pdx-2014-day2.jpg|150px|thumb|right|<span>Indie Web Camp [[2014]] West by [http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp aaronpk]</span>]]
 |[[Image:indiewebcamp_nyc2014.JPG|150px|thumb|right|<span>Indie Web Camp [[2014]] East by Jeremy Zillar</span>]]
+|[[Image:IWC2014-Berlin-Dinner.jpg|150px|thumb|right|<span>Indie Web Camp [[2014]] Farther East by [https://brennannovak.com @brennannovak]</span>]]
 |[[Image:indie-web-camp2014-sf.jpg|150px|thumb|right|<span>Indie Web Camp [[2014/SF|SF 2014]] by [http://aaronparecki.com/notes/2014/03/08/4/indiewebcamp-indieweb-sf @aaronpk]</span>]]
-|[[Image:IWC2014-Berlin-Dinner.jpg|150px|thumb|right|<span>Indie Web Camp [[2014/Berlin|Berlin 2014]] by [https://brennannovak.com @brennannovak]</span>]]
 |
 |-
 |[[Image:indie-web-camp-2013-uk.jpg|150px|thumb|right|<span>Indie Web Camp [[2013/UK|UK 2013]] by [http://www.flickr.com/photos/aaronpk/9712345101/in/set-72157635446544162/ aaronpk]</span>]]

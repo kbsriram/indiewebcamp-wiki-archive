@@ -26,5 +26,4 @@ IndieWeb related events (including events which have sessions on the indie web) 
 *<span class="h-event vevent"><span class="dt-start dtstart">2012-03-10</span>: <span class="p-name summary">[http://microformats.org/wiki/events/2012-03-10-sxsw-indie-web Rise of the Indie Web]</span> at <span class="p-location location">Capitol View North Room, Sheraton Austin, Austin, Texas</span>. <span class="u-url url">http://microformats.org/wiki/events/2012-03-10-sxsw-indie-web </span></span>
 
 == See also ==
-* [[Events/2011|2011 events]]
-* [[Events]]
+{{events}}

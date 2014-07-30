@@ -98,7 +98,7 @@ I use the Withings scale to track my weight. Through a series of convoluted step
 Currently every time there is a new measurement it results in a post on my site. I may change this to post once a week showing a small graph instead.
 
 ==== Pushups ====
-Example: http://aaronparecki.com/metrics/2013/11/28/143242/
+[[Pushups]] example: http://aaronparecki.com/metrics/2013/11/28/143242/
 
 I wrote a simple [https://github.com/aaronpk/PushupCounter-iOS simple pushup-tracking app] which makes POST requests directly to my server, creating these posts.
 

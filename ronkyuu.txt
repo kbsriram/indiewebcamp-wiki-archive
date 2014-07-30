@@ -10,6 +10,8 @@ http://indiewebcamp.com/ronkyuu
 == Working On ==
 * Micropub endpoint support
 * An event handler to trigger static site updates.
+* add a set of Profile helpers to discover and return parsed mf2 data for h-card data
+** see https://github.com/kylewm/mf2util/blob/master/mf2util/util.py#L107 for code that discovers author and/or h-card data
 
 == See Also ==
 * [[projects]]

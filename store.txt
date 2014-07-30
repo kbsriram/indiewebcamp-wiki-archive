@@ -1,6 +1,6 @@
 http://indiewebcamp.com/store
 
-A '''<dfn>store</dfn>''' (or <dfn>marketplace</dfn>) is a service for installing applications on a device, typically a mobile client device, but also on web servers, typically remotely.
+A '''<dfn>store</dfn>''' (or <dfn>marketplace</dfn>) is a service for [[installing]] applications on a device, typically a [[mobile]] client device, but also on web servers, typically remotely.
 
 == Goal ==
 As the number of IndieWeb related apps grow, so will the job of choosing which apps you want to install and what is compatible with your server. The goal is to create an easy to browse "App Store" like experience for an indieweb site, both for installing apps on that site, and for publishing app stores themselves on indieweb sites.
@@ -486,5 +486,7 @@ Random assorted ideas that could be used for different aspects of the Store idea
 * [[User:Werd.io|Ben Werdmuller]] wrote [http://benwerd.com/2009/10/12/danger-in-the-cloud-a-proposal/ a lengthy piece] about this idea in 2009
 
 == See Also ==
+* [[install]]
+* [[mobile]]
 * [[icon]]
 * [[manifest]]
