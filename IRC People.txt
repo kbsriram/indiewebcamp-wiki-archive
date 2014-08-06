@@ -52,7 +52,7 @@ Please keep sorted alphabetically
 * {{irc user|jihais.se|Jihaisse|Europe/Paris}}
 * {{irc user|jlsuttles.me|jlsuttles|America/San_Francisco}}
 * {{irc user|jonathantneal.com|JonathanNeal|Los_Angeles}}
-* {{irc user|jonnybarnes.net|jonnybarnes|Europe/London}}
+* {{irc user|jonnybarnes.uk|jonnybarnes|Europe/London}}
 * {{irc user|josephg.com|josephg|America/Los_Angeles}}
 * {{irc user|Jschweinsberg.de|jschweinsberg|Europe/Berlin}}
 * {{irc user|julian.so|julian`|Europe/London}}

@@ -1,7 +1,7 @@
 http://indiewebcamp.com/news
 
 {{stub}}
-
+<span style="float:right;height:192px;font-size:192px;margin-top:64px">📰</span>
 '''<dfn>News</dfn>''' is where you keep up with the latest news and developments in the IndieWebCamp Community. 
 
 Latest daily hotness:

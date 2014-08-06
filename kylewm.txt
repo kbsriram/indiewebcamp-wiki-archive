@@ -1,3 +1,0 @@
-http://indiewebcamp.com/kylewm
-
-#REDIRECT [[User:kylewm.com]]

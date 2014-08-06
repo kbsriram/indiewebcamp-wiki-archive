@@ -119,4 +119,5 @@ See [https://snowdrift.coop/p/snowdrift/w/othercrowdfunding Snowdrift.coop's sum
 == Avoiding ==
 * Advertising. See: http://blog.whatsapp.com/index.php/2012/06/why-we-dont-sell-ads/
 
-[[Category:building-blocks]]
+== Challenges ==
+* The "free" platform model where services are offered in exchange for user information has become so pervasive among the silos that it would be very difficult to charge users ''any'' amount of money for an indieweb service. It is very hard to convince people to pay for intangible benefits such as "owning your data" when a silo will offer perfectly adequate services at no tangible cost.

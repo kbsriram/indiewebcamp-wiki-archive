@@ -1,6 +1,6 @@
 http://indiewebcamp.com/Events
 
-'''Welcome to the IndieWeb events calendar!'''
+'''Welcome to the IndieWeb <dfn>events</dfn> calendar!'''
 
 ''For information on [[event]] [[posts]], see:''
 * [[event]]
@@ -26,13 +26,16 @@ Soonest first.
 
 Upcoming indie web related events:
 
-*<span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-30 10:00</time>''' : <span class="p-name summary">[[events/2014-07-30-Décentralisation du Net|Décentralisation du Net]]</span> chez <span class="p-location location">Mozilla</span> <span class="p-location location"> Paris</span>. <br/><span class="p-description description">Nombreux sont les projets qui visent à permettre d'avancer, chacun à leur niveau, en direction de la décentralisation d'Internet. L'objectif de ce meet-up est de se rencontrer, de voir comment peuvent s'articuler ces différents projets entre eux, et de bidouiller ensemble pour les faire progresser en vue à terme d'avoir un ensemble de solutions qui permettront à chaque utilisateur d'Internet d'avoir un contrôle sur ses données tout en limitant la surveillance généralisée.</span>. <span class="u-url url">http://www.meetup.com/Paris-Meetup-pour-la-decentralisation-dInternet/events/193618842/</span></span>
+* <span class="h-event vevent">'''<time class="dt-start dtstart">2014-08-13 18:30</time>-<time class="dt-end dtend" datetime="2014-08-13 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-08-13-homebrew-website-club|Homebrew Website Club Meetup]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">Portland</span>, <span class="p-location location">Chicago</span>, and <span class="p-location location"> Minneapolis</span>. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-08-13-homebrew-website-club</span></span>
 
-* <span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-30 18:30</time>-<time class="dt-end dtend" datetime="2014-07-30 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-07-30-homebrew-website-club|Homebrew Website Club Meetup]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">Portland</span>, <span class="p-location location">Chicago</span>, and <span class="p-location location"> Minneapolis</span>. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-07-30-homebrew-website-club</span></span>
+* <span class="h-event vevent">'''<time class="dt-start dtstart">2014-08-27 18:30</time>-<time class="dt-end dtend" datetime="2014-08-27 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-08-27-homebrew-website-club|Homebrew Website Club Meetup]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">Portland</span>, <span class="p-location location">Chicago</span>, and <span class="p-location location"> Minneapolis</span>. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-08-27-homebrew-website-club</span></span>
+
 
 * <span class="h-event vevent big" style="background:#FF9">'''<time class="dt-start dtstart">2014-09-06</time>...<time class="dt-end dtend" datetime="2014-09-07">07</time>: <span class="p-name summary">[[2014/UK|IndieWebCampUK]]</span>''' at <span class="p-location location">Brighton, England</span>. <span class="u-url url">http://indiewebcamp.com/2014/UK</span></span>
 
+
 * <span class="h-event vevent big">'''<time class="dt-start dtstart">2014-10-11</time>...<time class="dt-end dtend" datetime="2014-10-12">12</time>: <span class="p-name summary">[[2014/Cambridge|IndieWebCampCambridge]]</span>''' at <span class="p-location location">Cambridge, MA</span>. <span class="u-url url">http://indiewebcamp.com/2014/Cambridge</span></span>
+
 
 * 2015-04-04 Idea: a "404" party/wake on 4/04 per [http://indiewebcamp.com/irc/2013-09-05/line/1378427562]
 
@@ -40,6 +43,7 @@ Upcoming indie web related events:
 Don't see an IndieWeb event near you? Plan one and add it here!<br/>
 Jump on [[IRC]], find folks near you, and plan an IndieWeb event/drinkup/dinner/meetup/hackathon/camp together.
 
+__TOC__
 == Add events to your calendar ==
 Subscribe to current and future indie web related events, e.g. in Apple iCal, or Evolution:
 * [http://h2vx.com/ics/sub/indiewebcamp.com/events »subscribe to indie web events]
@@ -49,21 +53,26 @@ See also:
 * [[#Zimbra-instructions|Zimbra instructions]]
 * [http://h2vx.com/ics/indiewebcamp.com/Events download iCalendar file].
 
-__TOC__
 == Recent ==
 Past indie web related events and related photos, blog posts, etc.
 <!-- Please change to past tense, and reverse the date-order (most recent on top), when moving events to the Recent section. Most recent first. --> 
 
 === 2014 ===
 
+* <span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-30 18:30</time>-<time class="dt-end dtend" datetime="2014-07-30 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-07-30-homebrew-website-club|Homebrew Website Club Meetup]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">Portland</span>, <span class="p-location location">Chicago</span>, and <span class="p-location location"> Minneapolis</span>. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-07-30-homebrew-website-club</span></span>
+
+*<span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-30 10:00</time>''' : <span class="p-name summary">[[events/2014-07-30-Décentralisation du Net|Décentralisation du Net]]</span> chez <span class="p-location location">Mozilla</span> <span class="p-location location"> Paris</span>. <br/><span class="p-description description">Nombreux sont les projets qui visent à permettre d'avancer, chacun à leur niveau, en direction de la décentralisation d'Internet. L'objectif de ce meet-up est de se rencontrer, de voir comment peuvent s'articuler ces différents projets entre eux, et de bidouiller ensemble pour les faire progresser en vue à terme d'avoir un ensemble de solutions qui permettront à chaque utilisateur d'Internet d'avoir un contrôle sur ses données tout en limitant la surveillance généralisée.</span>. <span class="u-url url">http://www.meetup.com/Paris-Meetup-pour-la-decentralisation-dInternet/events/193618842/</span></span>
+
 * <span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-16 18:30</time>-<time class="dt-end dtend" datetime="2014-07-16 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-07-16-homebrew-website-club|Homebrew Website Club Meetup]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">(Need Portland location!)</span>, <span class="p-location location">Chicago</span><!--, and <span class="p-location location"> Minneapolis</span>-->. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-07-16-homebrew-website-club</span></span>
 
-* '''2014-07-13 12:00-14:30:''' [https://twitter.com/benwerd/status/488553293589659648 IndieWeb hack session at YaYY conference], Ace Hotel, Palm Springs, CA
+* '''2014-07-13 12:00-14:30''' [https://yxyy.hackpad.com/Website-Club-Dbuwkvyhps7 IndieWeb hack session at YaYY conference], Ace Hotel, Palm Springs, CA ([https://twitter.com/benwerd/status/488553293589659648 photo by Ben Werdmüller])
+
+* '''2014-07-12 11:00-12:30''' IndieWeb discussion session at YaYY conference, quiet pool, Ace Hotel, Palm Springs, CA
 
 * <span class="h-event vevent">'''<time class="dt-start dtstart">2014-07-02 18:30</time>-<time class="dt-end dtend" datetime="2014-07-02 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-07-02-homebrew-website-club|Homebrew Website Club Meeting]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">[http://pdx.esri.com/ Esri R&D Center] (Portland)</span>, <span class="p-location location">Chicago</span><!--, and <span class="p-location location"> Minneapolis</span>-->. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-07-02-homebrew-website-club</span></span>
 
 
-* <div class="h-event vevent big" style="background:#FF9">'''<span class="dt-start dtstart">2014-06-28</span>...<abbr style="border:0" class="dt-end dtend" title="2014-06-29">29</abbr>: <span class="p-name summary">[[2014|IndieWebCamp 2014]]</span>''' occurred simultaneously in <span class="p-location location">Portland, Oregon</span> (West), <span class="p-location location">New York City, NY</span> (East), and <span class="p-location location">Berlin, Germany</span> (Further East). <span class="u-url url">http://indiewebcamp.com/2014</span></div>
+* <div class="h-event vevent big">'''<span class="dt-start dtstart">2014-06-28</span>...<abbr style="border:0" class="dt-end dtend" title="2014-06-29">29</abbr>: <span class="p-name summary">[[2014|IndieWebCamp 2014]]</span>''' occurred simultaneously in <span class="p-location location">Portland, Oregon</span> (West), <span class="p-location location">New York City, NY</span> (East), and <span class="p-location location">Berlin, Germany</span> (Further East). <span class="u-url url">http://indiewebcamp.com/2014</span></div>
 
 * <span class="h-event vevent">'''<time class="dt-start dtstart">2014-06-18 18:30</time>-<time class="dt-end dtend" datetime="2014-06-18 19:30">19:30</time> local time:''' <span class="p-name summary">[[events/2014-06-18-homebrew-website-club|Homebrew Website Club Meeting]]</span> <br/>at <span class="p-location location">San Francisco</span>, <span class="p-location location">[http://pdx.esri.com/ Esri R&D Center] (Portland)</span>, <span class="p-location location">Chicago</span>, and <span class="p-location location"> Minneapolis</span>. <br/><span class="p-description description">Are you building your own website? Indie reader? Personal publishing web app? Or some other digital magic-cloud proxy? If so, come on by and join a gathering of people with like-minded interests. Bring your friends that want to start a personal web site. Exchange information, swap ideas, talk shop, help work on a project... </span> <span class="u-url">http://indiewebcamp.com/events/2014-06-18-homebrew-website-club</span></span>
 
@@ -118,9 +127,12 @@ Past indie web related events and related photos, blog posts, etc.
 == Past Years ==
 {{events}}
 
-== Previous IndieWebCamps ==
-{{main|Previous IndieWebCamps}}
+== IndieWebCamps ==
+{{main|IndieWebCamps}}
 {{IndieWebCamp}}
+
+== Homebrew Website Club meetups ==
+{{Homebrew Website Club}}
 
 == Zimbra instructions ==
 Zimbra:

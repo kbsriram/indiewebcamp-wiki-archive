@@ -23,6 +23,8 @@ Shane Becker is manually POSSEing his articles to Medium, e.g.:
 * 2014-06-09 Medium does not appear to show the full published date in the visible content. Instead there is a [[The-Open-Graph-protocol|Open Graph Protocol]] meta element: <code>meta property="article:published_time" content="2014-01-16T08:59:18.300Z"</code>
 ** Example: https://medium.com/binary-times/use-your-own-product-or-die-ba3e2d738a55
 ** It appears that the year is displayed depending how recent the article is. A 2013 article linked above includes the year in the visible content, but as of this writing (2014-06), the example link only shows "Jan 16," because it is recently published, in the current year.
+* 2014-07-23 Medium rolls out [https://medium.com/the-story/new-editor-features-title-images-and-more-5588495ec3c0 New Editor Features], marginalia comments are full of disappointment and criticism
+** "We wanted to be writers. you made us into designers." [https://medium.com/the-story/new-editor-features-title-images-and-more-5588495ec3c0#1e9e-1fcb08f06651]
 
 == See Also ==
 * [[article]]

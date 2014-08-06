@@ -512,7 +512,9 @@ See the [http://indiewebcamp.com/irc/2014-05-22#t1400801724 original IRC discuss
 * [[post]] - [[h-entry]]
 * [[event]] - [[h-event]]
 * [[login-brainstorming]]
+* [[token-endpoint]]
 * [[auth-brainstorming]]
 * [[micropub-endpoint]]
+* [[access_token]]
 
 [[Category:IndieAuth]]

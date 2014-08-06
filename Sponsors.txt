@@ -3,6 +3,18 @@ http://indiewebcamp.com/Sponsors
 Want to help IndieWebCamp? Become a sponsor!
 * [[how-to-sponsor|How to sponsor IndieWebCamp]]
 
+== 2014 Cambridge Sponsors ==
+
+* See [[how-to-sponsor]] to sponsor [[2014/Cambridge|IndieWebCamp Cambridge 2014]]!
+
+{|
+|align="center" style="padding: 20px;"|{{sponsor-logo|link=http://web.mit.edu|logo=mit|width=110}}
+| <h3>MIT</h3> '''[http://web.mit.edu/ MIT]''' is graciously hosting the 2014 event in Cambridge.
+|-
+|align="center" style="padding: 20px;"|{{sponsor-logo|link=http://www.esri.com|logo=esri|width=110}}
+| <h3>Esri</h3> '''[http://www.esri.com/ Esri]'''
+|}
+
 == 2014 Sponsors ==
 
 * See [[how-to-sponsor]] to sponsor [[2014|IndieWebCamp 2014]]!

@@ -14,7 +14,8 @@ past jobs: Mozilla Release Engineer, Operations for Seesmic, Operations and Rele
 ==== Projects ====
 
 * https://bear.im
-* [[ronkyuu]]
+* [[ronkyuu]] a collection of tools to work with Webmentions
+* [[ninka]]  a collection of tools to work with IndieAuth
 * [[dainin]] a collection of event handling tools to enable a static site to have handlers for Webmentions and IndieAuth
 * https://github.com/bear/hakkan (my own tool for generating static site using mf2 in python
 

@@ -4,14 +4,19 @@ http://indiewebcamp.com/sandstorm
 
 '''<dfn>[https://sandstorm.io Sandstorm]</dfn>''' is open source software [[project]] that aims to make self-hosted [[web_hosting#Personal_Clouds| personal clouds]] easy as well as offering a hosted paid version for less technically inclined users.
 
+== Live Demo ==
+Check out '''http://demo.sandstorm.io/''' for a live demo including the ability to [[install]] various apps, create documents, etc. all server-side.
+
 A handful of application are already supported by Sandstorm such as the [[Mailpile]] email client and [[Ghost]] blogging platform.
 
+== Crowdfunding ==
 On July, 2014 Sandstorm launched a crowd funding campaign [https://www.indiegogo.com/projects/sandstorm-io-personal-cloud-platform on IndieGoGo] to raise $50,000 to further development of the platform.
 
-=== Technology ===
-
+== Technology ==
 Sandstorm is doing some pretty interesting things under the hood technologically speaking such as [https://kentonv.github.io/capnproto/ Cap'n Proto] which is like protocol buffers, but faster.
 
 == See Also ==
 * [[cloud]]
+* [[Docker]]
+* [[IndieBox]]
 * [[web_hosting| Web Hosting]]

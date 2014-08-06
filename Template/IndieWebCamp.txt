@@ -1,11 +1,11 @@
 http://indiewebcamp.com/Template%3AIndieWebCamp
 
 <includeonly>{{Navbox
-|title = [[IndieWebCamps|IndieWebCamp Events]]
+|title = [[IndieWebCamps]]
 |rows =
   {{Navbox-row
     |title = 2014
-    |content = [[2014/SF|SF]] • [[2014/NYC|NYC]] • [[2014|Portland/New York/Berlin]] • [[2014/UK|UK]] • [[2014/Cambridge|Cambridge]]
+    |content = [[2014/SF|SF]] • [[2014/NYC|NYC]] • [[2014|Portland/NYC/Berlin]] • [[2014/UK|UK]] • [[2014/Cambridge|Cambridge]]
   }}
 
   {{Navbox-row

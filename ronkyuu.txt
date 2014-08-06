@@ -5,7 +5,6 @@ http://indiewebcamp.com/ronkyuu
 == Features ==
 * Sending Webmention by scanning source post and locating all mentions in the post's html. If the target post supports webmention (found via discovery,) the webmention endpoint will be sent a request.
 * Discover and confirm RelMe endpoints
-* Discover authorization endpoints and validate returned auth token
 
 == Working On ==
 * Micropub endpoint support

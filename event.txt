@@ -1,7 +1,7 @@
 http://indiewebcamp.com/event
 
 {{stub}}
-
+<span style="float:right;height:128px;font-size:128px;">📅</span>
 An '''<dfn>event</dfn>''' is a type of [[post]] that in addition to a post name (event title) has a start datetime (likely end datetime), and a location.
 
 ''For information on IndieWebCamp [[events]] themselves, see:''
@@ -12,6 +12,7 @@ Event posts must be marked up with [[h-event]].
 
 Optionally they can be wrapped in an [[h-entry]] as well (though it's not clear this is necessary). ''Parsers should be prepared to handle events without an h-entry tag.''
 
+__TOC__
 == Accepting RSVPs ==
 A site publishing event posts '''should''' accept [[rsvp]] [[webmentions]] and update the event's attendance information accordingly.
 

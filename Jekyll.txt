@@ -34,9 +34,9 @@ See also: [[projects#Jekyll]]
 == Indieweb Users ==
 Community members:
 * Ben Ward (2011) on [http://benward.me/blog/time-place-design-principals benward.me]
-* [[User:Bret.io]] (2013) on [http://bret.io/ bret.io]
+* {{bret}} (2013) on [http://bret.io/ bret.io]
 * [[User:Kodfabrik.se]] (2014) on [http://voxpelli.com/ voxpelli.com] using GitHub Pages
-* [[User:Willnorris.com]] (2014) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com]
+* {{willnorris}} (2014) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com]
 Other independents:
 * Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
 * Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]

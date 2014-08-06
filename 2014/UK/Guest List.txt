@@ -126,6 +126,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
+|name = Joschi Kuphal
+|img = https://s.gravatar.com/avatar/60a1d50aa04c5742644fb9f1a21d74ba.jpg?s=256
+|url = http://jkphl.is
+|org_name = tollwerk
+|org_url = http://tollwerk.de/
+|projects = [http://typo3.org/extensions/repository/view/indieweb indieweb] TYPO3 extension (currently featuring webmentions), [http://jkphl.is/projects/micrometa/ micrometa] (microformats / microdata meta parser)
+|elsewhere = @jkphl on [https://twitter.com/jkphl twitter] & [https://github.com/jkphl github]
+}}
+
+{{Attendee
 |name = Peter Molnar
 |img = https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128
 |url = https://petermolnar.eu
@@ -144,6 +154,14 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |projects = [http://cassisproject.com/ CASSIS] JS∩PHP (on [http://github.com/tantek/cassis github]),
 [[Falcon]] (my personal site publishing software), [http://tantek.com/w/Whistle Whistle] (URL shortener), [http://microformats.org/wiki/RelMeAuth RelMeAuth]
 |elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
+}}
+
+{{Attendee
+|name = Nat Welch
+|img = http://natwelch.com/i/nat_2013.jpg
+|url = http://natwelch.com/
+|projects = [https://github.com/icco/tumble tumble.io]
+|elsewhere = [https://twitter.com/icco @icco], [https://github.com/icco github.com/icco]
 }}
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!

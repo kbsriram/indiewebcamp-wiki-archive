@@ -51,8 +51,7 @@ Portland:
 * POSSE copy: https://www.facebook.com/events/889951157699774/
 
 Minneapolis:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/344111375741200/
 
 Chicago:
 * add indieevent...
@@ -74,6 +73,8 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland:'''
 * {{aaronpk}}
 * {{bret}}
+* [http://mbcharbonneau.com/ Marc Charbonneau]
+* [http://mannylopez.me Manny Lopez]
 * ... add yourself!
 
 '''Minnesota:'''
@@ -88,6 +89,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * [https://indiewebcamp.com/irc/2014-07-30 IRC discussion archives 2014-07-30] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
+* http://www.kevinmarks.com/hwc2014-07-30.html
 * ...
 
 '''Portland'''
@@ -101,6 +103,10 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
+[[Image:hwc-2014-211-sf.jpg|640px]]
+
+San Francisco - photo by {{tantek}} (not pictured)
+* POSSE copy: <a rel="syndication" href="http://instagram.com/p/rICDpNA9Yw/">on Instagram</a>
 
 ...
 

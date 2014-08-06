@@ -156,5 +156,9 @@ Tumblr posts can be roughly mapped to [[ActivityStreams]] object types as follow
 == Users own their content ==
 The [https://www.tumblr.com/policy/en/terms-of-service Tumblr TOS] assert that users retain ownership and copyright over all content and IP they post. Details in section 6, Content and Subscriber Content. (Checked 2014-07-21.)
 
+== Criticisms ==
+* Like many of the other silos, Tumblr will comply to DMCA takedown requests quickly and without warning, regardless of their merit.
+** Randy McQueen filed numerous DMCA complaints with Tumblr in order to remove posts that were critical of his artwork (even though art criticism within Fair Use) [http://eschergirls.tumblr.com/post/93520850386/so-yesterday-i-found-out-that-randy-queen-artist]
+
 == See Also ==
 * [[silos]]

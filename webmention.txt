@@ -1,10 +1,9 @@
 http://indiewebcamp.com/webmention
 
-{{stub}}
+<span style="margin-top: -2em; background:white; float:right;">[[File:webmention-logo.svg|160px]]</span>
 
 '''<dfn>[http://webmention.org/ Webmention]</dfn>''' is a simple way to notify any URL when you link to it on your site. From the receivers perspective, it's a way to request notifications when other sites link to it. Webmention is a modern update to [[Pingback]], using only HTTP and x-www-urlencoded content rather than XMLRPC requests. Webmention supersedes Pingback.
 
-__TOC__
 == Protocol Summary ==
 If Aaron's blog supports receiving webmentions, and Barnaby's blog supports sending webmentions, then this is how they interact:
 
@@ -27,6 +26,7 @@ See the [http://webmention.org webmention specification] for a full description 
 
 See [[comment#Accept_a_comment|comment: how to accept a comment]] for more details on accepting comments in general and displaying them.
 
+__TOC__
 == Why ==
 Why webmentions (e.g. instead of Pingback) and why you should implement them.
 
@@ -153,12 +153,10 @@ The following users/sites have <span id="IndieWeb_implementations">implemented</
 ** Incoming webmentions are validated and stored, but not yet added to the appropriate articles
 
 * [[User:kartikprabhu.com|Kartik Prabhu]] on [http://kartikprabhu.com/ kartikprabhu.com] as of  2013-12-03.
-** All articles accept webmentions
-** Discovery only with: <code>rel="webmention"</code> link in head
-** Articles have an input form for sending a manual webmention inspired by [http://adaction.com adactio.com]
-** Webmentions are saved as responses and appear below the article with a snippet and link to original.
-** All articles send webmentions to links automatically when published.
-** On edit and update, article sends mentions to all newly added links and all removed links.
+** All articles & notes accept webmentions
+** Articles have an input form for sending a manual webmention inspired by [http://adactio.com adactio.com]. The form prompt links to the [https://kartikprabhu.com/webmention webmention endpoint].
+** Webmentions are saved as responses and appear below the article classified according to response type.
+** Webmentions are sent manually for all posts.
 
 * [[User:Kodfabrik.se|Pelle Wessman]] using [https://webmention.herokuapp.com/ webmention.herokuapp.com] on [http://voxpelli.com/ voxpelli.com] as of [http://voxpelli.com/2013/12/webmentions-for-static-pages/ 2013-12-18]. Details:
 ** All blog posts accept webmentions
@@ -203,6 +201,13 @@ The following users/sites have <span id="IndieWeb_implementations">implemented</
 ** Submissions return a link for queue record that returns a status as a <code>Webmention-Status</code> header as well as a minor note in the body. 
 ** Attempting to keep implementation notes as a modified spec at [http://github.com/dissolve/webmention webmetion0.2-b1]
 ** Sending is not done automatically to ensure edits are complete before deciding to send all mentions in a post/note
+
+* [[User:Willnorris.com|Will Norris]] using [https://webmention.herokuapp.com/ webmention.herokuapp.com] on [https://willnorris.com/ willnorris.com] as of 2014-07-31. Details:
+** All posts accept webmentions, but none are displayed (yet)
+** Webmentions sent on-demand via command line application that handles the discovery bits
+** Discovery only with <code>rel="webmention"</code> link in head
+** Advertised webmention endpoint is on-site, but POSTs are proxied to webmention.herokuapp.com.  ([https://willnorris.com/2014/08/proxying-webmentions-with-nginx documented here])
+** Previously used [http://wordpress.org/plugins/webmention/ webmention plugin] for WordPress as of [https://willnorris.com/2013/06/testing-indieweb-comments 2013-06-23]
 
 === Libraries ===
 <span id="Webmention-related_libraries_and_tools"></span>

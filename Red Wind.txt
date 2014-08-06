@@ -11,9 +11,9 @@ http://indiewebcamp.com/Red_Wind
 * reply/like/share context automatically fetched after posting
 * optional geo-location information for posts.
 * as of 2014-03-29, switched from SQLAlchemy/MySQL to flat files (thanks to [[databases_antipattern]])
-** 1 file per article/note/share/etc. named _data/posts/year/month/day/posttype_index.format
+** 1 file per article/note/share/etc. named _data/posttype/year/month/day/index.md
 ** post is formatted in markdown. Each file starts with a json blob for metadata. 
-** The source urls of received (and verified) webmentions are stored alongside each post, in a file named posttype_index.mentions.json 
+** The source urls of received (and verified) webmentions are stored alongside each post, in a file named index.mentions.json 
 ** mentions and reply contexts are stored together in a separate archive directory, loosely modeled on [[IndieArchive]].
 
 The name comes from Raymond Chandler's short story of the same name, about the Santa Ana winds that drive everyone crazy :)

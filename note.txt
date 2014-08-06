@@ -1,5 +1,6 @@
 http://indiewebcamp.com/note
 
+<span style="float:right;height:192px;font-size:192px;margin-top:64px">📝</span>
 A '''<dfn>note</dfn>''' is a [[post]] that is typically short unstructured* plain text, written & posted quickly, that has its own permalink page.
 
 Creating, publishing, and owning your own notes is a key step towards reducing dependence on [[Twitter]].
@@ -205,8 +206,10 @@ Thus b. white-space:pre-wrap seems to be the logical choice for indieweb impleme
 ==== IndieWeb Whitespace Examples ====
 * '''tantek.com''' [[Falcon]] [[notes]] as of 2013-105 (retroactively supported in storage & styling back to 2013-001) preserve whitespace, present it, and [[POSSE]] it to [[Twitter]] which then preserves the whitespace when copying it to [[Facebook]], e.g.:
 ** Original post: http://tantek.com/2013/105/t1/thoughts-boston-finished-deadline-whitespace-falcon
-** POSSE tweet with linebreaks: https://twitter.com/t/status/323994155690909699
-** Tweet copy to FB with linebreaks: https://www.facebook.com/tantek.celik/posts/10100581192582203
+*** auto-POSSE tweet with linebreaks: https://twitter.com/t/status/323994155690909699
+*** Tweet copy to FB with linebreaks: https://www.facebook.com/tantek.celik/posts/10100581192582203
+** Original post: http://tantek.com/2014/210/t1/trackattack-warmup-laps-first-time-did-all
+*** manual-via-[[Bridgy]] POSSE to FB with ws: https://www.facebook.com/tantek.celik/posts/10101200515439233
 * ...
 
 ==== Silo Whitespace Examples ====

@@ -87,10 +87,45 @@ Falcon supports:
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
 
+=== fix session start problem ===
+I was seeing the [[PHP#session_start_failed]] problem on tantek.dev as of when {{aaronpk}} got it working on 2014-07-13, but as of 2014-08-04 I am now seeing the "session start failed" problem on tantek.com also (webhost did a server move the day before).
+
+So I have to fix this first before I can do any more feature work.
+
+And then document how to debug it in an arbitrary PHP setup.
+
+And then write Falcon code to adapt to different PHP configurations / setups.
+
+=== auto Bridgy POSSE to FB ===
+Rather than manually using the publish form at https://www.brid.gy/facebook/214611#publishes,
+
+For all:
+* articles
+* notes
+* interactions with (replies to, likes of) FB posts (none so far)
+that I post on my own site, <br/>
+when clicking the "Publish" or "Tweet it" button (which should be renamed, "PuSH and POSSE it" maybe?) :
+# if there is no rel-syndication link to FB on the post, display a <pre><a href="http://brid.gy/publish/facebook"></a></pre> link instead (so Bridgy sees that)
+# send a webmention to Bridgy publish like: <blockquote><nowiki>curl https://www.brid.gy/publish/webmention -i -d  "source=http://tantek.com/2014/210/t1/trackattack-warmup-laps-first-time-did-all&target=brid.gy/publish/facebook"</nowiki></blockquote> (need <code>https</code> and <code>www</code> to avoid redirect, which won't <code>POST</code>)
+# parse the results of the curl, e.g. something like <blockquote style="white-space:pre;font-family:monospace">{<br>  "url": "<nowiki>http://facebook.com/456_789</nowiki>",<br>  "type": "post",<br>  "id": "456_789"<br>}</blockquote>
+# save the [URL] in a rel-syndication hyperlink in storage on the post with the link text "Facebook post [id]", *after* the Twitter syndication link
+
+Then anytime I "PuSH and POSSE" an article, note, or a reply/like of a FB post, a copy should automatically show up in my FB timeline.
+
+Once confirmed that this works:
+# go to Twitter preferences for @t
+# turn off cross-posting to FB
+# edit the [[Falcon#POSSE_Details]] description above to note POSSEing to FB via Bridgy (instead of via Twitter)
+# edit the [[POSSE]] IndieWeb Examples to note POSSEing to FB via Bridgy (instead of via Twitter)
+# edit [[Facebook#POSSE_out_to]] to move tantek.com from "from Twitter " to "Bridgy" subsection
+
 === webaction buttons in streams ===
 In short two things:
 # update look of [[web action]] buttons to be more [[Instagram]]-like
 # web action buttons on notes/articles in stream (home page) / collection (day and new month archives)
+## screenshot existing stream presentation (desktop, mobile) and post as example on [[composite_stream#IndieWeb_Examples]]
+## implement web action buttons on notes/articles in stream
+## screenshot new stream presentation (desktop, mobile) and post as example on [[composite_stream#IndieWeb_Examples]]
 
 Update look:
 

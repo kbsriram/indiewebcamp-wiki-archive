@@ -1,8 +1,8 @@
 http://indiewebcamp.com/messaging
 
 {{stub}}
-
-'''<dfn>messaging</dfn>''' refers to one user sending another user a message. There are numerous technologies for such personal messaging.
+<span style="float:right;height:192px;font-size:192px;margin-top:64px">📄</span>
+'''<dfn>messaging</dfn>''' refers to one user sending another user a message (memo, letter, etc.). There are numerous technologies for such personal messaging.
 
 == Brainstorming ==
 === IndieWeb Messaging ===
@@ -25,6 +25,7 @@ And perhaps we also have an opportunity to define what "friending" on the indiew
 
 - [[User:Tantek.com|Tantek]] 20:29, 22 August 2013 (PDT)
 
+__TOC__
 == Technologies ==
 Existing electronic messaging technologies and networks.
 

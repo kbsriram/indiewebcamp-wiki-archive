@@ -27,7 +27,7 @@ Rather than have to:
 ** disadvantage: showing a dated/old icon of the person (one they may no longer want to publish)
 
 == IndieWeb Examples ==
-* https://kylewm.com/admin/addressbook used in posts to show sparkline icon and full name of person hyperlinked to their website, and @-names in POSSE tweet copy, e.g.:
+* https://kylewm.com/addressbook used in posts to show sparkline icon and full name of person hyperlinked to their website, and @-names in POSSE tweet copy, e.g.:
 ** https://kylewm.com/reply/2014/07/01/1
 ** POSSE copy: https://twitter.com/kyle_wm/status/483972403169460224
 ** more info: [[Red_Wind#Address_Book]]

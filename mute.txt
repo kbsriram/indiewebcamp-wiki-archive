@@ -1,0 +1,17 @@
+http://indiewebcamp.com/mute
+
+{{stub}}
+
+'''<dfn>mute</dfn>''' is the ability to hide [[posts]] in your [[reader]] from specific publishers.
+
+== IndieWeb Examples ==
+None currently.
+
+== Silo Examples ==
+[[silos]] that have a "mute" feature for hiding posts from people so you don't have to see what they post, without having to unfollow them.
+* [[Flickr]] - added in 2007?
+* [[Facebook]] - added in 2010?
+* [[Twitter]] - added in 2014
+
+== See Also ==
+* [[reader]]

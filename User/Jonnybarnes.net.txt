@@ -1,4 +1,3 @@
 http://indiewebcamp.com/User%3AJonnybarnes.net
 
-== [https://jonnybarnes.net Jonny Barnes.net] ==
-I'm from Manchester, UK. Just having fun, one line of code at a time.
+#REDIRECT [[User:jonnybarnes.uk]]

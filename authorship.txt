@@ -91,8 +91,10 @@ Only if the rel-author page lacks an h-card do we then fallback to looking for a
 ** if it links to a [[Google+]] profile, use that profile for authorship information
 ** if it links to a [[home page]]
 *** if the home page has a <code>rel=me</code> link to a Google+ profile
-*** and the Google+ profile has profile link back to the home page
+*** and the Google+ profile has <code>rel=contributor-to</code> link back to the home page
 *** then use that profile for authorship information
+
+[[File:googleplus-authorship.png]]
 
 == See Also ==
 * [[discovery]]

@@ -2,7 +2,7 @@ http://indiewebcamp.com/Dopplr
 
 {{stub}}
 
-'''<dfn>[http://dopplr.com Dopplr]</dfn>''' was a [[silo]] for sharing future travel plans.
+'''<dfn>[http://dopplr.com Dopplr]</dfn>''' was a [[silo]] for sharing future [[travel]] plans.
 
 == Shutdown ==
 2013-11-01 '''Dopplr''' discontinuing ([http://dopplr.com/ home page] and [http://ourincrediblejourney.tumblr.com/post/64397333538/dopplr]).
@@ -26,4 +26,6 @@ Other pages to consider archiving when logged in:
 * http://www.dopplr.com/account/others - people who Dopplr thinks you should have connected with.
 
 == See Also ==
+* [[silos]]
 * [[site-deaths]]
+* [[travel]]

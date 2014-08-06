@@ -17,22 +17,13 @@ Expected/announced site deaths. Check them upon announced shutdown date.
 
 
 Soonest first:
-* 2014-06-01 '''Ubuntu One''' cloud sync service run by Canonical, makers of Ubuntu, to be [https://one.ubuntu.com/services/shutdown/ discontinued].
-** ". . . user content will remain available for download until 31 July, at which time it will be deleted."
+* 2014-08-10 '''Fotopedia''' photo encyclopedia and photo album host to be [http://blog.fotopedia.com/fotopedia-shutdown/ shut down]
+** Announced 2014-07-31: ". . . your data will be available to download until August 10, 2014. After this date, all photos and data will be permanently deleted from our servers."
 
-* 2014-06-25 '''Springpad''' "will be shutting down."[https://springpad.com/about]
-** 2014-05-22 The Verge: <cite>[http://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors One-time Evernote rival Springpad to close its doors]</cite>
-** https://twitter.com/rtaibah/status/472471865571557376
-** https://springpad.com/blog/2014/05/announcement-springpad-shutting-down/
-** https://springpad.com/blog/2014/05/springpad-says-goodbye/
-** [https://springpad.com/savemystuff Export Your Data], e.g. to Evernote
-
-* <span id="Readmill">2014-07-01 '''[[Readmill]]'''</span> "app will no longer be available ... All of your books, reading data and account information will be permanently deleted. User information will not be archived, shared or saved in any way."[https://readmill.com/epilogue].
-** <blockquote>[https://readmill.com/export Export data] includes books, followers, followings, readings, highlights, reviews, comments and likes on your highlights and reviews, and highlights you liked. </blockquote>
-** ???? Readmill profiles being lost, including followers/followings lists, readings, highlights, reviews, comments, likes, comments and likes on your highlights and reviews, and highlights liked
-** ???? purchased ebooks lost
-
-* 2014-08-01: '''Svpply''' will be [https://svpply.com/sunset sunset] by eBay.  Export of link data added to the site is available from users' account settings.  In response, the founder launched a [https://www.kickstarter.com/projects/2103885170/very-goods-the-new-svpply Kickstarter campaign] to build a new version of the site, called Very Goods.
+* 2014-08-31: '''Svpply''' will be [https://svpply.com/sunset sunset] by eBay.
+** "We regret to announce that Svpply.com and its associated apps — Svpply and Want by Svpply — will retire on August 31st."
+** Export of link data added to the site is available from users' account settings.
+** In response, the founder launched a [https://www.kickstarter.com/projects/2103885170/very-goods-the-new-svpply Kickstarter campaign] to build a new version of the site, called Very Goods. It was successfully funded on 2014-07-21.
 
 * 2014-09-01: '''mlkshk.com''' image sharing site shutting down. [http://mlkshk.typepad.com/mlkshk/2014/04/goodbye.html]
 ** Reason: <blockquote>MLKSHK isn’t our primary source of income and it’s certainly not our primary focus. Despite earning very little from the site we still have to answer tech support, deal with spam, fix minor issues, fix major issues, keep the servers updated, sort out billing issues, and worry about the months we get linked on Reddit. Sometimes the server and bandwidth bill are more than we took in for the month—this is scary.</blockquote>
@@ -69,17 +60,39 @@ See also (and add one-line summaries to) the [[history|history page]].
 
 In reverse chronological order:
 
-=== 2014 ===
-* 2014-06-17 '''Codespaces.com''' experienced a DDOS and an unauthorized person gained access to their EC2 control panel.
-* From http://www.codespaces.com
+=== 2014 === 
+* <span id="Readmill">2014-07-01 '''[[Readmill]]'''</span> "app will no longer be available ... All of your books, reading data and account information will be permanently deleted. User information will not be archived, shared or saved in any way."[https://readmill.com/epilogue].
+** <blockquote>[https://readmill.com/export Export data] includes books, followers, followings, readings, highlights, reviews, comments and likes on your highlights and reviews, and highlights you liked. </blockquote>
+** ???? Readmill profiles being lost, including followers/followings lists, readings, highlights, reviews, comments, likes, comments and likes on your highlights and reviews, and highlights liked
+** ???? purchased ebooks lost
+
+* 2014-06-25 '''Springpad''' "will be shutting down."[https://springpad.com/about]
+** 2014-05-22 The Verge: <cite>[http://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors One-time Evernote rival Springpad to close its doors]</cite>
+** https://twitter.com/rtaibah/status/472471865571557376
+** https://springpad.com/blog/2014/05/announcement-springpad-shutting-down/
+** https://springpad.com/blog/2014/05/springpad-says-goodbye/
+** [https://springpad.com/savemystuff Export Your Data], e.g. to Evernote
+
+* 2014-06-17 '''Codespaces.com''' experienced a DDOS and an unauthorized person gained access to their EC2 control panel. From http://www.codespaces.com:
 ** <blockquote>. . . removed all EBS snapshots, S3 buckets, all AMI's, some EBS instances and several machine instances.</blockquote>
 ** <blockquote>In summary, most of our data, backups, machine configurations and offsite backups were either partially or completely deleted.</blockquote>
 ** <blockquote>Code Spaces will not be able to operate beyond this point, the cost of resolving this issue to date and the expected cost of refunding customers who have been left without the service they paid for will put Code Spaces in a irreversible position both financially and in terms of on going credibility.<br><br>As such at this point in time we have no alternative but to cease trading and concentrate on supporting our affected customers in exporting any remaining data they have left with us.</blockquote>
 
-* 2014-06-15 '''Justin.tv''' no longer archiving live broadcasts and will be deleting all archived videos with two weeks notice.
+* <span id="Justin.tv">2014-06-15 '''[[Justin.tv]]'''</span> no longer archiving live broadcasts and will be deleting all archived videos with two weeks notice.
 ** "All VODs will be removed after June 15, 2014. We recommend downloading your recorded videos before the date."
 *** Initially this reported "June 8, 2014", but as of 2014-06-24 the page says June 15.
 ** 2014-05-29 https://help.justin.tv/entries/41803380-Changes-to-Video-Archive-System
+** Justin.tv shut down and transferred all focus to gaming-related content platform Twitch Interactive. Videos on Justin.tv are no longer accessible for download. Video archiving and VODs was removed on June 15, 2014. 
+** Accounts only saved for users who used their justin.tv account to login to Twitch, or signed up for Twitch. Users still using their Justin.tv logins to log into Twitch will need to complete a form to have account transferred to Twitch for full site use.Justin.tv will move your account within 72 hours. Request to transfer account must be received on or before Friday, September 5, 2014. The Justin.tv site reminds users "Twitch is a site for gaming-related content only" and that all content posted to Twitch must follow [http://www.twitch.tv/user/legal Twitch TOS]. 
+** Justin.tv accounts tranferred to Twitch will keep the username and email address associated with the Justin.tv Accounts will continue to follow any currently followed Twitch channel, but not any JTV channel, unless that channel is also transferred to Twitch. Users will NOT keep JTV followers, unless those followers have also transferred to Twitch. VODs will not be transferred to Twitch.
+** Active Justin.tv Pro Account Users will be refunded. An email to members communicated the cancellation and refund process.
+** Mobile apps, APIs, broadcast tool, and all other components of the site no longer work. Users were referred to YouTube, Ustream and Livestream for live video content. 
+** ???? Lost videos 
+** ???? Lost user accounts 
+** Archive.org downloaded all Justin.tv videos with more than 10 views. [https://archive.org/details/justintv  https://archive.org/details/justintv] Archive.org also took requests to download and archive specific videos by request. 
+
+* 2014-06-01 '''Ubuntu One''' cloud sync service run by Canonical, makers of Ubuntu, to be [https://one.ubuntu.com/services/shutdown/ discontinued].
+** ". . . user content will remain available for download until 31 July, at which time it will be deleted."
 
 * 2014-05-30 '''Editorially''' collaborative writing and editing platform
 ** Service will be shut down; did not get enough users to make it sustainable. Users have until shut down date to export their data. Archive will include a plain text file for every version of every document you have access to; it will also include comments, version notes, tags, activity, and other metadata about your documents. That metadata will be provided in the form of a YAML file. https://editorially.com/help

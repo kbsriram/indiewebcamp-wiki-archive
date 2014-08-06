@@ -107,6 +107,18 @@ And then applications that wish to use that field for a one-off rel-me equivalen
 Careful parsing it, people often put multiple whitespace- or newline-separated urls.
 
 == Criticism ==
+=== Downtime ===
+Though typically rare and brief, Facebook does go down / offline from time to time, most recently.
+
+* 2014-08-01 ~9:00-9:40 flakey / intermittent availability with lots of "Something went wrong" messages, e.g. on a permalink page when logged in:
+[[File:FB something wrong 2014-08-01.png]]
+* on a group page when logged in:
+[[File:FB group down 2014-08-01.png]]
+* and on the home page:
+[[File:facebook is down 20140801.png]]
+* on a previously loaded FB page, the "Notifications" globe drop-down just rotated a progress image for minutes and never loads:
+[[File:FB notifications dropdown not loading 2014-08-01.png]]
+
 === Prefers Pageviews Over Efficient UX ===
 Per the documentation in [[reader#Integrated_Activity_Reading]], one of Facebook's UI experiments involved an integrated reading experience that showed by posts and other "activities" in a single reading stream:
 

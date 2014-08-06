@@ -10,11 +10,18 @@ http://indiewebcamp.com/User%3AKylewm.com
 * send webmention when comments are deleted
 * commit file store in git automatically, possibly delayed
 * Ability to be able to add new post-types (e.g., "bookmark") without changing code. Possibly call the thing that is the first part of the URL path the "category".
-* <strike>post notes and syndicate to twitter from the main page, fewer clicks</strike>
-* split out admin templates and "theme" templates
-** <strike>define path to theme templates in a config file</strike>
+* Split out admin templates and "theme" templates
+* Collection posts for photo albums -- prompted by batch of vacation photos starting around https://kylewm.com/photo/2014/07/31/4
+** added album selector for POSSE to Facebook; album should exist on my site too! 
+* Android application that uses web intents to share photos or links to my site (use micropub?)
+
+==== Done ====
+* post notes and syndicate to twitter from the main page, fewer clicks
+* define path to theme templates in a config file
 
 === generation 2 ===
+
+''tbh, I've lost interest in all this'' [[User:Kylewm.com|Kylewm.com]] 22:21, 3 August 2014 (PDT)
 
 How can I help onboard tech-savvy non-developers (or developers who don't want to be a sysadmin). php is pretty well covered, thinking about alternatives.
 

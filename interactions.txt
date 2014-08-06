@@ -1,0 +1,62 @@
+http://indiewebcamp.com/interactions
+
+{{stub}}
+
+'''<dfn>interactions</dfn>''', in the context of the indieweb, refer to all the different ways and things people do to and with others posts. E.g.
+
+* [[reply]]
+* [[repost]]
+* [[like]] / [[favorite]] or other [[reaction]]
+
+== IndieWeb Examples ==
+* see the lists on each of the interactions for now.
+
+== Alternatives ==
+Various alternatives and opinions, nuances, experiences with use thereof.
+
+The goal of this section is to get rough consensus around what to call the set of things that is replies/comments, reposts/reshares, likes/favorites.[http://indiewebcamp.com/irc/2014-07-30#t1406780480]
+
+=== Interactions ===
+'''<dfn>interactions</dfn>''' is a more recent term being used for the set of things that people do to blog posts.
+
+If you have opinions or experience with using the term '''responses'', please add them here:
+
+* +1 {{t}}: I've used the term "interactions" successfully in talks (e.g. [[2014/PDF]]) to describe all the things people do to blog posts, on the blog post directly, and indirectly via [[POSSE]] copies, which then get [[bridgy]]/[[webmention]] aggregated back to the original. 
+* +1 {{benwerd}}: (from Ben in person at [[events/2014-07-30-hwc]], he's used the term interactions successfully when explaining to both technical and non-technical people about the set of things from other people below a blog post)
+* +1 {{shanehudson}}: "I definitely prefer interactions, it gives the widest scope"[http://indiewebcamp.com/irc/2014-07-30#t1406781706]
+* ...
+
+=== Responses ===
+'''<dfn>responses</dfn>''' is the term used on some of the earliest work on clustering replies/reposts/likes was done by Sandeep Shetty on the (now out of date and a bit messy) [[responses]] page.
+
+If you have opinions or experience with using the term '''responses'', please add them here:
+
+*  +1 Sandeep Shetty: (presumed, as originator of the [[responses]] page).
+* -1 {{t}}: sounds too much like just a synonym for "replies"[http://indiewebcamp.com/irc/2014-07-26#t1406396458], and thus not sufficiently inclusive of the lighter-weight things like reposts/likes/bookmarkings etc. It also sounds a bit too programmer/dev-centric, e.g. HTTP responses.
+* +0 {{gregor}}: "Why is the synonymy of responses and replies problematic?"[http://indiewebcamp.com/irc/2014-07-26#t1406398212]
+* +1 {{gwg}}: I like responses, but I saw some of the debate ... I bow to the will of the group.[http://indiewebcamp.com/irc/2014-07-30#t1406780517]
+* +1 {{jonpincus}}: i asked people on The Tapestries, and they preferred "responses" to "interactions". [we already use "reactions" to mean "likes, favorites, agree, disagree, etc." -- that is, responses that aren't replies][http://indiewebcamp.com/irc/2014-07-31#t1406823207]
+* +1 [[User:Snarfed.org|Ryan]]: [[Bridgy]] and Ryan's own [https://snarfed.org/responses snarfed.org/responses] both use "responses." Ryan doesn't care which term "wins," but "response" is pretty baked into Bridgy, and he probably wouldn't prioritize changing it anytime soon.
+* ...
+
+=== Reactions ===
+'''<dfn>reactions</dfn>''' is another umbrella term for replies/reposts/likes, and has some history.
+
+[[Technorati]] used to call the full set of things linking to blog posts "reactions"[https://twitter.com/technorati/status/6974758539], mostly because it was difficult to tell the difference between an actual reply/comment, an offhand mention, a quote, or some other citation. So "reactions" came to mean the set of things which link back to blog posts.
+
+If you have opinions or experience with using the term '''responses'', please add them here:
+
+* +0 {{t}}: "reactions" now sound almost impulsive rather than thoughtful, and thus may make sense as a grouping term for lighter-weight things like reposts/likes/bookmarkings, exclusive of actual written replies/commentary.
+* ...
+
+=== Other ===
+...
+other alternatives?
+
+
+== Silo Examples ==
+Nearly all silos support some forms interaction.
+
+== See Also ==
+* [[post]]
+* [[response]], for earlier discussion

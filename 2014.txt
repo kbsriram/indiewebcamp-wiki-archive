@@ -73,6 +73,8 @@ Blog and post about IndieWebCamp. See what others are posting: http://tagboard.c
 === Sponsor ===
 <span id="sponsor">[[how-to-sponsor|How to sponsor IndieWebCamp]]</span>
 
+{{main|Sponsors}}
+
 <table><tr><td width="50%">
 ==== West Sponsors ====
 West Coast (Portland) sponsors:

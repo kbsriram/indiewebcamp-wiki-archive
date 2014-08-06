@@ -1,7 +1,8 @@
 http://indiewebcamp.com/2014/Cambridge
 
 = <span class="p-name summary">IndieWebCampCambridge 2014</span> =
-[[File:mit-logo.png|300px|right|MIT Logo]]
+<a href="http://web.mit.edu" style="float:right; margin-left:10px"><img src="https://indiewebcamp.com/sponsor-logos/full/mit-logo.png" width="300"></a>
+
 Join us in Cambridge, MA for the very first IndieWebCamp at MIT - one of many IndieWeb [[events]].
 
 <div class="p-description description">
@@ -165,7 +166,7 @@ Put your name here.
 == Sponsors ==
 Our thanks to these sponsors for supporting the event!
 
-[[Image:esri-logo.gif|657px|center]]
+<a href="http://www.esri.com"><img src="https://indiewebcamp.com/sponsor-logos/full/esri-logo-large.gif" width="400"></a>
 
 === To-do ===
 # Get a company to cover lunch each day (see Sponsor section).

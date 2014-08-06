@@ -6,6 +6,10 @@ http://indiewebcamp.com/silo-quits
 
 == Silo quitters 2014 ==
 
+=== Brad Colbow ===
+[[Medium]], [[Tumblr]]
+* 2014-07-31: <blockquote>Decided to move all my blog posts from Medium and Tumblr back to my own site http://bradcolbow.com/blog.html[https://twitter.com/bradcolbow/status/494894162454777856]</blockquote>
+
 === Chuq Von Rospach ===
 [[Facebook]]
 * 2014-06-29: Announced he is probably leaving Facebook in one week.

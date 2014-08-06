@@ -58,6 +58,9 @@ demonstrates an h-entry for a "repost" of <nowiki>http://someothersite.example.c
 * This frees up "u-repost" (and "p-repost") to actually indicate that the URL being linked is a repost itself (e.g. similar to "p-comment").
 
 
+== Sessions ==
+[[IndieWebCamp]] sessions where reposts were discussed:
+* [[2014/reposts]] - at IndieWebCamp 2014 (NYC venue)
 
 == Differentiating Reposts ==
 === Quote vs. Repost ===

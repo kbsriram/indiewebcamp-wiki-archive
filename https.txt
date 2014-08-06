@@ -201,6 +201,9 @@ Level 1 - "Don't do the wrong thing". (what's the minimal "not wrong thing"?). P
 
 === Level 2 security ===
 Level 2 - support it for your admin pages with a self-signed certificate.
+* Your admin pages:
+** MUST be available over https
+** SHOULD redirect from http to https automatically (so you don't accidentally send logged in session cookies in the clear over http).
 * E.g. How to make Wordpress use SSL: http://codex.wordpress.org/Administration_Over_SSL
 Note: If you actually get a real SSL cert and serve your admin interface from the same domain, you are actually in Level 3.
 
@@ -210,7 +213,6 @@ Note: If you actually get a real SSL cert and serve your admin interface from th
 '''IndieWeb Examples'''
 * {{t}} for tantek.com on his [[Falcon]] admin interface at https://tantek.com/falcon/ [http://tantek.com/2014/143/t1/setup-self-signed-ssl-certificate-site-admin since 2014-05-23]
 * ...
-
 
 === Level 3 security ===
 Level 3 - provide your front-end over both http and https with a cert from a trusted CA

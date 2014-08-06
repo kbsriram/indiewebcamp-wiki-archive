@@ -1,5 +1,9 @@
 http://indiewebcamp.com/2014/reposts
 
+'''<dfn>2014 reposts</dfn>''' was an IndieWebCamp [[2014]] (NYC venue) brainstorming session about [[design]] and [[UX]] for presenting a [[repost]] on your own site.
+
+== Session Notes ==
+
 Archived from: https://etherpad.mozilla.org/indieweb-reposts
 
 IndieWebCamp [[2014]] NYC
@@ -54,3 +58,6 @@ UI sketches:
 ♺ user.example.com: "--------..." user.example.com/permalink <br/>
 "------" = up to 99 characters <br/>
 ... - regardless of truncation include original permalink at end of POSSE copy (instead of permalink to your repost) Whiteboard:<br/> [[File:2014-179-iwc-nyc-repost-new-posse.jpg|640px]]
+
+== See Also ==
+* [[repost]]

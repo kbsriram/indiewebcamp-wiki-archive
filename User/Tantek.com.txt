@@ -8,7 +8,7 @@ http://indiewebcamp.com/User%3ATantek.com
 __NOTITLE__
 == inbox ==
 I'm collecting requests from [[IRC]] here when they're something I can't handle quickly and immediately. Roughly FIFO, feel free to re-arrange if you have reasons to suggest a specific prioritization
-* ... empty currently.
+* process [[h-card#Issues]]
 
 == my indie web setup ==
 * http://tantek.com is my primary home where I post:

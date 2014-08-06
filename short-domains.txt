@@ -160,6 +160,13 @@ This TLD is going through pricing turmoil, raising prices from $50 to $120 per y
 IndieWeb folks using .tc short URLs:
 * <strike>Bret:  http://bre.tc - I do not recommend this tld.  It has been nothing but pain and agony.</strike> using .io now.
 
+=== uk ===
+.uk is the [https://secure.wikimedia.org/wikipedia/en/wiki/.uk ccTLD for the United Kingdom.]
+
+Originally Nominet UK only allowed domains to be registered under certain subdomains, such as co.uk or org.uk. They have recently opened up the top-level domain itself. There is a potential difficulty in registering short domains though as people who have already registered the .co.uk variant get priority I believe.
+
+'''Note''' The registrar requires that your WHOIS mailing address be a valid UK address, for details see [http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules section 7].
+
 === add more short URL domains here ===
 ...
 

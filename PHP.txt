@@ -20,5 +20,23 @@ http://indiewebcamp.com/PHP
 Articles about the use of PHP, especially for software that you are expected to download and install on your own domain:
 * http://rachelandrew.co.uk/archives/2013/10/17/unfashionably-profitable/
 
+== Troubleshooting ==
+=== session start failed ===
+If you get an error like:
+<blockquote style="font-family:monospace">
+Warning: session_start() [function.session-start]: open(/home/.../tmp/sess_..., O_RDWR) failed: No such file or directory
+</blockquote>
+* Look like the server can't write to <samp>/home/.../tmp/</samp>
+** so either it used to be able to, or it used to write to some other path
+** ssh in, and see what the permissions for <samp>/home/tantek/tmp</samp>
+* Or it's possible the session.save_path configuration changed. http://us2.php.net/manual/en/function.session-save-path.php
+
+Possible resolutions:
+* if your [[webhosting]] is a '''shared server'''
+** start a ticket with your hosting provider, OR
+** add this code to your PHP application somewhere before session access: <blockquote style="whitespace:pre"><code>if (!is_dir(ini_get('session.save_path'))) {<br/>  mkdir(ini_get('session.save_path'), 0700, true);<br/>}</code></blockquote>
+*** This code auto-creates the PHP session storage directory if it doesn't already exist.
+* ...
+
 == See Also ==
 * [[Python]]
