@@ -1,0 +1,11 @@
+http://indiewebcamp.com/static-site
+
+{{ stub }}
+
+A static site is a website that is served by a web server directly from the file system.
+
+* [http://nilclass.com/courses/what-is-a-static-website/ What is a static website?]
+
+
+== See Also ==
+* [[web hosting#Static_domain_hosting|Static domain hosting]]

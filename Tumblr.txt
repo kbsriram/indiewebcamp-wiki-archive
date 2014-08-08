@@ -4,8 +4,6 @@ http://indiewebcamp.com/Tumblr
 
 '''<dfn>[http://tumblr.com Tumblr]</dfn>''' is a popular content hosting [[silo]], and through domain mapping, a content hosting service as well.
 
-<div style="clear: both">__TOC__</div>
-
 == How to ==
 === POSSE to Tumblr ===
 Tumblr used to be able to import an RSS feed (dates? citations?).
@@ -149,16 +147,20 @@ Tumblr posts can be roughly mapped to [[ActivityStreams]] object types as follow
 ; video : video
 ; audio : audio
 
+
 == Downtime ==
 * 2010-340 16:24:41-0800 (PST) "issue in ... [[database]] cluster" [http://www.flickr.com/photos/tantek/5331910087/ http://farm6.staticflickr.com/5046/5331910087_c25749d90b_z.jpg]
 
-
+<div style="clear: both">__TOC__</div>
 == Users own their content ==
 The [https://www.tumblr.com/policy/en/terms-of-service Tumblr TOS] assert that users retain ownership and copyright over all content and IP they post. Details in section 6, Content and Subscriber Content. (Checked 2014-07-21.)
 
 == Criticisms ==
+=== DMCA takedowns without merit ===
 * Like many of the other silos, Tumblr will comply to DMCA takedown requests quickly and without warning, regardless of their merit.
 ** Randy McQueen filed numerous DMCA complaints with Tumblr in order to remove posts that were critical of his artwork (even though art criticism within Fair Use) [http://eschergirls.tumblr.com/post/93520850386/so-yesterday-i-found-out-that-randy-queen-artist]
+=== Blocked Feedreader Bloglovin ===
+* Tumblr has blocked at least one [[feed reader]] ([[Bloglovin]]) from accessing their [[feeds]], see [http://www.bloglovin.com/tumblr-update Tumblr blocks Bloglovin]
 
 == See Also ==
 * [[silos]]

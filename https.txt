@@ -183,6 +183,7 @@ Why?
 ** "Because I can; it’s the one small part of the Internet that I do have complete control of." (https://willnorris.com/2012/12/all-https-all-the-time)
 * If you received a comment via an https website you can be more certain it's actually sent from the person
 * Performance gains from using SPDY (https://thethemefoundry.com/blog/why-we-dont-use-a-cdn-spdy-ssl/)
+* Google now rank https sites higher than equivalent non-https sites (http://googleonlinesecurity.blogspot.co.uk/2014/08/https-as-ranking-signal_6.html)
 
 == IndieMark Levels ==
 Proposed [[IndieMark]] Levels of recommended support for HTTPS on your own website, as part of a security component

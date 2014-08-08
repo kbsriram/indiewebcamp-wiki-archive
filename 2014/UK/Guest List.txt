@@ -146,6 +146,14 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
+|name = Shane Hudson
+|img = http://shanehudson.net/avatar.png
+|url = http://shanehudson.net
+|projects = Personal website currently using Wordpress
+|elsewhere = [https://twitter.com/shanehudson @shanehudson], [https://github.com/shanehudson github.com/shanehudson]
+}}
+
+{{Attendee
 |name = Tantek Çelik
 |img = http://tantek.com/logo.jpg
 |url = http://tantek.com/

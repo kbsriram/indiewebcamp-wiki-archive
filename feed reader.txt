@@ -14,6 +14,7 @@ See: [[reader]] for current work on integrated indieweb readers.
 * [http://selfoss.aditu.de/ selfoss] - Open source web RSS aggregator/reader
 * [http://tt-rss.org/ TinyTinyRSS] - Open Source with a web frontend and an API for external clients
 * [http://apps.owncloud.com/content/show.php/News?content=158434 news Owncloud] - Open Source Owncloud application with a web frontend and an API
+* [[Bloglovin]] - web-based feed reader site
 * [http://netnewswireapp.com/ NetNewsWire] - Standalone application for OS X
 * ... other feed reader examples that community members have used (or are using)
 

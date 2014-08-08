@@ -32,11 +32,30 @@ Warning: session_start() [function.session-start]: open(/home/.../tmp/sess_..., 
 * Or it's possible the session.save_path configuration changed. http://us2.php.net/manual/en/function.session-save-path.php
 
 Possible resolutions:
-* if your [[webhosting]] is a '''shared server'''
+* If your [[webhosting]] is a '''shared server'''
 ** start a ticket with your hosting provider, OR
 ** add this code to your PHP application somewhere before session access: <blockquote style="whitespace:pre"><code>if (!is_dir(ini_get('session.save_path'))) {<br/>  mkdir(ini_get('session.save_path'), 0700, true);<br/>}</code></blockquote>
-*** This code auto-creates the PHP session storage directory if it doesn't already exist.
-* ...
+*** This code auto-creates the PHP session storage directory if it doesn't already exist (inspired by the <code>mkdir</code> suggestion at [http://www.shdon.com/blog/2014/05/09/php-why-might-session_start-fail-claiming-no-such-file-or-directory], but tightened up with a conditional and tighter perms)
+*** You may (should) consider providing additional error handling if the <code>mkdir</code> fails, and at some point provide the user an error message describing the error in enough detail that they can either file a support ticket with their webhosting provider, or ask a specific question in an appropriate community.
+** 2014-08-07 {{t}}: These steps worked for me this past week using [[Falcon]] on shared [[webhosting]]. If Please only edit these instructions if you are documenting how you actually solved a problem firsthand, not how it might or should be possible.
+** OR write a completely different non-filesystem method of session handling.
+*** See: http://websec.io/2012/08/24/Shared-Hosting-PHP-Session-Security.html for specific suggestions.
+* If this is on your '''local dev setup''' (e.g. yourdomain.dev on your laptop)
+** check your local dev php.ini to make sure it is setting session.save_path, if not fix it.
+*** don't know where is your local dev php.ini? 
+**** create a file like <kbd>phpinfo.php</kbd> on your local dev setup with: <blockquote><code>&lt;!doctype html&gt;&lt;meta charset=utf-8&gt;&lt;title&gt;php info&lt;/title&gt;&lt;?php phpinfo();?&gt;</code></blockquote> 
+**** go access that phpinfo.php e.g. if you put it in a test directory: yourdomain.dev/test/phpinfo.php 
+**** look for "Loaded Configuration File:" and it will tell you where is your local dev php.ini, 
+*** don't have a local dev php.ini? if you see: "Loaded Configuration File: (none)" then you need to make one
+**** look for "Configuration File (php.ini) path" in that same output from above.
+**** go to that directory and look for a <samp>php.ini.default</samp> file
+**** copy it to <kbd>php.ini</kbd> e.g. with <blockquote><kbd>cp php.ini.default php.ini</kbd></blockquote>
+**** if you get an error like <blockquote><samp>cp: /etc/php.ini: Permission denied</samp></blockquote> then you need to use <kbd>sudo</kbd>: <blockquote><kbd>sudo cp php.ini.default php.ini</kbd></blockquote>
+*** restart your local dev setup [[Apache]], e.g. in a terminal window on your local dev machine: <blockquote><kbd>sudo apachectl -k graceful</kbd></blockquot>
+*** if you see an error/warning like: <blockquote><samp>httpd: Could not reliably determine the server's fully qualified domain name</samp></blockquote> ignore it. Your local dev setup should work now.
+*** if you instead (or also) saw an error like: <blockquote><samp>httpd not running, trying to start <br/>(13)Permission denied: make_sock: could not bind to address [::]:80 <br/>(13)Permission denied: make_sock: could not bind to address 0.0.0.0:80 <br/>no listening sockets available, shutting down <br/>Unable to open logs</samp></blockquote> then you forgot to use <kbd>sudo</kbd>. Try again with the exact <kbd>sudo apachectl -k graceful</kbd> command above.
+** 2014-08-07 {{t}}: These steps worked for me this past week using a Macbook Air running OSX 10.7 and default [[Apache]]/PHP. Please only edit these instructions if you are documenting how you actually solved a problem firsthand, not how it might or should be possible.
+* Hopefully that fixes the "Warning: session_start()" error. If not, please ask in [[IRC]] and document further description/details below this item.
 
 == See Also ==
 * [[Python]]

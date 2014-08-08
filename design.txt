@@ -17,6 +17,13 @@ What's the minimum viable (for any particular feature) UI (MVUI) you could imple
 === Prioritize Through Use ===
 Once you design/implement that MVUI and use it, by actual use in the wild you'll come up with a much more informed set of next-most-important-to-you features to implement. - [[User:Tantek.com|Tantek]] 11:25, 15 May 2013 (PDT)
 
+=== Incremental ===
+It's ok (and even often good!) to make incremental improvements to the design, however small or conditional.
+
+E.g. every time you reduce the number of situations where the user sees an error and/or has to file a support ticket, the likelihood of an overall better user experience is increased.
+
+And on the contrary, avoid making such incremental improvements depend on other incremental improvements that can be done independently or later. Such dependencies are a milder form of the completeness trap.
+
 === UX Before Infrastructure ===
 There is a misdirected priority/desire (often among developers/engineers) for things like:
 * "a general message producer/consumer so I can implement it once"[http://indiewebcamp.com/irc/2013-08-22/line/1377195851] or similarly

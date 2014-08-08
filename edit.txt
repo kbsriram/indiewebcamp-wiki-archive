@@ -1,0 +1,5 @@
+http://indiewebcamp.com/edit
+
+{{stub}}
+
+An '''<dfn>edit</dfn>''' is a type o [[post]].

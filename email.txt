@@ -4,13 +4,21 @@ http://indiewebcamp.com/email
 
 == Use cases ==
 * Asynchronous posting to your website.
+* [[POSSE]] destination
 Legacy:
-* One on one [[messaging]].
+* One on one or one to many [[messaging]].
+* Messaging to a (often self-)selected group, i.e. [[email list]]
 
-== IndieWeb examples ==
-Indiewebcamp creators currently posting to their sites via email:
+== IndieWeb Examples ==
+Indiewebcamp creators currently posting to their sites via email, and/or POSSEing to email:
+=== Nick Doty ===
+{{npdoty}} occasionally publishes emails on bcc.npdoty.name that he also sends to mailing lists since [http://bcc.npdoty.name/Re-programmatic-typesetting 2009-01-22], e.g.:
+* http://bcc.npdoty.name/Re-programmatic-typesetting
+* he also occasionally publishes emails sent to an [[email list]]
+
 === Barnaby Walters ===
-* [[User:WaterPigs.co.uk|Barnaby Walters]] ([http://waterpigs.co.uk/notes/1441/ example])
+[[User:WaterPigs.co.uk|Barnaby Walters]] has been posting to his site occasionally via email [http://waterpigs.co.uk/notes/1441/ since 2013-05-22]. Example:
+* http://waterpigs.co.uk/notes/1441/
 
 == Support ==
 Due to its popularity and ubiquity email is extremely widely supported.
@@ -33,7 +41,6 @@ It is also appallingly bad for collaboration ([[wiki]]s or version control syste
 * [[Why_web_sign-in#Why_not_email|Why not email for identity]]
 
 == FAQ ==
-
 '''Can I point my domain to my VPS(/web server) but still use hosted email services? I don’t want to run a mailserver'''
 
 Yes, your domain name can resolve to the IP address of your web server for HTTP traffic, but direct mail agents to look elsewhere. See also [[DNS]].
@@ -69,7 +76,6 @@ Specific services:
 [[Pobox]](http://pobox.com/pricing) is a paid email service that has two types of accounts: mailstore and forwarding. All of their plans allow for personal domains.
 
 === Mail as a Service ===
-
 ==== Mandrill ====
 
 Mandrill is a service for sending and receiving emails run by Mailchimp. Its free plan is generous enough to easily cover the needs of an individual posting to their own site.
@@ -142,3 +148,4 @@ Anyone can send fake email from any email address. You need some way of determin
 
 == See Also ==
 * [[private posts]]
+* [[email list]]

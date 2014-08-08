@@ -17,8 +17,8 @@ OpenBlog aims to be a platform for easy development of new features.  The hope i
 # Support for multiple post types (currently articles, notes, and photos)
 # Web admin page
 # Simple routing management (routes.php config file)
-# [[webmention]] send and receive (sending not currently automated)
-# [[micropub]] support (currently in developement, successfully working with [[OwnYourGram]])
+# [[webmention]] send and receive
+# [[micropub]] support (currently in developement, successfully working with [[OwnYourGram]] and https://quill.p3k.io )
 
 === Planned Features ===
 # Expand to other post types

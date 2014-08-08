@@ -219,6 +219,7 @@ The following users/sites have <span id="IndieWeb_implementations">implemented</
 * [https://github.com/pear2/Services_Linkback pear2/Services_Linkback] - '''PHP''' pingback+webmention client + server library
 * [https://github.com/bear/ronkyuu bear/ronkyuu] - '''Python''' client library and command-line tools
 * [https://github.com/glennjones/webmentions glennjones/webmentions] - '''Node.js''' a helper library for endpoint discovery, pulling validating webmentions and sending webmention requests
+* [https://willnorris.com/go/webmention willnorris.com/go/webmention] - '''Go''' client library and command-line tool for discovering and sending webmentions.
 * …
 
 For webmention endpoint discovery:
@@ -490,6 +491,12 @@ To make webmentions more useful, it would be great if there was some way to have
 
 === homepage webmentions ===
 See: [[homepage#Webmention_to_homepage|homepage: webmention to homepage]].
+
+=== retrying ===
+
+Good retry logic can be hard, regardless of what you're doing, and webmentions are no exception. Here are some current practices we use to retry HTTP fetches for webmention endpoint discovery, sending webmentions, and fetching source pages to check backlinks.
+
+* [[Bridgy]] gives up immediately on 4xx errors and DNS lookup failures. On other errors (mostly 5xx and connection failures), it retries 30s later, backs off exponentially down to once an hour, and gives up after 3d.
 
 == Alternatives ==
 Alternatives to webmention.

@@ -34,6 +34,8 @@ Fragmentions find the first matching word or phrase in a document and focuses it
 
 * {{t}} supports fragmentions on all tantek.com post permalinks [http://tantek.com/2014/207/t1/iteration-tech-proposals-cc0-wiki-preferred since 2014-07-26] using the <code>fragmention.min.js</code> open source polyfill, and CSS that highlights the element containing the fragmention in <span style="background:yellow">yellow</span> and fades to <span style="background:#ffffe0">very light yellow</span>.
 
+* [http://ben.thatmustbe.me/##Archives Ben's Site] - simple use of the open source polyfill, included on every page.
+
 == Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
 * [http://bthdonohue.com/post/85643490431/instapaper-fragmentions Instapaper Support] 
