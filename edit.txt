@@ -2,4 +2,66 @@ http://indiewebcamp.com/edit
 
 {{stub}}
 
-An '''<dfn>edit</dfn>''' is a type o [[post]].
+An '''<dfn>edit</dfn>''' (AKA <dfn>diff</dfn>, <dfn>change</dfn>) is a type of [[post]].
+
+== Why ==
+Reasons why you should publish edit posts, and support having a [[reader]] show them. Each of these are use-cases of their own merit.
+
+=== Own Your Edits ===
+E.g. edit a Wikipedia page by posting an edit on your own site, and notifying the original.
+
+# Find a [[Wikipedia]] page you want to edit
+# Make a local copy on your own site
+# Edit it on your own site
+# Publish an edit post on your own site
+# Notify the original page about your edit response by sending a [[webmention]] to [[Wikipedia]].
+# Wikipedia verifies the webmention and accepts the edit as being authored by your personal domain, like the User: domain accounts we already have here on IndieWebCamp (e.g. [[User:Tantek.com]]).
+
+This is very similar to the existing git model of making a pull request from your own fork of a repository, and having that pull request automatically accepted because a repo policy.
+
+==== Federated IndieWebCamp Edits ====
+While the above user scenario with Wikipedia is <em>hypothetical</em> and would require Wikipedia and thus MediaWiki to support receiving webmentions from edit posts, and understanding IndieWeb [[identity]], there is something we can do first to prove it can work.
+
+We can implement this scenario on IndieWebCamp's MediaWiki installation first:
+
+# Find a IndieWebCamp.com page you want to edit
+# Make a local copy on your own site of the wiki source, and make a note of the permalink of specific version of the page (and section if you're only editing that)
+# Edit the wiki source on your own site
+# Publish an edit post on your own site with
+#* the wiki source as <code>e-content</code>
+#** (might have to use <code>p-content</code> with anything resembling markup escaped instead of <code>e-content</code> so the edit post doesn't look weird on your own site. so more like a special [[note]] with whitespace preserved than a special [[article]])
+#* a <code>u-edit-of</code> hyperlink to the version of the page you're editing.
+# Notify the original page about your edit response by sending a [[webmention]] to IndieWebCamp.com (which already supports receiving webmentions, just doesn't do anything with them other than share with Loqi thus to IRC).
+# IndieWebCamp.com verifies the webmention and accepts the edit as being authored by your personal domain, like the User: domain accounts we already have here on IndieWebCamp
+
+And presto, you can edit IndieWebCamp.com without ever logging into it.
+
+=== View Edits From Elsewhere ===
+By implementing the consumption and display of edit posts in your [[reader]], you can view edits made by your account on another site, or edits to a particular page, or even all edits to a wiki.
+
+E.g. if third party wiki [[commons]] (like Wikipedia) supported marking up their edit permalinks as edit posts, and in their streams of edits as well, it would be possible to follow/subscribe to them in an indie [[reader]] and see your edits on another site show up in the stream of posts in your reader.
+
+== Open Source Examples ==
+=== MediaWiki ===
+[[MediaWiki]], e.g. like on this wiki, has permalinks of individual edits:
+* http://indiewebcamp.com/wiki/index.php?title=edit&diff=prev&oldid=12023
+As well multiple places where streams of edit summaries are displayed:
+* Changes across the whole wiki: [[Special:RecentChanges]]
+* History of a particular page: http://indiewebcamp.com/wiki/index.php?title=edit&action=history
+* Contributions from a user: http://indiewebcamp.com/Special:Contributions/Tantek.com
+
+== Commons Examples ==
+=== Wikipedia ===
+[[Wikipedia]], an openly licensed [[commons]], being the biggest deployment of [[MediaWiki]], effectively has permalinks to <dfn>diffs</dfn> which show all the changes made in an edit. E.g.:
+* https://en.wikipedia.org/w/index.php?title=Webmention&diff=615221236&oldid=615219824
+
+== Silo Examples ==
+=== GitHub ===
+[[GitHub]], more like a [[silo]], has permalinks to <dfn>pull requests</dfn> which are their term for edit posts. E.g.:
+* https://github.com/kevinmarks/kevin-marks.com/pull/1/files
+
+== See Also ==
+* [[Special:RecentChanges]]
+* [[posts]]
+* [[wiki]]
+* [[wiki-page]]

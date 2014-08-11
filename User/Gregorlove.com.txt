@@ -45,6 +45,8 @@ In no particular order, I am interested in:
 * Tweak new wiki theme
 * Set up [[checkins]], display maps with OpenStreetMap
 * Set up [[micropub]]
+* Post events on my own site
+* Work on a simple [[HWC]] graphic for use on event posts (specifically on Facebook)
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

@@ -27,7 +27,7 @@ Your server could send emails for you as follows:
 ** '''Content-Type:''' <samp>text/plain; charset=UTF-8</samp>
 ** '''From:''' use whatever email address you used to sign-up for the list(s)
 ** '''To:''' see previous steps to determine email list(s) to send to
-** '''Archived-At:''' <samp>&lt;mysite.example.com/permalink&gt;</samp> (yes in angle brackets like that)
+** '''Archived-At:''' <samp>&lt;http://mysite.example.com/permalink&gt;</samp> (yes in angle brackets like that)
 ** '''Subject:''' 
 *** Use the post <code>name</code> (e.g. from an [[article]])
 *** if no post name, use the start of the post <code>summary</code> or <code>content</code>, ellipsing to fit into 70 characters.

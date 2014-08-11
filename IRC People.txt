@@ -31,6 +31,7 @@ Please keep sorted alphabetically
 * {{irc user|dunlaps.net/darius|dariusdunlap|America/San_Francisco}}
 * {{irc user|metafluff.com|dietrich|America/Los_Angeles}}
 * {{irc user|donpark.org|donpdonp|America/Los_Angeles}}
+* {{irc user|nicoletollefson.com|dotnic|America/Chicago}}
 * {{irc user|dpk.io|dpk|Europe/London}}
 * {{irc user|notenoughneon.com|emmak|America/Los_Angeles}}
 * {{irc user|ellton.me|ellton|America/Sao_Paulo}}

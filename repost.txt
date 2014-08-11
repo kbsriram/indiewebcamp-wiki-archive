@@ -37,6 +37,17 @@ Why implement reposting:
 [[User:kylewm.com|Kyle Mahan]] has been posting reposts on kylewm.com [https://kylewm.com/share/2014/06/10/1 since at least 2014-06-10]. Example:
 * https://kylewm.com/share/2014/06/10/1
 ** POSSE native retweet: https://twitter.com/kyle_wm/status/476161871926816768
+* 2014-08-08: repost of an indieweb post: https://kylewm.com/share/2014/08/09/1
+** POSSE native retweet of POSSE tweet: https://twitter.com/kyle_wm/status/497920789018984448
+
+=== ... add more indieweb repost examples here ... ===
+
+== Proto-repost examples ==
+The following IndieWeb examples resemble reposts in appearance but are actually other simpler kinds of posts.
+=== Tantek ===
+{{t}} has occasionally posted pseudo-retweets to tantek.com as [[notes]], e.g.:
+* 2011-06-29 http://tantek.com/2011/180/t2/ashton-kutcher-invite-vic-gundotra-hot-g <blockquote>RT @scobleizer: "Ashton Kutcher [@aplusk] asked me for an invite. Hey +Vic Gundotra you got a hot property!" G+: https://plus.google.com/111091089527727420853/posts/QXD5Rsm7bNn</blockquote>
+** POSSEd as a tweet (not retweet) : https://twitter.com/t/status/86285590655549442
 
 == Services ==
 === Bridgy ===

@@ -1,6 +1,5 @@
 http://indiewebcamp.com/Facebook
 
-{{stub}}
 = Facebook =
 Facebook.com is a popular content hosting [[silo]] and activity [[aggregator]] most well known for being the largest centralized social network on the web.
 
@@ -66,6 +65,7 @@ Facebook performs the function of a feed aggregator of all your friends' activit
 Some examples screenshots can be found here:
 * https://www.facebook.com/about/newsfeed
 
+__TOC__
 == Comments Embed ==
 Facebook has a feature called '''[http://developers.facebook.com/docs/reference/plugins/comments/ Comments Box]''' which "is a social plugin that enables user commenting on your site." Indieweb sites can use it to embed a [[comments]] box on blog [[posts]].
 
@@ -130,8 +130,15 @@ Thus they abandoned the experiment, instead preferring a UI that generates more 
 
 This may present an opportunity for IndieWeb [[UX]] to exceed [[silo]] UX.
 
-=== Hyperlink Fear Interstitial ===
+=== Link Wrapper Problems ===
+==== Link Wrapper Unreliability ====
+Facebook's link wrapper lm.facebook.com sometimes has outages, thus breaking all links in content in Facebook.
 
+E.g. 2014-08-10 ~21:25-21:32 (at least)
+
+[[File:2014-222-lm-facebook-504-error.jpg]]
+
+==== Hyperlink Fear Interstitial ====
 https://pbs.twimg.com/media/BjNq5GbCUAAMf1Z.png
 
 [[Facebook]] mobile app (apparently) warning the user about [[Twitter]] t.co link-wrapped links as having "a problem".

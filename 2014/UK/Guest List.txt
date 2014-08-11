@@ -178,6 +178,16 @@ Add yourself to the list using the [[Template:Attendee| attendee template]]!
 Alphabetically sorted by full display name.
 
 {{Attendee-apprentice
+|name = HE Cavanagh
+|apprentice_of = 
+|img = http://hecavanagh.org/pic.jpg
+|url = http://hecavanagh.org
+|org_name = 
+|org_url = 
+|elsewhere = http://twitter.com/hecavanagh
+}}
+
+{{Attendee-apprentice
 |name = Kevin Beynon
 |img = http://kevinbeynon.com/images/avatars/mouseguard-128x128.png
 |url = http://kevinbeynon.com
@@ -187,9 +197,7 @@ Alphabetically sorted by full display name.
 |elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
 }}
 
-{{Attendee-placeholder
-|custom_message = Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
-}}
+Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
 
 === Apprentices ===
 Alphabetically sorted by full display name.

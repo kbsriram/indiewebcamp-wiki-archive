@@ -90,6 +90,10 @@ Some of Barry Frost's post have webactions as of 2013-10-01[http://barryfrost.co
 * http://glennjones.net/notes/
 * have <code>&lt;action></code> element and fallback to Twitter actions.
 
+=== Kyle Mahan ===
+* {{kylewm}} all posts on http://kylewm.com have "reply", "repost", and "favorite" webaction links as of 2014-05-15 [https://github.com/kylewm/redwind/commit/4ceb0e7d5a3efb3b68060df28761c56e7e49802d]
+* Links fallback to Twitter Reply, Retweet, Favorite if a Twitter syndication URL exists
+
 == Use Cases ==
 There are at least two key use cases that are worthy of exploring for webactions:
 
