@@ -5,7 +5,12 @@ http://indiewebcamp.com/reply-chain
 A '''<dfn>reply chain</dfn>''' is a threaded list of [[replies]] — and replies to those replies — displayed under the original post.
 
 == Silos ==
-An example of reply chaining on Twitter: https://twitter.com/benwerd/status/490958867803537408
+* An example of reply chaining on Twitter: https://twitter.com/benwerd/status/490958867803537408
+
+== FOSS ==
+* [http://www.debiki.com/ Debiki] uses a unique 2D scrolling view: http://www.debiki.com/demo/-71cs1/demo-page-1
+
+[[File:debiki-comment-system.png|250px|Debiki 2D threaded comments]]
 
 == Why ==
 

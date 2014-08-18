@@ -14,7 +14,7 @@ The following software can be installed to provide git services on your own site
 
 == Silos Running Open Source Software ==
 You can use their silo or host it yourself with their open source software:
-* [https://gitorious.org Gitorious] provides git and collaboration software.
+* [[Gitorious]] provides git and collaboration software.
 * [[GitLab]] is a complete git hosting solution which provides an interface similar to [[GitHub]].
 * http://repo.or.cz provides git repository hosting using [http://repo.or.cz/w/girocco.git girocco].
 
@@ -28,7 +28,13 @@ IndieWeb implementations of git hosting on your own domain:
 * [[Google Code]]
 
 == POSSE ==
-Using [http://git-scm.com/book/en/Customizing-Git-Git-Hooks git hooks] one could [[POSSE]] to any of the git silos.
+Here are some methods one might use to publish on their own site (host the repo on your site) and syndicate elsewhere (push to [[GitHub]]):
+
+* Simplest method is to add the silo (GitHub) as a separate repo and push to it when you're ready:
+<code><pre>git remote add github git@github.com:user/repo
+git push github</pre></code>
+
+* Using [http://git-scm.com/book/en/Customizing-Git-Git-Hooks git hooks] one could [[POSSE]] to any of the git silos.
 
 == Documentation ==
 There is plenty of good documentation about Git. Here's a few links to get started:

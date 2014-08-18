@@ -1,6 +1,6 @@
 http://indiewebcamp.com/follow
 
-To '''follow''' is the concept of establishing a digital relationship to another person or entity so that you can receive updates from them over a given social media channel. The corresponding verb and action was first implemented by Twitter and then Instagram, it is now on many platforms and part of the digital cultural lexicon. 
+To '''<dfn>follow</dfn>''' is the concept of establishing a digital relationship to another person or entity so that you can receive updates from them over a given social media channel. The corresponding verb and action was first implemented by Twitter and then Instagram, it is now on many platforms and part of the digital cultural lexicon. 
 
 The difference between '''following''' and '''[[friending]]''' is that to follow does not require an agreement between both parties where as friending does. Following is an asymmetrical relationship, where as friending is symmetrical.
  

@@ -312,6 +312,8 @@ Some browsers on some [[platforms]] will look for icons in hard-coded locations 
 === favicon ===
 Internet Explorer versions 10 and before look for:
 * <code>/favicon.ico</code>
+See 2013-01-16 article [http://www.jonathantneal.com/blog/understand-the-favicon/ Understand the Favicon] for more details.
+
 === apple-touch-icon ===
 iOS looks at the root of your server for:
 * <code>/apple-touch-icon.png</code>

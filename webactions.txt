@@ -74,6 +74,8 @@ If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can w
 * [[notes]], e.g.:
 ** 
 ** have <code>&lt;action></code> tags with verbs '''<code>like</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
+* Since then updated (2014) to:
+** <samp> Like Repost Reply </samp> with the same icons as before.
 
 === Indienews ===
 '''Indienews''' comments pages, e.g.

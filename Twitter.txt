@@ -383,6 +383,15 @@ Twitter's early user interface (circa 2006-2007?) was quite simple and minimal:
 === Lots of UI revisions ===
 Look for #newtwitter and #newnewtwitter 
 
+=== UI 2011 ===
+Circa 2011 styling of Twitter stream and tweet permalink:
+
+[http://www.dafont.com/forum/read/33869/what-font-does-twitter-use http://www.dafont.com/forum/attach/orig/8/4/84660.png]
+
+Ignore the red borders / boxes - those were there to indicate/ask a question about those items.
+
+Showing Arial (presumably on Microsoft Windows) for tweet text in a stream, and Georgia for tweet text on a tweet permalink page.
+
 === UI 2014-04 ===
 As of 2014-04, Twitter has yet another UI revision, this time nearly cloning [[Facebook]] profile pages' look & feel:
 

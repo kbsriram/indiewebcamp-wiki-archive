@@ -216,6 +216,7 @@ A: Because the p-summary is likely (or even just possibly) explicitly crafted by
 
 == Discussion ==
 * Long posts where only a part of it is in-reply-to another post and a large chuck of it is a tangent should not be published as a reply/comment and instead should be published as a mention. Noting this here because this is accounted for above in the "How to display > get the text of the comment to display" section and it might wrongly send the message that (largely tangential) posts like these should be marked up with in-reply-to. (See [http://indiewebcamp.com/irc/2013-07-07/line/1373241638])
+* https://the-pastry-box-project.net/marie-connelly/2014-june-24
 
 == See Also ==
 * [[comment]]

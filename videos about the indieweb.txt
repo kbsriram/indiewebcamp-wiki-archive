@@ -6,11 +6,13 @@ Find videos about the indieweb:
 * [https://www.youtube.com/results?search_query=indieweb YouTube indieweb search]
 
 
-Videos about the indieweb (in reverse chronological order)
+Videos about the indieweb (in reverse chronological order by date of when video was recorded)
 === 2014 ===
 * 2014-07-18 Gar & Issac Lewis, [http://vimeo.com/101137894 It's clever NOT to be clever & How to "indie" all your tech] (Vimeo, 26:59)
-* 2014-06-04 [[User:Adactio|Jeremy Keith]]: [https://ind.ie/summit/videos/#jeremy_keith_video On Indie Web] (ind.ie, 5:51) at [https://ind.ie/summit/ ITS].
-* 2014-06-04 {{t}}: [http://youtu.be/HNmKO7Gr4TE Why We Need the #IndieWeb] (YouTube, 13:15, [http://tantek.com/presentations/2014/06/indieweb/ HTML slides available]) at #[[PDF14]]
+* 2014-07-04 [[User:Adactio.com|Jeremy Keith]]: [https://ind.ie/summit/videos/#jeremy_keith_video On Indie Web] (ind.ie, 5:51) at [https://ind.ie/summit/ ITS].
+* 2014-06-25 {{kevinmarks}}: [https://www.youtube.com/watch?v=cplwtyjhgCU&t=46m25s Procrustes and computers] an Ignite talk at Google IO on [[principles]]
+* 2014-06-04 {{t}}: [http://youtu.be/HNmKO7Gr4TE Why We Need the #IndieWeb] (YouTube, 13:15, [http://tantek.com/presentations/2014/06/indieweb/ HTML slides available]) at #[[PDF14]].
+* 2014-05-02 {{t}}: [https://www.youtube.com/watch?v=FNr0JNwsLy8 The Once and Future IndieWeb] (YouTube, 41:49, [http://tantek.com/presentations/2014/05/indieweb/ HTML slides available], [https://etherpad.mozilla.org/wdc14 Etherpad collaborative notes]) at #[[wdc14]]. [https://twitter.com/webdirections/status/499712823153270784 Published 2014-08-13].
 * 2014-03-19 Willow sketch explanation of [[principles]], [[why]], [[silos]]: [http://youtu.be/PRCqOyN4cjE Indie Web] (YouTube, 5:02)
 * 2014-03-07 [https://www.youtube.com/watch?v=7sP4k2nPu7w IndieWeb Ad - SquareSpace Ad Parody]
 * 2014-02-07 [[User:Caseorganic.com|Amber Case]]: [http://vimeo.com/86329113 Designing for privacy in mobile and web apps] (Vimeo, 35:44) at [[events/2014-02-07-design-privacy-mobile-web-apps|IxDA14 session]].

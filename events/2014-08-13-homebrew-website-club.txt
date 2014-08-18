@@ -14,15 +14,11 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], Java conference room, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 17:30-18:30!
-: capacity: 6-8 people (smaller conference room this week)
-This room:<br/>
-[[Image:Homebrew-Website-Club-2014-04-23.jpg|250px|<span>Same as [[events/2014-04-23-homebrew-website-club|Homebrew Website Club 2014-04-23]]</span>]]
+:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 18:00-18:30!
 
 ;Portland
-:TBD
-<!-- <span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span> -->
+:<s><span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span></s> cancelled tonight, sorry!
 
 ;Minneapolis
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
@@ -45,18 +41,16 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-08-13-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://werd.io/2014/homebrew-website-club-august-13-2014
+* FB POSSE copy: https://www.facebook.com/events/326393207525928/
 
 Portland:
+* http://calagator.org/events/1250466828
 * add indieevent...
 * ... and POSSE copy
-* ... and calagator
-* ... and any others like pdx.devweek
 
 Minneapolis:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/815371525173546/
 
 Chicago:
 * https://www.facebook.com/events/342255025932027/
@@ -71,9 +65,12 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''San Francisco:'''
 * {{t}}
 * {{kylewm}}
+* {{kevinmarks}} 
+* [[User:Snarfed.org|Ryan Barrett]]
 * ... add yourself!
 
 '''Portland:'''
+* <s>{{aaronpk}}</s>
 * ... add yourself!
 
 '''Minneapolis:'''
@@ -82,21 +79,25 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 '''Chicago:'''
 * {{gRegor}}
+* [[user:kartikprabhu.com|Kartik]]
 * . . .
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-08-13 IRC discussion archives 2014-08-13] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
-* ...
+* http://www.kevinmarks.com/hwc2014-08-13.html
 
 '''Portland'''
-* ...
+* none - canceled!
 
 '''Minneapolis:'''
 * ... 
 
 '''Chicago'''
+* Discussed meeting later, at 19:00 local time. Sent a note to others interested participants that have not been able to make it yet, asking if this would make it easier to attend.
+* gRegor worked on auto-updating the syndication link based on the brid.gy publish response.
+* Kartik worked on getting default notes stream page setup. Also figuring out python installs from github (horrible!)
 * ...
 
 === Blog posts ===
@@ -104,13 +105,11 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
-<!-- embed uploaded photo like: 
-[[Image:hwc-2014-211-sf.jpg|640px]]
-  with caption like:
-San Francisco - photo by {{tantek}} (not pictured)
-  optional POSSE copy like:
-* POSSE copy: <a rel="syndication" href="http://instagram.com/p/rICDpNA9Yw/">on Instagram</a>
--->
+[[Image:hwc-2014-225-sf.jpg|640px]]
+
+San Francisco - photo by @katelosse (not pictured)
+
+* POSSE copy: <a rel="syndication" href="http://instagram.com/p/rrBbinA9XO/">on Instagram</a>
 
 ...
 

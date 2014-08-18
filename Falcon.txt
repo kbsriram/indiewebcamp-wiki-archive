@@ -75,6 +75,18 @@ Falcon publishing UI currently consists of the following:
 #** [[POSSE]]ing to [[Twitter]], and 
 #** saving resultant Twitter syndicated copy URL to storage.
 
+== Publishing standards ==
+Falcon's publishing support includes:
+* [http://tantek.com/2010/302/b1/xhtml-dead-long-live-xml-valid-html5 XML-valid HTML5] (<code>text/html</code>)
+* [[UTF-8]] using standard [[PHP]] header support.
+* [[microformats2]]
+** [[h-entry]] for all posts and sets of posts (e.g. home page stream)
+** [[h-card]] for authorship
+** [[u-in-reply-to]], [[p-rsvp]]
+
+== PHP support ==
+Falcon has some code to support various [[PHP]] configurations (and sometimes misconfigurations, such as missing local session file path).
+
 == Legacy support ==
 Falcon supports the following legacy technologies for specific use-cases.
 === Feeds ===
@@ -86,15 +98,6 @@ Falcon supports:
 
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
-
-=== fix session start problem ===
-I was seeing the [[PHP#session_start_failed]] problem on tantek.dev as of when {{aaronpk}} got it working on 2014-07-13, but as of 2014-08-04 I am now seeing the "session start failed" problem on tantek.com also (webhost did a server move the day before).
-
-So I have to fix this first before I can do any more feature work.
-
-And then document how to debug it in an arbitrary PHP setup.
-
-And then write Falcon code to adapt to different PHP configurations / setups.
 
 === auto Bridgy POSSE to FB ===
 Rather than manually using the publish form at https://www.brid.gy/facebook/214611#publishes,
@@ -247,7 +250,8 @@ In short this means implementing:
 ** '''Retweet''' rather than '''Tweet''' button
 * '''POSSE''' call [https://dev.twitter.com/docs/api/1/post/statuses/retweet/%3Aid Twitter retweet API] rather than update API
 * '''Save POSSE URL''' - save new retweet tweet id as rel=syndication into storage, so web action buttons work properly
-* '''Presentation''' for a repost, showing:
+* '''Presentation''' for a repost
+** See [[2014/reposts#Repost_presentation]] for details of what and how to present a repost including:
 ** icon of original poster
 ** original tweet posting time.
 ** some sort of retweet icon to indicate that it was retweeted by me 
@@ -351,10 +355,6 @@ Beyond that, I find my prioritization changes often enough that I just keep a lo
 === Payment Links ===
 Similar to the mobile [[communication]] links, it would be good to have a set of [[payment]] links/buttons which show the user different ways to pay, in order of my preference, and then the user can choose which one they can and want to do.
 
-=== Reply Context ===
-Itch: having to click through to the original and/or the Twitter conversation to get what the context of my replies are.
-* Scratch: Display [[reply context]] on my replies so you don't have to look/go elsewhere for that.
-
 === Indie Checkins ===
 Itch: really getting tired of venue griefers/abusers/overmergers on [[Foursquare]]. Overmergers: people who take two distinct [[venues]] and merge them into one because they have some mistaken idea of what a "venue" is. Overmerging ends up redirect both previous unique URLs to one of them, and it effectively destroys your history at checking into either, because after that, you don't know which it was. It's like wiki vandalism but worse because there is no history and no accountability.
 * Scratch: Indieweb [[checkins]] from/on my own site, which then [[POSSE]] out to [[Foursquare]] (required for me because I'm a heavy Foursquare user and I wouldn't switch over to using my own indieweb checkins without that automatic capability. Mobile web support via Geolocation API is a must.)
@@ -412,6 +412,16 @@ Scratch: have every page on my site by default be a wiki page made "wiki-like" b
 
 Brainstorm started here:
 * [[wiki-projects#Brainstorming|wiki-projects: Brainstorming]]
+
+=== Display Received Webmentions ===
+Process my queue of [[webmentions]] at webmention.io and implement some sort of [[comments-presentation]] to show them on my posts.
+# simple date-time-ordered (oldest first) as comments
+# display [[likes]]+[[favorites]] and [[reposts]] separately from comments
+
+=== Accept Webmentions Directly ===
+Write a [[webmention]] handler endpoint and support accepting, handling, storing webmentions in addition to displaying them.
+
+Switching rel=webmention handler from webmention.io to direct handler on site.
 
 === Private Groups ===
 Not high on my priority list (though would be necessary to figure out to extract myself from FB).

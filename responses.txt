@@ -4,6 +4,8 @@ http://indiewebcamp.com/responses
 
 A '''<dfn>response</dfn>''' is a post that is a reaction to another URL. Some examples of response post types are [[reply]] (comment), [[like]] (favorite), [[repost]] (reshare), mention, [[RSVP]], [[invitation]].
 
+<div style="background:#ffe;padding:1em">Note: the term '''[[interactions]]''' is being more frequently used now to refer to the full set of things people to do with / to a post. This page mostly captures historical debate.</div>
+
 == Examples ==
 For an example of different responses in action see http://www.sandeep.io/39
 

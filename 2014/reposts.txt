@@ -10,12 +10,14 @@ IndieWebCamp [[2014]] NYC
 
 17:00 [[Reposts]] session
 
+=== Participants ===
 Session participants:
 * Alex
 * Happy
 * Kartik Prabhu
 * {{t}} - session lead
 
+=== Discussion ===
 Discussing:
 https://indiewebcamp.com/repost
 
@@ -34,13 +36,20 @@ Repost+comment: an emerging pattern on Twitter is to add a comment before retwee
 Or using the recycle icon ♺ e.g.
 * https://twitter.com/uogbuji/status/483004048988045312
 
+=== Recycle Icon Aside ===
 Aside:
+
 Google can't find ♺
+
 Nor Bing
+
 But it's on Wikipedia: http://en.wikipedia.org/wiki/%E2%99%BA
+
 Unicode: U+267A ♺ recycling symbol for generic materials
+
 /Aside
 
+=== Repost UI flow ===
 Repost UI:
 # You enter a URL to repost (or click a repost button)
 # Your software asks for confirmation:
@@ -52,6 +61,7 @@ Repost UI:
 Whiteboard:<br/>
 [[File:2014-179-iwc-nyc-repost-ui.jpg|640px]]
 
+=== Repost presentation ===
 UI sketches:
 # Reposting a tweet, retweet, or indie post (repost) with POSSE tweet. Whiteboard:<br/> [[File:2014-179-iwc-nyc-repost-tweet.jpg|640px]]
 # Reposting an indie post WITHOUT a POSSE tweet - how do you POSSE to Twitter? Either you don't, or if you do:

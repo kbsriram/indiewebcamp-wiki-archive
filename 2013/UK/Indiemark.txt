@@ -1,10 +1,10 @@
 http://indiewebcamp.com/2013/UK/Indiemark
 
-{{stub}}
+Archived from https://etherpad.mozilla.org/indiewebcamp-indiemark
 
-Archived from, https://etherpad.mozilla.org/indiewebcamp-indiemark please clean.
+----
 
-Welcome to the #[[indiemark]] discussion
+Welcome to the [[IndieWebCampUK 2013|2013/UK]] #[[indiemark]] discussion
 
 Each step should have feedback for the user
 
@@ -15,12 +15,14 @@ Brennan - trying to look at this as a map -
 All "Level 0" steps of IndieMark should be easy to implement, especially "search" which you get for free if you don't "screw it up"
 
 Anything that affects the UI of the site should be a suggestion.
-reach for level 1 rather than reach for level 0
+
+Reach for level 1 rather than reach for level 0
 * Demos of webactions in action:
 ** http://waterpigs.co.uk/notes/4RRNfk/
 ** http://waterpigs.co.uk/notes/4RRNLz/
 
 POSSE - note that manual UI is ok
+
 examples:
 * https://twitter.com/about/resources/buttons#tweet
 * https://developers.facebook.com/docs/plugins/share/

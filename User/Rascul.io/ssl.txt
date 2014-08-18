@@ -47,10 +47,7 @@ This is the host specific configuration, I keep it in the file /etc/nginx/sites-
      # rascul.io will never support a www subdomain.
      server_name rascul.io;
      
-     # Use HSTS to specify rascul.io should be connected to via HTTPS only.
-     add_header Strict-Transport-Security "max-age=31536000";
-     
-     # A 301 redirect for clients not supporting HSTS.
+     # A 301 redirect to force https.
      return 301 https://$host$request_uri;   
  }
  

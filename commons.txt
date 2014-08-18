@@ -35,7 +35,7 @@ Almost commons. There are some sites which are almost commons, yet have some res
 ** that meta data are the data that make github usable and worthwile
 Alternatives to github (likely belongs on [[Github]] page)
 * http://gitlab.org/
-* gitorious
+* [[gitorious]]
 
 == Test ==
 Here is a fairly simple test to determine whether a centralized content site is a [[commons]] or a [[silo]]:

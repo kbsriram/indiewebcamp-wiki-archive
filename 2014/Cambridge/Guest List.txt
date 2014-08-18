@@ -1,7 +1,7 @@
 http://indiewebcamp.com/2014/Cambridge/Guest_List
 
 <div class="h-event vevent">
-== IndieWebCamp Cambridge 2014 ==
+== <span class="p-name summary">[[2014/Cambridge|IndieWebCamp Cambridge 2014]]</span> ==
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
 * '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Berkman Center for Internet & Society</span>, <span class="h-adr adr"><span class="p-street-address street-address">23 Everett Street</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02138</span></span>. <span class="u-url">http://cyber.law.harvard.edu/</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
@@ -34,8 +34,8 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 
 === Capacity ===
 Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
-* Signed-up: 10 
-* Spots remaining: 10
+* Signed-up: 13 
+* Spots remaining: 07
 
 <!-- uncomment once we've hit capacity 
 === Wait List ===
@@ -136,6 +136,15 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 |elsewhere = [https://twitter.com/jeckman @jeckman]
 }}
 {{Attendee
+|name = [[User:matt.us|Matt Lee]]
+|img = http://mattl.us/mattl-homepage.jpg
+|url = http://mattl.us
+|org_name = Creative Commons
+|org_url = https://creativecommons.org
+|projects = [[GNU FM]], [[GNU social]]
+|elsewhere = [https://twitter.com/mattl @mattl]
+}}
+{{Attendee
 |name = [[User:Greptilian.com|Philip Durbin]] (tentative)
 |img = http://tmp.greptilian.com/tmp/pdurbin128.jpg
 |url = http://greptilian.com
@@ -161,6 +170,16 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 |org_url = http://www.w3.org
 |projects = [https://github.com/sandhawke/crosscloud Crosscloud]
 |elsewhere = [https://twitter.com/sandhawke twitter], [https://github.com/sandhawke github] [http://www.linkedin.com/in/hawke linkedin] [https://www.facebook.com/sandro.hawke facebook] [https://plus.google.com/u/0/+SandroHawke/posts google+]
+}}
+{{Attendee
+|name = Tantek Çelik
+|img = http://tantek.com/logo.jpg
+|url = http://tantek.com/
+|org_name = Mozilla
+|org_url = https://www.mozilla.com/
+|projects = [http://cassisproject.com/ CASSIS] JS∩PHP (on [http://github.com/tantek/cassis github]),
+[[Falcon]] (my personal site publishing software), [http://tantek.com/w/Whistle Whistle] (URL shortener)
+|elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
 }}
 {{Attendee
 |name = Your Name

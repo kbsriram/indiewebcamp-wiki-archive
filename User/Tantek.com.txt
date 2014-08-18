@@ -5,6 +5,7 @@ http://indiewebcamp.com/User%3ATantek.com
 
 '''<dfn>Tantek Çelik</dfn>''' is the co-founder of IndieWebCamp and works on open web standards at Mozilla.
 * '''[http://youtu.be/HNmKO7Gr4TE Why We Need The IndieWeb]''' (13 min video) talk at Personal Democracy Forum 2014. 
+* '''[https://www.youtube.com/watch?v=FNr0JNwsLy8 The Once and Future IndieWeb]''' (42 min video) talk at Web Directions Code 2014 in Melbourne, Australia.
 __NOTITLE__
 == inbox ==
 I'm collecting requests from [[IRC]] here when they're something I can't handle quickly and immediately. Roughly FIFO, feel free to re-arrange if you have reasons to suggest a specific prioritization
@@ -65,10 +66,14 @@ Personal indieweb site functionality (adding to tantek.com) using my own persona
 * Then similarly replace all other [[#silo_posting]].
 
 Community:
-* '''[[2014]]''' NYC co-organizing, and blogging about it afterwards!
+* Add slides, video, etc. links of PdF IndieWeb talk to https://pdf14.hackpad.com/Save-the-Internet-Keynotes-Zb58Z1QFrJq
+** Add anything else relevant IndieWeb related to https://pdf14.hackpad.com/
+* IndieWebCamp '''[[2014]]''' NYC - blogging about it afterwards.
 * '''[[CASSIS]]''' - update all NewBase60 code to be cc0 (it's good enough, and Will Norris needs it for his Go port!)
+* '''[[projects]]''' - continue significant update per [[projects#About_This_Page]]
 * '''[[reply]] vs [[comments]]''' - split reply permalink vs. comments display under a post.
 * '''[[link-preview]]''' - something standard for [[silos]] to implement (in addition to all their variant site-specific approaches) when providing link previews of my permalinks
+* '''[[2013/UK/Indiemark]]''' - complete updating [[IndieMark]] accordingly
 * '''[[code-of-conduct]]''' - fairly done, worth reviewing/iterating periodically. Keeping here in this list until indiewebcamp shows consistent diverse participation.
 * review and simplify [[comments-presentation#How_to_display|comments presentation display]] to remove conditionals that overlap/wrap in odd places (collected 2014-049)
 * add some test examples for ellipsizing here: https://github.com/tantek/cassis/issues/14 (collected 2014-049)
@@ -78,7 +83,6 @@ And these too which need to get integrated by priority order into Falcon Working
 * '''[[citation]] UI''' - to provide simple copy/paste UI for citing posts (articles (done), notes, other) from my site.
 * '''[[webactions]]''' - to achieve and exceed UX parity with [[Twitter]]'s UI on notes on my own site
 * '''[[wiki]]''' - I'd like to implement static-file based wiki-like editing/versioning functionality on the static pages on my site, perhaps with explicit "save" edits posted to my updates as [http://tantek.com/w/Whistle#design d - diff, edit, change] [[posts]].
-
 
 == community projects ==
 Other community projects that I contribute to to help enable the Indie Web and everyone owning their own data.

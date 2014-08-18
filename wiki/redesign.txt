@@ -31,6 +31,7 @@ This gives you a way to make CSS edits to test things out on the real wiki with 
 *** do wish we had keyboard shortcuts working
 *** rarely (once a month?) Delete, Move
 *** never: Discussion, Protect, Unwatch, Log out
+* {{gRegor}}: The section "edit" links are proportionally sized. Should be the same size regardless of heading size.
 
 == Todo ==
 

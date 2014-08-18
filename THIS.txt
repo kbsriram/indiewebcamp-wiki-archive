@@ -1,0 +1,14 @@
+http://indiewebcamp.com/this
+
+{{stub}}
+<span style="float:right;height:192px;font-size:192px;margin-top:64px">👇</span>
+'''<dfn>This.</dfn>''' (AKA <dfn>THIS.</dfn> or <dfn>This:</dfn> or <dfn>THIS:</dfn>) is type of [[quotation]] [[post]] similar in meaning to a combined [[like]] &amp; [[repost]] where the text "This." is stated on a line by itself after the quotation, or the text "This:" is stated before a quotation or URL to express a strong affirmation or agreement with the referenced quotation or article.
+
+More details:
+* http://www.urbandictionary.com/define.php?term=This
+* http://www.newrepublic.com/article/117209/twenty-two-year-old-entrepreneur-finds-internet-riches
+
+== See Also ==
+* [[like]]
+* [[repost]]
+* [[lulz]]

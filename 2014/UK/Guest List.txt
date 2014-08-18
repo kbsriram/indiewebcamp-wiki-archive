@@ -1,7 +1,7 @@
 http://indiewebcamp.com/2014/UK/Guest_List
 
 <div class="h-event vevent">
-== IndieWebCamp UK 2014 ==
+== [[2014/UK|IndieWebCamp UK 2014]] ==
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-09-06</time> <time class="value">10:00</time></span> through <span class="dt-end dtend"><time class="value">2014-09-07</time> at <time class="value">18:00</time></span>
 * '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Clearleft</span>, <br/><span class="h-adr adr"><span class="p-street-address street-address">68 Middle Street</span>, <br/><span class="p-locality locality">Brighton</span>, <span class="p-postal-code postal-code">BN1 1AL</span>, <span class="p-country-name country-name">United Kingdom</span></span>. <span class="u-url"></span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/UK</span>
@@ -9,33 +9,25 @@ http://indiewebcamp.com/2014/UK/Guest_List
 * '''Directions:''' Map at [http://clearleft.com/canhelp/ clearleft.com]
 
 == Official Guest List ==
+
 {| border="2" cellpadding="10" cellspacing="0" align="center"
 |+
 
 |-
 
-! style="background:#ffdead;" | '''Creators''': Add yourself
-! style="background:#ffdecc;" | '''Bloggers''': blog your RSVP
-! style="background:#ffdede;" | '''Apprentices''': Get your creator to add you
+! style="background:#ffdead;" | '''If you have a personal site'''
+! style="background:#ffdede;" | '''If you want a personal site'''
 
 |-
 
 
-| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain!'''
+| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Either: add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain''', or '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/UK/Guest_List this RSVP page]''' and send a [[pingback]] to it.
 
-| Already blogging on your own domain? Great! '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/UK/Guest_List this RSVP page]''' and send a [[pingback]] to it.
-
-| Perhaps you're a creator, but only for other people, and don't actively create things for your own site. Or maybe you're really excited about the IndieWeb and want to join it as soon as you can!
-
-|-
-
-| Add yourself to the [[#Creators]] section using the [[Template:Attendee|attendee template]], then add your name linked to your wiki user page and a self-hosted profile photo 128px square. 
-
-| If you're an active blogger (i.e. at least once a month)  yet don't feel like you would call yourself a creator, it would still be great to have you participate in IndieWebCamp. If you can setup [[IndieAuth]] on your domain, go ahead and add yourself in the [[#Bloggers]] section as well.
-
-| If you're not a creator, but want to be, or want to create and contribute to the IndieWeb but don't know where to start, team up with a creator, and ask them to add you. You can still attend IndieWebCamp as an apprentice to a creator. 
+| If you don’t have a personal site but want one, or want to create and contribute to the IndieWeb but don't know where to start, you’re still very welcome! Find a creator (either listed below, or ask on [[IRC]]) to team up with and ask them to add you as their apprentice.
 
 |}
+
+Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 
 <!-- uncomment once we've hit capacity 
 === Wait List ===
@@ -51,7 +43,7 @@ http://indiewebcamp.com/2014/UK/Guest_List
 
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
 
-=== Creators ===
+=== Attendees ===
 <span id="Builders">Alphabetically sorted by full display name.</span>
 
 {{Attendee
@@ -62,6 +54,16 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |org_url = 
 |projects =community events - [http://UXOxford.com UXOxford] ([http://www.meetup.com/UX-Oxford/messages/boards/thread/41426422 past events]) and in past [https://blog.mozilla.org/labs/2011/06/design-jam-oxford-1-time-to-wrap-up-a-fast-furious-jam-session/ DesignJam Oxford]. WebDev & Avid photographer. Keen to get data out of silos.
 |elsewhere = alpower @ [http://twitter.com/alpower twitter], [http://flickr.com/photos/alpower flickr], [http://instagram.com/alpower instagram], github
+}}
+
+{{Attendee
+|name = Aral Balkan
+|img = https://aralbalkan.com/images/aral-432.jpg
+|url = https://aralbalkan.com
+|org_name = ind.ie
+|org_url = https://ind.ie
+|projects = (Indie Tech projects) [https://ind.ie/manifesto ind.ie/manifesto], [https://ind.ie/phone ind.ie/phone]
+|elsewhere = [https://twitter.com/aral @aral]
 }}
 
 {{Attendee
@@ -82,6 +84,26 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |org_url = 
 |projects = H2V
 |elsewhere = “briansuda” on various silos
+}}
+
+{{Attendee
+|name = Calum Ryan
+|img =  http://calumryan.com/uploads/images/profile.jpg
+|url = http://calumryan.com/
+|org_name = 
+|org_url = 
+|projects = [http://www.culturebook.co.uk Culturebook]
+|elsewhere = [https://twitter.com/calum_ryan @calum_ryan], [http://instagram.com/calumryan instagram]
+}}
+
+{{Attendee
+|name = Catherine Jones
+|img =  http://www.bringtherainbow.com/wp-content/uploads/2014/08/Profile_pic.jpeg
+|url = http://www.bringtherainbow.com/about-me/
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = https://twitter.com/M_Fkill
 }}
 
 {{Attendee
@@ -116,6 +138,17 @@ http://indiewebcamp.com/2014/UK/Guest_List
 }}
 
 {{Attendee
+|name = HE Cavanagh
+|apprentice_of = 
+|img = http://hecavanagh.org/pic.jpg
+|url = http://hecavanagh.org
+|org_name = 
+|org_url = 
+|projects = 
+|elsewhere = http://twitter.com/hecavanagh
+}}
+
+{{Attendee
 |name = Jeremy Keith
 |img = http://adactio.com/icon.png
 |url = http://adactio.com/
@@ -133,6 +166,27 @@ http://indiewebcamp.com/2014/UK/Guest_List
 |org_url = http://tollwerk.de/
 |projects = [http://typo3.org/extensions/repository/view/indieweb indieweb] TYPO3 extension (currently featuring webmentions), [http://jkphl.is/projects/micrometa/ micrometa] (microformats / microdata meta parser)
 |elsewhere = @jkphl on [https://twitter.com/jkphl twitter] & [https://github.com/jkphl github]
+}}
+
+{{Attendee
+|name = Kevin Beynon
+|img = http://kevinbeynon.com/images/avatars/mouseguard-128x128.png
+|url = http://kevinbeynon.com
+|apprentice_of = 
+|org_name = 
+|org_url = 
+|project = 
+|elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
+}}
+
+{{Attendee
+|name = Pelle Wessman
+|img = http://voxpelli.com/avatar.jpg
+|url = http://kodfabrik.se/
+|org_name = Bloglovin
+|org_url = http://www.bloglovin.com/
+|projects = [https://webmention.herokuapp.com/ A WebMention Endpoint], [https://github.com/voxpelli/relspider relspider]
+|elsewhere = @voxpelli on [https://github.com/voxpelli github], [https://twitter.com/voxpelli twitter], [http://voxpelli.com/ blog]
 }}
 
 {{Attendee
@@ -174,39 +228,6 @@ http://indiewebcamp.com/2014/UK/Guest_List
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
 
-=== Bloggers ===
-Alphabetically sorted by full display name.
-
-{{Attendee-apprentice
-|name = HE Cavanagh
-|apprentice_of = 
-|img = http://hecavanagh.org/pic.jpg
-|url = http://hecavanagh.org
-|org_name = 
-|org_url = 
-|elsewhere = http://twitter.com/hecavanagh
-}}
-
-{{Attendee-apprentice
-|name = Kevin Beynon
-|img = http://kevinbeynon.com/images/avatars/mouseguard-128x128.png
-|url = http://kevinbeynon.com
-|apprentice_of = 
-|org_name = 
-|org_url = 
-|elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
-}}
-
-Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
-
-=== Apprentices ===
-Alphabetically sorted by full display name.
-
-{{Attendee-placeholder
-|custom_message = Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
-}}
-
-<!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
 
 <!-- Missed:
 
@@ -230,7 +251,15 @@ Alphabetically sorted by full display name.
 === Remote Participants ===
 As with past IndieWebCamps, we'll setup [[remote participation]] for folks who can't be there in person but can still participate during the camp over IRC and hopefully live video.
 
-__TOC__
+{{Attendee
+|name = [[User:Aaronparecki.com|Aaron Parecki]]
+|img = http://aaronparecki.com/photo.jpg
+|url = http://aaronparecki.com/
+|org_name = Esri
+|org_url = http://esri.com
+|projects = [[p3k]], [[webmention.io]], [[IndieAuth]], [[micropub]]
+|elsewhere = [https://twitter.com/aaronpk @aaronpk], [https://github.com/aaronpk github.com/aaronpk]
+}}
 
 === Regrets ===
 Folks that can't make it (but hopefully can participate before/after remotely!)
@@ -250,6 +279,9 @@ Sorry to miss you folks - hopefully you can make it next year!
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
 
 </div> <!-- h-event vevent -->
+
+__TOC__
+
 
 [[Category:2014]]
 [[Category:Guest List]]

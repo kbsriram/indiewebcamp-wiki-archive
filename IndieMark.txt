@@ -233,6 +233,9 @@ Thus there are different axes that one can advance along. This section documents
 * Level 2: '''[[h-card]] contact info''' and [[icon]] on home page, suitable for others to add to their mobile device home screen.
 
 Possible futures:
+* [[h-card]] contact info styled/scripted into '''people-focused [[communication]] links / buttons'''
+* '''expanded [[h-card]] contact info for authenticated users''' - support consuming [[IndieAuth]] (letting people sign-into your site with their site, and [[sign-in-use-cases#show_personal_info|show more contact info]] accordingly (e.g. some for all signed in users, more for friends, etc.) . E.g. see IndieWeb Examples:
+** http://ben.thatmustbe.me/ - supports [[IndieAuth]] sign-in and showing more "Elsewhere" contact methods to a white-list of domains as of 2014-08-13.
 * simple [[h-resume]] abbreviated bio/summary
 
 === authentication ===
@@ -316,6 +319,7 @@ Possible futures: (don't know of anyone doing this)
 * Level 6: UI for editing comments/external content that comes in
 
 === navigation ===
+{{main|navigation}}
 Provide a [[navigation]] UI to make your content browsable:
 * Level 1: no requirements.
 * Level 2: simple linear previous/next navigation across all posts by time order

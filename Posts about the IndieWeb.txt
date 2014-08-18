@@ -10,6 +10,7 @@ Articles about the indieweb (in chronological order)
 * 2014-07-17 Tom Morris: [http://tommorris.org/posts/9040 You don't need to develop for the Worst Case Scenario]
 * 2014-07-07 Matthew Graybosch: [http://www.matthewgraybosch.com/2014/07/07/screw-digital-sharecropping-im-getting-a-posse/ Screw Digital Sharecropping. I’m Getting a Posse.]
 * 2014-07-03 Scott Rosenberg: [http://www.wordyard.com/2014/07/03/indieweb-and-respect-network-two-roads-to-decentralizing-the-network/ IndieWeb and Respect Network: Two roads to decentralizing the network]
+* 2014-06-26 Scott Rosenberg: [http://www.wordyard.com/2014/06/26/indieweb-intro/ IndieWeb ho! A brief intro to a little movement with big ideas]
 * 2014-06-12 Russell Davies: [http://www.campaignlive.co.uk/russell_davies/article/1298102/the-web-idealists-point-content-cant-truly-blossom-walled-gardens/ The web idealists have a point: content can't truly blossom in walled gardens]
 * 2014-06-02 Peter Mollnar: [https://petermolnar.eu/blog/indieweb-decentralize-web-centralizing-ourselves/ Indieweb – decentralize the web while centralizing ourselves]
 * 2014-04-25 Dan Gillmor: [http://www.slate.com/blogs/future_tense/2014/04/25/indiewebcamps_create_tools_for_a_new_internet.html Welcome to the Indie Web Movement]

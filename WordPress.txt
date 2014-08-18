@@ -113,21 +113,19 @@ Some themes that support [[microformats]] or other semantics.
 
 Rather than a theme [https://github.com/pfefferle/wordpress-uf2 uf2] is a plugin that attempts to add microformats2 data to an existing theme though as the author admits it is very limited and recommends using a theme that supports microformats natively.
 
-=== People using WordPress ===
+== People using WordPress ==
 People using WordPress on their primary or other sites.
 
-==== Using on their primary site ====
-* [[User:Ozten.com|Austin King]] on [http://ozten.com/psto/ ozten.com/psto/]
-* [[User:Crystalbeasley|Crystal Beasley]] on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
+=== IndieWeb Examples ===
+In particular, (semi-)active IndieWeb community members using WordPress on their own sites, thus you might find them on [[IRC]] to ask about their experience (or for help).
+
+* [[User:Ozten.com|Austin King]] (2013) on [http://ozten.com/psto/ ozten.com/psto/]
 * [[User:Notizblog.org|Matthias Pfefferle]] on [http://notizblog.org notizblog.org] with:
 ** [http://wordpress.org/plugins/indieauth/ IndieAuth]
 ** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
 ** [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic Linkbacks] ([[selfdogfooding]])
-* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] (2005 - [https://willnorris.com/2014/07/one-step-forward-two-steps-back July 2014]) with:
-** URL Shortener via WP-Hum ([[selfdogfooding]])
-* [[User:snarfed.org|Ryan Barrett]] on [http://snarfed.org snarfed.org]
-* [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
-* [[User:david.shanske.com|David Shanske]] on [http://david.shanske.com david.shanske.com]
+* [[User:snarfed.org|Ryan Barrett]] (2014 SF)on [http://snarfed.org snarfed.org]
+* [[User:david.shanske.com|David Shanske]] (2014, NYC) on [http://david.shanske.com david.shanske.com]
 * [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu] with
 ** [https://github.com/indieweb/wordpress-indieweb WordPress-Indiweb]
 ** [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ Social Networks Auto Poster] for POSSE
@@ -137,11 +135,16 @@ People using WordPress on their primary or other sites.
 ** Currently (Jan 2014) using built in post formats to add bookmarks/links privately, experimenting with making these public (as well as an app to post them easier) as well as POSSE'ing tweets and hopefully photos etc too.
 * [http://upon2020.com/ Johannes Ernst] (2013) on [http://upon2020.com/blog/ upon2020.com/blog] (full posts) and [http://upon2020.com/banter/ upon2020.com/banter] (short banter) both with
 ** [http://wordpress.org/plugins/social/ Social] plugin for POSSE to Twitter and Facebook
-
 * [[User:Acegiak.net|Acegiak]] on [http://Acegiak.net Acegiak.net]
+* [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
 
+=== Other independents using it on their primary site ===
+* [http://mediajunkie.com/ Christian Crumlish] 
+* [http://singpolyma.net Stephen Paul Weber]
+* ...
 
-==== Using on one of their sites ====
+=== Using on one of their sites ===
+People using WordPress on a secondary site.
 * [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
 ** [[File:aaronpk-bookmarks.png|300px|right]]
 * [[User:Erin_Jo_Richey|Erin Jo Richey]] on [http://flatfrogblog.com/ Flat Frog Blog]
@@ -150,34 +153,34 @@ People using WordPress on their primary or other sites.
 ** Currently testing [[POSSE]] [http://xtof.me/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#wp-extensions-posse research in progress] with 2 plugins activated simultaneously
 *** [http://jetpack.me/support/publicize/Publicize (JetPack module)] :  [http://christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/#jetpack-publicize-exemple example w UI]
 *** [http://aaroncollegeman.com/sharepress/ SharePress] (FB pages broadcasting and twitter. [http://xtof.me/blog/test-sharepress-posse/ example w UI]). schedule POSSE. Short-url restricted to bit.ly. 
+* [[User:Crystalbeasley|Crystal Beasley]] on [http://skinnywhitegirl.com/blog/ skinnywhitegirl.com/blog/]
+** Has moved her primary domain/[[identity]] over to Crystalbeasley.com which is statically generated.
 
-==== Other independents using it on their primary site ====
+=== Past Examples ===
+Independents that used to use WordPress on their own site but have switched away (or site stopped working)
+* [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] (2005 - [https://willnorris.com/2014/07/one-step-forward-two-steps-back July 2014]) with:
+** URL Shortener via WP-Hum ([[selfdogfooding]])
+* [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 but switched to something more static since 2014-??-??.
 * [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
-* [http://mediajunkie.com/ Christian Crumlish] 
-* [http://singpolyma.net Stephen Paul Weber]
-* [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 but planning to move to something more static.
-* ...
 
-=== Development ===
+== Development ==
 
 Several projects are actively under development for use in Wordpress. Plugins/themes considered complete enough for widespread use  will appear on this page. 
 
 For brainstorming on development of Indieweb themes/plugins for Wordpress and discussion of common conventions to ensure interoperability, see [[WordPress/Development|WordPress Development]].
 
-=== Problems ===
-Problems with using WordPress software  from an IndieWeb perspective.
+== Criticism ==
+<span id="Problems">Problems</p> with and criticism of using WordPress software from an IndieWeb perspective.
 
-==== Security Issues ====
+=== Security Issues ===
+WordPress (and often many popular plugins) frequently has security vulnerabilities that are found and exploited in a "zero day" fashion.
+
+Mitigation:
 
 Security vulnerabilities are found in many popular pieces of software, as their deployment makes them attractive targets. While there is currently limited options within the core of Wordpress, there are many security plugins that offer protection for Wordpress blogs.
 
-==== Maintenance Vulnerability ====
+=== Maintenance Vulnerability ===
 Independents (quite tech smart and capable) who had their WordPress blog(s) hacked due to being unable to keep up with security updates / maintenance (too much of a hassle/chore/tax on their time). 
-
-However, since Version 3.7, Wordpress supports [http://codex.wordpress.org/Configuring_Automatic_Background_Updates|automatic background updates] to alleviate this issue. By default, automatic updates for minor releases and translations are enabled. There are configurable settings to allow major release updates, and updates for specific plugins. 
-
-The Core Automatic Update functionality can also be used to push critical security updates to popular plugins. This was used in April of 2014 when the popular JetPack plugin was discovered to have a critical vulnerability and the developers requested the security update be pushed via the system to all users who had not expressly disabled all updates. 
-
 * Clay Shirky:
 ** https://plus.google.com/u/0/+AdeOshineye/posts/6zUWbNKbWrM
 * Dan Brickley
@@ -186,19 +189,25 @@ The Core Automatic Update functionality can also be used to push critical securi
 ** WordPress seems to have a non trivial security hole every 6 months and I never have the time to tend to my WP install. The last major problem resulted in my blog being infested with malware and my site blacklisted by google.  WordPress is like Windows.  It's probably not really less secure than the alternatives but its popularity is such that it makes an attractive target.  Most WordPress blogs are configured to ping an [http://codex.wordpress.org/Update_Services update service] so hackers have no trouble finding targets.  Any IndieWeb solution needs to think about automatic updates and defense in depth security. -- [[User:Michaelw.net|Michael.net]]
 * ...
 
-==== Fatal Error memory exhausted ====
+Mitigation:
+
+However, since Version 3.7, Wordpress supports [http://codex.wordpress.org/Configuring_Automatic_Background_Updates|automatic background updates] to alleviate this issue. By default, automatic updates for minor releases and translations are enabled. There are configurable settings to allow major release updates, and updates for specific plugins. 
+
+The Core Automatic Update functionality can also be used to push critical security updates to popular plugins. This was used in April of 2014 when the popular JetPack plugin was discovered to have a critical vulnerability and the developers requested the security update be pushed via the system to all users who had not expressly disabled all updates. 
+
+=== Fatal Error memory exhausted ===
 WordPress seems to run out of memory on servers sometimes, and give a message like:
 
 * e.g. on http://yottabytes.info/?p=10497 (on 2014-06-08 15:28 EDT): <blockquote> Fatal error: Allowed memory size of 41943040 bytes exhausted (tried to allocate 32 bytes) in /home/johnkrol/public_html/wp-includes/post.php on line 1961</blockquote>
 
-=== Switching away from ===
+== Switching away from ==
 There has been a trend of folks switching away from WordPress for various reasons (e.g. problems noted above).  They seem to switch to one of three options, one indieweb, and two silo.
 
 * static site generator or some other IndieWeb [[project]]
 * silo: WordPress.com hosting service (see below)
 * other silo: e.g. [[Tumblr]] (others?)
 
-==== Switched to another project ====
+=== Switched to another project ===
 (stub)
 
 There are many folks with personal sites that have kept their personal site and webhost, but switched away from WordPress to another solution, e.g. typically a static site generator:
@@ -210,11 +219,11 @@ Many others have switched to Jekyll or are in the process of doing so, e.g.:
 And a few have switched to their own IndieWeb project, e.g.
 * [[User:Aaronparecki.com|Aaron Parecki]] switched from WordPress for his blog to using [[p3k]] to post [[articles]] on Aaronparecki.com
 
-==== Switched to WordPress service ====
+=== Switched to WordPress service ===
 (stub)
 
 I know there's folks that have done this but have trouble recalling offhand who in particular.
-==== Switched to Tumblr ====
+=== Switched to Tumblr ===
 (stub)
 
 Folks that were on WordPress that have moved to Tumblr
@@ -236,7 +245,7 @@ If you could detect "in the feed vs permalink page", you could use <code>rel="ca
 
 === POSSE ===
 It is possible to manually [[POSSE]] [[articles]] to Wordpress.com.
-==== IndieWeb Examples ====
+==== IndieWeb POSSE Examples ====
 ===== Shane Becker =====
 Shane Becker is manually POSSEing his articles to Wordpress.com.
 * http://iamshane.com/articles/2010/11/7/1/no-more-sharecropping

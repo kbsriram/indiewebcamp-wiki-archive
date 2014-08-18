@@ -252,6 +252,14 @@ In reverse chronological order:
 ** 2008-05-12 Google Friend Connect launched.[http://en.wikipedia.org/wiki/Google_Friend_Connect][http://techcrunch.com/2008/05/12/google-confirms-friend-connect/]
 
 === 2011 ===
+* 2011-12-15 '''Google Buzz''' put into read only mode ('''Buzz API''' shut down), subsequently killed in 2014
+** ??? number of Google Buzz posts lost
+** ??? number of Google Buzz user profiles lost
+** ??? links to Google Base posts broke
+** 2014-08-16 (or earlier) Google Buzz permalinks stopped working, starting 404ing.[http://tantek.com/2014/228/t1/google-killed-buzz-permalinks]
+** 2011-12-15 Google Buzz permalinks switched to read-only mode.[https://support.google.com/mail/answer/1698228][http://en.wikipedia.org/wiki/Google_Buzz]
+** 2011-10-14 Google announced the shut down with only 2 months notice[http://googleblog.blogspot.com/2011/10/fall-sweep.html][http://en.wikipedia.org/wiki/Google_Buzz][http://gizmodo.com/5849915/rip-google-buzz].
+*** From Gizmodo: [http://gizmodo.com/5849915/rip-google-buzz Gizmodo RIP Google Buzz] <blockquote>I'd say I'm going to miss Buzz, but to be honest I had all but forgotten about it. Oh well. If you need me, I'll be ''hanging out on '''Google Wave'''''.</blockquote>''emphasis '''added'''''.
 * 2011-07-11 '''tr.im''' URL shortener failed.[http://en.wikipedia.org/wiki/Tr.im#History]
 ** ??? number of tr.im short links lost
 ** ??? number of links to tr.im URLs broken (across the web, Twitter, etc.)

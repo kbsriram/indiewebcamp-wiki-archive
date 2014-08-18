@@ -17,7 +17,7 @@ See [[events]] for dates/locations/URLs of upcoming meetings!
 === Established Meetings ===
 * San Francisco, CA
 ** Organizer(s): [[User:Tantek.com|Tantek]], [[User:Snarfed.org|Ryan Barrett]], [[User:Werd.io|Ben Werdmüller]]
-** FIrst meeting [http://tantek.com/2013/322/b1/homebrew-computer-club-reunion-inspiration 2013-11-20]
+** First meeting [http://tantek.com/2013/322/b1/homebrew-computer-club-reunion-inspiration 2013-11-20]
 * Portland, OR
 ** Organizer(s): [[User:Aaronparecki.Com|Aaron Parecki]], Dietrich, [[User:Crystalbeasley.com|Crystal]]
 * Chicago, IL

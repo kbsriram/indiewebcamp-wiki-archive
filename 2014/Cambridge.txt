@@ -68,6 +68,7 @@ At IndieWebCamp you’ll learn about ways to empower yourself to own your data, 
 * [[2014/Cambridge_demos|Demos]]
 * [[IRC]]
 * Sessions notes are in the top level Etherpad: https://etherpad.mozilla.org/indiewebcamp-cambridge
+* [[code-of-conduct|Code of Conduct]]
 
 Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions complete)
 * [[2014/Cambridge/Introductions|Introductions]]
@@ -103,7 +104,7 @@ Put suggestions for IndieWebCamp Cambridge 2014 here.
 ====Getting to MIT ====
 '''Subway From Logan Airport'''
 From any terminal at Logan Airport, take the Silver Line bus to South Station. At South Station, change to the Red Line subway to Kendall/MIT (inbound toward Alewife). Under normal conditions the ride will take 
-about one-half hour and the fare is $2.00 (Charlie Card) or $2.50 (cash).
+about one-half hour and the fare is $2.10 ([http://www.mbta.com/fares_and_passes/charlie/ CharlieCard] plastic card, not a paper CharlieTicket) or $2.65 (cash).
 
 '''Taxi From Logan Airport'''
 Taxi fare from the airport is about $35–$40. During non-rush hour, the taxi ride will take about 15 minutes. During rush hour, the ride could take 30 minutes or more.

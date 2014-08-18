@@ -13,6 +13,10 @@ Hashtags:
 * #fsws2010
 * #fsws (constrain searches to the year 2010)
 
+=== Talks ===
+Talks given by folks at FSWS2010 who subsequently went on to do IndieWebCamp:
+* http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/2010-199-tantek-fsws-talk
+
 === Articles ===
 Articles, blog posts, and notes about the summit in time sequence order (earliest first)
 * http://ozten.com/psto/2010/07/19/federated-social-web-summit-notes/

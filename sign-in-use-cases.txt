@@ -5,6 +5,8 @@ http://indiewebcamp.com/sign-in-use-cases
 Here is a summary of current use cases for implementing web sign-in on your indie web site, e.g. with [[IndieAuth]] / [[RelMeAuth]], roughly ordered by frequency, originally as braindumped [http://indiewebcamp.com/irc/2012-07-02#t1341293391 on IRC] with subsequent additions.
 
 == show personal info ==
+'''(consider expanding this to its own page now that there is an IndieWeb Example)'''
+
 Show more detailed [[hCard]] to white-listed logged in users (e.g. phone number, home address)
 
 Every indie web site should have contact info either on its home page or on a contact/about page marked up with hCard.
@@ -18,6 +20,8 @@ To avoid physical junk mail, you may prefer to keep your mailing address private
 However, you may wish to disclose these details to signed-in users, or perhaps a white-list of trusted friends.
 
 Thus, if a user signs-into your site, you can check if their identity is in a white-list and if so, show a more detailed [[hCard]].
+
+This functionality is being considered for a [[IndieMark#identity|future level of the IndieMark identity axis]] since there is at least one implementation (http://ben.thatmustbe.me/ since 2014-08-13).
 
 == signed-in access only posts ==
 You may have some [[posts]] that you're ok with people reading, but don't want random anonymous crawlers to pick-up (with or without robots.txt compliance).

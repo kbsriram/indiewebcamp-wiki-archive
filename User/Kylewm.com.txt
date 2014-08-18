@@ -14,6 +14,10 @@ http://indiewebcamp.com/User%3AKylewm.com
 * Collection posts for photo albums -- prompted by batch of vacation photos starting around https://kylewm.com/photo/2014/07/31/4
 ** added album selector for POSSE to Facebook; album should exist on my site too! 
 * Android application that uses web intents to share photos or links to my site (use micropub?)
+* Consume/PESOS from last.fm API somehow. Low bandwidth option: grab and publish [http://www.last.fm/api/show/user.getWeeklyArtistChart top artists] and [http://www.last.fm/api/show/user.getWeeklyTrackChart top tracks] once a week  
+* "reposts" of longer-than-tweet-length content need more sophistication. e.g. [http://ryandc.tumblr.com/post/37252937055/adam-brault-i-quit-twitter-for-a-month-and-it a tumblr repost of an indieweb post]
+** auto-fill or fallback to the mf2util generated content, but let me override manually with a different title/summary.
+** do the same with bookmarks and likes?
 
 ==== Done ====
 * post notes and syndicate to twitter from the main page, fewer clicks

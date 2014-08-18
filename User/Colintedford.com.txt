@@ -33,11 +33,17 @@ I found IWC some months ago, I don't remember how but I've been interested in re
 First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb stuff where it makes sense.
 
 * Reformat so I can stop using Webcomic plugin.
+** <strike>Decide on code for comic transcripts.</strike> 2014-08-11: Settled on some non-JS show/hide code that mysteriously doesn't work in WordPress, so for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ .
+** <strike>Migrate transcripts.</strike> Done 2014-08-12.
+** Migrate comic images.
+** Apply custom taxonomy to comics so I don't have to have a category for each one.
+** Disable plugin.
 * Switch to more responsive theme, tweak as needed (but don't go overboard).
 * Add [[microformats]].
 * Self-signed [[https|SSL]] for logins.
 * Better comics navigation.
 * Yearly & monthly archives (no more paginated).
+* Mockup post-WordPress site in HTML & CSS. Use this (with tweaks as needed to template-ify) as template for post-WordPress system.
 
 ==== Whenever I feel like it ====
 
@@ -53,9 +59,9 @@ Lower-priority but easy, a nice way to make progress when I'm not up to harder p
 ==== Eventually ====
 
 * Auto-[[POSSE]] to & auto-[[backfeed]] from [[Facebook]] ([[backfeed]] is more urgent; [[POSSE]]ing by hand is pretty easy).
-* Migrate from [[WordPress]] to something mostly static. Currently planning to try [http://middlemanapp.com/ Middleman] but I have a lot of details to figure out (e.g. I want to be able to post when I'm away from my computer). I'd like to have a mostly-static system that's easy for laypeople to use (both for myself & so I can recommend it to people I know), but if I have to do it myself it may be a *long* wait.
-* Bettter distinguish [[notes]].
-* Send, receive, & display [[Webmention]]s. In line with my own current posting practice I would like to allow updates, but marked up correction-style with strikeouts & additions (which sounds hard to do). For [[delete|deletions]] I guess I'd just strikeout the whole comment & add a note that the author deleted it.
+* Migrate from [[WordPress]] to something mostly static. Considering [http://middlemanapp.com/ Middleman] but I have a lot of details to figure out (e.g. I want to be able to post when I'm away from my computer). Also entertaining pipe dreams of learning to program and building something myself. I'd like to have a mostly-static system that's easy for laypeople to use (both for myself & so I can recommend it to people I know), but if I have to do it myself it may be a *long* wait.
+* <strike>Better distinguish notes.</strike> I don't want to maintain a rigid distinction between [[notes]] and [[articles]] but I want readers to be able to filter out the higher-volume small stuff. I think anything with no title and only one paragraph will be a "note". Anything with a title (that isn't another more specialized post type) will be an article. I might highlight articles somehow on the home page (like surround it with a box). Also might put an expansion toggle on each article on the homepage like [[User:Tommorris.org|Tom Morris]] does (I can't find his post about it but you can see examples at http://tommorris.org). so long posts don't mess up the flow, visitors down have to click through to a separate page, and feed readers can still get the whole post without having to follow the link.
+* Send, receive, & display [[Webmention]]s. In line with my own current posting practice I would like to allow updates, but marked up correction-style with strikeouts & additions (which sounds hard to do). For [[delete|deletions]] I guess I'd just strikeout the whole comment & add a note that the author deleted it. Or I could just show the newest version with a link to archived older version(s).
 * Not sure about [[likes]]. I certainly like knowing someone liked something I did, but I don't know how compelled I feel to display that info.
 * [[Events]].
 * [[RSVP]]s.

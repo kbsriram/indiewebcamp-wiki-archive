@@ -1,0 +1,19 @@
+http://indiewebcamp.com/Reddit
+
+{{stub}}
+
+'''<dfn>[http://www.reddit.com/ Reddit]</dfn>''' is a link [[aggregator]] and bulletin board site where community members may submit links and text posts, vote on the submitted entries, and post comments on them. As community members vote a post up or down, the site determines how to position a post within the news feed.
+
+Because of the upvote / downvote system, Reddit is an effective crowd-sourced curation tool where the "best" links (as determined by a particular subreddit's users) are pushed to the top. As a result, sites that have been pushed to Reddit's front page experience huge surges in traffic (also known as "the Slashdot Effect").
+
+== Features ==
+The features below are only available to Reddit community members:
+
+* Vote posts up or down to determine their position in the site feed
+* Deeply-threaded comment system
+* The ability to create your own category pages (called "subreddits")
+
+== See Also ==
+* [[IndieNews]]
+* [[silo]]
+* [[comments]]

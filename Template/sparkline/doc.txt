@@ -1,0 +1,17 @@
+http://indiewebcamp.com/Template%3Asparkline/doc
+
+This template is used to display an inline photo with a <code>u-photo</code> microformat. It is commonly used to create templates for users to sign their name on event RSVPs or other wiki pages.
+
+== Blank Template ==
+Copy, paste, and fill in URL of the photo:
+
+<pre style="line-height: 1.4em; padding: 1em; border: 1px solid #ddd; color: black; background-color: #f9f9f9;">{{sparkline| http://example.com/profile.jpg}}</pre>
+
+== Parameters ==
+This template accepts one unnamed parameter, which should be the URL of the photo.
+
+== Example ==
+<pre style="line-height: 1.4em; padding: 1em; border: 1px solid #ddd; color: black; background-color: #f9f9f9; white-space: pre-wrap;">{{sparkline| http://tantek.com/logo.jpg}}</pre>
+
+Will generate:
+{{sparkline| http://tantek.com/logo.jpg}}

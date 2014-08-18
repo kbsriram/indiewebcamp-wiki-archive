@@ -5,7 +5,18 @@ http://indiewebcamp.com/collection
 A '''<dfn>collection</dfn>''' is a type of [[post]] that lists and/or embeds multiple other posts.
 
 == IndieWeb Examples ==
+=== Kyle Mahan ===
+{{kylewm}} uses [[Red Wind]] to publish collection posts on kylewm.com [http://kylewm.com/share/2014/04/14/1 since 2014-04-14]. Example:
 * http://kylewm.com/share/2014/04/14/1
+=== Aaron Parecki ===
+{{aaronpk}} uses [[p3k]] to publish collection posts on aaronparecki.com [http://aaronparecki.com/collections/2014/08/14/1/ since 2014-08-14]. Example:
+* http://aaronparecki.com/collections/2014/08/14/1/
+
+== Silo Examples ==
+=== Storify ===
+[[Storify]] is a silo for collecting tweets ([[Twitter]] [[notes]]). Examples:
+* https://storify.com/charlesarthur/oh-hai-sexism
+* https://storify.com/jcolman/mike-monteiro-design-facebook
 
 == See Also ==
 * [[album]]

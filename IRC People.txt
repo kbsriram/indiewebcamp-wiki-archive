@@ -1,22 +1,26 @@
 http://indiewebcamp.com/IRC_People
 
-A list of [[IRC]] regulars, sorted by nick, and their normal timezones (winter/summer).
+A list of [[IRC]] regulars, sorted by nick, and their usual timezones.
 
+Note: the name of a city does not imply that someone lives there. It's from the [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List list of timezone names]. E.g. US 48-state folks can typically just use:
+* "US/Pacific", "US/Mountain", "US/Central", "US/Eastern"
+
+== Nicknames ==
 Please keep sorted alphabetically
 * {{irc user|6a68.net|_6a68|America/Los_Angeles}}
-* {{irc user|Aaronparecki.com|aaronpk|America/Los_Angeles}}
+* {{irc user|aaronparecki.com|aaronpk|US/Pacific|https://aaronparecki.com/images/aaronpk-128.jpg}}
 * {{irc user|acegiak.net|acegiak|Australia/Adelaide}}
 * {{irc user|Adactio.com|adactio|Europe/London}}
 * {{irc user|ashersilberman.com|addal|America/Los_Angeles}}
 * {{irc user|roblord.org|b0bg0d|America/San_Francisco}}
 * {{irc user|waterpigs.co.uk|barnabywalters|Atlantic/Reykjavik}}
-* {{irc user|Bear.im|bear|America/New_York}}
-* {{irc user|ben.thatmustbe.me|ben_thatmustbeme|America/New_York}}
+* {{irc user|Bear.im|bear|America/New_York|https://bear.im/images/bear_128x128.jpg}}
+* {{irc user|ben.thatmustbe.me|ben_thatmustbeme|America/New_York|http://ben.thatmustbe.me/image/static/icon_64.jpg}}
 * {{irc user|Throwingbones.com|benprew|America/Los_Angeles}}
-* {{irc user|Werd.io|benwerd|America/Los_Angeles}}
+* {{irc user|Werd.io|benwerd|America/Los_Angeles|http://werd.io/file/538d0a4cbed7de5111a1ad31/thumb.jpg}}
 * {{irc user|bigbluehat.com|bigbluehat|America/New_York}}
 * {{irc user|sebastian.kip.pe|binbasti|Europe/Berlin}}
-* {{irc user|Brennannovak.com|bnvk|Atlantic/Reykjavik}}
+* {{irc user|Brennannovak.com|bnvk|Atlantic/Reykjavik|https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg}}
 * {{irc user|www.atoddswithclarity.com|brainTrain|America/San_Francisco}}
 * {{irc user|Bret.io|bret|America/Los_Angeles}}
 * {{irc user|bjb.io|brianloveswords|America/New_York}}
@@ -24,19 +28,19 @@ Please keep sorted alphabetically
 * {{irc user|chrischerrett.co.uk|chrischerrett|Europe/London}}
 * {{irc user|Chrisroos.co.uk|chrisroos|Europe/London}}
 * {{irc user|ike.io|crossdiver|America/Los_Angeles}}
-* {{irc user|cweiske.de|cweiske|Europe/Berlin}}
-* {{irc user|Jenmontes.com|cuibonobo|America/New York}}
+* {{irc user|cweiske.de|cweiske|Europe/Berlin|http://avatar.cweiske.de/avatar/9e263681488308e5e5d5e548b2f9bc99}}
+* {{irc user|Jenmontes.com|cuibonobo|US/Eastern|http://i.imgur.com/i263dCJ.jpg}}
 * {{irc user|danbri.org|danbri|Europe/London}}
 * {{irc user|deiu.rww.io|deiu|America/New_York}}
 * {{irc user|dunlaps.net/darius|dariusdunlap|America/San_Francisco}}
 * {{irc user|metafluff.com|dietrich|America/Los_Angeles}}
 * {{irc user|donpark.org|donpdonp|America/Los_Angeles}}
-* {{irc user|nicoletollefson.com|dotnic|America/Chicago}}
+* {{irc user|nicoletollefson.com|dotnic|America/Chicago|http://nicoletollefson.com/landscape.jpg}}
 * {{irc user|dpk.io|dpk|Europe/London}}
 * {{irc user|notenoughneon.com|emmak|America/Los_Angeles}}
 * {{irc user|ellton.me|ellton|America/Sao_Paulo}}
 * {{irc user|erikmaarten.com|erikmaarten|Asia/Tokyo}}
-* {{irc user|gregorlove.com|gRegor`|America/Chicago}}
+* {{irc user|gregorlove.com|gRegor`|US/Central|http://gregorlove.com/assets/img/profile.jpg}}
 * {{irc user|david.shanske.com|gwg|America/New_York}}
 * {{irc user|tobilehman.com|habitmelon|America/Los_Angeles}}
 * {{irc user|hmans.io|hmans|Europe/Berlin}}
@@ -52,27 +56,31 @@ Please keep sorted alphabetically
 * {{irc user|jden.us|jden|America/Los_Angeles}}
 * {{irc user|jihais.se|Jihaisse|Europe/Paris}}
 * {{irc user|jlsuttles.me|jlsuttles|America/San_Francisco}}
-* {{irc user|jonathantneal.com|JonathanNeal|Los_Angeles}}
-* {{irc user|jonnybarnes.uk|jonnybarnes|Europe/London}}
+* {{irc user|jonathantneal.com|JonathanNeal|Los_Angeles|https://0.gravatar.com/avatar/2889096995a38fa697ab83d8b59a5637}}
+* {{irc user|jonnybarnes.uk|jonnybarnes|Europe/London|https://jonnybarnes.uk/assets/img/jmb-bw.png}}
 * {{irc user|josephg.com|josephg|America/Los_Angeles}}
 * {{irc user|Jschweinsberg.de|jschweinsberg|Europe/Berlin}}
 * {{irc user|julian.so|julian`|Europe/London}}
-* {{irc user|kartikprabhu.com|KartikPrabhu|America/Chicago}}
+* {{irc user|kartikprabhu.com|KartikPrabhu|America/Centra|https://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s50-c/Recursion-small.jpg}}
 * {{irc user|kbsriram.com|kbs|America/San_Francisco}}
-* {{irc user|kevinmarks.com|KevinMarks|America/San Jose}}
-* {{irc user|kylewm.com|kylewm|America/San_Francisco}}
+* {{irc user|kevinmarks.com|KevinMarks|US/Pacific|http://www.kevinmarks.com/km.jpg}}
+* {{irc user|kevinmarks.com|KevinMarks2|US/Pacific|http://www.kevinmarks.com/km.jpg}}
+* {{irc user|kylewm.com|kylewm|US/Pacific|https://kylewm.com/static/img/users/kyle60.jpg}}
 * {{irc user|lbj.org.uk|lauraj|Europe/London}}
+* {{irc user|loqi.me|Loqi|US/Pacific|http://loqi.me/logo/loqisaur.png}}
 * {{irc user|lukasrosenstock.net|LukasRos|Europe/Berlin}}
 * {{irc user|luxagraf.net|luxagraf|America/New_York}}
 * {{irc user|marcus-povey.co.uk|mapkyca|Europe/London}}
 * {{irc user|marcthiele.com|marcthiele|Europe/Germany}}
 * {{irc user|markmhendrickson.com|markmhendrickson|America/Los_Angeles}}
+* {{irc user|mattl.us|mattl|America/New_York}}
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}
 * {{irc user|mowens.com|mko|America/San_Francisco}}
 * {{irc user|felixniklas.de|mrflix|Europe/Berlin}}
 * {{irc user|t37.net|neuro` / fdevillamil|Europe/Paris}}
 * {{irc user|standblog.org|nitot|Europe/Paris}}
+* {{irc user|npdoty.name|npdoty|US/Pacific|https://npdoty.name/profile.jpg}}
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}
 * {{irc user|greptilian.com|pdurbin|America/New_York}}
 * {{irc user|pauloppenheim.com|pauloppenheim|America/Los_Angeles}}
@@ -80,17 +88,19 @@ Please keep sorted alphabetically
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
 * {{irc user|Notizblog.org|pfefferle|Europe/Berlin}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
-* {{irc user|rascul.io|rascul|America/New_York}}
+* {{irc user|rascul.io|rascul|America/New_York|https://rascul.io/img/avatar80.jpg}}
 * {{irc user|rkn.la|rknLA|America/Los_Angeles}}
 * {{irc user|Sandeep.io|sandeepshetty|Asia/Kolkata}}
 * {{irc user|jenson.org|scottjenson|America/San_Francisco}}
-* {{irc user|ShaneHudson.net|ShaneHudson|Europe/London}}
+* {{irc user|sebastiangreger.net|sgreger|Europe/Helsinki}}
+* {{irc user|ShaneHudson.net|ShaneHudson|Europe/London|http://shanehudson.net/avatar.png}}
 * {{irc user|iamshane.com|shaners|America/Los_Angeles}}
 * {{irc user|aheadrobot.com|smagdali|Europe/London}}
 * {{irc user|snarfed.org|snarfed|America/Los_Angeles}}
 * {{irc user|4c4d.com|sparverius|America/Los_Angeles}}
 * {{irc user|Paulmunday.net|tallpaul|America/Los_Angeles}}
-* {{irc user|Tantek.com|tantek|America/Los_Angeles}}
+* {{irc user|Tantek.com|tantek|US/Pacific|http://tantek.com/logo.jpg}}
+* {{irc user|Techlifeweb.com|techlifeweb|America/Los Angeles|http://techlifeweb.com/images/avatar.jpg}}
 * {{irc user|Tommorris.org|tommorris|Europe/London}}
 * {{irc user|tiagopinto.pt|tpinto|Europe/London}}
 * {{irc user|trodrigues.net|trodrigues|Europe/Berlin}}
@@ -106,3 +116,13 @@ Please keep sorted alphabetically
 * {{irc user|Traviswellman.com|zztr,zztw|America/Los_Angeles}}
 
 * ... add yourself (and sort yourself into the above, unless your IRC nickname really is last alphabetically :)
+
+== Timezone Aliases ==
+Through usage, it's apparent that having aliases for IANA Time Zone names would help with being more permissive with what people enter for themselves. Here's a list of alias/actual names of time zones:
+
+; America/San_Francisco
+: America/Los_Angeles
+
+== See Also ==
+* [[IRC]]
+* [[irc/today]]

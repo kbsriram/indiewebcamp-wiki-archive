@@ -50,7 +50,7 @@ If you wish for GitHub to build your [[Jekyll]] website for you on their server,
 While GitHub Pages supports shared SSL for pages under the *.github.io domain, it does not support using your own SSL cert for your own domain.
 
 == POSSE to GitHub ==
-For POSSEing source code to github, see [[code]].
+For POSSEing source code to github, see [[git]].
 
 === IndieWeb Examples ===
 ==== Aaron Parecki ====

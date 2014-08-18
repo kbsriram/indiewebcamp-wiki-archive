@@ -65,7 +65,11 @@ Facebook performs the function of a feed aggregator of all your friends' activit
 Some examples screenshots can be found here:
 * https://www.facebook.com/about/newsfeed
 
+Analysis of some of the algorithms Facebook uses to choose what to display to users:
+* http://civic.mit.edu/blog/natematias/uncovering-algorithms-looking-inside-the-facebook-news-feed
+
 __TOC__
+
 == Comments Embed ==
 Facebook has a feature called '''[http://developers.facebook.com/docs/reference/plugins/comments/ Comments Box]''' which "is a social plugin that enables user commenting on your site." Indieweb sites can use it to embed a [[comments]] box on blog [[posts]].
 
@@ -170,6 +174,7 @@ Someday Facebook will change ''something'' (or just [[site-deaths|disappear]]), 
 
 == Articles ==
 Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):
+* 2014-03-13 [http://www.theverge.com/2014/3/13/5488558/danah-boyd-interview-the-era-of-facebook-is-an-anomaly The era of Facebook is an anomaly]
 * 2014-01-21 [http://business.time.com/2014/01/21/facebook-is-about-to-lose-80-of-its-users-study-says/ Facebook Is About to Lose 80% of Its Users, Study Says]
 * 2014-01-15 [http://techcrunch.com/2014/01/15/even-president-obama-thinks-that-facebook-isnt-cool-anymore/ Even President Obama Thinks That Facebook Isn’t Cool Anymore]
 * 2013-11-14 [http://www.slate.com/blogs/future_tense/2013/11/14/facebook_s_cool_kids_problem_instagram_snapchat_and_the_anti_facebook_phenomenon.html Facebook Isn't Cool. So What?]
@@ -181,7 +186,7 @@ Articles that may provide insights on how to motivate individuals to move from F
 * ...
 
 == FAQ ==
-
+=== Watch video without Flash ===
 '''Q:''' How do I watch videos on Facebook without Flash?
 
 '''A:''' Accessing the video through <code>https://m.facebook.com/</code> or <code>https://touch.facebook.com</code> will allow you to watch the video using HTML5 video.

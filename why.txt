@@ -7,6 +7,7 @@ Whatever the reason, you're done with sharecropping your content, your identity,
 Our content is becoming more important, and sometimes even critical to our lives. It is not secure in the hands of random ephemeral startups or big [[silos]]. We should be the holders of our own data.
 
 == Why Indie Web ==
+* Dan Gillmor: '''[http://dangillmor.com/2014/04/25/indie-web-important/ Why the Indie Web movement is so important]'''
 === Why have your own website ===
 * Brett Slatkin: [http://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html Focusing on the Positives: Why I Have My Own Website]
 === Better UI and UX ===

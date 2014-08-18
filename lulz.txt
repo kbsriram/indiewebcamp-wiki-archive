@@ -3,7 +3,11 @@ http://indiewebcamp.com/lulz
 {{stub}}
 
 == Local ==
+* [[apophenia]]
 * [[chicken]]
+* Ask "what is love?" in [[indiechat|#indiechat]] [[IRC]]
+* [[splines]]
+* [[this]]
 * ...
 
 == External Sites ==

@@ -1,0 +1,117 @@
+http://indiewebcamp.com/2014/UK/Schedule
+
+This is the [[2014/UK|IndieWebCampUK 2014]] schedule: 6-7 September, 2014
+* see previously: the [[2014/Schedule|2014 IndieWebCamp Schedule]]
+* see previously: the [[2013/Schedule|2013 IndieWebCamp Schedule]]
+* see previously: the [[2012/Schedule|2012 IndieWebCamp Schedule]]
+
+== Friday 2014-09-05 ==
+dConstruct before IndieWebCamp! Go get a ticket at http://dconstruct.org/
+
+== Saturday 2014-09-06 ==
+
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+|width="60"|Time
+| Room 1<br /> Seats ???
+| Room 2<br />Seats ???
+| Room 3<br />Seats ???
+| Room 4<br />Seats ???
+|-
+| 9:00
+|colspan="4" align="center"|Organizer Setup
+|-
+| 9:30
+|colspan="4" align="center"|'''Doors Open, Badges, Coffee'''
+|-
+| 10:00
+|colspan="4" align="center"|'''[[Selfdogfood]] Demos of what works today / [[2014/UK/Introductions|Introductions]]'''
+|-
+| 11:30
+|colspan="4" align="center"|'''Session Scheduling'''
+|-
+| 12:00 <div style="height:4em;"></div>
+| 
+|
+| 
+|
+|-
+| 1:00 <div style="height:2em;"></div>
+|colspan="4" align="center"|'''No-host lunch outside at Brighton Food Festival'''
+|-
+| 2:45 <div style="height:4em;"></div>
+| 
+|
+| 
+| 
+|-
+| 3:30 <div style="height:4em;"></div>
+| 
+|
+| 
+| 
+|-
+| 4:15 <div style="height:4em;"></div>
+| 
+|
+| 
+|
+|-
+| 5:00
+|colspan="4" align="center"|'''Group Photo, Intro to Hack Day'''
+|-
+| 5:15 <div style="height:4em;"></div>
+| 
+|
+| 
+|
+|-
+| 6:00
+|colspan="4" align="center"|'''Head to Dinner'''
+|}
+
+== Sunday 2014-09-07 ==
+{|border="1" style="border-collapse: collapse;" cellpadding="5" width="100%"
+|width="60"|Time
+| Room 1<br />Seats ???
+| Room 2<br />Seats ???
+| Room 3<br />Seats ???
+| Room 4<br />Seats ???
+|-
+|9:00
+|colspan="4" align="center"|Organizer Setup
+|-
+| 9:30
+|colspan="4" align="center"|'''Doors Open, Badges, Coffee/Breakfast'''
+|-
+| 10:00
+|colspan="4" align="center"|'''Day 2 Kickoff'''
+|-
+| 10:45 Hack Sessions <div style="height:5em;"></div>
+|
+|
+|
+|
+|-
+| 12:00
+|colspan="4" align="center"|'''No-host lunch outside at Brighton Food Festival'''
+|-
+| 1:00 Hack Sessions <div style="height:5em;"></div>
+|
+|
+|
+|
+|-
+| 4:30 <div style="height:2em;"></div>
+|colspan="4" align="center"|'''Demos'''
+|-
+| 5:30
+|colspan="4" align="center"|'''Cleanup'''
+|-
+| 6:00
+|colspan="4" align="center"|Camp Closed
+|}
+
+[[Category:Schedule]]
+
+== See Also ==
+* [[2014/UK]]

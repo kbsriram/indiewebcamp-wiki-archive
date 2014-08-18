@@ -21,6 +21,12 @@ Articles about the use of PHP, especially for software that you are expected to 
 * http://rachelandrew.co.uk/archives/2013/10/17/unfashionably-profitable/
 
 == Troubleshooting ==
+=== UTF8 ===
+While there are a number of symptoms (weird looking characters, one character split into two), the problems with UTF8 handling in PHP happen for a handful of different reasons. Here are some suggested fixes for some cases.
+
+* check the HTTP header returned, it should have:<blockquote><code>Content-Type: text/html; charset=UTF-8</code></blockquote> if it does not then you may need a line like this in your PHP code before it outputs any HTML:
+* <kbd>header('Content-type: text/html; charset=UTF-8');</kbd>
+
 === session start failed ===
 If you get an error like:
 <blockquote style="font-family:monospace">

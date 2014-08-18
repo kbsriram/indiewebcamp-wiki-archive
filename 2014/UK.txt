@@ -11,6 +11,8 @@ Own your data.
 Rather than posting content on third-party silos of content, we should all own the content we're creating. Publish on your own domain, and syndicate out to silos.
 
 Join us at the Clearleft offices in Brighton for '''two days''' of BarCamp-style collaboration and discussions of how to use open web technologies to empower users to own their own identities & content, and advance the state of the indie web.
+
+Curious about attending? See what happened at  [[2013/UK|IWC UK 2013]] (it was a blast).
 </div>
 
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-09-06</time> <time class="value">10:00</time></span> through <span class="dt-end dtend"><time class="value">2014-09-07</time> at <time class="value">18:00</time></span>
@@ -33,6 +35,11 @@ Join us at the Clearleft offices in Brighton for '''two days''' of BarCamp-style
 <!--
 * '''<a class="u-url url" href="http://plancast.com/p/ld30">Plancast</a>'''
 -->
+
+Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Guest_List|Guest List]]''')
+<!-- * Lanyrd: <span class="u-url url">http://lanyrd.com/2013/indiewebcampuk/</span>-->
+* Brighton Digital Festival: <span class="u-url url">http://www.brightondigitalfestival.co.uk/events/indie-web-camp/</span>
+* Top level [https://etherpad.mozilla.org/indiewebcamp IndieWebCamp Etherpad]
 
 == Schedule ==
 {| border="2" cellpadding="10" cellspacing="0" align="center"
@@ -82,6 +89,7 @@ __TOC__
 * [[2014/UK/Schedule|Schedule Grid]] - hyperlinked to actual session pages
 * [[2014/UK/Demos|Demos]]
 * [[IRC]]
+* [[code-of-conduct|Code of Conduct]]
 <!--
 * Sessions notes were taken directly into IRC:
 ** https://indiewebcamp.com/irc/2014-09-06
@@ -134,7 +142,7 @@ __TOC__
 '''Add your questions below'''
 
 === Inbox ===
-Put suggestions for Indie Web Camp New York City 2014 here.
+Put suggestions for Indie Web Camp UK 2014 here.
 * ...
 
 [[Category:Events]]

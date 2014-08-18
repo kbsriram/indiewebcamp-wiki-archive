@@ -22,7 +22,8 @@ All times are Pacific Time unless otherwise noted in venues.
 : This week's Portland meetup is part of [http://pdx.devweek.org/ PDX DevWeek], so we will be running it as more of an unstructured hack night rather than the traditional format. We'll be going from 18:30 until 21:00.
 
 ;Minneapolis
-:TBD
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
+:''Note the Minneapolis meeting is at 18:00 CDT''
 
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
@@ -78,7 +79,10 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 '''Minnesota:'''
-* ... add yourself!
+* [[user:nicoletollefson.com|Nic Tollefson]]
+* Scott Parker
+* Lynn Smith 
+*... add yourself!
 
 '''Chicago:'''
 * {{gRegor}}

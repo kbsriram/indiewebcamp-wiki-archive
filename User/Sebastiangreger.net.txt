@@ -1,6 +1,6 @@
 http://indiewebcamp.com/User%3ASebastiangreger.net
 
-= Sebastian Greger =
+= <span class="h-card">[http://sebastiangreger.net Sebastian Greger]</span> =
 
 My site http://sebastiangreger.net is running on WordPress, with IndieAuth and microformats set up manually. I use a modified version of the [[hum]] link shortener.
 

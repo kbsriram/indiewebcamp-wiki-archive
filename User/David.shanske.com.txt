@@ -18,8 +18,8 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 * Site has the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
 
 ==In Development==
-* Refining the deployed Wordpress Theme
-* Switching publishing from a Wordpress plugin to Bridgy.
-* Thinking of creating a Bridgy plugin for Wordpress
-* Semantic Comments Plugin - Wordpress plugin based on code I am already using on my site. Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. You can find it at [https://github.com/dshanske/semantic-comments Github]
+* Working on a refined version of the previous theme that allows for more flexibility for future changes.
+* Because the old theme had the h-card hard coded, need to write a Wordpress widget to add an h-card to the sidebar, pulling the data from the user profile, then the theme can be deployed and iterated on.
+* Switching publishing from a Wordpress plugin to Bridgy, which would require creating a simple Bridgy plugin for Wordpress.
+* Semantic Comments Plugin - Wordpress plugin based on code I am already using on my site. Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. Thinking of breaking it into smaller pieces, but you can find it at [https://github.com/dshanske/semantic-comments Github]
 * Simple Location plugin

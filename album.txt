@@ -2,7 +2,7 @@ http://indiewebcamp.com/album
 
 {{stub}}
 
-An '''<dfn>album</dfn>''' is a [[collection]] of photos or songs.
+An '''<dfn>album</dfn>''' is another name for a [[collection]] of photos or songs.
 
 == IndieWeb Examples ==
 === Photos ===

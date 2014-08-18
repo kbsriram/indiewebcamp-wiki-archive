@@ -37,10 +37,6 @@ http://indiewebcamp.com/silo-quits
 === Michael Garvin ===
 [[GitHub]]
 * 2014-03-28 Michael Garvin (gar) started self-hosting project code <cite>[http://danger.computer/2014/04/28/gitlab-part-one Time for gitlab]</cite><blockquote>Of course, with github you still can own your data, git is a decentralized version control system so you have a complete copy of everything even on your local clone. The things github provides (that are also the data you do not control) are things like issues. Things that are the real ‘community’ part of your project. As my friend @baldwin said to me earlier today, “It’s interesting that github seems to have re-centralized git.”</blockquote>
-=== Kyle Mahan ===
-[[GitHub]]
-* 2014-04-28 [[User:kylewm.com|Kyle Mahan]] stopped using GitHub as the primary repository for personal projects (though they are still mirrored there, for now).<cite>[http://kylewm.com/note/2014/04/28/1 starting to migrate stuff off of GitHub…][http://kylewm.com/share/2014/05/04/1 Github doesn’t quite fit the usual silo definition…]</cite><blockquote>… the realization that distributed version control users feel “locked in” to GH was enough reason for me to start moving my projects to self-host.</blockquote>
-
 == Silo quitters 2013 ==
 === Aaron Parecki ===
 [[App.net]]

@@ -2,9 +2,43 @@ http://indiewebcamp.com/GNU_social
 
 {{stub}}
 
-'''<dfn>[https://www.gnu.org/software/social/ GNU social]</dfn>''' is an open source [[project]] that "will be a decentralized social network that you can install on your own server"[https://www.gnu.org/software/social/]
+'''<dfn>[http://gnu.io/social GNU social]</dfn>''' is an free software [[project]] that "will be a decentralized social network that you can install on your own server"[http://gnu.io/social]
 
-On 2013-06-08, GNU social merged with (incorporated) [[StatusNet]] and Free Social.[https://www.gnu.org/software/social/merge.html]
+GNU social spun out of the [[GNU FM]] project to stop the defacto GNU FM server, [https://libre.fm] from becoming a social silo.
+
+On 2013-06-08, GNU social merged with (incorporated) [[StatusNet]] and Free Social, so a lot of this page is old StatusNet information as well. [https://www.gnu.org/software/social/merge.html]
+
+== StatusNet transition to Pump I/O and GNU social ==
+
+On June 8th 2013, [http://www.gnu.org/software/social/merge.html GNU social] announced a merger with StatusNet and FreeSocial. Around ths time, identi.ca stopped accepting new registrations and transitioned active accounts to [[pump.io]].
+
+[https://e14n.com/evan/note/1txE90HZTMSaf5EA6jxmAQ Evan began transitioning] the remaining *.status.net  accounts to pump in November 2013.
+
+There continues to be an active community of StatusNet/GNU social users, many on quitter.se[http://quitter.se], though both pump.io ''and'' GNU social encourage users to host their own instances (to avoid becoming de facto centralized, as Identi.ca basically was).
+
+== Syndication ==
+
+GNU social uses the OStatus protocol (based on Atom feeds published in realtime via [[Pubsubhubbub]]). As a result, GNU social users can subscribe ''directly'' to an external site that publishes a [[How_to_set_up_your_realtime_feed|Realtime feed]].
+
+ <tantek> there was never a need to syndicate to Status.net
+ <tantek> users on Status.net were able to directly subscribe to *external* sites in realtime if they supported PuSH
+ <tantek> Federation as it were
+ <tantek> the only reason to POSSE to a service is if a) you have friends on that service (otherwise you're just spamming), and b) that service only allows people to subscribe to local-to-the-service accounts.
+ <tantek> in the case of Status.net, b) was not true.
+
+There is some evidence that remote subscriptions were more &quot;officially&quot; supported in a previous version of StatusNet [http://status.net/wiki/Remote_subscriptions], but the '''+ Remote''' button on that wiki page does not exist (any more?) in StatusNet/GNU social installations. 
+
+It ''is'' possible for a GNU social user (e.g., on quitter.se) to subscribe to a feed (e.g., tantek.com) by manuallly visiting the URL: http://quitter.se/main/ostatussub?profile=http://tantek.com
+
+Here's an example of one of Tantek's notes reposted by a GNU social user [https://status.ssweeny.net/notice/304641]. Amusingly, when posts from tantek.com were reshared by a GNU social user syndicating to Twitter, it converted references from tantek.com to @tantekcom [https://twitter.com/search?q=%40tantekcom%20%40evanpro%20evan.status.net&src=typd&f=realtime], which did not exist until [https://twitter.com/tantekcom/status/14190824867].
+
+== Open Questions ==
+
+How does an indieweb site get a proper looking profile on a GNU social site? Compare @tantekcom@tantek.com and @kyle@kylewm.com (which has the same Atom components)
+
+[[File:tantek-quitter.png]]
+
+[[File:kylewm-quitter.png]]
 
 == IndieWeb Compatibility ==
 
@@ -14,6 +48,14 @@ On 2013-06-08, GNU social merged with (incorporated) [[StatusNet]] and Free Soci
 === Difficult to get information about ===
 <blockquote>As so very often with GNU projects it is really difficult to get information about it fast, you have to search and find it all over the internet</blockquote>[http://indiewebcamp.com/irc/2013-11-02#t1383405690]
 
+== IndieWeb Examples ==
+IndieWebCamp participants who are using GNU social on their own site:
+* Matt Lee (2014) :<nowiki>http://mattl.io/</nowiki> (And of course, it's broken today...)
+
+=== Past Examples ===
+* Evan Prodromou (2012) : was using StatusNet on <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013
+** 2013 Evan has moved to [[pump.io]]
+
 == See Also ==
 * [[projects]]
-* [[StatusNet]]
+* [[GNU FM]]
