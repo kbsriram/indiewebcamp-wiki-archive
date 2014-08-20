@@ -15,7 +15,11 @@ http://indiewebcamp.com/dns
 == FAQ ==
 Frequently asked questions and troubleshooting for DNS problems.
 
-* ... (mathpunk - add problems you've encountered here ) ...
+* Challenges while setting up my own domain(s):
+- Confusion between "registrar" and "nameserver"
+- Did not realize at first that my VPS had a "console" where options would be set
+- Next challenge: I have multiple domains and one VPS, and I'll next want to learn how to serve pages to all of those domains. "Hosts" and "Ports" and "Servers", oh my~. -mathpunk
+
 * harvest FAQ from [https://indiewebcamp.com/irc/2013-11-20#t1384970607 relevant chat logs]
 
 == See Also ==

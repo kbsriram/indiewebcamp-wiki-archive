@@ -1,4 +1,4 @@
-http://indiewebcamp.com/events/2014-08-27-homebrew-website-club
+http://indiewebcamp.com/events/2014-09-10-homebrew-website-club
 
 <div class="h-event vevent">
 = <span class="p-name summary">Homebrew Website Club Meetup</span> =
@@ -6,7 +6,7 @@ http://indiewebcamp.com/events/2014-08-27-homebrew-website-club
 == Details ==
 
 === When ===
-<span class="dt-start dtstart"><time class="value">2014-08-27</time>: <br/>
+<span class="dt-start dtstart"><time class="value">2014-09-10</time>: <br/>
 • <time class="value">18:30</time></span>-<span class="dt-end dtend"><time class="value">19:30</time> – Homebrew Website Club broadcast & peer-to-peer</span> meetup & beforehand:<br/>
 • optional 17:30-18:30 – quiet writing hour for the venues that explicitly have it.
 
@@ -14,11 +14,12 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 17:30-18:30!
+TBD
+<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 18:00-18:30! -->
 
 ;Portland
-:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mozilla.org Mozilla]</span>, <span class="adr"><span class="p-street-address street-address">1120 NW Couch St. Suite 320</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
 ;Minneapolis
 TBD
@@ -39,7 +40,7 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 </div>
 
 === URLs ===
-* <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-08-27-homebrew-website-club</span>
+* <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-09-10-homebrew-website-club</span>
 
 San Francisco:
 * add indieevent...
@@ -65,11 +66,9 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
-* {{t}} (hosting)
 * ... add yourself!
 
 '''Portland:'''
-* {{aaronpk}} (hosting)
 * ... add yourself!
 
 '''Minneapolis:'''
@@ -79,7 +78,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 == Notes ==
-* [https://indiewebcamp.com/irc/2014-08-27 IRC discussion archives 2014-08-27] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
+* [https://indiewebcamp.com/irc/2014-09-10 IRC discussion archives 2014-09-10] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
 * ...

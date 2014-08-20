@@ -209,6 +209,13 @@ IndieWebCamp participants who are using it on their own site:
 * [[User:Mime|Mime Čuvalo]] (author) on [http://nightlight.ws/mime nightlight.ws/mime] ([[selfdogfooding]])
 ** ping me if you want access to a test account on nightlight - or just download it and try it yourself!
 
+=== Indie.js ===
+{{main|Indie.js}}
+'''[[Indie.js]]''' is an Indie.js framework for Node.js currently being abstracted and released as a set of modules for building your own IndieWeb-compatible site.
+
+IndieWebCamp participants that are using it on their primary site:
+* [[User:mowens.com|Michael Owens]] (author) on https://mowens.com/ ([[selfdogfooding]])
+
 === pump.io ===
 {{main|pump.io}}
 
@@ -302,6 +309,14 @@ Voto is [[User:vasilis.nl|Vasilis van Gemert]]'s personal photo gallery. He's wr
 Indieweb enthusiasts currently using it on their own site:
 * [[User:vasilis.nl|Vasilis van Gemert]]  on [http://vasilis.nl/voto/ vasilis.nl/voto/]
 * ...
+
+=== Neonblog ===
+
+[[Neonblog]] is an indieweb microblog developed by Emma Kuo. It features a minimalist UI
+and uses microformats as its native data store.
+
+IndieWebCamp participants that are using it on their own site:
+* [[User:notenoughneon.com|Emma Kuo]] on [http://notenoughneon.com notenoughneon.com]
 
 === Other Experimental Projects ===
 Other projects which are experimental quality but are not primary blogging / content hosting projects (the heart of an indieweb site).

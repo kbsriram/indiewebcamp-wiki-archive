@@ -3,6 +3,7 @@ http://indiewebcamp.com/User%3AMattl.us
 == Matt Lee == 
 
 [[File:mattl.jpg]]
+[[File:mattl.png‎]]
 
 I'm Matt Lee, one of the folks behind behind Foo Communications, a company/experiment in music and social media, including Libre.fm, a new social media platform that offers musicians exclusive promotion and play in exchange for licensing their music under a free culture license, and GNU social, a federated social networking project.
 

@@ -33,11 +33,11 @@ http://indiewebcamp.com/2014/SF/expenses
 }}
 {{expense-row
 | date = 2014-03-06
-| description = Thursday Night Pre-party
+| description = Thursday Night Pre-dinner
 | payer = Mozilla (sponsored)
 | payer_url = http://mozilla.com/
-| payee = ?
-| amount = ?
+| payee = Citrus Club
+| amount = 74.00
 }}
 {{expense-row
 | date = 2014-03-06

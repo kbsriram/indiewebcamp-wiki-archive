@@ -1,5 +1,6 @@
 http://indiewebcamp.com/2014/UK/Guest_List
 
+__TOC__
 <div class="h-event vevent">
 == [[2014/UK|IndieWebCamp UK 2014]] ==
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-09-06</time> <time class="value">10:00</time></span> through <span class="dt-end dtend"><time class="value">2014-09-07</time> at <time class="value">18:00</time></span>
@@ -43,13 +44,13 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
 
-=== Attendees ===
-<span id="Builders">Alphabetically sorted by full display name.</span>
+=== Has a personal site ===
+Alphabetically sorted by full display name.
 
 {{Attendee
 |name = Al Power
 |img = http://alpower.com/alpower.jpg
-|url = http://alpower.com
+|url = http://alpower.com/
 |org_name = 
 |org_url = 
 |projects =community events - [http://UXOxford.com UXOxford] ([http://www.meetup.com/UX-Oxford/messages/boards/thread/41426422 past events]) and in past [https://blog.mozilla.org/labs/2011/06/design-jam-oxford-1-time-to-wrap-up-a-fast-furious-jam-session/ DesignJam Oxford]. WebDev & Avid photographer. Keen to get data out of silos.
@@ -59,7 +60,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Aral Balkan
 |img = https://aralbalkan.com/images/aral-432.jpg
-|url = https://aralbalkan.com
+|url = https://aralbalkan.com/
 |org_name = ind.ie
 |org_url = https://ind.ie
 |projects = (Indie Tech projects) [https://ind.ie/manifesto ind.ie/manifesto], [https://ind.ie/phone ind.ie/phone]
@@ -69,7 +70,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Barnaby Walters
 |img = http://waterpigs.co.uk/photo.jpg
-|url = http://waterpigs.co.uk
+|url = http://waterpigs.co.uk/
 |org_name = 
 |org_url = 
 |projects = [[Taproot]] indieweb tools, php-mf2 parser, webaction toolbelt, indieweb algorithm implementations
@@ -79,7 +80,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Brian Suda
 |img = http://suda.co.uk/images/gravatar.jpg
-|url = http://suda.co.uk
+|url = http://suda.co.uk/
 |org_name = 
 |org_url = 
 |projects = H2V
@@ -109,7 +110,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Cole Peters
 |img = https://colepeters.com/photos/photos--profile/tcp2014-2e-1x1.jpg
-|url = https://colepeters.com
+|url = https://colepeters.com/
 |org_name = 
 |org_url = 
 |projects = 
@@ -119,7 +120,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Glenn Jones
 |img = http://glennjones.net/images/photo-small-128.png
-|url = https://glennjones.net
+|url = https://glennjones.net/
 |org_name = 
 |org_url = 
 |projects = [http://transmat.io/ transmat], [http://microformat2-node.jit.su/ microformats-node],
@@ -141,7 +142,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 |name = HE Cavanagh
 |apprentice_of = 
 |img = http://hecavanagh.org/pic.jpg
-|url = http://hecavanagh.org
+|url = http://hecavanagh.org/
 |org_name = 
 |org_url = 
 |projects = 
@@ -161,7 +162,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Joschi Kuphal
 |img = https://s.gravatar.com/avatar/60a1d50aa04c5742644fb9f1a21d74ba.jpg?s=256
-|url = http://jkphl.is
+|url = http://jkphl.is/
 |org_name = tollwerk
 |org_url = http://tollwerk.de/
 |projects = [http://typo3.org/extensions/repository/view/indieweb indieweb] TYPO3 extension (currently featuring webmentions), [http://jkphl.is/projects/micrometa/ micrometa] (microformats / microdata meta parser)
@@ -171,12 +172,20 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Kevin Beynon
 |img = http://kevinbeynon.com/images/avatars/mouseguard-128x128.png
-|url = http://kevinbeynon.com
+|url = http://kevinbeynon.com/
 |apprentice_of = 
 |org_name = 
 |org_url = 
 |project = 
 |elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
+}}
+
+{{Attendee
+|name = Nat Welch
+|img = http://natwelch.com/i/nat_2013.jpg
+|url = http://natwelch.com/
+|projects = [https://github.com/icco/tumble tumble.io]
+|elsewhere = [https://twitter.com/icco @icco], [https://github.com/icco github.com/icco]
 }}
 
 {{Attendee
@@ -192,7 +201,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Peter Molnar
 |img = https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128
-|url = https://petermolnar.eu
+|url = https://petermolnar.eu/
 |org_name = 
 |org_url = 
 |projects = wordpress-syndication contributor
@@ -202,7 +211,7 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 {{Attendee
 |name = Shane Hudson
 |img = http://shanehudson.net/avatar.png
-|url = http://shanehudson.net
+|url = http://shanehudson.net/
 |projects = Personal website currently using Wordpress
 |elsewhere = [https://twitter.com/shanehudson @shanehudson], [https://github.com/shanehudson github.com/shanehudson]
 }}
@@ -219,16 +228,34 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 }}
 
 {{Attendee
-|name = Nat Welch
-|img = http://natwelch.com/i/nat_2013.jpg
-|url = http://natwelch.com/
-|projects = [https://github.com/icco/tumble tumble.io]
-|elsewhere = [https://twitter.com/icco @icco], [https://github.com/icco github.com/icco]
+|name = Tom Morris
+|img = https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c12.47.156.156/s100x100/226570_508277977420_617357257_a.jpg
+|url = https://tommorris.org/
+|projects = Ferocity, [https://github.com/tommorris/mf2py mf2py]
+|elsewhere = [https://github.com/tommorris github.com/tommorris], [https://twitter.com/tommorris @tommorris]
 }}
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
 
 
+=== Wants a personal site ===
+Want a personal site? Get someone with a personal site to add you using the [[Template:Attendee-apprentice| attendee-apprentice template]]. Alphabetically sorted by given name.
+
+<!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
+
+<!--
+
+{{Attendee-apprentice
+|name = Mike Caulfield
+|apprentice_of = Ward Cunningham
+|img = <img src="http://mikecaulfield.files.wordpress.com/2014/06/me.png?w=128" class="u-photo"/>
+|url = http://hapgood.us/
+|org_name = Washington State University
+|org_url = http://wsu.edu
+|elsewhere = twitter, github, etc.
+}}
+
+-->
 <!-- Missed:
 
 ==== Missed Apprentices ====

@@ -67,7 +67,7 @@ If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can w
 ** http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
 ** have <code>&lt;action></code> tags with verb: <code>post</code>
 === Tantek ===
-'''[[User:Tantek.com|Tantek]]''''s posts have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
+'''[[User:Tantek.com|Tantek]]''''s posts on tantek.com have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
 * [[articles]], e.g.:
 ** http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-elsewhere
 ** have <code>&lt;action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
@@ -76,6 +76,18 @@ If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can w
 ** have <code>&lt;action></code> tags with verbs '''<code>like</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
 * Since then updated (2014) to:
 ** <samp> Like Repost Reply </samp> with the same icons as before.
+=== Michael Owens ===
+'''[[User:Mowens.com|Michael Owens]]''''s notes on mowens.com have the following web actions since 2014-08-14 (verified by {{t}}, possibly earlier)
+* [[notes]], e.g. https://mowens.com/notes/2014/07/01/2/
+** have <code>&lt;action></code> tags with verbs '''<code>reply</code>, <code>favorite</code>, <code>bookmark</code>, <code>repost</code>''' with mowens.com/interact fallback links which provide the following fallbacks as an inline progressive disclosure UI:
+** Reply: a [[webmention]] UI with form field to enter a URL of a reply
+** Favorite: placeholder text (presumably for links) to 
+*** "Favorite using * Twitter or * Facebook"
+** Bookmark: placeholder text (presumably for links) to 
+*** "Bookmark using * Instapaper or * Delicious"
+** Repost: [[citation]] UI text fields to copy/paste 
+*** <nowiki>"Short URL: [https://mowens.com/n/4Ws2]"</nowiki>
+*** <nowiki>"Permalink: [https://mowens.com/2014/...]"</nowiki>
 
 === Indienews ===
 '''Indienews''' comments pages, e.g.

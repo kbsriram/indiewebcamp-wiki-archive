@@ -50,6 +50,7 @@ http://checkmention.appspot.com allows you to test receiving a spoofed webmentio
 Theoretical issues are grouped here for capturing purposes. If you find a real world example of one of these, feel free to promote it to an actual issue with its own === subhead.
 
 * '''string-only author''': What to do if page h-entry has an author property which is not an h-card, but a string? Treat as empty and continue to fallback methods?
+** Algorithm updated for handling a string-only author that is a URL. See 5.2.
 ** This probably isn’t worth discussing much as I can’t find a single example of this in the wild, but as it’s supported in the h-entry spec (“'''optionally''' embedded h-card(s)) it might be worth considering/specifying for when it does happen --[[User:Waterpigs.co.uk|Barnaby Walters]] 15:26, 17 January 2014 (PST)
 
 == Use Cases ==
@@ -57,6 +58,30 @@ Theoretical issues are grouped here for capturing purposes. If you find a real w
 In [[comments-presentation]], it describes how a site that accepts indieweb [[reply]] posts via webmention can retrieve those replies and display them as full-fledged comments on a post, including name and icon/avatar of commenter.
 
 [[h-card]] is the most common way that name, URL, photo information is published about a person on the web. Thus parsing for an author's [[h-card]] to retrieve their name and avatar makes the most sense.
+
+=== Name avatar display in a reader ===
+In a [[reader]] (feature of an IndieWeb site), it's nice to show the name and icon/avatar of the person whose posts you're reading from their indieweb home page h-feed.
+
+Typically this name/icon information is found via the authorship algorithm.
+
+==== Unhandled Examples ====
+In some (many?) cases, an indieweb h-feed of h-entry elements does not have explicit author information for a couple of reasons:
+* No author information inside each h-entry, because it would be redundant, since all the entries (the entire h-feed) are from the same author.
+* No rel=author link, because the page itself is likely the home page and thus page representing the author.
+
+IndieWeb examples:
+* {{t}}'s home page at http://tantek.com/
+** tried <code><nowiki><a class="u-author" href="/"></a></nowiki></code> inside <code>h-entry</code> but there doesn't seem to be much interest in handling that. Also am leaning against having to include such seemingly empty / non-visible markup just to work around algorithm limitations.
+* ...
+ 
+==== Fallback to page representative h-card ====
+Proposal: we could add one more fallback to lack of author h-card, or lack of rel-author, and that is to use the page being processed as the author-page if no other author page has yet been found.
+
+I.e. change "7. if there is an author-page URL " to "7. if there is no author-page URL, use the page itself as the author-page URL" and then continue processing the rest of the algorithm accordingly.
+
+This would handle the examples from above:
+* {{t}}'s home page at http://tantek.com/
+* ...
 
 == Algorithm Design Notes ==
 Why do we parse for the authorship details in the order that we do?

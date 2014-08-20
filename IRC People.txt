@@ -22,7 +22,7 @@ Please keep sorted alphabetically
 * {{irc user|sebastian.kip.pe|binbasti|Europe/Berlin}}
 * {{irc user|Brennannovak.com|bnvk|Atlantic/Reykjavik|https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg}}
 * {{irc user|www.atoddswithclarity.com|brainTrain|America/San_Francisco}}
-* {{irc user|Bret.io|bret|America/Los_Angeles}}
+* {{irc user|Bret.io|bret|America/Los_Angeles|http://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f.png}}
 * {{irc user|bjb.io|brianloveswords|America/New_York}}
 * {{irc user|Caseorganic.com|caseorganic|America/Los_Angeles}}
 * {{irc user|chrischerrett.co.uk|chrischerrett|Europe/London}}
@@ -73,10 +73,10 @@ Please keep sorted alphabetically
 * {{irc user|marcus-povey.co.uk|mapkyca|Europe/London}}
 * {{irc user|marcthiele.com|marcthiele|Europe/Germany}}
 * {{irc user|markmhendrickson.com|markmhendrickson|America/Los_Angeles}}
-* {{irc user|mattl.us|mattl|America/New_York}}
+* {{irc user|mattl.us|mattl|America/New_York|http://mattl.us/mattl-homepage.jpg}}
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}
-* {{irc user|mowens.com|mko|America/San_Francisco}}
+* {{irc user|mowens.com|mko|America/San_Francisco|https://mowens.com/images/mowens-70x70.jpg}}
 * {{irc user|felixniklas.de|mrflix|Europe/Berlin}}
 * {{irc user|t37.net|neuro` / fdevillamil|Europe/Paris}}
 * {{irc user|standblog.org|nitot|Europe/Paris}}

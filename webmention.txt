@@ -400,6 +400,8 @@ LINK: <http://example.com/m/10> ; rel="status"
 </pre>
 Then the sending of the webmention could poll that URL for updates on the status of that particular webmention.
 
+* It's nice to reply to a webmention request with HTML including a link to the status location (particularly useful for mentions sent via a form). I would prefer to put the ''rel="status"'' on that visible link instead of the header [[User:Kylewm.com|Kylewm.com]] 19:07, 19 August 2014 (PDT)
+
 ==== Status Query Results ====
 In order to distinguish between the layers of a request to the status page and the actual current status of the webmention, the page could return an additional header to explain that status of the webmention processing.   This could be the same code that would have been returned if the webmention were just submitted.
 

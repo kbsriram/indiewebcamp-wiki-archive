@@ -2,7 +2,7 @@ http://indiewebcamp.com/share
 
 {{stub}}
 
-'''<dfn>share</dfn>''' is a watered down verb that's used on the "social web" (and other platforms like [[Google]]'s Android) to mean pretty much any action. "Share" buttons no longer actually mean "share" (perhaps originally they were a synonym for [[post]] or send). "Share" buttons have become nothing more than a
+'''<dfn>share</dfn>''' is a watered down verb that's used on the "social web" (and other platforms like [[Google]]'s Android) to mean pretty much any action. "Share" buttons no longer actually mean "share" (perhaps originally they were a synonym for [[post]], [[repost]], or send). "Share" buttons have become nothing more than a
 * ( Do Something ) button 
 or if you have something selected or some other present content context, a
 * ( Do Something With This ) button
@@ -93,5 +93,7 @@ With that framing all of these make sense:
 
 == See Also ==
 * [[posts]]
+* [[repost]]
+* [[web actions]]
 * [[ActivityStreams]]
 * [[bulshytt]]
