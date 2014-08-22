@@ -91,6 +91,8 @@ With that framing all of these make sense:
 * (send) Share with friends using email
 * (publish) Share with followers using Twitter
 
+{{kevinmarks}}: I see it on Android as a quicker version of copy; switch applications; paste, except that there is a possible variation based on what is selected in source. On iOS these operations tend to be much more annoying in practice, as the share equivalent there only has a few hard-coded options.
+
 == See Also ==
 * [[posts]]
 * [[repost]]

@@ -38,6 +38,7 @@ Please keep sorted alphabetically
 * {{irc user|nicoletollefson.com|dotnic|America/Chicago|http://nicoletollefson.com/landscape.jpg}}
 * {{irc user|dpk.io|dpk|Europe/London}}
 * {{irc user|notenoughneon.com|emmak|America/Los_Angeles}}
+* {{irc user|elliottucker.net|elliottucker|Europe/Dublin|http://elliottucker.net/file/53f4ff46a47375a7118b4568/thumb.png}}
 * {{irc user|ellton.me|ellton|America/Sao_Paulo}}
 * {{irc user|erikmaarten.com|erikmaarten|Asia/Tokyo}}
 * {{irc user|gregorlove.com|gRegor`|US/Central|http://gregorlove.com/assets/img/profile.jpg}}
@@ -107,7 +108,7 @@ Please keep sorted alphabetically
 * {{irc user|kodfabrik.se|voxpelli|Europe/Stockholm}}
 * {{irc user|vrypan.net|vrypan|Europe/Athens}}
 * {{irc user|obloid.org|wagle|America/Toronto}}
-* {{irc user|willnorris.com|willnorris|America/Los_Angeles}}
+* {{irc user|willnorris.com|willnorris|America/Los_Angeles|https://willnorris.com/logo.jpg}}
 * {{irc user|wolftune.com|wolftune|America/Los_Angeles}}
 * {{irc user|petar.petrovic.io|wyomingplease|Europe/Belgrade}}
 * {{irc user|owenshepherd.net|XgF|Europe/London}}

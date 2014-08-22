@@ -35,7 +35,7 @@ First I want to clear up some long-standing issues with my site, prepping it to 
 * Reformat so I can stop using Webcomic plugin.
 ** <strike>Decide on code for comic transcripts.</strike> 2014-08-11: Settled on some non-JS show/hide code that mysteriously doesn't work in WordPress, so for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ .
 ** <strike>Migrate transcripts.</strike> Done 2014-08-12.
-** Migrate comic images.
+** Migrate comic images. One...by...one :(
 ** Apply custom taxonomy to comics so I don't have to have a category for each one.
 ** Disable plugin.
 * Switch to more responsive theme, tweak as needed (but don't go overboard).
@@ -74,6 +74,8 @@ Lower-priority but easy, a nice way to make progress when I'm not up to harder p
 * Algorithmic link shortener. Mainly wanting short URLs for print, to link to a full comic from an excerpt (though I'm sure I'll enjoy the other uses as well).
 * Whole-site [[https]].
 * [[Products]] -- I want to get back to selling my comics & merch through my own site instead of a third-party site.
+* Somehow integrate my website, my desktop wiki ([http://zim-wiki.org/ Zim]), and my still-forming personal log (just monthly text files w/ some personal formatting & hashtags, not yet hooked up to any processing) since they all overlap in function. Zim actually does function as a simple site generator and it's repeatedly impressed me as a program; I have a pipe dream of learning Python and writing some plugins (if even needed -- whenever I think I've hit a limit it turns out Zim can actually do it!) to make Zim do all the stuff. First step with the Zim pipe dream would be to just learn its template system.
+* [[Wiki]] pages, maybe (definitely for my comics group's website).
 
 === Former setup & practices ===
 

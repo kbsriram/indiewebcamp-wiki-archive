@@ -34,8 +34,8 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 
 === Capacity ===
 Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
-* Signed-up: 13 
-* Spots remaining: 07
+* Signed-up: 14
+* Spots remaining: 06
 
 <!-- uncomment once we've hit capacity 
 === Wait List ===

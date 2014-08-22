@@ -62,7 +62,8 @@ I am working to pull out more parts of p3k into libraries and will keep this lis
 ** Slideshare - [http://aaronparecki.com/notes/2012/11/04/1/cyborgcamp example]
 ** Spincam - [http://aaronparecki.com/notes/2013/02/08/1/ example]
 ** Google Maps - [http://aaronparecki.com/replies/2012/08/14/3/ example]
-** todo: Instagram - [http://aaronparecki.com/notes/2012/10/11/3/ example]
+** Instagram - [http://aaronparecki.com/notes/2012/10/11/3/ example]
+** XKCD - [http://aaronparecki.com/notes/2013/05/21/1/xkcd example]
 ** todo: Flickr - [http://aaronparecki.com/replies/2012/05/25/1/ example]
 ** todo: Inline previews of content recognized by the mf2 parser
 * Private sharing of draft posts when logged in via [[IndieAuth]]
@@ -239,6 +240,48 @@ For metrics, the filenames are the full timestamp:
 |}
 
 If there are any associated photos or files for a post, they go into a subfolder with the same name as the base name of the file. In the "notes" example above, the photo attached to the "08-4.md" note lives in a folder named "08-4".
+
+=== Example Note ===
+
+Here is an example .md file for one of my notes.
+
+<pre>---
+date: "2013-12-03T23:21:49-08:00"
+place-name: Portland, OR, USA
+timezone: America/Los_Angeles
+latitude: 45.506659
+longitude: -122.654230
+slug: homebrew-website-club
+tags:
+- hwc
+- indieweb
+syndication:
+- https://twitter.com/aaronpk/408134030979108864
+...
+
+Next Homebrew Website Club mtg Wed 18:30 at @EsriPDX & @MozSF (with remote video) http://calagator.org/events/1250465273 Notes from last meeting: http://tantek.com/2013/332/b1/homebrew-website-club-newsletter All are welcome, whether or not you currently have your own website!</pre>
+
+=== Example Event ===
+
+<pre>---
+title: IndieWeb Dinner at 21st Amendment
+slug: indieweb-dinner-at-21st-amendment
+date: "2013-09-30T18:00:00-07:00"
+timezone: America/Los_Angeles
+type: event
+tags: indieweb
+event:
+  start: "2013-09-30T18:00:00-07:00"
+location:
+  org: 21st Amendment
+  street-address: 563 2nd St
+  locality: San Francisco
+  region: CA
+  country: US
+  country-abbr: US
+  postal-code: 94107
+  url: http://21st-amendment.com/
+...</pre>
 
 == Working On ==
 The things I am currently implementing in p3k:

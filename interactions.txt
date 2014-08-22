@@ -19,11 +19,11 @@ The goal of this section is to get rough consensus around what to call the set o
 === Interactions ===
 '''<dfn>interactions</dfn>''' is a more recent term being used for the set of things that people do to blog posts.
 
-If you have opinions or experience with using the term '''responses'', please add them here:
+If you have opinions or experience with using the term '''interactions'', please add them here:
 
 * +1 {{t}}: I've used the term "interactions" successfully in talks (e.g. [[2014/PDF]]) to describe all the things people do to blog posts, on the blog post directly, and indirectly via [[POSSE]] copies, which then get [[bridgy]]/[[webmention]] aggregated back to the original. 
 * +1 {{benwerd}}: (from Ben in person at [[events/2014-07-30-hwc]], he's used the term interactions successfully when explaining to both technical and non-technical people about the set of things from other people below a blog post)
-* +1 {{shanehudson}}: "I definitely prefer interactions, it gives the widest scope"[http://indiewebcamp.com/irc/2014-07-30#t1406781706]
+* +1 {{shanehudson}}: "I definitely prefer interactions, it gives the widest scope"[http://indiewebcamp.com/irc/2014-07-30#t1406781706]. Since writing that on IRC, I have started implementing interactions on the new version of my site, I previously just hooked webmentions into 'comments'.
 * ...
 
 === Responses ===

@@ -46,8 +46,9 @@ San Francisco:
 * ... and POSSE copy
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
+* http://aaronparecki.com/events/2014/08/27/1/homebrew-website-club
+* http://calagator.org/events/1250466874
+* https://www.facebook.com/events/301600270011803/
 
 Minneapolis:
 * add indieevent...

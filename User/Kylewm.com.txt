@@ -40,3 +40,17 @@ How can I help onboard tech-savvy non-developers (or developers who don't want t
 * This is fuzzier. It would be cool to have a proxy server that could generate h-entry's from "arbitrary" sources: e.g., silos that are already supported by a-u, tumblr, blogger, wordpress, NYT, Wapo, LATimes. Useful for fetching reply context, maybe other stuff. 
 * micropub post-authoring tool, like Prose.io is to github pages. 
 * Figure out an email situation somewhere between self-hosting postfix/dovecot and abandoning all hope to Gmail.
+
+== Tools ==
+
+Tools I work on or use and can comment semi-intelligently on.
+
+* [[Red Wind]]
+* [[Bridgy]]
+* [[Python]]
+* [[Flask]]
+* [[Fabric]]
+* [[nginx]]
+* [[uWSGI]]
+* [[web_hosting]]: Digital Ocean
+* [[domain_name_registrar]]: name.com
