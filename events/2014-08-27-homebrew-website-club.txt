@@ -42,21 +42,20 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-08-27-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://werd.io/2014/homebrew-website-club-august-27-2014
+* POSSE FB copy: https://www.facebook.com/events/257262281151171/
 
 Portland:
 * http://aaronparecki.com/events/2014/08/27/1/homebrew-website-club
+* POSSE FB copy: https://www.facebook.com/events/301600270011803/
 * http://calagator.org/events/1250466874
-* https://www.facebook.com/events/301600270011803/
 
 Minneapolis:
 * add indieevent...
 * ... and POSSE copy
 
 Chicago:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/716026638451334/
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -71,12 +70,16 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 '''Portland:'''
 * {{aaronpk}} (hosting)
+* {{bret}}
+* {{expandrew}}
 * ... add yourself!
 
 '''Minneapolis:'''
 * ... add yourself!
 
 '''Chicago:'''
+* {{gRegor}}
+* [[User:kartikprabhu.com|Kartik]]
 * ... add yourself!
 
 == Notes ==

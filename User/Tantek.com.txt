@@ -51,6 +51,19 @@ Stuff I've written to advance the Indie Web (and runs live on tantek.com) some o
 * [[Falcon]] - http://tantek.com/w/Falcon ([http://twitter.com/falcon @falcon]) personal site publishing
 * [[Whistle]] - http://tantek.com/w/Whistle - personal URL shortener
 
+== need help with ==
+Things I'm either stuck on or have been unable to make progress on.
+=== RelMeAuth PHP library ===
+The RelMeAuth PHP library broke at some point, likely due to Twitter's front-end website changes, maybe t.co encoding people's URLs. I haven't had a chance to work on fixing it.
+
+Here is my demo deployment:
+* http://tantek.com/relmeauth/
+
+And the open source on GitHub
+* https://github.com/themattharris/RelMeAuth/
+
+Any help would be awesome! The open source on GitHub has everything you need to deploy a test demo deployment like my own in case you want to try fixing it and testing it with a complete demo UI.
+
 == working on ==
 Things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
 

@@ -165,6 +165,13 @@ Unless the application developer is the only user, Facebook now requires applica
 
 * A study published June 2, 2014 revealed that one week in 2012, Facebook tweaked the feeds of about 700,000 users to see if it could manipulate their mood and posting behavior [http://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/]
 
+=== Is Boring ===
+Per grafitti in Minneapolis, 2014-234, photo by {{t}}
+
+[[Image:2014-234-facebook-boring-grafitti.jpg|640px]]
+
+"FACEBOOK IS BORING *IRL*"
+
 == Advocates ==
 Robert Scoble defended using Facebook in a post, "[https://plus.google.com/+Scobleizer/posts/ZSJzgnvKaWy What will you miss when you quit Facebook?]"
 

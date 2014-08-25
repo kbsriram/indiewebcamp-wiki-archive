@@ -63,6 +63,10 @@ Using [[OwnYourGram]] or another method of PESOSing your photos out of Instagram
 * 2013-08-28 17:27-0400 EDT
 <a href="https://twitter.com/tessa/status/372834695391612928"><img src="https://pbs.twimg.com/media/BSyTLhLCAAAIF7o.png" width="300"></a>
 
+* 2014-08-22 various times throughout the day - "news" activity on photos feature was down with user-unfriendly [[nginx]] default error message:
+
+[[File:2014-234-instagram-502-nginx.jpg|frame|none|320px]]
+
 === Switch from Foursquare to Facebook venues ===
 Some time in 2014-05, Instagram switched from using [[Foursquare]]'s venue database (e.g. in the iOS app UI) to using [[Facebook]]'s places database.
 

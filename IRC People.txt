@@ -83,7 +83,7 @@ Please keep sorted alphabetically
 * {{irc user|standblog.org|nitot|Europe/Paris}}
 * {{irc user|npdoty.name|npdoty|US/Pacific|https://npdoty.name/profile.jpg}}
 * {{irc user|ozten.com|ozten|America/Los_Angeles}}
-* {{irc user|greptilian.com|pdurbin|America/New_York}}
+* {{irc user|greptilian.com|pdurbin|America/New_York|http://greptilian.com/images/favicons/wiki.greptilian.com.png}}
 * {{irc user|pauloppenheim.com|pauloppenheim|America/Los_Angeles}}
 * {{irc user|peat.org|peat|America/Los_Angeles}}
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
@@ -123,6 +123,12 @@ Through usage, it's apparent that having aliases for IANA Time Zone names would 
 
 ; America/San_Francisco
 : America/Los_Angeles
+
+== FAQ ==
+=== Why is my image not in the logs ===
+Q: I added my image to the above list of IRC people, and it shows up there, so why isn't it showing up in the logs?
+
+A: Wait five minutes and reload.
 
 == See Also ==
 * [[IRC]]

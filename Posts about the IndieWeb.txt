@@ -6,6 +6,7 @@ Check out the [[news]] page for links to more sources of IndieWeb news.
 
 Articles about the indieweb (in chronological order)
 === 2014 ===
+* 2014-08-22 Dan Gillmor: [http://www.theatlantic.com/technology/archive/2014/08/the-new-editors-of-the-internet/378983/ The New Editors of the Internet]
 * 2014-07-23 Ogilvy: [http://www.ogilvydo.com/topics/tech-innovation/the-indie-web-friend-or-foe/ The Indie Web – friend or foe?]
 * 2014-07-17 Tom Morris: [http://tommorris.org/posts/9040 You don't need to develop for the Worst Case Scenario]
 * 2014-07-07 Matthew Graybosch: [http://www.matthewgraybosch.com/2014/07/07/screw-digital-sharecropping-im-getting-a-posse/ Screw Digital Sharecropping. I’m Getting a Posse.]

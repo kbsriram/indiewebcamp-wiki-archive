@@ -4,11 +4,37 @@ http://indiewebcamp.com/website-analytics
 
 == Google Analytics ==
 
-Google Analytics is a hosted service that provides information on the visitors of a website.
+[http://google.com/analytics Google Analytics] is a hosted service that provides information on the visitors of a website.
 
 People using it on their own site:
 * [[User:Aaronparecki.com|aaronparecki.com]]
 * [[User:Caseorganic.com|caseorganic.com]]
+* [[User:mowens.com|mowens.com]]
+
+== Mixpanel ==
+
+[http://mixpanel.com Mixpanel] is a hosted service that "gives you the ability to measure any action a customer takes in your application while Google Analytics lets you measure the number of times specific pages in or site or app are viewed (page views)." (via [https://mixpanel.com/help/questions/articles/how-is-mixpanel-different-than-google-analytics Mixpanel])
+
+You can get 175k free data points per month (which is way more than most personal sites need) by displaying their badge somewhere on your site. After setting up your account, you can grab the badge code and verify the badge at [https://mixpanel.com/free/ https://mixpanel.com/free/].
+
+People using it on their own site:
+* [[User:mowens.com|mowens.com]] (Badge is visible in the expandable colophon)
+
+== New Relic ==
+
+[http://newrelic.com New Relic] is a hosted service that provides server and application performance monitoring analytics with code-level visibility. Some of its recent additions to its service have added the ability to monitor and track user experiences in the browser as well as transaction tracking to better understand how your site or app perform in the real world setting of production.
+
+Free users only get 24 hours of data, but this tends to be enough to allow you to monitor changes in performance based on new features or to debug specific performance bottlenecks.
+
+People using it on their own site:
+* [[User:mowens.com|mowens.com]]
+
+== Twitter Analytics ==
+
+Twitter Analytics is a companion analytics service to Twitter and Twitter Ads that provides link tracking on Twitter and conversion tracking around those links (i.e. "How many visitors arrived directly or indirectly due to engagement with a tweet containing my URL?").
+
+People using it on their own site:
+* [[User:mowens.com|mowens.com]]
 
 == Piwik ==
 
@@ -41,6 +67,7 @@ Anecdata: while browsing around the web, I often see sites (mainstream/big sites
 *** https://snarfed.org/
 *** https://aaronparecki.com
 *** http://caseorganic.com
+*** https://mowens.com
 ** [https://www.gosquared.com/developer/tracker/installation/ GoSquared] async how to
 
 Have also seen similarly: <blockquote>Transferring from fonts.googleapis.com ...</blockquote>

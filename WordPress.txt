@@ -21,7 +21,10 @@ We'll assume you already have your own [[personal-domain]]. After that, you'll n
 
 === Security and Spam Protection ===
 
-One of the most important things for new users to do is to properly secure their Wordpress installation. By default, the administrative user created during Wordpress installation is username 'admin'. This default account is a popular target, and it or any variant(administrator, etc.) should not be used as a username.
+One of the most important things for new users to do is to properly secure their Wordpress installation. 
+
+==== Usernames ====
+Account names like "admin" or "administrator" are popular targets for brute-force login attempts, and should not be used as a username.
 
 ==== Default Settings ====
 
@@ -31,13 +34,15 @@ Disable registration of new users.
 
 There are many options in this area...
 
-* [http://wordpress.org/plugins/wp-fail2ban/ WP Fail2Ban]  logs all login attempts, whether successful or not, to the syslog of the server using LOG_AUTH. If you have server level access, you can act on these logs using Fail2Ban or other software to block IP addresses.
+* [http://wordpress.org/plugins/wp-fail2ban/ WP Fail2Ban] logs all login attempts, whether successful or not, to the syslog of the server using LOG_AUTH. If you have server level access, you can act on these logs using Fail2Ban or other software to block IP addresses.
+* [http://wordpress.org/plugins/indieauth/ IndieAuth for Wordpress] allows users to sign in with their domain instead of a username and password.
 
 ==== Spam/Comment Protection ====
 
 Some individuals may prefer to disable local commenting in favor of only allowing commenting through webmentions. If local commenting is enabled, there should be some form of protection installed.
 
 * [http://wordpress.org/plugins/akismet/ Akismet] is a spam protection service by Automattic, the company that runs Wordpress.com and is thus a major contributor/sponsor of the Wordpress open source project. It is free for personal use.
+* The [http://wordpress.org/plugins/indieweb/ IndieWeb] plugin supports accepting comments as Webmentions instead of directly on the site. By installing this and
 
 == Adding Indieweb Support/Elements to a Wordpress Site ==
 

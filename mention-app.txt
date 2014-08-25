@@ -142,3 +142,7 @@ Opening the push notification will launch a browser to a URL determined by:
 == See Also ==
 * [[webmention]]
 * [[notifications]]
+
+== Interim Solution ==
+
+In the interim, the service [http://pushover.net Pushover] can be used to receive Push notifications on iOS, Android, Chrome, or Firefox and can be integrated into most sites with a minimum of coding.

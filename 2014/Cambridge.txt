@@ -80,7 +80,7 @@ Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions compl
 __TOC__
 
 == Organizers ==
-* '''Organizers''': [[User:Caseorganic.com|Caseorganic]], (add yourself!)
+* '''Organizers''': [[User:Caseorganic.com|Caseorganic]], [[User:Hawke.org_sandro|Sandro Hawke]], {{t}}, (add yourself!)
 ** Want to help organize? '''Get in touch with us on [[IRC]]!'''
 * Want to help out? 
 ** Contact an organizer or sign-up to [[2014/Cambridge/Guest_List#Volunteers|Volunteer]]!

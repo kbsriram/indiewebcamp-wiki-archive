@@ -6,6 +6,12 @@ http://indiewebcamp.com/Skype
 
 You can purchase "credit" on Skype and use it to make audio calls to telephone numbers.
 
+== Issues ==
+=== Lacks skype URL support on Fedora ===
+Apparently on Fedora Linux, even when you install the Skype app, click on "skype:" URLs fails to launch the Skype app.[http://indiewebcamp.com/irc/2014-08-24#t1408916186709]. This issue is present on the latest versions.
+
+Basically, installing the Skype app does not automatically configure a handler. This would mean you would either have to script or manually add this functionality. And this would differ based on the Window manager.
+
 == Criticism ==
 === Credit deactivation ===
 If you don't use your Skype credit for 180 days, it becomes inactive.
