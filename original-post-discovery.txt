@@ -73,8 +73,24 @@ Use-cases that were used to add steps to the algorithm
 *# '''change of path.''' [[Silos]] have in the past changed implementation specifics about how their permalinks work, leaving redirects behind for the original paths. Silos may also allow users to alter part of the permalink of a post, e.g. editing the slug, after publishing, and still support the old URL either by tracking all past permalinks for a post, or perhaps by only requiring non-post-slug portions of the permalink for unique retrieval.
 
 == Brainstorming ==
-
+=== POSSE Post Discovery ===
+{{main|posse-post-discovery}}
 Some prefer not to include permalinks/citations in POSSEd copies for aesthetic (Twitter's length limit) or technical (Instagram's lack of posting API) reasons. Is it possible to do original-post-discovery on a syndicated copy that contains no permalink or citation? [[posse-post-discovery]].
+=== POSSE copy domain approximation ===
+If by following the discovery algorithm you're unable to verify that a candidate URL is the original post for the current (apparent) POSSE permalink, perhaps simply check the following:
+* Does the profile of the '''POSSE permalink''' (e.g. Twitter profile) have a [[rel=me]] link (e.g. in "Website:" field) to the domain of the '''candidate URL'''? 
+* If so, treat the '''candidate URL''' as the '''original post URL'''.
+
+;Advantages
+:This may help discovery more original post URLs.
+;Disadvantages
+:This may provide false positives, e.g. multiple tweets from someone about their same original blog post will be otherwise all treated as POSSE copies of that original blog post.
+
+==== 24hr mitigation ====
+To reduce the number of false positives:
+* If a '''candidate URL''' is more than 24 hours more recent (per <code>h-entry</code> <code>dt-published</code>) than the (apparent) POSSE permalink, then DO NOT treat it as the '''original post URL'''.
+
+This way only apparent POSSE permalinks created less than 24 hours after an original can count as actual POSSE copies. You have 24hrs to publish a POSSE copy or else it's considered a mention/comment, not a POSSE copy.
 
 == See Also ==
 * Live demo: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery

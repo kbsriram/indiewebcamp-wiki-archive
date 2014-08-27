@@ -12,4 +12,5 @@ defmoves Bret: I saw Jeremy Keith's talk at the '''indie web summit'''. Made a n
 '''Emphasis''' added.
 
 == See Also ==
+* [[ind.ie]]
 * IndieWeb [[events]] in general

@@ -16,8 +16,8 @@ __TOC__
 
 |-
 
-! style="background:#ffdead;" | '''If you have a personal site'''
-! style="background:#ffdede;" | '''If you want a personal site'''
+! style="background:#ffdead;" | '''If you <em>have</em> a personal site'''
+! style="background:#ffdede;" | '''If you <em>want</em> a personal site'''
 
 |-
 

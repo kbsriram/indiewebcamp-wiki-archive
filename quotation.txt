@@ -12,7 +12,7 @@ A quotation which uses the name/title of another post (rather than its content) 
 A quotation can be minimally marked up as a [[note]], with the entry content (<code>e-content</code>) containing:
 * a <code>&lt;blockquote&gt;</code> that wraps the quoted text itself (including explicit quotes "" “”)
 * a <code>&lt;cite class="h-cite"&gt;</code> that wraps a citation of the source of the quotation, with at a minimum:
-** a nested hyperlink (<code>&lt;a href&gt;</code>) linking to the source
+** a nested hyperlink (<code>&lt;a href&gt;</code>) linking to the source, ideally using a [[fragmention]] directly to (at least the the start of) the quotation.
 ** link text of the name of the article/book/source
 
 == IndieWeb Examples ==

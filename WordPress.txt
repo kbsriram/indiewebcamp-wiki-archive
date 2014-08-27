@@ -146,6 +146,7 @@ In particular, (semi-)active IndieWeb community members using WordPress on their
 === Other independents using it on their primary site ===
 * [http://mediajunkie.com/ Christian Crumlish] 
 * [http://singpolyma.net Stephen Paul Weber]
+* [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 (wants to switch to something more static but it'll be a while).
 * ...
 
 === Using on one of their sites ===
@@ -165,7 +166,6 @@ People using WordPress on a secondary site.
 Independents that used to use WordPress on their own site but have switched away (or site stopped working)
 * [[User:Willnorris.com|Will Norris]] on [http://willnorris.com willnorris.com] (2005 - [https://willnorris.com/2014/07/one-step-forward-two-steps-back July 2014]) with:
 ** URL Shortener via WP-Hum ([[selfdogfooding]])
-* [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 but switched to something more static since 2014-??-??.
 * [https://josephboyle.net Joseph Boyle] (down as of 2013-10-25)
 
 == Development ==

@@ -15,15 +15,18 @@ New research:
 == Brainstorming ==
 A place to brainstorm indieweb microsyntax especially for plaintext [[notes]], and POSSEing of specific types of [[posts]] to plaintext-like [[POSSE]] destinations (e.g. [[Twitter]]])
 
+=== at-sign for in-reply-to URL ===
 * <nowiki>@example.com/some-post => <a href="http://example.com/some-post" class="u-in-reply-to"></nowiki>
 ** We need pfefferle and acegiak to clarify their [http://indiewebcamp.com/irc/2013-06-21#t1371819076 use case]. Just adding links to the users domain in your post will send a webmention to the domain, so IMO it is unnecessary to prefix user domains with @ so I'm assuming they meant post urls. &mdash;[[User:Sandeep.io|Sandeep Shetty]]
-*** The idea was to generate an easy mardownish way to generate semantic links, not realy meant to display to any enduser - [[User:Notizblog.org|Matthias Pfefferle]]
+*** The idea was to generate an easy mardownish way to generate semantic links, not really meant to display to any enduser - [[User:Notizblog.org|Matthias Pfefferle]]
 ** No one does this currently (any real world example?) - feels a bit forced. People already think of "@" as meaning "hey this person". - [[User:Tantek.com|Tantek]] 15:54, 21 June 2013 (PDT)
 ** -1 agreed, this example is forced and doesn’t reflect real world usage. @mentions succeeded because they were a paved cowpath, it defeats the object to try to repurpose them --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 16:07, 21 June 2013 (PDT)
 ** "we wanted a way to mark which one was the reply-to without needing to edit the html because we want the plugins to be accessible to non-technical wordpress users -  plus, adding the html manually would be tiresome, so we're trying to work out a way to make it quick and easy" -[http://indiewebcamp.com/irc/2013-06-22#t1371902255 acegiak]
 
+=== heart for like ===
 * <nowiki><3 example.com =><a href="http://example.com" class="u-like"></nowiki>
 
+=== metrics and exercise ===
 Various [[metrics]] could use emoji, i.e. when POSSEing to text-like destinations like [[Twitter]]
 * 🌜Slept 8 hours
 * 🚲 Evening Ride
@@ -33,6 +36,25 @@ Various [[metrics]] could use emoji, i.e. when POSSEing to text-like destination
 * 💪 Did 13pushups
 * 👣 Weighed 153.3lbs
 
+=== quotations ===
+A minimal plaintext syntax for posting [[quotation|quotations]] which an auto-linker/formatter could use to style it properly.
+
+<blockquote>“the personal blog, yourname•com, where you control everything and get to do whatever the hell pleases you” http://avc.com/2014/08/the-personal-blog/ #indieweb</blockquote>
+https://twitter.com/kevinmarks/status/504674367565869056
+
+<blockquote>“I miss being able to engage other people online in discussions that are actually productive.” @espiers http://elizabethspiers.com/2014/08/25/here-i-go-again-on-my-own/ #indieweb</blockquote>
+https://twitter.com/kevinmarks/status/504675650943582208
+
+<blockquote>"I wanted to reply to that comment, but could not for the life of me, log into WordPress to leave it. So I’ll blog about it instead." http://avc.com/2014/08/the-personal-blog/</blockquote>
+http://aaronparecki.com/notes/2014/08/27/1/
+
+These examples consist of the following components:
+* quoted text wrapped in standard or curly quotes ("" or “”)
+* source URL
+* optional author name
+* optional [[hashtags]]
+
 == See Also ==
+* [[POSSE]]
 * [[microformats]]
 * [[notes]]

@@ -1,0 +1,109 @@
+http://indiewebcamp.com/Getting_Started-ko
+
+= 인디웹 시작하기 =
+Perhaps you relate to all the reasons [[why]] you should be on the indie web but you're not sure how.
+
+Here are a few simple steps you can take to get you on your way to being on the indie web. Each of these steps is a just a bit more challenging and will make you a bit more indie.
+
+== 연락하기 ==
+맨 먼저 인디웹 전문가 및 선구자들과 연락해주세요:
+* '''[[IRC]] 채널에 참여합니다'''
+왜냐하면, 이 단계를 거치면 질문에 대한 답을 주고 받고 더 빨리 다음 단계로 갈 수 있으니까요. 그러나 이는 필수는 아니고, 여러분 스스로 다음 단계로 가실 수 있습니다. 
+
+== 개인 도메인 ==
+{{main|personal-domain}}
+먼저, 여러분이 직접 소유하는 온라인 아이덴티티가 있어야 합니다:
+* '''개인 소유의 도메인을 가지세요!''' - 친구나 동료에게 물어봐서 [[domain name registrar|도메인 등록기관]](영문)에 여러분이 원하는 것을 얻을 수 있습니다.
+* '''도메인 프라이버시''' - 대부분 도메인 등록 업체들은 여러분의 개인 정보(이름, 주소, 휴대폰 및 이메일주소)를 외부에 공개하는 설정을 가지고 있음을 유의하세요. 대부분 도메인 등록 업체들은 이를 숨기는 설정을 가지고 있으며 WHOIS 디렉토리에 표시하지 않도록 설정할 필요가 있습니다. 또한, 도메인 소유에 대한 부분을 확실히 하셔서 법적으로 그 도메인의 소유자임을 확인하는 절차를 가지셔야 합니다. 
+
+그 [[why|이유]]를 살펴 보세요. 이것이 인디웹에 가입하는 첫번째 절차입니다.
+
+
+=== 보너스!  [[short-domain|짧은 도메인명]] ===
+
+[[discovery|더 잘 발견]]되기 위해 짧은 도메인을 사용하세요. [[Getting_Started-ko#Personal_Shortlinks|자세한 사항]]을 참고하세요.
+
+== A Place For Your Stuff ==
+Second you need a place for your stuff.
+
+The easier, free, but limited path is to use a free service as ''[[Transitional Steps]].
+
+However what you really should do is get your own web hosting provider.
+
+=== Web Hosting ===
+Sign up for [[web hosting]]
+* Sign up with a web hosting provider (ask friends and colleagues who they use for their personal websites that they're happy with, also see Lifehacker's [http://lifehacker.com/5911651/five-best-web-hosting-companies list of 5 best web hosting companies])
+* Set up your domain name to be served by your web hosting provider
+
+== Domain sign-in and Contact info ==
+Third, write a simple home page with links to your other profiles and your contact info marked up in [[h-card]].
+
+Upload a simple HTML index.html home page to get started with your [http://microformats.org/wiki/hcard-authoring hCard] and rel="me" links to all your other social network profiles.
+
+{{main|How to set up web sign-in on your own domain}}
+* '''Add [[rel-me]] hyperlinks from your home page to all your social network profiles.'''
+** Why: by doing this you setup your site to act as your [[IndieAuth]] identity to sign into this wiki for example. For more details, see: [[How_to_set_up_web_sign-in_on_your_own_domain|setup web sign-in]].
+
+* '''Make an hCard for your home page with the [http://microformats.org/code/hcard/creator hCard creator]''' 
+** Why: this helps with providing authorship information for anything you publish and link back to your home page with [[rel-author]].
+
+Advantages: while you're not sharing your content on your own site (yet),
+* you've staked your claim on the indie web, and 
+* setup an identity that you own and control. 
+This is a small but important step to declaring your independence from content silos.
+
+== Content Publishing ==
+Fourth, set up content publishing on your domain.
+* Take a look at indie web [[Projects]], pick one, and install it or set it up (e.g. your web hosting provider may have a "cPanel" control panel (or [http://en.wikipedia.org/wiki/Fantastico_%28web_hosting%29 Fantastico]) which can set up a WordPress install in a few clicks).
+
+== Personal Shortlinks ==
+{{main|permashortlinks}}
+Optional: set up your personal URL shortener.
+
+Why? A personal ''short domain'' is key to creating [[permashortlinks]] which help:
+* Provide [[discovery|discoverable]] permashortcitations in [[POSSE]]d notes, e.g. on [[Twitter]], which itself enables [[original-post-discovery]].
+* [[POSSE]]ing to [[silos]] that have post length limits, but don't wrap your links, e.g.
+** [[Foursquare]] notes (along with [[checkin]] posts)
+** ...
+
+How?
+* For WordPress, install and use the [http://willnorris.com/2011/01/hum-personal-url-shortener-wordpress Hum personal shortener plugin].
+* For others, take a look at porting the existing open source [http://tantek.com/w/Whistle Whistle] algorithmic URL shortener to your system.
+
+== Publish (on your) Own Site, Syndicate Elsewhere ==
+Set up [[syndication-models|syndication]] so copies of your Indie Web content can be published (semi-automatically) to social silos. By setting up [[POSSE]], you can have your posts pushed to specific [[silos]] with a personal [[permalink]]/permashortlink or citation identifier back to the original on your own site.
+Why: by POSSEing your content to [[silos]], you allow those that read content on those [[silos]] to continue seeing what you have to say, while you retain ownership and control of your content on your own site.
+
+Remember: incremental progress is OK and encouraged! POSSE does not have to be totally automatic to be effective, If there is not a pre-existing plugin for your platform, try simply posting on your site and sharing to silos ''manually'' (include a link back to the original). This will help you figure out what works for you and what is worth the effort to automate.
+
+== Add h-entry to your posts ==
+Add the [[h-entry]] microformat markup to your posts.
+
+Why: this will enable post information [[discovery]] on your permalinks, which is useful for a variety of things. Right away other indieweb sites will be able to recognize [[comments]], [[likes]], and [[reposts]] from your site and display reply contexts for your posts. All you have to do is 1) link to their post somewhere in your h-entry and 2) let them know you've written a response, of course. Some sites let you send them a link directly (usually via a form in the comments area). For others, you can use [http://indiewebify.me/send-webmentions/ IndieWebify.me's webmention sender] to send out the notifications ([[webmention]]s) for you.
+
+== Check Your Site ==
+Test your markup with the [http://pin13.net/ Microformats Parser] and make sure what you see in the JSON output matches your posts.
+
+Check your site with [http://indiewebify.me indiewebify.me].
+
+== Port old silo content to your site ==
+Optional: once you're setup with posting on your own site and POSSE'ing out content to social silos, port your old silo content to your own site with permalinks on your site. Typically this involves a one-time export and batch import process. Here are some popular social content silos:
+* [[Twitter]]
+* [[Tumblr]]
+* ...
+
+== Share and Join Us ==
+Next steps:
+* Share what you did / discovered in the process of building your indie web site, even if it is only a single page, with a simple design.
+* Ask what you can/should do next in the [[IRC]] channel.
+* [[Guest_List|Sign-up]] and join us at the next IndieWebCamp!
+
+== Set up another indiewebcamp wiki ==
+All the content of Indiewebcamp.com is CC0 so you may copy it and set up a mirror.
+* Install MediaWiki
+* Note/copy our [[mediawiki-customization]]
+
+== See Also ==
+* [[IndieMark]] - a good way to measure your "indie web" progress
+
+[[Category:how]]

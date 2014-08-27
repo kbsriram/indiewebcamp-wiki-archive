@@ -13,6 +13,7 @@ You may read and edit IndieWebCamp articles in other languages.
 ** ...
 * languages just started/starting
 ** [[principles-de|<span lang="de">Deutsch</span> (German)]]
+** [[Main_Page-ko|<span lang="ko">한국어</span> (Korean)]]
 ** ...
 
 == translations elsewhere ==

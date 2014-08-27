@@ -5,13 +5,36 @@ There are multiple ways to [[POSSE]] out from your indieweb site to your [[Faceb
 Existing techniques:
 
 == Via Twitter ==
-* [[User:Tantek.com|Tantek]] POSSEs out from tantek.com to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook. Reasons:
-** insufficient marginal utility in writing a custom POSSE syndicator to FB.
-** FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
-* [[User:Tommorris.org|tommorris]] does likewise, because he's lazy.
+=== Tantek via Twitter ===
+{{t}} POSSEs out from tantek.com to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook by default (sometimes FB copies of tweets are manually hidden from timeline). Reasons:
+* insufficient marginal utility (typically) in writing a custom POSSE syndicator to FB.
+* FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
+* FB usually shows a decent [[link-preview]] for the first link in from the tweet POSSE copy.
+=== Tom Morris ===
+[[User:Tommorris.org|tommorris]] POSSEs out from tommorris.org to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook, because he's lazy.
 
 == Using IFTTT ==
-* [[User:Adactio.com|Adactio]] POSSEs out from adactio.com to Facebook using If This Then That ([[IFTTT]]).
+=== Jeremy Keith ===
+[[User:Adactio.com|Jeremy Keith]] POSSEs out from adactio.com to Facebook using If This Then That ([[IFTTT]]).
+
+== Bridgy Publish ==
+Using [[Bridgy]] Publish to Facebook, you can manually or automatically with your site POSSE directly from your site to Facebook.
+
+See http://brid.gy/ for details on how to setup Bridgy Publish.
+
+=== Tantek via Bridgy ===
+On some posts (typically those longer than a tweet), {{t}} manually uses Bridgy Publish (via its web UI) to POSSE a few of his original posts to Facebook, and then manually updates his post storage to link with [[u-syndication]] from his original to the FB POSSE copy, [https://www.facebook.com/tantek.celik/posts/10101200515439233 since 2014-08-01]:
+* original: http://tantek.com/2014/210/t1/trackattack-warmup-laps-first-time-did-all
+** Manual FB POSSE days later: https://fb.com/tantek.celik/posts/10101200515439233
+* http://tantek.com/2014/217/t1/completed-npsf-trackattack-again-notafluke
+** Manual FB POSSE same day: https://fb.com/tantek.celik/posts/10101208095508713
+He plans to [[Falcon#auto_Bridgy_POSSE_to_FB|implement automatic POSSE via Bridgy Publish]] in [[Falcon]].
+
+=== Notenoughneon via Bridgy ===
+[[User:Notenoughneon.com|Emma Kuo]] uses Bridgy to automatically POSSE some posts (using a checkbox in the [[Neonblog]] UI to enable it at posting time) to Facebook since 2014-08-01. The original is automatically updated with a [[u-syndication]] link.
+
+* original: http://notenoughneon.com/2014/8/1/1
+** FB POSSE: https://www.facebook.com/emma.kuo.5209/posts/338787636279430
 
 == Facebook API ==
 Posting to one's wall is supported with the Facebook 'Graph API'.
@@ -25,7 +48,6 @@ Programming language libraries for doing so:
 
 See also:
 * 2013-08-01 [http://www.bogost.com/blog/oauth_of_fealty.shtml OAuth of Fealty] / "Resignation beyond sorrow on the Facebook Platform and beyond"
-
 
 === See Original ===
 

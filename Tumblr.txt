@@ -117,6 +117,8 @@ See [http://www.tumblr.com/docs/en/api/v1 documentation].
 
 [[User:Tommorris.org|tommorris]] ported most of his content over from Tumblr.
 
+<div style="clear: both">__TOC__</div>
+
 == PESETAS ==
 Getting data out of Tumblr is pretty easy as documented above. There is no need to get or use API keys or OAuth tokens or anything.
 
@@ -140,22 +142,30 @@ Public feeds are available of Tumblr sites at the path "/rss", e.g.:
 ==== Mapping of Tumblr post types to ActivityStreams ====
 Tumblr posts can be roughly mapped to [[ActivityStreams]] object types as follows:
 
-; text : note or article (depending on length)
-; quote : ???
-; photo : image
+; text : [[note]] or [[article]] (depending on length)
+; quote : [[quotation]]
+; photo : [[photo]]
 ; chat : ???
-; video : video
-; audio : audio
+; video : [[video]]
+; audio : [[audio]]
 
-
-== Downtime ==
-* 2010-340 16:24:41-0800 (PST) "issue in ... [[database]] cluster" [http://www.flickr.com/photos/tantek/5331910087/ http://farm6.staticflickr.com/5046/5331910087_c25749d90b_z.jpg]
-
-<div style="clear: both">__TOC__</div>
 == Users own their content ==
 The [https://www.tumblr.com/policy/en/terms-of-service Tumblr TOS] assert that users retain ownership and copyright over all content and IP they post. Details in section 6, Content and Subscriber Content. (Checked 2014-07-21.)
 
 == Criticisms ==
+=== Downtime ===
+* 2010-340 16:24:41-0800 (PST) "issue in ... [[database]] cluster" [http://www.flickr.com/photos/tantek/5331910087/ http://farm6.staticflickr.com/5046/5331910087_c25749d90b_z.jpg]
+
+=== Poor Quote Post Presentation ===
+In the dashboard view of your own [[quote]] post, it looks like you're quoting yourself, which is misleading:
+
+[[File:tumblr-quote-post-aaronpk.png]]
+
+=== Poor Repost Presentation ===
+Even worse, [[reblogs]] of a [[quote]] post look like they're being said by the reblogger, which is doubly indirectly wrong.
+
+[[File:tumblr-quote-reblog.png]]
+
 === DMCA takedowns without merit ===
 * Like many of the other silos, Tumblr will comply to DMCA takedown requests quickly and without warning, regardless of their merit.
 ** Randy McQueen filed numerous DMCA complaints with Tumblr in order to remove posts that were critical of his artwork (even though art criticism within Fair Use) [http://eschergirls.tumblr.com/post/93520850386/so-yesterday-i-found-out-that-randy-queen-artist]

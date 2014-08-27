@@ -125,7 +125,7 @@ In addition, it makes sense to consider POSSEing to generic silos, despite the f
 
 ==== Distinguishing Photos from Notes ====
 
-[[Bridgy]] Publish has a concrete use-case where it would be useful to mechanically differentiate posts where the photo is primary, vs. notes with an included image that is not the focus of the note. Photo posts should be POSSEd as '''native''' photo post types on [[Facebook]] and included as attached media on [[Twitter]]. POSSEd notes would prefer to link to the original post, and possibly include the image as a "preview".
+[[Bridgy]] Publish has a concrete use-case where it would be useful to mechanically differentiate posts where the photo is primary, vs. notes with an included image that is not the focus of the note. Photo posts should be POSSEd as '''native''' photo post types on [[Facebook]] and included as attached media on [[Twitter]]. POSSEd notes would prefer to link to the original post, and possibly include the image as a [[link-preview]].
 
 The problem is that both types have the same mf2 representation: p-name/e-content for caption and u-photo for the image.
 

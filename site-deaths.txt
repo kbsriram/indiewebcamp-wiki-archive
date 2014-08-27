@@ -17,8 +17,6 @@ Expected/announced site deaths. Check them upon announced shutdown date.
 
 
 Soonest first:
-* 2014-08-10 '''Fotopedia''' photo encyclopedia and photo album host to be [http://blog.fotopedia.com/fotopedia-shutdown/ shut down]
-** Announced 2014-07-31: ". . . your data will be available to download until August 10, 2014. After this date, all photos and data will be permanently deleted from our servers."
 
 * 2014-08-31: '''Svpply''' will be [https://svpply.com/sunset sunset] by eBay.
 ** "We regret to announce that Svpply.com and its associated apps — Svpply and Want by Svpply — will retire on August 31st."
@@ -61,6 +59,9 @@ See also (and add one-line summaries to) the [[history|history page]].
 In reverse chronological order:
 
 === 2014 === 
+* 2014-08-10 '''Fotopedia''' photo encyclopedia and photo album host to be [http://blog.fotopedia.com/fotopedia-shutdown/ shut down]
+** Announced 2014-07-31: ". . . your data will be available to download until August 10, 2014. After this date, all photos and data will be permanently deleted from our servers."
+
 * <span id="Readmill">2014-07-01 '''[[Readmill]]'''</span> "app will no longer be available ... All of your books, reading data and account information will be permanently deleted. User information will not be archived, shared or saved in any way."[https://readmill.com/epilogue].
 ** <blockquote>[https://readmill.com/export Export data] includes books, followers, followings, readings, highlights, reviews, comments and likes on your highlights and reviews, and highlights you liked. </blockquote>
 ** ???? Readmill profiles being lost, including followers/followings lists, readings, highlights, reviews, comments, likes, comments and likes on your highlights and reviews, and highlights liked

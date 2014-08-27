@@ -96,6 +96,9 @@ Falcon supports:
 * [[PuSH]] notifications when posts are published
 ** Use-case: [[Status.net]] / Identica subscribers get real-time updates via PuSH notifications from tantek.com
 
+== Bug Reports ==
+None currently, but if you see something broken, add a note here and I'll look into it. thanks! - {{t}}
+
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
 

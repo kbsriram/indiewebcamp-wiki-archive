@@ -3,7 +3,7 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 <div class="h-event vevent">
 == <span class="p-name summary">[[2014/Cambridge|IndieWebCamp Cambridge 2014]]</span> ==
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
-* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">Berkman Center for Internet & Society</span>, <span class="h-adr adr"><span class="p-street-address street-address">23 Everett Street</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02138</span></span>. <span class="u-url">http://cyber.law.harvard.edu/</span></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
 * <a class="u-url url" href=""></a> e.g. lanyrd
 * <a class="u-url url" href=""></a> e.g. plancast
@@ -15,27 +15,19 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 
 |-
 
-! style="background:#ffdead;" | Add Yourself to the Creator List 
-! colspan="2" style="background:#efefef;" | IndieWeb Apprentices
+! style="background:#ffdead;" | '''If you <em>have</em> a personal site'''
+! style="background:#ffdede;" | '''If you <em>want</em> a personal site'''
 
 |-
 
-| Add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain!'''
 
-| Perhaps you're a creator, but only for other people, and don't actively create things for your own site. Or maybe you're really excited about the IndieWeb and want to join it as soon as you can!
+| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Either: add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain''', or '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/UK/Guest_List this RSVP page]''' and send a [[pingback]] to it.
 
-|-
-
-| Add yourself to the [[#Creators]] section using the [[Template:Attendee|attendee template]], then add your name linked to your wiki user page and a self-hosted profile photo 128px square. 
-
-| If you're not a creator, but want to be, or want to create and contribute to the IndieWeb but don't know where to start, team up with a creator, and ask them to add you. You can still attend IndieWebCamp as an apprentice to a creator. 
+| If you're in the process of setting up your personal site, or don’t have a personal site but want one, or want to create and contribute to the IndieWeb but don't know where to start, you’re still very welcome! Find a creator (either listed below, or ask on [[IRC]]) to team up with and ask them to add you as their apprentice. Then get your site setup with [[IndieAuth]] and edit your entry!
 
 |}
 
-=== Capacity ===
-Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
-* Signed-up: 14
-* Spots remaining: 06
+Curious about attending? See what happened at the main [[2014|IndieWebCamp 2014]] in June!
 
 <!-- uncomment once we've hit capacity 
 === Wait List ===
@@ -46,13 +38,14 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 }}
 
 // end uncomment -->
+<!-- Please add yourself to the bottom of the Wait List HERE: --><!-- 
+If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
+=== Participants ===
+Venue Capacity: 48
+* Signed-up: 15
+* Spots remaining: 33
 
-<!-- Please add yourself to the bottom of the Wait List HERE: -->
-
-<!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
-
-=== Creators ===
-<span id="Builders">Alphabetically sorted by full display name.</span>
+<span id="Creators">Alphabetically sorted by full display name.</span>
 
 {{Attendee
 |name = [[User:Aaronparecki.com|Aaron Parecki]]
@@ -99,6 +92,7 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 |projects = http://withknown.com
 |elsewhere = [https://twitter.com/benwerd @benwerd]
 }}
+
 {{Attendee
 |name = [[User:Brennannovak.com|Brennan Novak]]
 |img = https://brennannovak.com/uploads/sites/1/Me_Train_Tracks_200.jpg
@@ -135,6 +129,7 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 |projects = 
 |elsewhere = [https://twitter.com/jeckman @jeckman]
 }}
+
 {{Attendee
 |name = [[User:matt.us|Matt Lee]]
 |img = http://mattl.us/mattl-homepage.jpg
@@ -181,6 +176,7 @@ Venue Capacity: 20   (Or more, we can fit 48 if we move to MIT --Sandro)
 [[Falcon]] (my personal site publishing software), [http://tantek.com/w/Whistle Whistle] (URL shortener)
 |elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
 }}
+
 {{Attendee
 |name = Your Name
 |img = (128px square) 

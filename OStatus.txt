@@ -15,22 +15,22 @@ Here's a table of OStatus technologies and current IndieWeb equivalents that are
 
 |- 
 ! syndication format
-| Atom ActivityStreams
+| [[Atom]] [[ActivityStreams]]
 | [[h-entry]] + [[h-card]]
 
 |- 
 ! publishing notifications
 | PubSubHubbub
-| [[webmention]]
+| [[PubSubHubbub]] (0.4 arbitrary content)
 
 |- 
 ! reply notifications
-| Salmon
+| [[Salmon]]
 | [[webmention]]
 
 |- 
 ! discovery / identity
-| WebFinger
+| [[WebFinger]]
 | [[rel-me]]
 
 |}
@@ -40,6 +40,7 @@ Related (semi-generationally) but not officially part of OStatus:
 
 The indieweb equivalents are typically a subset and do not achieve the same levels of functionality as the OStatus technologies, however the indieweb equivalents are what's been developed so far to meet current use-cases.
 __TOC__
+
 == See Also ==
 * Wikipedia: http://en.wikipedia.org/wiki/OStatus
 * [http://www.w3.org/community/ostatus/ W3C OStatus Community Group]

@@ -1,7 +1,7 @@
 http://indiewebcamp.com/2014/Cambridge
 
 = <span class="p-name summary">IndieWebCampCambridge 2014</span> =
-<a href="http://web.mit.edu" style="float:right; margin-left:10px"><img src="https://indiewebcamp.com/sponsor-logos/full/mit-logo.png" width="300"></a>
+<a href="http://www.csail.mit.edu/news/stata" style="float:right; margin-left:10px; width:300px"><img src="https://indiewebcamp.com/sponsor-logos/full/mit-logo.png" alt="MIT" style="max-width:100%"/><br/><img src="https://calendar.csail.mit.edu/assets/setups/32-D463/seminar.jpg" alt="Stata Center room D463 with seating" style="max-width:100%" /></a>
 
 Join us in Cambridge, MA for the very first IndieWebCamp at MIT - one of many IndieWeb [[events]].
 
@@ -14,7 +14,7 @@ At IndieWebCamp you’ll learn about ways to empower yourself to own your data, 
 </div>
 
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
-* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Media Lab</span>, <span class="h-adr adr"><span class="p-street-address street-address">77 Mass. Ave.</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.media.mit.edu/</span></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
 * '''Cost:''' Free
 

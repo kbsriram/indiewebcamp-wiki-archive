@@ -13,8 +13,18 @@ __TOC__
 * http://waterpigs.co.uk/notes/4SYJit/
 
 === Aaron Parecki ===
+==== Pushups ====
 {{aaronpk}} uses his open source [http://marvelouslabs.com/pushup-counter pushup-counter iOS app] to track (nose touch activated) and post (via [[p3k]]'s [[micropub]] support) pushups to aaronparecki.com (through [[p3k#Pushups]]) since [http://aaronparecki.com/metrics/2013/11/28/143242/ at least 2013-11-28](or earlier?). Example:
 * http://aaronparecki.com/metrics/2013/11/28/143242/
+
+==== Runs / Walks / Bike Rides ====
+* [http://aaronparecki.com/metrics/2014/08/10/070547/ bike ride]
+* [http://aaronparecki.com/metrics/2014/08/21/063245/ run]
+* [http://aaronparecki.com/metrics/2014/04/07/075930/ walk]
+
+==== Sleep ====
+Sleep isn't really exercise, but I wasn't sure where else to list it. Example:
+* http://aaronparecki.com/metrics/2014/08/25/070033/
 
 == Silo Examples ==
 === Jawbone ===
