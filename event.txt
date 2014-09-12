@@ -46,6 +46,17 @@ In implementation order:
 *  (bad) Example of data https://raw.github.com/bcomnes/bcomnes.github.io/master/_posts/notes/2013-07-25-t1.md
 The event data is stored in the YAML which separates the final layout and the event data.  A form is used to assist in creating the event post via [[prose.io]].
 
+=== Ryan Barrett ===
+[[User:snarfed.org|Ryan Barrett]] is manually posting events inside [[article]] posts on snarfed.org [https://snarfed.org/2014-01-15_homebrew-website-club-tonight since 2014-01-15]. Examples:
+* https://snarfed.org/2014-06-16_homebrew-website-club-at-quip (includes native and [[backfeed]] [[rsvp]]s)
+** Posted 2014-06-16, for an event on 2014-06-18
+** POSSE FB event: https://www.facebook.com/events/675481332531191/
+** Tweet about: https://twitter.com/schnarfed/status/478564735265157120
+** G+ post/linkshare about: https://plus.google.com/+RyanBarrett/posts/JwiJAfBNs9w
+** Both tweet and G+ posts worked as proxy POSSE posts for Bridgy [https://snarfed.org/2014-06-16_homebrew-website-club-at-quip#comments backfeed interactions] (favorites, retweets, +1s etc.)
+* https://snarfed.org/2014-01-15_homebrew-website-club-tonight
+** POSSE tweet: https://twitter.com/schnarfed/status/423586870144942080
+
 == Silo Examples ==
 Facebook pre-2014:
 [[File:Screen_Shot_2014-02-27_at_4.05.00_PM.png|200px|thumb|Facebook pre-2014]]
@@ -115,14 +126,22 @@ How and where should event posts be [[POSSE]]d?
 
 Event-aware destinations to consider:
 * [[Eventbrite]] - has best API for creating events, getting updates, perhaps backfeeding attendees etc.
+** [https://github.com/snarfed/bridgy/issues/275 Bridgy feature request: publish Eventbrite events]
 * [[Facebook]] - likely has broadest reach of people you might want to explicitly invite
-** creating an event on your site, then a (even manual) POSSE copy on FB, then seeing people's RSVPs on FB show up on the event *on your site* is possible via a [[Bridgy]]. E.g.
-** [[User:Aaronparecki.com|Aaron Parecki]] is posting events using [[p3k]] on aaronparecki.com and manually POSSEing them to Facebook:
+** Currently the [https://developers.facebook.com/docs/graph-api/reference/v2.1/event#publish Facebook API disallows creating, updating, or deleting events]
+*** [https://github.com/snarfed/bridgy/issues/274 Bridgy feature request: publish Facebook events]
+** Creating a '''manual POSSE event copy on FB''' of an event on your site is still useful!
+*** including copy a [[featured]] image from your indie event (e.g. [https://snarfed.org/2014-06-16_homebrew-website-club-at-quip photo of French press coffee on this event]) to the FB event's "Event Photo"
+** people's RSVPs on the FB event can send webmentions to your site via a [[Bridgy]], and thus display people's FB RSVPs  *on the event on your site* E.g.
+** '''{{aaronpk}}''' is posting events using [[p3k]] on aaronparecki.com and manually POSSEing them to Facebook:
 *** original: http://aaronparecki.com/events/2014/01/29/1/homebrew-website-club
 *** POSSE copy: https://www.facebook.com/events/1453049941575679
-** [[User:Werd.io|Ben Werdmüller]] is posting events using [[idno]] on werd.io and manually POSSEing them to Facebook: 
+** '''[[User:Werd.io|Ben Werdmüller]]''' is posting events using [[idno]] on werd.io and manually POSSEing them to Facebook: 
 *** original: http://werd.io/2014/homebrew-website-club
 *** POSSE copy: https://www.facebook.com/events/200590280142030/
+** '''{{snarfed}}''' is posting events inside article posts on snarfed.org  and manually POSSEing them to Facebook: 
+*** original:  https://snarfed.org/2014-06-16_homebrew-website-club-at-quip
+*** POSSE copy: https://www.facebook.com/events/675481332531191/
 * [[Plancast]] - event-specific silo
 
 Problematic event-aware destinations:

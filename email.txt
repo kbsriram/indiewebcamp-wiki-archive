@@ -23,8 +23,9 @@ Indiewebcamp creators currently posting to their sites via email, and/or POSSEin
 == Support ==
 Due to its popularity and ubiquity email is extremely widely supported.
 === Application integration ===
-Of particular interest is the fact that many native applications (especially on iOS) include it in their share/export/action menus by default. This could be an excellent UI to hijack for quick and easy posting to our own sites.
+Of particular interest is the fact that many native applications (especially on iOS) include it in their share/export/action menus by default. This could be an excellent UI to piggyback on for quick and easy posting to our own sites.
 
+__TOC__
 == Criticism ==
 === Bad for more than two people ===
 Whilst adequate for some one to one conversation it scales extremely badly to conversations with more than two people. 

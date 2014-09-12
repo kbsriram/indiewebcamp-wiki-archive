@@ -90,6 +90,9 @@ Acegiak's posts may have multiple verbs for a single piece of content.
 
 __TOC__
 == Silo Examples ==
+=== 500px ===
+[[500px]] uses a Like button with a thumbs up (👍) icon.
+E.g. on http://500px.com/photo/79538847/lifeguard-cottages-cuckmere-haven-by-al-power
 === Facebook ===
 👍 [[Facebook]] popularized [[like]] as a verb and "likes" as an indicator on posts.
 They used a thumbs up icon
@@ -101,6 +104,9 @@ Some sites have a feature similar to likes but called something else.
 === We Heart It ===
 <span style="color:red">♥</span> [http://weheartit.com/ We Heart It] uses the text word "heart" as a verb and "hearted" as a past tense indicator.
 
+=== 500px ===
+[[500px]] has a heart button (with white heart icon on red background <span style="background:red;color:white;padding:.2em">♥</span>) <em>in addition to</em> and right next to a Like button:
+E.g. on http://500px.com/photo/79538847/lifeguard-cottages-cuckmere-haven-by-al-power?from=user
 
 == Discussion ==
 === Likes of different things ===

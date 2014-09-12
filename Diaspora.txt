@@ -21,13 +21,24 @@ Despite one of D*’s headline features being data portability, this (as of 2013
 
 [https://github.com/barnabywalters/diaspora-export diaspora-export], created by [[User:WaterPigs.co.uk|Barnaby Walters]], is a python script for quickly exporting all of your public posts given only your profile URL. It spits out a JSON file which can then easily be transformed and imported into your own site.
 
+== POSSE support ==
+D* can [https://wiki.diasporafoundation.org/Integrating_other_social_networks integrate with other social networks], which is a way of [[POSSE]].
+
+== IndieWeb Examples ==
+IndieWeb community members using Diaspora on their own site.
+* none currently.
+
 == IWC Attendee Articles ==
-* [http://waterpigs.co.uk/articles/diaspora-lessons/ Lessons to learn from Diaspora] by [[User:WaterPigs.co.uk|Barnaby Walters]]
-* Add yours here...
+* [http://waterpigs.co.uk/articles/diaspora-lessons/ Lessons to learn from Diaspora] by [[User:WaterPigs.co.uk|Barnaby Walters]] (past user of Diaspora)
+* ...
 
 == Statistics ==
 http://podupti.me/ shows stats about current Disapora pods in use 
 * notice the exceptionally high amount of pods in DE (e.g. see [[Despora]])
+
+== Criticism ==
+=== Monoculture ===
+Noted as an [[monoculture#Examples|example on the monoculture page]], but also explicitly noted as a cultural observation in [https://www.loomio.org/d/4Z28QFTn/social-web-working-group-w3c#comment-199202 this comment on a diaspora related forum] regarding, ironically, federation: <blockquote>To stay honest, on [sic] of major reasons that I didn’t engage in diaspora development, relates to my impression of '''developers community not coordinating with other efforts''' and not engaging in standardization efforts…</blockquote> '''Emphasis''' added.
 
 == See Also ==
 * [[Despora]]

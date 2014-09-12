@@ -104,6 +104,12 @@ Follow-up:
 Q: Isn't MySQL trivial to port via: mysqldump ... | scp | mysql ?
 * A: No, not trivial. Although this is often the most reliable way to migrate data between different MySQL versions, it is still easy to encounter UTF8 corruptions unless you are extremely careful about UTF8 settings on both ends. Don't forget the --skip-extended-insert flag otherwise if you have really large tables they will break when the target DB has a smaller max query size!
 
+==== PaaS Compatibility ====
+Q. Flat-file storage prevents you from using Heroku, Google AppEngine, or other PaaS's. Is that a different kind of "Platform trap"?
+
+==== Database with export ====
+Q. Would using a database with an export to HTML w/ microformats (or other durable format) mitigate these concerns?
+
 ==== Still not convinced ====
 Q: Still not convinced that databases for storage are an anti-pattern or about the DBA tax.
 * A: For those still not convinced, it's left as an exercise to lose enough data in random/binary file formats over the years until it's painful enough that you decide to stop using such things for anything you care about. If you don't think it's a pain, the only likely way to learn that it is is by doing it for years. Go ahead and try to make databases for primary storage work if you like, and report back on how well your data is doing in a few years (like 10).

@@ -14,21 +14,20 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-TBD
-<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 18:00-18:30! -->
+:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 17:30-18:30!
 
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mozilla.org Mozilla]</span>, <span class="adr"><span class="p-street-address street-address">1120 NW Couch St. Suite 320</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
 ;Minneapolis
-TBD
+: None this week! Back in two weeks.
 <!-- :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
 :''Note the Minneapolis meeting is at 18:00 CDT'' -->
 
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 18:30 CDT''
+:''Note the Chicago meeting is at 19:00 CDT''
 
 === What ===
 <div class="p-description description">
@@ -66,6 +65,8 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{t}}
+*{{verdi}}
 * ... add yourself!
 
 '''Portland:'''

@@ -1,0 +1,8 @@
+http://indiewebcamp.com/Ello
+
+[https://ello.co Ello] is microblogging silo similar to Twitter or Tumblr for posting short status updates and pictures. Ello offer threaded commenting and a minimalist "designy" feel to it with some unusual (but nice) UX animations & interface ideas.  As of Sep. 2014 Ello is currently in invite only.
+<br clear="both">
+
+== Description ==
+
+''Ello is a simple, beautiful, and ad-free social network created by a small group of artists and designers. We originally built Ello as a private social network. Over time, so many people wanted to join Ello that we built a public version of Ello for everyone to use.'' [https://ello.co/wtf/post/about-ello About]

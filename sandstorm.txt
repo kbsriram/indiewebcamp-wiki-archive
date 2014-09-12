@@ -10,10 +10,16 @@ Check out '''http://demo.sandstorm.io/''' for a live demo including the ability 
 A handful of application are already supported by Sandstorm such as the [[Mailpile]] email client and [[Ghost]] blogging platform.
 
 == Crowdfunding ==
-On July, 2014 Sandstorm launched a crowd funding campaign [https://www.indiegogo.com/projects/sandstorm-io-personal-cloud-platform on IndieGoGo] to raise $50,000 to further development of the platform.
+On July, 2014 Sandstorm launched a crowd funding campaign [https://www.indiegogo.com/projects/sandstorm-io-personal-cloud-platform on IndieGoGo] to raise $50,000 to further development of the platform. The campaign met its goal on August 28[https://twitter.com/SandstormIO/status/505042680292724736], and ended August 31, 2014.
 
 == Technology ==
-Sandstorm is doing some pretty interesting things under the hood technologically speaking such as [https://kentonv.github.io/capnproto/ Cap'n Proto] which is like protocol buffers, but faster.
+Sandstorm is doing some pretty interesting things under the hood technologically speaking, such as [https://kentonv.github.io/capnproto/ Cap'n Proto] which is like protocol buffers, but faster. Ported applications are modified to use Sandstorm's unified login mechanism. Once the user is authorized, applications can speak to other applications running in the same instance using Cap n' Proto.
+
+Though it does not use [[Docker]], Sandstorm containers are based on the same Linux kernel feature (LXC). They attempt to be more secure by "lowering the attack surface" ­— turning off or restricting access to many kernel features. For example, access to the filesystem is limited to the /var directory.
+
+Applications that are not in use are aggressively spun down to conserve resources, with the intent that many, fine-grained applications could be installed on the same server.
+
+This [https://www.youtube.com/watch?v=Wsk9kNQJ8nQ CenturyLink podcast] interview with Kenton Varda  contains a good discussion of some of the technical decisions.
 
 == See Also ==
 * [[cloud]]

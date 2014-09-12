@@ -14,7 +14,7 @@ http://indiewebcamp.com/Atom
 * '''sandeep.io''' generates an Atom feed from [http://microformats.org/wiki/h-feed h-feed] (using an h-feed to atom proxy). See [http://www.sandeep.io/98 DRY: h-feed enabled = Atom enabled] -[[User:Www.sandeep.io|Www.sandeep.io]] 14:06, 30 June 2013 (PDT)
 * '''tantek.com''' generates (using [[Falcon]]) an Atom+ActivityStreams feed from storage
 * '''[[User:Waterpigs.co.uk]]''' generates ATOM feeds from canonical HTML+h-feed feed pages on waterpigs.co.uk using [[Taproot]]
-* ...
+* [[unmung]] generates an h-feed from any Atom or RSS one
 
 == Shutdowns ==
 See: [[feeds#Shutdowns|Feeds: Shutdowns]]

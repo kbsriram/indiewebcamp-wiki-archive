@@ -1,5 +1,6 @@
 http://indiewebcamp.com/Getting_Started
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">ℹ</span>
 = Getting Started on the IndieWeb =
 Perhaps you relate to all the reasons [[why]] you should be on the indie web but you're not sure how.
 
@@ -18,12 +19,13 @@ First, you need your own personal online identity:
 
 Why? All the reasons listed in [[why]]. This is the key first step to joining the indieweb.
 
-
-=== Bonus: get your own personal [[short-domain|short domain name]] ===
+=== Bonus: short domain ===
+Bonus: get your own personal [[short-domain|short domain name]].
 
 Why? To work around length limits in a [[discovery|discoverable]] way; see [[Getting_Started#Personal_Shortlinks|details below]].
 
 == A Place For Your Stuff ==
+__TOC__
 Second you need a place for your stuff.
 
 The easier, free, but limited path is to use a free service as ''[[Transitional Steps]].
@@ -70,7 +72,9 @@ How?
 * For WordPress, install and use the [http://willnorris.com/2011/01/hum-personal-url-shortener-wordpress Hum personal shortener plugin].
 * For others, take a look at porting the existing open source [http://tantek.com/w/Whistle Whistle] algorithmic URL shortener to your system.
 
-== Publish (on your) Own Site, Syndicate Elsewhere ==
+== POSSE ==
+Start to [[POSSE]], that is, Publish (on your) Own Site, Syndicate Elsewhere.
+
 Set up [[syndication-models|syndication]] so copies of your Indie Web content can be published (semi-automatically) to social silos. By setting up [[POSSE]], you can have your posts pushed to specific [[silos]] with a personal [[permalink]]/permashortlink or citation identifier back to the original on your own site.
 Why: by POSSEing your content to [[silos]], you allow those that read content on those [[silos]] to continue seeing what you have to say, while you retain ownership and control of your content on your own site.
 

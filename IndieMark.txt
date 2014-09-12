@@ -1,6 +1,6 @@
 http://indiewebcamp.com/IndieMark
 
-'''<dfn>IndieMark</dfn>''' is a set of metrics for measuring the indieweb-ness of a site.
+'''<dfn>IndieMark</dfn>''' is a set of metrics for measuring the indieweb-ness of a site, and a step-by-step approach to incrementally adopting indieweb features on your site.
 
 IndieMark helps us as a community measure our progress both individually and collectively.
 
@@ -225,7 +225,7 @@ IndieMark is a multidimensional rating/ranking system for evaluating the IndieWe
 Thus there are different axes that one can advance along. This section documents each axis (or feature area) and what incremental improvements can be made to each (including how each contributes to what level).
 
 # posts - #ownyourdata - posting your own content ([[posts]]) with permalinks on your own site. '''Post *some* kind of content''' on your own site that you own and control
-#* [[h-entry]] posts of some sort (at least 2 posts, with p-name, p-summary, dt-published, u-url)
+#* [[h-entry]] posts of some sort (at least 2 posts, with p-name, e-content, dt-published, u-url)
 
 === identity ===
 #ownyouridentity
@@ -346,7 +346,7 @@ aggregation / syndication in - showing/browsing others' content on your site
 * Level 1: no requirement
 * Level 2: simple embeds of external resources (images, link previews) in [[notes]] posts
 * Level 3: show [[reply-context]] - at least URL / username/source domain
-* Level 4: show rich [[reply-context]] - perhaps the simplest structured piece of information to bring in - [[h-card]] name/avatar of original post author, p-summary or ellipsing of original [[h-entry]] post content
+* Level 4: show rich [[reply-context]] - perhaps the simplest structured piece of information to bring in - [[h-card]] name/avatar of original post author, summary or ellipsing of original [[h-entry]] post content
 * Level 5:
 *# receive [[webmentions]] (optionally [[pingbacks]]) 
 *# show others' [[comments]] (per [[comments-presentation]]), as good as any normal/local comment

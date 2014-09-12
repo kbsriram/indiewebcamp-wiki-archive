@@ -12,14 +12,17 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 * The different content types are implemented using the [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress. Post Formats are a setting that is used to allow for custom theming of a post.
 ** Articles – longer form content
 ** Notes – Notes are short content, and I’ve divided them into some types.
-** Status Updates and Asides – much like what you would expect on Facebook/Twitter. Status updates display with a profile picture, asides do not.
+** Status Updates and Asides – Two different versions of the same thing. Status updates display with a profile picture, asides do not.
 ** Photos/Images/Videos – Sharing photos and videos
 ** Links – sharing a link to a website/story
 * Site has the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
 
 ==In Development==
-* Working on a refined version of the previous theme that allows for more flexibility for future changes.
-* Because the old theme had the h-card hard coded, need to write a Wordpress widget to add an h-card to the sidebar, pulling the data from the user profile, then the theme can be deployed and iterated on.
-* Switching publishing from a Wordpress plugin to Bridgy, which would require creating a simple Bridgy plugin for Wordpress.
-* Semantic Comments Plugin - Wordpress plugin based on code I am already using on my site. Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. Thinking of breaking it into smaller pieces, but you can find it at [https://github.com/dshanske/semantic-comments Github]
+* Working on a refined version of the previous theme that allows for more flexibility for future changes. In live testing on the site as Website Version 3.0
+* Have written a Wordpress widget to add an h-card to the sidebar, pulling the data from the user profile.
+* Working on switching publishing from a Wordpress plugin to Bridgy, by creating a simple Bridgy plugin for Wordpress.
+** Plugin, tentatively titled Webmention Syndication, will take the post metadata for syndicated URLs portion of the Semantic Comments plugin, as well as some code to store the response URLs from Bridgy to form a simple plugin.
+* Semantic Comments Plugin - Wordpress plugin - Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. You can find it at [https://github.com/dshanske/semantic-comments Github]
+** The Post Metadata portion of this plugin is being removed
+** Webactions no longer fit into this plugin due changes prior to and during Indiewebcamp UK. Will be moving them into the Indieweb Taxonomy plugin where it makes more sense to have them as they refer to actions a user can take on reply, like, etc.
 * Simple Location plugin

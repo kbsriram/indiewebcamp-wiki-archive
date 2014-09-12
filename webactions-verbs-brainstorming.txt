@@ -2,9 +2,20 @@ http://indiewebcamp.com/webactions-verbs-brainstorming
 
 {{stub}}
 
-= Verb Brainstorming =
 This page is for brainstorming about [[webactions]] verbs.
 
+== Common Clusters ==
+Common clusters of web actions:
+
+* '''<code>post</code>''' - more specific than "share", more general than "comment", or "tweet"/"reply", though those might show up in a UI where a reader expected a Twitter-like experience
+* '''<code>reply</code>''' - specifically to reply to the current URL. Twitter uses a different icon. IndieNews and Barnaby.co.uk both have reply actions.
+* '''<code>repost</code>''' - generalization or Twitter's "retweet", Tumblr's "reblog" ("retumbl?"),  Pinterest "repin"
+* '''<code>like</code>''' - generalization of Twitter "favorite", Facebook "like", GooglePlus "+1". Alternatively, could split this up into separate verbs for "favorite" and "like", or further specialize: "heart" (Instagram "like"), "star" (Flickr "favorite" and Twitter "favorite"). It's not clear which approach (general or specific) is better. People do assign different meanings to favoriting vs. liking. (there's a photo on flic.kr/tantek with a conversation about this but can't find it now)
+
+== New Verbs ==
+* '''<code>tip</code>''' - for [[Flattr]], [[Gittip]] buttons and maybe other [[payment]] providers.
+
+== Other Sources ==
 * The [http://wiki.activitystrea.ms/w/browse/#view=ViewFolder&param=Verbs Activitystreams verb registry] might be a good place to start/mine research from --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 00:49, 24 February 2013 (PST)
 ** The overlaps in verbs are misleading, and I ([[User:Tantek.com|Tantek]]) tend to think [[ActivityStreams]] is a ''bad'' starting point for web actions verbs for several reasons:
 *** Activities are a much broader set of things that you've *done*. Things that you might do to a piece of content on one site across onto another site are a much smaller subset. Starting from "Activities" will likely be a dilutionary distraction.

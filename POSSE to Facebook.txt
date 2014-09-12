@@ -90,9 +90,9 @@ Screenshot of original on werd.io and POSSE copy:
 ==== Kyle Mahan ====
 [[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] on kylewm.com to post POSSE copies to Facebook since [https://www.facebook.com/kyle.mahan/posts/10100804936358009 2014-02-18]. Examples:
 
-* Facebook copy: https://www.facebook.com/kyle.mahan/posts/10100845623360929<br>[[File:kwm-facebook-copy.png|500px]]
+* Facebook copy: https://www.facebook.com/kyle.mahan/posts/10100845623360929 [[File:kwm-facebook-copy.png|thumbnail|none]]
 
-* Original: http://kylewm.com/note/2014/04/05/2 (currently showing almost palindromically duplicate facebook likes)<br>[[File:kwm-fb-original.png|500px]]
+* Original: http://kylewm.com/note/2014/04/05/2 (currently showing almost palindromically duplicate facebook likes) [[File:kwm-fb-original.png|thumbnail|none]]
 
 ==== Aaron Parecki ====
 [[User:aaronparecki.com|Aaron Parecki]] uses [[p3k]] on aaronparecki.com to post POSSE copies to Facebook since 2014-02-20. On 2014-03-08 he started putting a see "See Original" link on POSSE Facebook copies.

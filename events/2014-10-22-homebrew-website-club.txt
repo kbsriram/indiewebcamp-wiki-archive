@@ -29,7 +29,7 @@ TBD
 
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 18:30 CDT''
+:''Note the Chicago meeting is at 19:00 CDT''
 
 === What ===
 <div class="p-description description">

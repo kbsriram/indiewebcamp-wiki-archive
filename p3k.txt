@@ -106,9 +106,9 @@ I wrote a simple [https://github.com/aaronpk/PushupCounter-iOS simple pushup-tra
 === Backwards-Compatible Support ===
 
 * Facebook Open Graph tags (e.g. https://www.facebook.com/aaronpk/posts/10100897893521096)
-* Twitter Cards (e.g. https://twitter.com/aaronpk/status/336305584213225473)
-* Pingbacks are forwarded as webmentions via [[webmention.io]]
-* A WebDAV API for uploading images from apps that support it
+* [[Twitter Cards]] (e.g. https://twitter.com/aaronpk/status/336305584213225473)
+* [[Pingback]]s are forwarded as webmentions via [[webmention.io]]
+* A [[WebDAV]] API for uploading images from apps that support it
 
 === Notes vs Articles ===
 * Note: a note is plaintext only, HTML markup is not allowed. There is some auto-linking code that adds links around @mentions, URLs and hashtags. Any recognized URLs like images and video are embedded below the post.

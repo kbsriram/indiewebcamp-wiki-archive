@@ -5,3 +5,12 @@ http://indiewebcamp.com/SWAT0
 '''<dfn><abbr>SWAT0</abbr></dfn>''' is an abbreviation for The Social Web Acid Test level 0 and is an user-feature interoperability test for social web functionality defined in 2010.
 
 See the [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 description of SWAT0 on W3.org].
+
+== Brainstorming ==
+Let's try to rephrase the SWAT0 test in IndieWeb terminology, referring to people's own websites rather than "social network" services.
+
+# With his phone, [http://werd.io benwerd] takes a photo of [http://aaronparecki.com aaronpk], tags him in the photo, and posts it to his site.
+# [http://aaronparecki.com aaronpk] gets a notification that he's been tagged in a photo.
+# [http://waterpigs.co.uk barnabywalters], who is subscribed to aaronpk, sees the photo in his [[reader]].
+# barnabywalters posts a reply to the photo on his site.
+# aaronpk and benwerd receive notifications that barnaby has commented on the photo.

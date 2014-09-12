@@ -1,10 +1,12 @@
 http://indiewebcamp.com/lulz
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">😂</span>
 {{stub}}
 
 == Local ==
 * [[apophenia]]
 * [[chicken]]
+* [[Fatberg]]
 * Ask "what is love?" in [[indiechat|#indiechat]] [[IRC]]
 * [[splines]]
 * [[this]]
@@ -12,4 +14,5 @@ http://indiewebcamp.com/lulz
 
 == External Sites ==
 * http://fatberg.org/
+* http://www.j2fed.com/motherfucking-website/
 * ...

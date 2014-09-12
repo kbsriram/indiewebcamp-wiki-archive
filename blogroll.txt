@@ -30,6 +30,7 @@ Remove maintenance by making blogrolls more tangible — for example derive them
 
 Blogrolls could also be made more actionable, for example if feed readers were to accept a URL with XFN and h-card on, and subscribe to all of the people, or a filtered subset (e.g. all XFN friends, or h-cards tagged with a particular p-category).
 
-== Related ==
+== See Also ==
+* [[nicknames-cache]]
 * [[home page]]
 * [[xfn]]

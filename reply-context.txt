@@ -135,6 +135,17 @@ In order of deployment:
 ** [https://snarfed.org/2014-06-05_twitter-therealfitz-this-analysis-of-restaurants Twitter example]
 ** [https://snarfed.org/2014-05-28_alexis-shoemate-for-you-and-gina Facebook example]
 
+== of silo posts ==
+Reply contexts where the original is on a silo may sometimes need or deserve special treatment.
+
+If you reply to a [[silo]] post where the silo does not mark up their HTML pages with [[h-entry]], (e.g. post a comment on your own site, and the POSSE it to an Instagram post), you will need to do further processing in order to display the reply context as high fidelity as other indieweb posts.
+
+You may find the following tools useful:
+
+* [https://github.com/aaronpk/php-mf2-instagram-shim php-mf2-instagram-shim] - converts Instagram posts to h-entry
+* [https://github.com/aaronpk/php-mf2-twitter-shim php-mf2-twitter-shim] - converts Tweets to h-entry
+* [https://github.com/indieweb/php-mf2-shim php-mf2-shim] - converts Tweets and Facebook posts to h-entry
+
 == Brainstorming ==
 === CRUD ===
 Though one advantage of storing and showing a reply-context is freezing the original context of what you're replying to, it may make sense to accept some updates.

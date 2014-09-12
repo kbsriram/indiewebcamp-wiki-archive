@@ -21,7 +21,6 @@ I found IWC some months ago, I don't remember how but I've been interested in re
 ** [[Comics]] (currently handled by [http://wordpress.org/plugins/webcomic/ Webcomic plugin] which is nice but I'm prepping to stop using it as part of an eventual migration from [[WordPress]])
 * [[POSSE]] to:
 **  [[Facebook]] manually since I signed up 2009-07-09 (also, I don't have a profile there, just a [http://www.facebook.com/pages/Colin-Tedford/231529070642 page]). This is my highest-priority silo because it's where most of my friends/followers are.
-** [[LiveJournal]] via [http://wordpress.org/plugins/lj-xp/ LiveJournal Crossposter plugin] for some years (I did it manually from when I signed up in 2006 to whenever I installed LJ-XP).
 * [[PESOS]] from Facebook manually since 2014-06-18 (just copying some older things I only posted there -- mostly Youtube music links)
 * [[Backfeed]] from Facebook manually since 2014-06-18, copying new & old comments. Leaving likes alone for now because displaying them isn't important to me, but I might want to collect them eventually & store them somewhere if it's easy.
 * [[short-domains|Short domain]] (cted.us) for an eventual link shortener (& current saving of a little typing).
@@ -82,3 +81,4 @@ Lower-priority but easy, a nice way to make progress when I'm not up to harder p
 
 * Hand-coding in Notepad (2005 through 2007). Main content types were [[notes]] (I didn't title my news updates ... and deleted them when they got old!) and [[comics]].
 * [[Blogger]] (self-hosted version) (2006? through 2007?) -- I don't think I ever used it for my main site but I did for one of my comic series. Mainly [[comics]] with perhaps an occasional [[articles|article]].
+* [[POSSE]]d to [[LiveJournal]] via [http://wordpress.org/plugins/lj-xp/ LiveJournal Crossposter plugin] for some years (I did it manually from when I signed up in 2006 to whenever I installed LJ-XP). LJ-XP seems to have broken sometime prior to 2014-08-28 :(

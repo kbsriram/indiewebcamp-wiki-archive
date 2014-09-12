@@ -21,7 +21,7 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 |-
 
 
-| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Either: add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain''', or '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/UK/Guest_List this RSVP page]''' and send a [[pingback]] to it.
+| Are you a '''[[Creator]]''' (create & share ''design, UI/UX, and/or code'')? Either: add yourself to the guest list by '''[[Special:UserLogin|Logging in]] with your own domain''', or '''Publish a post saying that you're coming with a link to [https://indiewebcamp.com/2014/Cambridge/Guest_List this RSVP page]''' and send a [[pingback]] to it.
 
 | If you're in the process of setting up your personal site, or don’t have a personal site but want one, or want to create and contribute to the IndieWeb but don't know where to start, you’re still very welcome! Find a creator (either listed below, or ask on [[IRC]]) to team up with and ask them to add you as their apprentice. Then get your site setup with [[IndieAuth]] and edit your entry!
 
@@ -42,8 +42,8 @@ Curious about attending? See what happened at the main [[2014|IndieWebCamp 2014]
 If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
 === Participants ===
 Venue Capacity: 48
-* Signed-up: 15
-* Spots remaining: 33
+* Signed-up: 14
+* Spots remaining: 34
 
 <span id="Creators">Alphabetically sorted by full display name.</span>
 

@@ -82,5 +82,11 @@ IndieWeb related events (including events which have sessions on the indie web) 
 
 * <span class="h-event vevent"><span class="dt-start dtstart">2013-03-09</span>: <span class="p-name summary">[http://barcampbournemouth.org/ BarCamp Bournemouth 5]</span> at <span class="p-location location">Bournemouth University, Bournemouth</span>. <span class="u-url url">http://barcampbournemouth.org/</span> — talk by [[User:Tommorris.org|tommorris]]</span>
 
+
+* 2013-01-06 IndieWeb brunch http://aaronparecki.com/notes/2013/01/06/1/indieweb-brunch
+
 == See Also ==
+* [[events|upcoming and recent events]]
+* [[events/2012]]
+* [[events/2011]]
 {{events}}

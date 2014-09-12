@@ -1,7 +1,7 @@
 http://indiewebcamp.com/Whisperfollow
 
 ==== WhisperFollow ====
-[http://wordpress.org/plugins/whisperfollow/ WhisperFollow] is a [[WordPress]] based social [[reader]] create by [[User:acegiak.net|acegiak]] that currently supports [[H-Entry]], [[RSS]], [[Atom]] and [[PubSubHubbub]].
+'''<dfn>[http://wordpress.org/plugins/whisperfollow/ WhisperFollow]</dfn>''' is a [[WordPress]] based social [[reader]] create by [[User:acegiak.net|acegiak]] that currently supports [[H-Entry]], [[RSS]], [[Atom]] and [[PubSubHubbub]].
 
 Whisperfollow aggregates feed data from sites in the users blogroll and presents them on a private page in a dashboard/wall format. The plugin also allows the user to comment on, repost or like these posts from the dashboard page.
 

@@ -18,13 +18,14 @@ OpenBlog aims to be a platform for easy development of new features.  The hope i
 # Web admin page
 # Simple routing management (routes.php config file)
 # [[webmention]] send and receive
-# [[micropub]] support (currently in developement, successfully working with [[OwnYourGram]] and https://quill.p3k.io )
+# [[micropub]] support (not all fields are currently used)
+# Automatic syndication to Twitter and FB (not syndicating to FB yet) through brid.gy
+# Additional Contact Information for whitelisted users.
 
 === Planned Features ===
 # Expand to other post types
 # New default theme
-# Automatic syndication to G+, FB, and Twitter
-# backfeed
 # IndieAuth Host
-# Additional Contact Information (once authenticated)
 # Private posts to authenticated users.
+# Private contact list parsed from other indie web users as well as silos
+# grouping and managing contacts as well as setting what information is shared to what contact groups.

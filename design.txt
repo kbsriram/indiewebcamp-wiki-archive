@@ -1,5 +1,6 @@
 http://indiewebcamp.com/design
 
+<span style="float:right;height:192px;font-size:192px;margin:64px 0 -32px">✂</span>
 {{stub}}
 
 '''<dfn>design</dfn>''' is a catchall term used to refer to everything that affects users about a page/site including:
@@ -9,6 +10,7 @@ http://indiewebcamp.com/design
 * information architecture (IA)
 
 == Thoughts ==
+__TOC__
 Some thoughts on design.
 
 === Minimalism ===

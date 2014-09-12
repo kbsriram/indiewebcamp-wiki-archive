@@ -1,5 +1,6 @@
 http://indiewebcamp.com/own_your_data
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">✊</span>
 {{stub}}
 
 '''<dfn>own your data</dfn>''' is one of the [[principles]] and rallying cries of the IndieWeb movement.

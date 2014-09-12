@@ -8,7 +8,7 @@ Example:
 __TOC__
 
 == Behavior ==
-Fragmentions find the first matching word or phrase in a document and focuses its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
+Fragmentions find the first matching word or phrase in a document and focus its closest surrounding element. The match is determined by the case-sensitive string following the ## double-hash. The closest surrounding element may be a span, paragraph, heading, button, input, or any other container.
 
 == Open Source ==
 * [https://github.com/chapmanu/fragmentions client-side script] and 
@@ -69,11 +69,20 @@ Matching case is strict, but makes it easier to target specific text. Ignoring c
 The initial feedback is conflicting. Some expected fuzzy matching. Others expected specific matching. Most agreed that it depends on your specific use-cases, which are sorely lacking in most of the annotations discussions. Fuzzy matching could be seen as a further fallback strategy if direct matching fails.
 
 === URL encoding ===
+;(space)
+:Use <nowiki>+</nowiki> (instead of <nowiki>%20</nowiki>) for space characters in your fragmention. Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus signs are interpreted as spaces. This makes for more readable conforming URLs.
+;+
+:Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus signs are interpreted as spaces and thus must be escaped (<nowiki>%2B</nowiki>) if you mean to refer to a literal "+" character like "a+b" (<nowiki>a%2Bb</nowiki>).
+;<nowiki>#</nowiki>
+:More #-signs may be used as an extension point and thus if your fragmention text contains a literal "#" e.g. "Use my #hashtag", you MUST URL-escape it, e.g. "<nowiki>Use+my+%23hashtag</nowiki>".
 
-Fragmentions are decoded before search, which means <nowiki>+</nowiki> plus signs are interpreted as spaces or must be escaped (<nowiki>%2B</nowiki>). This makes for prettier, conforming URLs, but may also be confusing for users targeting phrases with special characters.
+=== Icon proposals ===
+(Todo: upload images instead of linking.)
+* [[File:highlink.svg]] This proposed icon combines highlighting with linking and is thus a classic over-literal design by an engineer. Graphic designers very much encouraged to come up with something better. 
+* [https://kartikprabhu.com/static/icons/link-frag2.png Part-highlighted link icon]
+* [http://test.colintedford.com/s/2014/fragicon.html Quotation mark + link icon] (rough draft - may try fusing per suggestion)
 
-=== Proposed icon ===
-[[File:highlink.svg]] - This combines highlighting with linking and is thus a classic over-literal design by an engineer. Graphic designers very much welcomed to come up with something better.
+Check out the NounProject searches for [http://thenounproject.com/search/?q=link link] and [http://thenounproject.com/search/?q=text text] for some ideas.
 
 === Using Fragmentions in a TOC ===
 Because Fragmentions by default link to the first occurrence of a phrase, it's not possible to use them in a table of contents on the same page if the table of contents appears above the things you're linking to. This is because the fragmentions would then link to themselves.

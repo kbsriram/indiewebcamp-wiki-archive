@@ -1,13 +1,12 @@
 http://indiewebcamp.com/videos_about_the_indieweb
 
-{{stub}}
-
+<span style="float:right;height:192px;font-size:192px;margin-top:64px">📺</span>
 Find videos about the indieweb:
 * [https://www.youtube.com/results?search_query=indieweb YouTube indieweb search]
 
-
-Videos about the indieweb (in reverse chronological order by date of when video was recorded)
+Watch recent videos about the indieweb (in reverse chronological order by date of when video was recorded)
 === 2014 ===
+* 2014-09-10 [http://twit.tv/show/this-week-in-google/266 TWiG: The Indie Web]: with [[User:Erinjorichey.com|Erin Jo Richey]], [[User:Werd.io|Ben Werdmüller]], and [[User:KevinMarks.com|Kevin Marks]] about their work with [[Known]] and the IndieWeb in general.   
 * 2014-07-18 Gar & Issac Lewis, [http://vimeo.com/101137894 It's clever NOT to be clever & How to "indie" all your tech] (Vimeo, 26:59)
 * 2014-07-04 [[User:Adactio.com|Jeremy Keith]]: [https://ind.ie/summit/videos/#jeremy_keith_video On Indie Web] (ind.ie, 5:51) at [https://ind.ie/summit/ ITS].
 * 2014-06-25 {{kevinmarks}}: [https://www.youtube.com/watch?v=cplwtyjhgCU&t=46m25s Procrustes and computers] an Ignite talk at Google IO on [[principles]]

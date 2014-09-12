@@ -52,14 +52,26 @@ Sorted by earliest photo posts first.
 ** https://twitter.com/adactio/status/486617601167339521
 ** https://www.flickr.com/photos/adactio/14604446101
 
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com|Kartik Prabhu]] uses [[Bundle]] to publish photo posts [https://kartikprabhu.com/notes/dusty-rhodes-watershed since 2014-07-27], and multi-photo posts [https://kartikprabhu.com/notes/owen-engine since 2014-07-28]. He does the following:
+# Uploads the photo(s) to G+ albums purely for storage
+# Publishes a photo(s) post on his own site
+# (Semi-)automatically POSSEs to Twitter as a photo post via [[Bridgy]], [https://twitter.com/kartik_prabhu/status/505886569085939712 since 2014-08-30]
+# Manually POSSEs to G+. 
+Examples:
+* 2014-07-27 single https://kartikprabhu.com/notes/dusty-rhodes-watershed
+** POSSEd as a note to Twitter: https://twitter.com/kartik_prabhu/status/493622610929152000
+* 2014-07-28 multi https://kartikprabhu.com/notes/owen-engine
+** POSSEd as a note to Twitter: https://twitter.com/kartik_prabhu/status/493868886283280384
+* 2014-08-30 single https://kartikprabhu.com/notes/left-behind
+** POSSEd as a photo to Twitter: https://twitter.com/kartik_prabhu/status/505886569085939712
+** POSSEd as a photo post to G+: https://plus.google.com/+KartikPrabhu/posts/Wdeju2t3raF
+
 == Notes with photos examples ==
 Not quite photo posts, but similar, [[notes]] with embedded photos are another approach to photo-like posts.
 
 === Barnaby Walters ===
 [[User:Waterpigs.co.uk|Barnaby Walters]] uses [[Taproot]] to post photos on [http://waterpigs.co.uk waterpigs.co.uk] since at least [http://waterpigs.co.uk/notes/686/ 2012-12-13] as notes with embedded images.
-
-=== Kartik Prabhu ===
-[[User:kartikprabhu.com|Kartik Prabhu]] uses [[Bundle]] to post photos as a part of notes since 2014-07-27. Single photo [https://kartikprabhu.com/notes/dusty-rhodes-watershed] and multiple-photos [https://kartikprabhu.com/notes/owen-engine]
 
 == Discussion ==
 * {{gRegor}}: I don't understand the distinction between 'photo' and 'note with photo.' It was suggested in chat by [[User:Mowens.com|mko]] that a 'photo' post would be a photo with no other content. However, this page indicates caption text may follow the photo. Per discussion, the caption would be the p-summary/p-name of the photo post. This seems to make it no different than a regular note, then, as far as microformat parsing. Example: http://gregorlove.com/notes/2014/07/15/2/ — [http://indiewebcamp.com/irc/2014-07-15#t1405445144 IRC log]

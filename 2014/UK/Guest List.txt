@@ -43,9 +43,9 @@ Curious about attending? See what happened at [[2013/UK|IndieWebCamp UK 2013]].
 // end uncomment -->
 
 === Participants ===
-'''Venue Capacity: ???''' (adactio to fill-in)
-* signed-up: 20
-* spots remaining: ???
+'''Venue Capacity: 60'''
+* signed-up: 27
+* spots remaining: 33
 
 Alphabetically sorted by full display name.
 
@@ -59,6 +59,15 @@ Alphabetically sorted by full display name.
 |elsewhere = alpower @ [http://twitter.com/alpower twitter], [http://flickr.com/photos/alpower flickr], [http://instagram.com/alpower instagram], github
 }}
 {{Attendee
+|name = Andrew Marks
+|img = http://www.andrewmarks.media/file/c5e81d42c38a4fef664ab570dfee35b2/thumb.jpg
+|url = http://www.andrewmarks.media
+|org_name = KCL Theatre
+|org_url = http://kcltheatre.com
+|projects = Theatre productions, podcasts, mixes and mashups, Film reviews.
+|elsewhere = [http://twitter.com/AndrewJohnMarks @AndrewJohnMarks], [https://soundcloud.com/the-marksist soundcloud], [http://watchingbetweenthelines.com/ film reviews]
+}}
+{{Attendee
 |name = Aral Balkan
 |img = https://aralbalkan.com/images/aral-432.jpg
 |url = https://aralbalkan.com/
@@ -66,6 +75,15 @@ Alphabetically sorted by full display name.
 |org_url = https://ind.ie
 |projects = (Indie Tech projects) [https://ind.ie/manifesto ind.ie/manifesto], [https://ind.ie/phone ind.ie/phone]
 |elsewhere = [https://twitter.com/aral @aral]
+}}
+{{Attendee
+|name = Aron Carroll
+|img = https://avatars3.githubusercontent.com/u/47144?v=2&s=500
+|url = https://aroncarroll.com/
+|org_name = Hypothesis
+|org_url = https://hypothes.is
+|projects = 
+|elsewhere = 
 }}
 {{Attendee
 |name = Barnaby Walters
@@ -95,6 +113,15 @@ Alphabetically sorted by full display name.
 |elsewhere = [https://twitter.com/calum_ryan @calum_ryan], [http://instagram.com/calumryan instagram]
 }}
 
+{{Attendee-apprentice
+|name = Chris Asteriou
+|apprentice_of = Barnaby Walters <!-- until he edits this and makes it an Attendee template :) -->
+|img = http://digitalbliss.uk.com/profile.png
+|url = http://digitalbliss.uk.com
+|org_name =
+|org_url = 
+|elsewhere = [https://twitter.com/digitalblissltd @digitalblissltd]
+}}
 {{Attendee
 |name = Cole Peters
 |img = https://colepeters.com/photos/photos--profile/tcp2014-2e-1x1.jpg
@@ -172,13 +199,20 @@ Alphabetically sorted by full display name.
 |elsewhere = http://twitter.com/kevinbeynon, http://libreture.com
 }}
 {{Attendee
+|name = Michiel Leenaars
+|img = http://nlnet.nl/people/leenaars.png
+|url = http://nlnet.nl/people/leenaars.html
+|projects = http://nlnet.nl, http://arpa2.net, http://unhosted.org, http://sockethub.org, http://gnunet.org
+|elsewhere = http://isoc.nl/michiel
+}}
+
+{{Attendee
 |name = Nat Welch
 |img = http://natwelch.com/i/nat_2013.jpg
 |url = http://natwelch.com/
 |projects = [https://github.com/icco/tumble tumble.io]
 |elsewhere = [https://twitter.com/icco @icco], [https://github.com/icco github.com/icco]
 }}
-
 {{Attendee
 |name = Pelle Wessman
 |img = http://voxpelli.com/avatar.jpg
@@ -198,6 +232,30 @@ Alphabetically sorted by full display name.
 |elsewhere = petermolnar@twitter
 }}
 {{Attendee
+|name = Robin Taylor
+|img = http://www.gravatar.com/avatar/041bde893110e7826bee8e51e3a68c2b.png
+|url = http://badgermind.net/
+|projects = Displaying photography and narratives, looking for solutions to keep a record of group discussions
+|elsewhere = https://twitter.com/badgermind
+}}
+{{Attendee
+|name = Rosa Fox
+|img = http://www.gravatar.com/avatar/69b363e4a30e80d2b826972576bc3536.png
+|url = http://techfox.co.uk
+|org_name = Happy Bear Software
+|org_url = http://happybearsoftware.com
+|projects = 
+|elsewhere = @rosaemerald
+
+}}
+{{Attendee
+|name = Sam Machin
+|img = http://s3.sammachin.com/profilepic.jpeg
+|url = http://sammachin.com
+|projects = http://talkproject.org/
+|elsewhere = @sammachin
+}}
+{{Attendee
 |name = Shane Hudson
 |img = http://shanehudson.net/avatar.png
 |url = http://shanehudson.net/
@@ -215,11 +273,38 @@ Alphabetically sorted by full display name.
 |elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
 }}
 {{Attendee
+|name = Tim Retout
+|img = http://retout.co.uk/2014/me.jpeg
+|url = http://retout.co.uk/
+|projects = Currently packaging pump.io for Debian
+|elsewhere = [https://github.com/diocles github.com/diocles]
+}}
+{{Attendee
 |name = Tom Morris
 |img = https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c12.47.156.156/s100x100/226570_508277977420_617357257_a.jpg
 |url = https://tommorris.org/
 |projects = Ferocity, [https://github.com/tommorris/mf2py mf2py]
 |elsewhere = [https://github.com/tommorris github.com/tommorris], [https://twitter.com/tommorris @tommorris]
+}}
+
+{{Attendee
+|name = Yasuhisa Hasegawa
+|img = http://yhassy.heteml.jp/me_square.jpg
+|url = http://www.yasuhisa.com/
+|org_name = 
+|org_url = 
+|projects = [https://github.com/yhassy/Content_Worksheet Content Worksheet] (Content stuff),
+[http://automagic.fm Automagic] (Podcast), and blog
+|elsewhere = [https://twitter.com/yhassy @yhassy], [https://github.com/yhassy github.com/yhassy]
+}}
+{{Attendee-apprentice
+|name = Zaheda Bhorat
+|apprentice_of = Michiel Leenaars <!-- until she edits this and makes it an Attendee template :) -->
+|img = http://m.c.lnkd.licdn.com/mpr/pub/image-TILqHxAbKWWrsOcvmD0IrKIY5kyyDtZOWV1QrYGU5py1F3CBTILQ0j4b50s6DtcssqcU/zaheda-bhorat.jpg
+|url = 
+|org_name = 
+|org_url = 
+|elsewhere = http://www.linkedin.com/pub/zaheda-bhorat/0/121/143, https://plus.google.com/117120586778888381096
 }}
 
 Add yourself to the list using the [[Template:Attendee| attendee template]]!
@@ -243,7 +328,6 @@ Add a friend who is setting up their personal site or wants one using the [[Temp
 -->
 
 === Volunteers ===
-* {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
 
 === Remote Participants ===
 As with past IndieWebCamps, we'll setup [[remote participation]] for folks who can't be there in person but can still participate during the camp over IRC and hopefully live video.
@@ -256,6 +340,37 @@ As with past IndieWebCamps, we'll setup [[remote participation]] for folks who c
 |org_url = http://esri.com
 |projects = [[p3k]], [[webmention.io]], [[IndieAuth]], [[micropub]]
 |elsewhere = [https://twitter.com/aaronpk @aaronpk], [https://github.com/aaronpk github.com/aaronpk]
+}}
+
+
+{{Attendee
+|name = [[User:kevinmarks.com|Kevin Marks]]
+|img = http://kevinmarks.com/km.jpg
+|url = http://kevinmarks.com/
+|org_name =  
+|org_url =  
+|projects = [[known]], [[noterlive]], [[unmung]]
+|elsewhere = [https://twitter.com/kevinmarks @kevinmarks], [https://github.com/kevinmarks github.com/kevinmarks]
+}}
+
+{{Attendee
+|name = [[User:Ben.thatmustbe.me|Ben Roberts]]
+|img = http://ben.thatmustbe.me/image/static/icon_128.jpg
+|url = http://ben.thatmustbe.me
+|org_name = 
+|org_url = 
+|projects = https://github.com/dissolve/openblog
+|elsewhere = [https://twitter.com/dissolve333 @dissolve333]
+}}
+
+{{Attendee
+|name = [[User:t37.net|Frederic de Villamil]]
+|img = http://t37.net/files/resource/1396/thumb_dGVbyzQU.jpeg
+|url = http://t37.net
+|org_name = 
+|org_url = 
+|projects = https://github.com/publify/publify
+|elsewhere = [https://twitter.com/fdevillamil @fdevillamil]
 }}
 
 === Regrets ===

@@ -70,6 +70,7 @@ Nearly all template formats use <nowiki>{{}}</nowiki> (e.g. [http://maxistential
 *** maintenance: changing the look of a site requires a template change not a program change. Changing a program is always much riskier than changing a template. In addition, template changes do not require restarting a live, currently- in-use server application whereas code changes normally require recompilations and restarts.
 *** interchangeable views: with an entangled data model and display, the designer cannot easily swap in a new look for such things as site “skins.” 
 *** security: templates for page customization are commonly made available to bloggers but, like macros in Microsoft Word, unrestricted templates pose a serious security risk. 
+* [http://incident57.com/codekit/help.html#kit Kit] is a templating language that uses HTML comments e.g. <code>&lt;!-- @import ... --&gt;</code>
 
 === Brainstorming ===
 
@@ -116,6 +117,9 @@ Other template formats either add weird (new syntax) markup to HTML, or replace 
 
 === Liquid ===
 '''<dfn>[http://liquidmarkup.org/ Liquid]</dfn>''' is a templating language extracted from the Shopify engine that uses <code>{% %} {{ }}</code> markup inside HTML.
+
+=== Twig ===
+'''<dfn>[http://twig.sensiolabs.org/ Twig]</dfn>''' is a PHP based templating language very similar to Liquid.
 
 ==== IndieWeb opinions of Liquid ====
 * -1 Aaronpk: <blockquote>I don't like all the things like liquid, cause they invent other syntaxes for things that just end up being more complicated[http://indiewebcamp.com/irc/2013-11-26/line/1385483355]</blockquote>

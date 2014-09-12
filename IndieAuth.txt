@@ -39,6 +39,11 @@ To use [[indieauth.com]] as an OpenID delegate for the OpenID identifier of your
 * IndieAuth is an implementation of [[Web sign-in]]/[[RelMeAuth]] with an HTTP API
 * [[indieauth.com]] is the primary implementation used by most people currently
 
+== Table of Contents ==
+<div style="width:100%;float:left">
+__TOC__
+</div>
+
 == FAQ ==
 === Why is my https domain not working? ===
 Q: Why does entering just my domain name (which automatically redirects http to https) not work in IndieAuth?
@@ -94,10 +99,18 @@ See: [[Why web sign-in]].
 
 <blockquote>"The problem is it's too easy to not own your email address (@gmail.com, etc) so it's not really an "indie" identifier. The point of IndieAuth is to encourage people to own their online identity."[http://aaronparecki.com/replies/2013/07/01/1/indieauth][https://twitter.com/aaronpk/status/351893272089735168]</blockquote>
 
+=== What if I have more than one domain ===
+
+IndieAuth requires symmetric rel=me links on your page and the OAuth provider profile page, and since most silos (like Github and Twitter) only allow you to put one rel=me link on your profile, you cannot use any one profile for multiple domains. There are a few alternatives:
+
+* use one account for one domain and another account for another domain. 
+* use an alternative method for as many domains as you control:
+** email (Persona) 
+** PGP key authorization 
+** TOTP
+
 === More FAQ ===
 See [http://indieauth.com/faq Frequently Asked Questions] for more FAQs.
-
-__TOC__
 
 == The IndieAuth API ==
 The IndieAuth API lets you support [http://microformats.org/wiki/RelMeAuth RelMeAuth] logins without writing all the OAuth code for each provider!

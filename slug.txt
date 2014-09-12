@@ -1,0 +1,10 @@
+http://indiewebcamp.com/slug
+
+{{stub}}
+
+A '''<dfn>slug</dfn>''' is a unique text label that identifies a page in the URL. They often are automatically generated based on the page title, replacing whitespace with hyphens and accented characters with English alphabet characters.
+
+== Indieweb Examples ==
+
+== See Also ==
+* [[permalinks]]

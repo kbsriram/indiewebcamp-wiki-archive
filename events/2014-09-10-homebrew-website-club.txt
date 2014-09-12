@@ -14,21 +14,24 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-TBD
+:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], Java conference room, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 17:30-18:30!
+: capacity: 8ish people (smaller conference room this week, unless we can take over the larger main area)
+This room:<br/>
+[[Image:Homebrew-Website-Club-2014-04-23.jpg|250px|<span>Same as [[events/2014-04-23-homebrew-website-club|Homebrew Website Club 2014-04-23]]</span>]]
 <!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 18:00-18:30! -->
+: with writing hour from 17:30-18:30! -->
 
 ;Portland
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mozilla.org Mozilla]</span>, <span class="adr"><span class="p-street-address street-address">1120 NW Couch St. Suite 320</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
 ;Minneapolis
-TBD
-<!-- :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
-:''Note the Minneapolis meeting is at 18:00 CDT'' -->
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
+:''Note the Minneapolis meeting is at 18:00 CDT''
 
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 18:30 CDT''
+:''Note the Chicago meeting is at 19:00 CDT''
 
 === What ===
 <div class="p-description description">
@@ -43,20 +46,20 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-09-10-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://werd.io/2014/homebrew-website-club-september-10-2014
+* FB POSSE copy: https://www.facebook.com/events/294247984098728
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
+* http://aaronparecki.com/events/2014/09/10/1/homebrew-website-club
+* http://calagator.org/events/1250466952
+* https://www.facebook.com/events/327184350794608/
 
 Minneapolis:
 * add indieevent...
-* ... and POSSE copy
+* FB: https://www.facebook.com/events/365663696924915/
 
 Chicago:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/372303256256372/
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -66,7 +69,12 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
-* ... add yourself!
+* [[User:Upon2020.com|Johannes Ernst]]
+* {{kylewm}}
+* [http://www.flutterby.net/User:DanLyke Dan Lyke]
+* {{t}}
+* [[User:moiz.ca|Moiz Syed]]
+* {{snarfed}}
 
 '''Portland:'''
 * ... add yourself!
@@ -75,6 +83,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 '''Chicago:'''
+* {{gRegor}}
+* [[User:Kartikprabhu.com|Kartik]]
+* Paul Chalekian
 * ... add yourself!
 
 == Notes ==
@@ -97,10 +108,23 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
+=== Chicago ===
+[[File:hwc-2014-09-10-chi.jpg|700px]]
+
+Photo by {{gRegor}}
+
 * ...
 
-{{Homebrew Website Club}}
+=== San Francisco ===
+[[Image:hwc-2014-253-sf.jpg|700px]]
 
+Photo by {{t}} (not pictured). POSSE copy: <a href="http://instagram.com/p/sy4_f4A9Rw/">on Instagram</a>.
+
+Other notes or people tags:
+* ...
+
+
+{{Homebrew Website Club}}
 </div>
 <!-- h-event -->
 

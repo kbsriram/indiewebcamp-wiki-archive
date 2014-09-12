@@ -1,5 +1,6 @@
 http://indiewebcamp.com/projects
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">📑</span>
 These are '''<dfn>projects</dfn>''' you can use to get your site on the IndieWeb and improve your IndieWeb support.
 
 == Get On The IndieWeb ==
@@ -39,7 +40,7 @@ below this line is...
 
 <div style="padding:1em; background:yellow">This page is being simplified and focused on providing a quickly usable list of projects to help you get on the indie web and improve your [[IndieMark]]. For details about this page and the in-progress transition, see [[#About_This_Page|About This Page]].</div>
 
-
+__TOC__
 == production ==
 Production = the software fully launched and good enough for other independents to <em>relatively</em> easily install, use, maintain, depend on.
 
@@ -66,6 +67,7 @@ Other independents that are using it on their <em>primary</em> self-identifying 
 * Leonardo Zangrando (2013) on [http://lionzan.me/ lionzan.me]
 * Asher Silberman on [http://www.ashersilberman.com/ ashersilberman.com]
 * Demis Flanagan on [https://demisflanagan.com demisflanagan.com]
+* Trevor Alexander on [https://www.hitono.info hitono.info]
 * ...
 
 === MediaWiki ===
@@ -505,7 +507,9 @@ Despite their disused or theoretical nature, we may still be able to learn from 
 
 [[Diaspora]] is an open source project for hosting a social network on your own server that [[federates]] with other Diaspora instances, which are called "pods". 
 
-No IndieWeb community members are currently using it on their own site.
+
+IndieWeb community members who are using it on their own site:
+* [[User:Exppad.com|Élie Michel]] tries to use it on its own pod, although the federation system does not completely convince him.
 
 === Ghost ===
 {{main|Ghost}}
@@ -537,13 +541,14 @@ The Postcard API Protocol also allows the app to communicate with your own site.
 * No IndieWeb community members are currently using it on their own site.
 
 === Shaarli ===
-[http://sebsauvage.net/wiki/doku.php?id=php:shaarli Shaarli] is a minimalist [[delicious]] clone you can install on your own website. It is designed to be personal (single-user), fast, and handy.
+{{main|Shaarli}}
+[[Shaarli]] is a minimalist [[delicious]] clone you can install on your own website. It is designed to be personal (single-user), fast, and handy.
 
 It is primarily a bookmarking application, but the feature list indicates you can also ". . . use it for micro-blogging (like Twitter), a pastebin, an online notepad, a snippet repository, etc."
 
 IndieWeb community members who are using it on their own site:
 * [[User:Upon2020.com|Johannes Ernst]] is using it since he moved from delicious.com, and he's not looking back!
-* [[User:Gregorlove.com|gRegor Morrill]] is interested in trying this out testing its use for micro-blogging.
+* [[User:Exppad.com|Élie Michel]] uses it too.
 
 ===Tent.io===
 {{main|Tent.io}}

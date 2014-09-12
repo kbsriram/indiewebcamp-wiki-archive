@@ -53,6 +53,8 @@ Try [[Special:UserLogin|Logging In to the Indiewebcamp.com Wiki]]
 
 ----
 
+__TOC__
+
 === Known Issues ===
 
 * 2014-01-18: It is worth noting that, for setting up your Google+ profile, you have to add your homepage as "Other profile" rather than as (or additional to) "Contributor to" (which is needed for Google authorship).
@@ -66,7 +68,5 @@ See [[Why web sign-in]].
 * [[Why web sign-in]]
 * [[creator]]
 * [[why]]
-
-__NOTOC__
 
 [[Category:how]]

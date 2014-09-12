@@ -44,6 +44,7 @@ A project exists to make it easy to run Piwik on [https://www.openshift.com Open
 
 People using it on their own site:
 * [[User:Werd.io|werd.io]] (discontinued in early 2014?)
+* {{kylewm}} as of 2014-08-22. Installed out of curiosity, it's interesting to see the geographical diversity of visitors and get an idea of basic traffic volume.
 
 == Open Web Analytics (OWA) ==
 

@@ -41,6 +41,12 @@ How can I help onboard tech-savvy non-developers (or developers who don't want t
 * micropub post-authoring tool, like Prose.io is to github pages. 
 * Figure out an email situation somewhere between self-hosting postfix/dovecot and abandoning all hope to Gmail.
 
+== Need Help With ==
+
+* would love advice about performance/caching
+** Right now, it's taking ~1 second to render my front page... mostly doing markdown and beautifulsoup4 stuff. [https://gist.github.com/kylewm/c2d69b7e5b2fc0845bbc Profiler output, sorted by cumulative time]
+** Should I preprocess this stuff and store it in parallel to the source files, or just slap a cache on top of the finished product? (or both?)
+
 == Tools ==
 
 Tools I work on or use and can comment semi-intelligently on.

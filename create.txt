@@ -29,7 +29,7 @@ Early (2012-09-09), [[p3k]] posting interface:
 === Jeremy Keith ===
 Since 2014-05-27, [[User:adactio.com|Jeremy Keith]]'s note creation UI ("simple update form") on his home page when he's logged into his site adactio.com:
 
-[http://adactio.com/journal/6826/ https://d13yacurqjgara.cloudfront.net/users/13/screenshots/1577366/adactio-form.png]
+[http://adactio.com/journal/6826/ https://d13yacurqjgara.cloudfront.net/users/13/screenshots/1577366/adactio-form.png][https://dribbble.com/shots/1577366-Speak-your-brains]
 
 == See Also ==
 * [[note]]

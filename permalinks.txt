@@ -10,6 +10,8 @@ A '''<dfn id=permashortlink>permashortlink</dfn>''' is a URL using a personal [[
 Most [[projects]] have a very deliberate permalink URL design.
 
 === Indieweb Practices ===
+{{aaronpk}} 2009-12-08 https://twitter.com/aaronpk/status/6474702736: <blockquote>I'm noticing everyone has their own URL shortener now. flickr.com: flic.kr. builditwith.me: bldw.me. Should individuals have their own too?</blockquote>
+
 ==== Falcon ====
 [[Falcon]] running on tantek.com:
 
@@ -85,5 +87,6 @@ Another approach is to create new pages with URLs that have the old permalinks a
 ** [[notes]]
 ** [[articles]]
 * [[short-domains]]
+* [[slug]]
 
 [[Category:building-blocks]]

@@ -8,6 +8,9 @@ More details:
 * http://www.urbandictionary.com/define.php?term=This
 * http://www.newrepublic.com/article/117209/twenty-two-year-old-entrepreneur-finds-internet-riches
 
+Examples:
+* https://twitter.com/stilkov/status/508573311346180096 <blockquote>This: “POSSE is an acronym/abbreviation for Publish (on your) Own Site, Syndicate Elsewhere” http://indiewebcamp.com/POSSE</blockquote>
+
 == See Also ==
 * [[like]]
 * [[repost]]

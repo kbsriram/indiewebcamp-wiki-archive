@@ -280,6 +280,12 @@ https://checkmention.appspot.com/ lets you test your webmention implementation o
 ==== node-webmention-testendpoint ====
 [https://github.com/pfefferle/node-webmention-testendpoint node-webmention-testendpoint] is tool to test your [[webmentions]] client. Generates a demo-post and a demo-endpoint to test if your client parses the webmention-endpoint correctly and to check if the ping body is transmitted correctly.
 
+=== Tools ===
+Tools you can install to send webmentions
+==== Firefox Addon ====
+* https://addons.mozilla.org/fr/firefox/addon/webmention/
+* source: https://github.com/eliemichel/firefox-webmention-addon
+
 === Wish List ===
 * A tiny, no-dependencies js file which can fetch indiecomment data from webmention.io and dump it into an element, enabling 2-step indiecomment support:
 ** Add a <link> to webmention.io
@@ -347,24 +353,38 @@ How does this solve the spam problem that plagued Trackback and Pingback?
 However, in practice, receivers of [[Webmention]] look for specific [[h-entry]] markup to render [[comments]], which adds a minor barrier for spammers (for now).
 
 == Issues ==
-* Not specifying a required '''response format''' and/or structures of the response formats is problematic as a client can never be sure they’ll be able to read the response.
-** Fortunately, as [[User:Aaronparecki.com|Aaron Parecki]] noted, if there is an error, knowing exactly what caused it isn’t really very helpful apart from debugging, where the response will be read by a human anyway
-** Rough consensus seems to be to default to a plantext error/success message, or if an accept header is given then maybe serialise it as requested, e.g. HTML or JSON. [http://indiewebcamp.com/irc/2013-10-22/line/1382456765] Use case for HTML is in-browser sending --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 08:58, 22 October 2013 (PDT)
-* Should '''bookmarking''' send a webmention? What if there are 1000's of bookmarks? how do you distinguish between normal links and bookmarks? - http://indiewebcamp.com/irc/2013-06-11#t1370966945
-** I think bookmarking should yes, just as [[favorites]] and [[likes]] do. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
-* '''Asynchronicity''': a server may want to queue webmentions for source retrieval processing and do that asynchronously with the request. It's not always practical or advisable to handle all that processing in the actual HTTP POST thread. Thus receivers of webmentions must not be required to return <code>no_link_found</code> errors. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
-* '''Updates''': it's acceptable to send a repeat webmention, e.g. for updating or deleting [[comments]]. Thus the <code>already_registered</code> error must not be required, and should likely not even be an error in the first place. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
-* '''De-duplication''' (AKA de-duping <span id="deduping">deduping</span>): replies and other responses are often duplicated in different places, e.g. via [[backfeed]] of [[POSSE]]d replies by [[Bridgy]]. Ideally, recipients should try to de-dupe webmention sources, preferring an original post (see below). Getting this perfect is hard, but getting close is pretty easy (see [http://indiewebcamp.com/irc/2014-01-30/line/1391125255 IRC discussion]) by comparing an incoming reply (etc) to existing replies based on:
-**u-uid
-**u-url
-**[[rel-syndication]] (also compare to u-url, and vice versa)
-**other u-in-reply-to links in the incoming reply
-* '''prefer original posts''' - an alternative to implementing de-duplication is to simply always prefer original posts (replies) rather than their POSSE copies. You can implement this by:
-** '''always do [[original post discovery]] on the "source" URL'''
-** if there is an original post, 
-** use it instead of the source URL. 
-** thus: if/when your post receives Bridgy webmentions of POSSE copies of replies, you can find, retrieve, and display the original replies instead (i.e. treat it as if you received a webmention for the original). 
-** if you ''also'' receive a webmention for the original later (or before), you merely treat it as an update webmention using your existing update handling code path.
+=== 3rd party tracking exploits ===
+Third party visitor tracking (or possible exploit) via nocache icons. See [http://www.marcus-povey.co.uk/2014/09/01/spying-on-a-site-using-webmention-and-mf2/] for details.
+* [[Known]] implements a fix for this where icons are locally saved as of September 7, 2014. [[Werd.io|Ben]] is interested in other approaches.
+
+=== client unsure can read response ===
+Not specifying a required '''response format''' and/or structures of the response formats is problematic as a client can never be sure they’ll be able to read the response.
+* Fortunately, as [[User:Aaronparecki.com|Aaron Parecki]] noted, if there is an error, knowing exactly what caused it isn’t really very helpful apart from debugging, where the response will be read by a human anyway
+* Rough consensus seems to be to default to a plantext error/success message, or if an accept header is given then maybe serialise it as requested, e.g. HTML or JSON. [http://indiewebcamp.com/irc/2013-10-22/line/1382456765] Use case for HTML is in-browser sending --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 08:58, 22 October 2013 (PDT)
+=== should bookmarks send webmentions ===
+Should '''bookmarking''' (i.e. publishing a [[bookmark]] post) send a webmention? What if there are 1000's of bookmarks? how do you distinguish between normal links and bookmarks? - http://indiewebcamp.com/irc/2013-06-11#t1370966945
+* I think bookmarking should yes, just as [[favorites]] and [[likes]] do. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+=== asynchronicity ===
+'''Asynchronicity''': a server may want to queue webmentions for source retrieval processing and do that asynchronously with the request. It's not always practical or advisable to handle all that processing in the actual HTTP POST thread. Thus receivers of webmentions must not be required to return <code>no_link_found</code> errors. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+=== repeat webmentions not an error ===
+'''Updates''': it's acceptable to send a repeat webmention, e.g. for updating or deleting [[comments]]. Thus the <code>already_registered</code> error must not be required, and should likely not even be an error in the first place. - [[User:Tantek.com|Tantek]] 14:53, 13 August 2013 (PDT)
+=== de-duplication ===
+'''De-duplication''' (AKA de-duping <span id="deduping">deduping</span>): replies and other responses are often duplicated in different places, e.g. via [[backfeed]] of [[POSSE]]d replies by [[Bridgy]]. Ideally, recipients should try to de-dupe webmention sources, preferring an original post (see below). Getting this perfect is hard, but getting close is pretty easy (see [http://indiewebcamp.com/irc/2014-01-30/line/1391125255 IRC discussion]) by comparing an incoming reply (etc) to existing replies based on:
+*u-uid
+*u-url
+*[[rel-syndication]] (also compare to u-url, and vice versa)
+*other u-in-reply-to links in the incoming reply
+=== prefer original posts ===
+'''prefer original posts''' - an alternative to implementing de-duplication is to simply always prefer original posts (replies) rather than their POSSE copies. You can implement this by:
+* '''always do [[original post discovery]] on the "source" URL'''
+* if there is an original post, 
+* use it instead of the source URL. 
+* thus: if/when your post receives Bridgy webmentions of POSSE copies of replies, you can find, retrieve, and display the original replies instead (i.e. treat it as if you received a webmention for the original). 
+* if you ''also'' receive a webmention for the original later (or before), you merely treat it as an update webmention using your existing update handling code path.
+
+=== bad interpretation of h-feed source ===
+* if the ''source'' URL contains multiple posts where only one references the ''target'' post (e.g., a homepage h-feed, sent accidentally or "maliciously"), target may interpret it as many comments (see [http://werd.io/2014/im-thinking-about-adding-comments-what-do-you-like-indieweb#comments] for an example)
+* mitigation: webmention receivers should look for a backlink in the first h-entry on a given source page only.
 
 == Brainstorming ==
 === rel-webmention on <a&gt; tags ===

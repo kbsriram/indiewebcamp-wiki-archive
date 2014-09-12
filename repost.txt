@@ -128,6 +128,11 @@ On Twitter, retweeted statuses are displayed from the original author point of v
 
 [[File:2014-06-28-retweet.png]]
 
+==== 2014 retweet in stream ====
+In stream, Twitter shows the original author of the retweeted Tweet as normal, and includes text above saying "retweeted by {name}". Only the display name of the person who retweeted is shown, not the Twitter username. This can lead to confusion when reading your stream since you may not know how a tweet appeared them if you don't recognize the person's display name.
+
+[[File:2014-08-29-retweet.png]]
+
 ==== 2013 retweet in stream ====
 Previously, retweets in streams of the retweeter looked like:
 

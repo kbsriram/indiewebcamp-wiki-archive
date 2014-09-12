@@ -48,6 +48,9 @@ In no particular order, I am interested in:
 * Post events on my own site
 * Work on a simple [[HWC]] graphic for use on event posts (specifically on Facebook)
 * Queue sending webmentions so the posting UI does not hang
+* Publish [[like]]s or — more likely (no pun intended) — favorites/stars.
+** Optionally display them on a dedicated page, sorted by most recently starred.
+** Optionally allow sorting the starred item's original publish date.
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

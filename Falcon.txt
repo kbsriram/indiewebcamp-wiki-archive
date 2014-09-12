@@ -65,9 +65,11 @@ Falcon currently supports [[POSSE]]ing:
 == Publishing UI ==
 Falcon publishing UI currently consists of the following:
 # '''BBEdit''' (your choice of text editor) write new post in the storage file directly (see below for storage file format)
-# '''Terminal scp''' (update storage file on server)
+# '''Terminal scp''' (securely update storage file on server)
 #* at this point the post is live on the site, including permalink, home page (if among recent posts), Atom feed
 # minimal '''verify, PuSH, POSSE web UI'''  that:
+#* Requires and redirects to HTTPS access and uses a secure cookie (just for the admin UI) per [[https#Level_2_security]]
+#* Uses [[RelMeAuth]] for sign-in
 #* provides a text input field for a tweet URL that the next post is in-reply-to
 #* shows a preview of the next post (notes shown enough to fit in a tweet, auto-linked; only articles' names are shown. Both represent what will be tweeted in the POSSE step).
 #* provides a button '''(Tweet it)''' which when pressed, submits the form and does all the

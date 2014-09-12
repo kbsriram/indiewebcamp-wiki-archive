@@ -1,5 +1,6 @@
 http://indiewebcamp.com/start_a_page
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">📓</span>
 {{stub}}
 
 To '''<dfn>start a page</dfn>''' on the indiewebcamp wiki, either

@@ -1,5 +1,6 @@
 http://indiewebcamp.com/events/2014-08-27-homebrew-website-club
 
+<span style="float:right;height:96px;font-size:96px;margin-top:32px">📝🔗🔨</span>
 <div class="h-event vevent">
 = <span class="p-name summary">Homebrew Website Club Meetup</span> =
 
@@ -12,6 +13,7 @@ http://indiewebcamp.com/events/2014-08-27-homebrew-website-club
 
 All times are Pacific Time unless otherwise noted in venues.
 
+__TOC__
 === Where ===
 ;San Francisco
 :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
@@ -21,7 +23,7 @@ All times are Pacific Time unless otherwise noted in venues.
 :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
 
 ;Minneapolis
-TBD
+: No meetup this week!
 <!-- :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
 :''Note the Minneapolis meeting is at 18:00 CDT'' -->
 
@@ -51,8 +53,7 @@ Portland:
 * http://calagator.org/events/1250466874
 
 Minneapolis:
-* add indieevent...
-* ... and POSSE copy
+* No meetup this week!
 
 Chicago:
 * https://www.facebook.com/events/716026638451334/
@@ -66,36 +67,46 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 '''San Francisco:'''
 * {{t}} (hosting)
-* Lucas Gonze (probably writing hour)
+* [[User:Gonze.com|Lucas Gonze]] (probably writing hour)
+* {{verdi}}
 * ... add yourself!
 
 '''Portland:'''
 * {{aaronpk}} (hosting)
 * {{bret}}
 * {{expandrew}}
+* [[User:castersblues.com|Edward Irby]]
+* [[User:Mathpunk.net|Tom Henderson]]
+* Jennifer Rondeau
+* [[User:npdoty.name|Nick Doty]]
 * ... add yourself!
 
 '''Minneapolis:'''
-* ... add yourself!
+* No meetup this week!
 
 '''Chicago:'''
 * {{gRegor}}
 * [[User:kartikprabhu.com|Kartik]]
+* [[User:Pitchdesignunion.com|Margot]]
 * ... add yourself!
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-08-27 IRC discussion archives 2014-08-27] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
+* [[User:Gonze.com]] wrote and demonstrated an awesome simple minimal indie arbitrary-URL shortener:
+** https://gist.github.com/lucasgonze/c5d935823ef17f5ffa3f
+** deployed live at http://s.gonze.com
 * ...
 
 '''Portland'''
 * ...
 
 '''Minneapolis:'''
-* ... 
+* No meetup this week!
 
 '''Chicago'''
+* [[User:Pitchdesignunion.com|Margot]] joined us for the first time. She's a graphic designer, does some code ([[Ruby]], [[PHP]]), with a history in print design. She's interested in connecting with other designers and developers on a more regular basis. We helped her set up rel-me links on her site, log in to the wiki, join the IRC chat, and debug some webfont+CSS issues.
 * ...
 
 === Blog posts ===
@@ -103,7 +114,20 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
-* ...
+=== Chicago ===
+[[File:hwc-2014-08-27-chi.jpg|700px]]
+
+Photo by {{gRegor}}
+
+=== Portland ===
+[[File:2014-08-27-hwc-pdx.jpg|700px]]
+
+Photo by {{aaronpk}} (not pictured)
+
+=== San Francisco ===
+[[Image:hwc-2014-239-sf.jpg|700px]]
+
+Photo by a friendly Mozilla employee.
 
 {{Homebrew Website Club}}
 

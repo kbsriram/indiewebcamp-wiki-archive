@@ -12,70 +12,75 @@ You should also consider putting web action buttons on your posts even when inli
 
 == How ==
 === Wrap tweet or share ===
-Use the <code>&lt;action&gt;</code> tag to wrap any third party / [[silo]] action buttons/links you might already have on your site, e.g. "Tweet" / share / +1 buttons. Here is an example of wrapping an existing Tweet button (from [http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering an actual blog post]), whitespace/indenting added for readability.
+Use the <code>&lt;indie-action&gt;</code> tag to wrap any third party / [[silo]] action buttons/links you might already have on your site, e.g. "Tweet" / share / +1 buttons. Here is an example of wrapping an existing Tweet button (from [http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering an actual blog post]), whitespace/indenting added for readability.
 
 <pre><nowiki>
-<action do="post" with="http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering">
+<indie-action do="post" with="http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering">
  <span class="tweet-button">
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tantek.com/2014/179/b1/indiewebcamp-thoughts-before-gathering" data-text="IndieWebCamp 2014 — Thoughts Before The Gathering:" data-count="horizontal" data-via="t" data-related="html5now:microformats">Tweet</a>
   <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
  </span>
-</action>
+</indie-action>
 </nowiki></pre>
 
 Note that everything inside the <code>&lt;span class="tweet-button"&gt;</code> is markup from Twitter, including the javascript. It's not required for web actions, just the markup that was there from before.
 
+The <code>&lt;indie-action&gt;</code> element is an example of a [http://w3c.github.io/webcomponents/spec/custom/ custom element], part of the [http://webcomponents.org/ web components] family of technologies. The element was initially <code>&lt;action&gt;</code>, but [http://w3c.github.io/webcomponents/spec/custom/#dfn-custom-element custom elements require a dash in the element name], hence <code>&lt;indie-action&gt;</code>.
+
 === Wrap favorite reply retweet ===
-If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can wrap those in  <code>&lt;action&gt;</code> tags so that those with <code>&lt;action&gt;</code> tag support will be able to automatically interact using their own site rather than a silo. Here's some sample markup (again [http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides from an actual post]), note that text verbs have been updated to use the general [[like]], [[reply]], [[repost]] terms rather than Twitter's terms. Again whitespace added for wrapping/readability (and non-essential attributes removed)
+If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can wrap those in  <code>&lt;indie-action&gt;</code> tags so that those with <code>&lt;indie-action&gt;</code> tag support will be able to automatically interact using their own site rather than a silo. Here's some sample markup (again [http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides from an actual post]), note that text verbs have been updated to use the general [[like]], [[reply]], [[repost]] terms rather than Twitter's terms. Again whitespace added for wrapping/readability (and non-essential attributes removed)
 
 <pre><nowiki>
-<action do="like" 
+<indie-action do="like" 
  with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
  <a target="" 
   href="https://twitter.com/intent/favorite?tweet_id=481682185359880192">
   <img src="http://si0.twimg.com/images/dev/cms/intents/icons/favorite_hover.png" alt=""/> 
   Like
  </a>
-</action>
-<action do="repost" 
+</indie-action>
+<indie-action do="repost" 
  with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
  <a target="" 
   href="https://twitter.com/intent/retweet?tweet_id=481682185359880192">
   <img src="http://si0.twimg.com/images/dev/cms/intents/icons/retweet_hover.png" alt=""/> 
   Repost
  </a>
-</action>
-<action do="reply" 
+</indie-action>
+<indie-action do="reply" 
  with="http://tantek.com/2014/175/t1/pdf14-why-need-indieweb-video-slides">
  <a target="" 
   href="https://twitter.com/intent/tweet?in_reply_to=481682185359880192">
   <img src="http://si0.twimg.com/images/dev/cms/intents/icons/reply_hover.png" alt=""/> 
   Reply
  </a>
-</action>
+</indie-action>
 </nowiki></pre>
 
 == IndieWeb Examples ==
-<span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
+<span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;indie-action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
 
 === Barnaby Walters ===
 '''[[User:Waterpigs.co.uk|Barnaby Walters]]''' on notes [http://waterpigs.co.uk/notes/1123/ since at least 2013-03-15], e.g. 
 * http://waterpigs.co.uk/notes/1123/
 * have <code>&lt;action></code> tags with verbs: <code>post</code>, <code>reply</code>, <code>bookmark</code>
+
 === Laurent ===
 '''[[User:Eschnou.com|Laurent]]''' (all posts?) since ????-??-??, e.g. 
-** http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
-** have <code>&lt;action></code> tags with verb: <code>post</code>
+* http://eschnou.com/entry/on-silos-vs-an-open-social-web-indieweb---by-t-62-24891.html
+* have <code>&lt;action></code> tags with verb: <code>post</code>
+
 === Tantek ===
 '''[[User:Tantek.com|Tantek]]''''s posts on tantek.com have the following web actions (using [[Falcon]]) [http://tantek.com/2013/251/t1/indieweb-reply-favorite-retweet-notes since 2013-09-08]:
 * [[articles]], e.g.:
 ** http://tantek.com/2013/073/b1/silos-vs-open-social-web#silos-vs-open-social-web-elsewhere
-** have <code>&lt;action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
+** have <code>&lt;indie-action></code> tags with verb: '''<code>post</code>''' with Tweet action fallback inside on each article post
 * [[notes]], e.g.:
 ** 
-** have <code>&lt;action></code> tags with verbs '''<code>like</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
+** have <code>&lt;indie-action></code> tags with verbs '''<code>like</code>, <code>repost</code>, <code>reply</code>''' with Tweet action fallback inside on each note post, and Twitter wording/icons (since the notes are primarily POSSEd to Twitter), e.g.: [http://tantek.com/2013/250/t1/demonstrating-falcon-indiewebcampuk-text-editor http://indiewebcamp.com/images/d/d2/tantek-com-demo-note-2013-251.png]
 * Since then updated (2014) to:
 ** <samp> Like Repost Reply </samp> with the same icons as before.
+* 2014-09-07 updated from <code>&lt;action></code> (2013-09-08..2014-09.06) to <code>&lt;indie-action></code> tags per {{adactio}} suggestion and web components convention.
 
 === Indienews ===
 '''Indienews''' comments pages, e.g.
@@ -93,8 +98,12 @@ Some of Barry Frost's post have webactions as of 2013-10-01[http://barryfrost.co
 * have <code>&lt;action></code> element and fallback to Twitter actions.
 
 === Kyle Mahan ===
-* {{kylewm}} all posts on http://kylewm.com have "reply", "repost", and "favorite" webaction links as of 2014-05-15 [https://github.com/kylewm/redwind/commit/4ceb0e7d5a3efb3b68060df28761c56e7e49802d]
+{{kylewm}} all posts on http://kylewm.com have "reply", "repost", and "favorite" webaction links as of 2014-05-15 [https://github.com/kylewm/redwind/commit/4ceb0e7d5a3efb3b68060df28761c56e7e49802d]
 * Links fallback to Twitter Reply, Retweet, Favorite if a Twitter syndication URL exists
+
+=== Scott Gilbertson ===
+[[User:Luxagraf.net|Scott Gilbertson]] posts [[notes]] with "Reply" "Retweet" and "Favourite" webaction links [http://indiewebcamp.com/wiki/index.php?title=User:Luxagraf.net&diff=prev&oldid=9962 since ~2014-06-09]. Links fallback to [[Twitter]] reply, retweet, favorite tweet actions. Example:
+* https://luxagraf.net/field-notes/2014/06/people
 
 === Michael Owens ===
 '''[[User:Mowens.com|Michael Owens]]''''s notes on mowens.com have the following web actions since 2014-08-14 (verified by {{t}}, possibly earlier)
@@ -108,6 +117,16 @@ Some of Barry Frost's post have webactions as of 2013-10-01[http://barryfrost.co
 ** Repost: [[citation]] UI text fields to copy/paste 
 *** <nowiki>"Short URL: [https://mowens.com/n/4Ws2]"</nowiki>
 *** <nowiki>"Permalink: [https://mowens.com/2014/...]"</nowiki>
+
+=== Pelle Wessman ===
+'''[[User:Kodfabrik.se|Pelle Wessman]]''' on posts since 2014-09-07 (deployed at [[2014/UK|IndieWebCampUK]] hack day!) e.g. 
+* http://voxpelli.com/2013/12/webmentions-for-static-pages/
+* have <code>&lt;indie-action></code> tags with verbs: <code>post</code>, <code>like</code>, <code>tip</code>
+
+=== Jeremy Keith ===
+'''{{adactio}}''' on post permalinks and in-stream on home page [http://adactio.com/notes/7408/ since 2014-09-07] (deployed at [[2014/UK|IndieWebCampUK]] hack day!) e.g. 
+* http://adactio.com/notes/7408/
+* have <code>&lt;indie-action></code> tags with verbs: <code>reply</code>, <code>repost</code>, <code>like</code>; with tweet action fallback links inside.
 
 == Use Cases ==
 There are at least two key use cases that are worthy of exploring for webactions:
@@ -264,6 +283,9 @@ Current implementations:
 
 === Web Action Hero Toolbelt ===
 * The [https://github.com/barnabywalters/web-action-hero-toolbelt web action hero toolbelt] cross-browser extension allows you to use web actions right now in Firefox, Safari, Chrome or Opera.
+
+=== Greasemonkey Script ===
+* This is a bare-bones [https://kylewm.com/article/2014/09/09/1/greasemonkey-script-to-replace-indie-actions-with-links-to-my-site Greasemonkey script] that will replace the content of action and indie-action tags with a link to the "intent" urls specified at the top of the script.
 
 == Website Action URL Support ==
 {{main|Web Action URL APIs}}

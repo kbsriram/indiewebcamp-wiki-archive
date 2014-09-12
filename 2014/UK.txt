@@ -3,7 +3,8 @@ http://indiewebcamp.com/2014/UK
 <div class="h-event vevent">
 = <span class="p-name summary">IndieWebCampUK 2014</span> =
 
-The third IndieWebCamp in sunny Brighton - one of many IndieWeb [[events]].
+The third IndieWebCamp in sunny Brighton - one of many [[IndieWebCamps]]!
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">🎪</span>
 
 <div class="p-description description">
 Own your data.
@@ -26,20 +27,48 @@ Curious about attending? See what happened at  [[2013/UK|IWC UK 2013]] (it was a
 <!--
 * '''<span class="u-url url"></span> Indie Event!''' Reply with an [[RSVP]] post on your own site and send a [[webmention]]!
 -->
-<!--
-* '''<a class="u-url url" href="https://www.facebook.com/events/283401211828660">Facebook</a>'''
--->
-<!--
-* '''<a class="u-url url" href="http://lanyrd.com/2014/indiewebcamp-nyc/">Lanyrd</a>'''
--->
+
+Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Guest_List|Guest List]]''')
+* Lanyrd: <span class="u-url url">http://lanyrd.com/2014/indiewebcampuk</span>
 <!--
 * '''<a class="u-url url" href="http://plancast.com/p/ld30">Plancast</a>'''
 -->
-
-Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Guest_List|Guest List]]''')
-<!-- * Lanyrd: <span class="u-url url">http://lanyrd.com/2013/indiewebcampuk/</span>-->
+<!--
+* '''<a class="u-url url" href="https://www.facebook.com/events/283401211828660">Facebook</a>'''
+-->
 * Brighton Digital Festival: <span class="u-url url">http://www.brightondigitalfestival.co.uk/events/indie-web-camp/</span>
 * Top level [https://etherpad.mozilla.org/indiewebcamp IndieWebCamp Etherpad]
+
+== Photos ==
+[[File:IWC_UK_2014_group_photo.jpg|720px]]
+
+Group Photo!
+
+=== Day 1 Brainstorming ===
+[https://twitter.com/jkphl/status/508380205749391360 https://pbs.twimg.com/media/Bw4hE5DCMAA6kiz.jpg]
+
+[https://twitter.com/digitalblissltd/status/509628396369108992 https://pbs.twimg.com/media/BxKQUz3CMAAXOF7.jpg]
+
+[https://twitter.com/jkphl/status/508265364548255745 https://pbs.twimg.com/media/Bw24pZtCUAAIuj6.jpg]
+
+[https://twitter.com/jkphl/status/508265364548255745 https://pbs.twimg.com/media/Bw24p6UCMAAPwAo.jpg]
+
+[https://twitter.com/adactio/status/508312761424961538 https://pbs.twimg.com/media/Bw3jw0-IYAAhXMT.jpg]
+=== Day 2 Hack And Build===
+[https://twitter.com/aral/status/508545263557181440 https://pbs.twimg.com/media/Bw63OGpIcAAZlVA.jpg]
+
+[https://twitter.com/AmazeWall/status/509176337140314112 https://pbs.twimg.com/media/BxD1LkUIcAA-XWw.jpg]
+
+[https://twitter.com/jkphl/status/508605294499606528 https://pbs.twimg.com/media/Bw7tz4pIUAAF5-0.jpg]
+
+[https://twitter.com/jkphl/status/508590951372451841 https://pbs.twimg.com/media/Bw7gqT4CEAM11Bc.jpg]
+
+[https://twitter.com/jkphl/status/508673441571299329 https://pbs.twimg.com/media/Bw8rw9LCQAA_Oyp.jpg]
+
+[https://twitter.com/aral/status/508691459063951360 https://pbs.twimg.com/media/Bw88L8kIMAIegcb.jpg]
+
+=== Beautiful Nearby Brighton ===
+[https://twitter.com/jkphl/status/507560791986675712 https://pbs.twimg.com/media/Bws30swIgAAhkDv.jpg]
 
 == Schedule ==
 {| border="2" cellpadding="10" cellspacing="0" align="center"
@@ -47,7 +76,7 @@ Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Gue
 
 |-
 
-! style="background:#ffdead;" | Day 1: Discussion
+! style="background:#ffdead;" | Day 1: Discussions
 ! colspan="2" style="background:#efefef;" | Day 2: Hacking
 
 |-
@@ -67,9 +96,9 @@ Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Gue
 <br>09:00 Organizer setup
 <br>09:30 Doors open - badges
 <br>10:00 Day 2 kick-off
-<br>11:00 Hack sessions
-<br>13:00 Lunch out
-<br>14:00 Hack sessions continue
+<br>10:45 Hack sessions
+<br>12:30 Lunch out
+<br>13:30 Hack sessions continue
 <br>16:30 Demos
 <br>17:30 Clean-up
 <br>18:00 Camp closed!
@@ -84,8 +113,9 @@ Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Gue
 |}
 
 __TOC__
+
 == Participating ==
-* [[2014/UK/Sessions|Session Proposals]]
+<!-- * [[2014/UK/Sessions|Session Proposals]] none day of so commented this out -->
 * [[2014/UK/Schedule|Schedule Grid]] - hyperlinked to actual session pages
 * [[2014/UK/Demos|Demos]]
 * [[IRC]]
@@ -114,6 +144,7 @@ At Finish: (see [http://indiewebcamp.com/irc/2014-04-27 Day 2 IRC archives for d
 Our thanks to these sponsors for supporting the event.
 
 * '''Clearleft''' for providing the venue
+* '''Esri''' for providing breakfast
 
 Want to sponsor a future IndieWebCamp event? See:
 * [[how-to-sponsor|How to sponsor IndieWebCamp]]
@@ -122,7 +153,7 @@ Want to sponsor a future IndieWebCamp event? See:
 __TOC__
 
 == Organizers ==
-* '''Organizers''': [[User:Tommorris.org|Tom Morris]] and [[User:Adactio.com|Jeremy Keith]]
+* '''Organizers''': [[User:Tommorris.org|Tom Morris]], [[User:Adactio.com|Jeremy Keith]], and {{t}}
 ** Want to help organize? '''Get in touch with us on [[IRC]]!'''
 * Want to help out? 
 ** Contact an organizer or sign-up to [[2014/UK/Guest_List#Volunteers|Volunteer]]!

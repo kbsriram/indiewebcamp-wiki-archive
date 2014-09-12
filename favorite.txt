@@ -32,6 +32,13 @@ Favorites:
 
 These differences may be subtle enough as to make it confusing if both were present in a system - there are no known systems that have both.
 
+== Silo Examples ==
+=== Flickr ===
+[[Flickr]] puts a star favorite button on a photo, clicking it puts that photo into your "Favorites" collection/album, and adds to the favorite count (and list of favoriters) of that photo.
+
+=== Twitter ===
+[[Twitter]] puts a star favorite button under each tweet that adds it to your Favorites collection.
+
 == FAQ ==
 === Do both or not ===
 Q: Should I have both favorite and like posts?

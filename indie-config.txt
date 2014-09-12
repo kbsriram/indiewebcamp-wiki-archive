@@ -1,0 +1,128 @@
+http://indiewebcamp.com/indie-config
+
+{{stub}}
+
+'''<dfn>indie-config</dfn>''' is a method of using protocol handlers and postmessage to setup your indie website to both notify the browser that it can handle [[webactions]] and then do so.
+
+indie-config was introduced and discussed at [[2014/UK|IndieWebCampUK 2014]]
+
+== Why ==
+By setting up indie-config on your personal site, you can then click on [[web action]] links or buttons on others sites (e.g. "Reply", "Favorite" etc.) and have those actions automatically activate <em>your</em> site's posting interface to.
+
+== How ==
+How to setup indie-config on your personal site:
+
+=== Create the configuration page ===
+Create a page on your site that only you will need to access. This might be a page such as "config.html". This page should contain the following Javascript:
+
+<pre>
+<script>
+(function() {
+  if (window.parent !== window) {
+    window.parent.postMessage(JSON.stringify({
+      // The endpoint you use to write replies
+      reply: 'https://aaronparecki.com/note.php?reply_to={url}'
+    }), '*');
+  }
+}());
+</script>
+</pre>
+
+Replace the URL above with the URL to your own posting interface.
+
+
+=== Register the web action protocol ===
+On your home page, find somewhere to add this code to be displayed only to you when you are signed in to your own site.
+
+<pre>
+<script>
+window.navigator.registerProtocolHandler('web+action', 'https://aaronparecki.com/config.html?handler=%s', 'Aaron Parecki');
+</script>
+</pre>
+
+Note that you will want to replace the URLs (<code>https://aaronparecki.com/config.html</code>) and my name (<code>'Aaron Parecki'</code>) with your own information. You should replace the URL with the page you made in the previous step. The text you add as the third parameter will be shown in the browser prompt, so it makes sense to use your name or possibly the name of your site's software.
+
+
+=== Turn it on ===
+Now when you visit your home page, you will see a prompt asking whether your site should be allowed to handle "web+action://" links.
+
+[[File:web-action-permission-prompt.png]]
+
+Click "Add Application" (or the equivalent for your browser) and your website is now registered in your browser or operating system.
+
+=== Example ===
+* Video: http://aaronparecki.com/notes/2014/09/10/1/webactions
+
+== How to load someones indie-config ==
+
+An example Promise-based indie-config loader:
+
+<pre>
+// Lazy-create and return an indie-config load promise
+// The promise will be resolved with a config once the indie-config has been loaded
+var loadIndieConfig = function () {
+
+  // Create the Promise to return
+  var loadPromise = new Promise(function (resolve) {
+
+    // Parse the incoming messages
+    var parseIndieConfig = function (message) {
+
+      // Check if the message comes from the indieConfigFrame we added (or from some other frame)
+      if (message.source !== indieConfigFrame.contentWindow) {
+        return;
+      }
+
+      var indieConfig;
+
+      // Try to parse the config, it can be malformed
+      try {
+        indieConfig = JSON.parse(message.data);
+      } catch (e) {}
+
+      // We're done – remove the frame and event listener
+      window.removeEventListener('message', parseIndieConfig);
+      indieConfigFrame.parentNode.removeChild(indieConfigFrame);
+      indieConfigFrame = undefined;
+
+      // And resolve the promise with the loaded indie-config
+      resolve(indieConfig);
+    };
+
+    // Listen for messages from the added iframe and parse those messages
+    window.addEventListener('message', parseIndieConfig);
+
+    // Create a hidden iframe pointing to something using the web+action: protocol
+    var indieConfigFrame = document.createElement('iframe');
+    indieConfigFrame.src = 'web+action:load';
+    document.getElementsByTagName('body')[0].appendChild(indieConfigFrame);
+    indieConfigFrame.style.display = 'none';
+  });
+
+  // Ensure that subsequent invocations return the same promise
+  loadIndieConfig = function () {
+    return loadPromise;
+  };
+
+  return loadPromise;
+};
+</pre>
+
+== FAQ ==
+=== Ok to registerProtocol handler every time ===
+Q: Is it ok to run that register protocol thing every time I load my home page?
+
+A: Yes it is ok.  If you run the registerProtocolHandler() on the same page that's already registered nothing will happen – it will know that everything is registered as it should.
+
+=== Using custom handler for replies instead of configuration ===
+Q: Why does the custom handler send back configuration information instead of just handling replies directly? (i.e., web+action://permalink would be handled by with <nowiki>http://example.com/reply?u=permalink</nowiki>)
+
+A: This does not provide a fallback if there is no handler registered. There would be a &lt;a href="web+action://permalink">Reply&lt;/a> link on the page that would go nowhere
+
+=== isProtocolHandlerRegistered ===
+Q: Couldn't you use isProtocolHandlerRegistered to check if a handler is registered, and only use the custom protocol if it is?
+
+A: That function [https://bugzilla.mozilla.org/show_bug.cgi?id=440620 doesn't exist!] And it would be a potential privacy leak, e.g., allowing sites to see which apps you have installed on your phone by checking facebook:, twitter:, etc..
+
+== See Also ==
+* [[webactions]]

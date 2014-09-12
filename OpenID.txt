@@ -4,6 +4,10 @@ http://indiewebcamp.com/OpenID
 
 '''<dfn>[https://en.wikipedia.org/wiki/OpenID OpenID]</dfn>''' is a method of using an HTTP URL as an identity for signing into websites. OpenID has been superseded by [[web-sign-in]] / [[indieauth]].
 
+<div style="background:#ffe; padding:1em; font-weight:bold">
+* See: [[How_to_set_up_web_sign-in_on_your_own_domain#Setup_Instructions|How to setup web sign-in on your own domain]]
+</div>
+
 == Setup ==
 To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the <code>&lt;head&gt;</code> element) of your website, replacing "aaronparecki.com" with your domain of course.
 

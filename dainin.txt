@@ -5,9 +5,10 @@ http://indiewebcamp.com/dainin
 == Features ==
 * uwsgi Flask app to process
 ** webmentions
-** IndieAuth login and token validation
+** IndieAuth login and auth code validation
 ** Individual article pages now can support a webmention submit form via /webmention
 ** notes can be added via /note (and it adds a login button for auth if needed)
+** /token endpoint to generate/update/invalidate an application access token based on logged in client_id
 
 == Working On ==
 * Micropub endpoint support

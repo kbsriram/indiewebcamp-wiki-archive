@@ -15,8 +15,8 @@ http://indiewebcamp.com/Main_Page-ko
 
 === 블로그와 분산 웹의 미래 ===
 인디웹은 이전 노력 및 커뮤니티와 몇 가지 [[different|차별점]]이 있습니다.
-* 중도 성향의 '''[[Principles|원칙]]''' [[monoculture-ko|독점문화]]를 넘어서 [[principles-ko#Plurality|공감대 기반 프로젝트]]를 만들고 있습니다.
-* 이메일 대신 '''[[Selfdogfood-ko|개밥먹기]]''' 말만하기 전에 문제를 발견하고, [[creator-ko|만들고]], 고치는 과정을 계속 우선합니다.
+* '''[[principles-ko|기본 원칙]]''' - [[monoculture-ko|독점문화]]를 넘어서 [[principles-ko#Plurality|공감대 기반 프로젝트]]를 만들고 있습니다.
+* '''[[Selfdogfood-ko|개밥먹기]]''' - 말 만하기 전에 문제를 발견하고, [[creator-ko|만들고]], 고치는 과정을 계속 우선합니다.
 * 먼저 '''[[Design-ko|디자인]]'''을 하고, 포맷은 나중에. 최소한의 표준과 프로토콜을 가지고 멋진 UX와 개밥먹기 프로토타입을 먼저 만듭니다.
 
 관심이 있으시면, [[Getting_Started-ko|지금 참여]]해주세요!

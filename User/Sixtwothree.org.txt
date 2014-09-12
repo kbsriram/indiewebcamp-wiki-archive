@@ -1,0 +1,26 @@
+http://indiewebcamp.com/User%3ASixtwothree.org
+
+<img src="http://sixtwothree.org/jgarber.png" style="float: right; margin-left: 1em; width: 200px">
+= Jason Garber =
+'''<dfn>Jason Garber</dfn>''' is a web developer, musician, community organizer, photographer, and occasional author living in Washington, DC.
+
+* http://sixtwothree.org
+* [https://twitter.com/jgarber @jgarber on Twitter]
+* [https://github.com/jgarber623 jgarber623 on GitHub]
+
+== Projects ==
+
+* [http://sixtwothree.org sixtwothree.org]: Powered by Jekyll, source available on [https://github.com/jgarber623/sixtwothree.org GitHub].
+* [http://webmention.sixtwothree.org webmention.sixtwothree.org]: My webmention endpoint, powered by Sinatra.
+* [https://github.com/jgarber623/craft-webmention-client Craft Webmention Client Plugin]: A PHP plugin for the Craft CMS that sends webmentions.
+
+== Working On ==
+
+* Open-sourcing [http://webmention.sixtwothree.org webmention.sixtwothree.org]
+* Automatically send webmentions when a new post is published. (Idea: external service watches an RSS feed for new feed items, parses new feed item for links, and sends webmentions to those links)
+* Add Links section to site and POSSE copies to Delicious (related: import existing [https://delicious.com/jgarber Delicious bookmarks])
+* Figure out how to programmatically add syndicated copies links (e.g. Twitter, Facebook) to posts
+
+== Related Posts ==
+
+* [http://sixtwothree.org/tags/indieweb Posts tagged "indieweb" on sixtwothree.org]

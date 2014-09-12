@@ -1,11 +1,13 @@
 http://indiewebcamp.com/code-of-conduct
 
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">🌈</span>
 = Code of Conduct =
 tl;dr: <blockquote>Be respectful of other people, respectfully ask people to stop if you are bothered, and if you can't resolve an issue contact staff. If you are being a problem, it will be apparent and you'll be asked to leave.</blockquote>
 
 Based on previous [[code-of-conduct-examples|excellent work by others]], this is a draft '''code of conduct''' for IndieWebCamp events.
 
 == Respect ==
+__TOC__
 IndieWebCamp is an intentionally positive community that recognizes and celebrates the creativity and collaboration of independent creators (and independence) and the diversity of people, cultures, and opinions that they bring to IndieWebCamp.
 
 IndieWebCamp events are an inclusive environment, based on treating all individuals respectfully, regardless of gender (including transgender status), sexual orientation, age, disability, nationality, ethnicity, religion (or lack thereof), or software preferences.

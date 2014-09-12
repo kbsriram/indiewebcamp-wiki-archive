@@ -7,8 +7,8 @@ http://indiewebcamp.com/Nike%2B
 == API ==
 Nike+ has a RESTful read API.
 * http://developer.nike.com/ - requires (free) nike.com account to use and even read the documentation.
-** https://developer.nike.com/activities - Activity Services - main documentation page
-** https://developer.nike.com/console - API console - try out any Nike+ REST API calls using your API token (retrievable dynamically with login using the web interface).
+** https://developer.nike.com/documentation/api-docs/activity-services.html - Activity Services - main documentation page
+** https://developer.nike.com/documentation/api-docs/test-console.html - API console - try out any Nike+ REST API calls using your API token (retrievable dynamically with login using the web interface).
 
 
 To create a free account:

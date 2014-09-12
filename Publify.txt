@@ -11,6 +11,7 @@ Master currently supports the following indie Web features:
 * [[h-review]] on default themes
 * Self hosted URL shortener 
 * [[PESOS]] for formerly posted tweets
+* Markdown, Textile, Flickr import, auto link. Twitter handler discovery and syntax highlighting.
 
 === Editing UI ===
 http://t37.net/files/resource/1286/publify-new-screen-editor.png

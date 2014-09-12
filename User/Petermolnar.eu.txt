@@ -1,5 +1,44 @@
 http://indiewebcamp.com/User%3APetermolnar.eu
 
-{{stub}}
+<span style="float:right;margin-left:1em"><img src="https://s.gravatar.com/avatar/1915b220dfe0cc56209cb4d11b389383?s=128" /></span>
+<span class="h-card">[https://petermolnar.eu/ Peter Molnar]</span>
 
-<span class="h-card">[https://petermolnar.eu/ Péter Molnár]</span>
+My point of view for the need of indie web might be a bit different from others, here is my reasoning:
+[https://petermolnar.eu/journal/indieweb-decentralize-web-centralizing-ourselves/ Indieweb – decentralize the web while centralizing ourselves]
+
+== website setup ==
+https://petermolnar.eu is WordPress but has it's own special snowflakes. Though I have my [https://petermolnar.eu/journal/why-new-blog-engines-like-ghost-suck-and-why-are-they-brilliant-at-the-same-time/ personal reasons] for using WP, I do believe in the power of collaboration and Open Source as well and I try to encourage as many as possible to make existing things better instead of reinventing the wheel.
+
+The additions I need to make my site indie-friendly:
+* posts are in MarkDown Extra + Github, using [http://wordpress.org/plugins/wp-parsedown/ Parsedown Extra] plugin
+* [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ Social Networks Auto Poster] for POSSE (see later)
+* an [https://github.com/petermolnar/wordpress-syndication extended version] of [https://github.com/jihaisse/wordpress-syndication rel-syndication for wordpress]
+* an [https://github.com/petermolnar/wp-post-formats extended version] of [https://github.com/crowdfavorite/wp-post-formats wp-post-formats]
+* [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic-Linkbacks] plugin
+* [https://github.com/pfefferle/wordpress-webmention WebMention] plugin 
+* the [https://github.com/petermolnar/petermolnar.eu petermolnar.eu theme] is taking care of specific tasks:
+** based on the data from SNAP, if the post was syndicated, display re(share/tweet/post) instead of the regular button in the share section
+** be microformats2-friendly
+** replace short url with pmlnr.eu/#post_id which is redirected with nginx: 
+        # pmlnr.eu
+        server {
+                listen 80;
+                server_name .pmlnr.eu;
+                rewrite "^/([0-9]{1,6}).*$" https://petermolnar.eu/?p=$1 permanent;
+                rewrite ^(.*)$ https://petermolnar.eu$1 permanent;
+        }
+
+Commenting is restricted to pingbacks, trackbacks, webmentions and responses made on silos. Formerly I used [https://www.brid.gy/ brid.gy] to retrieve responses (like, reply, comment, etc ) from sites but I moved to the SNAP plugin provided import function; I like relying less on 3rd party if possible.
+
+== used silos ==
+* [[Flickr]] - only for [[photos]] when they are under the photo category of image posts
+* [[Twitter]] - title + shorturl
+* [[Facebook]] - as link, preferably with image, title, excerpt and shorturl
+
+== skills ==
+* anything that fits in linux sysadmin day job
+* CSS3, LESS, responsive design
+* PHP, C, bash and a bit of Python
+
+== counteragruments about indiewebification ==
+* databases are good, the were invented for good reasons. WordPress not being able to use SQLite is a shame though.

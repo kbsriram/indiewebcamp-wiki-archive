@@ -28,6 +28,10 @@ Soonest first:
 ** Data export: <blockquote>Yes! You can either email hello@mlkshk.com with your user name or click the link “Request Zip File Of All My Images” on your account settings page. It should take about a day to process your request if we don’t get inundated with requests.</blockquote>
 ** Will be working with Archive Team to have data stored there as well. [https://twitter.com/mlkshk/status/463448796785934336]
 
+* 2014-09-25 '''TwitPic''' will shut down.
+**Reason: <blockquote>A few weeks ago Twitter contacted our legal demanding that we abandon our trademark application or risk losing access to their API. [..] Unfortunately we do not have the resources to fend off a large company like Twitter to maintain our mark which we believe whole heartedly is rightfully ours. Therefore, we have decided to shut down Twitpic.</blockquote>
+** Data export: <blockquote>You will be able to export all your photos and videos. We’ll let everyone know when this feature is live in the next few days.</blockquote>
+
 * 2014-09-30 '''Orkut''' will shut down but it looks like they might not break the public archives.
 ** "We are preserving an archive of all public communities, which will be available online starting September 30, 2014. If you don't want your posts or name to be included in the community archive, you can remove Orkut permanently from your Google account." [http://en.blog.orkut.com/2014/06/tchau-orkut.html source]
 Speculative:
@@ -134,6 +138,7 @@ In reverse chronological order:
 ** Data export still available after logging in at: http://www.dopplr.com/account/data_export
 ** See http://www.dopplr.com/account for individual ICS and Atom feeds, under heading "Getting things out of Dopplr"). 
 ** To export your contacts, in Firefox go to http://www.dopplr.com/account/connections and then "Save Page As..." (be sure "Web Page, complete" is selected in the popup). There's also http://www.dopplr.com/account/others if you're a completist.
+* 2013-10-11 '''DarQroom''' started as a free photograph storage / publication / printing platform [https://www.facebook.com/photo.php?fbid=10151694326327129&set=a.10150316860417129.335329.672937128&type=1&theater until the end announced by Thierry Ferey - former co-founder and CEO of DarQroom]
 * 2013-09-28 '''Yahoo! Term Extraction API''' (citation needed)
 ** We are eliminating direct access to the Yahoo! Term Extraction API and as of September 28, will require developers to go through YQL. We encourage all existing users of the Term Extraction Legacy API to migrate to YQL requests by September 28.  You can use the YQL forums for any questions you might have about migrating to YQL. If you are already using the Term Extraction API via YQL, you don’t need to take any action.
 * 2013-09-19- '''.Net Magazine''', a web industry magazine, merged with creative bloq
