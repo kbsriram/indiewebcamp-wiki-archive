@@ -2,22 +2,22 @@ http://indiewebcamp.com/Getting_Started
 
 <span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">ℹ</span>
 = Getting Started on the IndieWeb =
-Perhaps you relate to all the reasons [[why]] you should be on the indie web but you're not sure how.
+Perhaps you relate to all the reasons [[why]] you should be on the IndieWeb, but you're not sure how.
 
-Here are a few simple steps you can take to get you on your way to being on the indie web. Each of these steps is a just a bit more challenging and will make you a bit more indie.
+Here are a few simple steps you can take to get you on your way to being on the IndieWeb. Each of these steps is a just a bit more challenging and will make you a bit more indie.
 
 == Connect ==
-Zeroeth, connect with indie web experts and pioneers:
+Zeroeth, connect with IndieWeb experts and pioneers:
 * '''Join the [[IRC]] channel'''
-Why? This step alone will help you quickly get questions answered about next steps. It's not required, but will almost certainly accelerate your progress.
+Why? This step alone will help you quickly get questions answered about next steps. It's not required, but it will almost certainly accelerate your progress.
 
 == Personal Domain ==
 {{main|personal-domain}}
 First, you need your own personal online identity:
-* '''Get your own personal domain name''' - Ask a friend or colleague for a [[domain name registrar]] that they use and like/trust/respect etc.
+* '''Get your own personal domain name''' - Ask a friend or colleague for a [[domain name registrar]] that they use and like, trust, respect, etc.
 * '''Domain Privacy''' - Note that most domain name registrars will make your personal information (name, mailing address, phone number and email address) publicly available via whois lookups. Some registrars offer domain privacy options, so that instead of your personal details the registrar's details will be in the whois directory. Only use domain privacy if you fully trust the provider of the service -- disputes about domain name administration or transfers may get tricky if you are not listed as the legal owner of the domain.
 
-Why? All the reasons listed in [[why]]. This is the key first step to joining the indieweb.
+Why? All the reasons are listed in ''[[Why]]''. This is the key first step to joining the IndieWeb.
 
 === Bonus: short domain ===
 Bonus: get your own personal [[short-domain|short domain name]].
@@ -26,7 +26,7 @@ Why? To work around length limits in a [[discovery|discoverable]] way; see [[Get
 
 == A Place For Your Stuff ==
 __TOC__
-Second you need a place for your stuff.
+Second, you need a place for your stuff.
 
 The easier, free, but limited path is to use a free service as ''[[Transitional Steps]].
 
@@ -50,13 +50,13 @@ Upload a simple HTML index.html home page to get started with your [http://micro
 ** Why: this helps with providing authorship information for anything you publish and link back to your home page with [[rel-author]].
 
 Advantages: while you're not sharing your content on your own site (yet),
-* you've staked your claim on the indie web, and 
+* You've staked your claim on the IndieWeb, and 
 * setup an identity that you own and control. 
-This is a small but important step to declaring your independence from content silos.
+This is a small, but important, step to declaring your independence from content silos.
 
 == Content Publishing ==
 Fourth, set up content publishing on your domain.
-* Take a look at indie web [[Projects]], pick one, and install it or set it up (e.g. your web hosting provider may have a "cPanel" control panel (or [http://en.wikipedia.org/wiki/Fantastico_%28web_hosting%29 Fantastico]) which can set up a WordPress install in a few clicks).
+* Take a look at IndieWeb [[Projects]], pick one, and install it or set it up (e.g. your web hosting provider may have a "cPanel" control panel (or [http://en.wikipedia.org/wiki/Fantastico_%28web_hosting%29 Fantastico]) which can set up a WordPress install in a few clicks).
 
 == Personal Shortlinks ==
 {{main|permashortlinks}}
@@ -75,15 +75,15 @@ How?
 == POSSE ==
 Start to [[POSSE]], that is, Publish (on your) Own Site, Syndicate Elsewhere.
 
-Set up [[syndication-models|syndication]] so copies of your Indie Web content can be published (semi-automatically) to social silos. By setting up [[POSSE]], you can have your posts pushed to specific [[silos]] with a personal [[permalink]]/permashortlink or citation identifier back to the original on your own site.
+Set up [[syndication-models|syndication]] so copies of your IndieWeb content can be published (semi-automatically) to social silos. By setting up [[POSSE]], you can have your posts pushed to specific [[silos]] with a personal [[permalink]]/permashortlink or citation identifier back to the original on your own site.
 Why: by POSSEing your content to [[silos]], you allow those that read content on those [[silos]] to continue seeing what you have to say, while you retain ownership and control of your content on your own site.
 
-Remember: incremental progress is OK and encouraged! POSSE does not have to be totally automatic to be effective, If there is not a pre-existing plugin for your platform, try simply posting on your site and sharing to silos ''manually'' (include a link back to the original). This will help you figure out what works for you and what is worth the effort to automate.
+Remember: incremental progress is OK and encouraged! POSSE does not have to be totally automatic to be effective. If there is not a pre-existing plugin for your platform, try simply posting on your site and sharing to silos ''manually'' (include a link back to the original). This will help you figure out what works for you and what is worth the effort to automate.
 
 == Add h-entry to your posts ==
 Add the [[h-entry]] microformat markup to your posts.
 
-Why: this will enable post information [[discovery]] on your permalinks, which is useful for a variety of things. Right away other indieweb sites will be able to recognize [[comments]], [[likes]], and [[reposts]] from your site and display reply contexts for your posts. All you have to do is 1) link to their post somewhere in your h-entry and 2) let them know you've written a response, of course. Some sites let you send them a link directly (usually via a form in the comments area). For others, you can use [http://indiewebify.me/send-webmentions/ IndieWebify.me's webmention sender] to send out the notifications ([[webmention]]s) for you.
+Why: this will enable post information [[discovery]] on your permalinks, which is useful for a variety of things. Right away other IndieWeb sites will be able to recognize [[comments]], [[likes]], and [[reposts]] from your site and display reply contexts for your posts. All you have to do is 1) link to their post somewhere in your h-entry and 2) let them know you've written a response, of course. Some sites let you send them a link directly (usually via a form in the comments area). For others, you can use [http://indiewebify.me/send-webmentions/ IndieWebify.me's webmention sender] to send out the notifications ([[webmention]]s) for you.
 
 == Check Your Site ==
 Test your markup with the [http://pin13.net/ Microformats Parser] and make sure what you see in the JSON output matches your posts.
@@ -98,16 +98,16 @@ Optional: once you're setup with posting on your own site and POSSE'ing out cont
 
 == Share and Join Us ==
 Next steps:
-* Share what you did / discovered in the process of building your indie web site, even if it is only a single page, with a simple design.
+* Share what you did / discovered in the process of building your IndieWeb site, even if it is only a single page, with a simple design.
 * Ask what you can/should do next in the [[IRC]] channel.
 * [[Guest_List|Sign-up]] and join us at the next IndieWebCamp!
 
 == Set up another indiewebcamp wiki ==
-All the content of Indiewebcamp.com is CC0 so you may copy it and set up a mirror.
+All the content of Indiewebcamp.com is CC0, so you may copy it and set up a mirror.
 * Install MediaWiki
 * Note/copy our [[mediawiki-customization]]
 
 == See Also ==
-* [[IndieMark]] - a good way to measure your "indie web" progress
+* [[IndieMark]] - a good way to measure your IndieWeb progress
 
 [[Category:how]]

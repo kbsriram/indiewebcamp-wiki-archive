@@ -21,7 +21,7 @@ https://gist.github.com/brennannovak/c5e158cb4d9f0e54edda
 
 Indie App Store (Brennan, Felix, Jan, Diego)
 
-* Github: https://github.com/brennannovak/indie-app-store
+* GitHub: https://github.com/brennannovak/indie-app-store
 * Wiki Docs: http://indiewebcamp.com/store
 * Demo http://apps.indiewebify.me
 
@@ -29,9 +29,7 @@ Indie App Store (Brennan, Felix, Jan, Diego)
 Raspberry Pi demo (Malte) Setting up ownCloud on it (Jan)
 
 * Adding IndieWeb aspects to Mailpile (Brennan)
-* Cryptoparty / Indie Web handbook, intro, documentation (Malte, …)
+* Cryptoparty / IndieWeb handbook, intro, documentation (Malte, …)
 * Demo of and work on Open Outcomes (Joe)
-
-
 
 [[Category:2014]]

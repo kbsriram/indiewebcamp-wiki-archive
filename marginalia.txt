@@ -8,7 +8,7 @@ http://indiewebcamp.com/marginalia
 
 === Post ===
 
-On the indieweb marginalia can be posted with the same process as a usual post-level interaction but with the target URL of the interaction set to a [[fragmention]] of the relevant phrase. For instance, to post a [[reply]] to a phrase "Gregor Samsa woke from troubled dreams" on http://example.com/kafka set the the <code>in-reply-to</code> URL as <code>http://example.com/kafka##Gregor+Samsa+woke+from+troubled+dreams</code>.
+On the IndieWeb, marginalia can be posted with the same process as a usual post-level interaction, but with the target URL of the interaction set to a [[fragmention]] of the relevant phrase. For instance, to post a [[reply]] to a phrase "Gregor Samsa woke from troubled dreams" on http://example.com/kafka set the the <code>in-reply-to</code> URL as <code>http://example.com/kafka##Gregor+Samsa+woke+from+troubled+dreams</code>.
 
 === Receiving ===
 
@@ -22,16 +22,15 @@ A better UI is to display received marginalia in context, near the phrase being 
 
 === Code ===
 
-* [https://github.com/kartikprabhu/marginalia marginalia.js] is a javascript tool to move marginalia comments to the correct context in the post and show/hide them. It is released under a MIT license.
+* [https://github.com/kartikprabhu/marginalia marginalia.js] is a JavaScript tool to move marginalia comments to the correct context in the post and show/hide them. It is released under a MIT license.
 
 == IndieWeb Examples ==
 
 * [[User:Kartikprabhu.com| Kartik Prabhu]] on https://kartikprabhu.com
-**posts marginalia replies and sends webmentions e.g. [https://kartikprabhu.com/notes/hollow-icons hollow icons]
-**accepts marginalia on all articles and notes through webmention as of ??, with javascript-based UI to display them in context and show/hide them as of 2014-07-10. Example post: [https://kartikprabhu.com/article/marginalia Marginalia]. 
-** on small-viewports the marginalia are shown inline below the context paragraph, while on larger viewports they appear in a sidebar on the left.
+**Posts marginalia replies and sends webmentions, for example, [https://kartikprabhu.com/notes/hollow-icons hollow icons]
+**Accepts marginalia on all articles and notes through webmention as of ??, with a JavaScript-based UI to display them in context and show/hide them as of 2014-07-10. Example post: [https://kartikprabhu.com/article/marginalia Marginalia]. 
+** On small-viewports the marginalia are shown inline below the context paragraph, while on larger viewports they appear in a sidebar on the left.
 * ....
-
 
 == Silo Examples ==
 
@@ -59,11 +58,11 @@ On mobile Firefox the overlay additionally includes highlighting on the original
 
 ==== Criticism ====
 
-* small target links. The buttons for the annotations are too small; being hard to click/tap or accidental click/tap. See [http://indiewebcamp.com/irc/2014-04-17/line/1397720432]
+* Small target links. The buttons for the annotations are too small; being hard to click/tap or accidental click/tap. See [http://indiewebcamp.com/irc/2014-04-17/line/1397720432]
 
-* Complete Javascript dependence: If there is no javascript (or it is broken) the reader sees no annotations at all. A good default would be show all the annotations as normal comments below the article.
+* Complete JavaScript dependence: If there is no JavaScript (or it is broken) the reader sees no annotations at all. A good default would be show all the annotations as normal comments below the article.
 
-* loss of context in the sidebar UI. The main content moves out of the screen and the reader loses context of the main content.
+* Loss of context in the sidebar UI. The main content moves out of the screen and the reader loses context of the main content.
 
 == See Also ==
 * [[fragmention|Fragmention]]

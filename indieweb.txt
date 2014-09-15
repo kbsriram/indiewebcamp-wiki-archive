@@ -1,6 +1,6 @@
 http://indiewebcamp.com/indieweb
 
-The '''<dfn>indieweb</dfn>''' is about '''owning your domain''' and using it as '''your primary identity'''.
+The '''<dfn>indieweb</dfn>''' is about '''[[personal-domain|owning your domain]]''' and using it as '''[[How to set up web sign-in on your own domain|your primary identity]]''', to '''[[POSSE|publish on your own site]]''' (optionally syndicate elsewhere), and '''[[ownyourdata]]'''.
 
 * You can have more than one such personal domain.
 * You could use your own domain for purely a ''professional'' identity facet, preferring to keep anything personal off the internet/web. That's totally fine.
@@ -28,6 +28,11 @@ Move forward:
 * Already got an indie website? Measure your '''[[IndieMark]]''' and add support for more levels!
 
 == See Also ==
-* [[what]] and [[IndieMark]]
-* [[principles]] and [[why]]
+* [[what]] and [[why]]
+* [[principles]]
+* [[ownyourdata]]
 * [[Getting Started]]
+* [[personal-domain]]
+* [[How to set up web sign-in on your own domain]]
+* [[POSSE]]
+* [[IndieMark]]

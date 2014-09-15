@@ -1,18 +1,18 @@
 http://indiewebcamp.com/short-domains
 
-= short URL domains =
+= Short URL domains =
 
 This page is for documenting the domains that we pick out and use for our personal URL shortening, analysis of their reliability/dependability, and just overall experience.
 
-== why personal short URLs ==
-=== backlinks from syndication ===
+== Why personal short URLs ==
+=== Backlinks from syndication ===
 A key part of owning your own content that you publish first yourself and syndicate elsewhere ([[POSSE]]) is providing backlinks ([[permalinks]]) to the originals from syndicated copies on social [[silos]]. 
 
 Some silos have post length limits (e.g. [[Foursquare]] [[checkin]] notes are limited to 200 characters). Better to provide short URLs ([[permashortlinks]]) instead so you can syndicate more of your content.
 
 Just like your content, your short URL shouldn't be sharecropped, thus you need your own personal short URL domain rather than using bitly or some other vulnerable shortlink service.
 
-=== permashortcitations ===
+=== Permashortcitations ===
 Permashortcitations are permashortids in the form of a classical parenthetical summary citation.
 
 Short domains enable constructing of permashortcitations of the form:
@@ -22,10 +22,10 @@ This is particularly useful for providing less distracting citations. E.g. [[Twi
 
 See also: [[Twitter#POSSE_entire_note_to_twitter|POSSE entire note to Twitter]]
 
-=== original post discovery ===
+=== Original post discovery ===
 Both permashortlinks and permashortcitations themselves enable [[original-post-discovery]], for others to easily automatically find your original posts on your site purely from your syndicated tweet copies. Such automatic discovery in turn enables more indieweb-friendly reply-to behavior, whereby an indieweb user can write a post "[[in-reply-to]]" a tweet for example, and have their blogging system automatically post a [[rel-in-reply-to]] link to the original post instead (while still threading the POSSE'd copies together on Twitter).
 
-=== email IM SMS print ===
+=== Email IM SMS print ===
 Short URLs also enable, and/or better encourage additional URL sharing scenarios such as:
 * email (some systems wrap at 70 characters)
 * IM
@@ -60,11 +60,11 @@ Redirects to colintedford.com; no shortener in place yet. Current URL structure 
 
 add notes on your own implementation here.
 
-== criticisms ==
+== Criticisms ==
 
 * I’m indifferent about short URLs. it’s rare that I’ve felt I really need one, and for me the value doesn’t outweigh the pain of maintaining/paying for another domain, hosting, writing more code --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:05, 3 September 2013 (PDT)
 
-== domains ==
+== Domains ==
 Alphabetically sorted domains:
 
 === gs ===
@@ -167,7 +167,7 @@ Originally Nominet UK only allowed domains to be registered under certain subdom
 
 '''Note''' The registrar requires that your WHOIS mailing address be a valid UK address, for details see [http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules section 7].
 
-=== add more short URL domains here ===
+=== Add more short URL domains here ===
 ...
 
 == See Also ==

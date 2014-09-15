@@ -91,7 +91,8 @@ IndieWeb Examples of icon URL dt-published author name and original content:
 Popular silos (e.g. [[Twitter]]) display an entire <em>thread</em> of reply-contexts of originals/replies from the tweet that you're replying to, and if it was a reply itself, what it replies to etc. on up through the original tweet at the start of the thread.
 
 IndieWeb Examples of icon URL dt-published author name original content for the <em>entire reply chain up through the original post that started the thread</em>:
-* none so far
+* ''[[User:ben.thatmustbe.me|Ben Roberts]]'' as shown [http://ben.thatmustbe.me/note/2014/9/12/1/_ here]
+* ...
 
 == Notifications ==
 Sites should send notifications using [[webmention]] for every [[h-cite]] / URL (u-url) in reply-contexts of posts.
@@ -134,6 +135,9 @@ In order of deployment:
 * '''[[User:Snarfed.org]]''' displaying reply-contexts as embeds on [https://snarfed.org/ snarfed.org] (and like-contexts, repost-contexts, etc). [https://snarfed.org/responses See all replies.]
 ** [https://snarfed.org/2014-06-05_twitter-therealfitz-this-analysis-of-restaurants Twitter example]
 ** [https://snarfed.org/2014-05-28_alexis-shoemate-for-you-and-gina Facebook example]
+
+* '''[[User:Ben.thatmustbe.me|Ben Roberts]]''' displaying reply-thread in [OpenBlog] since 2014-09-12
+** [http://ben.thatmustbe.me/note/2014/9/12/1/_ example]
 
 == of silo posts ==
 Reply contexts where the original is on a silo may sometimes need or deserve special treatment.

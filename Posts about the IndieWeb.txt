@@ -1,11 +1,11 @@
 http://indiewebcamp.com/Posts_about_the_IndieWeb
 
 <span style="float:right;height:192px;font-size:192px;margin-top:64px">📡</span>
-Welcome to '''<dfn>news about the indieweb</dfn>''' where recent notable articles about the indieweb are cited and linked to keep you up to date.
-* Want to watch a talk about the indieweb? See: '''[[videos about the indieweb]]'''!
+Welcome to '''<dfn>news about the IndieWeb</dfn>''' where recent notable articles about the IndieWeb are cited and linked to keep you up to date.
+* Want to watch a talk about the IndieWeb? See: '''[[videos about the IndieWeb]]'''!
 Check out the [[news]] page for links to more sources of IndieWeb news.
 
-Articles about the indieweb (in chronological order)
+Articles about the IndieWeb (in chronological order)
 === 2014 ===
 * 2014-09-04 Marco Raaphorst: [http://marcoraaphorst.nl/34652/indie-web-eigenaar-jouw-data/ Indie Web: wees eigenaar van jouw data] (Dutch) "Indie Web: Be the owner of your data"
 * 2014-09-03 Mathew Ingram: [http://gigaom.com/2014/09/03/dont-like-facebook-owning-and-controlling-your-content-use-tools-that-support-the-open-web/ Don't like Facebook owning and controlling your content? Use tools that support the open Web]
@@ -92,12 +92,12 @@ __TOC__
 * 1997-02-01 [http://www.uzine.net/article63.html The Indie Web Manifesto]
 
 == See Also ==
-* [[videos about the indieweb]]
-* [[history]]
-* [[timeline]]
-* [[own your data]]
-* [[posts]]
-* [[reading-list]], organized by subject matter
-* [[news]]
-* [[silo-quits]]
-* [[elsewhere]] for indieweb and indiewebcamp related news, communities, content on other sites
+* [[videos about the indieweb|Videos about the IndieWeb]]
+* [[history|History]]
+* [[timeline|Timeline]]
+* [[own your data|Own your data]]
+* [[posts|Posts]]
+* [[reading-list|Reading-list]], organized by subject matter
+* [[news|News]]
+* [[silo-quits|Silo-quits]]
+* [[elsewhere|Elsewhere]] for IndieWeb and indiewebcamp related news, communities, content on other sites

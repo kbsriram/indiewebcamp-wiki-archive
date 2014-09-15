@@ -1,7 +1,7 @@
 http://indiewebcamp.com/2014/UK/Demos
 
 = Start Demos =
-Demos from the [[2014/UK/Introduction]].
+Demos at the start of [[2014/UK|IndieWebCampUK 2014]], just after the [[2014/UK|Introduction]] session.
 
 Transcribed from [http://indiewebcamp.com/irc/2014-09-06#t1409996268148 IRC Logs].
 
@@ -180,7 +180,7 @@ calumryan.com @calum_ryan
 = Hack Day Demos =
 Demos from the Hack Day!
 
-Transcribed from http://indiewebcamp.com/irc/2014-09-07#t1410104851439
+Based on original notes taken in IRC http://indiewebcamp.com/irc/2014-09-07#t1410104851439 plus some memory recall.
 
 See also: Kevin’s [http://www.kevinmarks.com/indiewebcampUK20140907.html IndieWebCamp UK Demos 2014-09-07] notes.
 
@@ -341,7 +341,7 @@ Apparently it took him only 2 lines of code to implement that change on [[nginx]
 
 After his demo, Aral also [https://aralbalkan.com/scribbles/setting-up-ssl-with-nginx-using-a-namecheap-essentialssl-wildcard-certificate-on-digitalocean/ updated his blog post about SSL setup with nginx] with what he learned and how to get to SSL rating A+.
  
-== Rosa Emerald ==
+== Rosa Fox ==
 [[User:techfox.co.uk|Rosa]] created a UI on her site for CRUD posting of projects. ([http://indiewebcamp.com/irc/2014-09-07#t1410108119278 IRC notes])
 
 Rosa wanted to make her own CMS with support for posting images and tags. She demonstrated her local dev install of her new CMS with:

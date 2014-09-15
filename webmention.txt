@@ -196,11 +196,12 @@ The following users/sites have <span id="IndieWeb_implementations">implemented</
 
 * [[User:Ben.thatmustbe.me|Ben Roberts]] sending and receiving webmentions on [http://ben.thatmustbe.me/ ben.thatmustbe.me] as of 2014-04-24
 ** Parsing replies, mentions, and likes.  Rsvps are handled as just mentions currently.
-** Discovery only with: <code>rel="webmention"</code> link in head
-** Currently set to automatcially accept, but moderation is planned.
+** Discovery with both: <code>rel="webmention"</code> and <code><nowiki>rel="http://webmention.org/"</nowiki></code> links in head, and HTTP <code><nowiki>Link: rel="http://webmention.org/</nowiki></code> header
+** Currently set to automatically accept, but moderation is planned.
+** Processing happens asynchronously by cron job.
 ** Submissions return a link for queue record that returns a status as a <code>Webmention-Status</code> header as well as a minor note in the body. 
 ** Attempting to keep implementation notes as a modified spec at [http://github.com/dissolve/webmention webmetion0.2-b1]
-** Sending is not done automatically to ensure edits are complete before deciding to send all mentions in a post/note
+** Sending is done automatically when post is made.
 
 * [[User:Willnorris.com|Will Norris]] using [https://webmention.herokuapp.com/ webmention.herokuapp.com] on [https://willnorris.com/ willnorris.com] as of 2014-07-31. Details:
 ** All posts accept webmentions, but none are displayed (yet)

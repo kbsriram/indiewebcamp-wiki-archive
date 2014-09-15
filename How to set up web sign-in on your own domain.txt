@@ -1,8 +1,6 @@
 http://indiewebcamp.com/How_to_set_up_web_sign-in_on_your_own_domain
 
-You must be ''this'' independent in order to contribute:
-# you must have your own domain, and 
-# have figured out how to set up [http://microformats.org/wiki/web-sign-in web sign-in].
+How to setup [http://microformats.org/wiki/web-sign-in web sign-in] on your own domain.
 
 == Setup Instructions ==
 

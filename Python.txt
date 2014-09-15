@@ -7,9 +7,10 @@ http://indiewebcamp.com/Python
 == IndieWeb Examples ==
 Examples of indieweb community members who are using Python on their personal sites:
 === Bear ===
-[[User:bear.im|Bear's]] uses [[Hakkan]], a Python based static site generator, to run hisruns personal site  [https://bear.im/bearlog/ bearlog] and uses the following Python 
-* ronkyuu
-* mf2py
+[[User:bear.im|Bear's]] uses [[Hakkan]], a Python based static site generator, to run his personal site  [https://bear.im/bearlog/ bearlog] and uses the following Python projects:
+* [[ronkyuu]]
+* [[mf2py]]
+
 === Kartik Prabhu ===
 [[User:kartikprabhu.com|Kartik Prabhu]]'s personal site [http://kartikprabhu.com/ Parallel Transport] runs on [[Bundle]] and uses the following Python IndieWeb projects:
 * ronkyuu
@@ -17,10 +18,10 @@ Examples of indieweb community members who are using Python on their personal si
 * mf2util
 
 === Kyle Mahan ===
-[[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] (written Python) to run his personal site kylewm.com with the following Python projects:
-* Flask
-* mf2py
-* mf2util
+[[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] (written in Python) to run his personal site http://kylewm.com/ with the following Python projects:
+* [[Flask]]
+* [[mf2py]]
+* [[mf2util]]
 
 == Libraries == 
 Generally useful libraries being developed by IndieWeb participants in Python.

@@ -4,6 +4,11 @@ http://indiewebcamp.com/PubSubHubbub
 
 '''<dfn>[https://code.google.com/p/pubsubhubbub/ PubSubHubbub]</dfn>''' (PuSH) is a notification-based protocol for publishing and subscribing to [[feeds]]/[[streams]] in real time. Currently there are no known indieweb sites that subscribe to anything using PuSH.
 
+== Why ==
+You should implement PuSH for your home page updates so that IndieWeb [[readers]] (like [[shrewdness]]) can:
+* promptly receive your posts when you publish them
+* and avoid polling your server with unnecessary traffic
+
 == IndieWeb Examples ==
 There are several indieweb sites producing PuSH notifications, but none that visibly consume any (there are some with indie [[reader]] feature support in development with skeleton consumers).
 
@@ -20,26 +25,35 @@ There are several indieweb sites producing PuSH notifications, but none that vis
 [[User:kylewm.com|Kyle Mahan]] uses [[Red Wind]] to send PuSH notifications for new/edited posts and new mentions in his kylewm.com Atom feed file since 2014-03-23(possibly earlier).
 
 === Barnaby Walters ===
-[[User:WaterPigs.co.uk|Barnaby Walters]] uses [[Taproot]] to send PuSH notifications for each new post on his WaterPigs.co.uk homepage HTML feed using PuSH 0.4 and [[Superfeedr]] since 2014-03-25.
+[[User:WaterPigs.co.uk|Barnaby Walters]] uses [[Taproot]] to send PuSH notifications for each new post on his WaterPigs.co.uk homepage HTML feed using PuSH 0.4 and Google’s hub since 2014-03-25.
 
-== Hubs ==
-* http://pubsubhubbub.superfeedr.com/ 
+== How To ==
+=== Publish a PuSH-enabled feed ===
+==== Publish PuSH 0.3 ====
+To publish PuSH 0.3 you need to do three things
+# Pick a hub to push your notifications to, e.g. one of these
+#* https://pubsubhubbub.appspot.com/
+#* http://pubsubhubbub.superfeedr.com/
+# Setup discovery of your Atom feed and hub
+## home page <code>&lt;link rel="alternate"></code> to your Atom feed.
+## home page+Atom feed <code>&lt;link rel="hub"></code> to your hub.
+# Notify the hub
+#* see [https://code.google.com/p/pubsubhubbub/wiki/PublisherClients client libraries]
 
-== Arbitrary Content ==
-Since [https://pubsubhubbub.googlecode.com/svn/trunk/pubsubhubbub-core-0.4.html version 0.4] it is possible to push arbitrary content like json or html ([[microformats]])
+==== Publish PuSH 0.4 ====
+Since [https://pubsubhubbub.googlecode.com/svn/trunk/pubsubhubbub-core-0.4.html version 0.4] it is possible to push <span id="Arbitrary_Content">arbitrary content</span> like HTML+[[microformats]], or even JSON.
 
-To push your [[posts]]/[[comment]]s you have to:
+To push your HTML [[posts]]/[[comment]]s you have to:
 
 * add a rel-self header pointing to the site itself
-** for example <http://tantek.com/>; rel="self"
-* add a rel-hub header pointing to superfeedr (the only hub that supports spec 0.4 yet)
-** for example <http://pubsubhubbub.superfeedr.com/>; rel="hub"
+** for example <code><http://tantek.com/>; rel="self"</code>
+* add a rel-hub header pointing to a hub which supports PuSH 0.4
+** https://pubsubhubbub.superfeedr.com/ or https://pubsubhubbub.appspot.com/, for example <code><https://pubsubhubbub.superfeedr.com/>; rel="hub"</code>
 * send a post to the hub with this body: <code>hub.mode=publish&hub.url=URL_OF_YOUR_SITE</code>
 ** for example <code>hub.mode=publish&hub.url=http://tantek.com/</code>
 
 Superfeedr also offers the ability to subscribe to fragments on a page, using the # symbol. For example, if you subscribe to http://tantek.com/#.hentry, you will receive POST to your webhook/callback endpoint with the content of the first element of class "hentry" on http://tantek.com/
 
-== How To ==
 === Subscribe to a PuSH-enabled feed ===
 Summary:
 * detect the hub for the feed, optionally falling back to a polling hub (like [[Superfeedr]]) if none is found
@@ -77,7 +91,6 @@ Most [http://blog.superfeedr.com/state-of-pubsubhubbub/ popular RSS Readers] do 
 # publish stuff on your home page
 # see updates appear in real time on your Status.net account
 
-
 '''Bots'''
 
 There are several [[XMPP]]/[[IRC]] bots which allow you to subscribe to feeds and be notified of updates via any [[XMPP]] or [[IRC]] client. You’ll need an XMPP account, or an IRC client.
@@ -90,6 +103,10 @@ There are several [[XMPP]]/[[IRC]] bots which allow you to subscribe to feeds an
 Notifix is a bot (see above for source code). It's constantly connected to irc.freenode.net. Send him a private message like +help to see available commands. Subscribe with +subscribe <feed>, publish your content and see if you get the ping straight via IRC.
 
 * I have had better experiences with notifixlite than PuSH Bot --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 03:16, 5 June 2013 (PDT)
+
+== Hubs ==
+* http://pubsubhubbub.superfeedr.com/ 
+* https://pubsubhubbub.appspot.com/
 
 == Discussion ==
 * "subscribing (to PuSH is) too hard": http://indiewebcamp.com/irc/2013-05-29#t1369859193

@@ -35,14 +35,14 @@ Disable registration of new users.
 There are many options in this area...
 
 * [http://wordpress.org/plugins/wp-fail2ban/ WP Fail2Ban] logs all login attempts, whether successful or not, to the syslog of the server using LOG_AUTH. If you have server level access, you can act on these logs using Fail2Ban or other software to block IP addresses.
-* [http://wordpress.org/plugins/indieauth/ IndieAuth for Wordpress] allows users to sign in with their domain instead of a username and password.
+* [http://wordpress.org/plugins/indieauth/ IndieAuth for Wordpress] allows users to sign in with their domain instead of a username and password. (See more complete details below.)
 
 ==== Spam/Comment Protection ====
 
 Some individuals may prefer to disable local commenting in favor of only allowing commenting through webmentions. If local commenting is enabled, there should be some form of protection installed.
 
 * [http://wordpress.org/plugins/akismet/ Akismet] is a spam protection service by Automattic, the company that runs Wordpress.com and is thus a major contributor/sponsor of the Wordpress open source project. It is free for personal use.
-* The [http://wordpress.org/plugins/indieweb/ IndieWeb] plugin supports accepting comments as Webmentions instead of directly on the site. By installing this and
+* Combined together, the [http://wordpress.org/plugins/webmention webmention] and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins let you accept comments as [[webmention]]s from other web sites. They also let you [[backfeed]] comments, likes, etc. from social networks by using [[Bridgy]] (see further notes below).<br />'''Warning''': Don't use the [http://wordpress.org/plugins/indieweb/ indieweb plugin]! (At least not right now.) It's an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.
 
 == Adding Indieweb Support/Elements to a Wordpress Site ==
 Here are steps to add IndieWeb support to a WordPress site.
@@ -51,7 +51,9 @@ See also individual articles bloggers have written about setting up their sites 
 * 2014-08-30 http://techlifeweb.com/using-wordpress-for-indieweb/
 
 === [[IndieAuth]] ===
-Once you have WordPress up and running, you'll want to set up [[IndieAuth]]. The [http://wordpress.org/plugins/indieauth-links/ IndieAuth-Links] plugin makes this easy, but you can also use [http://en.support.wordpress.com/add-social-media-buttons-to-your-sidebar-or-footer/ Social Media Buttons] or a [http://codex.wordpress.org/WordPress_Widgets#Using_Text_Widgets Text Widget] to add the needed [[rel-me]] link(s). Detail can be found at [https://indieauth.com/setup indieauth.com/setup] Once you've done that, head over to [https://indieauth.com/ indieauth.com] and sign in!
+Once you have WordPress up and running, you'll want to set up [[IndieAuth]]. If you haven't already done so (above) install [http://wordpress.org/plugins/indieauth/ IndieAuth for Wordpress] which allows users to sign in with their domain instead of a username and password. Next, you'll need to add the appropriate [[rel-me]] link(s) to your homepage. The[http://wordpress.org/plugins/indieauth-links/ IndieAuth-Links] plugin makes this easy, but you can also use [http://en.support.wordpress.com/add-social-media-buttons-to-your-sidebar-or-footer/ Social Media Buttons] or a [http://codex.wordpress.org/WordPress_Widgets#Using_Text_Widgets Text Widget] to add the needed [[rel-me]] link(s). Detail can be found at [https://indieauth.com/setup indieauth.com/setup] Once you've done that, head over to [https://indieauth.com/ indieauth.com] and sign in to test that you've set things up appropriately!
+
+* FIXME: This section conflates adding rel-me links to satisfy indieauth.com (e.g. for logging into the wiki) with the ''IndieAuth for Wordpress'' plugin that lets you authenticate on your own site with indieauth. The latter is a much more advanced step and should be moved to another section (and the distinction probably needs to be clarified) [[User:Kylewm.com|Kylewm.com]] 15:52, 12 September 2014 (PDT)
 
 === [[microformats]] ===
 Next, you'll want to add [[microformats]] support. Try out the
@@ -87,9 +89,11 @@ Which brings us to...
 [[File:semantic-linkbacks.png|100px|right]]
 [[WebMention]]s are also part of the core IndieWeb [[building-blocks]]. They let you send and receive replies, likes, etc. directly from your site.
 
-Try the [http://wordpress.org/plugins/webmention webmention] plugin ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available] for webmention plugin) and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugin, which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]], [[RSVPs]] and classic [[mentions]].
+Try combining the [http://wordpress.org/plugins/webmention webmention] ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available]) and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins, which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]], [[RSVPs]] and classic [[mentions]].
 
-For the wordpress-webmention to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
+('''Warning''': Don't use the [http://wordpress.org/plugins/indieweb/ indieweb plugin]! At least not right now. It's an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.)
+
+For the webmention plugin to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
 and "Allow people to post comments on new articles" checkboxes.
 
 Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive WebMentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog.
@@ -164,7 +168,8 @@ In particular, (semi-)active IndieWeb community members using WordPress on their
 * [http://singpolyma.net Stephen Paul Weber]
 * [[User:Colintedford.com|Colin Tedford]] on [http://colintedford.com colintedford.com] since 2007 (wants to switch to something more static but it'll be a while).
 * [[User:techlifeweb.com | Scott Kingery]] long posts on [http://techlifeweb.com techlifeweb.com] more social blurts, quick links and checkins on [http://techlifeweb.com/social techlifeweb.com/social]
-* [http://boffosocko.com/ Chris Aldrich] 
+* [http://boffosocko.com/ Chris Aldrich]
+* [https://selfstarter.pt/ Paul Tibbetts] - trying to document it as [https://selfstarter.pt/hashtag/indiewebifyingwordpress/ #IndieWebifying WordPress] - feedback welcome!
 * ...
 
 === Using on one of their sites ===

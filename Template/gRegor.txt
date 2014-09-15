@@ -1,5 +1,3 @@
-http://indiewebcamp.com/Template%3AgRegor
+http://indiewebcamp.com/Template%3Agregor
 
-<includeonly><span class="h-card">{{sparkline|http://gregorlove.com/assets/img/profile.jpg}} [[User:Gregorlove.com|gRegor Morrill]]</span></includeonly><noinclude>
-This template displays a small h-card for [[User:Gregorlove.com|gRegor Morrill]].
-</noinclude>
+#redirect [[Template:gRegor]]

@@ -20,9 +20,8 @@ Working on david.shanske.com as a testbed for deployment of some of the techniqu
 ==In Development==
 * Working on a refined version of the previous theme that allows for more flexibility for future changes. In live testing on the site as Website Version 3.0
 * Have written a Wordpress widget to add an h-card to the sidebar, pulling the data from the user profile.
-* Working on switching publishing from a Wordpress plugin to Bridgy, by creating a simple Bridgy plugin for Wordpress.
-** Plugin, tentatively titled Webmention Syndication, will take the post metadata for syndicated URLs portion of the Semantic Comments plugin, as well as some code to store the response URLs from Bridgy to form a simple plugin.
-* Semantic Comments Plugin - Wordpress plugin - Adds facepiles for Webmentions, post metadata for syndicated URLs, basic webactions, etc. You can find it at [https://github.com/dshanske/semantic-comments Github]
-** The Post Metadata portion of this plugin is being removed
-** Webactions no longer fit into this plugin due changes prior to and during Indiewebcamp UK. Will be moving them into the Indieweb Taxonomy plugin where it makes more sense to have them as they refer to actions a user can take on reply, like, etc.
+* [https://github.com/dshanske/syndication-links Syndication Links] Plugin will add post metadata in the Wordpress post editor to add syndication data to posts. It also adds code to display the syndication links once entered.
+** Plugin will eventually add optional Bridgy Publish capability.
+* [https://github.com/dshanske/semantic-comments Semantic Comments] Plugin - Wordpress plugin - Adds a new comment template with facepiles for Webmentions.
+* [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] Plugin - Adds a new taxonomy to Wordpress posts for actions such as like, reply, etc.
 * Simple Location plugin

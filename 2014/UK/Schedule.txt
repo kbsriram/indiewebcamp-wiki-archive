@@ -33,7 +33,7 @@ All day: '''dConstruct'''!
 |colspan="3" align="center"|'''Doors Open, Badges, Coffee'''
 |-
 | 10:00
-|colspan="3" align="center"|'''[[Selfdogfood]] Demos of what works today / [[2014/UK/Introductions|Introductions]]'''
+|colspan="3" align="center"|'''[[2014/UK/Introductions|Introduction]] and [[2014/UK/Demos#Start_Demos|Selfdogfood Demos]] of what works today /'''
 |-
 | 11:30
 |colspan="3" align="center"|'''Session Scheduling'''
@@ -103,7 +103,7 @@ All day: '''dConstruct'''!
 |
 |-
 | 16:30 <div style="height:2em;"></div>
-|colspan="4" align="center"|'''Demos'''
+|colspan="4" align="center"|'''[[2014/UK/Demos#Hack_Day_Demos|Hack Day Demos]]'''
 |-
 | 17:30
 |colspan="4" align="center"|'''Cleanup'''
