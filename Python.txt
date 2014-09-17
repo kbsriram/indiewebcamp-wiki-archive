@@ -41,7 +41,7 @@ Non-IndieWeb-specific libraries that may still be of interest.
 
 == Projects ==
 IndieWeb projects built with Python:
-* [[Bridgy]] (open source) runs on Google AppEngine
+* [[Bridgy]] (open source) runs on Google [[AppEngine]]
 ** [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial]
 ** [https://github.com/snarfed/oauth-dropins oauth-dropins]
 ** webmention-tools
@@ -53,7 +53,7 @@ IndieWeb projects built with Python:
 == Hosting ==
 Python does not have PHP's ubiquity, and finding hosting can be a little bit more of a challenge. See [[web_hosting]] for more details.
 
-* Google AppEngine (webapp, Django)
+* Google [[AppEngine]] (webapp, Django)
 * Webfaction
 * Heroku (Flask, Django)
 * VPS running a WSGI server like uWSGI or gunicorn.

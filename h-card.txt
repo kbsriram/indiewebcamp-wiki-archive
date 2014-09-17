@@ -9,7 +9,8 @@ Each IndieWeb site should have an hCard on the homepage, preferably containing a
 These requirements can be satisfied by two elements with one classname, for example:
 
 <pre>
-<a class="h-card" href="http://waterpigs.co.uk"><img class="/photo.png" alt="" /> Barnaby Walters</a>
+<a class="h-card" href="http://waterpigs.co.uk">
+<img src="/photo.png" alt="" /> Barnaby Walters</a>
 </pre>
 
 Having a minimal hCard on your index page allows [[Gravatar]]-like lookups based on [[Why_web_sign-in#Why_not_emaildomain instead of email address]].

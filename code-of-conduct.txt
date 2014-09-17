@@ -1,6 +1,6 @@
 http://indiewebcamp.com/code-of-conduct
 
-<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">🌈</span>
+<span style="float:right;height:192px;font-size:192px;margin:152px 0 -128px">🌈</span>
 = Code of Conduct =
 tl;dr: <blockquote>Be respectful of other people, respectfully ask people to stop if you are bothered, and if you can't resolve an issue contact staff. If you are being a problem, it will be apparent and you'll be asked to leave.</blockquote>
 

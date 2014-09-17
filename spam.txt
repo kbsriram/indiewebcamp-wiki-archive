@@ -108,6 +108,7 @@ Perhaps break these into separate sections if you're considering pursuing them:
 
 * Automated spam detection — use some learning algorithm/training data to decide whether or not it’s likely to be spam
 ** Example service: [http://akismet.com/ akismet]
+** [[Pump.io]]'s spam filtering software: [https://github.com/e14n/activityspam e14n/activityspam]
 
 * Blacklisting — figure out from which IPs a lot of spam comes, blacklist them
 
@@ -125,7 +126,7 @@ A web service which, given a source and a target, returns a simple spam/ham/requ
 Sign up+crawl flow:
 * You sign up for anti-spam using indieauth
 * anti-spam builds a list of all the people in your social graph
-** crawls XFN
+** crawls [[XFN]]
 ** crawls+subscribes to feeds, continuously automatically adds people you link to, reducing maintenance
 ** detects linked-to silos and crawls silo social graphs
 
@@ -151,3 +152,6 @@ Received 2013-11-30 11:14 PST
 
 == See also ==
 * [[comments]]
+* [[DDOS]]
+* [[webmention]]
+* [[comment]]

@@ -11,12 +11,14 @@ Please keep sorted alphabetically
 * {{irc user|aaronparecki.com|aaronpk|US/Pacific|https://aaronparecki.com/images/aaronpk-128.jpg}}
 * {{irc user|acegiak.net|acegiak|Australia/Adelaide}}
 * {{irc user|alanpearce.uk|alanpearce|Europe/London}}
+* {{irc user|alexhartley.me|alexhartley|Europe/Manchester}}
 * {{irc user|Adactio.com|adactio|Europe/London}}
 * {{irc user|ashersilberman.com|addal|America/Los_Angeles}}
 * {{irc user|roblord.org|b0bg0d|America/San_Francisco}}
 * {{irc user|waterpigs.co.uk|barnabywalters|Atlantic/Reykjavik}}
 * {{irc user|Bear.im|bear|America/New_York|https://bear.im/images/bear_128x128.jpg}}
-* {{irc user|ben.thatmustbe.me|ben_thatmustbeme|America/New_York|http://ben.thatmustbe.me/image/static/icon_64.jpg}}
+* {{irc user|ben.thatmustbe.me|ben_thatmustbeme|America/New_York|https://ben.thatmustbe.me/image/static/icon_64.jpg}}
+* {{irc user|ben.thatmustbe.me|ben_thatmust|America/New_York|https://ben.thatmustbe.me/image/static/icon_64.jpg}}
 * {{irc user|Benatkin.com|benatkin|America/Phoenix}}
 * {{irc user|Throwingbones.com|benprew|America/Los_Angeles}}
 * {{irc user|Werd.io|benwerd|America/Los_Angeles|http://werd.io/file/538d0a4cbed7de5111a1ad31/thumb.jpg}}
@@ -34,7 +36,8 @@ Please keep sorted alphabetically
 * {{irc user|cweiske.de|cweiske|Europe/Berlin|http://avatar.cweiske.de/avatar/9e263681488308e5e5d5e548b2f9bc99}}
 * {{irc user|Jenmontes.com|cuibonobo|US/Eastern|http://i.imgur.com/i263dCJ.jpg}}
 * {{irc user|danbri.org|danbri|Europe/London}}
-* {{irc user|Www.flutterby.net user:danlyke|danlyke|America/San_Francisco}}
+* {{irc user|Www.flutterby.net user:danlyke|danlyke|America/San_Francisco}} 
+* {{irc user|www.davethewebguy.com user:DWGinNYC|DWGinNYC|America/New York City}}
 * {{irc user|deiu.rww.io|deiu|America/New_York}}
 * {{irc user|dunlaps.net/darius|dariusdunlap|America/San_Francisco}}
 * {{irc user|metafluff.com|dietrich|America/Los_Angeles}}

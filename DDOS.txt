@@ -1,0 +1,46 @@
+http://indiewebcamp.com/DDOS
+
+{{stub}}
+
+'''<dfn>DDOS</dfn>''' stands for Distributed Denial of Service, and refers to an attack involving a large quantity of computers making many simultaneous requests to a single site.
+
+== Webmention ==
+
+As [[webmention]] uses the exact same notification mechanic as [[Pingback]] (but without the unnecessary XMLRPC) it is vulnerable to the known [http://www.incapsula.com/blog/wordpress-security-alert-pingback-ddos.html DDOS attack using pingback].
+
+Specifically, the attack involves an attacker creating a list of many (potentially hundreds of thousands) of websites which support webmention, and sending them all fake webmentions pointing towards the same source URL. All of the servers fetch the same URL simultaneously, and the victim’s servers are overloaded. The attack is unblockable because the attacks come from many different IP addresses.
+
+There are several possible measures which could be taken to prevent unwitting participation in this attack.
+
+* Check the client IP of the incoming webmention POST request against the possible IPs of the source URL hostname — if they don’t match, ignore the webmention without ever fetching the source URL
+* Require a hashcash “payment” parameter or header on incoming webmentions, accepting them if they’ve put enough processing power into the request to slow down a DDOS
+* Add an expiring, random or encrypted token to webmention endpoints, preventing the accumulation of lists of endpoints and forcing attackers to look up the webmention endpoint of each of the sites they want to use to DDOS a victim
+* (Amplification mitigation) do a HEAD request to the source URL and check for text/html content type. This doesn’t prevent excess requests but it might reduce server load if the attacker is trying to DDOS a large, expensive-to-serve file e.g. video
+* (Immediate load mitigation) queue and randomly delay actually performing the GET request for the source URL.
+
+Example PHP source code for an implementation of the first method:
+
+<pre>
+// Anti-webmention DDOS measures
+$sourceIps = gethostbynamel(parse_url($source, PHP_URL_HOST));
+if ($sourceIps === false) {
+  // The source host cannot be resolved. Accept only if whitelisted IPs match.
+  $sourceIps = [];
+}
+
+$sourceIps = array_merge($sourceIps, $whitelistedIPs);
+
+if (!in_array($request->getClientIp(), $sourceIps)) {
+  // Error!
+  return new MentionException('x_request_not_from_source_ip', 'The webmention request didn’t come from an IP address which matched the source hostname.');
+}
+</pre>
+
+* This method requires web mentions to be sent by the web server only which isn't nessisarily pratical all the time.  Things like web mention endpoints separate from the web server don't seem possible with this method.  This also breaks the use of curl from any IP.  This seems overly restrictive.  --<span class="h-card">{{sparkline|https://farm3.staticflickr.com/2926/14055807513_dea2b533b6_s.jpg}}[[User:Bret.io|Bret Comnes]]</span> 10:38, 16 September 2014 (PDT)
+** As Barnaby notes, the endpoint could accept a ''hashcash'' with the request, this should in theory allow one to make requests from cURL --[[User:Jonnybarnes.uk|Jonnybarnes.uk]] 10:50, 16 September 2014 (PDT)
+
+== Indieweb Examples ==
+* [[User:WaterPigs.co.uk|Barnaby Walters]] implemented expiring webmention endpoint tokens as of 2014-09-16; previously had implemented client IP checking on waterpigs.co.uk but ran into problems
+
+== See Also ==
+* [[spam]]

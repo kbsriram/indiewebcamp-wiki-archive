@@ -354,6 +354,10 @@ How does this solve the spam problem that plagued Trackback and Pingback?
 However, in practice, receivers of [[Webmention]] look for specific [[h-entry]] markup to render [[comments]], which adds a minor barrier for spammers (for now).
 
 == Issues ==
+
+=== DDOS attack vector ===
+Webmention, like Pingback, is a vulnerable vector for DDOS attacks. See [[DDOS]] for more discussion and proposed solutions.
+
 === 3rd party tracking exploits ===
 Third party visitor tracking (or possible exploit) via nocache icons. See [http://www.marcus-povey.co.uk/2014/09/01/spying-on-a-site-using-webmention-and-mf2/] for details.
 * [[Known]] implements a fix for this where icons are locally saved as of September 7, 2014. [[Werd.io|Ben]] is interested in other approaches.

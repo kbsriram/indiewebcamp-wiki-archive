@@ -13,6 +13,16 @@ None currently.
 * [[Facebook]] - added in 2010?
 * [[Twitter]] - added in 2014
 
+=== Flaminga ===
+
+[http://madebycori.com/flaminga/ Flaminga] is an in-development Twitter client that proposes some elegant solutions to spam and abuse on Twitter.
+
+* Shared mute lists. Subscribe to  a friend's mute list
+* Mute tweets from a muted user's followers
+* Mute tweets that mention you along with a muted third party 
+* Mute brand new users (configurable 1 day to 1 year)
+* Mute users who post too many repeated links, or who are muted by others
+
 == See Also ==
 * [[block]]
 * [[reader]]

@@ -34,13 +34,17 @@ First I want to clear up some long-standing issues with my site, prepping it to 
 * Reformat so I can stop using Webcomic plugin.
 ** <strike>Decide on code for comic transcripts.</strike> 2014-08-11: Settled on some non-JS show/hide code that mysteriously doesn't work in WordPress, so for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ .
 ** <strike>Migrate transcripts.</strike> Done 2014-08-12.
-** Migrate comic images. One...by...one :(
-** Apply custom taxonomy to comics so I don't have to have a category for each one.
-** Disable plugin.
-* Switch to more responsive theme, tweak as needed (but don't go overboard).
+** <strike>Migrate comic images. One...by...one :(</strike> 2014-09-16 ''Finally''.
+** <strike>Apply custom taxonomy to comics so I don't have to have a category for each one.</strike> 2014-09-16 but still have to
+*** move the comics nav code over from the old theme.
+** <strike>Disable plugin.</strike>2014-09-16
+* <strike>Switch to more responsive theme</strike> 2014-09-16 Using [http://wordpress.org/themes/publish Publish] for now but could still change my mind.
+** Tweak as needed (but don't go overboard).
 * Add [[microformats]].
 * Self-signed [[https|SSL]] for logins.
 * Better comics navigation.
+** Better styling (aka make it bigger)
+** Make good archive pages.
 * Yearly & monthly archives (no more paginated).
 * Mockup post-WordPress site HTML, CSS, & UI. Use this (with tweaks as needed to template-ify) as template for post-WordPress system.
 

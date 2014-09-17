@@ -55,10 +55,10 @@ Taproot supports the following:
 == Itches ==
 
 Currently working on:
-* Nothing, away on holiday
+* Using Taproot every day to post content
+* [[Shrewdness]]
 
 Next up, in approximate order of priority:
-* Publishing [[venues]] with reviews, inspired by [[User:Tommorris.org|Tom Morris]]
 * Publishing [[events]] and RSVPs, handling incoming RSVPs, figuring out invitations
 * Publishing [[recipes]]
 ** Particularly I’m interested in presenting them in a way optimised for use in the kitchen from a laptop or tablet
@@ -68,6 +68,8 @@ Next up, in approximate order of priority:
 * Extract more of the code behind my listeners and services into reusable open-source libraries
 
 Done (latest first):
+* Implemented anti-[[DDOS]] measures (tried client validation, ditched and went with expiring webmention endpoints)
+* Publishing [[venues]] with reviews, inspired by [[User:Tommorris.org|Tom Morris]]
 * Implemented a basic micropub endpoint, capable of creating notes
 * Made it easier to edit note and article published datetimes and lists of syndication URLs
 * Timezones now included in all datetimes in feeds and posts

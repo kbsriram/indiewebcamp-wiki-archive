@@ -21,6 +21,7 @@ Notification services:
 * [[Google now]] - http://www.google.com/landing/now/
 
 Various development tools:
+* Google [[App Engine]]
 * [[Google Web Starter Kit]]
 * ...
 

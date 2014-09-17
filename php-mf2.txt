@@ -5,7 +5,7 @@ http://indiewebcamp.com/php-mf2
 '''<dfn>[https://github.com/indieweb/php-mf2 php-mf2]</dfn>''' is a superb open source PHP [[microformats2]] parser that also supports classic [[microformats]] per the microformats2 parsing specification.
 
 == Composer ==
-php-mf2 has PHP Composer support and that is the recommended way to [https://github.com/indieweb/php-mf2#installation install and use it].
+php-mf2 has PHP [[Composer]] support and that is the recommended way to [https://github.com/indieweb/php-mf2#installation install and use it].
 
 == Just one file ==
 You can also use php-mf2 with the "just use this one file" approach by following the instructions at https://github.com/indieweb/php-mf2#installation

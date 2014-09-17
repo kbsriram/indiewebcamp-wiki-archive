@@ -8,8 +8,9 @@ Comments rarely have names/titles, though they sometimes have other structure li
 === Make a comment ===
 How to publish an indieweb comment replying to an original post
 # '''Write a [[post]]''' ([[note]]/[[article]]/[[comment]]) on your own site
-# '''Link to the original''' with [[rel-in-reply-to|rel="in-reply-to"]]
-#* If you are using the [[h-entry]] microformat to mark up your comment (you should), add class="u-in-reply-to" to the link as well 
+# '''Link to the original'''
+#* Add  <code>[[rel-in-reply-to|rel="in-reply-to"]]</code> to the link ''only'' on the post's permalink page.
+#* If you are using the [[h-entry]] microformat to mark up your comment (recommended), add <code>class="u-in-reply-to"</code> to the link as well 
 # '''Send a [[webmention]] from your server to the original's server
 Ideally your server/software should automatically do the '''(3) webmention''' for all links in your post.
 

@@ -22,15 +22,24 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # <s>Proper routing for permalinks</s>
 # <s>Make it Live!</s>
 # <s>Release on GitHub</s>
-# Administration Pages (minimally working, still needs a lot of work)
-# Expand to other types (currently only notes and posts)
+# <s>Administration Pages (minimally working, still needs a lot of work)</s> I have somewhat abandoned this in favor of micropub
 # <s>Get Comments working (I may not do this, comments will have to be webmention/pingback)</s>
 # Personal theme (still based on SemPress)
-# Set up automatic syndication to G+, FB, and Twitter
-# backfeed
+# <s>Set up automatic syndication to G+, FB, and Twitter</s> done via brid.gy
+# <s>backfeed</s> via brid.gy
 # <s>webmention</s>
-# micropub (currently underway, token endpoint is set up, just need the micropub endpoint)
+# <s>micropub</s> avalable at https://ben.thatmustbe.me/new
+# <s>reply-context</s>
+# <s>comment edit/delete</s> Done but untested
 # Authentication Host
+# Create Indie Events (and receive RSVPs)
+# RSVP to Events
+# Micropub expanded to create more post types as well as edit/delete posts
+# https for everything
+# error message display
+# context messages to store both short and full urls to save extra polling.
+# webactions (maybe)
+# webmention sending done asynchronously (maybe)
 # Contacts List (see below)
 # anything else I can think of
 

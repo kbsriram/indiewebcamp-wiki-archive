@@ -96,7 +96,5 @@ Join us and together we can grow the IndieWeb.
 * [[principles|Principles]]
 * [[Getting Started]]
 * [[FAQ]]  
-* [[how|How]]
-* [[Sites with data portability]]  
 * [[Why web sign-in]]
 * Return to the [[Main Page]].
