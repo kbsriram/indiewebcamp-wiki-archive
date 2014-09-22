@@ -1,0 +1,32 @@
+http://indiewebcamp.com/reply-thread
+
+{{stub}}
+
+A '''<dfn>reply thread</dfn>''' (AKA <dfn>reply chain</dfn>) is a threaded list of [[replies]], and replies to those replies, displayed under the original post, sometimes as part of a [[reply-context]].
+
+== Indieweb Examples ==
+=== Ben Roberts ===
+[[User:Ben.thatmustbe.me|Ben Roberts]] displays reply threads on his site [https://ben.thatmustbe.me/note/2014/9/12/1/_ since 2014-09-12]. Examples: 
+* https://ben.thatmustbe.me/note/2014/9/12/1/_ 
+* https://ben.thatmustbe.me/note/2014/9/12/2/_
+
+== Why ==
+Reader comprehension. You should show a reply thread as part of the [[reply-context]] above your reply posts to provide background and context to what your reply posts are about.
+
+== Markup ==
+How to markup a reply thread:
+* ... still under study ... feel free to add suggestions ...
+
+== Silo Examples ==
+=== Twitter ===
+An example of reply chaining on [[Twitter]]: https://twitter.com/benwerd/status/490958867803537408
+
+== FOSS ==
+* [http://www.debiki.com/ Debiki] uses a unique 2D scrolling view: http://www.debiki.com/demo/-71cs1/demo-page-1
+
+[[File:debiki-comment-system.png|250px|Debiki 2D threaded comments]]
+
+== See Also ==
+* [[reply]]
+* [[reply-context]]
+* [[comment]]

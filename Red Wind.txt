@@ -10,73 +10,34 @@ http://indiewebcamp.com/Red_Wind
 * backfeeds comments via [[Bridgy]]
 * reply/like/share context automatically fetched after posting
 * optional geo-location information for posts.
-* as of 2014-03-29, switched from SQLAlchemy/MySQL to flat files (thanks to [[databases_antipattern]])
-** 1 file per article/note/share/etc. named _data/posttype/year/month/day/index.md
-** post is formatted in markdown. Each file starts with a json blob for metadata. 
-** The source urls of received (and verified) webmentions are stored alongside each post, in a file named index.mentions.json 
-** mentions and reply contexts are stored together in a separate archive directory, loosely modeled on [[IndieArchive]].
+* background tasks (reverse geocode, process webmentions, send webmentions, etc.) use Redis-Queue 
+* storage via SQLAlchemy/SQLite
 
 The name comes from Raymond Chandler's short story of the same name, about the Santa Ana winds that drive everyone crazy :)
 
-== Filestore ==
+== Datastore ==
 
-Each post is represented in markdown, with one json blob in the header for metadata. e.g.,
+I've gone back and forth a few times between database and flat files. I eventually abandoned files as the "immediate" source of content for the site for a few reasons detailed below. But mainly, using a database means I have to write and maintain less code.
 
-<pre>
-{
-  "hidden": true, 
-  "syndication": {
-    "twitter_id": "460635803253612544"
-  }, 
-  "pub_date": "2014-04-28T04:24:06", 
-  "in_reply_to": [
-    "http://kylewm.com/note/2014/04/28/1", 
-    "https://twitter.com/courtarro/status/460629961557041152"
-  ]
-}
-@courtarro thanks, gitweb's good enough for now. it's too bad the other OS options are in RoR; reaaaally trying to avoid learning that stack :P
-</pre>
+Worth mentioning that while I think [[database-antipattern]] makes good points against relying only on a database for long term storage, it goes too far in calling it an antipattern. A couple of alternate titles: "databases and longevity" "database tradeoffs", "You might not need a database"
 
-Posts are stored in flat files, organized by <code>[post-type]/[year]/[month]/[newbase60 index].md</code>. Responses are stored in a parallel file called <code>[newbase60 index].mentions.json</code> in the same directory. Right now mentions just contains a list of URLs.
+=== Fragmentation ===
 
-To support paging and eventually, tags and other lookups, post metadata is cached in a file called, what else, <code>metadata.json</code>. The metadata file contains a list of all posts, and the 30 most recent mentions.
+I was storing three files for each post (one json, one markdown, one rendered html), plus separate json files for each mention and each reply-context. For about 6500 posts, this took up ~90mb, compared to ~9mb in SQLite. 90mb is not huge by any means, but it is not an insignificant amount to transfer around and back up.
 
-<pre>
-{
- "mentions": [
-  {
-   "post": "note/2014/04/28/4",
-   "mention": "https://brid-gy.appspot.com/like/twitter/kyle_wm/460918876574711808/11628"
-  },
-  {
-   "post": "note/2014/04/28/2",
-   "mention": "http://kylewm.wordpress.com/2014/04/28/test-sending-a-pingback/"
-  },
-  ...
-  ],
- "posts": [
-  {
-   "draft": false,
-   "published": "2013-06-18T00:00:00",
-   "deleted": false,
-   "path": "article/2013/06/18/1",
-   "hidden": false,
-   "type": "article"
-  },
-  {
-   "draft": false,
-   "published": "2013-07-30T00:00:00",
-   "deleted": false,
-   "path": "article/2013/07/30/1",
-   "hidden": false,
-   "type": "article"
-  },
-  ...
-  ]
-}
-</pre>
+{{tantek}} handles this problem elegantly in [[Falcon]] by grouping posts together into h-feeds and time-sharding into two-month blocks. 
 
-The datastore is mirrored in a private repo on git.kylewm.com, though it lags behind the live data somewhat
+=== Indexing ===
+
+I handled the problem of loading files by tag or type by keeping a large json index in the root of the flat filestore. The index contained the published date, post type, tags, and path for each post in tree. It could be quickly regenerated at any time by traversing the file tree, but it still felt "icky" to have to keep all this post data stored in two separate places, and to load a giant (664k) json object for any feed.
+
+=== Caching ===
+
+I did not want to think about caching recently accessed files in memory and am happy for now to leave that sort of logic up to a smart database.
+
+=== Longevity ===
+
+Planning to have an option to export to HTML+mf2 much like [[Falcon]]'s bim format (but with contexts and comments included). This feels like a good balance between the advantages of using a DB for immediate storage and HTML for longevity.
 
 == Address Book ==
 

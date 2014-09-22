@@ -10,7 +10,7 @@ How to implement search on your site.
 === searchability ===
 Make sure your site is at least searchable (IndieMark search level 1). This means:
 * '''allow robots to index'''. Permissive or no robots.txt. Either don't have /robots.txt (easiest), or if you have one, it MUST allow search engines to index public posts on your site.
-* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on Javascript to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
+* '''post content in HTML'''. Your post content MUST be in the visible HTML of the page retrieved from your post permalink. No depending on [[Javascript]] to render your post content - if you can't <kbd>curl</kbd> it, it's not on the web.
 * '''site-specific searchability'''. Be able to use "site:yoursite.example.com search-term" in [[Google]] and other search engines (that support site-specific searches) directly to find and display your posts in search results.
 
 === search box ===

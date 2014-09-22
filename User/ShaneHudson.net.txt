@@ -1,5 +1,3 @@
-http://indiewebcamp.com/User%3AShaneHudson.net
+http://indiewebcamp.com/User%3AShanehudson.net
 
-{{stub}}
-
-<span class="h-card">[http://www.shanehudson.net/ Shane Hudson]</span>
+#REDIRECT[[User:ShaneHudson.net]]

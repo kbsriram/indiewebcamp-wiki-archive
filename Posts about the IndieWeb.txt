@@ -1,8 +1,10 @@
 http://indiewebcamp.com/Posts_about_the_IndieWeb
 
-<span style="float:right;height:192px;font-size:192px;margin-top:64px">📡</span>
+<span style="float:right;height:192px;font-size:192px;margin-top:96px">📡</span>
 Welcome to '''<dfn>news about the IndieWeb</dfn>''' where recent notable articles about the IndieWeb are cited and linked to keep you up to date.
-* Want to watch a talk about the IndieWeb? See: '''[[videos about the IndieWeb]]'''!
+
+Want to watch a talk about the IndieWeb? 
+* See: '''[[videos about the IndieWeb]]'''!
 Check out the [[news]] page for links to more sources of IndieWeb news.
 
 Articles about the IndieWeb (in chronological order)

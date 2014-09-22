@@ -16,6 +16,7 @@ CC0:
 * [https://github.com/code4lib/antiharassment-policy/blob/master/code_of_conduct.md CodeOfConduct4Lib]
 
 CC-BY-3.0:
+* [http://2014.dconstruct.org/conduct/ dConstruct 2014 Code of conduct]
 * [http://portland2013.drupal.org/code-of-conduct DrupalCon Portland 2013 Code of Conduct]
 * [https://us.pycon.org/2012/codeofconduct/ PyCon 2012: Code of Conduct]
 * [https://us.pycon.org/2013/about/code-of-conduct/ PyCon 2013: Code of Conduct]

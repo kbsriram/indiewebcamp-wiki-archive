@@ -110,8 +110,12 @@ Only if the rel-author page lacks an h-card do we then fallback to looking for a
 ** Should be extracting it into an independent lib soon -[[User:Www.sandeep.io|Www.sandeep.io]] 01:23, 24 July 2013 (PDT)
 
 == Silo Implementations ==
+=== non currently ===
+== Past Implementations ==
 === Google Search ===
-[[Google]]'s search spider supports only part of the authorship algorithm, rel=author, in an oddly [[silo]]-specific way:
+'''Support dropped 2014-08-28[http://searchengineland.com/goodbye-google-authorship-201975]'''
+
+[[Google]]'s search spider supported only part of the authorship algorithm, rel=author, in an oddly [[silo]]-specific way:
 * if there's <code>rel=author</code> link on a page
 ** if it links to a [[Google+]] profile, use that profile for authorship information
 ** if it links to a [[home page]]

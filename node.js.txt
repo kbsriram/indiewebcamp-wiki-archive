@@ -1,7 +1,12 @@
 http://indiewebcamp.com/node.js
 
-{{ stub }}
+{{stub}}
 
-Node.js is a platform for running javascript applications and runs on all modern operating systems.
+'''<dfn>Node.js</dfn>''' is a platform for running [[javascript]] applications and runs on all modern operating systems.
 
-A well developed [https://github.com/glennjones/microformat-node microformat-node] library is available for use as a building block in indieweb projects.
+A well developed [https://github.com/glennjones/microformat-node microformat-node] library is available for use as a building block in indieweb projects for consuming pages with [[microformats]].
+
+== See Also ==
+* [[languages]]
+* [[JavaScript]]
+* [[CASSIS]]

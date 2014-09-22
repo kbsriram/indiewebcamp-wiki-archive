@@ -43,7 +43,7 @@ All extra crap (thus tax) compared to "just" using the file system.
 
 All databases have a DBA tax.
 
-Typical CMS's (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]] etc.) all use databases for primary storage of content, and thus saddle their users with a continuous DBA tax just to maintain their site.
+Common content management systems (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]] etc.) use databases for primary storage of content, and thus saddle their users with a continuous DBA tax just to maintain their site.
 
 Experience and evidence shows DBA tax exists as well. People lose things (and have them corrupted) in databases all the time, far more often than in file systems. This is because databases always require extra "magic" for backups etc. 
 
@@ -135,6 +135,9 @@ Examples:
 Antidote:
 * Encourage monoculture projects to support indieweb [[building-blocks]] and become indieweb [[friendly]].
 * Encourage participants in monoculture projects to join [[IRC]] and signup on the [[Guest List]] to attend the next IndieWebCamp. By engaging these projects productively, perhaps we can help improve them and their cross-project interop.
+
+== object oriented programming ==
+{{main|object-oriented-programming-antipattern}}
 
 == See also ==
 * [[architecture astronomy]]

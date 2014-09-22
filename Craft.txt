@@ -2,4 +2,4 @@ http://indiewebcamp.com/Craft
 
 {{ stub }}
 
-<dfn>[http://buildwithcraft.com/docs/introduction Craft]</dfn> is a commercial PHP/MySQL CMS, with hosted and self-hosted options.
+<dfn>[http://buildwithcraft.com/docs/introduction Craft]</dfn> is a commercial [[PHP]]/[[MySQL]] [[CMS]], with hosted and self-hosted options.

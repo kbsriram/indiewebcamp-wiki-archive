@@ -182,7 +182,9 @@ Demos from the Hack Day!
 
 Based on original notes taken in IRC http://indiewebcamp.com/irc/2014-09-07#t1410104851439 plus some memory recall.
 
-See also: Kevin’s [http://www.kevinmarks.com/indiewebcampUK20140907.html IndieWebCamp UK Demos 2014-09-07] notes.
+See also:
+* 2014-09-07 {{kevinmarks}}’s [http://www.kevinmarks.com/indiewebcampUK20140907.html IndieWebCamp UK Demos notes].
+* 2014-09-18 {{t}} blog post: [http://tantek.com/2014/259/b1/indiewebcampuk-hack-day-https-webactions IndieWebCampUK 2014 Hack Day Demos: HTTPS, #webactions, new & improved #indieweb sites] (has corrections and improvements upon this page and "Hack Day Demos" section, feel free to apply them to this page). 
 
 == Glenn Jones ==
 [[User:Glennjones.net|Glenn]] built improvements to [[transmat]]. ([http://indiewebcamp.com/irc/2014-09-07#t1410104860317 IRC notes]).

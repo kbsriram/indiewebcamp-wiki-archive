@@ -10,7 +10,7 @@ If you try to fetch about.me/kevinmarks with curl you get HTTP 418 error. - Kevi
 
 == Criticism ==
 === Links only via script ===
-They decided they don't want visible links, by that I mean links that are hidden to anything except a browser with javascript. - Kevin Marks ([[2014-05-06-iiw-join-indieweb]])
+They decided they don't want visible links, by that I mean links that are hidden to anything except a browser with [[javascript]]. - Kevin Marks ([[2014-05-06-iiw-join-indieweb]])
 
 == See Also ==
 * [[homepage]]

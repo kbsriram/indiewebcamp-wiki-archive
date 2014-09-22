@@ -31,6 +31,7 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # <s>micropub</s> avalable at https://ben.thatmustbe.me/new
 # <s>reply-context</s>
 # <s>comment edit/delete</s> Done but untested
+# [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
 # Authentication Host
 # Create Indie Events (and receive RSVPs)
 # RSVP to Events

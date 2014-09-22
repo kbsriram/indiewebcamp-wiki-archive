@@ -45,6 +45,10 @@ Questions can optionally include a question mark at the end.
 : [[User:tommorris.org]] [http://indiewebcamp.com/irc/2014-08-15/line/1408095816551 Suggested on IRC] that updates to relevant Wikipedia articles might be useful
 : enwp.org/IndieWebCamp, enwp.org/IndieWeb, enwp.org/webmention, enwp.org/microformats
 
+; limit the number of RT notifications for a given post.
+: Posts mentioning indieweb that are retweeted many times can be very distracting. 
+: http://indiewebcamp.com/irc/2014-09-19#t1411110119165
+
 == See Also ==
 * [[IRC]]
 * http://loqi.me

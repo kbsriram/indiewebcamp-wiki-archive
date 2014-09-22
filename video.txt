@@ -45,7 +45,7 @@ A simplest-case Indieweb video system might work like the following:
 * The uploaded file is stored in a location that can be made accessible to site visitors
 * HTML5 video tags are used to display the video on the page.
 
-The size implications of video files created by modern devices (see below) may mean that some video files cannot be uploaded; this is particularly true from mobile connections, or where the user's web server configuration cannot be altered (the default is often very low). It's possible to detect the size of files to be uploaded using Javascript, and perhaps warn the user about files that might be too large.
+The size implications of video files created by modern devices (see below) may mean that some video files cannot be uploaded; this is particularly true from mobile connections, or where the user's web server configuration cannot be altered (the default is often very low). It's possible to detect the size of files to be uploaded using [[Javascript]], and perhaps warn the user about files that might be too large.
 
 === Animated images / GIFs ===
 

@@ -92,7 +92,7 @@ The tricks required for this are explained below.
 == Criticism ==
 
 === No page that lists all pages ===
-There is no list of all wiki pages by default except in the sidebar loaded in via Javascript. This means making an [[archive]] of the site using a tool like [[wget]] will not find all the pages. To compensate for this, you can create a wiki page called AllPages or similar, and add a link to every page from that page. Then wget will follow those links since they appear in the HTML and will actually download every page.
+There is no list of all wiki pages by default except in the sidebar loaded in via [[Javascript]]. This means making an [[archive]] of the site using a tool like [[wget]] will not find all the pages. To compensate for this, you can create a wiki page called AllPages or similar, and add a link to every page from that page. Then wget will follow those links since they appear in the HTML and will actually download every page.
 
 == See Also ==
 * [[wiki]]

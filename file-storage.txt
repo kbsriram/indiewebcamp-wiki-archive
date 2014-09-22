@@ -1,0 +1,32 @@
+http://indiewebcamp.com/file-storage
+
+{{stub}}
+
+'''<dfn>File Storage</dfn>''' is the idea of storing the main site content in flat, readble files instead of a [[database]]
+
+== IndieWeb Examples ==
+IndieWeb members that use File Storage on their personal site.
+=== Tantek ===
+{{t}} on tantek.com uses flat files for primary storage of content:
+* 2010-01-01... present: [[Falcon]] which stores data in flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01]. See [[Falcon#Storage_format]] for details.
+* [http://tantek.com/log/2002/08.html 2002-08]...[http://tantek.com/log/2008/08.html 2008-08] static site directly served from primary storage of flat files, up to 12 per year (1 per Gregorian month).
+
+=== Bear ===
+at https://bear.im uses flat files for storage of all content:
+* posts - since 2003-12-18 stored as text with some textual/markdown/whatever markup
+* webmentions - stored as html in the same directory as the post
+* comments - stored as html in the same directory as the post
+* feeds and related
+
+=== ... add yourself ... ===
+
+=== Want to use file storage ===
+IndieWeb members that *want* to use File Storage on their personal site:
+* [[UserKartikprabhu.com|Kartik]] using [[Bundle]] wants to move away from [[MySQL]] to a HTML+mf2 based file storage for main content. Has played with YAML-based storage but does not like it. Article content is authored and stored in Django-style HTML templates anyway.
+* add yourself.
+
+== See Also ==
+* [[database]]
+* [[database-antipattern]]
+* [[database-cache]]
+* [[projects]]

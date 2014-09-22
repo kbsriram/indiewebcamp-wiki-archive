@@ -331,7 +331,7 @@ The <code>meta name="apple-mobile-web-app-capable"</code> is an Apple proprietar
 
 Problems:
 * UX: hyperlinks (even local to your own site) will switch to and open in iOS Mobile Safari which can make for a jarring experience.
-** There are open source Javascript workarounds, but they all seem like they don't quite do the right thing (or it's not clear what "the right thing" is). Some URLs for further reading / coding:
+** There are open source [[Javascript]] workarounds, but they all seem like they don't quite do the right thing (or it's not clear what "the right thing" is). Some URLs for further reading / coding:
 *** one JS gist: https://gist.github.com/kylebarrow/1042026
 *** another JS gist: https://gist.github.com/irae/1042167
 *** 2013-08-06 <cite>[http://stanislav.it/how-to-prevent-ios-standalone-mode-web-apps-from-opening-links-in-safari/ How to Prevent iOS Standalone Mode Web Apps From Opening Links in Safari]</cite>

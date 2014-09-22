@@ -50,6 +50,8 @@ Please keep sorted alphabetically
 * {{irc user|ellton.me|ellton|America/Sao_Paulo}}
 * {{irc user|erikmaarten.com|erikmaarten|Asia/Tokyo}}
 * {{irc user|t37.net|fdevillamil|Europe/Paris|http://t37.net/files/resource/1396/thumb_dGVbyzQU.jpeg}}
+* {{irc user|rawlinson.us|finalcut|America/New_York|http://rawlinson.us/bill/thumbnail.jpg}}
+* {{irc user|gavin.carothers.name|gavinc|America/Los_Angeles}}
 * {{irc user|gregorlove.com|gRegor`|US/Central|http://gregorlove.com/assets/img/profile.jpg}}
 * {{irc user|david.shanske.com|gwg|America/New_York}}
 * {{irc user|tobilehman.com|habitmelon|America/Los_Angeles}}
@@ -102,6 +104,7 @@ Please keep sorted alphabetically
 * {{irc user|peat.org|peat|America/Los_Angeles}}
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
 * {{irc user|Notizblog.org|pfefferle|Europe/Berlin}}
+* {{irc user|fberriman.com|Phae|US/Pacific|https://farm4.staticflickr.com/3907/14681916407_8f36767ac4_s.jpg}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
 * {{irc user|rascul.io|rascul|America/New_York|https://rascul.io/img/avatar80.jpg}}
 * {{irc user|rkn.la|rknLA|America/Los_Angeles}}
@@ -109,7 +112,7 @@ Please keep sorted alphabetically
 * {{irc user|jenson.org|scottjenson|America/San_Francisco}}
 * {{irc user|sebastiangreger.net|sgreger|Europe/Helsinki}}
 * {{irc user|ShaneHudson.net|ShaneHudson|Europe/London|http://shanehudson.net/avatar.png}}
-* {{irc user|iamshane.com|shaners|America/Los_Angeles}}
+* {{irc user|iamshane.com|shaners|America/Los_Angeles|http://iamshane.com/apple-touch-icon-57-precomposed.png}}
 * {{irc user|aheadrobot.com|smagdali|Europe/London}}
 * {{irc user|snarfed.org|snarfed|America/Los_Angeles}}
 * {{irc user|4c4d.com|sparverius|America/Los_Angeles}}

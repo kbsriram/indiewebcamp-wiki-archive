@@ -18,7 +18,7 @@ Most linux distros should come with wget installed. If not, use your applicable 
 
 === Archive a Site ===
 
-Creating a full mirror of a site can be a challenge, especially if any of the site's content is loaded via Javascript. Assuming you have a typical HTML-only site, you can create a mirror with the following command:
+Creating a full mirror of a site can be a challenge, especially if any of the site's content is loaded via [[Javascript]]. Assuming you have a typical HTML-only site, you can create a mirror with the following command:
 
 <pre>wget --mirror --page-requisites --convert-links -e robots=off -P . http://example.com/</pre>
 

@@ -1,0 +1,14 @@
+http://indiewebcamp.com/content_management_system
+
+{{stub}}
+
+A '''<dfn>content management system</dfn>''' (often abbreviated as <dfn>CMS</dfn>) is software used to create, enter, edit, update, delete content on a website, even on indieweb sites.
+
+Examples:
+* [[Known]]
+* [[p3k]]
+* [[WordPress]]
+* ...
+
+== See Also ==
+* [[projects]]

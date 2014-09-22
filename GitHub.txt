@@ -5,7 +5,7 @@ http://indiewebcamp.com/GitHub
 '''<dfn>[http://github.com GitHub]</dfn>''' is a code and static content hosting [[silo]] that has some aspects of a [[commons]].
 
 == GitHub Pages ==
-GitHub's GitHub Pages (gh-pages) feature is a [[web_hosting#Static_domain_hosting|static domain hosting]] where you can host your static sites. They offer pre-built web page templates, as well as the ability to build and host [[Jekyll]] websites.
+GitHub's <dfn>GitHub Pages</dfn> (gh-pages) feature is a [[web_hosting#Static_domain_hosting|static domain hosting]] where you can host your static sites. They offer pre-built web page templates, as well as the ability to build and host [[Jekyll]] websites.
 
 Static content hosting is a form of [[web hosting]] that can be used for [[getting started]] on the IndieWeb.
 

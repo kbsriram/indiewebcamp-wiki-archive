@@ -334,7 +334,7 @@ Bad or failing behavior on the part of Twitter.
 Live: http://downrightnow.com/twitter
 
 Most recent first:
-* 2013-08-28 [https://twitter.com/veen/status/372842227195580419 Twitter was experiencing DNS issues] resulting in missing images and raw html for a number of hours.  This is likely due to DNS issues related to the [http://www.vice.com/read/the-syrian-electronic-army-talks-about-yesterdays-hacks syrian army hacks].  The site was nearly impossible to use in it's raw html form. [[File:Screen_Shot_2013-08-28_at_5.12.26_PM.png]]  
+* 2013-08-28 [https://twitter.com/veen/status/372842227195580419 Twitter was experiencing DNS issues] resulting in missing images and raw html for a number of hours.  This is likely due to DNS issues related to the [http://www.vice.com/read/the-syrian-electronic-army-talks-about-yesterdays-hacks syrian army hacks].  The site was nearly impossible to use in it's raw html form. [[File:Screen_Shot_2013-08-28_at_5.12.26_PM.png|250px]]  
 * 2012-06-21 [http://gigaom.com/2012/06/21/twitter-outage-thursday-morning-frustrate-users/ Twitter was down: sporadic outages persist Thursday morning]
 * 2010-11-04 "Twitter server is down or being upgraded." [http://www.flickr.com/photos/tantek/5322875194/ http://farm6.staticflickr.com/5210/5322875194_908d728816_z.jpg]
 * 2009-09-16 "Twitter is over capacity" (AKA failwhale) [http://www.flickr.com/photos/factoryjoe/3927590515/ http://farm3.staticflickr.com/2571/3927590515_dcdac9ed95.jpg]

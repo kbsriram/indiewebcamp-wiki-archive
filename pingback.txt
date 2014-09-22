@@ -71,6 +71,11 @@ We've seen it happen in the [[IRC]] channel when spammers plagiarized the [[WIRE
 
 Note that when spammers can easily install a WordPress plugin for [[webmention]], this same problem will start to occur on sites that accept webmentions.
 
+=== DDOS ===
+{{main|DDOS}}
+
+There is a known DDOS attack that uses servers with Pingback endpoints as part of the DDOS. See [[DDOS]] for more details.
+
 == History ==
 A brief history of pingback:
 {{main|timeline}}

@@ -28,7 +28,7 @@ Poor integration - Trovebox fails to easily integrate with any other posting sof
 Poor stream management - <blockquote>"it's fine as a full photo management stack, that's just not what I want in terms of publishing a photo stream." - [http://indiewebcamp.com/irc/2013-04-16#t1366140041 aaronpk on IRC]</blockquote>
 
 === Reliance on Javascript ===
-Login and Gallery pages both rely on Javascript in order to function, and the latest checkout has several javascript bugs which prevent them from working correctly.
+Login and Gallery pages both rely on [[Javascript]] in order to function, and the latest checkout has several javascript bugs which prevent them from working correctly.
 
 == See Also ==
 * [[photo]]

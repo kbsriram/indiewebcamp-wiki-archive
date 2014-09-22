@@ -1,0 +1,12 @@
+http://indiewebcamp.com/Go
+
+{{stub}}
+
+'''<dfn>Go</dfn>''' (AKA <dfn>Golang</dfn> or <dfn>go lang</dfn>) is a programming language.
+
+== See Also ==
+* [[languages]]
+* [[JavaScript]]
+* [[PHP]]
+* [[Python]]
+* [[Ruby]]

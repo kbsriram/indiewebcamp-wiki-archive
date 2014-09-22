@@ -106,6 +106,7 @@ Look for <code>img src="{PhotoURL-500}" alt="{PhotoAlt}"</code> and change it to
 The following Tumblrs have proper [[h-entry]] markup (per the above instructions) and thus may help as examples:
 * http://tantek.tumblr.com/  (also uses <code>&lt;link rel=author&gt;</code> for site and post [[authorship]])
 * http://andthenitcametotheend.tumblr.com/ uses the [https://gist.github.com/tallus/43e09af02cbad58534a4 indieweb tumblr theme] mentioned above.
+* http://days.maybemaimed.com (uses [https://github.com/meitar/resting-crane-theme a free IndieWeb-ified Tumblr theme called "Resting Crane"])
 
 === Add webmention support ===
 Tumblr doesn't have built in support for [[webmention]]s, but [[Bridgy]] can send, receive, and display webmentions for Tumblr blogs. You can also receive webmentions with [[webmention.io]] and [https://webmention.herokuapp.com/ webmention.herokuapp.com].

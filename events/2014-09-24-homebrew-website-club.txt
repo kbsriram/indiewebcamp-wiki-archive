@@ -26,8 +26,9 @@ All times are Pacific Time unless otherwise noted in venues.
 :''Note the Minneapolis meeting is at 18:00 CDT'' -->
 
 ;Chicago
-:<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
-:''Note the Chicago meeting is at 19:00 CDT''
+: None this week! Back in two weeks.
+<!-- :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
+:''Note the Chicago meeting is at 19:00 CDT'' -->
 
 === What ===
 <div class="p-description description">
@@ -42,12 +43,15 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-09-24-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* <span class="u-url url">http://known.kevinmarks.com/2014/homebrew-website-club</span>
+* <span class="u-url url">https://www.facebook.com/events/1566815933547350/</span>
 
 Portland:
 * add indieevent...
 * ... and POSSE copy
+
+<!--
+Not this week:
 
 Minneapolis:
 * add indieevent...
@@ -56,6 +60,7 @@ Minneapolis:
 Chicago:
 * add indieevent...
 * ... and POSSE copy
+-->
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -72,11 +77,15 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland:'''
 * ... add yourself!
 
+<!--
+Not this week:
+
 '''Minneapolis:'''
 * ... add yourself!
 
 '''Chicago:'''
 * ... add yourself!
+-->
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-09-24 IRC discussion archives 2014-09-24] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
@@ -87,11 +96,15 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland'''
 * ...
 
+<!--
+Not this week:
+
 '''Minneapolis:'''
 * ... 
 
 '''Chicago'''
 * ...
+-->
 
 === Blog posts ===
 Blog posts before the meeting:

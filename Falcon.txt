@@ -411,7 +411,7 @@ Itches:
 * dislike the PBworks UI
 
 Scratch: have every page on my site by default be a wiki page made "wiki-like" by Falcon, where wiki-like means:
-* editable with web UI on any reasonably modern web browser, not requiring javascript
+* editable with web UI on any reasonably modern web browser, not requiring [[javascript]]
 * browsable version history (maybe with [[web sign-in]] only? no need to index version history)
 * browsable versions (maybe with [[web sign-in]] only? no need to index old versions)
 

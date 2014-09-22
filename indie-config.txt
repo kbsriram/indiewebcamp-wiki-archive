@@ -13,7 +13,7 @@ By setting up indie-config on your personal site, you can then click on [[web ac
 How to setup indie-config on your personal site:
 
 === Create the configuration page ===
-Create a page on your site that only you will need to access. This might be a page such as "config.html". This page should contain the following Javascript:
+Create a page on your site that only you will need to access. This might be a page such as "config.html". This page should contain the following [[Javascript]]:
 
 <pre>
 <script>

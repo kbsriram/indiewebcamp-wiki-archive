@@ -39,6 +39,13 @@ Other URL(s) (for convenience only - to attend you must '''sign-up on the [[#Gue
 * Brighton Digital Festival: <span class="u-url url">http://www.brightondigitalfestival.co.uk/events/indie-web-camp/</span>
 * Top level [https://etherpad.mozilla.org/indiewebcamp IndieWebCamp Etherpad]
 
+== Blog Posts ==
+Blog posts about IndieWebCampUK 2014, both before and after, ordered by date.
+* 2014-09-12 {{adactio}}: [https://adactio.com/journal/7434 Indie Web Camp UK 2014]
+* 2014-09-12 {{adactio}}: [https://adactio.com/articles/7435 Switching to https]
+* 2014-09-15 Tim Retout: [https://www.designingsecurity.com/2014/09/15/https-at-indiewebcamp-uk-2014/ HTTPS at IndieWebCamp UK 2014]
+* 2014-09-16 {{t}}: [http://tantek.com/2014/259/b1/indiewebcampuk-hack-day-https-webactions IndieWebCampUK 2014 Hack Day Demos: HTTPS, #webactions, new & improved #indieweb sites]
+
 == Photos ==
 [[File:IWC_UK_2014_group_photo.jpg|720px]]
 
@@ -130,16 +137,6 @@ Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions compl
 * [[2014/UK/Introductions|Introductions]]
 * [[2014/UK/Demos|Demos]]
 
-== Demos ==
-<!-- 
-See and document from [http://indiewebcamp.com/irc/2014-04-26 Day 1 IRC archives].
-
-At Start:
-* ...
-* ...
-
-At Finish: (see [http://indiewebcamp.com/irc/2014-04-27 Day 2 IRC archives for details])
--->
 == Sponsors ==
 Our thanks to these sponsors for supporting the event.
 
@@ -178,7 +175,6 @@ Put suggestions for Indie Web Camp UK 2014 here.
 
 [[Category:Events]]
 [[Category:2014]]
-[[Category:Guest List]]
 
 == See Also ==
 {{IndieWebCamp}}

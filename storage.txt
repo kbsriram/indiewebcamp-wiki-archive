@@ -29,7 +29,6 @@ IndieWeb Community members using flat files for storage with their projects:
 * [[User:Aaronparecki.com|Aaron Parecki]] on [http://aaronparecki.com aaronparecki.com] uses [[p3k]] (one file per post, YAML extensions for meta info)
 * [[User:Bear.im|Bear]] on [http://bear.im bear.im] uses [[Hakkan]] with one file per post (time sharded by year+day-of-year), key:value header for metadata and a json blob for connected resources
 * [[User:Bret.io]] Yaml headers (aka front-matter) with github flavored markdown mixed with liquid template include tags for post attachment metadata.  Yuuuuuck!  This is what jekyll sets you up with.  It has its ups and downs, but its a mix of 3 weird languages which really bothers me.
-* [[User:kylewm.com|Kyle Mahan]] uses one markdown file per post, with JSON frontmatter.  See [[Red Wind#Filestore]] for more detail.
 * ...
 
 == Databases ==

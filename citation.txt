@@ -25,7 +25,7 @@ A site can provide text inputs with a citation URL (and/or full citation markup)
 * ...
 
 === append to text selection copy ===
-Using javascript it appears possible to append a citation URL to the end of any text that a reader selects and uses the "[[copy]]" operation on.
+Using [[javascript]] it appears possible to append a citation URL to the end of any text that a reader selects and uses the "[[copy]]" operation on.
 
 Possible source of script to do this:
 * http://www.wpbeginner.com/wp-tutorials/how-to-add-a-read-more-link-to-copied-text-in-wordpress/

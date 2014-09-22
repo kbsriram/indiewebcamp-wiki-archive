@@ -1,13 +1,21 @@
 http://indiewebcamp.com/database-antipattern
 
-= databases for storage =
-Using databases for the primary storage of your content is a known [[antipattern]].
+The '''<dfn>database antipattern</dfn>''' is the use of a database for primary long-term storage of [[posts]] and other personal content (like on an indieweb site), and is an anti-pattern due to the additional maintenance costs, uninspectability, platform-dependence, and long-term fragility of databases and their storage files. 
 
-Typical CMS's (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]] etc.) all use databases for primary storage of  content. Most often [[MySQL]], sometimes others like [[MongoDB]].
+Is this your first time on IndieWebCamp.com?
+* See our '''[[Main Page|home page]]''' and '''[[principles]]''' for an overview of what we're about.
+
+Do you have a personal site or want one? start here:
+* '''[[Getting Started]]'''
+
+= databases for storage =
+Using databases for the primary storage of content on your personal site is considered by some in the community to be an [[antipattern]].
+
+Common content management systems (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]], etc.) use databases for primary storage of content. Most often [[MySQL]], sometimes others like [[MongoDB]].
 
 Databases are all a pain to maintain (i.e. highly human-time inefficient - see DBA tax below), and more fragile[http://www.flickr.com/photos/tantek/5331910087/] than the file system.
 
-For any content you care about it, don't put the primary copy in a database.
+For any content you care about, don't put the primary copy in a database.
 
 === DBA tax ===
 (this likely deserves its own canonical definitional article)
@@ -20,12 +28,11 @@ Everyone already deals with a file system. Why deal with yet another space?
 
 The following are aspects of the DBA tax - hassles of:
 * setting up a database
-* setting up doing tables
+* setting up tables
 * setting up username/login that is database specific
 * altering tables
 * dealing with username/login that is database specific (often gets in the way of things, e.g. password reset on MediaWiki)[http://microformats.org/wiki/admin-to-do#wiki_problems]
-* exporting
-* importing
+* exporting/importing
 * backups (separate from the backups you're already doing of the file system, because database files can themselves become corrupted internally - as what happened with [[Magnolia]]).
 
 All extra crap (thus tax) compared to "just" using the file system.
@@ -53,14 +60,16 @@ Databases are known to be fragile in exceptional situations, e.g. high traffic l
 <blockquote>... Bad news: MySQL barfed all over the table holding my posts. ... [https://twitter.com/christi3k/status/448270028484263936]</blockquote>
 <blockquote>And I'm pretty sure that happened when Rackspace hard reset my machine due to swapping.[https://twitter.com/christi3k/status/448270919341858816]</blockquote>
 
-Note: apparently postgres doesn't have that problem.
+Note: apparently [[Postgres]] doesn't have that problem.
 
 === Caching ok ===
 {{main|database-cache}}
-Databases are essentially useful only for caching/performance needs for high volume sites. Examples:
+Databases are useful for caching/performance needs for high volume sites. Examples:
+
 * aggregations (e.g. all of your [[posts]] with a specific [[tag]]) can be cached.
 * full-text search index
 * geo-search index
+
 In both search use-cases the DBs should be a cache/query store, the real data should still be in flat files (e.g. .md, HTML, etc.) to ensure long-term durability.
 
 === Premature Optimization ===
@@ -79,6 +88,18 @@ It's likely that eventually we'll come up with something resembling a database /
 ** Something where you can get back structured data and potentially write structured data. E.g. the phpmf2 [[microformat2]] parser/API. Or the [[Falcon#Storage_format|Falcon storage format]].
 
 === FAQ ===
+==== Should I never use a database ====
+Q: What, you mean, never use a database ever? That's crazy! How on earth could you build (some big service) without a database?
+* A: There are instances where the benefits to using a database offset the additional costs of using a database (e.g. large services for large numbers of users). There are also instances where the costs are mitigated or reduced (e.g. caching only). 
+
+This page is specifically about the problems and undue burdens that database usage causes people that maintain their own indieweb sites, and documentation their real-world personal frustrations and issues with databases. 
+
+This doesn't mean that you should '''never''' use a database: judge technology in a sensible way. 
+
+Some popular database systems are overkill for some use cases around personal publishing. If you are trying to build a large scale, multi-user system, this page might not apply to you. 
+
+If you are building a personal publishing platform, or archiving content you’ve spent hours/days/years creating, then there are actual tradeoffs (in terms of complexity, management etc.) that you need to think about.
+
 ==== SQLite tax avoidance ====
 Q: Is SQLite a way to avoid the DBA tax?
 * A: No. It's still yet another space of stuff and one space of stuff is easier to maintain / keep track of than two spaces of stuff. It also still has the "one implementation" fragility of its magic file format.
@@ -105,17 +126,36 @@ Q: Isn't MySQL trivial to port via: mysqldump ... | scp | mysql ?
 * A: No, not trivial. Although this is often the most reliable way to migrate data between different MySQL versions, it is still easy to encounter UTF8 corruptions unless you are extremely careful about UTF8 settings on both ends. Don't forget the --skip-extended-insert flag otherwise if you have really large tables they will break when the target DB has a smaller max query size!
 
 ==== PaaS Compatibility ====
-Q. Flat-file storage prevents you from using [[Heroku]], Google [[AppEngine]], or other [[PaaS]]'s. Is that a different kind of "Platform trap"?
+Q: Flat-file storage prevents you from using [[Heroku]], Google [[AppEngine]], or other [[PaaS]]'s. Is that a different kind of "Platform trap"?
+
+A:Yes. If you can't easily scp/rsync files to/from your host or PaaS, then any files created there are "trapped" as well.
 
 ==== Database with export ====
-Q. Would using a database with an export to HTML w/ microformats (or other durable format) mitigate these concerns?
+Q: Would using a database with an export to HTML w/ microformats (or other durable format) files mitigate these concerns?
+
+A: It could mitigate those concerns to the extent that you trust your code to be able to ''import'' from those files as well as well export to those files any time you create/save user content in your databases. And at that point (where you have dependable code to import/export from/to flat files), consider directly using the flat files, and only using an intermediate database for caching purposes (if you need that, the section on "databases for caching").
 
 ==== Still not convinced ====
 Q: Still not convinced that databases for storage are an anti-pattern or about the DBA tax.
 * A: For those still not convinced, it's left as an exercise to lose enough data in random/binary file formats over the years until it's painful enough that you decide to stop using such things for anything you care about. If you don't think it's a pain, the only likely way to learn that it is is by doing it for years. Go ahead and try to make databases for primary storage work if you like, and report back on how well your data is doing in a few years (like 10).
 
+==== Isn't flat-files a form of database? ====
+Q: This page seems to be advocating flat file storage. But that is just a form of database. This is so hypocritical.
+* A: Yes, it is a database, albeit a different sort of database. One that is portable, has broad cross-platform support, that you're already backing up. Why do you need two databases with twice the hassle?
+
+You may also feel free to consider this page to be titled "the big, overly complicated databases with non-trivial maintenance antipattern". 
+
+Finally, this wiki is itself hosted on MediaWiki, which stores data in MySQL. So there's that - as an issue of practicality, it may be less costly (time etc.) for some use-cases to re-use existing solutions with a database and bear the DBA tax, than attempt to write your own solution (see [[wiki-page]] for work in progress on that use-case in particular).
+
+==== How is this related to the indieweb? ====
+Q: I don't understand how this anti pattern is related to the indieweb?
+* A: In one word: [[longevity]]. Part of the reason we are frustrated with [[silos]] are their inevitable [[site-deaths]] and loss of content and permalinks, thus one of the indieweb [[principles]] is building for the long web [[longevity]]. And as soon as you start thinking & designing for longevity you realize longevity of your ''content'' and ''data'' (including [[permalinks]]) is critical, and when you design for that, you find that databases are ''bad'' for longevity and thus their common use as primary long-term storage is an antipattern.
+
 == See Also ==
-* databases: [[MySQL]], [[MongoDB]]
+* [[file-storage]]
+* [[MySQL]]
+* [[MongoDB]]
+* [[Postgres]]
 * [[database-cache]]
 * [[antipatterns]]
 * [[projects]]

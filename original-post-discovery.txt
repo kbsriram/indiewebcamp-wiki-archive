@@ -27,7 +27,7 @@ How to discover an '''original post URL''' from a copy of that post at a '''POSS
 # in the h-entry that represents the POSSE copy, look for a link with "u-url" and "u-uid" - use that href as the '''original post URL'''.
 # otherwise look for a rel=canonical link in the POSSE'd copy that links back to an original - use that as the '''original post URL'''.
 # otherwise look for a link with link text of "See Original" in the POSSE'd copy page that links back to an original - use that as the '''original post URL'''.
-# otherwise if a parenthetical permashortlink citation is the last thing in the POSSE'd copy content, convert that to a URL, use that as the '''candidate URL'''
+# otherwise if a parenthetical [[permashortcitation|permashortlink citation]] is the last thing in the POSSE'd copy content, convert that to a URL, use that as the '''candidate URL'''
 # otherwise if a URL is the last thing in the POSSE'd copy content, use that as the '''candidate URL'''
 # retrieve the '''candidate URL''' and parse it for hyperlinks
 # iterate across hyperlinks with rel=syndication or u-syndication URLs ('''syndication URLs''')

@@ -64,6 +64,8 @@ And the open source on GitHub
 
 Any help would be awesome! The open source on GitHub has everything you need to deploy a test demo deployment like my own in case you want to try fixing it and testing it with a complete demo UI.
 
+* Hi Tantek, I made some changes to parse the new Twitter HTML (seems to be out of reach of SimpleXMLParser even after running tidy?). Pull request here, see what you think! https://github.com/themattharris/RelMeAuth/pull/5 [[User:Kylewm.com|Kylewm.com]] 12:57, 21 September 2014 (PDT)
+
 == working on ==
 Things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
 

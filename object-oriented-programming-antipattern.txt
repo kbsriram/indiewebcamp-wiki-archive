@@ -1,0 +1,11 @@
+http://indiewebcamp.com/object-oriented-programming-antipattern
+
+{{stub}}
+
+The '''<dfn>object-oriented-programming antipattern</dfn>''' is the excessive / unnecessary use of object-oriented-programming (OOP) and OOP techniques when simple procedural functions would have sufficed, with less overhead, fewer files to navigate around, fewer indirections to follow while debugging, etc.
+
+== Articles and references ==
+* cat -v harmful stuff: <cite>[http://harmful.cat-v.org/software/OO_programming/ Object Oriented Programming is Inherently Harmful]</cite>
+
+== See Also ==
+* [[database-antipattern]]

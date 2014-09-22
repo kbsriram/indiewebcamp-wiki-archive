@@ -85,6 +85,14 @@ using it is so hard that nobody uses it at all.
 
 == Authentication ==
 
+=== How to use PGP with IndieAuth ===
+
+Provide a link to your PGP key from your home page with a rel value of "pgpkey". Then, when signing in via indieauth.com or other implementations, the site will provide a challenge that you can sign with you private key.
+
+Full details: https://indieauth.com/gpg
+
+=== Brainstorming ===
+
 Alice is using her contact manager to add Bob to her contact list. The
 contact manager has figured out Bob's canonical URL, and also
 [[#Key_Lookup_Algorithm|found a key]] from (say)

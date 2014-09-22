@@ -42,19 +42,18 @@ Disadvantages:
 * Maintaining URL permalinks may be challenging when you switch to another (more self-owned / self-run) solution.
 
 === Hosted CMS Software as Service ===
-Some open source software (in particular [[WordPress]]) is hosted on various domains (most notably Wordpress.com) and can be set up to serve your personal domain for you.
+Some open source software is hosted on various domains and can be set up to serve your personal domain for you.
+* '''[[Known]]''' (free): [http://withknown.com]
 * '''[[Wordpress.com]]''' (small fee): [http://en.support.wordpress.com/domain-mapping/ instructions]
 * '''[http://wpengine.com/ WP Engine]''' (fee): [http://wpengine.com/support/add-domain-in-client-portal/ instructions]
 
+
 Advantages of hosted CMS software:
 * Regular security updates 
-* Easier migration from hosted WordPress to WordPress on your own web server / VPS (as compared to silos above).
+* Easier migration from hosted to your own web server / VPS (as compared to silos above).
 Disadvantages:
 * Choice of software platform typically limited to plug-ins and perhaps javascript.
 * Terms of service may limit your options for monetizing your site.
-
-IndieWeb community members using this approach: 
-* [[User:werd.io|Ben Werdmuller]] intends to provide this as a service for [[idno]].
 
 === Static domain hosting ===
 Simpler and more portable to a dynamic content web hosting solution, static hosted domain solutions are (likely) even more reliable while still be free or very cheap:
@@ -63,13 +62,8 @@ File hosting services which provide serving static files over HTTP
 
 ==== Dropbox ====
 {{main|Dropbox}}
-* [https://dropbox.com Dropbox] (free) - There are several guides and services on how to use Dropbox to host your website:
-** [http://www.makeuseof.com/tag/how-to-host-a-dropbox-website/ How to host a dropbox website]
-** http://lifehacker.com/5528104/use-dropbox-to-share-and-host-your-web-site Use Dropbox to share and host your web site]
-** http://droppages.com/
-** http://pancake.io/
-** http://lifehacker.com/5528104/use-dropbox-to-share-and-host-your-web-site
-** http://www.makeuseof.com/tag/how-to-host-a-dropbox-website/
+* [https://dropbox.com Dropbox] (free)
+* See the [[Dropbox|main article]] for guides and services that help host a small static site on Dropbox.
 
 ==== GitHub Pages ====
 {{main|GitHub}}
@@ -87,6 +81,7 @@ Advantages of static hosting:
 * Very cheap. (See [http://indiewebcamp.com/Amazon_S3#Date_Edge Date Edge's usage/billing]
 * ...
 Disadvantages:
+* Complicated to set up.
 * ...
 
 ==== IndieWeb static hosting users ====
