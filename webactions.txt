@@ -1,6 +1,6 @@
 http://indiewebcamp.com/webactions
 
-A '''<dfn>web action</dfn>''' is the interface and user experience of taking a specific discrete action, across the web, from one site to another site or application.[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]
+A '''<dfn>web action</dfn>''' is the interface and user experience of taking a specific discrete action, across the web, from one site to another site or application. [http://tantek.com/2011/220/b1/web-actions-a-new-building-block]
 
 == Why ==
 You should put web action buttons (or links) on your posts so that users can quickly interact with them and perform common actions such as:
@@ -56,6 +56,35 @@ If you have Twitter "Favorite", "Reply", "Retweet" tweet action links, you can w
  </a>
 </indie-action>
 </nowiki></pre>
+
+=== action markup ===
+Here is a simple outline of <code>&lt;indie-action></code> markup:
+
+<pre><nowiki>
+  <indie-action do="post" with="permalink">
+   <a href=twitter>..</a>
+   <a href=pinterest>...</a>
+   ...
+  </indie-action>
+</nowiki></pre>
+
+=== action do verbs ===
+'''<code>do</code>''' takes a verb (could allow multiple verbs) - we can create a common verb registry like the [http://microformats.org/wiki/existing-rel-values rel registry]. A few possible common verbs (from analysis in "[http://tantek.com/2011/220/b1/web-actions-a-new-building-block#web-action-motivations Web Action Motivations and Clusters]") - though these should be iterated based on user experience design iterations (names, how many in particular, what specific meanings).
+* '''<code>post</code>''' - more specific than "share", more general than "comment", or "tweet"/"reply", though those might show up in a UI where a reader expected a Twitter-like experience
+* '''<code>reply</code>''' - specifically to reply to the current URL. Twitter uses a different icon. IndieNews and Barnaby.co.uk both have reply actions.
+* '''<code>repost</code>''' - generalization or Twitter's "retweet", Tumblr's "reblog" ("retumbl?"),  Pinterest "repin"
+* '''<code>like</code>''' - generalization of Twitter "favorite", Facebook "like", GooglePlus "+1". Alternatively, could split this up into separate verbs for "favorite" and "like", or further specialize: "heart" (Instagram "like"), "star" (Flickr "favorite" and Twitter "favorite"). It's not clear which approach (general or specific) is better. People do assign different meanings to favoriting vs. liking. (there's a photo on flic.kr/tantek with a conversation about this but can't find it now)
+
+See also: [[webactions-verbs-brainstorming]]
+
+=== with URL ===
+'''<code>with</code>''' takes a URL that represents a direct object for the verb to act on. The <code>with</code> attribute MUST be processed as a URL attribute in the same way that <code>href</code> is, by resolving relative URLs per document context.
+
+For most actions (e.g. reply, repost, like), the URL should resolve to a post permalink.
+
+Some actions may apply to a user / whole site (e.g. follow, add friend, invite), and those will likely thus resolve to a home page.
+
+Some actions may apply to any URL (e.g. bookmark).
 
 == IndieWeb Examples ==
 <span id="Action_tag_examples_in_the_wild">Examples of real world web sites</span> using the <code>&lt;indie-action></code> tag. When this gets too big (say, 10+ sites) we can move it to [[webactions-examples-in-wild]]
@@ -149,28 +178,6 @@ Generically, "Quote this" is a better non-silo-specific phrase for this function
 
 __TOC__
 == Brainstorming ==
-=== action markup ===
-The 2012-06-28 OSBridge "Web Actions" presentation [http://tantek.com/presentations/2012/06/osb12-web-actions/#slide15 proposed] the <code>&lt;action></code> tag as follows:
-
-<pre><nowiki>
-  <action do="post" with="permalink">
-   <a href=twitter>..</a>
-   <a href=pinterest>...</a>
-   ...
-  </action>
-</nowiki></pre>
-
-=== action do verbs ===
-Where:
-* '''<code>do</code>''' takes a verb (could allow multiple verbs) - we can create a common verb registry like the [http://microformats.org/wiki/existing-rel-values rel registry]. A few possible common verbs (from analysis in "[http://tantek.com/2011/220/b1/web-actions-a-new-building-block#web-action-motivations Web Action Motivations and Clusters]") - though these should be iterated based on user experience design iterations (names, how many in particular, what specific meanings).
-** '''<code>post</code>''' - more specific than "share", more general than "comment", or "tweet"/"reply", though those might show up in a UI where a reader expected a Twitter-like experience
-** '''<code>reply</code>''' - specifically to reply to the current URL. Twitter uses a different icon. IndieNews and Barnaby.co.uk both have reply actions.
-** '''<code>repost</code>''' - generalization or Twitter's "retweet", Tumblr's "reblog" ("retumbl?"),  Pinterest "repin"
-** '''<code>like</code>''' - generalization of Twitter "favorite", Facebook "like", GooglePlus "+1". Alternatively, could split this up into separate verbs for "favorite" and "like", or further specialize: "heart" (Instagram "like"), "star" (Flickr "favorite" and Twitter "favorite"). It's not clear which approach (general or specific) is better. People do assign different meanings to favoriting vs. liking. (there's a photo on flic.kr/tantek with a conversation about this but can't find it now)
-* '''<code>with</code>''' takes a URL that represents a direct object for the verb to act on
-
-See also: [[webactions-verbs-brainstorming]]
-
 === which actions ===
 There are many possible web actions to place on / above / in a post. Here are some suggestions.
 
@@ -364,6 +371,27 @@ Benefits:
 * '''[http://waterpigs.co.uk/pushups pushups]''' is a simple, standalone HTML+JS+CSS (download to clone) nose-activated pushup counting UI. Give it a URL, and when you’re done it delegates the data to the URL you provide, which is remembered using localstorage.
 
 == History ==
+=== 2012 ===
+The 2012-06-28 OSBridge "Web Actions" presentation [http://tantek.com/presentations/2012/06/osb12-web-actions/#slide15 proposed] the <code>&lt;action></code> tag as follows:
+
+<pre><nowiki>
+  <action do="post" with="permalink">
+   <a href=twitter>..</a>
+   <a href=pinterest>...</a>
+   ...
+  </action>
+</nowiki></pre>
+
+But this has been updated as of [[2014/UK|IndieWebCampUK 2014]] to use <code>&lt;indie-action></code>, and due to sufficient rough consensus of running code, upgrade beyond brainstorm to actual how to markup. See earlier "How To" section above.
+
+<pre><nowiki>
+  <indie-action do="post" with="permalink">
+   <a href=twitter>..</a>
+   <a href=pinterest>...</a>
+   ...
+  </indie-action>
+</nowiki></pre>
+
 === 2011 ===
 The concept of "web actions" was introduced to both capture the emergence of this new type of web interaction (e.g. the spread of "Blog this, Digg, Read later, Follow, Like, Share, Tweet, +1" buttons across pages[http://tantek.com/2011/220/b1/web-actions-a-new-building-block]), and as a user-centric reframing of the previous developer-centric notion of "[[web intents]]".
 

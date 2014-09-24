@@ -151,6 +151,10 @@ Finally, this wiki is itself hosted on MediaWiki, which stores data in MySQL. So
 Q: I don't understand how this anti pattern is related to the indieweb?
 * A: In one word: [[longevity]]. Part of the reason we are frustrated with [[silos]] are their inevitable [[site-deaths]] and loss of content and permalinks, thus one of the indieweb [[principles]] is building for the long web [[longevity]]. And as soon as you start thinking & designing for longevity you realize longevity of your ''content'' and ''data'' (including [[permalinks]]) is critical, and when you design for that, you find that databases are ''bad'' for longevity and thus their common use as primary long-term storage is an antipattern.
 
+==== Does this mean I can’t have a dynamic site? ====
+
+Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above.
+
 == See Also ==
 * [[file-storage]]
 * [[MySQL]]

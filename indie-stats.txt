@@ -6,25 +6,29 @@ Generates a [http://indie-stats.com/domains.json domains.json] file for each dom
 
 Each domain is stored as flat-files:
 
-* [http://indie-stats.com/domains/bear.im/ bear.im]
-** [http://indie-stats.com/domains/bear.im/bear.im.json bear.im.json] -- meta-data for the domain
-** [http://indie-stats.com/domains/bear.im/20140921T001159_bear.im.json 20140921T001159_bear.im.json] -- data for the domain at the time it was polled, one per poll
+* [https://indie-stats.com/domains/bear.im/ bear.im]
+** [https://indie-stats.com/domains/bear.im/bear.im.json bear.im.json] -- meta-data for the domain
+** [https://indie-stats.com/domains/bear.im/20140921T001159_bear.im.json 20140921T001159_bear.im.json] -- data for the domain at the time it was polled, one per poll
+
+== Routes ==
+* https://indie-stats.com/domain to claim or mark as excluded your domain.
+* https://indie-stats.com/domain?id=bear.im to view domain details
+* https://indie-stats.com/login
+* https://indie-stats.com/logout
 
 == Features ==
+* Domain owners can login and claim and/or exclude their domains from being processed
 * Crawl IndieWeb domains and store
 ** mf2 data
 ** html content
 ** request and response headers
 * Maintain metadata for domains showing their current status
-* Domain list was seeded from [[IRC-people]]
+* Domain list is seeded from [[IRC-people]]
 
 == Working On ==
 === Storing request and response headers ===
 === Generate stats ===
 For each domain crawled the domain, timestamp and data will be passed to a master "cruncher" that will then loop thru a list of stat generating apps. The resulting json blob from this generating app will be added along with namespace and timestamp to the stat history for the domain.
-
-=== Domain opt-in and opt-out ===
-Add an endpoint to allow for both opt-in and out for a domain owner - needs to be backed by IndieAuth.
 
 === Stat retrieval ===
 Add an endpoint to allow for a call to be made for a domain and a date range and the response will be the json blob of stats.

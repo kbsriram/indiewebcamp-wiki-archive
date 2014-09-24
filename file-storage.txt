@@ -18,12 +18,31 @@ at https://bear.im uses flat files for storage of all content:
 * comments - stored as html in the same directory as the post
 * feeds and related
 
+=== Bret C. ===
+{{ bret }}: I use the following on bret.io
+* Stores site content in git
+* Renders to html using jekyll/gh-pages
+
+=== Rascul ===
+{{rascul}} stores content for https://rascul.io in a [https://git.rascul.io/crash/content git repository].
+
+=== Barnaby Walters ===
+Stores all canonical copies of [http://waterpigs.co.uk waterpigs.co.uk] site data in the filesystem
+
+* notes and articles as YAML files with HTML in (wants to change these to HTML+mf2 for browsability, standards support)
+* timestamped HTML archives (along with HTTP headers in *-headers.txt) in URL-mimicking folder structures
+* Sheet music in ABC files
+
 === ... add yourself ... ===
 
 === Want to use file storage ===
 IndieWeb members that *want* to use File Storage on their personal site:
 * [[UserKartikprabhu.com|Kartik]] using [[Bundle]] wants to move away from [[MySQL]] to a HTML+mf2 based file storage for main content. Has played with YAML-based storage but does not like it. Article content is authored and stored in Django-style HTML templates anyway.
 * add yourself.
+
+== Flat file "CMS" systems in the wild ==
+
+* [http://getgrav.com Grav] is a PHP, YAML, Twig and Markdown Extra based storage project which looks promising.
 
 == See Also ==
 * [[database]]

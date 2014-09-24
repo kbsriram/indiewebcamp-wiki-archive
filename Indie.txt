@@ -12,10 +12,13 @@ IndieWeb related examples of "indie" or "Indie" as a prefix, concatenated, hyphe
 * [[2014/indie-contacts|indie-contacts]]
 * [[Indie Box]]
 * [[2014/indie-business|indie-business]]
+* [[Indie.js]]
+* [[IndieMark]]
 * [[2014/indie-reader|indie-reader]]
 * [[indie-stats]]
 * [[IndieWeb]]
 * [[IndieWebCamp]]
+* [http://indiewebify.me IndieWebify.Me]
 
 == See Also ==
 * https://en.wikipedia.org/wiki/Indie

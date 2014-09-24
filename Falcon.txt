@@ -328,6 +328,9 @@ Support for publishing [[event]] posts, essentially:
 ==== process and show webmentions ====
 As part of implementing "event activity (event creation, comments, RSVPs)", Falcon will have to process all webmentions received, parse/store them (with appropriate caching), and make them available for posts to display (as [[likes]], [[reposts]], [[comments]], and [[RSVPs]]).
 
+Consider also:
+* '''[https://gist.github.com/otherjoel/9301d985622f0d3d1a09 webmention to email]'''[ (both as notification system, though XMPP would be preferred, and as a backup for webmentions - could format the emails similar to how [[Facebook]] formats its notification emails)
+
 === improve rsvp reply notes ===
 Improve [[rsvp]] reply notes:
 * implement p-rsvp options of "no", "maybe", and "tracking"

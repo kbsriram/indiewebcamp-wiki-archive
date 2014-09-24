@@ -2,6 +2,12 @@ http://indiewebcamp.com/antipatterns
 
 As there are indieweb [[principles]] and [[building-blocks]], there are also the opposite, antipatterns which are anithetical to a diverse and growing indieweb.
 
+'''Inbox''' - got an antipattern you think needs documenting? add it here with a brief one sentence summary and maybe someone will start a page on it.
+* [[plumbing-first-antipattern]] - when web developers design something from protocols/formats up (including naming, e.g. "RSS-based Twitter"), rather than the UX/[[design]] down.
+* [[single-page-antipattern]] - websites that load all content, transitions etc. on a single page (typically home page) via [[JavaScript]], [[JSON]], and XHR, making it so that there's little or no content you can actually curl, and no permalinks either.
+* [[preload-antipattern]] - websites that show a "Loading..." screen before actually showing you content, like some sort of reminiscence of Flash sites of yore.
+* [[cargo-cult-antipattern]] - the tendency of many (most?) web developers to code by rote/tradition/fashion/trends rather than actually have a rational understanding of the technologies they use and how to analyze tradeoffs therein, sometimes revealed by purely emotional responses to having their tradition/fashion/habits questioned.
+
 == at some point ==
 Reasoning or justifying something by saying "at some point" does not lead to good (well-informed / accurate) conclusions.
 

@@ -2,9 +2,10 @@ http://indiewebcamp.com/socialwg
 
 {{stub}}
 
-The '''<dfn>[https://www.w3.org/wiki/socialwg Social Web Working Group]</dfn>''' is a [[W3C]]] Working Group that is chartered with developing specifications for the [[social web]], based on the outcome of the [[osfw3c]] workshop in 2013-08.
+The '''<dfn>[https://www.w3.org/wiki/socialwg Social Web Working Group]</dfn>''' is a [[W3C]] Working Group that is chartered with developing specifications for the [[social web]], based on the outcome of the [[osfw3c]] workshop in 2013-08.
 
 == See Also ==
 * [[W3C]]
 * [[social web]]
 * [[osfw3c]]
+* [[socialig]]

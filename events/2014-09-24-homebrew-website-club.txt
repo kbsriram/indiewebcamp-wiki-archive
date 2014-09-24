@@ -47,8 +47,7 @@ San Francisco:
 * <span class="u-url url">https://www.facebook.com/events/1566815933547350/</span>
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
+* <span class="u-url url">http://calagator.org/events/1250467031</span>
 
 <!--
 Not this week:
@@ -75,6 +74,8 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... add yourself!
 
 '''Portland:'''
+* {{bret}}
+* {{expandrew}}
 * ... add yourself!
 
 <!--

@@ -82,8 +82,10 @@ Please keep sorted alphabetically
 * {{irc user|kevinmarks.com|KevinMarks2|US/Pacific|http://www.kevinmarks.com/km.jpg}}
 * {{irc user|kylewm.com|kylewm|US/Pacific|https://kylewm.com/static/img/users/kyle60.jpg}}
 * {{irc user|lbj.org.uk|lauraj|Europe/London}}
+* {{irc user|lmorchard.com|lmorchard|US/Eastern|http://lmorchard.com/avatar.jpg}}
 * {{irc user|loqi.me|Loqi|US/Pacific|http://loqi.me/logo/loqisaur.png}}
 * {{irc user|gonze.com|lucasgonze|US/Pacific|http://gonze.com/avatar.jpg}}
+* {{irc user|theporouscity.com|lukasb|US/Pacific}}
 * {{irc user|lukasrosenstock.net|LukasRos|Europe/Berlin}}
 * {{irc user|luxagraf.net|luxagraf|America/New_York}}
 * {{irc user|marcus-povey.co.uk|mapkyca|Europe/London}}
@@ -117,7 +119,7 @@ Please keep sorted alphabetically
 * {{irc user|snarfed.org|snarfed|America/Los_Angeles}}
 * {{irc user|4c4d.com|sparverius|America/Los_Angeles}}
 * {{irc user|Paulmunday.net|tallpaul|America/Los_Angeles}}
-* {{irc user|Tantek.com|tantek|US/Pacific|http://tantek.com/logo.jpg}}
+* {{irc user|Tantek.com|tantek|US/Pacific|https://pbs.twimg.com/profile_images/423350922408767488/nlA_m2WH.jpeg}}
 * {{irc user|Techlifeweb.com|techlifeweb|America/Los Angeles|http://techlifeweb.com/images/avatar.jpg}}
 * {{irc user|Tommorris.org|tommorris|Europe/London|https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c12.47.156.156/s100x100/226570_508277977420_617357257_a.jpg}}
 * {{irc user|tiagopinto.pt|tpinto|Europe/London}}

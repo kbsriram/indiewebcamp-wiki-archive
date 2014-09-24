@@ -27,5 +27,14 @@ However, [[User:bret.io]]'s pull request adding microformats classes was not acc
 * [https://github.com/e14n/pump.io/pull/871 Closed by Evan P] - 2014-06-22
 ** Suspect they closed many PRs as a result of [https://e14n.com/evan/note/5udvV3IYSlS4zQz6u3cpvQ Conversion from JavaScript to CoffeeScript] (see comment by Laura Arjona)
 
+== Articles ==
+
+Articles about pump.io
+
+* [http://opensource.com/life/13/7/pump-io Interview with Evan Prodromou on OpenSource.com] 2013-07-15
+<blockquote>
+ I really want pump.io to become one of those essential pieces of infrastructure for development. We have great, rock-solid servers like memcached or RabbitMQ that implement certain kinds of data routing. I think pump.io can be part of that toolset.
+</blockquote>
+
 == See Also ==
 * [[projects]]

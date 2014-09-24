@@ -1,7 +1,5 @@
 http://indiewebcamp.com/SWAT0
 
-{{stub}}
-
 '''<dfn><abbr>SWAT0</abbr></dfn>''' is an abbreviation for The Social Web Acid Test level 0 and is an user-feature interoperability test for social web functionality defined in 2010.
 
 See the [http://www.w3.org/2005/Incubator/federatedsocialweb/wiki/SWAT0 description of SWAT0 on W3.org].
@@ -11,6 +9,22 @@ Let's try to rephrase the SWAT0 test in IndieWeb terminology, referring to peopl
 
 # With his phone, [http://werd.io benwerd] takes a photo of [http://aaronparecki.com aaronpk], tags him in the photo, and posts it to his site.
 # [http://aaronparecki.com aaronpk] gets a notification that he's been tagged in a photo.
-# [http://waterpigs.co.uk barnabywalters], who is subscribed to aaronpk, sees the photo in his [[reader]].
+# [http://waterpigs.co.uk barnabywalters], who is subscribed to [http://werd.io benwerd], sees the photo in on his site's homepage which has an integrated [[reader]] UI.
 # barnabywalters posts a reply to the photo on his site.
 # aaronpk and benwerd receive notifications that barnaby has commented on the photo.
+
+== mapping to indieweb ==
+# With his phone, [http://werd.io benwerd] takes a photo of [http://aaronparecki.com aaronpk], tags him in the photo (by linking to http://aaronparecki.com/) , and posts it to his site (which sends a [[webmention]] to aaronpk)
+#* '''MISSING''' and '''UNDEFINED''': '''How to [[people-tag]] someone in a [[photo]]'''. Merely linking in a comment/caption to someone is just a ''mention'', not a people-tag (i.e. the difference between @-mentioning someone in an [[Instagram]] comment/caption vs. actually tagging the person at a 2D point in the photo with their (…) "Tag People" UI).
+#* Flickr supports tagging people in photos without marking a 2D point in the photo. So I'm not sold on requiring a 2D point as part of tagging people in a photo. <span class="h-card">[[User:Aaronparecki.com|Aaron Parecki]]</span> 10:34, 23 September 2014 (PDT)
+# [http://aaronparecki.com aaronpk] gets a notification that he's been tagged in a photo (because his watch buzzes when he is webmentioned)
+#* '''MISSING''' and '''UNDEFINED''': How does someone receiving a [[homepage]] webmention tell the '''difference between a mere mention (e.g. in a comment/caption) vs. actually being tagged at a point/rect''' in a [[photo]] post? I.e. we know how to distinguish between a post-mention/[[reply]]/[[RSVP]] - and hypothetically homepage-mention/[[invitation]] but not a people-tag because they're undefined.
+# [http://waterpigs.co.uk barnabywalters], who is subscribed to [http://werd.io benwerd], sees the photo in his [[reader]]. (His reader being [[shrewdness]] which is pinged by benwerd's [[PuSH]] usage)
+#* '''MISSING''': barnabywalters using an '''<em>integrated</em> service''', i.e. his personal website. The original SWAT0 description refers to each person using a "service" which implies a fully integrated reading/posting UI (e.g. [[Twitter]], [[Facebook]] UX). On the IndieWeb, such a "service" UI is your own website home page. In this case, this would require a [[Taproot]]+[[shrewdness]] integration on waterpigs.co.uk.
+# barnabywalters posts a reply to the photo on his site. (using [[rel-in-reply-to]] and [[micropub]])
+# aaronpk and benwerd receive notifications that barnaby has commented on the photo. (because each gets a [[webmention]], aaronpk on his watch as before and benwerd gets an email from [[Known]])
+#* '''MISSING''' and '''UNDEFINED''':
+#** aaronpk: Known does not send webmentions of comments to people that were mentioned in a post - it can't because we don't know how to. It is '''UNDEFINED''' how to send a homepage webmention to someone that "someone has commented on a photo that you were tagged in".
+#** benwerd: Email is a separate service/system. An email is not a notification as far as SWAT0 is concerned. The notification needs to be in benwerd's "service" itself, i.e. [[Known]] needs a UI whereby it:
+#*** '''shows a list of recent notifications''' (akin to [[Facebook]]'s "globe" icon in their toolbar with red numbers)
+#*** '''sends a mobile push notification''' in some way to Known running on benwerd's mobile device.

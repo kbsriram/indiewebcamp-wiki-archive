@@ -9,6 +9,7 @@ Check out the [[news]] page for links to more sources of IndieWeb news.
 
 Articles about the IndieWeb (in chronological order)
 === 2014 ===
+* 2014-09-24 Lillian Karabaic: [http://anomalily.net/the-indie-web-is-the-new-zines/ The Indie Web is the new Zines]
 * 2014-09-11 Mathew Ingram: [https://gigaom.com/2014/09/11/indieweb-advocates-launch-known-so-bloggers-can-be-social-and-still-control-their-content/ IndieWeb advocates launch Known so bloggers can be social and still control their content]
 * 2014-09-04 Marco Raaphorst: [http://marcoraaphorst.nl/34652/indie-web-eigenaar-jouw-data/ Indie Web: wees eigenaar van jouw data] (Dutch) "Indie Web: Be the owner of your data"
 * 2014-09-03 Mathew Ingram: [http://gigaom.com/2014/09/03/dont-like-facebook-owning-and-controlling-your-content-use-tools-that-support-the-open-web/ Don't like Facebook owning and controlling your content? Use tools that support the open Web]

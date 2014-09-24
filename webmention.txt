@@ -2,7 +2,7 @@ http://indiewebcamp.com/webmention
 
 <span style="margin-top: -2em; background:white; float:right;">[[File:webmention-logo.svg|160px]]</span>
 
-'''<dfn>[http://webmention.org/ Webmention]</dfn>''' is a simple way to notify any URL when you link to it on your site. From the receivers perspective, it's a way to request notifications when other sites link to it. Webmention is a modern update to [[Pingback]], using only HTTP and x-www-urlencoded content rather than XMLRPC requests. Webmention supersedes Pingback.
+'''<dfn>[http://webmention.org/ Webmention]</dfn>''' is a simple way to notify any URL when you link to it on your site. From the receiver's perspective, it's a way to request notifications when other sites link to it. Webmention is a modern update to [[Pingback]], using only HTTP and x-www-urlencoded content rather than XMLRPC requests. Webmention supersedes Pingback.
 
 == Protocol Summary ==
 If Aaron's blog supports receiving webmentions, and Barnaby's blog supports sending webmentions, then this is how they interact:

@@ -20,6 +20,10 @@ The following IndieWeb community members have composite streams on their home pa
 ** [[notes]], [[articles]], [[bookmarks]]
 * [[User:Iamshane.com|Shane Becker]] on http://iamshane.com
 ** [[notes]], [[articles]], [[bookmarks]], [[videos]]
+* {{ bret }} on http://bret.io
+** Full content: [[notes]], [[articles]], (subset of) [[bookmarks]], [[videos]], [[replies]], [[photos]]
+* {{kylewm}} on https://kylewm.com
+** [[notes]], [[articles]], [[photos]], [[reposts]], and especially good [[replies]] and [[checkins]]
 * ...
 
 Note: only the post types which have originals at their own site are listed.
