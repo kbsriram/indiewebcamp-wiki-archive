@@ -1,0 +1,12 @@
+http://indiewebcamp.com/AWS
+
+{{stub}}
+Amazon Web Services is a collection of remote computing services that together make up a cloud computing platform, offered over the Internet by Amazon.com
+
+It is a branding that encompasses EC2, SES (bulk mailing), Glacier, and other Amazon data and compute services.
+
+== See Also ==
+* [[Amazon]]
+* [[VPS]]
+* [[hosting]]
+* [[Amazon_EC2]]

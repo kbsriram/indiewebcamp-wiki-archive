@@ -1,6 +1,6 @@
 http://indiewebcamp.com/User%3ABen.thatmustbe.me
 
-Hey, I'm Ben Roberts.  Here's a bullet list about me (until I can get my personal site up and running).
+<dfn>Ben Roberts</dfn> Is a sysadmin and developer at a small company in Boston, MA who dreams of world domination. 
 
 I am currently developing [http://ben.thatmustbe.me my personal site].
 
@@ -42,6 +42,10 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # webactions (maybe)
 # webmention sending done asynchronously (maybe)
 # Contacts List (see below)
+# delete entries (leave tombstone and hide)
+# geotag / location data in posts
+# <s>draft editions (hide from feed, but can be viewed by URL)</s>
+# display list of recent draft links when logged in as site owner
 # anything else I can think of
 
 == Contacts List ==

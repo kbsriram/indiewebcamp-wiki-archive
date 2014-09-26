@@ -16,7 +16,7 @@ http://indiewebcamp.com/scheduling
 * write post 
 * manually set dt-published to the future (ISO date in the markup)
 * shows up on home page at that time
-Even before it shows up on the home page, the permalink to the future post works which allows sharing it with others on private channels (like IM) for review and feedback and editing before it goes live on the home page.
+Even before it shows up on the home page, the permalink to the future post works which allows sharing [[drafts]] of posts with others on private channels (like IM) for review and feedback and editing before it goes live on the home page.
 
 After it goes live on the home page, the Falcon UI must still be used to explicitly click a button to POSSE the post.
 
@@ -56,4 +56,5 @@ When it comes time to show a future post, should the personal site then also aut
 Or maybe delay a bit? (30sec - 5min) to allow the author to edit/undo the future post before its propagated?
 
 == See Also ==
+* [[draft]]
 * [[posts]]

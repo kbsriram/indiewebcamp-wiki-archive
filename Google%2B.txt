@@ -13,7 +13,7 @@ Google+ has a proprietary Activities API that is based on (but not actually) [[A
 * https://developers.google.com/+/api/latest/activities
 
 == Exporting your data ==
-[https://www.google.com/takeout/ Google Takeout] lets you download a zip with all of your Google+ posts, comments, pictures, etc.
+[https://www.google.com/takeout/ Google Takeout] lets you download a zip with all of your Google+ posts, comments, pictures, etc. It's not linked directly from anywhere within Google+, and doesn't come up as a first search result for common queries, but works fantastically (if a bit slow).
 
 [http://www.freedom.io/ freedom.io] ([https://github.com/snarfed/freedom source]) can copy all of your posts to [[WordPress]], [[Tumblr]], or [[Blogger]], creating a new blog post for each, with the original dates and all comments intact.
 

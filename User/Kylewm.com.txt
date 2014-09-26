@@ -43,9 +43,14 @@ How can I help onboard tech-savvy non-developers (or developers who don't want t
 
 == Need Help With ==
 
+<strike>
 * would love advice about performance/caching
 ** Right now, it's taking ~1 second to render my front page... mostly doing markdown and beautifulsoup4 stuff. [https://gist.github.com/kylewm/c2d69b7e5b2fc0845bbc Profiler output, sorted by cumulative time]
 ** Should I preprocess this stuff and store it in parallel to the source files, or just slap a cache on top of the finished product? (or both?)
+</strike>
+
+* Decided to process markdown and comments once and store the resultant HTML, rather than processing them on every page load.
+** Note that Tantek stores raw html but does auto-linking every time, and doesn't have these performance problems.
 
 == Tools ==
 

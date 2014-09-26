@@ -24,6 +24,11 @@ And lastly, include a simple 1-2 sentence definition of what the page is about. 
 </nowiki></blockquote>
 and complete that sentence.
 
+
+You may also want to simply [[redirect]] a new page to an existing page.
+* See [[redirect]] for how to do that.
+
 == See Also ==
+* [[redirect]]
 * [[start]]
 * [[Getting Started]]

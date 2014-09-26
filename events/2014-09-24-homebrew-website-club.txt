@@ -76,6 +76,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland:'''
 * {{bret}}
 * {{expandrew}}
+* {{dietrich}}
 * ... add yourself!
 
 <!--
@@ -112,7 +113,11 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
-* ...
+[http://bret.io/2014/09/25/hwc/ http://bret.io/media/ownyourgram.com/igkQYoHN.jpg]
+
+Photo by {{bret}} (not pictured)
+
+* See also silo copy: http://instagram.com/p/tWgPpSxfl6
 
 {{Homebrew Website Club}}
 

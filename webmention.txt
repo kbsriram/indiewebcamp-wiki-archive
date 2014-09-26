@@ -210,6 +210,12 @@ The following users/sites have <span id="IndieWeb_implementations">implemented</
 ** Advertised webmention endpoint is on-site, but POSTs are proxied to webmention.herokuapp.com.  ([https://willnorris.com/2014/08/proxying-webmentions-with-nginx documented here])
 ** Previously used [http://wordpress.org/plugins/webmention/ webmention plugin] for WordPress as of [https://willnorris.com/2013/06/testing-indieweb-comments 2013-06-23]
 
+* [[User:Thelocalyarn.com|Joel Dueck]] receiving webmentions on [http://thelocalyarn.com/ thelocalyarn.com] as of 2014-09-23.
+** All posts accept webmentions as well as traditional comments.
+** Webmentions (if valid) are logged to a text file and sent to Joel via email. Those that pass moderation are manually added to the target post as a comment (which on this site means it is included in the blog and sent to email and RSS subscribers as well as being appended to the target post).
+** Endpoint is a [https://gist.github.com/otherjoel/9301d985622f0d3d1a09 modified version of Jeremy Keith's webmention.php].
+** Webmentions sent manully. More to implement. To-do list is long. Site is running [http://textpattern.com Textpattern] CMS, so a complete webmentions plugin is both feasible and ideal.
+
 === Libraries ===
 <span id="Webmention-related_libraries_and_tools"></span>
 ==== Sending ====
@@ -238,6 +244,15 @@ Handling receiving webmentions:
 For parsing the mentions, the following may come in handy:
 * [http://microformats.org/wiki/microformats2#Implementations microformats2 implementations and parsers]
 * [https://github.com/barnabywalters/php-mf-cleaner php-mf-cleaner] - "Takes microformats2 array structure and makes it more sane. Counterpart to indieweb/php-mf2"
+
+==== Notifications ====
+The following tools show how a notification could be sent upon receiving a webmention
+* PHP to email
+**  https://gist.github.com/otherjoel/9301d985622f0d3d1a09
+* Javascript
+** bear is working on this...
+* XMPP
+** - bear is working on this...
 
 === Publishing Software ===
 Some open source publishing software supports webmentions.

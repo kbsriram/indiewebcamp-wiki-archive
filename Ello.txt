@@ -1,8 +1,44 @@
 http://indiewebcamp.com/Ello
 
-[https://ello.co Ello] is microblogging silo similar to Twitter or Tumblr for posting short status updates and pictures. Ello offer threaded commenting and a minimalist "designy" feel to it with some unusual (but nice) UX animations & interface ideas.  As of Sep. 2014 Ello is currently in invite only.
+{{stub}}
+
+'''<dfn>[https://ello.co Ello]</dfn>''' is microblogging [[silo]] similar to [[Twitter]] or [[Tumblr]] for posting short status update [[notes]] and [[pictures]]. Ello offers threaded [[comment]]ing and a minimalist "designy" feel to it with some unusual (but nice) [[UX]] animations & interface ideas.  As of Sep. 2014 Ello is currently in invite only.
 <br clear="both">
 
-== Description ==
+== Self-description ==
 
 ''Ello is a simple, beautiful, and ad-free social network created by a small group of artists and designers. We originally built Ello as a private social network. Over time, so many people wanted to join Ello that we built a public version of Ello for everyone to use.'' [https://ello.co/wtf/post/about-ello About]
+
+==Praise==
+=== Fairly Effective Use of Whitespace ===
+Once past the landing page, Ello opts for a completely blank, white canvas upon which their users' content is placed. Individual posts are set off from other posts and page content only by effective use of whitespace, rather than background-colors, lines, or flashy ui.
+
+== Criticism ==
+=== Unsustainable VC Funding ===
+See criticism on this theme written up by Andy Baio on Ello itself:
+* https://ello.co/waxpancake/post/oy73kFfDdhOPh8Jv9z9pFA
+
+=== Ugly Permalink URLs ===
+See above ^^^
+
+=== Desktop centric ===
+"Don't try using it on mobile, very desktop centric" - {{kevinmarks}}[http://indiewebcamp.com/irc/2014-09-24/line/1411595501627]
+
+=== No rel-me support ===
+There's apparently no way to enter your own personal site into your profile and have ello link back to it with [[rel-me]]. [http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]
+
+=== No API ===
+No [[API]] apparently.[http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]
+
+=== No Export ===
+No way to export your content / data. [http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]
+
+=== Back/Forward Buttons ===
+Ello seems to add extra things in the history and makes the browser navigation buttons act strangely, at least in Firefox.
+
+=== Unreadable Font ===
+[[File:ello-post.jpg|500px|right|Monospace font on Ello]]
+Ugly monospaced-font, with small font-size makes it hard to read. Font declaration in Firefox reads "AtlasTypewriterRegular","Andale Mono","Consolas","Lucida Console","Menlo","Luxi Mono",monospace -- [[User:Kartikprabhu.com|Kartik]]
+
+== See Also == 
+* [[silos]]

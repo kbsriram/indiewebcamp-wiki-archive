@@ -4,7 +4,8 @@ http://indiewebcamp.com/ind.ie
 
 '''<dfn>[http://ind.ie ind.ie]</dfn>''' is a website created by Aral Balkan for the Indie Tech Manifesto. The first Indie Tech platform to be developed is http://ind.ie/phone.
 
-Despite the use of the word "indie," it is distinct from IndieWebCamp.
+Despite the use of the word "indie," it is [[distinct]] from IndieWebCamp.
 
 == See Also ==
 * [[Indie Tech Summit]]
+* [[indie]]

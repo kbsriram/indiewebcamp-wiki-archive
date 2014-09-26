@@ -1,6 +1,6 @@
 http://indiewebcamp.com/community-brainstorming
 
-Community development discussion and brainstorming.
+[[Community]] development discussion and brainstorming.
 
 == Community development framework checklist ==
 [https://twitter.com/emmajanehw/status/499519295698001920 @emmajanehw on twitter suggested] a helpful resource: [https://www.gov.uk/community-development-framework gov.uk Community development framework]. 
@@ -81,3 +81,7 @@ Barring obvious answers to these, we should take all their suggestions as "hypot
 * [[this-week-in-the-indieweb]] is an automated report on wiki activity
 * "What's everyone working on" a regular feature of [[Homebrew Website Club]]
 * Notes on every [[Homebrew Website Club]] page, including link to IRC logs during the meetups where meetup activity is recorded.
+
+== See Also ==
+* [[community]]
+* [[commons]]

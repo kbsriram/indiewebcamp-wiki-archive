@@ -33,6 +33,12 @@ Stores all canonical copies of [http://waterpigs.co.uk waterpigs.co.uk] site dat
 * timestamped HTML archives (along with HTTP headers in *-headers.txt) in URL-mimicking folder structures
 * Sheet music in ABC files
 
+=== Mark87 ===
+Testing at [http://markmurfin.com/editor.php Editor] and [http://markmurfin.com/viewer.php Viewer]
+* Simple, working Editor saves simple articles as html files to the filesystem.
+* Viewer system loads the html files and can output them with different markup, css, adding h-data, etc.
+* Wants to save html files with microdata schema for super cool idea that I have
+
 === ... add yourself ... ===
 
 === Want to use file storage ===

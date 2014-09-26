@@ -2,7 +2,7 @@ http://indiewebcamp.com/Amazon_S3
 
 {{stub}}
 
-'''<dfn>Amazon S3</dfn>''' is a file hosting service from Amazon. 
+'''<dfn>Amazon S3</dfn>''' is a file [[hosting]] service from [[Amazon]]. 
 
 == IndieWeb Examples ==
 === [http://lionzan.me lionzan.me] ===
@@ -54,6 +54,7 @@ This setup is quite slow because Fuse is slow, but it was made for someone not r
 * You cannot run your own software (e.g. PHP or Perl scripts) server-side.
 
 == See Also ==
+* [[Amazon]]
 * [[hosting]]
 * [[Jekyll]]
 * [http://esham.io/2011/06/building-and-hosting-a-static-site Building and hosting a static site with Jekyll and Amazon S3 on Mac OS X]

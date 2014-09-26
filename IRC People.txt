@@ -91,6 +91,7 @@ Please keep sorted alphabetically
 * {{irc user|marcus-povey.co.uk|mapkyca|Europe/London}}
 * {{irc user|marcthiele.com|marcthiele|Europe/Germany}}
 * {{irc user|markmhendrickson.com|markmhendrickson|America/Los_Angeles}}
+* {{irc user|markmurfin.com|Mark87|America/Chicago}}
 * {{irc user|mattl.us|mattl|America/New_York|http://mattl.us/mattl-homepage.jpg}}
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}

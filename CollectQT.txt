@@ -1,0 +1,8 @@
+http://indiewebcamp.com/CollectQT
+
+{{stub}}
+<dfn>[https://gitlab.com/collectqt/quirell CollectQT]</dfn> is a project to build a LGBTQ-aware social network silo which is currently documented as a series of issues on [[Gitlab]], based on shortcomings of existing [[silos]].
+
+== See Also ==
+* [[silos]]
+* [[pseudonymity]]
