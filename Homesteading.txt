@@ -1,8 +1,9 @@
 http://indiewebcamp.com/Homesteading
 
-{{stub}}
+<img style="width: 150px" src="http://homesteading.io/logo.png" />
 
-'''<dfn>Homesteading</dfn>''' is a personal publishing platform [[project]] (created with [http://rubyonrails.org Ruby on Rails]) where the creator [http://indiewebcamp.com/own-your-data owns the content] and can [http://indiewebcamp.com/POSSE syndicate copies] to [http://indiewebcamp.com/silo third parties]. Currently, it runs [http://iamshane.com iamshane.com].
+
+'''<dfn>Homesteading</dfn>''' is a personal publishing platform [[project]] (created with [http://rubyonrails.org Ruby on Rails]) where the creator [http://indiewebcamp.com/own-your-data owns the content]. Currently, it runs [http://iamshane.com iamshane.com].
 
 == Features ==
 * [http://microformats.org/wiki/h-card H-Card] markup in site footer

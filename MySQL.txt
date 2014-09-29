@@ -2,15 +2,27 @@ http://indiewebcamp.com/MySQL
 
 {{stub}}
 
-'''<dfn>MySQL</dfn>''' is open source [[database]] software that is often used to store data in various CMS's, e.g. [[WordPress]] and [[MediaWiki]].
+'''<dfn>MySQL</dfn>''' is open source [[database]] software that is often used to store data in several indieweb CMS's like [[Known]], and various other CMS's, e.g. [[WordPress]] and [[MediaWiki]].
 
 == IndieWeb Examples ==
-IndieWeb community members that use MySQL on their personal site:
-* [[User:cweiske.de|cweiske]]'s [[stapibas]] uses MySQL as primary linkback storage
-* [[User:kartikprabhu.com|Kartik Prabhu]]'s [[Bundle]] uses MySQL as the primary storage for data except for Article content which is stored in hand-authored Django-template files.
-* [[User:Gregorlove.com|gRegor Morrill]]'s gregorlove.com uses [http://nucleuscms.org Nucleus CMS] which uses MySQL as the primary data store.
-* [[p3k]] uses MySQL to query posts by different meta data, but does not store any post content in the database.
+IndieWeb community members that use MySQL as some primary storage on their personal site:
+=== Kartik Prabhu ===
+[[User:kartikprabhu.com|Kartik Prabhu]]'s [[Bundle]] uses MySQL as the primary storage for data except for Article content which is stored in hand-authored Django-template files.
+=== Gregor Morrill ===
+[[User:Gregorlove.com|gRegor Morrill]]'s gregorlove.com uses [[Nucleus CMS]] which uses MySQL as the primary data store.
+=== Ben Werdmuller ===
+[[User:Werd.io|Ben Werdmuller]]'s [http://werd.io/ werd.io] runs [[Known]] with [[MySQL]] since mid to late 2014.
 
+== Secondary Data Store ==
+IndieWeb sites that use MySQL to store secondary data, i.e. not content that they authored, but content from elsewhere.
+=== cweiske ===
+[[User:cweiske.de|cweiske]]'s [[stapibas]] uses MySQL as primary linkback storage
+
+== Caching Examples ==
+=== Aaron Precki ===
+[[p3k]] uses MySQL to query posts by different meta data, but does not store any post content in the database.
+
+__TOC__
 == Criticism ==
 === Lack of timezone in date columns ===
 MySQL date columns can only store <code>YYYY-mm-dd HH:MM:SS</code> precision. There is no way to specify the timezone along with a date. This means unless you create a second column to store the timezone offset or name, you will have no indication of the timezone of your date in the database.

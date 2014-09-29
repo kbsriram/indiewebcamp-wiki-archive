@@ -1,13 +1,13 @@
 http://indiewebcamp.com/User%3ABear.im
 
-'''<dfn>Bear</dfn>''' is an Operations engineer living near Philadelphia, PA.
+'''<dfn>Bear</dfn>''' is an Manager of Operations for [http://andyet.com &yet] living near Philadelphia, PA.
 
 = Introduction =
 __NOTOC__
 
-Operations for [http://andyet.com &yet]
+Manager of Operations for [http://andyet.com &yet]
 
-past jobs: Mozilla Release Engineer, Operations for Seesmic, Operations and Release Engineer for Open Source Applications Foundation
+past jobs: Mozilla Senior Release Engineer, Operations for Seesmic, Operations and Release Engineer for Open Source Applications Foundation
 
 <span class="h-card">[http://bear.im Bear]</span>
 

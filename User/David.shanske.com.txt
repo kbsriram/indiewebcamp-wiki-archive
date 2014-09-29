@@ -2,26 +2,35 @@ http://indiewebcamp.com/User%3ADavid.shanske.com
 
 = David Shanske =
 
-Working on david.shanske.com as a testbed for deployment of some of the techniques to additional sites under my control. Also working on content for the site. No point in developing the infrastructure without it.
+Working on david.shanske.com. Also working on content for the site. No point in developing the infrastructure without it.
 
 ==Current Progress==
-* Site uses Wordpress
-* Created an Indieweb version of _s, the Wordpress starter theme
-* Used that to create a Blog theme based on it. Will be backporting some feature enhancements back into the _s forked theme.
-* Site currently supports designated content display types
-* The different content types are implemented using the [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress. Post Formats are a setting that is used to allow for custom theming of a post.
-** Articles – longer form content
-** Notes – Notes are short content, and I’ve divided them into some types.
-** Status Updates and Asides – Two different versions of the same thing. Status updates display with a profile picture, asides do not.
-** Photos/Images/Videos – Sharing photos and videos
-** Links – sharing a link to a website/story
-* Site has the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
 
-==In Development==
-* Working on a refined version of the previous theme that allows for more flexibility for future changes. In live testing on the site as Website Version 3.0
+* Site uses Wordpress
+* Site currently supports designated content display types
+* The different content types are implemented using a combination of the  [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress. Post Formats are a setting that is used to allow for custom theming of a post and the the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
+** Articles – longer form content using the Standard Post Format
+** Notes – Notes are short content, and I’ve divided them into some types.
+*** Status Updates and Asides – Two different choices for displaying the same thing. Status updates display with a profile picture, asides do not.
+*** Like or Favorite - Still working on usage of this
+*** Bookmark - The equivalent of sharing a link to my feed on various other services. May be with or without excerpt and/or comment
+** Photos/Images/Videos – Sharing photos and videos
+
+== Wordpress Development == 
+
+[https://david.shanske.com/projects/indieweb/ Project Pages] for my Indieweb Stuff appear on my website.
+
+* Testing a theme designated as mf2_bootstrap, currently in live use.
 * Have written a Wordpress widget to add an h-card to the sidebar, pulling the data from the user profile.
-* [https://github.com/dshanske/syndication-links Syndication Links] Plugin will add post metadata in the Wordpress post editor to add syndication data to posts. It also adds code to display the syndication links once entered.
+* [https://david.shanske.com/projects/indieweb/syndication-links/ Syndication Links] Plugin will add post metadata in the Wordpress post editor to add syndication data to posts. It also adds code to display the syndication links once entered.
 ** Plugin will eventually add optional Bridgy Publish capability.
-* [https://github.com/dshanske/semantic-comments Semantic Comments] Plugin - Wordpress plugin - Adds a new comment template with facepiles for Webmentions.
-* [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] Plugin - Adds a new taxonomy to Wordpress posts for actions such as like, reply, etc.
-* Simple Location plugin
+* [https://david.shanske.com/projects/indieweb/semantic-comments/ Semantic Comments] Plugin - Wordpress plugin - Adds a new comment template with facepiles for Webmentions.
+* [https://david.shanske.com/projects/indieweb/indieweb-taxonomy/ Indieweb Taxonomy] Plugin - Adds a new taxonomy to Wordpress posts for actions such as like, reply, etc.
+* [https://david.shanske.com/projects/indieweb/simple-location/ Simple Location] plugin
+
+== For the Future ==
+
+* Looking to develop a simpler post editor for notes
+* Add reply/like endpoints to the Indieweb Taxonomy plugin
+* Automatic Bridgy syndication in the Syndication Links plugin
+* Figure out a better unification for post formats and taxonomies

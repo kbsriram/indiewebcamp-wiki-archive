@@ -21,6 +21,7 @@ Frequently asked questions and troubleshooting for DNS problems.
 - Next challenge: I have multiple domains and one VPS, and I'll next want to learn how to serve pages to all of those domains. "Hosts" and "Ports" and "Servers", oh my~. -mathpunk
 
 * harvest FAQ from [https://indiewebcamp.com/irc/2013-11-20#t1384970607 relevant chat logs]
+* 'My nameservers are not working and I'm not sure why': I used [http://www.intodns.com Into DNS] to work out my issues with my manually created nameservers (it can be used for hosted nameservers too) ~ [[User:ShaneHudson.net|Shane Hudson]]
 
 == See Also ==
 * [[Getting Started]]

@@ -4,5 +4,16 @@ http://indiewebcamp.com/MongoDB
 
 '''<dfn>[https://www.mongodb.org/ MongoDB]</dfn>''' is server-side [[database]] software used for storage in some CMSes.
 
+== IndieWeb Examples ==
+IndieWeb community members using MongoDB for storage with their projects:
+
+* No known current examples of indieweb sites using MongoDB. (no pun intended)
+
+=== Past IndieWeb Examples ===
+Past IndieWeb community members using MongoDB for storage with their projects:
+* [[User:Werd.io|Ben Werdmuller]]'s [http://werd.io/ werd.io] runs [[Known]] which he used to use with MongoDB (2013-2014), and switched to [[MySQL]] in mid to late 2014.
+
 == See Also ==
+* [[storage]]
+* [[database]]
 * [[databases-antipattern]]

@@ -2,8 +2,7 @@ http://indiewebcamp.com/Ello
 
 {{stub}}
 
-'''<dfn>[https://ello.co Ello]</dfn>''' is microblogging [[silo]] similar to [[Twitter]] or [[Tumblr]] for posting short status update [[notes]] and [[pictures]]. Ello offers threaded [[comment]]ing and a minimalist "designy" feel to it with some unusual (but nice) [[UX]] animations & interface ideas.  As of Sep. 2014 Ello is currently in invite only.
-<br clear="both">
+'''<dfn>[https://ello.co Ello]</dfn>''' is microblogging [[silo]] similar to [[Twitter]] or [[Tumblr]] for posting short status update [[notes]] and [[pictures]]. Ello offers threaded [[comment]]ing and a minimalist "designy" feel to it with some unusual (but nice) [[UX]] animations & interface ideas.  As of Sep. 2014 Ello is currently invite-only.
 
 == Self-description ==
 
@@ -17,6 +16,9 @@ Once past the landing page, Ello opts for a completely blank, white canvas upon 
 === Unsustainable VC Funding ===
 See criticism on this theme written up by Andy Baio on Ello itself:
 * https://ello.co/waxpancake/post/oy73kFfDdhOPh8Jv9z9pFA
+
+Exit notes of Aral Balkan
+* https://aralbalkan.com/notes/ello-goodbye/
 
 === Ugly Permalink URLs ===
 See above ^^^

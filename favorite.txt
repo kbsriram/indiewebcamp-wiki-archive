@@ -1,8 +1,9 @@
 http://indiewebcamp.com/favorite
 
 {{stub}}
-
-A '''<dfn>favorite</dfn>''' is a common [[webaction]] on many [[silos]] (e.g. [[Flickr]], [[Twitter]]), typically visually indicated with a five pointed star symbol that fills in with a color when activated (pink, orange). A favorite is similar to but somewhat different from a [[like]].
+<!--<span style="float:right;height:128px;font-size:128px;margin:-8px 0 0">⭐</span>-->
+<span style="float:right;clear:right;height:128px;font-size:128px;margin:32px 0 0">🌟</span>
+A '''<dfn>favorite</dfn>''' is a common [[webaction]] on many [[silos]] (like [[Flickr]], [[Twitter]]), typically visually indicated with a star symbol that fills in with a color when activated (pink, orange). A favorite is similar to but somewhat different from a [[like]].
 
 == Similarity to Like ==
 Favorites are similar to likes in how they're represented in some systems.
@@ -12,6 +13,7 @@ Similarities:
 * shows up in a feed of your activities viewable by your friends/followers ([[Facebook]], [[Twitter]])
 * ...
 
+__TOC__
 == Differences From Like ==
 There's some anecdotal evidence that users consider "likes" different from "favorites".
 
@@ -25,7 +27,7 @@ Likes:
 * only one instance of browsable likes as a set ([[Instagram]], and those only by the liker).
 
 Favorites:
-* icon: five pointed star, changes when activated (fills in with a color: pink (Flickr), orange (Twitter))
+* icon: star, changes when activated (fills in with a color: pink (Flickr), orange (Twitter))
 * means: special to the favoriter
 * implies adding to a collection - favorites are always browsable (typically publicly) as a set (e.g. your Flickr Favorites, Twitter Favorites)
 * curating

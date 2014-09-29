@@ -110,7 +110,9 @@ Please keep sorted alphabetically
 * {{irc user|fberriman.com|Phae|US/Pacific|https://farm4.staticflickr.com/3907/14681916407_8f36767ac4_s.jpg}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
 * {{irc user|rascul.io|rascul|America/New_York|https://rascul.io/img/avatar80.jpg}}
+* {{irc user|rhiaro.co.uk|rhiaro|Europe/London|http://rhiaro.co.uk/stash/dp.png}}
 * {{irc user|rkn.la|rknLA|America/Los_Angeles}}
+* {{irc user|www.reedstrom.org|reedstrm|America/Chicago}}
 * {{irc user|Sandeep.io|sandeepshetty|Asia/Kolkata}}
 * {{irc user|jenson.org|scottjenson|America/San_Francisco}}
 * {{irc user|sebastiangreger.net|sgreger|Europe/Helsinki}}

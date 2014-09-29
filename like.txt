@@ -108,6 +108,10 @@ Some sites have a feature similar to likes but called something else.
 [[500px]] has a heart button (with white heart icon on red background <span style="background:red;color:white;padding:.2em">♥</span>) <em>in addition to</em> and right next to a Like button:
 E.g. on http://500px.com/photo/79538847/lifeguard-cottages-cuckmere-haven-by-al-power?from=user
 
+== Icon considerations ==
+=== Star vs Heart ===
+<blockquote>For a couple years, registered Airbnb users have been able to '''star''' the properties they browse, and save them to a list. But Gebbia’s team wondered whether just a few tweaks here and there could change engagement, so they changed that star to a '''heart'''. To their surprise, '''engagement went up by a whopping 30%'''.[http://www.fastcodesign.com/1670890/how-airbnb-evolved-to-focus-on-social-rather-than-searches#From_A_Star_To_A_Heart]</blockquote> '''Emphasis''' added.
+
 == Discussion ==
 === Likes of different things ===
 Facebook seems to differentiate between likes of posts and likes of pages. This seems like an important semantic difference. Is the indieweb equivalent of liking a page a [[favourite]]? - [[user:acegiak.net]]

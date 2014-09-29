@@ -4,7 +4,7 @@ http://indiewebcamp.com/User%3AGlennjones.net
 
 == Transmat == 
 
-Transmat is the software I have written to power for my personal site [http://glennjones.net/ http://glennjones.net]. It is not an open source at the moment. The sites/Transmats main features are:
+<dfn>Transmat</dfn> is the software I have written to power for my personal site [http://glennjones.net/ http://glennjones.net]. It is not an open source at the moment. The sites/Transmats main features are:
 
 * Each page content page like notes are mark-up with microformats 2
 * The site has an authors h-card on every page

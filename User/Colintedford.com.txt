@@ -31,7 +31,8 @@ I found IWC some months ago, I don't remember how but I've been interested in re
 
 First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb stuff where it makes sense. I'm reluctant to add much new functionality until I've left Wordpress because I'll just lose it when I switch (or I'll delay switching because I feel obliged to re-implement).
 
-* Reformat so I can stop using Webcomic plugin.
+* Re-add rel="me" so I can log back into IWC wiki if I get logged out ;)
+* <strike>Reformat so I can stop using Webcomic plugin.</strike>
 ** <strike>Decide on code for comic transcripts.</strike> 2014-08-11: Settled on some non-JS show/hide code that mysteriously doesn't work in WordPress, so for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ .
 ** <strike>Migrate transcripts.</strike> Done 2014-08-12.
 ** <strike>Migrate comic images. One...by...one :(</strike> 2014-09-16 ''Finally''.

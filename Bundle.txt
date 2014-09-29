@@ -2,7 +2,7 @@ http://indiewebcamp.com/Bundle
 
 [[File:bundle-logo.png|right]]
 
-'''<dfn>Bundle</dfn>''' is a set publishing tools for the Indieweb built using Python and Django.
+'''<dfn>Bundle</dfn>''' is a set publishing tools for the Indieweb built using [[Python]] and [[Django]].
 
 People using it on their own site:
 * [[User:Kartikprabhu.com|Kartik Prabhu]] ([https://kartikprabhu.com])
@@ -15,14 +15,13 @@ I'm working on all aspects of this project purely for my own use.
 
 == Post Types ==
 Bundle currently supports:
-* '''[[articles]]''' - long form posts
-* '''[[notes]]''' - short form posts
-
+* '''[[articles]]''' - long form posts with content authored as HTML files with some [[Django]] custom templates
+* '''[[notes]]''' - short form posts with content authored as plain text which is converted to HTML with smart-typography conversion and auto-linking of URLs. Note can be a [[reply]], [[like]] or [[repost]].
 
 == Tools Used ==
 Bundle internally uses the following tools:
 * Django as a web-framework for Python
-* MySQL as database
+* [[MySQL]] as database
 * '''[[mf2py]]''' to parse microformats
 * '''[[ronkyuu]]''' to send and receive webmentions
 

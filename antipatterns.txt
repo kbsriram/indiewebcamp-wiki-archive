@@ -107,6 +107,8 @@ It's also bad to transition to designing for mass adoption rather than yourself 
 
 Designing for mass adoption is one reason why [[silo]] user experiences in general get worse over time. Which is also an opportunity for you, as a [[creator]] and contributor to the indieweb, to not just match but do <em>better</em> than the silos with the user experience on your own site.
 
+It can also be a vulnerability, e.g. if "this will only be useful once everyone adopts it", you're likely building something that is vulnerable to either never being useful, or becoming useless when adoption fades.
+
 == invisible metadata ==
 Invisible metadata is the general antipattern of storing information that is user-relevant in places users won't see (i.e. users aren't expected to "View Source" on every page).
 

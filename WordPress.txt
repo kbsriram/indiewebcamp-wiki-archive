@@ -91,7 +91,7 @@ Which brings us to...
 
 Try combining the [http://wordpress.org/plugins/webmention webmention] ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available]) and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins, which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]], [[RSVPs]] and classic [[mentions]].
 
-('''Warning''': Don't use the [http://wordpress.org/plugins/indieweb/ indieweb plugin]! At least not right now. It's an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.)
+('''Warning''': Don't use pre 2.0 version of the [http://wordpress.org/plugins/indieweb/ indieweb plugin]! It's an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.)
 
 For the webmention plugin to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
 and "Allow people to post comments on new articles" checkboxes.

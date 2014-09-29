@@ -7,6 +7,8 @@ http://indiewebcamp.com/storage
 ''Where'' you store your data is typically a question of [[web hosting]].
 
 == Flat files ==
+{{main|file-storage}}
+
 Many indieweb [[projects]] are storing their data in flat files on the file system for reasons of simplicity and robustness.  
 
 See also the [[databases-antipattern]] for reasons why flat files for storage are growing in popularity compared to databases.
@@ -19,7 +21,8 @@ And contain either:
 * one post per flat file
 * time sharded: a set of posts per fixed time period per flat file
 
-IndieWeb Community members using flat files for storage with their projects:
+Some IndieWeb Community members using flat files for storage with their projects (see: [[file-storage]] for more)
+
 === HTML plus microformats ===
 * [[User:Tantek.com|Tantek]] on [http://tantek.com/ tantek.com] uses [[Falcon]] (time sharded per [[bim]])
 * [[User:Kevinmarks.com|Kevin Marks]] on [http://kevinmarks.com kevinmarks.com] stores posts formatted as HTML in [https://github.com/kevinmarks/kevin-marks.com GitHub] and deploys statically to Heroku.
@@ -34,11 +37,10 @@ IndieWeb Community members using flat files for storage with their projects:
 == Databases ==
 In addition to popular projects like [[WordPress]], a few indieweb projects store their data in databases, typically with custom one-off database schemas that requires special programming to translate into other formats.
 
-IndieWeb community members using a database for storage with their projects:
-* [[User:Werd.io|Ben Werdmuller]]'s [http://werd.io/ werd.io] runs [[Known]] which can use either [[MySQL]] or [[MongoDB]] with a custom database schema
-* [[User:Kodfabrik.se|VoxPelli]]'s [https://webmention.herokuapp.com/ webmention.herokuapp.com] uses [[SQL]]/[[PostgreSQL]] for storing received webmentions.
-* {{gRegor}}'s [http://gregorlove.com gregorlove.com] runs [[Nucleus]] with a [[MySQL]] database.
-* ...
+See individual database pages for usage:
+* [[MongoDB]]
+* [[MySQL]]
+* [[Postgres]]
 
 == See Also ==
 * [[building blocks]]

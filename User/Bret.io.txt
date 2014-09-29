@@ -1,28 +1,26 @@
 http://indiewebcamp.com/User%3ABret.io
 
-'''<span style="font-size:2em" class="h-card">[http://bret.io/ Bret Comnes]</span>'''
+='''<span class="h-card">[http://bret.io/ Bret Comnes]</span>'''=
 
-== my indie web setup ==
-* http://bret.io is my site where I experiment with indieweb standards.
-* It is built with Jekyll in safe mode.
-* I have been trying to use prose + post commit hooks and client site javascript to enhance on top of what one can do with a static site.
-* I'm doing this for fun and to learn.
-* Not quite sure where to go from here.  I will probably just iterate on top of what I have for now, and then maybe start on something more sophisticated. 
-* The best way to get how any of my projects work is to just ask in IRC.
+A directory of my indieweb interests, projects, and events.  I am interested in projects that are low maintenance and long term in scope, p2p and distributed storage systems and anything else that makes publishing easy and fun.
 
 == Current IndieWeb Projects ==
-I have a Non-CS background, but these are things I think I am able to achieve reasonably. 
-* Displaying Pingback.me Data via JSONP and javascript embeds.
-** [https://github.com/bcomnes/pingback-js Pingback.js] - The eventual home of this project.
-* Github Pages PuSH race [http://ivanzuzak.info/2011/01/02/enabling-pubsubhubbub-for-github-hosted-blogs.html#par10 condition work around].
-* Ways to better handle various [[ posts ]] types in jekyll.
-* Generate terminal one liners for sending webmentions/pingbacks automatically during the site build to help facilitate their sending.
+* [http://bret.io bret.io] - my personal website.  Hosted on [[gh-pages]] and rendered in [[jekyll]] safe mode. [https://github.com/bcomnes/bcomnes.github.io source]
+* [[gitpub]] - A publishing endpoint for static websites.  Still experimental.  Supports micropub clients. [https://github.com/bcomnes/gitpub source]
+* Playing with [[camlistore]] and [[git-annex]].
+* [w3c #social] - participating in the w3c social WG/IG as an invited expert (applied).
+
+== Events ==
+* (2014) Indiewebcamp - PDX
+* (2014 - Present) Homebrew Website Club PDX
+* (2014) (remote) Indiewebcamp - Hollywood 
+* (2013) [[OSFW3C]] - SF
+* (2013) Indiewebcamp - PDX
+
+== Past experiments ==
+* [https://github.com/bcomnes/webmention.js webmention.js] - Displays data from [[webmention.io]] on a static site with javascript using jsonp.  Needs some work.  See [https://webmention.herokuapp.com/ webmention.herokuapp.com] for a more functional and documented project currently.  I'll return to this someday.
 
 == About me ==
-Feel free to contact me as "bret" on freenode.
-
-I am a graduate student at Portland State University, and became interested in participating in the web in a bigger way around 2011.
-
-
-=== Test Section ===
-[http://bret.io/2013/06/24/t4/ A webmention test]
+* On freendode as "bret"
+* See [http://bret.io/about my about] page for more
+* [http://bret.io/pages/projects Other non-indieweb projects]

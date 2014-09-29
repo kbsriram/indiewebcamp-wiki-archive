@@ -2,32 +2,54 @@ http://indiewebcamp.com/file-storage
 
 {{stub}}
 
-'''<dfn>File Storage</dfn>''' is the idea of storing the main site content in flat, readble files instead of a [[database]]
+'''<dfn>File Storage</dfn>''' is the practice of storing main (primary) site content in flat files.
+
+== Why ==
+Many indieweb [[projects]] are storing their data in flat files on the file system for reasons of simplicity and robustness.  
+
+See also the [[databases-antipattern]] for reasons why flat files for storage are growing in popularity compared to databases.
+
+== How ==
+These flat files typically are either:
+* [[Markdown]] with custom (per project) extensions for various metadata
+* HTML+[[microformats]] (e.g. [[hAtom]] and/or [[h-entry]])
+
+And contain either:
+* one post per flat file
+* time sharded: a set of posts per fixed time period per flat file
 
 == IndieWeb Examples ==
-IndieWeb members that use File Storage on their personal site.
+IndieWeb community members that use file storage on their personal site.
+
 === Tantek ===
 {{t}} on tantek.com uses flat files for primary storage of content:
-* 2010-01-01... present: [[Falcon]] which stores data in flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01]. See [[Falcon#Storage_format]] for details.
+* 2010-01-01... present: [[Falcon]] which stores data in HTML+microformats flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01]. See [[Falcon#Storage_format]] for details.
 * [http://tantek.com/log/2002/08.html 2002-08]...[http://tantek.com/log/2008/08.html 2008-08] static site directly served from primary storage of flat files, up to 12 per year (1 per Gregorian month).
 
+=== Aaron Parecki ===
+{{aaronpk}} on [http://aaronparecki.com aaronparecki.com] uses [[p3k]] - one file per post, YAML extensions for meta info - since ~2011.
+
+=== Kevin Marks ===
+{{kevinmarks}} on [http://kevinmarks.com kevinmarks.com] stores posts formatted as HTML in [https://github.com/kevinmarks/kevin-marks.com GitHub] and deploys statically to Heroku.
+
 === Bear ===
-at https://bear.im uses flat files for storage of all content:
-* posts - since 2003-12-18 stored as text with some textual/markdown/whatever markup
+[[User:Bear.im|Bear]] at https://bear.im/ uses [[Hakkan]] uses flat files for storage of all content:
+* posts - since 2003-12-18 stored as text with some textual/markdown/whatever markup, with one file per post, named year+day-of-year, key:value header for metadata and a json blob for connected resources
 * webmentions - stored as html in the same directory as the post
 * comments - stored as html in the same directory as the post
 * feeds and related
 
 === Bret C. ===
-{{ bret }}: I use the following on bret.io
+{{bret}} uses the following on bret.io:
 * Stores site content in git
-* Renders to html using jekyll/gh-pages
+* Renders to html using [[jekyll]]/gh-pages
+Yaml headers (aka front-matter) with [[GitHub]] flavored [[Markdown]] mixed with liquid template include tags for post attachment metadata.  Yuuuuuck!  This is what jekyll sets you up with.  It has its ups and downs, but its a mix of 3 weird languages which really bothers me.
 
 === Rascul ===
-{{rascul}} stores content for https://rascul.io in a [https://git.rascul.io/crash/content git repository].
+{{rascul}} stores content for https://rascul.io in a [https://git.rascul.io/crash/content git repository] and uses [[crash]].
 
 === Barnaby Walters ===
-Stores all canonical copies of [http://waterpigs.co.uk waterpigs.co.uk] site data in the filesystem
+Stores all canonical copies of [http://waterpigs.co.uk waterpigs.co.uk] site data in the filesystem and uses [[Taproot]] for publishing.
 
 * notes and articles as YAML files with HTML in (wants to change these to HTML+mf2 for browsability, standards support)
 * timestamped HTML archives (along with HTTP headers in *-headers.txt) in URL-mimicking folder structures
@@ -51,6 +73,7 @@ IndieWeb members that *want* to use File Storage on their personal site:
 * [http://getgrav.com Grav] is a PHP, YAML, Twig and Markdown Extra based storage project which looks promising.
 
 == See Also ==
+* [[storage]]
 * [[database]]
 * [[database-antipattern]]
 * [[database-cache]]

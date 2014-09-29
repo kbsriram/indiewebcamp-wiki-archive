@@ -35,16 +35,17 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # Authentication Host
 # Create Indie Events (and receive RSVPs)
 # RSVP to Events
-# Micropub expanded to create more post types as well as edit/delete posts
-# https for everything
+# Micropub expanded to create more post types as well as edit/<s>delete</s> posts
+# <s>https for everything</s>
 # error message display
 # context messages to store both short and full urls to save extra polling.
 # webactions (maybe)
-# webmention sending done asynchronously (maybe)
+# <s>webmention sending done asynchronously</s>
 # Contacts List (see below)
 # delete entries (leave tombstone and hide)
 # geotag / location data in posts
 # <s>draft editions (hide from feed, but can be viewed by URL)</s>
+# allow sending micropub to not use field names with []
 # display list of recent draft links when logged in as site owner
 # anything else I can think of
 

@@ -1,3 +1,3 @@
 http://indiewebcamp.com/events/next-hwc
 
-#redirect:[[events/2014-09-24-homebrew-website-club]]
+#redirect:[[events/2014-10-08-homebrew-website-club]]
