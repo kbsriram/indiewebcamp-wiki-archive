@@ -7,9 +7,10 @@ http://indiewebcamp.com/MongoDB
 == IndieWeb Examples ==
 IndieWeb community members using MongoDB for storage with their projects:
 
-* No known current examples of indieweb sites using MongoDB. (no pun intended)
+=== Michael Owens ===
+{{mko}} uses [[Indie.js]] on [https://mowens.com mowens.com] which has used MongoDB for its data store since July 2014.
 
-=== Past IndieWeb Examples ===
+== Past IndieWeb Examples ==
 Past IndieWeb community members using MongoDB for storage with their projects:
 * [[User:Werd.io|Ben Werdmuller]]'s [http://werd.io/ werd.io] runs [[Known]] which he used to use with MongoDB (2013-2014), and switched to [[MySQL]] in mid to late 2014.
 

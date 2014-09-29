@@ -3,7 +3,7 @@ http://indiewebcamp.com/OpenBlog
 '''<dfn>OpenBlog</dfn>''' is an open source blogging platform currently under development by [[User:ben.thatmustbe.me|ben.thatmustbe.me]].
 
 == Description ==
-OpenBlog is based on a fork of system libraries from [http://www.opencart.com OpenCart], an eCommerce software.  OpenBlog uses a simple MVC architecture and uses PHP and MySQL.
+OpenBlog is based on a fork of system libraries from [http://www.opencart.com OpenCart], an eCommerce software.  OpenBlog uses a simple MVC architecture and uses [[PHP]] and [[MySQL]].
 
 Source code is publicly available [https://github.com/dissolve/openblog on GitHub].
 
@@ -14,18 +14,34 @@ OpenBlog aims to be a platform for easy development of new features.  The hope i
 
 === Current Features ===
 # Microformats marked up template (based on SemPress)
-# Support for multiple post types (currently articles, notes, and photos)
-# Web admin page
+# Support for multiple post types. currently articles, notes, photos, drafts, rsvps. (checkins coming soon)
+# <s>Web admin page</s> This is deprecated in favor of MicroPub client page
 # Simple routing management (routes.php config file)
 # [[webmention]] send and receive
-# [[micropub]] support (not all fields are currently used)
-# Automatic syndication to Twitter and FB (not syndicating to FB yet) through brid.gy
+# [[micropub]] support create, delete, edit (syndication-urls only, more coming soon)
+# Syndication/backfeed to Twitter and FB through [[Bridgy]]
 # Additional Contact Information for whitelisted users.
+# Full [[reply-thread]] to posts
+# Receive and process webmention edits/deletes of replies (untested)
+# All URLs are https (easily configurable)
 
 === Planned Features ===
-# Expand to other post types
+# Expand to other post types (checkins and events are next)
 # New default theme
 # IndieAuth Host
 # Private posts to authenticated users.
 # Private contact list parsed from other indie web users as well as silos
 # grouping and managing contacts as well as setting what information is shared to what contact groups.
+
+A more detailed todo list is kept on [[User:ben.thatmustbe.me|My User Page]]
+
+== Brainstorming ==
+
+=== [[File-Storage]] ===
+* While OpenBlog is currently being developed in [[MySQL]], there are database drivers for other SQL based databases.  It is theoretically possible to create a driver for file based storage.  The driver would have to know how to parse SQL queries however.
+* Hard Disk caching is used to store a serialized version of most DB queries.  As long as all changes clear the cache, it is theoretically possible to maintain the cache indefinitely thereby becoming a backup flat-file storage.  This is already discussed in [[database-antipattern#Database_with_export]].
+
+=== [[Micropub]] issues ===
+* The current standard seems to be to define multi-value fields as comma seperated.  This becomes a problem with any URLs as a comma is a valid URL character.  As such I implemented my micropub endpoint to use PHP's [] format.  This means that many others cannot use my endpoint.  While attepts to convert PHP to follow a more stardard method of using a variable more than once creates an array (not overwrites it).  This would not be possible on posts that use form encoding to allow for image and file uploads.  
+* This same issue will exist multiple reply-to lines are supported.  This could be where it becomes a real world issue.
+* While I am hoping to get rid of the admin interface (indeed I no longer use it in its current form) I feel there needs to be some type of management console when logged in.  The most important peice would be for updating links on the main page (which are stored in the DB).  Allowing the site admin (when logged in through indieauth) to edit these could lead to a person removing all their rel=me links that have indieauth support and thus break their own admin login. There would have to be some manual way to fix that situation, but would have to be simple enough for end-users to use.

@@ -44,7 +44,7 @@ And potentially also:
 * other profile URLs or userids on [[silos]] you [[POSSE]] to (e.g. [[Facebook]])
 
 == Discussion ==
-* How do we get the information into the cache? [http://indiewebcamp.com/irc/2014-07-13#t1405285303]
+* How do we get the information into the cache? [http://indiewebcamp.com/irc/2014-07-13#t1405285303000]
 
 == See Also ==
 * [[blogroll]]

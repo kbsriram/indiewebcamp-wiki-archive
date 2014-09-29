@@ -24,7 +24,7 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # <s>Release on GitHub</s>
 # <s>Administration Pages (minimally working, still needs a lot of work)</s> I have somewhat abandoned this in favor of micropub
 # <s>Get Comments working (I may not do this, comments will have to be webmention/pingback)</s>
-# Personal theme (still based on SemPress)
+# <s>Personal theme (still based on SemPress)</s> this changes on its own over time as needed
 # <s>Set up automatic syndication to G+, FB, and Twitter</s> done via brid.gy
 # <s>backfeed</s> via brid.gy
 # <s>webmention</s>
@@ -34,7 +34,7 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
 # Authentication Host
 # Create Indie Events (and receive RSVPs)
-# RSVP to Events
+# <s>RSVP to Events</s>
 # Micropub expanded to create more post types as well as edit/<s>delete</s> posts
 # <s>https for everything</s>
 # error message display
@@ -42,8 +42,8 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # webactions (maybe)
 # <s>webmention sending done asynchronously</s>
 # Contacts List (see below)
-# delete entries (leave tombstone and hide)
-# geotag / location data in posts
+# <s>delete entries (leave tombstone and hide)</s>
+# geotag / location data in posts (storing but no display yet)
 # <s>draft editions (hide from feed, but can be viewed by URL)</s>
 # allow sending micropub to not use field names with []
 # display list of recent draft links when logged in as site owner

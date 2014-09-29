@@ -8,7 +8,17 @@ Is this your first time on IndieWebCamp.com?
 Do you have a personal site or want one? start here:
 * '''[[Getting Started]]'''
 
+== community split ==
+The indieweb community is nearly evenly split about the database-antipattern, as measured by what [[projects]] we use on our live sites:
+* [[file-storage]] projects
+** [[Jekyll]](multiple), [[Apache]](i.e. plain HTML files, multiple), [[p3k]](multiple), [[Bumble]], [[Bundle]](articles), [[crash]], [[Falcon]], [[Hakkan]], [[Neonblog]], [[Taproot]]
+* [[database]] projects
+** [[WordPress]](multiple, with plugins), [[Known]](multiple), [[Bundle]](notes), [[Indie.js]], [[Nucleus]], [[OpenBlog]], [[ProcessWire]], [[Publify]], [[Red Wind]]
+
+Thus while there is a significant (perhaps even majority) opinion about the database-antipattern, it is by no means a universally agreed upon aspect of indieweb sites or the indiewebcamp community. A few have even noted their complete [[PostgreSQL#IndieWeb_Examples|lack of first-hand negative experience]].
+
 = databases for storage =
+__TOC__
 Using databases for the primary storage of content on your personal site is considered by some in the community to be an [[antipattern]].
 
 Common content management systems (e.g. [[WordPress]], [[Drupal]], [[MediaWiki]], etc.) use databases for primary storage of content. Most often [[MySQL]], sometimes others like [[MongoDB]].
@@ -151,9 +161,10 @@ Finally, this wiki is itself hosted on MediaWiki, which stores data in MySQL. So
 Q: I don't understand how this anti pattern is related to the indieweb?
 * A: In one word: [[longevity]]. Part of the reason we are frustrated with [[silos]] are their inevitable [[site-deaths]] and loss of content and permalinks, thus one of the indieweb [[principles]] is building for the long web [[longevity]]. And as soon as you start thinking & designing for longevity you realize longevity of your ''content'' and ''data'' (including [[permalinks]]) is critical, and when you design for that, you find that databases are ''bad'' for longevity and thus their common use as primary long-term storage is an antipattern.
 
-==== Does this mean I can’t have a dynamic site? ====
+==== Does a dynamic site need a databases ====
+"Q: Does this mean I can’t have a dynamic site without a database?"
 
-Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above.
+A: Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above. [[Falcon]] is one real world indieweb example of flat file storage based dynamic post content server.
 
 == See Also ==
 * [[file-storage]]

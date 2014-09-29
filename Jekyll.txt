@@ -31,15 +31,23 @@ See also: [[projects#Jekyll]]
 * [https://github.com/developmentseed/jekyll-hook jekyll hook] - A self hosted gh-pages like server.
 * [http://prose.io/ Prose.io] - An editor for github repositories.  Itself is hosted on GH-pages and runs almost entirely client side in the browser.  [http://developmentseed.org/blog/building-a-new-prose/ read more]
 
-== Indieweb Users ==
-Community members:
-* Ben Ward (2011) on [http://benward.me/blog/time-place-design-principals benward.me]
-* {{bret}} (2013) on [http://bret.io/ bret.io]
-* [[User:Kodfabrik.se]] (2014) on [http://voxpelli.com/ voxpelli.com] using GitHub Pages
-* {{willnorris}} (2014) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com]
-Other independents:
-* Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
-* Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]
+== IndieWeb Examples ==
+IndieWeb community members using Jekyll on their own primary sites:
+=== Ben Ward ===
+Ben Ward ([[2011]]) on [http://benward.me/blog/time-place-design-principals benward.me]
+=== Bret Comnes ===
+{{bret}} (2013) on [http://bret.io/ bret.io]
+=== Pelle ===
+[[User:Kodfabrik.se]] ([[2014]]) on [http://voxpelli.com/ voxpelli.com] using [[GitHub]] Pages
+=== Will Norris ===
+{{willnorris}} ([[2011]], [[2014]]) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com] (switched away from WordPress).
+
+== Other Independent Examples ==
+Other independents using Jekyll on their own primary sites:
+=== Rudy Jahchan ===
+Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
+=== Leonardo Zangrando ===
+Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]
 
 == Troubleshooting ==
 === Something is not working on my local box ===

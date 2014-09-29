@@ -61,12 +61,21 @@ Testing at [http://markmurfin.com/editor.php Editor] and [http://markmurfin.com/
 * Viewer system loads the html files and can output them with different markup, css, adding h-data, etc.
 * Wants to save html files with microdata schema for super cool idea that I have
 
+=== Emma K. ===
+[[User:notenoughneon.com|Emma]] at http://notenoughneon.com using [[Neonblog]]. Posts are stored in html+mf2 files. The feed is dynamically generated from parsed microformats with an index persisted in JSON.
+
 === ... add yourself ... ===
+
+=== ... many more [[Jekyll]] users ===
 
 === Want to use file storage ===
 IndieWeb members that *want* to use File Storage on their personal site:
 * [[UserKartikprabhu.com|Kartik]] using [[Bundle]] wants to move away from [[MySQL]] to a HTML+mf2 based file storage for main content. Has played with YAML-based storage but does not like it. Article content is authored and stored in Django-style HTML templates anyway.
 * add yourself.
+
+== Other Independent Examples ==
+=== David Baron ===
+David Baron on http://dbaron.org/ uses flat HTML files, one per blog post, one for his blog index page, since 2002.
 
 == Flat file "CMS" systems in the wild ==
 
