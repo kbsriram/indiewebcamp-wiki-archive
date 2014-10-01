@@ -11,6 +11,9 @@ http://indiewebcamp.com/Bumble
 === Adam Brault ===
 [[User:adambrault.com|Adam Brault]] runs Bumble on adambrault.com.
 
+=== Michael Garvin ===
+[[User:Danger.computer|Michael Garvin]] runs Bumble on danger.computer.
+
 == See Also ==
 * [[projects]]
 * [[markdown]]

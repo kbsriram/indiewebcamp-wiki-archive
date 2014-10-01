@@ -124,5 +124,25 @@ Q: Couldn't you use isProtocolHandlerRegistered to check if a handler is registe
 
 A: That function [https://bugzilla.mozilla.org/show_bug.cgi?id=440620 doesn't exist!] And it would be a potential privacy leak, e.g., allowing sites to see which apps you have installed on your phone by checking facebook:, twitter:, etc..
 
+== IndieWeb Examples ==
+
+=== [[User:Voxpelli.com|Pelle Wessman]] ===
+
+Pelle publishes JavaScript on http://voxpelli.com that queries a user's registered web+action handler the first time an indie-action is clicked. If an appropriate action handler is found, his "Reply" and "Post" links will use it instead of the default.
+
+Uses the [http://x-tags.org/ X-Tags] library to configure &lt;indie-action> tags through the use of a simple [https://github.com/voxpelli/indie-action-component proof-of-concept web component].
+
+=== [[User:waterpigs.co.uk|Barnaby Walters]] ===
+
+Collaborated with Pelle at [[2014/UK|IndieWebCamp UK 2014]] where they demonstrated links on voxpelli.com directing to a reply link on waterpigs.co.uk. Barnaby has a static page on his site for registering a web+action handler: https://waterpigs.co.uk/indie-config.html
+
+=== [[User:kylewm.com|Kyle Mahan]] ===
+
+Registers indie-config handlers for reply, repost, favorite, and like actions using https://kylewm.com/test/indieconfig.html.
+
+Began adapting [[#How_to_load_someones_indie-config]] to work on my site (heavily referencing the implementation on voxpelli.com). I stalled out when I could not figure out how to detect/handle the situation where no web+action handler is configured. The code so far is here https://gist.github.com/kylewm/9d97c456011868532271
+
+
+
 == See Also ==
 * [[webactions]]

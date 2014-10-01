@@ -115,4 +115,9 @@ Content-Type: application/x-www-form-urlencoded
 me=https://aaronparecki.com/
 </pre>
 
+
+== Websites implementing IndieAuth login ==
+See [[distributed-indieauth#Sites_that_support_distributed_IndieAuth]]
+
+
 [[Category:IndieAuth]]

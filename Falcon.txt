@@ -13,11 +13,10 @@ Note: this documentation is purely for informational purposes.
 
 There are many aspects of this design that are not optimal and that I'm working on improving.  However I figured it was still worth documenting it to capture it.
 
-If some of this helps you with designing your own indieweb implementation, great. If something doesn't make sense, ask, as there's a good chance it's something that I should fix in the design. 
+If some of this helps you with designing your own indieweb implementation, great. If something doesn't make sense, ask, e.g. in [[IRC]], as there's a good chance it's something that I should fix in the design. 
 
 Thanks, - [[User:Tantek.com|Tantek]] 19:37, 23 March 2013 (PDT)
 
-__TOC__
 == Post Types ==
 Falcon supports the following 5 kinds of [[posts]].
 
@@ -62,6 +61,7 @@ Falcon currently supports [[POSSE]]ing:
 ** '''reply threading on Twitter''' - reply notes are [[Twitter#POSSE_Replies_to_Tweets|POSSE'd as @-replies]] with proper threading (currently requires user input of original tweet permalink URL that is being replied to).
 ** '''notes indirectly to [[Facebook]]''' - standalone POSSE'd notes are then also automatically syndicated to Facebook (I ([[User:Tantek.com|Tantek]]) have Twitter setup to do this)
 
+__TOC__
 == Publishing UI ==
 Falcon publishing UI currently consists of the following:
 # '''BBEdit''' (your choice of text editor) write new post in the storage file directly (see below for storage file format)

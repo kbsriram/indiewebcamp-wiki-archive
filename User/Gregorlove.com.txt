@@ -51,6 +51,7 @@ In no particular order, I am interested in:
 * Publish [[like]]s or — more likely (no pun intended) — favorites/stars.
 ** Optionally display them on a dedicated page, sorted by most recently starred.
 ** Optionally allow sorting the starred item's original publish date.
+* Migrate RSS feed ''away'' from [[FeedBurner]]
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

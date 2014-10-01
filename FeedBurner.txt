@@ -21,6 +21,14 @@ To remove your feed from Feedburner, login into your Feedburner console, select 
 
 Before submiting, don't forget to check the "With permanent redirection" checkbox. 
 
+== Criticism ==
+=== Lack of HTTPS support ===
+Feedburner fails to consume [[https]] URLs to [[RSS]] feeds: <blockquote>After updating my configuration to have it use my https URL – in case it was unable to follow a 301 redirect – I was surprised to notice Feedburner was throwing a 400 Bad Request error. Despite Google guidelines promoting the use of HTTPS, Feedburner, a Google service is unable to handle it.[https://t37.net/if-you-haven-t-dropped-feedburner-yet-this-mind-blowing-reason-will-convince-you-to-do-it.html]</blockquote>
+
+== Indieweb Examples ==
+* {{gRegor}} on gregorlove.com — migrating away from FeedBurner is now on my to-do list.
+* add (or remove!) yourself . . .
+
 == See Also ==
 * [[feeds]]
 * [[aggregators]]

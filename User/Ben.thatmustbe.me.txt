@@ -31,22 +31,22 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # <s>micropub</s> avalable at https://ben.thatmustbe.me/new
 # <s>reply-context</s>
 # <s>comment edit/delete</s> Done but untested
-# [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
-# Authentication Host
-# Create Indie Events (and receive RSVPs)
 # <s>RSVP to Events</s>
-# Micropub expanded to create more post types as well as edit/<s>delete</s> posts
 # <s>https for everything</s>
-# error message display
+# <s>display list of recent draft links when logged in as site owner</s>
+# <s>webmention sending done asynchronously</s>
+# <s>delete entries (leave tombstone and hide)</s>
+# <s>draft editions (hide from feed, but can be viewed by URL)</s>
+# <s>allow sending micropub to not use field names with []</s> I now send both so php and non-php users can receive. I still contend that comma delimited is not a good idea, but i'll support it for now.
+# <s>error message display</s>
 # context messages to store both short and full urls to save extra polling.
 # webactions (maybe)
-# <s>webmention sending done asynchronously</s>
 # Contacts List (see below)
-# <s>delete entries (leave tombstone and hide)</s>
 # geotag / location data in posts (storing but no display yet)
-# <s>draft editions (hide from feed, but can be viewed by URL)</s>
-# allow sending micropub to not use field names with []
-# display list of recent draft links when logged in as site owner
+# [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
+# Authentication Host
+# Micropub expanded to create more post types as well as edit/<s>delete</s> posts
+# Create Indie Events (and receive RSVPs)
 # anything else I can think of
 
 == Contacts List ==

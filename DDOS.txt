@@ -53,6 +53,14 @@ Require a hashcash “payment” parameter or header on incoming webmentions, ac
 === Queue and delay GET source ===
 (Immediate load mitigation) queue and randomly delay actually performing the GET request for the source URL.
 
+=== Forward originating IP address ===
+When verifying a webmention (or pingback, for that matter) by checking the source site, include an '''X-Forwarded-For''' HTTP header in your request, with the value set to the IP address of the client that notified your server of the alleged webmention. If servers consistently use this header, a victim of a DDOS attack can more easily detect and filter these invalid requests when they see the same IP address (or a smaller subset of IP addresses controlled by the attacker) in the Forwarded field.
+
+That is, when verifying the contents of a webmention, your web server is, for that single request, kind of acting as an HTTP proxy for the IP that told you about the alleged webmention. As with any proxy, the way to prevent abuse is to indicate to the destination server the originating IP. In the case of webmention verification, privacy is not a particular concern: the IP address is likely the IP address of the source webserver itself (or some other machine controlled by the author who is sending the webmention).
+
+* [http://en.wikipedia.org/wiki/X-Forwarded-For Wikipedia article on the informal X-Forwarded-For header]
+* Akismet (and now WordPress too) use an [http://blog.akismet.com/2014/03/18/akismet-plugin-2-6/ X-Pingback-Forwarded-For header]. [Not clear to me why we need yet another distinct header name for this. -[[User:Npdoty.name|Npdoty.name]]]
+
 == Indieweb Examples ==
 * [[User:WaterPigs.co.uk|Barnaby Walters]] implemented expiring webmention endpoint tokens as of 2014-09-16; previously had implemented client IP checking on waterpigs.co.uk but ran into problems
 * {{aaronpk}} implemented expiring webmention endpoints on 2014-09-16. Each request to discover the webmention endpoint for a post results in a unique endpoint that is valid for 5 minutes.

@@ -19,35 +19,30 @@ See also: [[projects#Jekyll]]
 * Has a powerful plugin system
 * Easily self hosted
 * Simple static pages are the result of your hard work.
+* Free hosting on [[GitHub#GitHub_Pages|gh-pages]] or amazon [[s3]]
 
 == Cons ==
 *  The liquid templating engine has [https://github.com/Shopify/liquid/issues/162 no love for pretty HTML]
 * It takes a while to learn the ins and outs of what can be created.
 * Static pages restricts your options when participating in the the real-time web
-* [[POSSE]] is tricky with jekyll.  [http://bret.io/2013/11/16/t1/ bret.io] manually posse's content to twitter.
+* [[POSSE]] is tricky with jekyll.
+* Learning to use the ruby toolchain is really difficult for beginners and non-technical people
 
 == Related Tools ==
 * [https://github.com/alagu/pagoda Pagoda] - a self hosted, mobile friendly editor for jekyll pages.
 * [https://github.com/developmentseed/jekyll-hook jekyll hook] - A self hosted gh-pages like server.
 * [http://prose.io/ Prose.io] - An editor for github repositories.  Itself is hosted on GH-pages and runs almost entirely client side in the browser.  [http://developmentseed.org/blog/building-a-new-prose/ read more]
+* [[gitpub]] an experimental git based micropub client that works with jekyll.
 
 == IndieWeb Examples ==
 IndieWeb community members using Jekyll on their own primary sites:
-=== Ben Ward ===
-Ben Ward ([[2011]]) on [http://benward.me/blog/time-place-design-principals benward.me]
-=== Bret Comnes ===
-{{bret}} (2013) on [http://bret.io/ bret.io]
-=== Pelle ===
-[[User:Kodfabrik.se]] ([[2014]]) on [http://voxpelli.com/ voxpelli.com] using [[GitHub]] Pages
-=== Will Norris ===
-{{willnorris}} ([[2011]], [[2014]]) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com] (switched away from WordPress).
-
-== Other Independent Examples ==
-Other independents using Jekyll on their own primary sites:
-=== Rudy Jahchan ===
-Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
-=== Leonardo Zangrando ===
-Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]
+* Ben Ward ([[2011]]) on [http://benward.me/blog/time-place-design-principals benward.me]
+* {{bret}} (2013) on [http://bret.io/ bret.io]
+* Pelle: [[User:Kodfabrik.se]] ([[2014]]) on [http://voxpelli.com/ voxpelli.com] using [[GitHub]] Pages
+* {{willnorris}} ([[2011]], [[2014]]) on [https://willnorris.com/2014/07/one-step-forward-two-steps-back willnorris.com] (switched away from WordPress).
+* Rudy Jahchan: on [http://rudyjahchan.com/2012/08/14/moved-from-wordpress-to-jekyll-part-1/ rudyjahchan.com] (moved from [[WordPress]])
+* Leonardo Zangrando (2013): on [http://lionzan.me lionzan.me]
+* ...Lots of others.  Add yourself!
 
 == Troubleshooting ==
 === Something is not working on my local box ===

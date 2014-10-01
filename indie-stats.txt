@@ -29,6 +29,13 @@ Each domain is stored as flat-files:
 === Storing request and response headers ===
 === Generate stats ===
 For each domain crawled the domain, timestamp and data will be passed to a master "cruncher" that will then loop thru a list of stat generating apps. The resulting json blob from this generating app will be added along with namespace and timestamp to the stat history for the domain.
+Stat items to calculate:
+* have a header for auth
+* use indieauth as their auth item
+* have a header for webmention
+* have a header for micropub
+* have a h-card
+* have a h-entry
 
 === Stat retrieval ===
 Add an endpoint to allow for a call to be made for a domain and a date range and the response will be the json blob of stats.

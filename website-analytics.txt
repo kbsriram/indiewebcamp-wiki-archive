@@ -58,6 +58,7 @@ If you have access to your server logs, you may be collecting all the data you w
 ** [[User:rascul.io]] uses it on his personal site to see high-level visit information
 ** {{kylewm}} has also had good, albeit limited experiences with it
 * [http://www.awstats.org/ AWStats] is another popular tool
+** [[User:cweiske.de]] uses it
 
 == Criticism ==
 === Makes Your Site Slower ===

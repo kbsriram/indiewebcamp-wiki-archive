@@ -15,7 +15,7 @@ The indieweb community is nearly evenly split about the database-antipattern, as
 * [[database]] projects
 ** [[WordPress]](multiple, with plugins), [[Known]](multiple), [[Bundle]](notes), [[Indie.js]], [[Nucleus]], [[OpenBlog]], [[ProcessWire]], [[Publify]], [[Red Wind]]
 
-Thus while there is a significant (perhaps even majority) opinion about the database-antipattern, it is by no means a universally agreed upon aspect of indieweb sites or the indiewebcamp community. A few have even noted their complete [[PostgreSQL#IndieWeb_Examples|lack of first-hand negative experience]].
+Thus while there is a significant opinion about the database-antipattern, it is by no means a universally agreed upon aspect of indieweb sites or the indiewebcamp community. A few have even noted their complete [[PostgreSQL#IndieWeb_Examples|lack of first-hand negative experience]].
 
 = databases for storage =
 __TOC__

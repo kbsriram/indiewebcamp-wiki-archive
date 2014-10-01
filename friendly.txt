@@ -18,6 +18,8 @@ Indieweb basics:
 
 Data portability:
 # Provide a way for users to export all their user data (posts, comments, tags, likes/faves).
+# Provide HTTP redirects if users want to change their domain name.
+## (If a service provides profiles such as name.example.com, and the person wants to change to name.com, the service should leave HTTP redirects in place for name.example.com/* -> name.com/*)
 # ...
 
 == Organisations who are Indieweb Friendly ==

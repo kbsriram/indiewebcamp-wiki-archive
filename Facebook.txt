@@ -15,6 +15,7 @@ To export all photos in an album owned by others (such as all photos in which yo
 
 To export Facebook messages:
 * http://www.jwz.org/blog/2014/01/psa-back-up-your-shit/. This is complicated to set up and has some limitations.
+* [https://github.com/RaghavSood/FBMessageScraper Facebook Message Scraper]
 
 == POSSE out to ==
 {{main|POSSE to Facebook}}
@@ -176,6 +177,15 @@ Per grafitti in Minneapolis, 2014-234, photo by {{t}}
 While not as bad as Google+, Facebook have been attempting to enforce the "real name" policy. In 2014-09, it was revealed Facebook had disabled the accounts of a number of [[wikipedia:Drag queen|drag queens]] requiring them to use their legal names. [http://www.dailydot.com/lifestyle/facebook-demands-drag-queens-change-names/]
 
 Accounts which don't seem like they have "normal" names have also been challenged by Facebook's policy. [http://www.huffingtonpost.com/2014/09/17/facebook-chase-nahooikaikakeolamauloaokalani-silva-_n_5833248.html]
+
+=== Image used in link preview ===
+On 2014-09-29, when I pasted a link to a blog post in a Facebook status, the link preview used one of the comment's avatars instead of the <code>og:image</code> meta element I have had in my HTML for years. I had to manually click through the images until the correct logo appeared. I am not sure if this is a glitch or if Facebook has changed their algorithm. 
+
+After using Facebook's [https://developers.facebook.com/tools/debug/og/object/ Open Graph Object Debugger], I found it reported:
+
+<blockquote>og:image was not defined, could not be downloaded or was not big enough. Please define a chosen image using the og:image metatag, and use an image that's at least 200x200px and is accessible from Facebook.</blockquote>
+
+The image I'm using currently is only ~120px square. I guess that explains it, but it seems silly for Facebook to ignore the explicit <code>og:image</code> element I have set up. — {{gRegor}}
 
 == Advocates ==
 Robert Scoble defended using Facebook in a post, "[https://plus.google.com/+Scobleizer/posts/ZSJzgnvKaWy What will you miss when you quit Facebook?]"

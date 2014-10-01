@@ -8,6 +8,10 @@ http://indiewebcamp.com/Ello
 
 ''Ello is a simple, beautiful, and ad-free social network created by a small group of artists and designers. We originally built Ello as a private social network. Over time, so many people wanted to join Ello that we built a public version of Ello for everyone to use.'' [https://ello.co/wtf/post/about-ello About]
 
+== API ==
+
+Ello has not announced an official API yet, but it appears there is one. Unofficial documentation: https://gist.github.com/conatus/cc665f917d5558c123bc
+
 ==Praise==
 === Fairly Effective Use of Whitespace ===
 Once past the landing page, Ello opts for a completely blank, white canvas upon which their users' content is placed. Individual posts are set off from other posts and page content only by effective use of whitespace, rather than background-colors, lines, or flashy ui.
@@ -29,8 +33,8 @@ See above ^^^
 === No rel-me support ===
 There's apparently no way to enter your own personal site into your profile and have ello link back to it with [[rel-me]]. [http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]
 
-=== No API ===
-No [[API]] apparently.[http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]
+=== No Official API ===
+:''See [[Ello#API|API]].''
 
 === No Export ===
 No way to export your content / data. [http://indiewebcamp.com/irc/2014-09-24/line/1411595542893]

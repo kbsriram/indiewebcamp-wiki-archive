@@ -1,6 +1,8 @@
 http://indiewebcamp.com/reply-context
 
-On a [[reply]] post, it is common practice (possibly established by [[Twitter]] on tweet permalinks) to display the context of what the post is in reply to, including linking to that original post with [[rel-in-reply-to]].
+A '''<dfn>reply context</dfn>''' is the display of what a [[reply]] post is in reply to, including linking to that original post with [[in-reply-to]] markup, showing some amount of that original post like author name, icon, summary / ellipsed content, and datetime published. 
+
+Reply contexts became more important when replies started to have their own top level permalinks, which appears to have been popularized by [[Twitter]] treating @-replies like any other tweet. Twitter started by displaying the immediate reply-context of what an @-reply was in reply to, but eventually started recursively displaying reply-contexts on up to the tweet at the start of a thread.
 
 == Why ==
 Why show reply contexts?
@@ -87,11 +89,13 @@ IndieWeb Examples of icon URL dt-published author name and original content:
 * ... a lot of folks - see [[reply-context-examples]] and copy a short list here inline
 * ...
 
-=== reply thread ===
-{{main|reply-thread}}
-Popular silos (e.g. [[Twitter]]) display an entire <em>thread</em> of reply-contexts of originals/replies from the tweet that you're replying to, and if it was a reply itself, what it replies to etc. on up through the original tweet at the start of the thread.
+=== recursive reply-contexts ===
+{{main|recursive reply-contexts}}
+(previously called: <span id="reply_thread">reply thread</span> and <span id="history_thread">history thread</span>)
 
-IndieWeb Examples of icon URL dt-published author name original content for the <em>entire reply chain up through the original post that started the thread</em>:
+Popular silos (e.g. [[Twitter]]) recursively display reply-contexts of originals/replies from the tweet that you're replying to, and if it was a reply itself, what it replies to etc. on up through the original tweet at the start of the thread.
+
+IndieWeb Examples of icon URL dt-published author name original content for reply-contexts up through the original post that started the thread:
 * [[User:ben.thatmustbe.me|Ben Roberts]] e.g. [http://ben.thatmustbe.me/note/2014/9/12/1/_ on 2014-09-12]
 * ...
 
@@ -137,7 +141,7 @@ In order of deployment:
 ** [https://snarfed.org/2014-06-05_twitter-therealfitz-this-analysis-of-restaurants Twitter example]
 ** [https://snarfed.org/2014-05-28_alexis-shoemate-for-you-and-gina Facebook example]
 
-* '''[[User:Ben.thatmustbe.me|Ben Roberts]]''' displaying reply-thread in [OpenBlog] since 2014-09-12
+* '''[[User:Ben.thatmustbe.me|Ben Roberts]]''' displaying recursive reply-contexts in [OpenBlog] since 2014-09-12
 ** [http://ben.thatmustbe.me/note/2014/9/12/1/_ example]
 
 == of silo posts ==

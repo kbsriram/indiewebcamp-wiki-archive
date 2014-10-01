@@ -407,6 +407,19 @@ Should '''bookmarking''' (i.e. publishing a [[bookmark]] post) send a webmention
 * mitigation: webmention receivers should look for a backlink in the first h-entry on a given source page only.
 
 == Brainstorming ==
+
+=== using x-forwarded-for to mitigate DDoS abuse ===
+
+When verifying a webmention by checking the source site, include an X-Forwarded-For HTTP header in your request, with the value set to the IP address of the client that notified your server of the alleged webmention.
+
+That is, to verify, do something like:
+    curl -H "X-Forwarded-For:$sender_ip" $source
+where <code>$sender_ip</code> is the IP address of the incoming request that informed you of the webmention and <code>$source</code> is the source page of the alleged webmention. Then check the response to see whether a link to $target is present.
+
+For more, see [[DDOS#Forward_originating_IP_address]].
+
+Note: WordPress is using X-Pingback-Forwarded-For to mitigate abuse of pingbacks. And IETF is also in process of standardizing a Forwarded header (with a more detailed semantics). If someone feels strongly, we could pick one of those or mint something new, but in the meantime, use X-Forwarded-For.
+
 === rel-webmention on <a&gt; tags ===
 Does it make sense to allow rel=webmention on anchor tags in addition to link tags?
 

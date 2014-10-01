@@ -222,6 +222,9 @@ Two possible fixes here:
 ## Parameter 'profile' must be ..." is a debugging message, not an error message. There is no mention of "parameter" or "profile" in any other user-facing aspect interaction of IndieAuth. This message needs to be replaced ASAP with a description in terms of what the user is doing. - [[User:Tantek.com|Tantek]] 07:26, 18 September 2013 (PDT)
 ## What the heck is *actually* going wrong? I don't even know - we need to capture a technical description of the problem(s) that may be causing this message to occur so we can attempt to craft an actual actionable error message for the user. - [[User:Tantek.com|Tantek]] 07:26, 18 September 2013 (PDT)
 
+=== RDFa ===
+Note that RDFa redefines 'rel' attribute processing incompatible with HTML(5) thus rel=me may produce unexpected results inside RDFa.[http://microformats.org/wiki/rel#RDFa_Incompatibility]
+
 == To do ==
 Want to help? See if you can contribute to one or more of the following:
 * '''<span id="tfa-support">Two Factor Auth (TFA) support</span>''' for providers that support it (e.g. Google)

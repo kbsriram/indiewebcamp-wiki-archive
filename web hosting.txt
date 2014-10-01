@@ -146,6 +146,7 @@ IndieWeb community members using this approach:
 ** [http://www.flickr.com/photos/aaronpk/10029043743/ screenshot of support email re: virtual machine hardware failure]
 * [https://www.gandi.net/hosting/simple Gandi] provides simple pre configured virtual machines with PHP / NodeJS / MySQL / PgSQL / MongoDB starting 5$ a month. Servers are both in Europe and in the USA.
 * [https://www.digitalocean.com/ Digital Ocean] is similar to Linode, but $5/mo.
+* [https://www.atlantic.net/ Atlantic.net] is similar to DigitalOcean and Linode, but offers a "GO" plan for $0.99 a month.
 * [http://pair.com/ Pair] (see above)
 * [https://cloud.google.com/products/compute-engine/ Google Compute Engine]
 * [http://aws.amazon.com/ Amazon AWS]
