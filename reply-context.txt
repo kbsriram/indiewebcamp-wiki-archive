@@ -141,7 +141,7 @@ In order of deployment:
 ** [https://snarfed.org/2014-06-05_twitter-therealfitz-this-analysis-of-restaurants Twitter example]
 ** [https://snarfed.org/2014-05-28_alexis-shoemate-for-you-and-gina Facebook example]
 
-* '''[[User:Ben.thatmustbe.me|Ben Roberts]]''' displaying recursive reply-contexts in [OpenBlog] since 2014-09-12
+* '''[[User:Ben.thatmustbe.me|Ben Roberts]]''' displaying recursive reply-contexts in [Postly] since 2014-09-12
 ** [http://ben.thatmustbe.me/note/2014/9/12/1/_ example]
 
 == of silo posts ==

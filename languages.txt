@@ -1,15 +1,3 @@
 http://indiewebcamp.com/languages
 
-{{stub}}
-
-'''<dfn>languages</dfn>''' may refer to human (AKA natural) languages for computer (often programming) languages.
-
-== Programming languages ==
-* [[JavaScript]]
-* [[PHP]]
-* [[Python]]
-* [[Ruby]]
-
-== Human languages ==
-See:
-* [[other-languages]]
+#REDIRECT [[language]]

@@ -2,7 +2,7 @@ http://indiewebcamp.com/Falcon
 
 <span style="float:right">https://pbs.twimg.com/profile_images/651194638/falcon_200x200.png</span>
 
-'''<dfn>[http://tantek.com/w/Falcon Falcon]</dfn>''' is a personal publishing (tweeting, blogging, realtime syndicating) web application.  There is an instance of Falcon running at [http://tantek.com tantek.com] and serving/syndicating blog and tweet content.
+<span class="p-summary">'''<dfn>[http://tantek.com/w/Falcon Falcon]</dfn>''' is a personal publishing (tweeting, blogging, realtime syndicating) web application. There is an instance of Falcon running at [http://tantek.com/ tantek.com] and serving/syndicating [[notes]], [[articles]], and occasionally other types of [[posts]].</span>
 
 Attendees that are using it on their own site:
 * [[User:Tantek|Tantek Çelik]] ([http://tantek.com tantek.com], author (Falcon), actively developing and sharing portions as open source in http://cassisproject.com)
@@ -126,6 +126,15 @@ Once confirmed that this works:
 # edit the [[Falcon#POSSE_Details]] description above to note POSSEing to FB via Bridgy (instead of via Twitter)
 # edit the [[POSSE]] IndieWeb Examples to note POSSEing to FB via Bridgy (instead of via Twitter)
 # edit [[Facebook#POSSE_out_to]] to move tantek.com from "from Twitter " to "Bridgy" subsection
+
+=== indie-action web component to webaction URL ===
+I'd like to add proper web component support to my existing web actions so that any registered web+action: URL handler is automatically activated, e.g. for:
+* Seamless "Reply" user interaction, from my posts, to anyone whose website is setup to handle web+action: URLs.
+
+I believe I can do this by following the example of Pelle, as documented in:
+* [[indie-config#Pelle_Wessman]]
+
+And then should be able to test it with {{aaronpk}} or {{kylewm}}'s implementation of web+action: URL handling, or rather than them test it by going to one of my posts and clicking "Reply" which should activate their own Reply UI.
 
 === webaction buttons in streams ===
 In short two things:

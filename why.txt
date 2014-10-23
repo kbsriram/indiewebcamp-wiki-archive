@@ -97,4 +97,7 @@ Join us and together we can grow the IndieWeb.
 * [[Getting Started]]
 * [[FAQ]]  
 * [[Why web sign-in]]
-* Return to the [[Main Page]].
+* [http://fictivekin.com/purpose/ Fictive Kin's "Purpose"] - about building things on and for the web.
+
+----
+Return to the [[Main Page]].

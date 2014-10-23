@@ -19,7 +19,7 @@ See [[events]] for dates/locations/URLs of upcoming meetings!
 ** Organizer(s): [[User:Tantek.com|Tantek]], [[User:Snarfed.org|Ryan Barrett]], [[User:Werd.io|Ben Werdmüller]]
 ** First meeting [http://tantek.com/2013/322/b1/homebrew-computer-club-reunion-inspiration 2013-11-20]
 * Portland, OR
-** Organizer(s): [[User:Aaronparecki.Com|Aaron Parecki]], Dietrich, [[User:Crystalbeasley.com|Crystal]]
+** Organizer(s): [[User:Aaronparecki.Com|Aaron Parecki]], Dietrich, [[User:Crystalbeasley.com|Crystal]], {{ bret }}
 * Chicago, IL
 ** Organizer(s): [[User:Gregorlove.com|gRegor Morrill]], [[User:kartikprabhu.com|Kartik Prabhu]]
 ** First meeting [[events/2014-04-09-homebrew-website-club|2014-04-09]]
@@ -28,7 +28,8 @@ See [[events]] for dates/locations/URLs of upcoming meetings!
 ** First meeting [[events/2014-06-18-homebrew-website-club|2014-06-18]]
 
 === Up-and-coming Meetings ===
-... start one in your city!
+
+[[User:markmurfin.com|Mark87]] is interested in meeting up in St. Louis, MO.
 
 === Structure ===
 ==== Quiet Writing Hour ====

@@ -26,6 +26,9 @@ Questions can optionally include a question mark at the end.
 : Subtracts 1 point of [[karma]] from the username and responds with the total karma points for that username.
 : This is typically used on non-username text values, e.g. "silos--". Be nice to each other. :)
 
+; !karma xyz
+: Responds with the current karma points for xyz.
+
 == Ideas ==
 ; what was xyz
 : alias for "what is xyz", e.g. What was Gowalla?

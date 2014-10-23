@@ -15,6 +15,20 @@ Good implementations of block (e.g. [[Flickr]]'s [https://www.flickr.com/help/co
 * remove any of your content from that person's collections (e.g. favorites collection)
 * remove any old comments from them on anything of yours
 
+== Brainstorming ==
+Building blocks in progress towards enabling indieweb block features:
+* http://microformats.org/wiki/block-list
+** http://microformats.org/wiki/block-list-brainstorming
+
+Modest minimal proposal:
+* '''use-cases:'''
+** block a specific abusive/noisy [[comment]] (like a delete)
+** block a specific abusive/noisy user
+* '''format:''' a set of URLs
+* '''behavior:''' block any URLs that are prefix-matched from that set. E.g. if "abuser.example.com" is in the set, then "abuser.example.com/?post=123" would be blocked. Use-cases thus:
+** block a specific comment by canonical [[permalink]]
+** block a specific user by their [[homepage]] or silo profile URL.
+
 == Silo Examples ==
 === Facebook ===
 [[Facebook]] has a block feature. From their inline help on facebook.com (partially documented in [https://www.facebook.com/help/168009843260943 How Do I Block Someone]):
@@ -56,3 +70,4 @@ Twitter also has a support document covering [https://support.twitter.com/articl
 == See Also ==
 * [[mute]]
 * [[follow]]
+* [[shun]]

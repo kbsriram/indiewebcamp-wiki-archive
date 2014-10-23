@@ -25,13 +25,24 @@ See also: [[Twitter#POSSE_entire_note_to_twitter|POSSE entire note to Twitter]]
 === Original post discovery ===
 Both permashortlinks and permashortcitations themselves enable [[original-post-discovery]], for others to easily automatically find your original posts on your site purely from your syndicated tweet copies. Such automatic discovery in turn enables more indieweb-friendly reply-to behavior, whereby an indieweb user can write a post "[[in-reply-to]]" a tweet for example, and have their blogging system automatically post a [[rel-in-reply-to]] link to the original post instead (while still threading the POSSE'd copies together on Twitter).
 
-=== Email IM SMS print ===
-Short URLs also enable, and/or better encourage additional URL sharing scenarios such as:
-* email (some systems wrap at 70 characters)
-* IM
-* SMS
-* print
+=== Entry length limitations ===
+Many systems either place absolute length limits on the text that can be entered into a field such a comment box, or have practical limits, that when exceeded lead to fragility, both of which provide incentive for shorter URLs, to allow more space for readable text.
 
+Absolute length limitations:
+* 200 characters: '''[[Foursquare]] / Swarm''' [[checkin]] "shouts" or "comments"
+* 160 characters: '''<span id="Email_IM_SMS_print">[[SMS]]</span>'''
+* ...
+(Previously: '''[[Twitter]]''' has a 140 character length limit, but URLs posted to Twitter are t.co'd and thus count for exactly 22(23) characters for http(s) URLs no matter what the actual number of characters in the URL)
+
+Practical length limitations:
+* 70 characters: '''email''' - some systems wrap at 70 characters, thereby forceably truncating what of a link is auto-linked in a client, thus hyperlinking to a URL other than what the author wrote.
+
+=== Easier to use ===
+Short URLs also enable, and/or better encourage additional URL sharing scenarios where you are unable to either click the URL, or even copy and paste the URL, and instead have to type it in by hand:
+* '''print''' - see http://tantek.com/w/ShortURLPrintExample
+* '''[[Instagram]]''' - URLs in comments are *unlinked*, and in the "Native" iOS app, unselectable too! Thus if you see a URL in an Instagram comment, you have to explicitly type it into a browser (somewhere).
+
+=== Additional Why Short URLs ===
 For more on this, see: [http://tantek.com/w/Whistle#whyshortURLs why short URLs and why do you need your own].
 
 == IndieWeb Examples ==

@@ -1,32 +1,3 @@
 http://indiewebcamp.com/dns
 
-{{stub}}
-
-'''<dfn><abbr title="domain name server">DNS</abbr></dfn>''' is an abbreviation for Domain Name Server and often used to refer to the configuring thereof.
-
-== DNS Record Types ==
-
-* '''A''' - points a DNS entry to an IP address (e.g. www.example.com points to 1.1.1.1)
-* '''CNAME''' - points a DNS entry to another name (e.g. www.example.com is an alias for example.com)
-* '''MX''' - tells other servers where to send email to for the domain (e.g. mail for example.com is handled by mail.example.com)
-* '''TXT''' - used to store arbitrary information in DNS, most often used for things like [http://en.wikipedia.org/wiki/Sender_Policy_Framework SPF records] to help fight email spam
-
-
-== FAQ ==
-Frequently asked questions and troubleshooting for DNS problems.
-
-* Challenges while setting up my own domain(s):
-- Confusion between "registrar" and "nameserver"
-- Did not realize at first that my VPS had a "console" where options would be set
-- Next challenge: I have multiple domains and one VPS, and I'll next want to learn how to serve pages to all of those domains. "Hosts" and "Ports" and "Servers", oh my~. -mathpunk
-
-* harvest FAQ from [https://indiewebcamp.com/irc/2013-11-20#t1384970607 relevant chat logs]
-* 'My nameservers are not working and I'm not sure why': I used [http://www.intodns.com Into DNS] to work out my issues with my manually created nameservers (it can be used for hosted nameservers too) ~ [[User:ShaneHudson.net|Shane Hudson]]
-
-== See Also ==
-* [[Getting Started]]
-* [[domain name registrar]]
-* [[personal-domains]]
-* [[short-domains]]
-* [[hosting]]
-* [[IndieMark]]
+#REDIRECT [[DNS]]

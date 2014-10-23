@@ -42,7 +42,7 @@ There are many options in this area...
 Some individuals may prefer to disable local commenting in favor of only allowing commenting through webmentions. If local commenting is enabled, there should be some form of protection installed.
 
 * [http://wordpress.org/plugins/akismet/ Akismet] is a spam protection service by Automattic, the company that runs Wordpress.com and is thus a major contributor/sponsor of the Wordpress open source project. It is free for personal use.
-* Combined together, the [http://wordpress.org/plugins/webmention webmention] and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins let you accept comments as [[webmention]]s from other web sites. They also let you [[backfeed]] comments, likes, etc. from social networks by using [[Bridgy]] (see further notes below).<br />'''Warning''': Don't use the [http://wordpress.org/plugins/indieweb/ indieweb plugin]! (At least not right now.) It's an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.
+* Combined together, the [http://wordpress.org/plugins/webmention webmention] and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins let you accept comments as [[webmention]]s from other web sites. They also let you [[backfeed]] comments, likes, etc. from social networks by using [[Bridgy]] (see further notes below).<br />'''Warning''': Don't use the pre 2.0 version [http://wordpress.org/plugins/indieweb/ indieweb plugin]! That is an old, outdated bundle of the webmention and semantic-linkbacks plugins together, nothing more.
 
 == Adding Indieweb Support/Elements to a Wordpress Site ==
 Here are steps to add IndieWeb support to a WordPress site.
@@ -87,7 +87,7 @@ Which brings us to...
 
 === [[webmention]] ===
 [[File:semantic-linkbacks.png|100px|right]]
-[[WebMention]]s are also part of the core IndieWeb [[building-blocks]]. They let you send and receive replies, likes, etc. directly from your site.
+[[Webmention]]s are also part of the core IndieWeb [[building-blocks]]. They let you send and receive replies, likes, etc. directly from your site.
 
 Try combining the [http://wordpress.org/plugins/webmention webmention] ([http://andysylvester.com/2014/01/27/working-with-webmention-video/ video available]) and [http://wordpress.org/plugins/semantic-linkbacks semantic-linkbacks] plugins, which support [[comments]] (including the [[reply-context]]), [[likes]], [[reposts]], [[favorites]], [[RSVPs]] and classic [[mentions]].
 
@@ -96,7 +96,7 @@ Try combining the [http://wordpress.org/plugins/webmention webmention] ([http://
 For the webmention plugin to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
 and "Allow people to post comments on new articles" checkboxes.
 
-Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive WebMentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog.
+Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive webmentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog.
 
 === More building blocks ===
 If you've made it this far, congrats! You're a fully functioning member of the IndieWeb! Here are a few more plugins you might want to try. Many require FTP or other more technical setup.
@@ -106,7 +106,7 @@ If you've made it this far, congrats! You're a fully functioning member of the I
 * [https://gist.github.com/pfefferle/1724438 blavatars (icons)]
 * [http://wordpress.org/plugins/indieauth/ IndieAuth]
 * [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress IndieWeb reply, repost, like, and RSVP bookmarklets]
-* [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] - Adds a taxonomy to the post type in Wordpress allow for posts to be classified as a reply/life/repost etc. This allows archives to be generated for these kinds of posts as well as support to add the appropriate markup
+* [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] - Adds a taxonomy to the post type in Wordpress allow for posts to be classified as a reply/life/repost etc. This allows archives to be generated for these kinds of posts as well as support to add the appropriate markup. Note: People using versions prior to 0.1 will have to enable the option to migrate to new data structure.
 
 === Optional plugins ===
 * [http://wordpress.org/plugins/browserid/ BrowserID/Persona]
@@ -261,10 +261,20 @@ Folks that were on WordPress that have moved to Tumblr
 * Micki Krimmel
 * ...
 
+== POSSE to WordPress ==
+With WordPress's API it's possible to automatically <span id="POSSE">[[POSSE]]</span> posts to it, and there's at least one example of an indieweb community member doing so to the hosted service: [[WordPress#POSSE_to_hosted|POSSE to hosted]]
+
+=== Tantek reply POSSE ===
+{{t}} has started experimenting with manually POSSEing reply posts to WordPress blogs to their comment sections. E.g.:
+* original reply: http://tantek.com/2014/255/t2/well-deserved-talented-known-minor-correction
+* manual POSSE comment: https://gigaom.com/2014/09/11/indieweb-advocates-launch-known-so-bloggers-can-be-social-and-still-control-their-content/#comment-1483187
+** related: [[Bridgy]] Publish feature request to [https://github.com/snarfed/bridgy/issues/271 Publish to Wordpress comments] which could help automate this!
+* semi-automatic POSSE tweet @-reply: https://twitter.com/t/status/510633038062309376
+** only *semi* automatic because I had to dig up the in-reply-to tweet permalink manually, but then the [[POSSE]] copy of my reply and tweet threading was handled automatically by [[Falcon]].
+
 == WordPress.com hosting service ==
 WordPress.com is a blog hosting service with impressive importing and export features. See for details:
 * http://techcrunch.com/2013/03/26/wordpress-com-has-imported-15m-posts-in-the-last-30-days-remains-a-top-safe-haven-for-nomad-bloggers/
-
 
 === Hosted themes ===
 WordPress.com provides themes to change the HTML/CSS/JS and general appearance of a user's site. While users can pay for a feature to write custom CSS, they can't change their theme markup. Which means amongst other things, a user cannot specify some markup in a post to show on a permanlink page and not in the post when it's a part of a feed. For example,
@@ -274,7 +284,7 @@ WordPress.com provides themes to change the HTML/CSS/JS and general appearance o
 
 If you could detect "in the feed vs permalink page", you could use <code>rel="canonical"</code> on the attribution link '''from''' the syndicated copy on wordpress.com back '''to''' the original on iamshane.com. But because rel-canonical is page scoped, you shouldn't use it on a link in a post when that post is a part of the feed. To work around this, you can use <code>class="u-url u-uid"</code> on the attribution link.
 
-=== POSSE ===
+=== POSSE to hosted ===
 It is possible to manually [[POSSE]] [[articles]] to Wordpress.com.
 ==== IndieWeb POSSE Examples ====
 ===== Shane Becker =====

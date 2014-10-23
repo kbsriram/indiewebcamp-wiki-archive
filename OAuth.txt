@@ -2,8 +2,12 @@ http://indiewebcamp.com/OAuth
 
 {{stub}}
 
-'''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.
+<span class="p-summary">'''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.</span>
 
+== UI ideas ==
+* 2010-08-17 Ben Ward: [https://benward.me/blog/tumblr-968515729 Would this really be so bad?] (AKA Checkboxes, bitches) [https://benward.me/blog/tumblr-968515729 <img style="max-width:100%" alt="Auth permissions dialog for a fictitious 'Twifficiency' Twitter app, along with checkboxes to enable/disable it to read tweets, update your profile, and/or post on your behalf" src="https://benward.me/res/tumblr/media/968515729/0.jpg"/>]
+
+__TOC__
 == Troubleshooting ==
 === Twitter API ===
 As of 2013-06-11 Twitter has switched to requiring v1.1 (or later?) of their API. v1.0 has been turned off. v1.1 is pickier about the way it handles OAuth. You may run into the following problems.

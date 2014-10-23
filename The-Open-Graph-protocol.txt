@@ -23,29 +23,33 @@ OGP uses:
 
 (actual meta name from web legacy and OGP property from their spec)
 
-Text from the facebook validator if you use <code>meta name="description"</code>:
-<blockquote>Extraneous Property: Objects of this type do not allow properties named 'description'.<p>
-Mismatched Metadata: The parser's result for this metadata did not match the input metadata. Likely, this was caused by the data being ordered in an unexpected way, multiple values being given for a property only expecting a single value, or property values for a given property being mismatched. Here are the input properties that were not seen in the parsed result: 'og:description'</blockquote>
+Text from the Open Graph Object Debugger if you use <code>meta name="description"</code>:
+
+<blockquote><p>Extraneous Property: Objects of this type do not allow properties named 'description'.</p>
+<p>Mismatched Metadata: The parser's result for this metadata did not match the input metadata. Likely, this was caused by the data being ordered in an unexpected way, multiple values being given for a property only expecting a single value, or property values for a given property being mismatched. Here are the input properties that were not seen in the parsed result: 'og:description' </p></blockquote>
 
 === Depends on Invisible Metadata ===
-Meta tags, no matter how well intentioned, are another form of invisible meta data, which are subject to all the same problems they've always been since meta keywords ([[DRY]] violation, rotting, spamming, etc.).
+Meta tags, no matter how well-intentioned, are another form of invisible metadata. They are subject to the same problems as meta keywords. ([[DRY]] violation, rotting, spamming, etc.).
 
-The RDFapologism of using a "property" attribute instead of a "name" attribute doesn't change this, nor does the "og:" syntactic vinegar prefix.
+The RDF-apologism of using a "property" attribute instead of a "name" attribute doesn't change this, nor does the "og:" syntactic vinegar prefix.
 
 === Disallows relative URLs ===
 Apparently OGP doesn't allow relative URLs[http://indiewebcamp.com/irc/2014-08-19/line/1408480229851].
-if you put relative paths into og meta tags eg
+If you put relative paths into og meta tags:
 
-<nowiki><meta property="og:image" content="images/logo.png" /></nowiki>
+<code><nowiki><meta property="og:image" content="images/logo.png" /></nowiki></code>
 
-it fails in the [https://developers.facebook.com/tools/debug/og/object/ Facebook validator]
+The Open Graph Object Debugger will say it is not an image.
 
 === Does not support SVG images ===
-if you include 
+If you include :
 
-<nowiki><meta property="og:image" content="http://mysite.com/logo.svg" /></nowiki>
+<code><nowiki><meta property="og:image" content="http://mysite.com/logo.svg" /></nowiki></code>
 
-The Facebook validator will say it is not an image.
+The Open Graph Object Debugger will say it is not an image.
 
 == Alternative ==
 Use [[microformats]] to markup the <em>visible</em> information on the page instead.
+
+== See Also ==
+* [https://developers.facebook.com/tools/debug/og/object/ Facebook's Open Graph Object Debugger]

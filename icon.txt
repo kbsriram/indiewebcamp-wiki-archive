@@ -33,6 +33,8 @@ To enable one-step adding of your icon to the home screen in Chrome M31 Beta (or
 
 The <code>&lt;meta name="mobile-web-app-capable"&gt;</code> tag is a Google proprietary meta tag ([http://wiki.whatwg.org/index.php?title=MetaExtensions&diff=9413&oldid=9407 proposed as an officially registered meta name] as of 2013-12-10) and is further described in [https://developers.google.com/chrome/mobile/docs/installtohomescreen their documentation].
 
+This meta tag has the added side effect of making the browser bar disappear and the window open full screen.  The window also runs as its own App in the recent apps menu instead of as a tab in chrome.
+
 == IndieWeb Examples ==
 In rough order of implementation of an icon showing/representing themselves on their home page on at least [[iOS]] and [[Android]]:
 

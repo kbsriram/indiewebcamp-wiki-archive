@@ -1,8 +1,20 @@
 http://indiewebcamp.com/WebFinger
 
-[http://webfinger.net/ WebFinger] is a [[discovery]] protocol for the web. It aims to bring functionality found in the unix finger tool to the web, using email address-like identifiers or fully qualified URLs to represent people.
+<dfn>'''[http://webfinger.net/ WebFinger]'''</dfn> is a [[discovery]] protocol for the web that uses email address-like identifiers to get info about users; it has been largely superseded on the indieweb by the use of personal web sites and [[representative h-card]].
+
+The name "WebFinger" is based on the unix finger tool.
+
+== IndieWeb Examples ==
+
+* [[User:Willnorris.com|Will Norris]] supports WebFinger on https://willnorris.com
+** e.g., https://willnorris.com/.well-known/webfinger?resource=acct:will@willnorris.com
+** He has written about how to serve WebFinger static files on nginx: https://willnorris.com/2014/07/webfinger-with-static-files-nginx
+* add yourself...
+
+__TOC__
 
 == Problems ==
+
 
 === Use of email address-like IDs ===
 
@@ -41,7 +53,7 @@ Other indiewebcamp related projects making use of webfinger include:
 * identengine.com’s profile discovery API accepts webfinger IDs as input
 
 == IRC Transcript ==
-[http://indiewebcamp.com/irc/2011-06-28#t1309282668 2011-06-28 #indiewebcamp]:
+[http://indiewebcamp.com/irc/2011-06-28#t1309282668000 2011-06-28 #indiewebcamp]:
 
 [10:38am] tantek: The IndieWeb does not care about WebFinger - because it doesn't need it.
 
@@ -97,7 +109,6 @@ for *ourselves*
 [10:44am] brennannovak: precisely
 
 [10:44am] tantek: when you get around to actually building a site that *YOU* will use for YOURSELF
-
 
 == WebFist ==
 

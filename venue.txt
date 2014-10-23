@@ -1,3 +1,76 @@
 http://indiewebcamp.com/venue
 
-#REDIRECT [[venues]]
+{{stub}}
+
+A '''<dfn>venue</dfn>''' is a named [[location]] or address/[[geo]] that is typically used for [[checkins]].
+
+<dfn>indieweb venues</dfn> are the practice of self-hosting checkin venues (<dfn>self hosted venues</dfn>) on your own site with your own URLs.
+
+== Indieweb Examples ==
+=== [[User:WaterPigs.co.uk|Barnaby Walters]] ===
+Barnaby Walters has been publishing venue data on [http://waterpigs.co.uk waterpigs.co.uk] since 2014-08-19, consisting of:
+* an index of venues, listed and plotted on a map on [http://waterpigs.co.uk/places/ waterpigs.co.uk/places/]
+* each venue has a URL with h-card containing name, address details, tags, map, review and URLs e.g. [http://waterpigs.co.uk/places/basilica-di-santa-maria-maggiore/ waterpigs.co.uk/places/basilica-di-santa-maria-maggiore/]
+* A publicly-visible (soon-to-be-[[micropub]]-app) [http://waterpigs.co.uk/places/new/ venue creation UI] including a map UI with geolocation and venue search powered by [[Nominatim]]
+
+== How To ==
+=== How To Publish ===
+Give each venue a URL containing a basic [[h-card]].
+
+==== Extensions ====
+Possible extensions (encountered by indieweb community members in real world situations)
+* hours open (related format effort: http://microformats.org/wiki/opening-hours )
+** +1 [[User:Tantek.com|Tantek]]
+* subsets of hours open, i.e. more generally,  hours *foo*
+** happy hours (discounted cover, drinks, and/or food)
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that food is served
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that kitchen is preparing food (as opposed to readymade / microwaveable food)
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that full food menu is available
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that evening-only food is available
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that "breakfast" dishes are served
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that espressos are served (some cafes start shutting down their espresso machines early, or bars too)
+*** +1 [[User:Tantek.com|Tantek]]
+** hours that a customers-only bathroom is open (e.g. at some gas stations [https://foursquare.com/item/50df576ae4b0073ea8eaa235])
+** current silo workaround (and future possible syndication)
+*** Foursquare tips attached to those venues. 
+*** Indieweb transition strategy: import said Foursquare tips semi-automatically into indieweb venue URLs when said URLs exist and have rel-alternate URLs to equivalent Foursquare venues.
+
+=== Cross-site Venue Checkin UX Flow ===
+# User A publishes a checkin on their indieweb site, with the venue marked up as an h-card (and possibly a link to a venue URI on the same site)
+# User B is in the same area and sees the checkin. They decide to go to the same place.
+# User B has a browser extension which parses checkin pages for h-card markup, and displays a “Check in to this venue on your site” button. They click it.
+# User B is redirected to a form on their site for the creation of a new venue, auto-filled with information about the venue provided by the h-card
+# User B checks in to their copy of the venue on their own site
+
+Potential enhancements:
+
+* Perform venue creation and checkin in the same step
+** Example Implementation: automatically add machine tags to the checkin note with venue data, then have an event listener which picks up that the tagged venue doesn’t yet have a URI, and creates it
+* Link between venue pages on separate sites
+** Provides a decentralised yet consistent way to refer to a venue
+** Could allow an update to a venue on one site to trigger updates on other sites
+
+=== Opinions ===
+<blockquote>I'd rather post a check-in on my own site, and have it use a venue URL that is *also* on my own site. Then at that indieweb venue URL, it can link to equivalents on Foursquare, OSM, FB, and whatever other centralized venue databases are created in the future. - [[User:Tantek.com|Tantek]] [http://indiewebcamp.com/irc/2012-12-29#t1356810217] </blockquote>
+
+...
+
+== Centralized venues ==
+Examples:
+* [[Foursquare]] venues
+* Open Street Maps venues
+
+=== Criticisms ===
+==== Data loss ====
+Experience with Foursquare's "community generated/patrolled venues database" is that a few griefers can pollute/damage the data quite badly, with deletions, overmergings etc. Sad to say, same thing happens with Wikipedia (excessive deletions, overmergings). Thus little hope that a "community hosted venues database" wouldn't have all the same problems, if not worse.
+
+== See Also ==
+* [[2012/Open_Checkins#Venue|2012 IndieWebCamp Open Checkins Venue discussion]]
+* [[checkin]]
+* [[location]]

@@ -10,5 +10,9 @@ Use this page to discuss writing style, disambiguation of jargon and phrases and
 * "indieweb" as an adjective.
 [http://indiewebcamp.com/irc/2013-09-01/line/1378064957 from IRC]
 
+== Webmention ==
+* "[[Webmention]]" the protocol is a proper noun and should be capitalized.
+* An individual "webmention" that someone receives is not a proper noun.
+
 == The Web vs the web ==
 ...

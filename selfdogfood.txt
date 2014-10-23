@@ -1,6 +1,6 @@
 http://indiewebcamp.com/selfdogfood
 
-<span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">😋</span>
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -64px">😋</span>
 {{stub}}
 
 <dfn>selfdogfood</dfn> is a specific form of [[dogfooding]], that is, using <em>your own creations</em> on your own <em>personal site</em> that you <em>depend</em> on, day to day.

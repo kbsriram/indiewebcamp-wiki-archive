@@ -1,6 +1,14 @@
 http://indiewebcamp.com/reply-context-examples
 
-Real-world examples of [[reply-contexts]], how they are presented, visual design, UI, etc.
+__TOC__
+'''<dfn>reply context examples</dfn>''' are real-world examples of [[reply-contexts]] on both indieweb sites and [[silos]], how they are presented, their visual design, UI, etc.
+
+== Add Examples ==
+Please add examples!
+
+If you support [[reply-context]]s on your site, please take a screenshot of a particularly good example (the nicer looking the better, though any example is good), upload it to the wiki, and add a subsection for yourself in the "IndieWeb Examples" section below.
+
+If you see a nice reply-context design on a silo, take a screenshot of it, upload it, and document it in the Silo Examples section. It's ok to document multiple examples per silo as sometimes they change their UI over time and it's helpful to see what design iterations they've gone through.
 
 == Indieweb Examples ==
 
@@ -76,6 +84,12 @@ As of 2014-06-25, reply context shows "In reply to a [post on domain]," with "po
 Example from http://gregorlove.com/notes/2014/06/26/1/
 
 [[File:gregorlove-reply-context-2014-07-31.png]]
+
+=== Kyle Mahan ===
+
+{{kylewm}} uses [[Red Wind]] to show reply contexts on https://kylewm.com
+
+[[File:kylewm-reply-context-2014-10-16.png|border|500px]]
 
 == Brainstorming ==
 === reply to a photo ===

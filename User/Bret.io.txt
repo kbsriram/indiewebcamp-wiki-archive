@@ -6,18 +6,26 @@ A directory of my indieweb interests, projects, and events.  I am interested in 
 
 == Current IndieWeb Projects ==
 * [http://bret.io bret.io] - my personal website.  Hosted on [[gh-pages]] and rendered in [[jekyll]] safe mode. [https://github.com/bcomnes/bcomnes.github.io source]
+** [[jekyll]] - Contributing and extending Jekyll's indieweb capabilities. 
+** Graceful note enhancement using metadata presence 
 * [[gitpub]] - A publishing endpoint for static websites.  Still experimental.  Supports micropub clients. [https://github.com/bcomnes/gitpub source]
-* Playing with [[camlistore]] and [[git-annex]].
-* [w3c #social] - participating in the w3c social WG/IG as an invited expert (applied).
+** Working on Features: 
+** Auto POSSE to twitter
+** Configuration UI
+* Experimenting with [[camlistore]], [[git-annex]], [[bittorrent-sync]], and [[telehash]].
+* [[socialwg]] - participating in the w3c social WG/IG as an invited expert (applied).
 
 == Events ==
+* (2014) Indiewebcamp Cambridge - Remote
 * (2014) Indiewebcamp - PDX
 * (2014 - Present) Homebrew Website Club PDX
-* (2013) [[OSFW3C]] - SF
+* (2013) Indiewebcamp Hollywood - Remote
+* (2013) [[osfw3c]] - SF
 * (2013) Indiewebcamp - PDX
 
-== Past experiments ==
-* [https://github.com/bcomnes/webmention.js webmention.js] - Displays data from [[webmention.io]] on a static site with javascript using jsonp.  Needs some work.  See [https://webmention.herokuapp.com/ webmention.herokuapp.com] for a more functional and documented project currently.  I'll return to this someday.
+== Stalled & Completed Projects ==
+* [http://iwc-log-feed.herokuapp.com iwc-irc-logs-atom-feed] - A simple project that turns the IWC IRC logs into a daily atom feed item so you can cache the logs for offline consumption on a mobile reader.  Still needs a system to update consistently and to match the recent IRC display improvements. [https://github.com/bcomnes/iwc-log-feed code]
+* [https://github.com/bcomnes/webmention.js webmention.js] - Displays data from [[webmention.io]] on a static site with javascript using jsonp.  Needs some work.  See [https://webmention.herokuapp.com/ webmention.herokuapp.com] for a more functional and documented project currently.  I'll return to this someday, but a broken version is running on my personal site currently.
 
 == About me ==
 * On freendode as "bret"

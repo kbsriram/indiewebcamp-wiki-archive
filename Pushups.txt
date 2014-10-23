@@ -9,7 +9,7 @@ http://indiewebcamp.com/pushups
 [[User:waterpigs.co.uk|Barnaby Walters]] uses his open source HTML+CSS+JS [http://waterpigs.co.uk/pushups/ Pushups web app] (download to clone) to track (nose touch activated) and post (via [[Taproot]]'s [[micropub]] support) pushups as a [[note]] variant to waterpigs.co.uk since [http://waterpigs.co.uk/notes/4SYJit/ at least 2013-10-14]. Example:
 * http://waterpigs.co.uk/notes/4SYJit/
 === Aaron Parecki ===
-{{aaronp}} uses his open source [http://marvelouslabs.com/pushup-counter pushup-counter iOS app] to track (nose touch activated) and post (via [[p3k]]'s [[micropub]] support) pushups to aaronparecki.com (through [[p3k#Pushups]]) since [http://aaronparecki.com/metrics/2013/11/28/143242/ at least 2013-11-28](or earlier?). Example:
+{{aaronpk}} uses his open source [https://github.com/aaronpk/PushupCounter-iOS pushup-counter iOS app] to track (nose touch activated) and post (via [[p3k]]'s [[micropub]] support) pushups to aaronparecki.com (through [[p3k#Pushups]]) since [http://aaronparecki.com/metrics/2013/11/28/143242/ at least 2013-11-28](or earlier?). Example:
 * http://aaronparecki.com/metrics/2013/11/28/143242/
 
 == Silo Examples ==

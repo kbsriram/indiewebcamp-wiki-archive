@@ -1,0 +1,7 @@
+http://indiewebcamp.com/gregors_karma_alias
+
+{{stub}}
+
+<span class="p-summary"> [[Loqi]] does not like the backtick in {{gRegor}}'s screen name <code>gRegor`</code>, so you can give karma to username <code>gregornobacktick</code> in the meantime . . . </span>
+
+Until {{aaronpk}} puts the Loqi regex in a repo so we can try to fix the backtick recognition, at least. ;]

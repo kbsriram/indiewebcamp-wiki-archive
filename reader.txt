@@ -59,7 +59,7 @@ See: http://caseorganic.com/articles/2014/02/13/1/indiereader-subscribe-to-peopl
 
 === Andy Sylvester ===
 
-[[User:Andysylvester.com|Andy Sylvester]] also uses [https://github.com/aaronpk/selfoss '''selfoss'''] with the Microformats2 plugin on caseorganic.com since [http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ 2014-03-01].
+[[User:Andysylvester.com|Andy Sylvester]] also uses [https://github.com/aaronpk/selfoss '''selfoss'''] with the Microformats2 plugin on http://andysylvester.com/selfoss/ since [http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ 2014-03-01].
 
 See http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/ for instructions on how to set up the Selfoss reader.
 
@@ -75,6 +75,14 @@ Features:
 * supports mf2 h-feeds as well as RSS/Atom feeds
 
 [[File:indiereader-IWC-2014-07-22.png|none|frame|300px]]
+
+=== Emma Kuo ===
+
+[[User:notenoughneon.com|Emma Kuo]] uses an experimental reader in [[neonblog]] since [http://notenoughneon.com/2014/7/26/1 2014-7-26].
+
+* reply/like/repost buttons link to posting UI
+* only supports mf2
+* requires manual polling
 
 == Brainstorming ==
 === Integrated Activity Reading ===

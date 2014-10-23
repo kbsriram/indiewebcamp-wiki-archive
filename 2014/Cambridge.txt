@@ -1,5 +1,6 @@
 http://indiewebcamp.com/2014/Cambridge
 
+<div class="h-event vevent">
 = <span class="p-name summary">IndieWebCampCambridge 2014</span> =
 <a href="http://www.csail.mit.edu/news/stata" style="float:right; margin-left:10px; width:300px"><img src="https://indiewebcamp.com/sponsor-logos/full/mit-logo.png" alt="MIT" style="max-width:100%"/><br/><img src="https://calendar.csail.mit.edu/assets/setups/32-D463/seminar.jpg" alt="Stata Center room D463 with seating" style="max-width:100%" /></a>
 
@@ -14,16 +15,32 @@ At IndieWebCamp you’ll learn about ways to empower yourself to own your data, 
 </div>
 
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
-* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
+* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span><strong>("Star Conference Room")</strong>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
 * '''Cost:''' Free
 
 == RSVP ==
 * '''<span id="Guest_List">[[2014/Cambridge/Guest_List|Guest List]]</span>''' - click and add yourself (and optionally an apprentice)
-* '''<a class="u-url url" href="http://lanyrd.com/...">Lanyrd URL TODO</a>'''
-* '''<a class="u-url url" href="http://plancast.com/p/lbij">Plancast URL</a>'''
+* '''<a class="u-url url" href="http://lanyrd.com/2014/indiewebcampcambridge/">Lanyrd URL</a>'''
+<!-- * '''<a class="u-url url" href="http://plancast.com/p/lbij">Plancast URL</a>''' -->
+
+== Blog Posts ==
+* ...
+
+An attempt at a tag aggregation:
+* http://seen.co/event/http-indiewebcamp.com-2014-cambridge-cambridge-ma-2014-5762
+
+== Photos ==
+Group Photos!
+[[File:iwc-cambridge-2014.jpg|720px]]
+* Animated version: http://indiewebcamp.com/File:iwc-cambridge-jazzhands.gif
+* Swaying: http://indiewebcamp.com/File:iwc-cambridge-sway.gif
+
+Day 1 Brainstorming / Discussion Sessions Schedule: <br/>
+[https://www.flickr.com/photos/aaronpk/15505486162/sizes/h/ https://farm4.staticflickr.com/3953/15505486162_c13088150f_b.jpg]
 
 == Schedule ==
+{{main|2014/Cambridge/Schedule}}
 {| border="2" cellpadding="10" cellspacing="0" align="center"
 |+
 
@@ -34,45 +51,45 @@ At IndieWebCamp you’ll learn about ways to empower yourself to own your data, 
 ! colspan="2" style="background:#efefef;" | '''Day 2''' Hacking
 
 |-
-
-| <br>'''Day 1''' is about discussing in a BarCamp-like environment. Bring a topic you'd like to discuss or join in on topics as they are added to the board. 
+|
+'''Day 1''' is about discussing in a BarCamp-like environment. Bring a topic you'd like to discuss or join in on topics as they are added to the board. 
 | 
-<br>'''Day 2''' is about implementing what we discussed. Work with others or on your own. We'll have demos at the end of the day to see what everyone worked on! 
+'''Day 2''' is about implementing what we discussed. Work with others or on your own. We'll have demos at the end of the day to see what everyone worked on! 
 |-
 
 | 
-<br>'''09:00''' Organizer setup
+'''09:00''' Organizer setup
 <br>'''09:30''' Doors open - badges
-<br>'''10:00''' Introductions and demos
-<br>'''11:00''' Sessions
-<br>'''13:00''' Lunch
-<br>'''14:00''' Sessions
-<br>'''17:00''' Group photo
-<br>'''17:15''' Last session
-<br>'''18:00''' End of sessions for day 1
+<br>'''10:15''' Introductions and demos
+<br>'''11:00''' Session scheduling
+<br>'''12:00''' Sessions
+<br>'''13:00''' Group photo & Lunch out
+<br>'''14:00''' Sessions on the hour
+<br>'''17:00''' Last session
+<br>'''18:00''' Day 1 closing session, head to dinner
 |
-<br>'''09:00''' Organizer setup
+'''09:00''' Organizer setup
 <br>'''09:30''' Doors open - badges
-<br>'''10:00''' Day 2 kick-off
-<br>'''11:00''' Hack sessions
-<br>'''13:00''' Lunch
+<br>'''10:10''' Day 2 kick-off, session scheduling
+<br>'''10:30''' Hack sessions
+<br>'''12:00''' Catered lunch
 <br>'''14:00''' Hack sessions continue
-<br>'''16:30''' Demos
-<br>'''17:30''' Clean-up
-<br>'''18:00''' Camp closed!
+<br>'''17:00''' Demos
+<br>'''18:30''' Community clean-up
+<br>'''19:00''' Camp closed!
 |}
 
 == Participating ==
-* [[2014/Cambridge_Sessions|Session Proposals]]
-* [[2014/Cambridge_Schedule|Schedule Grid]] - hyperlinked to actual session pages
-* [[2014/Cambridge_demos|Demos]]
+* [[2014/Cambridge/Schedule|Schedule Grid]] - hyperlinked to actual session pages
+* [[2014/Cambridge/Demos|Demos]]
 * [[IRC]]
 * Sessions notes are in the top level Etherpad: https://etherpad.mozilla.org/indiewebcamp-cambridge
 * [[code-of-conduct|Code of Conduct]]
+* [[2014/Cambridge/Live|Live Stream]]
 
 Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions complete)
 * [[2014/Cambridge/Introductions|Introductions]]
-* <!-- [[2014/Cambridge/Demos|Demos]] --> ...
+* [[2014/Cambridge/Demos|Demos]]
 
 == Demos ==
 * ... 
@@ -80,7 +97,7 @@ Individual Session wiki pages - Day 1 (transfer from Etherpads as sessions compl
 __TOC__
 
 == Organizers ==
-* '''Organizers''': [[User:Caseorganic.com|Caseorganic]], [[User:Hawke.org_sandro|Sandro Hawke]], {{t}}, (add yourself!)
+* '''Organizers''': [[User:Caseorganic.com|Caseorganic]], [[User:Hawke.org_sandro|Sandro Hawke]], {{t}}, {{aaronpk}}
 ** Want to help organize? '''Get in touch with us on [[IRC]]!'''
 * Want to help out? 
 ** Contact an organizer or sign-up to [[2014/Cambridge/Guest_List#Volunteers|Volunteer]]!
@@ -92,7 +109,7 @@ __TOC__
 
 * How many rooms will we have for sessions at the venue, # of people, projectors? whiteboards?
 ** Main Room / 60
-** Breakout Room 1 / 20
+** Breakout Room 1 / 40
 ** Breakout Room 2 / 15
 ** Breakout Room 3 / 10
 
@@ -101,7 +118,7 @@ Put suggestions for IndieWebCamp Cambridge 2014 here.
 * ...
 
 == Get Your Flights and Hotel! ==
-====Getting to MIT ====
+===Getting to MIT ===
 '''Subway From Logan Airport'''
 From any terminal at Logan Airport, take the Silver Line bus to South Station. At South Station, change to the Red Line subway to Kendall/MIT (inbound toward Alewife). Under normal conditions the ride will take 
 about one-half hour and the fare is $2.10 ([http://www.mbta.com/fares_and_passes/charlie/ CharlieCard] plastic card, not a paper CharlieTicket) or $2.65 (cash).
@@ -114,9 +131,9 @@ Leaving the airport, follow the signs to the Sumner Tunnel. Enter the tunnel and
 Lodging:
 
 ==Travel and Lodging==
-====[https://www.airbnb.com/s/77-Amherst-Street--Cambridge--MA--United-States?source=bb AirBNB Listings Close to Campus]====
+===[https://www.airbnb.com/s/77-Amherst-Street--Cambridge--MA--United-States?source=bb AirBNB Listings Close to Campus]===
 
-====Hotels near campus==== 
+===Hotels near campus=== 
 Kendall Hotel
 *350 Main Street
 *Cambridge, MA 02142
@@ -148,31 +165,33 @@ Residence Inn at Marriott
 *http://www.marriott.com/property/propertypage/BOSCM
 
 == Volunteers ==
-Put your name here.
+* [http://www.servicesphere.com/ Chris Dancy]
+* [https://s.ly Jesse Vincent]
 
 == Help Out ==
 === Sponsor ===
-* Thursday night before drinks out: (sponsor this!) 
-* Fri breakfast snacks: (sponsor this!) 
-* Fri coffee: (sponsor this!) 
-* Fri lunch: (sponsor this!) 
-* Fri dinner out: (sponsor this!) 
-* Sat breakfast snacks: (sponsor this!) 
-* Sat coffee: (sponsor this!) 
-* Sat lunch: (sponsor this!) 
-* Venue: (sponsor this!) 
+* Venue: '''[[MIT]]'''
+* Saturday breakfast snacks: Reclaim Hosting
+* Saturday coffee: Esri
+* Saturday lunch: Reclaim Hosting
+* Saturday dinner out: Mozilla
+* Sunday breakfast snacks: Reclaim Hosting
+* Sunday coffee: Esri
+* Sunday lunch: Reclaim Hosting
 
 [[how-to-sponsor|How to sponsor IndieWebCamp]]
 
 == Sponsors ==
 Our thanks to these sponsors for supporting the event!
 
-<a href="http://www.esri.com"><img src="https://indiewebcamp.com/sponsor-logos/full/esri-logo-large.gif" width="400"></a>
+<a href="http://www.esri.com"><img src="https://indiewebcamp.com/sponsor-logos/full/esri-logo-large.gif" width="200"></a>
+
+<a href="http://reclaimhosting.com/"><img src="https://indiewebcamp.com/sponsor-logos/full/reclaimhosting-logo.png" width="200"></a>
+
+<a href="http://mozilla.org"><img src="https://indiewebcamp.com/sponsor-logos/full/mozilla-logo.png" width="200"></a>
 
 === To-do ===
-# Get a company to cover lunch each day (see Sponsor section).
-# Divide up roles/responsibilities among organizers/volunteers.
-# Do yours and help everyone else with theirs too.
+* all to-do items done!
 
 == See Also ==
 * [http://cyborgcamp.com/ CyborgCamp MIT 2014]
@@ -181,5 +200,3 @@ Our thanks to these sponsors for supporting the event!
 
 [[Category:2014]]
 [[Category:Events]]
-
-__NOTOC__

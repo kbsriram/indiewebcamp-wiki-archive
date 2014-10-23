@@ -33,6 +33,7 @@ See also: [[projects#Jekyll]]
 * [https://github.com/developmentseed/jekyll-hook jekyll hook] - A self hosted gh-pages like server.
 * [http://prose.io/ Prose.io] - An editor for github repositories.  Itself is hosted on GH-pages and runs almost entirely client side in the browser.  [http://developmentseed.org/blog/building-a-new-prose/ read more]
 * [[gitpub]] an experimental git based micropub client that works with jekyll.
+* ... Please add more as you find them
 
 == IndieWeb Examples ==
 IndieWeb community members using Jekyll on their own primary sites:

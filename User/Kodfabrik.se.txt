@@ -2,7 +2,23 @@ http://indiewebcamp.com/User%3AKodfabrik.se
 
 = Pelle Wessman, @VoxPelli =
 
-Web developer from Malmö, Sweden. Formerly at eg. Flattr.
+Web developer from Malmö, Sweden. Working at social feed reader Bloglovin. Formerly at eg. Flattr.
+
+== Working on ==
+Things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
+
+[https://webmention.herokuapp.com/ A WebMention Endpoint] – a hosted WebMention service for mainly static sites
+* High level goal: '''Enable all sites to easily receive incoming communication'''
+* '''[https://github.com/voxpelli/webpage-webmentions/issues GitHub Issue Queue]'''
+
+[https://github.com/voxpelli/relspider RelSpider] – an identity graph crawler
+* High level goal: '''Enable everyone to easily discover all verified identities of an web profile'''
+** This means implementing many of the Google Social Graph API features, excluding friend relations
+* '''[https://github.com/voxpelli/relspider/issues GitHub Issue Queue]'''
+
+Community:
+* '''[[indie-config]]''' – continue to investigate, implement and discover new ways to develop it
+* '''[[webactions]]''' – investigating ways to bundle it and [[indie-config]] into a reusable Web Component
 
 == Indie web setup ==
 

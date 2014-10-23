@@ -30,6 +30,12 @@ Flickr has a (totally undocumented?) feed of activity for the logged in user, wh
 
 These require you to be logged in and redirect to a "secret" URL and may include activity on non-public photos.
 
+== POSSE to Flickr ==
+The following have gotten POSSE to Flickr working:
+* [[Known]] (e.g. see http://werd.io/ )
+* {{adactio}}
+* [[WordPress]] with [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ SNAP] plugin ( working example: [[User:petermolnar.eu|Peter Molnar]] )
+
 == Privacy ==
 
 === Location data has different privacy settings from the photos ===
@@ -39,6 +45,12 @@ Photos on Flickr have a privacy setting for seeing the photo itself, and a separ
 Flickr allows you to configure one or more geofences around locations such as "home" or "work", and any time photos are uploaded that fall into that area, the geo privacy will be set automatically.[http://blog.flickr.net/2011/08/30/introducing-geofences-on-flickr/]
 
 == Issues ==
+=== PESOS unreliability ===
+There has been some experience with a [[PESOS]] approach not working well with Flickr:
+* [https://twitter.com/anomalily/status/518830141502685185 2014-10-05 @anomalily] <blockquote>Whoa, leveling up in the #indieweb world: about to switch from PESOS to POSSE for @flickr because PESOS is failing me</blockquote>
+
+Recommendation: [[POSSE]] to Flickr instead of PESOS.
+
 === Downtime ===
 * 2007-02-19 Flickr massage: [http://www.flickr.com/photos/tantek/420426227/ http://farm1.staticflickr.com/186/420426227_dda4d24789_o.png]
 === Two Pages About You ===

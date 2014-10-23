@@ -330,6 +330,12 @@ It may be theoretically possible to re-implement enough of the Twitter API on yo
 
 == Criticism ==
 Bad or failing behavior on the part of Twitter.
+=== Poor handling of abuse ===
+As very well documented in:
+* 2014-08-12 <cite>[http://rhrealitycheck.org/article/2014/08/12/twitterfail-twitters-refusal-handle-online-stalkers-abusers-haters/ #TwitterFail: Twitter’s Refusal to Handle Online Stalkers, Abusers, and Haters]</cite>
+
+Twitter's UX now makes it easier to post abusive content, than protect oneself from the same.
+
 === Downtime ===
 Live: http://downrightnow.com/twitter
 
@@ -349,6 +355,13 @@ When this was [https://www.facebook.com/kevinmarks/posts/10154414550240425 repli
 [[File:fbupcomingclone.png|600px]]
 
 cropping the screenshot and requiring a clickthrough back to twitter to make it readable, with explicit text added by Twitter when cross-posting: <blockquote>Get the whole picture - <strong>and other photos from Kevin Marks</strong></blockquote> <strong>Emphasis</strong> added - which implies deliberate behavior of a spammy sort (using your cross-post to advertise broader use of Twitter than just that one permalink).
+
+
+=== Developer Relations ===
+Twitter built their entire business on top of the developer community. Almost all Twitter features were originally from Twitter clients, such as Retweets and Hashtags. Closing sections of their API and RSS feeds has made the developer community loose trust in Twitter.
+* 2014-10-20 [http://www.marco.org/2014/10/20/wsj-twitter-peace-offering "Twitter’s “peace offering” to developers is meaningless"] - Marco Arment
+
+<div><p>Twitter to Offer New Tools for App Developers <br/><img src="https://pbs.twimg.com/media/B0cWScpCYAAgN2m.jpg" width="200" /></p>&mdash; Joël Franusic (@jf) <a href="https://twitter.com/jf/status/524412388745818113">October 21, 2014</a></div>
 
 == Issues ==
 Correctable issues with Twitter.

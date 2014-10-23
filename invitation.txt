@@ -2,12 +2,39 @@ http://indiewebcamp.com/invitation
 
 {{stub}}
 
-An '''<dfn>invitation</dfn>''' is a type of [[post]] that is both a [[reply]] to an [[event]] post, and a notification to one or more individuals that they have been invited to that event.
+An '''<dfn>invitation</dfn>''' is an optional feature of an [[event]] post (an event with invitations), or a [[reply]] to an event post that also notifies a list of invitees that they've been invited to the event, or a special case of that, an [[RSVP]] to an event that also invites additional people to it. In all cases, the invitation is also the act of notifying (sending of [[webmentions]] to) one or more individuals that they have been invited to an event.
+
+== Why ==
+=== Why invitation posts ===
+Why implement invitation posts?
+
+So you can invite other people from your own site to others' [[event]]s that they (indieweb community members like [[User:Aaronparecki.com|Aaron Parecki]] and [[User:Werd.io|Ben Werdmuller]]) post on their own sites.
+
+=== Why RSVP with invitations ===
+Why implement [[RSVP]]+invitation posts?
+
+So when you RSVP to go to an event you can simultaneously invite others to join you.
+
+Or when you RSVP maybe to an event you can invite others to consider going.
+
+Or when you RSVP no to an event you can invite others to go in your place.
+
+=== Why publish an event with invitations ===
+Why implement [[event]]+invitation posts?
+
+So when you post an [[event]] you can at the same time explicitly invite people to it and notify them accordingly.
 
 == How to ==
-How tos for invitations are very similar to the how tos for [[replies]] so we won't duplicate common info here.
+How-tos for invitations are very similar to the how tos for [[replies]] so we won't duplicate common info here.
+
+=== Publish an event with invitations ===
+# List the invitations with elements with <code>class="p-invitee h-card"</code> inside the [[h-event]], that at a minimum link to the homepages of those invited.
+# Send webmentions from the [[event]] post to the homepages of those invited.
+
+(a complete h-event + p-invitee markup example would be nice too)
+
 === Publish an invitation ===
-1. Post a [[reply]] and follow the [http://microformats.org/wiki/invitation-brainstorming#h-entry_plus_additions microformats2 h-entry plus proposal] to also post names/links to the invitees using the proposed <code>p-invitee</code> property:
+1. Post a [[reply]] to an [[event]] and follow the [http://microformats.org/wiki/invitation-brainstorming#h-entry_plus_additions microformats2 h-entry plus proposal] to also post names/links to the invitees using the proposed <code>p-invitee</code> property:
 * <code>&lt;a class="p-invitee h-card" href="http://caseorganic.com/">Amber Case&lt;/a></code> - however this assumes that you want the invitee's name, hyperlinked, in your readable text. Other h-card markup is of course allowed. You may have multiple invitees inside a single h-entry. Duplicate this markup for each invitee inside the h-entry.
 
 2. Send a webmention to the event post as you would for a reply to any post.
@@ -16,10 +43,16 @@ How tos for invitations are very similar to the how tos for [[replies]] so we wo
 
 See [[reply#Make_a_comment]] for more general details on posting replies.
 
-(a complete h-entry + p-invitee markup example would be nice too)
+(a complete h-entry + in-reply-to an event + p-invitee markup example would be nice too)
+
+=== Publish an RSVP with invitations ===
+# Publish an [[RSVP]] as you normally would, e.g. "going to ... " (event name / link)
+# in the same post, append some text like "and inviting Alison, Brogan, Clayton" to join me, 
+#* where A, B, C are each mini h-cards of the form <blockquote><code>&lt;a class="p-invitee h-card" href="Alison-homepage-URL"&gt;Alison&lt;/a&gt;</code></blockquote> etc.
+# Send same webmentions as above to event post and each invitee's [[homepage]].
 
 === Update an invitation ===
-Similarly, update your invitation and resend the webmentions.
+Similarly, update your [[post]] and resend the webmentions.
 
 See [[reply#Update_a_comment]] for more general details on updating replies.
 
@@ -28,13 +61,8 @@ Similarly, delete your invitation, resend the webmentions, and be prepared to re
 
 See [[reply#Delete_a_comment]] for more general details on deleting replies.
 
-== Why ==
-Why implement invitation posts?
-
-Simple, so you can invite other people from your own site to others [[event]]s that indieweb community members (like [[User:Aaronparecki.com|Aaron Parecki]] and [[User:Werd.io|Ben Werdmuller]]) post on their own sites.
-
-=== Invitation user flow ===
-Here is a sample ''minimal'' invitation post user flow (from IRC[http://indiewebcamp.com/irc/2014-01-29#t1391032748]).
+== User Flow ==
+Here is an invitation post user flow (from IRC[http://indiewebcamp.com/irc/2014-01-29#t1391032748]).
 
 # Aaron posts an [[event]]
 # Ben posts an [[invitation]] to the event, inviting Caseorganic
@@ -46,6 +74,9 @@ Here is a sample ''minimal'' invitation post user flow (from IRC[http://indieweb
 # Ben's invitation post is updated to note that the invitation was replied to and accepted/tentative/declined (according to the p-rsvp of the RSVP post of yes/maybe/no).
 
 Simplifications welcome.
+
+== IndieWeb Examples ==
+* ... none so far ...
 
 == IndieWeb Implementations ==
 In datetime order of implementation (earliest first)

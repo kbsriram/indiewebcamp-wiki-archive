@@ -2,7 +2,7 @@ http://indiewebcamp.com/Twitpic
 
 {{stub}}
 
-'''<dfn>[http://twitpic.com Twitpic]</dfn>''' is a [[photo]] [[silo]] designed for sharing photos on [[Twitter]].
+'''<dfn>[http://twitpic.com Twitpic]</dfn>''' was a [[photo]] [[silo]] designed for sharing photos on [[Twitter]]. It will be [http://blog.twitpic.com/2014/09/twitpic-is-shutting-down/ shut down] October 25, 2014.
 
 == Usernames ==
 Twitpic re-uses [[Twitter]] usernames.

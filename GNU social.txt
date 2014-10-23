@@ -2,7 +2,7 @@ http://indiewebcamp.com/GNU_social
 
 {{stub}}
 
-'''<dfn>[http://gnu.io/social GNU social]</dfn>''' is an free software [[project]] that "will be a decentralized social network that you can install on your own server"[http://gnu.io/social]
+'''<dfn>[http://gnu.io/social GNU social]</dfn>''' is an free software [[project]] that "will be a decentralized social network that you can install on your own server".
 
 GNU social spun out of the [[GNU FM]] project to stop the defacto GNU FM server, [https://libre.fm] from becoming a social silo.
 
@@ -50,7 +50,7 @@ How does an indieweb site get a proper looking profile on a GNU social site? Com
 
 == IndieWeb Examples ==
 IndieWebCamp participants who are using GNU social on their own site:
-* Matt Lee (2014) :<nowiki>http://mattl.io/</nowiki> (And of course, it's broken today...)
+* GNU social founder {{mattl}} (2014) on http://mattl.io/ since 2014-??-?? (need precise date of deployment of GNU social at this domain)
 
 === Past Examples ===
 * Evan Prodromou (2012) : was using StatusNet on <nowiki>http://evan.status.net/</nowiki> (2012(?)-2013

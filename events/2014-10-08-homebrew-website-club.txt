@@ -14,9 +14,10 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-TBD
-<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 18:00-18:30! -->
+
+* [http://www.yelp.com/biz/la-boulange-du-dome-san-francisco La Boulange du Dome] on the 4th floor of Westfield Mall (between Market/Mission 4th/5th)
+
+[[User:achangeiscoming.net | Jon Pincus]] is co-organizing.
 
 ;Portland
 TBD
@@ -44,8 +45,8 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-10-08-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* http://known.kevinmarks.com/2014/homebrew-website-club-october-8-2014
+* https://www.facebook.com/events/1531429417103947
 
 Portland:
 * add indieevent...
@@ -66,6 +67,7 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{kylewm}}
 * ... add yourself!
 
 '''Portland:'''
@@ -76,6 +78,8 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 '''Chicago:'''
 * {{gRegor}}
+* [[User:www.dmrutherford.com|David Rutherford]]
+* {{kartik}}
 * ... add yourself!
 
 == Notes ==
@@ -91,14 +95,18 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ... 
 
 '''Chicago'''
-* ...
+* [[User:www.dmrutherford.com|David]] joined us for the first time. His site is running [[WordPress]] currently, but he is planning to replace it with a static [[Jekyll]] site. We discussed [[webmention]] support for static sites, [[microformats]], and got him set up logging in to the wiki and the [[IRC]] chat.
 
 === Blog posts ===
 Blog posts before the meeting:
 * ...
 
 == Photos ==
-* ...
+=== Chicago ===
+[[File:hwc-2014-10-08-chi.jpg|700px]]
+With special guest:
+[[File:hwc-2014-10-08-chi-guest.jpg|700px]]
+Photos by {{gRegor}}
 
 {{Homebrew Website Club}}
 

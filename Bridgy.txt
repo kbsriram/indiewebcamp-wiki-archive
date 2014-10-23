@@ -57,6 +57,10 @@ Here are some examples of IndieWeb community members using Bridgy along with pos
 [[User:Aaronparecki.com|Aaron Parecki]] on his [[notes]] posts on [http://aaronparecki.com/ aaronparecki.com] using [[p3k]] since 2013-??-??. E.g.
 * http://aaronparecki.com/notes/2014/01/07/1/email-lifehack#comments
 
+=== AnomaLily===
+[[User:Anomalily.net|AnomaLily]]  on  [http://anomalily.net anomalily.net]  E.g. 
+* http://anomalily.net/the-indie-web-is-the-new-zines/#comments
+
 === Barry Frost ===
 [[User:Barryfrost.com|Barry Frost]] on barryfrost.com since 2013-??-??. E.g.
 * http://barryfrost.com/posts/76
@@ -100,6 +104,12 @@ Here are some examples of IndieWeb community members using Bridgy along with pos
 
 === [[User:WaterPigs.co.uk|Barnaby Walters]] ===
 * http://waterpigs.co.uk/notes/4UpG9E/
+
+=== gRegor Morrill ===
+* Displaying Bridgy webmentions on articles since approximately 2014-05-01
+** http://gregorlove.com/2014/02/1180/
+* Using Bridgy Publish notes to [[POSSE]] to Twitter since 2014-08-10
+** http://gregorlove.com/notes/2014/08/10/2/
 
 == Open Source ==
 Bridgy source is maintained on [[GitHub]]:

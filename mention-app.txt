@@ -2,9 +2,9 @@ http://indiewebcamp.com/mention-app
 
 {{stub}}
 
-This is a collection of notes for creating a mobile app to handle mobile notifications of webmentions of a person's website.
+A '''<dfn>mention-app</dfn>''' is a [[mobile]] app to handle mobile [[notifications]] of [[webmentions]] of a person's website.
 
-Feel free to add notes or suggestions. [[User:Aaronparecki.com|Aaron]] is working on the server and iOS implementation, but would love help with an Android version.
+This is a collection of notes for creating a mention-app. Feel free to add notes or suggestions. [[User:Aaronparecki.com|Aaron]] is working on the server and iOS implementation, but would love help with an Android version.
 
 == App UI ==
 

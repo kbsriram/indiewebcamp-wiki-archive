@@ -1,0 +1,19 @@
+http://indiewebcamp.com/representative_h-card
+
+{{stub}}
+
+The '''<dfn>representative h-card</dfn>''' for a page is an h-card on that page that represents that page, if any, as not all pages are about a person or organization, a page might not have a representative h-card.
+
+See and read with translating hCard to h-card inline as you read:
+* more info: http://microformats.org/wiki/representative-hcard
+* how to publish: http://microformats.org/wiki/representative-hcard-authoring
+* how to parse: http://microformats.org/wiki/representative-hcard-parsing
+
+== Use Cases ==
+* How to discover a person's name and image from their [[homepage]] URL, e.g.:
+** When [[creating]] a blog post, link to a person, and have that link automatically use their image and name as link text.
+** After signing in with [[indieauth]], finding the person's name and profile image
+
+== See Also ==
+* [[microformats]]
+* [[authorship]]

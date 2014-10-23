@@ -4,6 +4,7 @@ Standalone [[linkback]] server written in PHP, storing data in MySQL.
 
 == Features ==
 * Receive [[webmention]]s and [[pingback]]s 
+** Currently only sends a mail for incoming linkbacks
 * Send out webmentions/pingbacks to each link in an [[Atom]] feed
 ** This makes it possible to automatically send out linkbacks for [[2014/static-sites|statically hosted sites]].
 
@@ -14,6 +15,7 @@ Standalone [[linkback]] server written in PHP, storing data in MySQL.
 
 == Source code ==
 * http://git.cweiske.de/stapibas.git/
+* Mirror: https://github.com/cweiske/stapibas
 
 == Users ==
 Indieweb enthusiasts using it on their primary site: 

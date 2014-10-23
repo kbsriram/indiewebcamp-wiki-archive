@@ -1,5 +1,7 @@
 http://indiewebcamp.com/principles
 
+The IndieWeb Community is largely based on '''<dfn>principles</dfn>''' (AKA <dfn>tenets</dfn>) such as [[own your data]], scratch your own itches, build tools for yourself, [[selfdogfood]], document your stuff, open source your stuff, UX design is more important than protocols, visible data for humans first and machines second, platform agnostic platforms, plurality over [[monoculture]], longevity, and remember to have fun!
+
 == Key Principles ==
 <span style="float:right;height:192px;font-size:192px;margin:96px 0 -32px">🗽</span>
 Some key principles of building on the indie web...
@@ -12,7 +14,7 @@ Some key principles of building on the indie web...
 * [[💞]]'''Open source''' your stuff! You don't have to, of course, but if you like the existence of the indie web, making your code open source means other people can get on the indie web quicker and easier.
 * [[📐]]'''UX and [[design]] is more important''' than protocols. We focus on UX first, and then as we figure that out we build/develop/subset the absolutely simplest most minimal protocols sufficient to support that UX, and nothing more.
 * [[🌐]]Build '''platform agnostic platforms'''. The more your code is modular and composed of pieces you can swap out, the less dependent you are on a particular device, UI, templating language, API, backend language, storage model, database, platform. The more your code is modular, the greater the chance that at least ''some'' of it can and will be re-used, improved, which you can then reincorporate.
-* [[🗿]]'''[[Longevity]]'''. Build for the '''[http://adactio.com/articles/1522/ long web]'''. If human society is are able to preserve ancient papyrus, Victorian photographs and dinosaur bones, we should be able to build web technology that doesn't require us to destroy everything we've done every few years in the name of progress. 
+* [[🗿]]'''[[Longevity]]'''. Build for the '''[http://adactio.com/articles/1522/ long web]'''. If human society is able to preserve ancient papyrus, Victorian photographs and dinosaur bones, we should be able to build web technology that doesn't require us to destroy everything we've done every few years in the name of progress. 
 * [[🎉]]Have '''[[fun]]'''. Remember that GeoCities page you built back in the mid-90s? The one with the Java applets, garish green background and seventeen animated GIFs? It may have been ugly, badly coded and sucky, but it was ''fun, damnit''. Keep the web weird and interesting.
 
 == Plurality ==

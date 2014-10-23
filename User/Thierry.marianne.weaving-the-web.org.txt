@@ -1,4 +1,3 @@
 http://indiewebcamp.com/User%3AThierry.marianne.weaving-the-web.org
 
-Web Weaver [http://thierry.marianne.weaving-the-web.org Personal hub page]<br />
-Photographer [http://shal.snapshots.fr Portfolio]
+#REDIRECT [[User:Tmar.io]]

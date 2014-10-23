@@ -39,6 +39,3 @@ Commenting is restricted to pingbacks, trackbacks, webmentions and responses mad
 * anything that fits in linux sysadmin day job
 * CSS3, LESS, responsive design
 * PHP, C, bash and a bit of Python
-
-== counteragruments about indiewebification ==
-* databases are good, the were invented for good reasons. WordPress not being able to use SQLite is a shame though.

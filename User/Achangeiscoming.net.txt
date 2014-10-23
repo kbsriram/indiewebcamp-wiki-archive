@@ -1,3 +1,3 @@
 http://indiewebcamp.com/User%3AAchangeiscoming.net
 
-[http://achangeiscoming.net Jon Pincus] is a software engineer / entrepreneur / strategist, currently developing the open-source social network platform TapestryMaker.
+[http://achangeiscoming.net Jon Pincus] is a software engineer / entrepreneur / strategist, currently developing the open-source social network platform TapestryMaker.  The [http://stream.tapestrymaker.net TapestryMaker blog] currently uses [[Known]] for IndieWebGoodness!

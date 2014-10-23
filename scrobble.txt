@@ -2,12 +2,20 @@ http://indiewebcamp.com/scrobble
 
 {{stub}}
 
-A '''<dfn>scrobble</dfn>''' is a [[passive]] type of [[post]] used to publish a song (music or audio track) that you have listened to.
+A '''<dfn>scrobble</dfn>''' (AKA a <dfn>listen</dfn>) is a [[passive]] type of [[post]] used to publish a song (music or audio track) that you have listened to.
 
 '''<dfn>scrobbling</dfn>''' is the act of passively publishing scrobbles.
 
+The term "scrobble" comes from [[Last.fm]]'s software, Audioscrobbler.
+
 == IndieWeb Examples ==
-* none currently 
+=== Michael Owens ===
+{{mko}} has imported all 76,000 of his past [[Last.fm]] listens to his site. He can post them manually to his site as well as [[PESOS]] them from Last.fm. Example:
+* https://mowens.com/data/2014/10/16/1/take-me-to-church-album-version
+
+Details:
+* '''Musicbrainz ID'''. Each of the data elements has a p-* with the Musicbrainz ID of the various Tracks and Albums where it's available.
+*  '''Album images'''.  <blockquote>It annoyed me that Last.fm served images without HTTPS, so I cached the imagery for every track. I need to run a checksum comparison of images to remove duplicate files at some point.</blockquote>
 
 == Open Source ==
 === Libre.fm and GNU FM ===

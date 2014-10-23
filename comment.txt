@@ -95,7 +95,7 @@ How to receive an indieweb comment replying to an original post
 Additional support:
 
 * let any comments pop up automatically at some URL, e.g.<code>/mentions</code>
-** Perhaps make this available as a [[PuSH]]-subscribable [[feed]], giving you notifications for free
+** Perhaps make this available as a [[PuSH]]-subscribable [[feed]], giving you [[notifications]] for free
 * only show comments under posts with authors that pass an intelligent whitelist/manual approval
 ** commenter is mentioned in the note they're replying to
 ** commenter is in your contacts list
@@ -202,6 +202,9 @@ Some [[silos]] have a comments embed which is used by various sites to host comm
 * [[Disqus]] - their focus is to provide comments or ("discussion" - hence their name) sections on other pages.
 * [[Facebook]] - see [[Facebook#Comments_Embed|Comments Embed]]
 
+Open source commenting embed:
+* [https://github.com/phusion/juvia Juvia] - a commenting system you can install on your own server similar to Disqus and Intense Debate
+
 == See Also ==
 * [[reply-context]]
 * [[reply-chain]]
@@ -211,5 +214,5 @@ Some [[silos]] have a comments embed which is used by various sites to host comm
 * [[note]]
 * [[comment-policies|Comment Policies]]
 * [[webmention]]
-* [[pingback]]
+* [[notification]]
 * [[responses]] - other (specialized) types of replies

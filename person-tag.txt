@@ -1,0 +1,54 @@
+http://indiewebcamp.com/person-tag
+
+{{stub}}
+
+A '''<dfn>person tag</dfn>''' (AKA <dfn>people tag</dfn>) is a special kind of [[tag]] that refers to a specific person by URL rather than just a word or phrase, and is done as an explicit tag by the user, beyond just mentioning a person via hyperlink / h-card.
+
+== Why ==
+By supporting people tags in [[posts]], you can more explicitly/automatically notify people via [[webmention]] to their [[homepage]] at their URL that you have explicitly tagged a post as being about them, e.g. a [[photo]] post where they're in the photo.
+
+== How ==
+No specific proposals yet by any IndieWeb implementations.
+
+== IndieWeb Examples ==
+None so far.
+
+== IndieWeb Interest ==
+=== Kyle Mahan ===
+{{kylewm}}: <blockquote>I'm interested in having "in this photo: list of names" type tags, but not so much tagging x/y coordinates</blockquote>
+
+=== Tantek ===
+{{t}} I am interested in helping solve this problem to escape the "50 person-tags limit" in [[Facebook]] photos (as documented below in [[#Silo_Examples]]). A group I am involved with posts group photos every week with more than 50 people and people get left out because of this limitation[https://www.facebook.com/NovemberProjectSF/photos/a.529728270497004.1073741955.276430682493432/529729277163570/?type=1&comment_id=530291480440683&offset=0&total_comments=4]. I don't want people to be left out.
+
+== Silo Examples ==
+The following [[silos]] support people tagging and are thus a good starting point for documenting people-tagging user experiences for recreation on indieweb sites.
+* [[Facebook]] - all post types, an explicit text mention is interpreted as a people tag, plus you can explicitly people tag areas of photo posts. '''Limitation:''' you can only tag up to 50 people in a photo on Facebook.[https://www.facebook.com/NovemberProjectSF/photos/a.529728270497004.1073741955.276430682493432/529729277163570/?type=1&comment_id=530291480440683&offset=0&total_comments=4]
+* [[Flickr]] - you can people tag a photo and optionally denote a rectangle of the photo that indicates that person.
+* [[Instagram]] - you can people tag a photo and optionally denote a point on the photo (from which the label of the person's name is hung).
+* [[Twitter]] - photos in tweets can be people-tagged - [https://blog.twitter.com/2014/photos-just-got-more-social see details].
+* [[Google+]] - photos can be people-tagged - [https://support.google.com/plus/answer/1304814 see details].
+
+== Brainstorming ==
+=== HTML imagemaps ===
+[[User:benwerd.com|Ben Werdmuller]] wondered if you could tag people in photos by linking to their profiles using HTML imagemaps (!) and marking up the imagemap links with microformats. That might look something like:
+
+<code><img src="some_photo.jpg" alt="Tantek, Aaron and Amber!" usemap="#peeps" class="u-photo">
+
+<map name="peeps">
+
+<area shape="circle" coords="124,58,8" class="microcard h-card u-url" href="http://tantek.com" alt="Tantek Çelik">
+
+<area shape="rect" coords="0,0,82,126" class="microcard h-card u-url"  href="http://aaronparecki.com" alt="Aaron Parecki">
+
+<area shape="circle" coords="90,58,3" class="microcard h-card u-url" href="http://caseorganic.com" alt="Amber Case">
+
+</map></code>
+
+However, because the HTML syntax of imagemaps sits outside the actual image tag, it may be worth adding a microformat to the map itself.
+
+== SWAT0 ==
+People tagging was one of the steps of the [[SWAT0]] social web acid test developed / proposed in 2010.
+
+== See Also ==
+* [[tag]]
+* [[hashtag]]

@@ -88,7 +88,7 @@ I did some homepage sketches/brainstorming [https://github.com/Taproot/design/bl
 
 === Webmention to homepage ===
 [[Webmention]]s sent directly to home pages could serve a number of use-cases:
-* notification of a person-mention (like an indieweb @-mention) on a post somewhere else
+* [[notification]] of a person-mention (like an indieweb @-mention) on a post somewhere else
 * [[invitation]] to an indie [[event]]
 * notification of a new private [[message]] received
 * allowing other people to tag you in photos or posts

@@ -1,0 +1,26 @@
+http://indiewebcamp.com/2015/
+
+'''Welcome to the planning page for <dfn>2015</dfn> IndieWebCamps!'''
+
+The following are currently being planned:
+
+* [[2015/DC]]
+* [[2015/Providence]]
+* [[2015/SF]]
+* [[2015]] - the main IndieWebCamp, likely in multiple locations like Portland, NYC, Berlin
+* [[2015/UK]]
+* [[2015/Cambridge]]
+
+Want to help out with one of those? Say something in [[IRC]] and add yourself to the page.
+
+Want to organize a 2015 [[IndieWebCamp]] in your town and don't see it above?
+
+Start with:
+# Find at least one committed co-organizer. This is the most important step.
+# Add a link above to <nowiki>[[2015/YourCity]]</nowiki>
+# Click it and create the new page, and continue with the steps listed in:
+#* [[IndieWebCamp#How_to_organize|How to organize an IndieWebCamp]]
+
+
+
+{{IndieWebCamp}}

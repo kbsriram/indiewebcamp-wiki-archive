@@ -7,7 +7,7 @@ http://indiewebcamp.com/federation
 A protocol or format can be said to support federation if it can be supported by multiple sites (preferably with multiple implementations) to interact directly with each other without the use of any third party sites, or centralized bottlenecks.
 
 == DNS Exception ==
-DNS Exception: In the context of the indieweb, and the web in general, the centralized/hierarchicial architecture of DNS is accepted as an exception to the abovementioned federation requirement of no centralized bottlenecks. That being said, there are ongoing efforts to figure out how to replace DNS with a peer-to-peer system. 
+[[DNS]] Exception: In the context of the indieweb, and the web in general, the centralized/hierarchicial architecture of DNS is accepted as an exception to the abovementioned federation requirement of no centralized bottlenecks. That being said, there are ongoing efforts to figure out how to replace DNS with a peer-to-peer system. 
 
 == Indieweb Focus ==
 Focus: for day-to-day practical purposes, the indieweb community is not working on addressing the DNS centralization issue/exception and is instead focusing on [[design]] (UI/UX) of how user-level features can and should federate.

@@ -2,7 +2,8 @@ http://indiewebcamp.com/code-of-conduct
 
 <span style="float:right;height:192px;font-size:192px;margin:152px 0 -128px">🌈</span>
 = Code of Conduct =
-tl;dr: <blockquote>Be respectful of other people, respectfully ask people to stop if you are bothered, and if you can't resolve an issue contact staff. If you are being a problem, it will be apparent and you'll be asked to leave.</blockquote>
+<div class="p-summary">IndieWebCamp '''<dfn>code of conduct</dfn>''' tl;dr: <blockquote>Be respectful of other people, respectfully ask people to stop if you are bothered, and if you can't resolve an issue contact staff. If you are being a problem, it will be apparent and you'll be asked to leave.</blockquote>
+</div>
 
 Based on previous [[code-of-conduct-examples|excellent work by others]], this is a draft '''code of conduct''' for IndieWebCamp events.
 
@@ -10,7 +11,7 @@ Based on previous [[code-of-conduct-examples|excellent work by others]], this is
 __TOC__
 IndieWebCamp is an intentionally positive community that recognizes and celebrates the creativity and collaboration of independent creators (and independence) and the diversity of people, cultures, and opinions that they bring to IndieWebCamp.
 
-IndieWebCamp events are an inclusive environment, based on treating all individuals respectfully, regardless of gender (including transgender status), sexual orientation, age, disability, nationality, ethnicity, religion (or lack thereof), or software preferences.
+IndieWebCamp events are an inclusive environment, based on treating all individuals respectfully, regardless of gender (including transgender status), sexual orientation, age, disability, medical conditions, nationality, ethnicity, religion (or lack thereof), or software preferences.
 
 We value respectful behavior above individual opinions.
 
@@ -30,9 +31,9 @@ If you experience disrespectful behavior and feel in any way unable to respond o
 Should you catch yourself behaving disrespectfully, or be confronted as such, own up to your words and actions, and apologize accordingly. No one is perfect, and even well-intentioned people make mistakes. What matters is how you handle them, and avoiding repeating them in the future.
 
 == Consequences ==
-If the organizers determine that an event participant is behaving disrespectfully, the organizers may take any action them deem appropriate, up to and including expulsion and exclusion from the event without warning or refund.
+If the organizers determine that an event participant is behaving disrespectfully, the organizers may take any action they deem appropriate, up to and including expulsion and exclusion from the event without warning or refund.
 
-As organizers, we will seek to resolve conflicts peacefully and in a manner that is positive for the community. We can't foresee every situation however, and thus if in the organizers' judgment the best thing to do is to ask a disrespectful individual to leave, we will do so. We've never had to do so, please don't be the first.
+As organizers, we will seek to resolve conflicts peacefully and in a manner that is positive for the community. We can't foresee every situation however, and thus if in the organizers' judgment the best thing to do is to ask a disrespectful individual to leave, we will do so. We've never had to do so; please don't be the first.
 
 == License ==
 Like everything else posted on IndieWebCamp.com, this Code of Conduct is released to the public domain according to CC0 (see [[IndieWebCamp:Copyrights]] for details).
@@ -56,6 +57,7 @@ And anyone else that wishes to help uphold this code of conduct and the principl
 * [[User:Petermolnar.eu|Petermolnar.eu]] 13:59, 19 September 2014 (PDT)
 * [[User:Rawlinson.us|Bill Rawlinson]] 22:00, 19 September 2014 (GMT)
 * {{user|ben.thatmustbe.me|Ben Roberts|https://ben.thatmustbe.me/image/static/icon_64.jpg}} 17:00, 19 September 2014 (EDT)
+* {{mko}} 13:13, 16 October 2014 (PDT)
 * ... (sign with <nowiki>~~~~</nowiki>)
 
 == Feedback ==

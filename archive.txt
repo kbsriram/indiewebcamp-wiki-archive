@@ -2,9 +2,38 @@ http://indiewebcamp.com/archive
 
 {{stub}}
 
-'''<dfn>archive</dfn>''' may refer to:
+'''<dfn>archive</dfn>''' refers to date-grouped sets of indieweb site posts (a common form of [[navigation]] among posts), or a copy of a web page made at a particular point in time.
+
+Longer: archives refer to:
 * The [[archives]] of an indieweb site that allows you to [[navigate]] to past content by year and month, AKA personal historical archives, or
 * A copy of a web page or site that can be used as a reference if the original disappears or is temporarily unavailable.
+
+== IndieWeb Examples ==
+=== Tantek ===
+{{t}} uses [[Falcon]] to serve composite archive pages (unlinked) on tantek.com for each day since 2010, e.g.:
+* http://tantek.com/2014/255/ with [[RSVP]], [[reply]], and [[note]] with [[auto-embed]] all from the same day
+And before that, all his blog posts were written and served directly from archive pages by Gregorian month, [http://tantek.com/log/2002/08.html#L20020808 from 2002-08-08] to [http://tantek.com/log/2008/08.html 2008-08-08]
+
+=== Aaron Parecki ===
+{{aaronpk}} uses [[p3k]] to serve composite archive pages on aaronparecki.com [http://indiewebcamp.com/irc/2014-10-05/line/1412522094880 since 2014-10-05], e.g.:
+* http://aaronparecki.com/2014/09/10 with [[pushup]], [[reply]], [[bicycle]], [[note]], [[event]], [[bookmark]], and [[sleep]] all on the same day
+
+=== cweiske ===
+[[User:cweiske.de]] has an archive subdomain with a couple of hand-picked pages that disappeared - http://archive.cweiske.de/
+
+=== gRegor Morrill ===
+{{gRegor}} has an archive page at http://gregorlove.com/archives/ since 2011-02-14 [http://gregorlove.com/2011/02/1042/]. It is inspired by [[Tumblr]]'s archive page.
+
+=== Shane Becker ===
+{{shaners}} uses [[Homesteading]] to serve composite and post type specific archive pages (unlinked) on [http://iamshane.com iamshane.com] (with pagination) [http://indiewebcamp.com/irc/2014-10-07/line/1412713609581 since 2014-10-07], e.g.:
+* http://iamshane.com/2014/09/18 (all posts, notes and an article in this case, on this year/month/day)
+* http://iamshane.com/2014/09/18/page/3 (the third page of all posts on this year/month/day)
+* http://iamshane.com/metrics/steps/2013 (all steps from a year)
+* http://iamshane.com/videos/2013/05 (all videos from a year/month)
+* http://iamshane.com/notes/2014/10/06 (all notes from a year/month/day)
+
+=== Ben Roberts ===
+{{user|ben.thatmustbe.me|Ben Roberts|https://ben.thatmustbe.me/image/static/icon_64.jpg}} uses [[Postly]] to serve composite archives in either monthly (linked - /YYYY/MM) or daily (unlinked - /YYYY/MM/DD) format since 2014-10-07.
 
 == Services ==
 === WebRecorder ===

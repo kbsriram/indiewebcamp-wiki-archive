@@ -2,7 +2,7 @@ http://indiewebcamp.com/Tantek-ing
 
 {{stub}}
 
-<dfn>'''Tantek-ing'''</dfn> refers to a method of encouraging people to make edits to this wiki. {{tantek}} frequently asks "What is ___?" in [[IRC]]. [[Loqi]] will then respond with a prompt to create the page if it does not exist yet.
+<dfn>'''Tantek-ing'''</dfn> is a method of encouraging people to contribute to the wiki by indirectly prompting the person who first mentioned the term to create a short wiki [[dfn]] page for it. {{tantek}} frequently asks "What is ___?" in [[IRC]]. [[Loqi]] will then respond with a prompt to create the page if it does not exist yet.
 
 <blockquote>
 shaners: What is flask?<br>

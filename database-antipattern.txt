@@ -1,6 +1,6 @@
 http://indiewebcamp.com/database-antipattern
 
-The '''<dfn>database antipattern</dfn>''' is the use of a database for primary long-term storage of [[posts]] and other personal content (like on an indieweb site), and is an anti-pattern due to the additional maintenance costs, uninspectability, platform-dependence, and long-term fragility of databases and their storage files. 
+The '''<dfn>database antipattern</dfn>''' is the use of a database for <strong>primary long-term storage</strong> of [[posts]] and other personal content (like on an indieweb site), and is an anti-pattern due to the additional maintenance costs, uninspectability, platform-dependence, and long-term fragility of databases and their storage files, as documented with specific examples below.
 
 Is this your first time on IndieWebCamp.com?
 * See our '''[[Main Page|home page]]''' and '''[[principles]]''' for an overview of what we're about.
@@ -13,9 +13,9 @@ The indieweb community is nearly evenly split about the database-antipattern, as
 * [[file-storage]] projects
 ** [[Jekyll]](multiple), [[Apache]](i.e. plain HTML files, multiple), [[p3k]](multiple), [[Bumble]], [[Bundle]](articles), [[crash]], [[Falcon]], [[Hakkan]], [[Neonblog]], [[Taproot]]
 * [[database]] projects
-** [[WordPress]](multiple, with plugins), [[Known]](multiple), [[Bundle]](notes), [[Indie.js]], [[Nucleus]], [[OpenBlog]], [[ProcessWire]], [[Publify]], [[Red Wind]]
+** [[WordPress]](multiple, with plugins), [[Known]](multiple), [[Bundle]](notes), [[Indie.js]], [[Nucleus]], [[Postly]], [[ProcessWire]], [[Publify]], [[Red Wind]]
 
-Thus while there is a significant opinion about the database-antipattern, it is by no means a universally agreed upon aspect of indieweb sites or the indiewebcamp community. A few have even noted their complete [[PostgreSQL#IndieWeb_Examples|lack of first-hand negative experience]].
+Split experience too: while there are significant experiences (documented below) with the database-antipattern, it is by no means a universally agreed upon aspect of indieweb sites or the indiewebcamp community. A few have even noted their complete [[PostgreSQL#IndieWeb_Examples|lack of first-hand negative experience]].
 
 = databases for storage =
 __TOC__
@@ -66,11 +66,33 @@ In contrast, every language / OS has flat file APIs. Nearly all have DOM Documen
 
 === Fragile ===
 Databases are known to be fragile in exceptional situations, e.g. high traffic load, server hard restart. Real world example: [[MySQL]] and [[Rackspace]]:
-
+==== MySQL hard reset ====
 <blockquote>... Bad news: MySQL barfed all over the table holding my posts. ... [https://twitter.com/christi3k/status/448270028484263936]</blockquote>
 <blockquote>And I'm pretty sure that happened when Rackspace hard reset my machine due to swapping.[https://twitter.com/christi3k/status/448270919341858816]</blockquote>
 
 Note: apparently [[Postgres]] doesn't have that problem.
+
+==== DB connection loss ====
+Often (but not always) database server software runs on a separate machine and/or process than the web server, and thus it's possible for the connection between the two to go down, for who knows what reasons, e.g. [[Keybase#2014-10-02_DB_connection_lost|2014-10-02 Keybase DB connection lost]]: <blockquote>@aaronpk @KeybaseIO Yeah we lost the DB connection in our Web process so all queries were failing. Weird, first time we've seen that bug.</blockquote>
+Maintaining / checking / restoring this "connection" is yet another source of DBA tax.
+
+This is apparently a frequent occurrence:
+* Google [https://www.google.com/search?q=%22Database+Connection+Lost%22 "Database+Connection+Lost"]
+* Google [https://www.google.com/search?q=%22Database+Error%22+%22Error+establishing+a+database+connection%22+-fix+-wordpress+-website+-login+-help+-account+-join+-atg+-scary+-problems+-mining "Database Error" "Error establishing a database connection"] for actual sites that are down and indexed as such.
+** Specific example found during another Google search: http://krispysbytes.org/tag/publish-once-syndicate-everywhere/ - page returns <blockquote style="white-space:pre-wrap"><nowiki><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Database Error</title>
+
+</head>
+<body>
+	<h1>Error establishing a database connection</h1>
+</body>
+</html>
+</nowiki></blockquote>
+So much so that [https://www.google.com/search?q=%22WordPress+fatal+error+–+database+connection+lost%22 phishers use it] as a way to trick [[WordPress]] users into submitting their username/pw:
+* [http://www.ardnet.co.uk/wordpress-phishing-warning/ WordPress Phishing Warning], [http://www.rechnerhaus.de/en/wordpress-phishing-warning]
 
 === Caching ok ===
 {{main|database-cache}}
@@ -88,16 +110,33 @@ Even though databases are fine for rebuildable caches, that's still solving an o
 Any design that depends on databases is optimizing prematurely - before you have any idea what the performance characteristics of the system are.
 
 === Alternatives ===
-Rather than using a database for storage, use open well established formats like HTML + microformats, and if you really like <em>how</em> databases let you access them, instead build a database-like API on top (of said HTML + microformats files).
-* [[Falcon]] does this with XML-valid HTML5 + hAtom. See [[Falcon#Storage_format|Falcon storage format]] for details.
+Rather than using a database for storage, use open well established formats like [[markdown]] or HTML + [[microformats]], and if you really like <em>how</em> databases let you access them, instead build a database-like API on top (of said markdown or HTML + microformats files).
+* See [[file-storage]] for details on specific approaches.
 
 With HTML+microformats2 + a [[microformats2]] parser, we already have a database-like API that gives you data back from HTML.
 
 It's likely that eventually we'll come up with something resembling a database / storage API on top of an HTML+microformats2 file.
 * What do mean by a storage /database API on top of an HTML file?
-** Something where you can get back structured data and potentially write structured data. E.g. the phpmf2 [[microformat2]] parser/API. Or the [[Falcon#Storage_format|Falcon storage format]].
+** Something where you can get back structured data and potentially write structured data. E.g. the phpmf2 [[microformat2]] parser/API, perhaps even based on [[micropub]].
 
 === FAQ ===
+==== Why discuss storage plumbing ====
+Q: Whenever people advocate or deep dive into specific backend tools here, we often say, "that's plumbing, we prefer to focus on end-user use-cases" (and maybe interop) here, but why do we make an exception for database vs [[flat files]], which we dive into, even though it's still plumbing?
+
+A: Summary: when the choice of plumbing <strong>strongly impacts the UX</strong>, then it is worth documenting problems, issues, advantages, disadvantages, and tradeoffs among choices in plumbing. By the same measure, any criticism not tied to UX should be moved to the specific technology impacted, rather than technology area or approach.
+
+
+Specifically, UX impact on users and general usage is the focus. UX that only affects developers approaches a plumbing debate which is not necessarily productive.
+
+Negative UX impacts from this use of databases tend to be in two categories:
+# fragility = your website goes down / away / corrupted or, loses functionality, has unreliable functionality = very bad UX
+# DBA tax = maintaining your website consumes more of your otherwise free time (also impacts your UX of using your website since it is more demanding for non-content oriented tasks).
+
+
+Examples of UX impact:
+* Comment posting failure[https://twitter.com/adactio/status/417080794931159040]
+** Due to MySQL UTF-8 problem.[https://twitter.com/kartik_prabhu/status/417178161978167296]
+
 ==== Should I never use a database ====
 Q: What, you mean, never use a database ever? That's crazy! How on earth could you build (some big service) without a database?
 * A: There are instances where the benefits to using a database offset the additional costs of using a database (e.g. large services for large numbers of users). There are also instances where the costs are mitigated or reduced (e.g. caching only). 

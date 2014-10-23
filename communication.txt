@@ -5,19 +5,30 @@ http://indiewebcamp.com/communication
 '''<dfn>communication</dfn>''' in the context of the indieweb refers to using your personal website as a starting point and potentially way for people to communicate with you.
 
 == How ==
-Start with:
 # Add an [[icon]] to your personal site so that others can add your site to their home screens on their devices.
 # Put an [[h-card]] on your home page with links to ways you want to be contacted, in your preference order. 
 # Provide easily recognizable / clickable icons for each link to a way to contact you.
+# Optional: conditionally show/hide ways to contact you based on:
+#* browser device/OS
+#* your time of day / interruptibility
 
 == Why ==
 See:
 * <cite>[http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience Toward A People Focused Mobile Communication Experience]</cite>
 
 == IndieWeb Examples ==
-IndieWeb community members doing this
+IndieWeb community members doing this.
+=== Tantek ===
+{{t}} is experimenting with a prototype at tantek.com/contact.html since 2014-06 (at [[2014|IndieWebCamp 2014]])
+* conditional showing of Facetime button only for iOS and MacOS
+
+=== Tim Owens ===
+[[User:Timowens.io|Tim Owens]] has set up a nice indie comms page on http://timowens.io/contact/ since 2014-10-11 (at [[2014/Cambridge|IndieWebCamp Cambridge]]) including:
+* shows an animated "Add to Homescreen" instruction drop-down on first load.
+
+== Previous Examples ==
 === Ben Werdmuller ===
-[[User:Werd.io|Ben Werdmuller]] uses icons to link to a small handful of ways to reach him on his [http://werd.io/ werd.io] homepage. 
+[[User:Werd.io|Ben Werdmuller]] used icons to link to a small handful of ways to reach him on his [http://werd.io/ werd.io] homepage. (2014-...-...?)
 
 == Projects ==
 === Lets Talk ===

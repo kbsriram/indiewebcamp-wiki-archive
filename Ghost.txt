@@ -6,6 +6,9 @@ http://indiewebcamp.com/Ghost
 
 It is both open source blogging software written in node.js, and a hosted [[silo]] at ghost.org
 
+== Indieweb Examples ==
+* . . . add yourself!
+
 == Issues ==
 === Rejected microformats2 markup in default theme ===
 [[User:WaterPigs.co.uk|Barnaby Walters]] sent [https://github.com/TryGhost/Casper/pull/29 a pull request] to casper (the default Ghost theme) which added [[h-entry]] and [[h-card]] [[microformats2]] markup, but it was rejected. John O’Nolan followed up with:

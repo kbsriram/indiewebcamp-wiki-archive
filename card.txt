@@ -24,3 +24,4 @@ A '''<dfn>card</dfn>''' in the context of the indieweb are small information sum
 == See Also ==
 * [[link-preview]] - one use case of cards
 * [[posts]] - see post kinds for an analogy of kinds of cards
+* [[autolink]] - a card is a type of autolink, it provides context

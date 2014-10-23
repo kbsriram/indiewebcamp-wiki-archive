@@ -30,6 +30,7 @@ Working on david.shanske.com. Also working on content for the site. No point in 
 
 == For the Future ==
 
+* Expanding the Indieweb Taxonomy plugin for additional data to be stored, including profile photo, date of publish, etc.
 * Looking to develop a simpler post editor for notes
 * Add reply/like endpoints to the Indieweb Taxonomy plugin
 * Automatic Bridgy syndication in the Syndication Links plugin

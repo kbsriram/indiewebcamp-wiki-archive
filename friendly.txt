@@ -7,24 +7,24 @@ If you're making a content hosting service (e.g. for blogging, photo posting, et
 
 Indieweb basics:
 # Provide a way for users to enter a personal website/blog, and then automatically link to it from their profile page with [[rel-me|rel=me]].
-# Markup users' feeds with the [[h-entry]] microformat including a nested [[h-card]] for the authorship information.
+# Markup users' feeds and post permalink pages with the [[h-entry]] microformat including a nested [[h-card]] for the authorship information.
 # Markup users' profile pages with [[h-card]]
-# Let the user automatically syndicate in [[posts]] from their personal site
+# Let the user automatically syndicate in [[posts]] (marked up using [[h-entry]]) from their personal site
 # Support [[PuSH]] notifications for receiving posts from their personal site
-# Support parsing [[h-entry]] from their personal site posts to syndicate into your service
 # Link permalinks back to users' original posts from syndicated copies on your service
 # Use [[rel-canonical]] on links from syndicated copies on your service to original posts.
 # Support [[webmention]] + [[h-entry]] parsing for receiving [[comments]] on users' posts.
+# Let users link a domain name to their profile and content, treat that domain as canonical (e.g. [[Tumblr]] and [[Wordpress.com]])
+# If your service supports subscription/following/friending/anything showing an aggregated timeline/feed/stream, allow users to subscribe to other people’s personal site [[feeds]] marked up with [[h-feed]] and/or [[h-entry]]
 
 Data portability:
-# Provide a way for users to export all their user data (posts, comments, tags, likes/faves).
+# Provide a way for users to [[export]] all their user data (posts, comments, tags, likes/faves).
 # Provide HTTP redirects if users want to change their domain name.
 ## (If a service provides profiles such as name.example.com, and the person wants to change to name.com, the service should leave HTTP redirects in place for name.example.com/* -> name.com/*)
 # ...
 
 == Organisations who are Indieweb Friendly ==
 
-* [http://spreadly.com/ spreadly] sends [[in-reply-to]] and [[like]] [[webmentions]] with [[authorship]] markup when people share a link ([http://my.spread.ly/share/51d570bc09e9486562000002 example])
 * [[App.net]] supports various indieweb building blocks, outlined in Dalton’s [http://blog.app.net/2013/08/07/response-to-brennan-novak-part-ii/ response to Brennan Novak part 2], including:
 ** [[PuSH]] support both as a publisher and (!) a subscriber, i.e. you can [[POSSE]] to App.net without writing a single line of code if you already publish an ATOM feed
 ** [[rel-me]] support for verified domains, enabling use as an [[indieauth]] provider
@@ -32,6 +32,10 @@ Data portability:
 ** displays a link to the canonical version of your own posts ([http://farm3.staticflickr.com/2854/9698340641_718f6d231d_o.png example])
 * Add more here
 * …
+
+=== Previously ===
+Sites that had some IndieWeb friendliness but appear to have been shut down or experienced [[site-death]].
+* [[Spreadly]]
 
 == See Also ==
 * [[Getting Started]]

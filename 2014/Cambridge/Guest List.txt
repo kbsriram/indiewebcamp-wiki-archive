@@ -5,8 +5,8 @@ http://indiewebcamp.com/2014/Cambridge/Guest_List
 * '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
 * '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
-* <a class="u-url url" href=""></a> e.g. lanyrd
-* <a class="u-url url" href=""></a> e.g. plancast
+* '''<a class="u-url url" href="http://lanyrd.com/2014/indiewebcampcambridge/">Lanyrd URL</a>'''
+<!-- * <a class="u-url url" href=""></a> e.g. plancast -->
 
 == Official Guest List ==
 
@@ -42,8 +42,8 @@ Curious about attending? See what happened at the main [[2014|IndieWebCamp 2014]
 If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. Then uncomment the above line. -->
 === Participants ===
 Venue Capacity: 48
-* Signed-up: 14
-* Spots remaining: 34
+* Signed-up: 16
+* Spots remaining: 32
 
 <span id="Creators">Alphabetically sorted by full display name.</span>
 
@@ -55,15 +55,6 @@ Venue Capacity: 48
 |org_url = http://esri.com
 |projects = [[p3k]], [[webmention.io]], [[IndieAuth]], [[micropub]]
 |elsewhere = [https://twitter.com/aaronpk @aaronpk], [https://github.com/aaronpk github.com/aaronpk]
-}}
-{{Attendee
-|name = [[User:noakes.in | Alex Noakes]]
-|img = http://web.mit.edu/asnoakes/Public/noakespicindieauth.jpg 
-|url = http://noakes.in
-|org_name = MIT
-|org_url = http://web.mit.edu
-|projects = http://crosscloud.org
-|elsewhere = [https://github.com/asnoakes asnoakes]
 }}
 {{Attendee
 |name = [[User:Caseorganic.com|Amber Case]]
@@ -112,14 +103,15 @@ Venue Capacity: 48
 |elsewhere = [https://twitter.com/erinjo @erinjo], [http://erinjo.is erinjo.is]
 }}
 {{Attendee
-|name = [[User:happynchill.in | Happy Enchill]]
-|img = http://happynchill.in/assets/chilProfile.jpg
-|url = http://happynchill.in
-|org_name = 
-|org_url = 
-|projects = 
-|elsewhere = [https://twitter.com/happyNChill @happyNCHILL]
+|name = Jesse Vincent
+|img = http://fsck.com/~jesse/Userpics/userpic-128x128.png
+|url = https://s.ly
+|org_name = Keyboardio 
+|org_url = http://keyboard.io
+|projects =  [https://github.com/obra/post Post] 
+|elsewhere = [https://twitter.com/obra @obra]
 }}
+
 {{Attendee
 |name = [[User:johneckman.com|John Eckman]]
 |img = http://johneckman.com/photos/john.jpg
@@ -176,6 +168,42 @@ Venue Capacity: 48
 [[Falcon]] (my personal site publishing software), [http://tantek.com/w/Whistle Whistle] (URL shortener)
 |elsewhere = [https://twitter.com/t @t], [https://github.com/tantek github.com/tantek]
 }}
+{{Attendee
+|name = Tim Owens
+|img = http://timowens.io/avatar128px.jpg 
+|url = http://timowens.io/
+|org_name = Reclaim Hosting
+|org_url = http://reclaimhosting.com/
+|projects = 
+|elsewhere = [https://twitter.com/timmmmyboy @timmmmyboy], [https://github.com/timmmmyboy github], [http://blog.timowens.io Blog], [https://www.google.com/+TimOwensProfile Google+]
+}}
+{{Attendee
+|name = Dafydd Harries
+|img = 
+|url = http://rhydd.org/
+|org_name = disorganised
+|org_url = 
+|projects = http://git.rhydd.org/
+|elsewhere = [https://twitter.com/yourname @yourname]
+}}
+{{Attendee
+|name = Benjamin Melançon
+|img = http://mlncn.withknown.com/file/00c7d8e67682303419851cd5bf04d11d/thumb.jpg
+|url = http://mlncn.withknown.com
+|org_name = Agaric
+|org_url = http://agaric.coop
+|projects = Would like to add IndieWeb features/integration to [https://www.drupal.org/ Drupal]
+|elsewhere = [https://twitter.com/mlncn @mlncn]
+}}
+{{Attendee
+|name = Willow Brugh
+|img = (128px square) 
+|url = http://blog.bl00cyb.org
+|org_name = Civic, Berkman, etc
+|org_url = civic.mit.edu, cyber.law.harvard.edu
+|projects = animations! viz.bl00cyb.org
+|elsewhere = [https://twitter.com/willowbl00 @willowbl00]
+}}
 
 {{Attendee
 |name = Your Name
@@ -194,9 +222,27 @@ Venue Capacity: 48
 === Apprentices ===
 Apprentices, add yourselves with your name, personal URL (if any), Creator, more info. Alphabetically sorted by given name.
 
-{{Attendee-placeholder
-|custom_message = Add to the list using the [[Template:Attendee-apprentice| attendee-apprentice template]]!
+{{Attendee-apprentice
+|name = Jessie Honigs (Saturday only)
+|apprentice_of = {{rascul}}
+|img = https://scontent-a-lga.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10492120_10205056127507018_7963460732441736293_n.jpg?oh=0acdcc44e7d34621124202c0d3885082&oe=54B5292F
+|url = jessielikes.coffee
+|org_name = 
+|org_url = 
+|elsewhere = https://www.facebook.com/jessielynnerabbit
 }}
+
+
+{{Attendee-apprentice
+|name = Kendra M
+|apprentice_of = {{mattl}}
+|img = (128px square)
+|url = 
+|org_name = GNU Project
+|org_url = https://gnu.org/
+|elsewhere = 
+}}
+
 
 <!-- If you are the first person adding yourself to this list, please remove the Attendee-placeholder template. -->
 
@@ -218,6 +264,26 @@ Apprentices, add yourselves with your name, personal URL (if any), Creator, more
 
 === Remote Participants ===
 As with past IndieWebCamps, we'll setup [[remote participation]] for folks who can't be there in person but can still participate during the camp over IRC and hopefully live video.
+
+{{Attendee
+|name = Kevin Marks
+|img = http://kevinmarks.com/km.jpg
+|url = kevinmarks.com
+|org_name = 
+|org_url = 
+|projects = [[noterlive]], [[Known]], [[unmung]]
+|elsewhere = [https://twitter.com/kevinmarks @kevinmarks]
+}}
+
+{{Attendee
+|name = Jason Garber
+|img = http://sixtwothree.org/jgarber.png
+|url = http://sixtwothree.org
+|org_name = 
+|org_url = 
+|projects = [https://github.com/jgarber623/FrancisCMS FrancisCMS]
+|elsewhere = [https://twitter.com/jgarber @jgarber]
+}}
 
 {{Attendee
 |name = Your Name

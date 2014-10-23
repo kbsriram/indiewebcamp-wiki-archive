@@ -15,6 +15,7 @@ http://indiewebcamp.com/Atom
 * '''tantek.com''' generates (using [[Falcon]]) an Atom+ActivityStreams feed from storage
 * '''[[User:Waterpigs.co.uk]]''' generates ATOM feeds from canonical HTML+h-feed feed pages on waterpigs.co.uk using [[Taproot]]
 * [[unmung]] generates an h-feed from any Atom or RSS one
+* [[User:cweiske.de]]'s blog natively generates full-text atom feeds for tag-filtered and all posts
 
 == Shutdowns ==
 See: [[feeds#Shutdowns|Feeds: Shutdowns]]

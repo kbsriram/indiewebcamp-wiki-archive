@@ -3,6 +3,8 @@ http://indiewebcamp.com/IndieAuth
 == What is IndieAuth ==
 '''<dfn>IndieAuth</dfn>''' is a way to '''use your own domain name''' to sign in to websites. It's like [[OpenID]], but works with services you probably already use!
 
+IndieAuth is an implementation of [[web sign-in]] and additional sign-in methods ([[TOTP]], email (via [[Persona]]), [[GPG]]).
+
 It works by linking your website to one or more authentication providers such as [[Twitter]] or [[Google]], then entering your domain name in the login form on websites that support IndieAuth.
 
 IndieAuth setup on your [[personal domain]] is a requirement for [[IndieMark]] Level 1.
@@ -158,6 +160,7 @@ You may use [[indieauth-openid]] to utilize [[OpenID]] for logging into indieaut
 
 === Security ===
 * The token can be sent to IndieAuth without TLS (or the docs make it appear so) such a request should be refused (*not* redirected) to prevent DNS poisoning, MITM, and race-condition attacks.
+* TOTP method is not terribly secure compared with all other methods. [http://btmb.me/s/2q ben.thatmustbe.me's criticism]
 
 === Need Simple Copy Paste How To ===
 The explanation in http://waterpigs.co.uk/articles/indiewebcamp-signin-ux/ provides a list of three lengthy descriptions of what you need to setup IndieAuth, which was then subsequently criticized as "this is not a straightforward process" in the post: http://aralbalkan.com/notes/on-evolving-indieauth/
@@ -224,6 +227,25 @@ Two possible fixes here:
 
 === RDFa ===
 Note that RDFa redefines 'rel' attribute processing incompatible with HTML(5) thus rel=me may produce unexpected results inside RDFa.[http://microformats.org/wiki/rel#RDFa_Incompatibility]
+
+Solution available in RDFa WG mail archives http://lists.w3.org/Archives/Public/public-rdfa/2014Oct/0005.html
+
+<blockquote>
+any non-CURIE (e.g. "me") will be ignored in a @rel if
+there is a @property attribute in the same element. Here is what I
+recommend to use, which simplifies your markup as you don't need to repeat
+the mailto:. Drop the @rel from the ul, and use something like this:
+
+<pre>
+<ul vocab="http://schema.org/">
+  <li>
+    <a rel="me" property="contactPoint" typeof="ContactPoint" href="mailto:
+perpetual-tripper@wwelves.org"><span
+property="name">email (smtp)</span></a>
+  </li>
+</ul>
+</pre>
+</blockquote>
 
 == To do ==
 Want to help? See if you can contribute to one or more of the following:

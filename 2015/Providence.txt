@@ -1,0 +1,25 @@
+http://indiewebcamp.com/2015/Providence
+
+= <span class="p-name summary">IndieWebCampProvidence 2015</span> =
+
+There seemed to be a fair number of people interested in attending [[2014/Cambridge|IWC Cambridge]] but could not make it in to the city.  There are a number of locations that would make Providence possible, with several schools that might be suitable location hosts.
+
+Currently I am looking for a [[#Organizers|co-organizer]] to help work out details of the event. - {{benthatmustbeme}}
+
+== Location Possibilities ==
+* AS220 has space downtown Providence, though I don't know if they would really have enough room for us.
+* University of Rhode Island has a Providence Campus building that might be able to host.  They also have a web developement track to their CS department and Ben Roberts is an Alum.
+* Brown University is close by to downtown and would certainly have the space to host.
+* RISD is also close by and might be convinced to host.
+
+== Organizers ==
+* '''Organizers''': {{benthatmustbeme}} , ...
+** Want to help organize? '''Get in touch with us on [[IRC]]!'''
+
+== See Also ==
+* [[Homebrew Website Club]]
+* [[Events]]
+
+{{IndieWebCamp}}
+
+[[Category:Events]]

@@ -2,7 +2,7 @@ http://indiewebcamp.com/User%3ABen.thatmustbe.me
 
 <dfn>Ben Roberts</dfn> Is a sysadmin and developer at a small company in Boston, MA who dreams of world domination. 
 
-I am currently developing [http://ben.thatmustbe.me my personal site].
+I am currently developing [https://ben.thatmustbe.me my personal site].
 
 * I'm a sysadmin / Developer at a small company in Boston, MA.
 * I have my Masters in Computer Science from the University of Rhode Island.
@@ -12,10 +12,10 @@ I am currently developing [http://ben.thatmustbe.me my personal site].
 
 
 = Projects =
-== [https://github.com/dissolve/openblog OpenBlog] ==
+== [https://github.com/dissolve/postly Postly] ==
 This is going to be my personal site and an MVC framework to build off of for others.  Currently in its initial stages, it is based on system libraries from [http://www.opencart.com OpenCart]
 
-TODO for OpenBlog  (this will grow a lot i'm sure)
+TODO for Postly  (this will grow a lot i'm sure)
 # <s>Rip main libraries out of OpenCart and Customize to run a simple site</s>
 # <s>Get main page up and running with basic h-entry formatting</s>
 # <s>Get Posts working</s>
@@ -47,6 +47,9 @@ TODO for OpenBlog  (this will grow a lot i'm sure)
 # Authentication Host
 # Micropub expanded to create more post types as well as edit/<s>delete</s> posts
 # Create Indie Events (and receive RSVPs)
+# Fix caching of archived pages.  Should not cache current mont/day or should clear on edit/create for that month
+# <s>implement [[permashortcitation]] when post is sufficiently short enough.</s>
+# Post types <s>Note</s> <s>Article</s> <s>Photo</s> <s>Reply</s> <s>RSVP</s> <s>Like</s> <s>Bookmark</s> CheckIn Video Audio Poll
 # anything else I can think of
 
 == Contacts List ==

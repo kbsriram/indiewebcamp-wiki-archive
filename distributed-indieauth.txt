@@ -60,6 +60,7 @@ Such as https://tokens.indieauth.com
 * [[Quill]] on https://quill.p3k.io/
 * [[Taproot]] on http://waterpigs.co.uk/
 * http://ben.thatmustbe.me/
+* https://kylewm.com as of 2014-10-19
 
 == See Also ==
 * [[IndieAuth]]

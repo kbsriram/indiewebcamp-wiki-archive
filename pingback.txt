@@ -76,6 +76,9 @@ Note that when spammers can easily install a WordPress plugin for [[webmention]]
 
 There is a known DDOS attack that uses servers with Pingback endpoints as part of the DDOS. See [[DDOS]] for more details.
 
+== Projects ==
+* https://github.com/aaronpk/webmention.io - webmention.io open source to run as a standalone process that can receive pingbacks (as well as webmentions) on your behalf (was <nowiki>https://github.com/aaronpk/Pingback</nowiki>)
+
 == History ==
 A brief history of pingback:
 {{main|timeline}}

@@ -23,8 +23,9 @@ These indieweb reply post permalinks visually represent that the post is in repl
 * http://tantek.com/2013/157/t3/pdf2013-third-rail-coffee-during-pdf13-break
 
 === Ben Werdmuller ===
-[[User:Werd.io|Ben Werdmuller]] has posted a multireply using [[idno]] on [http://werd.io/ werd.io], e.g.:
-* http://werd.io/view/51d92304bed7de880fc087cb
+[[User:Werd.io|Ben Werdmuller]] posts multireplies using [[Known]] on [http://werd.io/ werd.io], e.g.:
+* 2013-07-07 http://werd.io/view/51d92304bed7de880fc087cb - multi-reply to a personal site post, and a post on a company blog
+* 2013-07-24 http://werd.io/view/51f01e17bed7de2b1d060400 - multi-reply to two personal site posts.
 * ...
 
 === Kyle Mahan ===

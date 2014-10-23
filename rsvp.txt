@@ -17,6 +17,17 @@ See [[reply#Make_a_comment]] for more general details on posting replies.
 
 (a complete h-entry + p-rsvp markup example would be nice too)
 
+==== Multi RSVP ====
+If there are multiple copies of a single event (e.g. [[POSSE]] copies, or [[reposts]]), you can post a multi-RSVP, a single RSVP post that replies simultaneously to multiple event URLs.
+
+Publish a multi-RSVP just as it says above, and add [[in-reply-to]] markup for each of the events, similar to how a [[multi-reply]] does so to multiple posts.
+
+The difference is:
+* A '''multi-RSVP''' must link to multiple event posts only when they all represent the '''same real world event'''.
+* A plain '''multi-reply''' may be replying to '''multiple different posts''', that just happened to be '''related by topic or thread'''.
+
+(a complete multi-RSVP markup example would be nice too)
+
 === Update an RSVP ===
 Similarly, update your RSVP and send another webmention.
 
@@ -63,6 +74,11 @@ Example:
 * http://aaronparecki.com/replies/2013/06/25/3/indiewebcamp
 ** on event http://werd.io/event/51c94deebed7de5c2386a1b4/unofficial-portland-post-indiewebcamp-meetup
 
+'''Multi-RSVPs published''' [http://aaronparecki.com/replies/2014/09/08/1/ since 2014-09-08]. E.g.
+* http://aaronparecki.com/replies/2014/09/08/1/ - in-reply-to:
+** http://known.kevinmarks.com/2014/indieweb-xoxo-breakfast
+** http://aaronparecki.com/events/2014/09/13/1/indieweb-xoxo-breakfast
+
 ==== autosuggest ====
 If a [[p3k]] user is creating a [[reply]] to a URL, [[p3k]]:
 * parses the reply URL
@@ -87,6 +103,12 @@ Example:
 ** on event: http://aaronparecki.com/events/2013/09/21/1/indiewebcamp-breakfast
 ** showed up via Tantek doing a manual webmention (automation plan: have the Falcon posting UI perform webmentions when the user presses the "Post" button)
 ** It should be noted that any webmention I do will be manual for the time being.
+
+'''Multi-RSVPs published''' [http://tantek.com/2014/255/t3/going-indieweb-xoxo-breakfast since 2014-09-12]. E.g.
+* http://tantek.com/2014/255/t3/going-indieweb-xoxo-breakfast - in-reply-to:
+** http://known.kevinmarks.com/2014/indieweb-xoxo-breakfast
+** POSSE copy: https://www.facebook.com/events/1475412386074562/
+** http://aaronparecki.com/events/2014/09/13/1/indieweb-xoxo-breakfast
 
 == See also ==
 * [[posts]]

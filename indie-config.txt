@@ -55,57 +55,72 @@ Click "Add Application" (or the equivalent for your browser) and your website is
 
 == How to load someones indie-config ==
 
-An example Promise-based indie-config loader:
+An example callback-based indie-config loader with timeout-handler:
 
 <pre>
-// Lazy-create and return an indie-config load promise
-// The promise will be resolved with a config once the indie-config has been loaded
-var loadIndieConfig = function () {
+// Called like loadIndieConfig(function (config) { ... })
+var loadIndieConfig = (function () {
+  var config, configFrame, configTimeout,
+    callbacks = [],
+    handleConfig, parseConfig;
 
-  // Create the Promise to return
-  var loadPromise = new Promise(function (resolve) {
+  // When the configuration has been loaded – deregister all loading mechanics and call all callbacks
+  handleConfig = function () {
+    config = config || {};
 
-    // Parse the incoming messages
-    var parseIndieConfig = function (message) {
+    configFrame.parentNode.removeChild(configFrame);
+    configFrame = undefined;
 
-      // Check if the message comes from the indieConfigFrame we added (or from some other frame)
-      if (message.source !== indieConfigFrame.contentWindow) {
-        return;
-      }
+    window.removeEventListener('message', parseConfig);
 
-      var indieConfig;
+    clearTimeout(configTimeout);
 
-      // Try to parse the config, it can be malformed
-      try {
-        indieConfig = JSON.parse(message.data);
-      } catch (e) {}
-
-      // We're done – remove the frame and event listener
-      window.removeEventListener('message', parseIndieConfig);
-      indieConfigFrame.parentNode.removeChild(indieConfigFrame);
-      indieConfigFrame = undefined;
-
-      // And resolve the promise with the loaded indie-config
-      resolve(indieConfig);
-    };
-
-    // Listen for messages from the added iframe and parse those messages
-    window.addEventListener('message', parseIndieConfig);
-
-    // Create a hidden iframe pointing to something using the web+action: protocol
-    var indieConfigFrame = document.createElement('iframe');
-    indieConfigFrame.src = 'web+action:load';
-    document.getElementsByTagName('body')[0].appendChild(indieConfigFrame);
-    indieConfigFrame.style.display = 'none';
-  });
-
-  // Ensure that subsequent invocations return the same promise
-  loadIndieConfig = function () {
-    return loadPromise;
+    while (callbacks[0]) {
+      callbacks.shift()(config);
+    }
   };
 
-  return loadPromise;
-};
+  // When we receive a message, check if the source is right and try to parse it
+  parseConfig = function (message) {
+    var correctSource = (configFrame && message.source === configFrame.contentWindow);
+
+    if (correctSource && config === undefined) {
+      try {
+        config = JSON.parse(message.data);
+      } catch (ignore) {}
+
+      handleConfig();
+    }
+  };
+
+  return function (callback) {
+    // If the config is already loaded, call callback right away
+    if (config) {
+      callback(config);
+      return;
+    }
+
+    // Otherwise add the callback to the queue
+    callbacks.push(callback);
+
+    // Are we already trying to load the Indie-Config, then wait
+    if (configFrame) {
+      return;
+    }
+
+    // Create the iframe that will load the Indie-Config
+    configFrame = document.createElement('iframe');
+    configFrame.src = 'web+action:load';
+    document.getElementsByTagName('body')[0].appendChild(configFrame);
+    configFrame.style.display = 'none';
+
+    // Listen for messages so we will catch the Indie-Config message
+    window.addEventListener('message', parseConfig);
+
+    // And if no such Indie-Config message has been loaded in a while, abort the loading
+    configTimeout = setTimeout(handleConfig, 3000);
+  };
+}());
 </pre>
 
 == FAQ ==
@@ -130,7 +145,7 @@ A: That function [https://bugzilla.mozilla.org/show_bug.cgi?id=440620 doesn't ex
 
 Pelle publishes JavaScript on http://voxpelli.com that queries a user's registered web+action handler the first time an indie-action is clicked. If an appropriate action handler is found, his "Reply" and "Post" links will use it instead of the default.
 
-Uses the [http://x-tags.org/ X-Tags] library to configure &lt;indie-action> tags through the use of a simple [https://github.com/voxpelli/indie-action-component proof-of-concept web component].
+<strike>Uses the [http://x-tags.org/ X-Tags] library to configure &lt;indie-action> tags through the use of a simple [https://github.com/voxpelli/indie-action-component proof-of-concept web component].</strike>
 
 === [[User:waterpigs.co.uk|Barnaby Walters]] ===
 
@@ -142,7 +157,10 @@ Registers indie-config handlers for reply, repost, favorite, and like actions us
 
 Began adapting [[#How_to_load_someones_indie-config]] to work on my site (heavily referencing the implementation on voxpelli.com). I stalled out when I could not figure out how to detect/handle the situation where no web+action handler is configured. The code so far is here https://gist.github.com/kylewm/9d97c456011868532271
 
+== Brainstorming ==
 
+=== Return Route ===
+It would be nice to have an extra argument for a URL to return to after the action has been completed. This way we can complete everything in one window. No pop-up required.
 
 == See Also ==
 * [[webactions]]

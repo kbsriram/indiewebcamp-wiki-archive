@@ -6,6 +6,14 @@ http://indiewebcamp.com/ind.ie
 
 Despite the use of the word "indie," it is [[distinct]] from IndieWebCamp.
 
+== Indienet ==
+<blockquote>
+We are building a new post-cloud platform where you are the network.<br><br>
+
+It’s called the Indienet.
+<cite>https://ind.ie/</cite>
+</blockquote>
+
 == See Also ==
 * [[Indie Tech Summit]]
 * [[indie]]

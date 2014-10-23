@@ -29,6 +29,7 @@ You may also want to simply [[redirect]] a new page to an existing page.
 * See [[redirect]] for how to do that.
 
 == See Also ==
+* [[dfn]]
 * [[redirect]]
 * [[start]]
 * [[Getting Started]]

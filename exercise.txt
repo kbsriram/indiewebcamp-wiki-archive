@@ -91,3 +91,4 @@ IndieWebCamp sessions about exercise and other physical activities.
 * [[notes]]
 * [[posts]]
 * [[checkin]]
+* [[food]]

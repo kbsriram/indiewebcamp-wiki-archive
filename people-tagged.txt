@@ -1,3 +1,3 @@
 http://indiewebcamp.com/people-tagged
 
-#redirect:[[people-tag]]
+#redirect:[[person-tag]]

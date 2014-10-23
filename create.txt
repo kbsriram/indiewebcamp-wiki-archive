@@ -13,9 +13,14 @@ Related: ''[[creator]]'', someone who is creating [[UI]], [[design]], [[code]] f
 * http://waterpigs.co.uk/articles/new
 
 === Aaron Parecki ===
+==== p3k note ====
 Early (2012-09-09), [[p3k]] posting interface:
 
 [http://aaronparecki.com/2012/253/note/3 http://aaronparecki.com/notes/2012/09/09/3/files/indieweb-posting-ui.png]
+
+==== p3k event ====
+
+[http://aaronparecki.com/replies/2014/09/27/1/event-interface http://aaronparecki.com/replies/2014/09/27/1/files/event-interface.png]
 
 === Tom Morris ===
 {{main|Ferocity#Posting_UI}}
@@ -27,9 +32,25 @@ Early (2012-09-09), [[p3k]] posting interface:
 * The tickbox for Twitter lets him decide whether to syndicate the post to Twitter or not.
 
 === Jeremy Keith ===
+==== adactio notes ====
 Since 2014-05-27, [[User:adactio.com|Jeremy Keith]]'s note creation UI ("simple update form") on his home page when he's logged into his site adactio.com:
 
 [http://adactio.com/journal/6826/ https://d13yacurqjgara.cloudfront.net/users/13/screenshots/1577366/adactio-form.png][https://dribbble.com/shots/1577366-Speak-your-brains]
+
+==== and adactio photos ====
+On 2014-07-05 he added the ability to attach a photo to a note, as a way to do simple [[photo]] posts (which [[POSSE]]d to both [[Twitter]] and [[Flickr]]
+
+You can baerly see the UI with the addition of a "Choose File" HTML file input, in the second window on his laptop screen here in this photograph:
+
+[https://adactio.com/notes/6978/ <img style="max-width:100%" src="https://adactio.com/images/uploaded/6978/large.jpg" alt="Jeremy Keith's laptop with a window of code in the foreground and his home page with posting UI in a window behind it."/>]
+
+==== per silo POSSE toggles ====
+He then subsequently ~2014-10-01 added the ability to selectively (per post) toggle POSSEing to Twitter and/or Flickr (both default on).
+
+[https://adactio.com/notes/7563 https://d13yacurqjgara.cloudfront.net/users/13/screenshots/1748262/checkboxes.png]
+
+Jeremy has also '''[https://gist.github.com/adactio open sourced]''' these animated sliding toggles: 
+* http://jsbin.com/rugonu/6/edit <-- try it for yourself
 
 == See Also ==
 * [[note]]

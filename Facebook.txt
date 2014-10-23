@@ -187,6 +187,10 @@ After using Facebook's [https://developers.facebook.com/tools/debug/og/object/ O
 
 The image I'm using currently is only ~120px square. I guess that explains it, but it seems silly for Facebook to ignore the explicit <code>og:image</code> element I have set up. — {{gRegor}}
 
+=== Duplicate Events Created without Confirmation ===
+
+On 2014-10-20 I ({{kylewm}}) tried to create a new HWC event using the "Copy Event" UI. I filled in the appropriate fields and clicked "Create". The button greyed out momentarily, and then re-enabled without any confirmation that the event had been copied. I checked my activity feed to see if it was there, and it was not, so I proceeded to click Create two more times before it seemed to go through. Some time later, 3 identical FB events all appeared (maybe an eventual consistency issue?).
+
 == Advocates ==
 Robert Scoble defended using Facebook in a post, "[https://plus.google.com/+Scobleizer/posts/ZSJzgnvKaWy What will you miss when you quit Facebook?]"
 
@@ -196,6 +200,7 @@ Someday Facebook will change ''something'' (or just [[site-deaths|disappear]]), 
 
 == Articles ==
 Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):
+* 2014-10-12 [http://educationaltechnology.ca/couros/2482 Facebook’s Identity Authentication Is Broken]
 * 2014-03-13 [http://www.theverge.com/2014/3/13/5488558/danah-boyd-interview-the-era-of-facebook-is-an-anomaly The era of Facebook is an anomaly]
 * 2014-01-21 [http://business.time.com/2014/01/21/facebook-is-about-to-lose-80-of-its-users-study-says/ Facebook Is About to Lose 80% of Its Users, Study Says]
 * 2014-01-15 [http://techcrunch.com/2014/01/15/even-president-obama-thinks-that-facebook-isnt-cool-anymore/ Even President Obama Thinks That Facebook Isn’t Cool Anymore]

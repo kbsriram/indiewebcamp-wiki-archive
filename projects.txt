@@ -118,6 +118,9 @@ Other independents that are using it on their <em>primary</em> self-identifying 
 * Don Park (donpdonp) (since 2008) [http://donpark.org donpark.org]
 * ...
 
+=== Tiki Suite ===
+{{main|Tiki Suite}} is a selection of Free / Libre / Open Source Software (FLOSS) server, web, mobile and desktop apps with a concerted focus on greater interoperability, security and adaptability, which is aimed at small & medium-sized organizations .
+
 === Other Production Projects ===
 Other projects which are production quality but are not primary blogging / content hosting projects (the heart of an IndieWeb site).
 
@@ -294,10 +297,10 @@ IndieWeb enthusiasts using it on their own site:
 * [[User:Geo.gs|George Em]] on [http://geo.gs/ geo.gs]
 * ...
 
-=== OpenBlog ===
-{{main|OpenBlog}}
+=== Postly ===
+{{main|Postly}}
 
-OpenBlog is [[User:ben.thatmustbe.me|Ben Roberts]]' blogging platform.  Based in PHP and MySQL it aims to be a platform for easy creation of experimental features.  The source code is available [https://github.com/dissolve/openblog on GitHub].
+Postly is [[User:ben.thatmustbe.me|Ben Roberts]]' blogging platform.  Based in PHP and MySQL it aims to be a platform for easy creation of experimental features.  The source code is available [https://github.com/dissolve/postly on GitHub].
 
 IndieWeb enthusiasts currently using it on their own site:
 * [[User:ben.thatmustbe.me|Ben Roberts]]  on [http://ben.thatmustbe.me ben.thatmustbe.me]
@@ -387,6 +390,23 @@ IndieWeb enthusiasts using it on their primary site:
 * [[User:Cweiske.de]] on [http://cweiske.de/ cweiske.de] ([[selfdogfooding]])
 
 Similar to [[#Pingback2hook]] and [[#Webmention.io]].
+
+==== TheGrid ==== 
+
+[https://thegrid.io/ The Grid], (officially designated as "AI Websites that design themselves")
+
+* smart template engine or generating layout from content
+* see also related project: [http://gridstylesheets.org/ Grid Style Sheet]
+
+The "AI" component is quite unclear up to this day (on the 16th of October 2014).
+
+Provided the [https://thegrid.io/team/ team] at thegrid.io and especially from what [http://bergie.iki.fi/ Henri Bergius] bio suggests, we might be able to contribute in a near future to open source bricks designed in a [http://noflojs.org/ NoFlo flow-based] programming environment 
+
+* see also [https://github.com/the-grid | the Grid organization hosted at GitHub]).
+
+Content would most likely be hosted on GitHub (via GitHub pages), following this [https://github.com/the-domains/the-grid official example]. 
+
+One might wonder if content could easily be hosted elsewhere by late [https://thegrid.io/faq/ Spring 2015] (according to the current roadmap and for "founding members") and rendering layout be similarly custom-tailored.
 
 ==== Whistle ====
 [http://tantek.com/w/Whistle Whistle] is an [[algorithmically]] reversible personal URL shortener. There is an instance of Whistle running at [http://ttk.me ttk.me].
@@ -563,6 +583,13 @@ http://indieboxproject.org/ management software that allows the simple administr
 
 Used by:
 * [[User:Upon2020.com|Johannes Ernst]] is using it at home for web applications used by his family. Those include OwnCloud, Shaarli, Selfoss, Wordpress, and some home-grown ones.
+
+===Squiso===
+{{main|Squiso}}
+Squiso wants to create a decentralized open social web, by allowing users to host their own social data or trust a service provider of their choice.
+
+Used and primary developed by:
+* [[User:Indieauth.christoffer.me|Squeakytoy in IRC]]
 
 == Abandoned ==
 Projects that may have supported IndieWeb sites in the past but that appear to be abandoned:

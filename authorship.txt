@@ -83,6 +83,19 @@ This would handle the examples from above:
 * {{t}}'s home page at http://tantek.com/
 * ...
 
+
+==== Fallback to icon for photo ====
+Proposal: if the author doesn't have a photo in their entry h-card, and they also don't have a photo on their representative h-card, but you still want to display a photo as an avatar, how about looking for an [[icon]] in the head of the document?
+
+If a rel="icon" value exists that is using type="image/jpg" (or maybe type="image/png", but *not* type="image/ico"), then that image could be used an avatar. If a sizes attribute exists, a parser can look for the most appropriate size for display as an avatar.
+
+This could be used as a last resort if every other photo discovery mechanism fails to return an image.
+
+(idea by [http://loic.mathaud.fr/ Loic])
+
+Examples of sites with icons, but without photos in h-cards:
+* https://adactio.com/
+
 == Algorithm Design Notes ==
 Why do we parse for the authorship details in the order that we do?
 

@@ -205,6 +205,7 @@ There are many projects under development that make installing of server side so
 * [https://arkos.io ArkOS]
 * [https://cloudfleet.io Cloud Fleet]
 * [http://cozy.io Cozy]
+* [[Tiki Suite]]
 * More projects exists, please add them...
 
 To note, running a server from a home or office requires either a static IP address purchased from an ISP, as well custom router settings (if using a router). There are however approaches around this problem that routes through the NAT and firewall through methods like reverse proxying.

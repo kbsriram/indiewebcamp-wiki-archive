@@ -1,0 +1,16 @@
+http://indiewebcamp.com/Movable_Type
+
+{{stub}}
+<dfn>[http://movabletype.com Movable Type]</dfn> is commercial blogging software written in Perl and original released in 2001.
+
+Many, very active 10+ year old blogs use Movable Type, e.g.,
+
+* http://dashes.com/anil/
+* http://daringfireball.net/
+* http://waxy.org/
+* http://codinghorror.com - 2004[http://blog.codinghorror.com/coding-horror-movable-type-since-2004/] - 2014[http://blog.codinghorror.com/10-years-of-coding-horror/]
+
+This makes it an interesting case study for [[longevity]]. 
+
+<blockquote>Movable type is interesting in the database debate. It uses a database, but renders all pages to static files by default. So sites made with it tend to be less fragile and persist longer</blockquote>
+-- [[User:Kevinmarks.com]] [http://indiewebcamp.com/irc/2014-10-16/line/1413520738812 on IRC]

@@ -418,5 +418,6 @@ Session notes from events where web actions have been discussed:
 * A list of currently available [[Web Action URL APIs]]
 * https://wiki.mozilla.org/WebActions
 * The [http://tagboard.com/webactions #webactions tagboard]
+* [[indie-config]]
 
 [[Category:building-blocks]]

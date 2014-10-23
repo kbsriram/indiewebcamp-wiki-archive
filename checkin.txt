@@ -35,15 +35,25 @@ In rough launch/implementation order:
 
 === Tom Morris ===
 [[User:Tommorris.org|Tom Morris]] is using [[Ferocity]] on tommorris.org to publish notes with venue data in an embedded [[h-card]] with [[geo]] microformat hyperlink (with title="lat;long") since 2013-02-02 . Examples:
-* [http://tommorris.org/posts/8073][http://tommorris.org/posts/8074]
+* http://tommorris.org/posts/8073
+* http://tommorris.org/posts/8074
 
 === Ben Werdmuller ===
-[[User:Werd.io|Ben Werdmuller]] is using [[idno]] to post checkins since ????-??-??. e.g.:
-* ... (need checkin permalink)
+[[User:Werd.io|Ben Werdmuller]] is using [[Known]] to post checkins since ????-??-??. e.g.:
+* http://werd.io/2014/checked-into-moscone-center
 
 === Kyle Mahan ===
 {{kylewm}} is using [[Red Wind]] on kylewm.com to publish checkins since 2014-03-24. E.g.:
 * https://kylewm.com/checkin/2014/05/27/1
+
+=== Michael Owens ===
+{{mko}} is using [[indie.js]] to post checkins with POSSE to [[Foursquare]] since 2014-09-07 e.g.,
+* https://mowens.com/checkins/2014/09/07/1/checking-in-from-my-own-website (POSSE)
+* https://mowens.com/checkins/2014/10/16/1/ (PESOS)
+
+[[File:mko-checkin-example-2014-10-15.png|thumb|left]]
+
+<div style="clear:both">&nbsp;</div>
 
 == questions ==
 More explorations/brainstorms than FAQ yet.

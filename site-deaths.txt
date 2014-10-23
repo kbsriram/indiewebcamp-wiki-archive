@@ -29,8 +29,9 @@ Soonest first:
 ** Data export: <blockquote>Yes! You can either email hello@mlkshk.com with your user name or click the link “Request Zip File Of All My Images” on your account settings page. It should take about a day to process your request if we don’t get inundated with requests.</blockquote>
 ** Will be working with Archive Team to have data stored there as well. [https://twitter.com/mlkshk/status/463448796785934336]
 
-* 2014-09-25 '''TwitPic''' will shut down.
-**Reason: <blockquote>A few weeks ago Twitter contacted our legal demanding that we abandon our trademark application or risk losing access to their API. [..] Unfortunately we do not have the resources to fend off a large company like Twitter to maintain our mark which we believe whole heartedly is rightfully ours. Therefore, we have decided to shut down Twitpic.</blockquote>
+* 2014-09-25 '''TwitPic''' announced it would be shut down, but on 2014-09-18 '''TwitPic''' stated it was acquired and would not be shut down. 
+**"We're happy to announce we've been acquired and Twitpic will live on! We will post more details as we can disclose them"[https://twitter.com/TwitPic/status/512705809696837632]
+**Original reason for the shutdown announcement: <blockquote>A few weeks ago Twitter contacted our legal demanding that we abandon our trademark application or risk losing access to their API. [..] Unfortunately we do not have the resources to fend off a large company like Twitter to maintain our mark which we believe whole heartedly is rightfully ours. Therefore, we have decided to shut down Twitpic.</blockquote>
 ** Data export: <blockquote>You will be able to export all your photos and videos. We’ll let everyone know when this feature is live in the next few days.</blockquote>
 
 * 2014-09-30 '''Orkut''' will shut down but it looks like they might not break the public archives.
@@ -68,6 +69,8 @@ See also (and add one-line summaries to) the [[history|history page]].
 In reverse chronological order:
 
 === 2014 === 
+* 2014-10-11 ''Ohlife.com'', a small free service allowing people to write a letter to their future self [http://ohlife.com/shutdown]. Users were told that they could save their entries to a text file and given a link to download those files before the shutdown date. 
+* 2014-08-?? ''markbox.io'', a small paid hosting service [http://www.markbox.io/ shut down] when its single server "simply went away". The guts of the service were simplified and open-sourced as [http://www.monkinetic.com/2014/09/02/boxpub boxpub].
 * 2014-08-10 '''Fotopedia''' photo encyclopedia and photo album host to be [http://blog.fotopedia.com/fotopedia-shutdown/ shut down]
 ** Announced 2014-07-31: ". . . your data will be available to download until August 10, 2014. After this date, all photos and data will be permanently deleted from our servers."
 
@@ -103,6 +106,9 @@ In reverse chronological order:
 
 * 2014-06-01 '''Ubuntu One''' cloud sync service run by Canonical, makers of Ubuntu, to be [https://one.ubuntu.com/services/shutdown/ discontinued].
 ** ". . . user content will remain available for download until 31 July, at which time it will be deleted."
+
+* 2014-06-?? '''Spreadly''' social sharing platform
+** Service was shut down because company closed. All data was deleted without providing any kind of export.
 
 * 2014-05-30 '''Editorially''' collaborative writing and editing platform
 ** Service will be shut down; did not get enough users to make it sustainable. Users have until shut down date to export their data. Archive will include a plain text file for every version of every document you have access to; it will also include comments, version notes, tags, activity, and other metadata about your documents. That metadata will be provided in the form of a YAML file. https://editorially.com/help
@@ -149,6 +155,10 @@ In reverse chronological order:
 * 2013-09-19- '''.Net Magazine''', a web industry magazine, merged with creative bloq
 ** www.shanehudson.net/2013/09/19/stop-deleting-content/
 ** how many URLs lost? apparently top 500 articles out of > 9000 were moved with proper redirects, working on moving others
+* 2013-09-01 '''GeoURL''' 503 Service Unavailable
+** GeoURL is (was) a location-to-URL reverse directory. This will allow you to find URLs by their proximity to a given location
+** http://www.crunchbase.com/organization/geourl reports "Organization closed on September 1, 2013"
+** At least these two domains: geourl.org & geourl.com
 * 2013-08-05 '''Yahoo! Astrid (task tracking service)'''
 ** Astrid’s team has made a data export tool available and pointed to former competitors Wrike, Wunderlist, Sandglaz, and Any.do as potential replacements.
 ** 2013-07-06: http://techcrunch.com/2013/07/06/astrid-goes-dark-august-5-goodnight-sweet-squid/
@@ -285,6 +295,9 @@ In reverse chronological order:
 ** 2011-06-01 Google Base account freeze - no new account creation
 ** 2005-11-15 [http://googleblog.blogspot.com/2005/11/first-base.html Google base launched], i.e. see Tom Coates's post: [http://www.plasticbag.org/archives/2005/11/in_which_google_base_launches/ In which Google Base launches...] where he references a specific [http://base.google.com/base/items?oid=10593152641715853026 Google Base page - a recipe] (dead base.google.com link).
 
+* 2011-01-17 [http://blog.spreadly.com/2011/01/17/bye-bye-yiid-hello-spreadly/ '''YIID''' was shut down] (german article)
+** 2011-01-17 [http://www.crunchbase.com/organization/yiid YIID] was merged into [http://www.crunchbase.com/organization/spread-ly Spreadly]
+
 === 2010 ===
 * 2010-12-10 [http://techcrunch.com/2010/12/10/brightkite-check-in-dead/ '''Brightkite''' shut down] - was at brightkite.com
 ** ??? number of user profiles lost
@@ -395,6 +408,9 @@ In reverse chronological order:
 == Related ==
 * [[Why]] - other problems with using and depending on 3rd party sites
 * [http://pinterest.com/googlegraveyard/google-graveyard/ Google Graveyard] (on pinterest.com)
+* http://en.wikipedia.org/wiki/List_of_Google_products#Discontinued_products_and_services
+* http://techcrunch.com/tag/deadpool/
+* http://www.reddit.com/r/shutdown/
 
 == See Also ==
 * [[history]]

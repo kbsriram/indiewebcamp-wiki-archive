@@ -52,12 +52,21 @@ Or, perhaps provide the option to send the message via txt/SMS, perhaps only all
 Related: [[2012/Simple_Indie_Web_Messaging_Stack]]
 
 == commenting ==
-Allow [[comments]] (perhaps again when in a white-list)
+=== inline commenting UI ===
+;Create
+:Allow signed in users to ''create'' comments by posting to their own website (e.g. via [[Micropub]]) and auto-[[webmention]] them back onto the post and display them in real-time. This way your website itself is indieweb [[friendly]] towards others with indiewebsites and empowers them to own their comments.
+;Update / Edit
+:Allow signed in users to ''edit'' their existing comments, perhaps similarly via [[Micropub]] edit to their own sites, auto-webmention [[CRUD]] update displayed in real-time on the post.
+;Delete
+:Allow signed in users to ''delete'' their existing comments, perhaps similarly via [[Micropub]] delete to their own sites, auto-webmention [[CRUD]] deletion displayed (animated?) in real-time on the post. Perhaps even with an "Undo delete" button where the comment used to be. And then implement Undo.
+
+=== local comments ===
+Allow local [[comments]] (perhaps again when in a white-list)
 * Though you should first implement [[comment#Accept_a_comment|accepting comments]] via notification via [[webmention]] and [[comments-presentation|displaying such comments]].
 
 This is the original use-case for decentralized identity that inspired [[OpenID]].
 
-You might want to only allow signed-in users to comment on your posts.
+You might want to only allow signed-in users to create local comments on your posts.
 
 Or perhaps again use a white-list to allow only a set of trusted users to make comments.
 

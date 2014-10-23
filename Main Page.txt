@@ -38,14 +38,14 @@ We meet every other Wednesday<abbr title="skipping any official US Holidays">*</
 
 The next Homebrew Website Club meetup is:
 <div class="h-event vevent">
-* <time class="dtstart dt-start">2014-10-08 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-10-08-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London,--> Chicago, Minneapolis, Portland and SF!</span>'''
+* <time class="dtstart dt-start">2014-10-22 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-10-22-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London,--> Chicago, Minneapolis, Portland and SF!</span>'''
 </div>
 {{clear}}
 
-See more [[events|upcoming IndieWeb events]]
+{{Homebrew Website Club}}
 
 == IndieWebCamp ==
-[[Image:indiewebcamp-pdx-2014-day2.jpg|250px|thumb|right|<span>Indie Web Camp [[2014]] by [http://aaronparecki.com/notes/2014/06/30/1/indiewebcamp aaronpk]</span>]]
+<span style="float:right;width:250px">[http://indiewebcamp.com/File:iwc-cambridge-sway.gif <img src="http://indiewebcamp.com/images/5/5d/iwc-cambridge-sway.gif" style="width:250px; float:right" alt="IndieWebCamp 2014 participants doing jazz hands"/>]Indie Web Camp [[2014/Cambridge|2014 Cambridge]] by {{aaronpk}}</span>
 
 <span class="p-description description">'''<dfn>IndieWebCamp</dfn>''' is a gathering of web [[creators]] building &amp; sharing open web technologies to advance the state of the indie web. We get together for a weekend to discuss how we can empower people to own their identities and data, then spend a day hacking &amp; creating.</span> 
 
@@ -72,6 +72,8 @@ Join us at MIT for '''two days''' of a BarCamp-style gathering of web creators b
 * '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
 * '''Cost:''' Free
 </div><!-- h-event -->
+
+{{IndieWebCamp}}
 
 == More Events ==
 * More [[events|upcoming IndieWeb events]]

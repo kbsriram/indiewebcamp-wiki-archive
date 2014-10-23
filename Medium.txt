@@ -4,16 +4,34 @@ http://indiewebcamp.com/Medium
 
 '''<dfn>[http://medium.com Medium]</dfn>''' is an [[article]] hosting [[silo]].
 
+== Features ==
+Medium provides the following features:
+
+* [[signup]] &amp; [[login]] with [[Twitter]] sign-in
+** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]]
+* [[post]] an [[article]]
+* ...
+* [[profile]] page (equivalent of indieweb [[homepage]]) configuration including
+** [[icon]] (from Twitter)
+** name (from Twitter)
+** plain text bio (from Twitter)
+** ...
+* ...
+
 == POSSE ==
-It is possible to manually POSSE articles to Medium.
+It is possible to manually POSSE articles to Medium, there is no API to do so.
 
 === IndieWeb Examples ===
 ==== Shane Becker ====
-Shane Becker is manually POSSEing his articles to Medium, e.g.:
+Shane Becker is manually POSSEing his articles to Medium [http://iamshane.com/articles/2013/8/8/1/json-ld-is-an-uneeded-spec since at least 2013-08-08] (maybe longer) e.g.:
 * http://iamshane.com/articles/2013/8/8/1/json-ld-is-an-uneeded-spec
 ** POSSE copy: https://medium.com/indieweb-thoughts/70d1ab49bfbb
+==== Kevin Marks ====
+{{kevinmarks}} is manually POSSEing his articles to Medium [https://medium.com/@kevinmarks/fragmentions-41ef2be9953f since 2014-04-21], e.g.:
+* http://www.kevinmarks.com/fragmentions.html (2014-04-17)
+** POSSE copy: https://medium.com/@kevinmarks/fragmentions-41ef2be9953f
 
-=== Criticism ===
+== Criticism ==
 * 2010-07-10 http://iamshane.com/articles/2010/11/7/1/no-more-sharecropping
 ** POSSEd to Medium: https://medium.com/indieweb-thoughts/9d0e36524dbf
 * https://medium.com/surveillance-state/19a5db211e47 (currently 404s - anyone have an archive?)

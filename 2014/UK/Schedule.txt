@@ -87,7 +87,7 @@ All day: '''dConstruct'''!
 |colspan="4" align="center"|'''Doors Open, Badges, Coffee/Breakfast'''
 |-
 | 10:00
-|colspan="4" align="center"|'''Day 2 Kickoff, [[Hack Day Intro]]'''
+|colspan="4" align="center"|'''Day 2 Kickoff, [[2014/UK/Hack Day Intro|Hack Day Intro]]'''
 |-
 | 10:45 Hack Sessions <div style="height:5em;"></div>
 |

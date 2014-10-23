@@ -47,6 +47,18 @@ It should be noted that all of the existing free domain registrars use [[Freenom
 * Domains can only be renewed by registering with a valid email address
 * WHOIS information for free domains will display "domain administrator" information, so no personally identifiable information is displayed
 
+== Namecoin ==
+[http://namecoin.info/ Namecoin] is a bitcoin fork, originally founded to be a decentralized DNS network for .bit domains.
+
+Pros:
+* decentralized
+* anonym
+
+Cons:
+* requires mining or buying namecoins
+* requires running a daemon to maintain the infrastructure
+
+
 == See Also ==
 * [[Getting Started]]
 * [[domain name registrar]]
@@ -54,8 +66,3 @@ It should be noted that all of the existing free domain registrars use [[Freenom
 * [[DNS]]
 * [[hosting]]
 * [[IndieMark]]
-
-== Brainstorming ==
-Long-shot idea: a TLD domain name, which only holds domains from the DNS servers hosting the zone. 
-It would be bullet-proof, since it's brutally distributed, free to register a domain if you're willing to serve the whole dns zone.
-Possible issues could be the size where this could grow and usual domain abuse / fake domains.

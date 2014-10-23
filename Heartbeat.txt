@@ -1,0 +1,22 @@
+http://indiewebcamp.com/Heartbeat
+
+{{stub}}
+
+'''<dfn>[https://ind.ie/##network+with+a+heart HeartBeat]</dfn>''' is projected to be a peer-to-peer private-by-default, social network client by [[ind.ie|Ind.ie]].
+
+A very early pre-alpha version for OS X Yosemite is projected to be launched in November 2014.
+
+== Self-description ==
+
+''Heartbeat is a social network client that is private by default. It’s peer-to-peer and uses a distributed synchronisation engine called Pulse. You can use Heartbeat to share your thoughts, photos, or anything else privately across all your devices. You can also share privately with your friends, or publish publicly for the whole world to see via the Web.
+
+You have full ownership and control.
+
+Heartbeat is free as in freedom.
+
+And it’s a beautiful, simple experience.'' quoted from [https://ind.ie/##network+with+a+heart]
+
+== Questions ==
+
+* i'm more interested in how the experience is rather than technical details. like if I post privately where is the post stored. If I post publicly is it viewable on a URL. If so whose URL? Or is all of this stuck inside Heartbeat, in which case so much for freedom -- [[User:kartikprabhu.com|Kartik]] on [http://indiewebcamp.com/irc/2014-10-01#t1412199537860]
+* more questions...

@@ -1,0 +1,20 @@
+http://indiewebcamp.com/food
+
+{{stub}}
+
+'''<dfn>Food</dfn>''' is a post type that represents eating or drinking particular food or drink. Its content is often similar to a [[note]] or can be easily represented as plain text. 
+
+== IndieWeb Examples ==
+__TOC__
+=== Aaron Parecki ===
+{{aaronpk}} uses his open source [https://teacup.p3k.io Teacup] web and [[Pebble]] app to track food and drink consumption and publish to his website since [http://aaronparecki.com/2014/10/03 2014-10-03], with his backlog imported back to [http://aaronparecki.com/2013/08/19 2013-08-19].
+
+Examples:
+* http://aaronparecki.com/metrics/2014/10/07/075941/
+* http://aaronparecki.com/metrics/2014/10/07/164122/
+
+== See Also ==
+* [[notes]]
+* [[posts]]
+* [[checkin]]
+* [[exercise]]

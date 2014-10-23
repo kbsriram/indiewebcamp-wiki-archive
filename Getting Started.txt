@@ -32,6 +32,9 @@ Sign up for [[web hosting]]
 * Sign up with a web hosting provider (ask friends and colleagues who they use for their personal websites that they're happy with, also see Lifehacker's [http://lifehacker.com/5911651/five-best-web-hosting-companies list of 5 best web hosting companies])
 * Set up your domain name to be served by your web hosting provider
 
+=== Home Server ===
+You can also self-host on your own server. Interesting to hobbyists are the many [[Small Computers]] available that can be used as servers, including Raspberry Pi, Beaglebone Black, Intel Galileo, and a host of other small, low-power computers.
+
 == Set up your home page and web sign-in ==
 {{main|How to set up web sign-in on your own domain}}
 Create and upload a simple <code>index.html</code> home page that includes [[rel-me]] links to your social network profiles, and ensure that the profiles link back to your domain.

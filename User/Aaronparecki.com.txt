@@ -1,11 +1,10 @@
 http://indiewebcamp.com/User%3AAaronparecki.com
 
 [[Image:aaronpk.jpg|right|200px]]
-= Aaron Parecki =
+= <a class="h-card" href="http://aaronparecki.com">Aaron Parecki</a> =
 '''<dfn>Aaron Parecki</dfn>''' is the co-founder of IndieWebCamp, currently the CTO of Esri R&D Center, Portland. Formerly the co-founder of Geoloqi.
 
 * http://aaronparecki.com
-* http://aaron.pk/bookmarks/ 
 * [http://twitter.com/aaronpk @aaronpk] (and [http://twitter.com/pkbot @pkbot])
 
 == projects ==
@@ -14,6 +13,9 @@ http://indiewebcamp.com/User%3AAaronparecki.com
 * [[webmention.io]]
 * [[micropub]]
 * [[mention-app|Mention App]]
+* [[Quill]]
+* [[Teacup]]
+* [[OwnYourGram]]
 * [https://github.com/aaronpk/Flickr-Archiver Flickr Archiver]
 * [http://www.flickr.com/photos/aaronpk/5270365934/ Export your Delicious bookmarks] (now offline)
 * [http://aaronparecki.com/Loqi Loqi] - a sometimes-helpful IRC bot

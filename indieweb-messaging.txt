@@ -75,7 +75,7 @@ Now that Alice's server has authenticated Bob, the reply to the "https://alice.c
 
 Bob's server can parse and store the data, and/or display it to Bob since it's just HTML. Alice's server can also return a rich HTML document with additional markup, styles, whatever. As long as the h-entry is there it's readable.
 
-At this point Bob's server would most likely send Bob a notification of a new message in some form, either by SMS or push notification to his phone, or however Bob chooses. If Bob is willing to trust the security of SMS, he could even have the text of the message delivered via SMS. Whatever happens beyond that point is up to Bob and Alice doesn't need to know and doesn't care.
+At this point Bob's server would most likely send Bob a [[notification]] of a new message in some form, either by SMS or push notification to his phone, or however Bob chooses. If Bob is willing to trust the security of SMS, he could even have the text of the message delivered via SMS. Whatever happens beyond that point is up to Bob and Alice doesn't need to know and doesn't care.
 
 === server-side-tokens ===
 
@@ -151,5 +151,6 @@ Of course this wouldn't work places you don't have access to the actual web serv
 == See Also ==
 * [[private posts]]
 * [[messaging]]
+* [[notification]]
 * [[distributed-indieauth]]
 * [http://spec.indieauth.com/ spec.indieauth.com]

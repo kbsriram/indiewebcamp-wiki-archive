@@ -5,7 +5,7 @@ http://indiewebcamp.com/wiki-projects
 IndieWebCamp [[projects]] related to [[wiki-page]] hosting/creation/editing on your own site.
 
 == Existing Projects ==
-* Federated Wiki
+* [[Smallest Federated Wiki]]
 ** as conceived/created/developed/launched at IndieWebCamp [[2011]]
 * [[MediaWiki]]
 ** Used by [[User:Tommorris.org|Tom Morris]] on http://wiki.tommorris.org/

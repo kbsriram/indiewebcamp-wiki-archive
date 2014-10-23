@@ -2,7 +2,7 @@ http://indiewebcamp.com/file-storage
 
 {{stub}}
 
-'''<dfn>File Storage</dfn>''' is the practice of storing main (primary) site content in flat files.
+'''<dfn>File Storage</dfn>''' is the practice of storing main (primary) site content in flat files in a filesystem.
 
 == Why ==
 Many indieweb [[projects]] are storing their data in flat files on the file system for reasons of simplicity and robustness.  
@@ -23,7 +23,7 @@ IndieWeb community members that use file storage on their personal site.
 
 === Tantek ===
 {{t}} on tantek.com uses flat files for primary storage of content:
-* 2010-01-01... present: [[Falcon]] which stores data in HTML+microformats flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01]. See [[Falcon#Storage_format]] for details.
+* 2010-01-01... present: [[Falcon]] which stores data in HTML+microformats flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01].  See [[Falcon#Storage_format|Falcon storage format]] for details.
 * [http://tantek.com/log/2002/08.html 2002-08]...[http://tantek.com/log/2008/08.html 2008-08] static site directly served from primary storage of flat files, up to 12 per year (1 per Gregorian month).
 
 === Aaron Parecki ===
@@ -80,6 +80,13 @@ David Baron on http://dbaron.org/ uses flat HTML files, one per blog post, one f
 == Flat file "CMS" systems in the wild ==
 
 * [http://getgrav.com Grav] is a PHP, YAML, Twig and Markdown Extra based storage project which looks promising.
+* [http://getkirby.com/ Kirby] is another.
+
+== Criticism ==
+=== Command Line Configuration ===
+The process of uploading and setting up flat file storage on shared [[hosting]] may require command line configuration such as:
+* <kbd>chmod -R 0777</kbd>[http://indiewebcamp.com/irc/2014-10-16/line/1413497857282]
+Any flat file storage solution should seek to minimize and eliminate any command line based configuration needs.
 
 == See Also ==
 * [[storage]]
