@@ -187,7 +187,7 @@ Whilst most commenting implementations allow comments on the post level, an incr
 * [[Branch]] discussions can be forked on sentence level
 * The “Real World Haskell” online book has per-paragraph comments ([http://book.realworldhaskell.org/read/why-functional-programming-why-haskell.html example])
 * [http://theyworkforyou.com/ TheyWorkForYou] have annotations for each statement in Hansard (the official record of what is said in the British Parliament). These are shown inline. Examples: [http://www.theyworkforyou.com/lords/?id=2013-06-03a.937.4#g965.0 1], [http://www.theyworkforyou.com/debates/?id=2013-07-01a.590.3#g591.1 2]
-* …
+* [[SoundCloud]] accepts comments in specific moments (seconds? microseconds?) of any published song or audio.
 
 == FAQ ==
 

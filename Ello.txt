@@ -26,6 +26,9 @@ Ello provides the following features as observed from others use thereof:
 ** plain text bio (unknown size limit if any)
 
 __TOC__
+== Indieweb Support ==
+{{gRegor}} inquired about adding [[microformats2]] support or other indieweb technology like [[webmention]]. A developer responded that he was not personally familiar with them, but would give it a look. [https://ello.co/gregorlove/post/0LGJ_01RwAKKrB5iDfqO1w]
+
 == API ==
 Ello has not announced an official API yet, but it appears there is one. Unofficial documentation: https://gist.github.com/conatus/cc665f917d5558c123bc
 
