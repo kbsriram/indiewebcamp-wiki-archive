@@ -15,7 +15,7 @@ Most [[projects]] have a very deliberate permalink URL design.
 ==== Falcon ====
 [[Falcon]] running on tantek.com:
 
-* algorithmic permashortlinks examples:
+* [[algorithmic]] permashortlinks examples:
 ** <samp><nowiki>http://ttk.me/tSSSn</nowiki></samp> or
 ** <samp><nowiki>http://ttk.me/b/SSSn</nowiki></samp> where:
 ** SSS = sexagesimal epoch days - see http://tantek.com/w/NewBase60

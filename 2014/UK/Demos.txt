@@ -1,7 +1,7 @@
 http://indiewebcamp.com/2014/UK/Demos
 
 = Start Demos =
-Demos at the start of [[2014/UK|IndieWebCampUK 2014]], just after the [[2014/UK|Introduction]] session.
+Demos at the start of [[2014/UK|IndieWebCampUK 2014]], just after the [[2014/UK/Introduction|Introduction]] session.
 
 Transcribed from [http://indiewebcamp.com/irc/2014-09-06#t1409996268148 IRC Logs].
 
@@ -178,7 +178,7 @@ calumryan.com @calum_ryan
 * has another site culturebook.co.uk — shows demo.culturebook.co.uk based on Modux(sp?)
 
 = Hack Day Demos =
-Demos from the Hack Day!
+Demos from the Hack Day! See also the [[2014/UK/Hack_Day_Intro|Hack Day Intro]].
 
 Based on original notes taken in IRC http://indiewebcamp.com/irc/2014-09-07#t1410104851439 plus some memory recall.
 

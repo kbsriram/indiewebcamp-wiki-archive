@@ -44,8 +44,8 @@ As a distributed version control system (DVCS), Git (and github) is good at merg
 
 === Mercurial ===
 Similarly, Mercurial (also a DVCS) handles multi-change merging reasonably well.
-=== Mediawiki ===
-Mediawiki (e.g. this wiki) does a good job of handling different edits to the same page by different people well when they edit different sections. If edits collide, the latter save is prompted with two text areas to manually merge the changes.
+=== MediaWiki ===
+[[MediaWiki]] (e.g. this wiki) does a good job of handling different edits to the same page by different people well when they edit different sections. If edits collide, the latter save is prompted with two text areas to manually merge the changes.
 
 === Operational transformation ===
 [http://en.wikipedia.org/wiki/Operational_transformation Operational transformation] (OT) is a set of abstract models and algorithms for implementing multi-master sync, merge, and conflict resolution of arbitrarily structured data. It's big and heavy and overkill for most of our use cases, but it's a common touchstone when discussing data synchronization.

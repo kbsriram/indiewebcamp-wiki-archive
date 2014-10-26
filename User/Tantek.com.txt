@@ -81,7 +81,11 @@ Personal indieweb site functionality (adding to tantek.com) using my own persona
 * Then similarly replace all other [[#silo_posting]].
 
 Community:
+* document [[2014/Cambridge/Demos|IndieWebCamp 2014 Cambridge demos]] similar to [[2014/UK/Demos]] 
+** and then blog IndieWebCamp 2014 Cambridge Hack Day demos similar to [http://tantek.com/2014/259/b1/indiewebcampuk-hack-day-https-webactions IndieWebCampUK 2014 Hack Day demos]
 * process [[h-card#Issues]] - blocking several indieweb community member personal use-cases
+* read <cite>[https://www.kickstarter.com/projects/waxpancake/the-return-of-upcomingorg/posts/1010515 Open Source, Teamin' Up, The Stack, and Looking Forward]</cite> (including comments) and:
+** contribute/respond from an IndieWeb perspective accordingly to [[Upcoming]], and [https://github.com/upcoming/upcoming/wiki/Use-Cases-and-Feature-Requests Upcoming github wiki use-cases]
 * expand [[invitation]] based on [http://indiewebcamp.com/irc/2014-10-20#t1413860150589 brainstorm in IRC] re: POSSEing, backfeeding, proxying etc.
 ** incorporate / bi-directional merge appropriately with [http://microformats.org/wiki/h-event-brainstorming#Invitations microformats h-event invitations brainstorm]
 * Add slides, video, etc. links of PdF IndieWeb talk to https://pdf14.hackpad.com/Save-the-Internet-Keynotes-Zb58Z1QFrJq

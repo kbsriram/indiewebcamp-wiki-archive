@@ -1,3 +1,3 @@
-http://indiewebcamp.com/CMS
+http://indiewebcamp.com/cms
 
-#redirect:[[content management system]]
+#redirect [[content_management_system]]

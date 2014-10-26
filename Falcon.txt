@@ -550,7 +550,7 @@ RewriteRule ^e/[0-9A-Z_a-z]{3,5}.?$ whistle.php
 RewriteRule ^t[0-9A-Z_a-z]{3,5}.?$ whistle.php
 </pre>
 
-Note that each post type's shortlink character code is handled by a separate rule. This is deliberate design flexibility so that each post type can potentially use a different algorithmic short URL.
+Note that each post type's shortlink character code is handled by a separate rule. This is deliberate design flexibility so that each post type can potentially use a different [[algorithmic]] short URL.
 
 ==== Permalinks and archives ====
 Any path that starts with a four digit number then a slash then 1-3 digits is presumed to be a year YYYY and the start of a permalink (/YYYY/DDD/tN/) or an archive page (/YYYY/DDD/t, /YYYY/DDD, /YYYY/MM, /YYYY/B) where:

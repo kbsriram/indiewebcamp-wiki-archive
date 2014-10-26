@@ -5,12 +5,15 @@ http://indiewebcamp.com/wiki-projects
 IndieWebCamp [[projects]] related to [[wiki-page]] hosting/creation/editing on your own site.
 
 == Existing Projects ==
-* [[Smallest Federated Wiki]]
-** as conceived/created/developed/launched at IndieWebCamp [[2011]]
-* [[MediaWiki]]
-** Used by [[User:Tommorris.org|Tom Morris]] on http://wiki.tommorris.org/
-* [[ikiwiki]]
-** Used by [[User:greptilian.com|Philip Durbin]] on http://wiki.greptilian.com/
+=== Smallest Federated Wiki ===
+{{main|Smallest Federated Wiki}}
+Smallest Federated Wiki was conceived/created/developed/launched at IndieWebCamp [[2011]]
+=== MediaWiki ===
+{{main|MediaWiki}}
+MediaWiki runs indiewebcamp.com, microformats.org/wiki, and is used by IndieWebCamp community members like [[User:Tommorris.org|Tom Morris]] on http://wiki.tommorris.org/
+=== ikiwiki ===
+{{main|ikiwiki}}
+ikiwiki is another independent site wiki, and is used by IndieWebCamp community members like [[User:greptilian.com|Philip Durbin]] on http://wiki.greptilian.com/
 
 == Brainstorming ==
 Thoughts on how an IndieWeb wiki could be implemented

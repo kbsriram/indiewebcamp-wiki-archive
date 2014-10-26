@@ -1,7 +1,8 @@
 http://indiewebcamp.com/internationalization
 
 = Internationalization =
-(AKA '''internationalisation''', '''i18n'''.)
+
+'''<dfn>Internationalization</dfn>''' (AKA '''internationalisation''', '''i18n'''.) is the process of adapting software/content to various languages.
 
 What can we do, to make IndieWeb technologies more easily usable, by people who are not publishing in (US) English?
 
