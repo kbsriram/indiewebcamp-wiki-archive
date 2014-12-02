@@ -16,6 +16,21 @@ Why implement reposting:
 ** This in turn ensures a copy of anything you retweet on your own site, in case the original is deleted/removed etc.
 * ...
 
+== How to Publish ==
+Use <code>class="u-repost-of"</code> to indicate that the URL being linked to is what is being reposted, for example:
+
+<pre><nowiki>
+<span class="h-entry"> ... 
+ <a class="u-repost-of" href="http://someothersite.example.com/permalink47">...</a>
+</span>
+</nowiki></pre>
+
+demonstrates an h-entry for a "repost" of <nowiki>http://someothersite.example.com/permalink47</nowiki>. As with [[reply|replies]] and [[like|likes]], let the reposted URL know that you’ve linked to it by sending a [[webmention]].
+
+'''Why not u-repost?'''
+* The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>, and <code>u-like-of</code> instead of <code>u-like</code>.
+* This frees up "u-repost" (and "p-repost") to actually indicate that the URL being linked is a repost itself (e.g. similar to "p-comment").
+
 == IndieWeb Examples ==
 === Sandeep Shetty ===
 [[User:Sandeep.shetty.io|Sandeep Shetty]] has been posting reposts on sandeep.io [http://www.sandeep.io/35 since at least 2013-06-04]. Examples:
@@ -52,22 +67,6 @@ The following IndieWeb examples resemble reposts in appearance but are actually 
 == Services ==
 === Bridgy ===
 [[Bridgy]] sends webmentions for Facebook and Google+ reshares and Twitter retweets, as reposts. It uses <code>class="u-repost u-repost-of"</code> to support both the established property name and the earlier, experimental property name.
-
-== How to Publish ==
-Use <code>class="u-repost-of"</code> to indicate that the URL being linked to is what is being reposted, for example:
-
-<pre><nowiki>
-<span class="h-entry"> ... 
- <a class="u-repost-of" href="http://someothersite.example.com/permalink47">...</a>
-</span>
-</nowiki></pre>
-
-demonstrates an h-entry for a "repost" of <nowiki>http://someothersite.example.com/permalink47</nowiki>. As with [[reply|replies]] and [[like|likes]], let the reposted URL know that you’ve linked to it by sending a [[webmention]].
-
-'''Why not u-repost?'''
-* The trailing preposition "of" helps communicate this in the same that we have <code>u-in-reply-to</code> instead of <code>u-reply</code>
-* This frees up "u-repost" (and "p-repost") to actually indicate that the URL being linked is a repost itself (e.g. similar to "p-comment").
-
 
 == Sessions ==
 [[IndieWebCamp]] sessions where reposts were discussed:
@@ -122,21 +121,34 @@ From a markup point of view:
 
 == Silo Examples ==
 === Twitter ===
-[[Twitter]] has a notion of "retweet".
+[[Twitter]] uses their silo specific term "retweet" for a repost, the action of posting a repost, and thus present "retweeting" and past "retweeted" verb tenses as well.
 
-On Twitter, retweeted statuses are displayed from the original author point of view in the activity stream of the reader.
+On Twitter, retweeted statuses are displayed with the original author's information in the activity stream of the reader.
 
-[[File:2014-06-28-retweet.png]]
+Modern (2014-11-06) example screenshot of a Twitter retweet:
 
-==== 2014 retweet in stream ====
+[[File:2014-11-06-twitter-in-stream-repost.png]]
+
+This in-stream Twitter retweet presentation consists of:
+* a green-background white-foreground retweet icon, followed inline by 
+* "Aaron Parecki" (the display name of the person who retweeted the post) followed inline by 
+* the word "retweeted" (presumably localized to the reader's preferred language), both in smaller gray text compared to the rest of the information in the retweet.
+Below that, the original tweet appears identical to how it appears on the original author's timeline, except
+* if the retweeter is the logged-in viewer of the webpage, then 
+** the retweet icon (between the reply and favorite icons) below the original tweet appears in <strong>green</strong>, indicating that the logged-in viewer has retweeted that tweet.
+
+==== 2014-08-29 retweet in stream ====
+[[File:2014-08-29-retweet.png]]
+
 In stream, Twitter shows the original author of the retweeted Tweet as normal, and includes text above saying "retweeted by {name}". Only the display name of the person who retweeted is shown, not the Twitter username. This can lead to confusion when reading your stream since you may not know how a tweet appeared them if you don't recognize the person's display name.
 
-[[File:2014-08-29-retweet.png]]
+==== 2014-06-28 retweet in stream ====
+[[File:2014-06-28-retweet.png]]
 
 ==== 2013 retweet in stream ====
 Previously, retweets in streams of the retweeter looked like:
 
-[[File:retweet.png]]
+[[File:2013-08-16-retweet.png]]
 
 ==== The Most Reposted Thing ====
 On 2014-03-02, Ellen DeGeneres, with the help of Bradley Cooper, took a "selfie" with her mobile device and posted it on Twitter:
@@ -162,7 +174,25 @@ The post is then displayed in the users dashboard as a reblog and is visible in 
 [[File:tumblrreblog3.png]]
 
 === Facebook ===
-[[Facebook]] has a notion of "share"
+[[Facebook]] has a notion of "share" - which means repost someone else's post.
+
+Screenshots needed of:
+* "share" UI (button? link? menu? in context of what posts?)
+* "shared" post permalink and analysis of presentation
+* "shared" post in stream and analysis of presentation
+
+=== Google+ ===
+[[GooglePlus]] has a share UI that enables reposting of someone else's G+ post:
+
+[[File:plusshare.png]]
+
+This gives a posting UI that allows a top comment to be added and a choice of circles to share to:
+
+[[File:plusshareposting.png]]
+
+The [https://plus.google.com/u/0/+KevinMarks/posts/GYNUzmCntMZ shared post] is indicated like this:
+
+[[File:plusshareresult.png]]
 
 === Repost.us ===
 [[repost.us]] is a verb silo, hosting buttons and a UI for reposting articles which gives you an HTML+JS snippet to embed on your own site. [http://www.repost.us/article-preview/hash/f3854b40aaf0a7a4cc60a52ca243dd9e/ Example repost UI] (seen once the “repost” button is clicked).
@@ -175,6 +205,36 @@ What's the difference between a repost and just quoting/citing another article i
 * E.g. it's not "reposting" it's just just posting and quoting.
 * If it's no different, then don't invent a new term for it. No distinction = does not deserve it's own term, per [[minimalism]] and [[simplicity]] principles.
 * tumblr allows users to comment on a post they reblog. If this is done in microformats, does the original content go in the content area of the new post or does it go in the reply-context?
+
+=== Display ===
+See [[repost#Twitter|Twitter's retweet example]] for one way to display a repost in stream.
+
+How should an indieweb repost be best displayed?
+* In stream?
+* On its permalink?
+
+See related [[2014|IndieWebCamp 2014]] brainstorming session in NYC: [[2014/reposts|IndieWeb Reposts]]
+
+In particular:
+* http://indiewebcamp.com/2014/reposts#Repost_presentation appears to have figured this out for repost permalinks, which may also work in-stream.
+
+=== Full Context Markup ===
+
+For full-content reposts, we need to capture both the original author and the repost author. One option is to enclose the entire reposted content in a "p-repost-of h-cite" as below. Receivers will need to be aware that "repost-of" can be a URL or an object containing a URL.
+
+I am not sure in this case what the outer h-entry's name or content should be, if anything [[User:Kylewm.com|Kylewm.com]] 11:29, 7 November 2014 (PST)
+
+<pre><nowiki>
+<span class="h-entry">
+  Reposted by <a class="p-author h-card" href="http://repost/author">Repost Author</a>
+  <span class="p-repost-of h-cite">
+    <a class="p-author h-card" href="http://original/author"><img src=".."/>Original Author</a>
+    <span class="p-name e-content">Original Text</span>
+    <a class="u-url dt-published" href="http://original/permalink">YYYY-MM-DD</a>
+  </span>
+  Reposted on <a class="u-url dt-published" href="http://repost/permalink">YYYY-MM-DD</a>
+</span>
+</nowiki></pre>
 
 == See Also ==
 * This was discussed in IRC on [http://indiewebcamp.com/irc/2013-06-09 2013-06-09], [http://indiewebcamp.com/irc/2013-06-10#t1370885009 2013-06-10]

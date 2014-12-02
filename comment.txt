@@ -18,11 +18,13 @@ __TOC__
 
 ==== POSSE a reply ====
 To <span id="POSSE_a_comment">POSSE replies</span>:
-* '''Set proprietary reply-to on POSSE copies'''. E.g. when [[Twitter#POSSE_Notes_to_Twitter|POSSEing notes to Twitter]] that are themselves @-replies (or you can find a POSSE'd copy on Twitter of the post that you're commenting on), set the <code>in_reply_to_status_id</code> to the id of tweet the @-reply is a response to. This too should be automatically handled by your server/software. For details see:
-** [[Twitter#POSSE_Replies_to_Tweets|POSSE Replies to Tweets]]
-** [[Twitter#POSSE_Replies_to_Twitter|POSSE Replies to other posts to Twitter]]
+# '''Set proprietary reply-to on POSSE copies'''. E.g. when [[Twitter#POSSE_Notes_to_Twitter|POSSEing notes to Twitter]] that are themselves @-replies (or you can find a POSSE'd copy on Twitter of the post that you're commenting on), set the <code>in_reply_to_status_id</code> to the id of tweet the @-reply is a response to. This too should be automatically handled by your server/software. For details see:
+#* [[Twitter#POSSE_Replies_to_Tweets|POSSE Replies to Tweets]]
+#* [[Twitter#POSSE_Replies_to_Twitter|POSSE Replies to other posts to Twitter]]
+# '''Add [[rel-syndication]] link''' from original reply to POSSE copy
+# '''Send a [[webmention]]''' from original reply to the post it is in reply to. If you already sent a webmention before adding the rel-syndication link, send another webmention so the target has a better chance of deduplicating with any POSSE replies they've received, and preferring your original reply post.
 
-This is so that when B posts a reply to A's post and sends a webmention, and both A and B POSSE their posts, wherever they happen to both POSSE to (e.g. on Twitter), their POSSE'd copies link-up there as well.  That way those on the silo (e.g. Twitter), will be able to follow the conversation, even when A and B are replying/linking directly peer-to-peer between their indieweb posts.
+'''Setting the proprietary reply-to on POSSE copies''' helps silo readers better understand/follow what you're replying to When B posts a reply to A's post and sends a webmention, and both A and B POSSE their posts, wherever they happen to both POSSE to (e.g. on Twitter), their POSSE'd copies link-up there as well.  That way those on the silo (e.g. Twitter), will be able to follow the conversation, even when A and B are replying/linking directly peer-to-peer between their indieweb posts.
 
 '''Indieweb examples''' of a reply post that was automatically POSSE'd to Twitter with the in-reply-to-status-id set to the POSSE Twitter copy of the original post being replied to.
 * 2013-04-25: [[User:aaronparecki.com|Aaron Parecki]]: http://aaronparecki.com/replies/2013/04/25/1/indieweb-qs
@@ -101,7 +103,7 @@ Additional support:
 ** commenter is in your contacts list
 ** commenter is 1, 2, etc degrees of separation from you
 
-Even better would be if original post(s) had a "Reply" [[webaction]] button which upon clicking, took the reader/commenter to their own blog's posting interface, with a '''(2) Link to the original''' (to make a comment) already pre-filled-in to which the commenter could simply add text commentary and then post.
+Even better would be if original post(s) had a "Reply" [[webaction]] button which upon clicking, took the reader/commenter to their own blog's [[posting interface]], with a '''(2) Link to the original''' (to make a comment) already pre-filled-in to which the commenter could simply add text commentary and then post.
 
 === Display received comments ===
 So you've implemented accepting webmentions, now how do you display them on your site?

@@ -1,10 +1,12 @@
 http://indiewebcamp.com/Nike%2B
 
+{{pagelogo|https://pbs.twimg.com/profile_images/2282507425/8i7xwkaovyhc4iqgf5o9_200x200.jpeg}}
 {{stub}}
 
 '''<dfn>[http://nikeplus.nike.com/plus/ Nike+]</dfn>''' is an exercise activity hosting [[silo]] operated by [[Nike]]. Also written (and spoken) as "Nike Plus".
 
 == API ==
+__TOC__
 Nike+ has a RESTful read API.
 * http://developer.nike.com/ - requires (free) nike.com account to use and even read the documentation.
 ** https://developer.nike.com/documentation/api-docs/activity-services.html - Activity Services - main documentation page

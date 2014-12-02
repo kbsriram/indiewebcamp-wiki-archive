@@ -53,6 +53,9 @@ Things I feel like I've figured out pretty well, have shipped on my own site, ca
 Also see: [[p3k#Itching]]
 
 * private groups - wanting to communicate privately with some group of people. This past year I have been finding private/secret Facebook groups very useful for certain things. How does this translate onto our individual sites?
+* archive to wayback machine
+** some time after publishing posts on my site, send a ping to the wayback machine to trigger archiving it
+** send a ping for any pages that I link to
 
 == related talks ==
 * 2014-06-24 [http://aaronparecki.com/presentations/2014/06/24/1/indieauth-osbridge OAuth, IndieAuth, and the Future of Authorization APIs]

@@ -1,7 +1,7 @@
 http://indiewebcamp.com/Facebook
 
-= Facebook =
-Facebook.com is a popular content hosting [[silo]] and activity [[aggregator]] most well known for being the largest centralized social network on the web.
+<span style="float:right">https://pbs.twimg.com/profile_images/3513354941/24aaffa670e634a7da9a087bfa83abe6_200x200.png</span>
+'''<dfn>[https://facebook.com/ Facebook]</dfn>''' is a popular content hosting [[silo]] and activity [[aggregator]] most well known for being the largest centralized social network on the web.
 
 == Exporting your data ==
 You can export your data on Facebook by:
@@ -42,6 +42,9 @@ You can use [[Bridgy]] to POSSe Facebook posts, comments, likes, and even event 
 {{main|POSSE to Facebook}}
 Posting to one's wall is supported with the Facebook 'Graph API'. See [[POSSE to Facebook]] for details and examples.
 
+For broader overview of the Facebook API, see the Social Web WG analysis:
+* https://www.w3.org/wiki/Socialwg/Social_API/Facebook_API
+
 == Post Types ==
 (this section is a stub)
 
@@ -58,7 +61,7 @@ Facebook's [[event]] posts were quite clean and nicely designed, until they star
 
 [[File:20140227-facebook-event-example.png]]
 === Comment ===
-[[Comments]] are perhaps the overall most popular type of post, as people comment A LOT on other top-level posts, and Facebook has a two level notion of comment threading. That is, you can both comment on top-level posts, and comment on comments on top-level posts. The above event post screenshot demonstrates this two level commenting interface.
+[[Comments]] are perhaps the overall most popular type of post, as people comment A LOT on other top-level posts, and Facebook has a two level notion of comment threading. That is, you can both comment on top-level posts, and comment on comments on top-level posts. The above event post screenshot demonstrates this two level [[commenting interface]].
 
 == Aggregator ==
 Facebook performs the function of a feed aggregator of all your friends' activities.

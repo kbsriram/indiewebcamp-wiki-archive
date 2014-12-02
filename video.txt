@@ -2,7 +2,7 @@ http://indiewebcamp.com/video
 
 {{stub}}
 
-'''<dfn>video</dfn>''' is a type of [[post]] supported by a few [[silos]]. There are no known indie web sites that support video [[posts]] themselves (video embeds yes, but that's of video posts posted another site).
+'''<dfn>video</dfn>''' is a type of [[post]] supported by a few [[silos]]. There are few indieweb sites that support video [[posts]] themselves — most still [[embed]] video from other sites.
 
 See also:
 * [[videos about the indieweb]]

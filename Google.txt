@@ -1,14 +1,14 @@
 http://indiewebcamp.com/Google
 
+{{pagelogo|https://pbs.twimg.com/profile_images/522909800191901697/FHCGSQg0_200x200.png}}
 {{stub}}
-__TOC__
 '''<dfn>Google</dfn>''' is primarily used for [[#Search|searching]] the open web, but also hosts a number of content silos:
 * [[Blogger]] - one of the oldest blogging platforms, previously called "Blogspot" (and the software itself was called Blogger).
 * [[Google Calendar]]
 * [[Google Code]]
 * [[Google Contacts]]
 * [[Google feedburner]]
-* [[Google+]] (AKA "Google Plus", G+, GPlus)
+* [[Google Plus|Google+]] (AKA "Google Plus", G+, GPlus)
 * [[Picasa]]
 * [[YouTube]]
 * ...

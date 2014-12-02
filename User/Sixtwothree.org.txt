@@ -16,7 +16,7 @@ http://indiewebcamp.com/User%3ASixtwothree.org
 
 == Working On ==
 
-* Building [https://github.com/jgarber623/FrancisCMS FrancisCMS], an IndieWeb-friendly CMS written in Ruby and Sinatra. My goal is to replace my Jekyll-powered personal site with FrancisCMS.
+* Building [https://github.com/jgarber623/FrancisCMS FrancisCMS], an IndieWeb-friendly CMS built with Ruby on Rails. My goal is to replace my Jekyll-powered personal site with FrancisCMS.
 * Open-sourcing [http://webmention.sixtwothree.org webmention.sixtwothree.org]
 * Automatically send webmentions when a new post is published. (Idea: external service watches an RSS feed for new feed items, parses new feed item for links, and sends webmentions to those links)
 * Add Links section to site and POSSE copies to Delicious (related: import existing [https://delicious.com/jgarber Delicious bookmarks])

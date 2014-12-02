@@ -94,8 +94,9 @@ __TOC__
 [[500px]] uses a Like button with a thumbs up (👍) icon.
 E.g. on http://500px.com/photo/79538847/lifeguard-cottages-cuckmere-haven-by-al-power
 === Facebook ===
-👍 [[Facebook]] popularized [[like]] as a verb and "likes" as an indicator on posts.
-They used a thumbs up icon
+👍 [[Facebook]] popularized [[like]] as a verb and "likes" as an indicator on posts, with a thumbs-up icon as a visual affordance on "like" buttons. Examples:
+* like post: https://www.facebook.com/tantek.celik/posts/10100983037811143:0 (should be viewable without login) <blockquote>(person-icon) [[Tantek Çelik]] likes [[Indie Web Camp]]. <br/>March 19 ...</blockquote> where person-[[icon]] and name is linked to profile, object of like is linked to object's page, date is linked to permalink, and below that a [[link-preview]] is shown for the object being liked.
+
 === Instagram ===
 <span style="color:grey">♥</span> [[Instagram]] also uses [[like]] in their UI, but gives it a heart icon.
 

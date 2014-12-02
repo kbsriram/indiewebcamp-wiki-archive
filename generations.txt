@@ -39,7 +39,7 @@ From discussion with Ariel Waldman and Matt Biddulph on the IndieWeb: Matt Biddu
 ===Generation 1 IndieWeb===
 '''Introducing Gen1 to the IndieWeb:'''
 * Demo the basic concepts of '''[[POSSE]]''', '''[[backfeed]]''', '''[[Webmention]]''' and '''[[Microformats]]''' and the purpose of each.
-* Show individual some example best practices for user experience and stress that homespun posting interfaces do not need to be professional looking or perfect as they're use 
+* Show individual some example best practices for user experience and stress that homespun [[posting interfaces]] do not need to be professional looking or perfect as they're use 
 * Stress the IndieWeb '''[[principles]]''' like data ownership, '''[[selfdogfooding]]''', and show before tell. Encourage individual to "scratch their own itches", create and iterate on their own site.
 * Point individual to #indiewebcamp on IRC and link to documentation on the Wiki for further exploration and engagement. 
 * Encourage individual to attend or start a [[Homebrew Website Club]].

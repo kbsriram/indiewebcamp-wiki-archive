@@ -5,6 +5,7 @@ http://indiewebcamp.com/h-feed
 '''<dfn>[http://microformats.org/wiki/h-feed h-feed]</dfn>''' is a [[microformats2]] experiment with a top level feed object to contain [[h-entry]] [[posts]]. It is functionally a [[DRY]]er replacement for RSS/Atom [[feed files]] and thus could supersede them.
 
 == How ==
+=== how to markup ===
 Mark up your 
 * index page with class="h-feed" (e.g. on the <code>&lt;html&gt;</code> or <code>&lt;body&gt;</code>)
 * its top level <code>&lt;h1&gt;</code> with class="p-name"
@@ -12,6 +13,12 @@ Mark up your
 ** otherwise if you lack any top level links, this works: <code><nowiki><a class="u-url" href="/"></a></nowiki></code>
 * markup the [[h-card]] you already have on your index page with class="p-author"
 * and add class="u-photo" on the representative photo of your index page (e.g. banner etc.), or leave it out and let consumers imply/use the u-photo of the p-author h-card you marked up in the previous step
+
+=== how to test ===
+Feeds marked up with h-feed should work in the same way as simple lists of h-entries. See [[feed#How_To_Test|How to Test Feeds]].
+
+=== how to consume ===
+See [[feed#How_To_Consume|How to Consume Feeds]]
 
 == Why ==
 So indie [[readers]] who subscribe to your site can display:
@@ -27,6 +34,7 @@ IndieWeb community members that support h-feed:
 
 === Barnaby Walters ===
 [[User:Waterpigs.co.uk|Barnaby Walters]] supports h-feed on his [http://Waterpigs.co.uk waterpigs.co.uk] home page since ????-??-??
+* [http://waterpigs.co.uk/services/microformats-to-atom/ h-feed to atom gateway]
 
 === Will Norris ===
 [[User:Willnorris.com|Will Norris]] supports h-feed on his [https://willnorris.com/ willnorris.com] home page since mid-2013 using WordPress and a modified version of [https://github.com/pfefferle/wordpress-uf2 wordpress-uf2] (modifications to be sent upstream at soonish?)

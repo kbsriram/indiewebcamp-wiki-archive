@@ -14,6 +14,7 @@ Indieweb participants using markdown on their personal site, for authoring text 
 See and incorporate from [[storage#Markdown_plus_extensions]]
 
 * [[User:Sandeep.io]] writes in markdown and publishes it directly in a hidden div. It is intended as lossless, plaintext content for comments and replies [http://www.sandeep.io/44][http://www.sandeep.io/48]
+* {{bear}} uses markdown for [[articles]], small [[notes]] and [[webmention]]'s to keep his markdown "clean" each type of article is handled by a specific Jinja2 template.
 
 == Dialects ==
 Markdown comes in many flavors...
@@ -79,4 +80,5 @@ IndieWebCamp sessions that discussed markdown:
 Articles, blog posts, opinions about markdown (in particular from IndieWeb community members)
 
 * [[User:Tantek.com|Tantek Çelik]]: [http://tantek.com/w/Markdown Thoughts on Markdown] (wiki)
+* [http://www.leenau.com/2014/11/09/hreview-microformats-in-markdown/ hReview Microformats in Markdown]. Please note that this article uses the older hReview microformat, it's listed here as an example of how a template language like Jinja2 can aid in generating html when using Mardown.
 * ...

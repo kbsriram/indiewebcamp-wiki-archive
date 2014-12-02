@@ -2,6 +2,12 @@ http://indiewebcamp.com/fragmention
 
 A '''<dfn>fragmention</dfn>''' is an experimental extension to a URL to link and cite individual words or phrases of a document using double-hash anchors (<code>##</code>).
 
+;Editor
+:{{kevinmarks}}
+;License
+:<small>Per [http://creativecommons.org/publicdomain/zero/1.0/ CC0], to the extent possible under law, the editors have waived all copyright and related or neighboring rights to this work. In addition, as of {{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}, the editors have made this specification available under the [http://www.openwebfoundation.org/legal/the-owf-1-0-agreements/owfa-1-0 Open Web Foundation Agreement Version 1.0].</small>
+
+
 Example:
 * <code>http://www.kevinmarks.com/w3cannotation.html##most+robust+reference</code>
 
@@ -35,6 +41,8 @@ Fragmentions find the first matching word or phrase in a document and focus its 
 * {{t}} supports fragmentions on all tantek.com post permalinks [http://tantek.com/2014/207/t1/iteration-tech-proposals-cc0-wiki-preferred since 2014-07-26] using the <code>fragmention.min.js</code> open source polyfill, and CSS that highlights the element containing the fragmention in <span style="background:yellow">yellow</span> and fades to <span style="background:#ffffe0">very light yellow</span>.
 
 * [http://ben.thatmustbe.me/##Archives Ben's Site] - simple use of the open source polyfill, included on every page.
+
+* {{bret}} supports fragmentions and animated background highlighting on the upcoming [https://github.com/bcomnes/base base] jekyll boilerplate site.  [http://bret.io/base/2014/11/01/photo-article/##article example]
 
 == Silo Examples ==
 * [http://epeus.blogspot.com/2003/02/googles-origins-hint-about-blogger.html##for+annotation Kevin's blogger blog] by adding the fragmention JS to the template
@@ -131,6 +139,8 @@ There is a w3c spec for addressing [http://www.w3.org/TR/media-frags Media Fragm
 See also: http://en.wikipedia.org/wiki/Fragment_identifier#Proposals
 
 [http://www.businessinsider.com/the-inside-story-of-how-rap-genius-fired-a-cofounder--and-just-raised-40-million-annotated-2014-7#annotations/3411037 RapGenius now offers a highlight and annotate plugin] as seen here on Business Insider. They highlight phrases, not paragraphs
+
+The Guardian has [https://twitter.com/wblau/status/529713139961827329 a way to tweet the selection]
 
 == Discussion ==
 

@@ -37,6 +37,7 @@ So anyone who visits your website can easily pay you (for whatever) in the ways 
 === IndieWeb Examples ===
 * {{aaronpk}} uses rel=payment to link to Venmo and Gittip on his home page.
 *  [[User:Kodfabrik.se|Pelle Wessman]] uses Jekyll [https://github.com/voxpelli/voxpelli.github.com/blob/29b056bf6114481cf3fe32acdeb55f5ad8d938cb/_layouts/default.html#L14 to add] Flattr rel=payment links to each blog post on [http://voxpelli.com/ voxpelli.com]
+* {{ bret }} has links to a bitcoin addresses hosted on [http://coinbase.com coinbase] a a tip jar.  I had a dogecoin address that was hosted on dogevault but dogecoin shut down after getting hacked.
 
 === Podcast Examples ===
 Quite a few podcasters include rel-payment metadata – mostly in their podcast feeds but also on their blog pages. This as podcatchers has started using the data to automate donations.

@@ -1,5 +1,9 @@
 http://indiewebcamp.com/Netflix
 
+{{stub}}
+
+'''<dfn>[http://netflix.com Netflix]</dfn>''' is a subscription service for on-demand streaming video.
+
 == Data Export ==
 
 === Ratings ===

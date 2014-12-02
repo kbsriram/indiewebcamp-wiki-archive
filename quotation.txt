@@ -12,15 +12,15 @@ A quotation which uses the name/title of another post (rather than its content) 
 A quotation can be minimally marked up as a [[note]], with the entry content (<code>e-content</code>) containing:
 * a <code>&lt;blockquote&gt;</code> that wraps the quoted text itself (including explicit quotes "" “”)
 * a <code>&lt;cite class="h-cite"&gt;</code> that wraps a citation of the source of the quotation, with at a minimum:
-** a nested hyperlink (<code>&lt;a href&gt;</code>) linking to the source, ideally using a [[fragmention]] directly to (at least the the start of) the quotation.
+** a nested hyperlink (<code>&lt;a href&gt;</code>) linking to the source, ideally using a [[fragmention]] directly to (at least the start of) the quotation.
 ** link text of the name of the article/book/source
 
 == IndieWeb Examples ==
 === Aaron Parecki ===
-{{aaronpk}} uses [[WordPress]] to post [[bookmarks]] on aaron.pk/bookmarks since ????-??-??, some of which are entire quotations, e.g.:
-* http://aaron.pk/bookmarks/?bookmark=the-value-of-a-founders-time
-* http://aaron.pk/bookmarks/?bookmark=to-everyone-who-is-complaining-about-popular-science-shutting-down-comments
-* http://aaron.pk/bookmarks/?bookmark=dylans-desk-frustration-and-fragmentation-rule-the-mobile-industry-for-now
+{{aaronpk}} posts [[bookmarks]] on http://aaronparecki.com/bookmarks using [[p3k]] since 2014-09-07 (and using [[WordPress]] from 2006-12-10 to 2014-09-06), some of which are entire quotations, e.g.:
+* http://aaronparecki.com/bookmarks/2014/06/11/1/
+* http://aaronparecki.com/bookmarks/2014/04/30/2/
+* http://aaronparecki.com/bookmarks/2012/04/04/1/
 
 == Silo Examples ==
 * [[Tumblr]] supports an explicit quotation post kind, and presents quotation posts differently from other posts. (needs screenshots using default Tumblr skin)

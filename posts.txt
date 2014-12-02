@@ -22,21 +22,26 @@ How to publish a post.
 Why you should publish posts on your own site: see [[why]].
 
 === Kinds of Posts ===
-Experience has shown that there are different kinds of posts on indieweb sites, and publishing and display interfaces for them vary by type. [[ActivityStreams]] has a similar concept of "object types". Here are a few kinds of posts that indieweb community members are currently publishing:
+Experience has shown that there are different kinds of posts on indieweb sites, and publishing and display interfaces for them vary by type. Here are a few kinds of posts that indieweb community members are currently publishing:
 
-Roughly ordered by apparent/anecdotal indieweb posting frequency:
+Roughly ordered by apparent/anecdotal indieweb posting frequency across different sites / implementations:
 * [[note]]
 * [[article]]
 * [[reply]]
-* [[photo]]
-* [[checkin]]
 * [[like]]
-* [[comics]]
-* [[event]]
+* [[photo]]
+* [[repost]]
+* [[checkin]]
 * [[rsvp]]
-* [[session]]
+* [[event]]
 * [[video]]
+* [[comics]]
 * [[exercise]]
+
+Posted by only one indieweb site so far:
+* [[quotation]]
+* [[session]]
+* [[venue]]
 
 Posts of various types may also be implicit [[mentions]] of other posts by linking to them, but the difference only matters to the receiver — i.e. there is no dedicated UI for people to publish a “mention” of something.
 
@@ -56,6 +61,7 @@ Alternative perspective: instead of explicit post kinds, infer the post kind (an
 * with a p-rsvp -> [[RSVP]]
 * with a u-like-of -> [[like]]
 * with a u-repost-of -> [[repost]]
+* with a p-invitee -> [[invitation]]
 
 Obviously combinations of the above will have to be explored to see if they make sense, and given multiple possible inferred post kinds, which should "win" in terms of driving the presentation/UI. E.g.
 * with an embedded image and with a p-location [[venue]] -> [[checkin]] with photo. E.g. [http://aaronparecki.com/notes/2014/05/06/3/iiw-indieweb this post by aaronpk] should be considered a check-in. Reasoning:
@@ -78,6 +84,8 @@ If there's no reason to present a different UX, then you likely shouldn't be thi
 And even if you do want to present a different UX, consider simply using the existence of specific properties (e.g. [[in-reply-to]] for [[replies]]) to drive the presentation of a different UX, rather than creating a new post type.
 
 If you get that far, step one, document real world examples of such new UX (even from [[silos]]) with screenshots/mockups embedded on this wiki.
+
+After you've documented existing UX of a post type, see if you can find something similar in  [[ActivityStreams]]'s similar concept of "object types", and thus re-use their name/terminology.
 
 === Pieces of a Post ===
 At a minimum, indieweb posts should have:

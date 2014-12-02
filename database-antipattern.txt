@@ -205,6 +205,10 @@ Q: I don't understand how this anti pattern is related to the indieweb?
 
 A: Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above. [[Falcon]] is one real world indieweb example of flat file storage based dynamic post content server.
 
+== Articles ==
+Related articles:
+* <span class="h-cite"><time class="dt-published">2014-07-11</time> <span class="p-author h-card">Bob Mesibov</span>: <cite class="p-name">[http://thelinuxrain.com/articles/software-is-not-data Software is not data]</cite></span> (Ed. and thus in particular, database software is not data) <blockquote>Spreadsheets and databases are complex programs written to enable users to do marvellous things with data, but only if the data are kept within those applications. That trade-off isn't widely appreciated.</blockquote>
+
 == See Also ==
 * [[file-storage]]
 * [[MySQL]]

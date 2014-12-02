@@ -7,7 +7,7 @@ http://indiewebcamp.com/advocacy
 * '''Do''' enable and empower; '''don't''' dictate and domineer.
 * '''Don't''' downplay people's concerns or ignore legitimate criticisms, '''Do''' listen and ask questions, help find ways to recognize and address criticisms.
 * '''Don't''' become a raving fundamentalist. The IndieWeb community is based on practicality and positive change, not becoming a weird cultish religion. Using a [[silo]] service does not make someone bad, stupid, or irrational.
-* '''Do''' talk about unsolved problems—'''don't''' cover up the problems you are facing but share them. People who aren't engaged in the community can and will be inspired to find new ways to solve those issues if they are shared honestly.
+* '''Do''' talk about unsolved problems—'''don't''' cover up the problems ([[user experience]], [[design]], social, technical etc.) you are facing but share them. People who aren't engaged in the community can and will be inspired to find new ways to solve those issues if they are shared honestly.
 * '''Focus on the human''': talk about your own motivations and listen to other people's motivations.
 
 == See also ==

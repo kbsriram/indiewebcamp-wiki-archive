@@ -15,6 +15,8 @@ My name is gRegor Morrill and I have been blogging on my domain since about 2002
 
 I helped start the Chicago chapter of the [[Homebrew Website Club]] and enjoyed attending my first IndieWebCamp, [[2014|Portland 2014]].
 
+testing
+
 == Contributions ==
 * [https://github.com/gRegorLove/nucleus-plugin-webmention Webmention plugin] for [[Nucleus]] CMS
 
@@ -53,6 +55,9 @@ In no particular order, I am interested in:
 ** Optionally allow sorting the starred item's original publish date.
 * Migrate RSS feed ''away'' from [[FeedBurner]]
 * Better logging of incoming webmentions, including: request headers, webmentions originating from the form on my site.
+* Add a hook to the Wayback Machine's "Save Page Now" after posting an article.
+** Per tantek's suggestion, probably after a 24hr delay, to allow time for corrections. http://indiewebcamp.com/irc/2014-11-21#t1416613576792
+* Set up a [[sitemap]] at gregorlove.com/42
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

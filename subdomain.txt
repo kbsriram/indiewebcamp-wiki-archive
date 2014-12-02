@@ -23,8 +23,7 @@ The following silos give users subdomains:
 == Subdomain advantages disadvantags ==
 Pro: reduced cost and admin effort
 
-Con: In a hypothetical example of alice.example.com, alice is dependent on example.com, although the dependency can potentially be very small, with example.com just managing a [[DNS]]] "A" record for alice, pointing to alice's server.
-
+Con: In a hypothetical example of alice.example.com, alice is dependent on example.com, although the dependency can potentially be very small, with example.com just managing a [[DNS]] "A" record for alice, pointing to alice's server.
 
 == Path alternative ==
 Example: http://example.com/alice

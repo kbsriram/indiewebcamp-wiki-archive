@@ -5,6 +5,7 @@ http://indiewebcamp.com/User%3ABret.io
 A directory of my indieweb interests, projects, and events.  I am interested in projects that are low maintenance and long term in scope, p2p and distributed storage systems and anything else that makes publishing easy and fun.
 
 == Current IndieWeb Projects ==
+* [https://github.com/bcomnes/base base] (working title) - A starter indieweb template for Jekyll.
 * [http://bret.io bret.io] - my personal website.  Hosted on [[gh-pages]] and rendered in [[jekyll]] safe mode. [https://github.com/bcomnes/bcomnes.github.io source]
 ** [[jekyll]] - Contributing and extending Jekyll's indieweb capabilities. 
 ** Graceful note enhancement using metadata presence 

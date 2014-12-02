@@ -1,5 +1,6 @@
 http://indiewebcamp.com/App.net
 
+{{pagelogo|https://pbs.twimg.com/profile_images/378800000173471968/3e29d2f6ae34138d34d62dbb50fcc900_200x200.png}}
 {{stub}}
 
 '''<dfn>App.net</dfn>''' (ADN) is a microblogging [[silo]] similar to [[Twitter]] for posting [[notes]] of up to 256[http://developers.app.net/docs/resources/post/#post-fields] characters in length.

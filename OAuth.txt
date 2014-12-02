@@ -1,7 +1,7 @@
 http://indiewebcamp.com/OAuth
 
+<span style="float:right">https://farm3.staticflickr.com/2074/1529124811_67fcabab2d_q.jpg</span>
 {{stub}}
-
 <span class="p-summary">'''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.</span>
 
 == UI ideas ==

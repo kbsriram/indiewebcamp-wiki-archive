@@ -108,6 +108,11 @@ Notifix is a bot (see above for source code). It's constantly connected to irc.f
 * http://pubsubhubbub.superfeedr.com/ 
 * https://pubsubhubbub.appspot.com/
 
+== Consuming Implementations ==
+The following implementations consume and subscribe to PuSH feeds:
+* [[StatusNet]]
+* [[tt-rss]]
+
 == Discussion ==
 * "subscribing (to PuSH is) too hard": http://indiewebcamp.com/irc/2013-05-29#t1369859193
 

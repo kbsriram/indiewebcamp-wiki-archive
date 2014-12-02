@@ -93,16 +93,47 @@ Falcon has some code to support various [[PHP]] configurations (and sometimes mi
 Falcon supports the following legacy technologies for specific use-cases.
 === Feeds ===
 Falcon supports:
-* [[Atom]] with [[ActivityStreams]] object type annotations. 
+* [[Atom]]/XML with [[ActivityStreams]] object type annotations: "article", "note" from [http://activitystrea.ms/schema/1.0/] (note: Falcon supports [[reply]] & [[RSVP]] posts yet they are both just "note" in the AS output).
 ** Use-case: Tantek.com's Atom feed of articles is consumed by [http://planet.mozilla.org/ Planet Mozilla].
 * [[PuSH]] notifications when posts are published
-** Use-case: [[Status.net]] / Identica subscribers get real-time updates via PuSH notifications from tantek.com
+** Use-case: [[Status.net]] / Identica subscribers get real-time updates via PuSH notifications from tantek.com and make use of note vs. article distinction.
 
 == Bug Reports ==
 None currently, but if you see something broken, add a note here and I'll look into it. thanks! - {{t}}
 
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
+
+=== one-off person-area-tag reply to photo ===
+Work on a sample person-area-tag reply post to https://aaronparecki.com/notes/2014/10/13/1/indieweb-latergram, tagging {{benwerd}} in the photo.
+
+Why: 
+* So we can have a concrete real world markup example to test microformats2 parser improvements on.
+* And a building block for [[SWAT0]] as well as 0.1 (person D tags B in the photo, instead of A tagging B in the photo).
+
+Steps:
+* '''Document''' all the brainstorming in IRC starting [http://indiewebcamp.com/irc/2014-11-19#t1416431110471 2014-323 13:05]
+** [[tag-reply]]
+*** <code>class="u-in-reply-to u-tag-of"</code> proposed markup
+*** how to markup a tag reply to another post
+** [[person-tag]] 
+*** <code>class="p-category h-card"</code> proposed markup
+*** how to markup a person-tag in a post
+*** how to markup a person-tag [[reply]] to another post
+** [[area-tag]]
+*** <code>&lt;area class="p-category" shape="rect" coords="" alt="note here"&gt;</code>
+*** http://alistapart.com/article/imagemap
+*** http://en.wikipedia.org/wiki/Image_map#Server-side_image_map for area tag creation UI w/o JS
+** [[person-tag]] as an [[area-tag]]
+* '''Publish a post''', an [[article]] [[reply]] since it's a reply, and article since it has non-trivial markup. 
+** (what's the name for the the article?)
+** [[reply-context]] with the original photo (hotlinked)
+** image map and area elements connected to that photo
+** markup as documented above
+** fallback markup/text for consumers that
+*** don't support tag-reply (that treat it as a plain [[reply]])
+*** or don't support person-tag (that only see the tag text)
+*** or don't support area-tag (i.e. that don't yet parse microformats2 on area elements)
 
 === auto Bridgy POSSE to FB ===
 Rather than manually using the publish form at https://www.brid.gy/facebook/214611#publishes,
@@ -369,12 +400,52 @@ Beyond that, I find my prioritization changes often enough that I just keep a lo
 == Itches ==
 <span id="Itching">Itches</span> are other things I want on my site but haven't started implementing yet. They are a collection of annoyances that have respective features / improvements. As their annoyance level bubbles to the top, they're likely to become concrete "[[#Working_On|Working On]]" tasks.
 
+=== linked hashtags ===
+[[hashtags]] in my [[notes]] are currently unlinked because 
+* I don't know where to link them to (no good indieweb tag [[aggregators]] yet), and 
+* I don't have a tag based destination on my own site
+
+Thus:
+* figure out a local destination for hashtags, e.g. tag search, paginated by date
+* update [[CASSIS]] auto_link function to link to those destinations automatically
+
+=== Geo-tagged Notes ===
+I want my [[notes]] to optionally (opt-out?) have [[geo-tagging]] added to them in my (POSSE) posting UI.
+
+[http://tantek.com/2014/322/t2/visualizations-geo-tagging-tweets-included-more 2014-322 noted] that @TwitterData presentation showed lots of presentation where they showed aggregated maps and animated maps based on geo-tagged tweets. This is interesting micro-incentive to geo-tag your notes - by geo-tagging your notes, you get to participate in such data aggregations.
+
+I'm thinking something very simple to start with (potential improvements noted inline)
+# '''Get and show current location in post UI.''' Upon load, have my /Falcon UI get current location and show it
+#* Minimum zero user effort: Use Geolocation API to get data automatically
+#** display lat/long/altitude text
+#* Better: Map. display a map centered on current location
+#** with a blue dot for current location
+#* Better: dynamically updated so it works while moving / traveling (e.g. in train or card), or upon wake from sleep
+#* Even better: scrollable map
+#* Even better: movable pointer / blue-dot so I can "fix" the location
+#* Alternatively: a text field to do location search and get a lat long accordingly
+# '''Submit lat, long info to server'''
+# '''Add location to POSSE tweet copy when I click "Post"'''
+# '''Server attach lat, long to post storage along with POSSE tweet ID'''
+#* inside the "h-entry", add "p-location h-geo" with "p-latitude" "p-longitude" properties to store lat long
+
 === Payment Links ===
 Similar to the mobile [[communication]] links, it would be good to have a set of [[payment]] links/buttons which show the user different ways to pay, in order of my preference, and then the user can choose which one they can and want to do.
 
-=== Indie Checkins ===
+=== Expiring Content ===
+{{main|expiring content}}
+
+* figure out how to author/store [[expiring content]] in Falcon storage
+* figure out how to best render/display [[expiring content]]
+* implement and test with a post that forward references things which are expected to become less relevant at some point in the future.
+
+=== Indie Venues and Checkins ===
+Itch: Existing venue reference URLs are all broken (for an H&M store, the hm.com store locator) or bloated with unnecessary Javascript (Yelp, Foursquare). 
+* Scratch: I need to support simple [[venue]] posts on my own site so I can #ownmyvenues per [[own_your_data#Per_Post_Type]][http://tantek.com/2014/336/t1/store-forward-hard-go-shopping]
+
 Itch: really getting tired of venue griefers/abusers/overmergers on [[Foursquare]]. Overmergers: people who take two distinct [[venues]] and merge them into one because they have some mistaken idea of what a "venue" is. Overmerging ends up redirect both previous unique URLs to one of them, and it effectively destroys your history at checking into either, because after that, you don't know which it was. It's like wiki vandalism but worse because there is no history and no accountability.
-* Scratch: Indieweb [[checkins]] from/on my own site, which then [[POSSE]] out to [[Foursquare]] (required for me because I'm a heavy Foursquare user and I wouldn't switch over to using my own indieweb checkins without that automatic capability. Mobile web support via Geolocation API is a must.)
+
+* Scratch: <span id="Indie_Checkins">Indieweb [[checkins]]</span> from/on my own site, which then [[POSSE]] out to [[Foursquare]] (required for me because I'm a heavy Foursquare user and I wouldn't switch over to using my own indieweb checkins without that automatic capability. Mobile web support via Geolocation API is a must.)
 * Scratch: Indieweb [[venues]] are essential to make indieweb checkins work and maintain data fidelity. ** Challenge: how to deal with POSSE'd venue references when silo venues are subject to such vandalism as noted in the itch description.
 
 More thoughts on what I want for indieweb checkins on my site:

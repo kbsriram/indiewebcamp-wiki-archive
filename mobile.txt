@@ -12,7 +12,7 @@ To make your indie website mobile friendly:
 * [[icon]] - make sure you've setup an icon for readers to easily add your indieweb site to their mobile device home screen
 * [[design]] - implement good responsive design so your website is readable on mobile devices, and focuses on showing content first or very close to the top (rather than sidebars and other widgets).
 * [[communication]] - setup your personal website so that when users access it on a mobile communication device, it presents them with mobile communication options for getting in touch with you.
-* [[posting]] - implement a good mobile posting interface for your indie website so you can create [[posts]], perhaps even take and post [[photos]] from your mobile device(s).
+* [[posting]] - implement a good mobile [[posting interface]] for your indie website so you can create [[posts]], perhaps even take and post [[photos]] from your mobile device(s).
 * [[offline]] - implement some amount of offline support in your website so people can browse and read your posts even if their network connection is unreliable or unavailable
 
 As we figure out and implement such mobile friendliness on our own websites, they may make sense as additional '''[[IndieMark]]''' features to measure.

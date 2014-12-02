@@ -1,0 +1,74 @@
+http://indiewebcamp.com/2015
+
+{{stub}}
+
+One of several [[IndieWebCamp]] [[events]] in [[2015/|2015]].
+
+This page is for planning the main annual IndieWebCamp, likely in multiple locations like Portland, NYC, Berlin.
+
+== Organizers ==
+If you'd like to help out, join [[IRC]], and add your name below!
+
+Organizers - alphabetical (see below for specific cities)
+* {{aaronpk}}
+* {{bear}} - can help co-organize for New York (or any eastern locations really)
+* {{t}}
+* ...
+
+== Candidate Dates ==
+Add a date and whether you can make it (and/or help organize o) for those dates +1 (or can't -1 or don't care 0)
+* other dates before that?
+* 2014-06-20..21 - Before OS Bridge 2015-06-23..26
+** +1 o {{t}}
+* 2014-06.27..28 - Immediately after OS Bridge (as we've done it [[2011]]-[[2014]])
+** +1 o {{t}}
+* other dates after that?
+
+== Candidate Cities ==
+Add a city and whether you can make it (and/or help organize o) for those cities +1 (or can't -1 or don't care 0)
+* Portland (was a 2014 city)
+** +1 o {{aaronpk}}
+** +1 o {{t}}
+** +1 {{kylewm}}
+* New York City (was a 2014 city)
+** +1 o {{t}}
+** +1 o {{bear}}
+* Berlin (was a 2014 city)
+* San Francisco (had its own [[2014/SF|IndieWebCamp in 2014]])
+** +1 o {{t}}
+** +1 o {{kylewm}}
+* ... add more cities here, only if you could actually make it to that city, and/or want to help organize that city
+
+== Collaborative Sessions ==
+Notes from organizers (and [[2014]] participants) about what did and did not work for cross-city collaborative sessions:
+
+=== What worked ===
+* good cameras and microphones are super important - {{aaronpk}}
+* the shared sessions worked well when there was
+*# a camera with a good view of the people and whiteboard
+*# someone monitoring IRC for questions - {{bear}}
+
+=== Challenges ===
+* the dilemma with large time zone swings was being able to participate in another cities remote session - {{bear}}
+* it's never easy and requires lots of prior planning - {{bear}}
+
+=== Things to try this year ===
+* we could make sure certain "domain experts" are known so everyone could make use of them, something like "[[HTTPS]] Hour with bear and ..." - {{bear}}
+
+== FAQ ==
+=== Why multiple cities ===
+Q: What's the rationale for having separate IWCs simultaneously?
+
+A: tl;dr: The short answer is - because people stepped up to organize.
+
+IWC East happened because {{JeremyZilar}} wanted to host an IWC in NYC simultaneously with the one in Portland.
+
+Then IWC Farther East happened because {{bnvk}} wanted to host on IWC in Berlin simultaneously.
+
+The overall rationale(s) is/are because:
+* Someone took the initiative and wanted to, and 
+* it seemed more in the indie spirit as well as 
+* more decentralized in spirit to encourage and enable multiple locations
+
+== See Also ==
+* [[2015/|List of IndieWebCamps in 2015]]

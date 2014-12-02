@@ -47,6 +47,27 @@ Since [[Google]] reader [[site-deaths|shut down]], a number of independent proje
 * [[Reeder]]
 * …
 
+== Other Aggregators ==
+There are different opinions on "what is an aggregator", feed reader, site with public URLs copying content from elsewhere (like a [[planet]]), etc. Dumping these here because they were in [[business-models]] but none of them actually make money from aggregating:
+
+Aggregators are a way to read (sometimes disparate) content in a single place. Aggregators can be [[silos]], or can be open.
+
+Aside from just distributing content, aggregators can compete on things like speed, user experience, etc.
+
+From most indieweb-web [[friendly]]/encouraging to least:
+
+Pure aggregators (no primary content, all content and comments are aggregated from around the web)
+* [[IndieNews]]
+Content aggregators (aggregate content from around the web, primary hosting of comments only)
+* [[Reddit]]
+* [[Hackernews]]
+Hybrid aggregators (aggregate content from around the web as well as primary content posts hosted on their silo)
+* [[StatusNet]]
+Silo aggregators (aggregate only posts in their own silo)
+* [[Facebook]]
+* [[Google+]]
+* [[Twitter]]
+
 == See Also ==
 * [[feed]]
 * [[reader]]

@@ -1,5 +1,7 @@
 http://indiewebcamp.com/Red_Wind
 
+<span style="float:right;height:192px;font-size:192px;margin:72px 0 -64px">🍃</span>
+
 == Description ==
 <dfn>Red Wind</dfn> ([https://github.com/kylewm/redwind source code]) is {{kylewm}}'s IndieWeb-ready blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but unstable and undocumented and probably not of much use to anyone but the author, at least for now.
 
@@ -89,6 +91,7 @@ Names are stored in a JSON dict, indexed by full name (generally the p-name on t
 </pre></code>
 
 == Screenshots ==
+[[Posting interfaces]] and more:
 
 Interface for posting a reply as of 2014-03-24
 

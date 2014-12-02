@@ -1,0 +1,5 @@
+http://indiewebcamp.com/sitemap
+
+{{stub}}
+
+A '''<dfn>sitemap</dfn>''' is a list of pages on a website.

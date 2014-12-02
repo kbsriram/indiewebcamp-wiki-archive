@@ -1,6 +1,6 @@
 http://indiewebcamp.com/User%3ADavid.shanske.com
 
-<span class="p-summary">'''<dfn class="h-card">[https://david.shanske.com/ David Shanske]</dfn>''' is david.shanske.com, and works on it as well as content for the site. No point in developing the infrastructure without it.</span>
+<span class="p-summary">'''<dfn class="h-card">[https://david.shanske.com/ David Shanske]</dfn>''' is an Indieweb enthusiast from New York, working on Indieweb WordPress plugin development.</span>
 
 ==Current Progress==
 * Site uses [[WordPress]]
@@ -24,10 +24,15 @@ http://indiewebcamp.com/User%3ADavid.shanske.com
 * [https://david.shanske.com/projects/indieweb/semantic-comments/ Semantic Comments] Plugin - Wordpress plugin - Adds a new comment template with facepiles for Webmentions.
 * [https://david.shanske.com/projects/indieweb/indieweb-taxonomy/ Indieweb Taxonomy] Plugin - Adds a new taxonomy to Wordpress posts for actions such as like, reply, etc.
 * [https://david.shanske.com/projects/indieweb/simple-location/ Simple Location] plugin
+* [https://david.shanske.com/projects/indieweb/hcardtools/ H-Card Tools] plugin - Designed to add an H-Card Widget to WordPress.
 
 == For the Future ==
 
-* Expanding the Indieweb Taxonomy plugin for additional data to be stored, including profile photo, date of publish, etc.
+* Continuing to improve the Semantic Comments plugin, which generates alternate displays of webmentions, such as [[facepile]] to be more extensible.
+** Just rewrote the code to use WordPress's Comment_Walker class and a lot less CSS, which means it should integrate better into the themes it is activated on.
+** Want to add several different styles of Facepile into the mix.
+* Expanding the H-Card Tools widget plugin to support a variety of h-card functions for WordPress
+* Expanding the Indieweb Taxonomy plugin for additional data to be stored, including profile photo, date of publish, etc. Looking for its storage of h-card data to be integrated with previously mentioned H-Card plugin.
 * Looking to develop a simpler post editor for notes
 * Add reply/like endpoints to the Indieweb Taxonomy plugin
 * Automatic Bridgy syndication in the Syndication Links plugin

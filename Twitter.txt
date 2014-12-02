@@ -1,10 +1,10 @@
 http://indiewebcamp.com/Twitter
 
-<span style="float:right">https://pbs.twimg.com/profile_images/2284174758/v65oai7fxn47qv9nectx_200x200.png</span>
+{{pagelogo|https://pbs.twimg.com/profile_images/530553072594874368/7f9QErOD_200x200.png}}
 '''<dfn>Twitter</dfn>''' (also known as <dfn>Twitter.com</dfn>) is a popular content hosting [[silo]] most well known for 140 character text [[notes]].
 
 == Features ==
-Twitter provides the following features:
+Twitter provides the following features currently:
 
 * [[signup]] &amp; [[login]] with a email address, user chosen username, password, and optional [[2FA]] (two-factor authentication) via SMS or Twitter Mobile Native App.
 ** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]], TBI multi-factor [[IndieAuth]]
@@ -54,6 +54,28 @@ Twitter provides the following features:
 ** privacy toggle (all posts are public, or private, requiring approval for every follow request)
 ** lots of other [[settings]]
 
+=== 2006 original ===
+At launch, Twitter provided the roughly following features:
+
+* [[signup]] &amp; [[login]] with a email address, user chosen username, password
+** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]], TBI multi-factor [[IndieAuth]]
+* [[follow]] and unfollow[https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
+* [[reader]] UI with an integrated UI to:
+* [[post]] a [[note]] at a [[permalink]] with:
+** author button: Delete post
+** [[web actions]] for others to Favorite
+* [[like]] (called "favorite" on Twitter) and unfavorite any tweet
+* direct [[message]] anyone who is following you and
+** view or delete your previous private messages sent and received as conversations per person
+** show count of unread [[message]]s
+* [[profile]] page (equivalent of indieweb [[homepage]]) configuration including
+** [[icon]]
+** name (as displayed next to tweets)
+** location (plain text field)
+** 160 character bio
+
+This list may be incomplete/imprecise and was done from ~8 year old memory. Please update if you have documentation of specifics!
+
 === Replacing ===
 If you recreate these features on your own site, including [[POSSE]] support to Twitter for each, then you no longer have any need to directly use Twitter.
 
@@ -98,6 +120,7 @@ Etc. your tweets to do so, per that CC license (e.g. CC-BY, attributing you) ind
 ==== Reverse Syndicating At-Replies ====
 Per the [[POSSE]] model, you may want to reverse-syndicate @-replies on Twitter to the tweet-copies of your post as "comments" back into your post permalink page on your own site. By using TweetCC, you can check to see if those @-replying to you have CC-licensed their tweets and then incorporate them using the CC license, displaying them however they fit in with your site design, instead of having to shoehorn Twitter's display "guidelines" into your site / post-permalink page design.
 
+__TOC__
 == Data Export ==
 === Download all your tweets ===
 # Go to: https://twitter.com/settings/account 
@@ -118,7 +141,6 @@ After you download your archive, you can update in using a Ruby Gem called [http
 
 * You can use [http://www.jwz.org/blog/2014/01/psa-back-up-your-shit/ this method] to download DMs from Twitter. It is complicated to set up and involves registering a new Twitter application. It can only archive about a year's worth of DMs.
 
-__TOC__
 == Porting to the IndieWeb ==
 === Implementations ===
 
@@ -274,6 +296,8 @@ Examples, i.e. IndieWebCamp community members who are doing this:
 * [[User:Snarfed.org]] with [[WordPress]] via [[Bridgy]] ([https://snarfed.org/responses#replies snarfed.org/responses#replies])
 
 === POSSE Replies to Twitter ===
+'''If original has a POSSE tweet copy:'''
+
 When posting a comment which is a reply to another indieweb post, the POSSE tweet of your comment should attempt to set the <code>in_reply_to_status_id</code> to the POSSE tweet of the indieweb post you're replying to.
 
 This is similar to how you '''POSSE Replies to Tweets''' but with one extra step to discover the POSSE tweet of the original post:
@@ -282,10 +306,14 @@ This is similar to how you '''POSSE Replies to Tweets''' but with one extra step
 
 See also: [[in-reply-to]], [[comments]].
 
+'''If original does not have a POSSE tweet copy:'''
+
 If the indieweb post (or other URL) has no equivalent POSSE tweet and is not a tweet URL itself, then:
 * include the non-Twitter in-reply-to URL as the last thing before your permashortlink in the POSSE tweet copy of your reply
 ** Why? So Twitter can potentially show context of the in-reply-to URL in the POSSE tweet copy of your reply
 ** IndieWeb reply POSSE tweet example: https://twitter.com/jeena/status/436675022443511808
+
+POSSEing your reply to Twitter is still useful if your reply is "self-contained" enough to be relevant to your Twitter readers. It's definitely a judgment call and matter of personal preference at that point. Indieweb community members have also found joy out of site-to-site replies that never hit Twitter, and thus reflect another level of independence.
 
 === POSSE Reposts of Tweets ===
 When posting a [[repost]] of a tweet, the proper POSSE behavior should be to do a native retweet (on Twitter) of the tweet that you're reposting on your own site.
@@ -340,7 +368,7 @@ Twitter's UX now makes it easier to post abusive content, than protect oneself f
 Live: http://downrightnow.com/twitter
 
 Most recent first:
-* 2013-08-28 [https://twitter.com/veen/status/372842227195580419 Twitter was experiencing DNS issues] resulting in missing images and raw html for a number of hours.  This is likely due to DNS issues related to the [http://www.vice.com/read/the-syrian-electronic-army-talks-about-yesterdays-hacks syrian army hacks].  The site was nearly impossible to use in it's raw html form. [[File:Screen_Shot_2013-08-28_at_5.12.26_PM.png|250px]]  
+* 2013-08-28 [https://twitter.com/veen/status/372842227195580419 Twitter was experiencing DNS issues] resulting in missing images and raw html for a number of hours.  This is likely due to DNS issues related to the [http://www.vice.com/read/the-syrian-electronic-army-talks-about-yesterdays-hacks syrian army hacks].  The site was nearly impossible to use in its raw html form. [[File:Screen_Shot_2013-08-28_at_5.12.26_PM.png|250px]]  
 * 2012-06-21 [http://gigaom.com/2012/06/21/twitter-outage-thursday-morning-frustrate-users/ Twitter was down: sporadic outages persist Thursday morning]
 * 2010-11-04 "Twitter server is down or being upgraded." [http://www.flickr.com/photos/tantek/5322875194/ http://farm6.staticflickr.com/5210/5322875194_908d728816_z.jpg]
 * 2009-09-16 "Twitter is over capacity" (AKA failwhale) [http://www.flickr.com/photos/factoryjoe/3927590515/ http://farm3.staticflickr.com/2571/3927590515_dcdac9ed95.jpg]
@@ -362,6 +390,14 @@ Twitter built their entire business on top of the developer community. Almost al
 * 2014-10-20 [http://www.marco.org/2014/10/20/wsj-twitter-peace-offering "Twitter’s “peace offering” to developers is meaningless"] - Marco Arment
 
 <div><p>Twitter to Offer New Tools for App Developers <br/><img src="https://pbs.twimg.com/media/B0cWScpCYAAgN2m.jpg" width="200" /></p>&mdash; Joël Franusic (@jf) <a href="https://twitter.com/jf/status/524412388745818113">October 21, 2014</a></div>
+
+=== Lack of Communities ===
+
+* [https://alexgaynor.net/2014/oct/30/i-hope-twitter-goes-away/ Alex Gaynor discusses his problems with twitter], which mostly center around the inability to define and interact within a self-moderating community, unlike most other social media (and IRC).
+
+<blockquote>
+Twitter has no mechanisms for <nowiki>[defining a community]</nowiki>. Every user floats by themselves, interacting with who they please. This denies us the ability to build communities, to set social norms, and to enforce them. Twitter has absolutely no way for me to share with others that someone isn't a person I want in my communities
+</blockquote>
 
 == Issues ==
 Correctable issues with Twitter.

@@ -103,7 +103,7 @@ Ello seems to add extra things in the history and makes the browser navigation b
 Ugly monospaced-font, with small font-size makes it hard to read. Font declaration in Firefox reads "AtlasTypewriterRegular","Andale Mono","Consolas","Lucida Console","Menlo","Luxi Mono",monospace -- [[User:Kartikprabhu.com|Kartik]]
 
 === Errors and Downtime ===
-On 2014-10-03 I noticed the main Ello interface seemed to stop working. Clicking a note permalink or comments icon did nothing. When I tried to view the profile directly, this error message was displayed. The errors did not appear to persist for more than 30 seconds, though. — {{gRegor}}
+On 2014-10-03 I noticed the main Ello [[interface]] seemed to stop working. Clicking a note permalink or comments icon did nothing. When I tried to view the profile directly, this error message was displayed. The errors did not appear to persist for more than 30 seconds, though. — {{gRegor}}
 
 [[File:ello-downtime-2014-10-03.jpg]]
 

@@ -43,7 +43,7 @@ If you have the time and interest to do so, it's worth supporting OpenID for leg
 E.g. IndieWebCamp.com uses [[IndieAuth]] which supports Web sign-in and <s>supports</s> used to support OpenID.
 
 === Why not consume OpenID ===
-OpenID is ''hard'' to consume on your own website. If you're looking to do that, just use the [[IndieAuth]] service.
+OpenID is ''hard'' to consume on your own website. If you're looking to do that, just use the [[indieauth.com]] service.
 
 Otherwise you have to either:
 * install/maintain an OpenID consuming plug-in in your CMS (e.g. WordPress)

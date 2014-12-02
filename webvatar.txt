@@ -1,0 +1,40 @@
+http://indiewebcamp.com/webvatar
+
+'''<dfn>Webvatar</dfn>''' is a service that provides direct URLs for <code><nowiki><img></nowiki></code> tags when you have the domain, or website address, of the user.
+
+Thus, by using <code><nowiki><img src="http://webvatar.com/:website"></nowiki></code> you can shorten your need for servers and microformats2 parsing and still get people's pictures.
+
+Currently, Webvatar supports microformats2, microdata, Twitter profiles, Facebook profiles and Google+ profiles (thanks to microdata, doing good sometimes), has probably a lot of stupid bugs and falls back at an image with the domain name written in it for people whose images it cannot find.
+
+== Optional query parameters ==
+You can pass some query parameters to your call to <code><nowiki>http://webvatar.com/:address</nowiki></code>
+
+* <code><nowiki>?alt=hash</nowiki></code>: When no image is found, you get a pretty picture of the SHA256 hash of the target address.
+* <code><nowiki>?alt=robohash</nowiki></code>: When no image is found, you get a cool robot generated with the hash of the target address, courtesy of http://robohash.org/.
+* <code><nowiki>?</nowiki></code>: When no image is found and you pass no <code><nowiki>alt</nowiki></code> parameter you get an image with the the domain (or address) written in it.
+* <code><nowiki>?acceptsmall=true</nowiki></code>: This option bypasses our (very relaxed) filter for small images, which in some cases will get you a smallish favicon instead of nothing.
+
+== Examples ==
+* http://webvatar.com/tantek.com
+* http://webvatar.com/werd.io/
+* http://webvatar.com/aaronparecki.com
+* http://webvatar.com/snarfed.org
+* http://webvatar.com/ben.thatmustbe.me/?alt=robohash
+* http://webvatar.com/kylewm.com/
+* http://webvatar.com/stream.withknown.com
+* http://webvatar.com/fiatjaf.alhur.es/?alt=hash
+* http://webvatar.com/fiatjaf.alhur.es/?alt=robohash
+* http://webvatar.com/cweiske.de
+* http://webvatar.com/cweiske.de?acceptsmall=true
+* http://webvatar.com/http://facebook.com/olavo.decarvalho
+* http://webvatar.com/https://twitter.com/nntaleb
+* http://webvatar.com/https://plus.google.com/102109597967668633775/about
+
+== Source Code ==
+The [https://github.com/fiatjaf/webvatar Webvatar] source code is available on Github. Feel free to fork it and submit pull requests, or just [https://github.com/fiatjaf/webvatar/issues report bugs or suggest things].
+
+== See Also ==
+* [[icon]]
+* [[gravatar]]
+* [[h-card]]
+* [[microformats2]]

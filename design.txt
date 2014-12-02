@@ -4,10 +4,11 @@ http://indiewebcamp.com/design
 {{stub}}
 
 '''<dfn>Design</dfn>''' is a catchall term used to refer to everything that affects users about a page/site including:
-* Graphic design (including site [[icon]])
-* User interface design (UI design)
-* User experience (UX)
-* Information architecture (IA)
+* [[Graphic design]] (including site [[icon]])
+* [[User interface]] design (UI design)
+* [[User experience]] (UX)
+* [[Information architecture]] (IA)
+** [[URL design]]
 
 == Thoughts ==
 __TOC__
@@ -56,15 +57,15 @@ And without UX, that is if you don't know what UX you want, you'll overdesign/ov
 On the IndieWeb, we focus on UX first, and then as we figure that out we build/develop/subset the absolutely simplest most minimal protocols sufficient to support that UX, and nothing more.[http://indiewebcamp.com/irc/2013-08-22/line/1377196236]
 
 == Screenshots ==
-A few projects include screenshots of their user interfaces (typically posting interfaces at least)
-* [[p3k#Screenshots|p3k screenshots]]
-* [[Taproot#Notes|Taproot Notes interface]]
+See specific features (e.g. from [[IndieMark]]) and [[building blocks]] for screenshots and to add more, e.g. 
+* [[create]] posts - [[posting interfaces]]
 * ...
 
-Others:
-* [[User:Jeena.net|Jeena]]'s posting interface (project unnamed)
-
-[[File:Jeenas-notes-post-UI-2014-01-18.png]]
+== Experiments ==
+There are various design experiments which may be useful as sources of inspiration, or may indicate fleeting fashions or ephemeral design trends:
+* '''parallax scrolling''' - use of scrolling to change perspective / layout of what is on the page, e.g.
+** http://pitchfork.com/features/cover-story/reader/daft-punk/
+** Anecdotal opinions from in-person conversations with web designers at Brooklyn Beta 2014 noted universally that parallax design was cheesy and to be avoided.
 
 == See Also ==
 * [[icon]]

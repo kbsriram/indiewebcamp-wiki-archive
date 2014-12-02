@@ -7,7 +7,7 @@ http://indiewebcamp.com/indie-config
 indie-config was introduced and discussed at [[2014/UK|IndieWebCampUK 2014]]
 
 == Why ==
-By setting up indie-config on your personal site, you can then click on [[web action]] links or buttons on others sites (e.g. "Reply", "Favorite" etc.) and have those actions automatically activate <em>your</em> site's posting interface to.
+By setting up indie-config on your personal site, you can then click on [[web action]] links or buttons on others sites (e.g. "Reply", "Favorite" etc.) and have those actions automatically activate <em>your</em> site's [[posting interface]] to.
 
 == How ==
 How to setup indie-config on your personal site:

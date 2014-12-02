@@ -1,5 +1,6 @@
 http://indiewebcamp.com/Flickr
 
+{{pagelogo|https://pbs.twimg.com/profile_images/530137407572561920/hE5ieIjF_200x200.jpeg}}
 {{stub}}
 
 '''<dfn>[http://flickr.com Flickr]</dfn>''' is a [[silo]] for storing and organizing [[photos]] and short (max 90sec) & small (max 150MB) [[videos]].
@@ -22,7 +23,6 @@ photos of a user: (people tagged)
 * http://api.flickr.com/services/feeds/profile_photos.gne?nsid=39039882@N00&lang=en-us&format=atom
 
 === activity feed ===
-
 Flickr has a (totally undocumented?) feed of activity for the logged in user, where activity is anything you would normally be notified about in notifications (faves, comments, replies to photos you have replied on). To limit content to only photos in your own stream, add &activity_view=photostream
 
 * https://api.flickr.com/services/feeds/activity/all?user_id=me
@@ -36,8 +36,9 @@ The following have gotten POSSE to Flickr working:
 * {{adactio}}
 * [[WordPress]] with [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ SNAP] plugin ( working example: [[User:petermolnar.eu|Peter Molnar]] )
 
-== Privacy ==
 
+__TOC__
+== Privacy ==
 === Location data has different privacy settings from the photos ===
 Photos on Flickr have a privacy setting for seeing the photo itself, and a separate privacy setting for viewing the location of the photo. For example it is possible to set a photo to public, but have the location only visible to "Friends and Family".
 

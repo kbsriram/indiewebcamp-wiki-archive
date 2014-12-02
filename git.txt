@@ -22,6 +22,7 @@ You can use their silo or host it yourself with their open source software:
 == Examples ==
 IndieWeb implementations of git hosting on your own domain:
 * {{rascul}} uses [http://git.zx2c4.com/cgit cgit] and [http://gitolite.com/gitolite gitolite] for http://git.rascul.io.
+* [[User:cweiske.de|cweiske]] uses [http://git-scm.com/docs/gitweb.html gitweb] for http://git.cweiske.de/
 
 == Silos ==
 * [[Bitbucket]]

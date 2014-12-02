@@ -47,9 +47,12 @@ How to TBD.
 
 ==== Software ====
 
-* [http://regain.sourceforge.net/ regain], Java,
 * [http://www.gigablast.com/ gigablast], C++
+* [http://www.opensearchserver.com/ OpenSearchServer], Java
+* [http://www.openwebspider.org/ OpenWebSpider], C#
+* [http://regain.sourceforge.net/ regain], Java,
 * [http://www.sphider.eu/ sphider], PHP
+* [http://www.tsep.info/ TSEP] The Search Engine Project, PHP
 
 == Why ==
 Why should your site be searchable? 
@@ -107,6 +110,12 @@ Each result should form a block with clear visual thingness separating it from o
 
 
 == Brainstorming ==
+=== Faceted scoped search ===
+Beyond raw searching of the contents of your site, it may also be useful to index and be able to search within:
+* a time window (from/to dates/times)
+* a geography (location proximity, within an area / polygon)
+* person mentions
+
 === Site plus links search ===
 Beyond searching just the contents of what you publish on your own indieweb site, it may be useful to *also* index:
 * every page that you link to in your posts
@@ -127,6 +136,9 @@ Beyond searching just the contents of what you publish on your own indieweb site
 * every site you follow in your indie [[reader]]
 And then provide results from their sites as well as your own site.
 
+=== More brainstorms ===
+See additional brainstorms at:
+* http://p.cweiske.de/118
 
 == See Also ==
 * [[Getting Started]]

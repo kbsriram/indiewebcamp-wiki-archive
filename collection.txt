@@ -2,7 +2,7 @@ http://indiewebcamp.com/collection
 
 {{stub}}
 
-A '''<dfn>collection</dfn>''' is a type of [[post]] that lists and/or embeds multiple other posts.
+A '''<dfn>collection</dfn>''' is a type of [[post]] that explicitly lists and/or embeds multiple other posts chosen by the author. 
 
 == IndieWeb Examples ==
 === Kyle Mahan ===
@@ -17,6 +17,11 @@ A '''<dfn>collection</dfn>''' is a type of [[post]] that lists and/or embeds mul
 [[Storify]] is a silo for collecting tweets ([[Twitter]] [[notes]]). Examples:
 * https://storify.com/charlesarthur/oh-hai-sexism
 * https://storify.com/jcolman/mike-monteiro-design-facebook
+
+== Changes ==
+Collections can change over time but typically don't change much. Changes to collections typically consist of additions, rarely is something removed from a collection. 
+== Different from a feed ==
+[[feeds]] on the other hand are typically automatic sets of posts where the set changes often, new posts showing up, and old posts dropping off.
 
 == See Also ==
 * [[album]]

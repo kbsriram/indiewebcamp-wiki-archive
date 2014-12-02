@@ -45,6 +45,12 @@ Until in-browser approaches mature, it may be necessary to use native apps (eith
 === Other approaches ===
 * Email as possible approach? Most smart phones have an email client, and/or have "email this photo" support built-into their native/default camera applications. If you could set-up a custom email address (security through obscurity) on your own domain for receiving photo uploads, you could use that to "upload" photos, and then have your indieweb site POSSE out to the above-mentioned silos.
 
+* [[OwnCloud]] has an Android client which can upload new photos taken on the camera to your own installation,
+
+* Android [http://botsync.com/ BotSync] will watch a subdirectory on your phone and use the <code>scp</code> protocol to transfer new files in that directory to a server, but appears to have some issues with larger files (ie: video).
+
+* The Android app "FolderSync" appears to be a more full-featured alternative to BotSync.
+
 == Desktop upload ==
 Some browsers support uploading images from a laptop/monitor camera:
 * [http://www.w3.org/TR/html-media-capture/ HTML Media Capture] API — W3C Working Draft, implemented in Chrome desktop

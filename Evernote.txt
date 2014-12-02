@@ -1,7 +1,8 @@
 http://indiewebcamp.com/Evernote
 
+{{pagelogo|https://pbs.twimg.com/profile_images/459758682943672320/W_TBMDbx_200x200.png}}
 {{stub}}
-__TOC__
+
 '''<dfn>Evernote</dfn>''' is a suite of software and services used for note-taking and archiving. Evernote software is available on a variety of different platforms and user data is stored locally in a proprietary format. Evernote services provide a means to back up / synchronize data across devices.
 
 == Features ==

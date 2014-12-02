@@ -6,7 +6,9 @@ Note: the name of a city does not imply that someone lives there. It's from the 
 * "US/Pacific", "US/Mountain", "US/Central", "US/Eastern"
 
 == Nicknames ==
-Please keep sorted alphabetically
+'''Please keep sorted alphabetically.<br/>Please ''only'' add yourself, your URL, and your icon.''' 
+
+Part of the point of this page is to have individuals ''themselves'' edit this page and add ''their'' URL and icon as they intend it to show up in IRC logs. If you see someone on IRC who lacks a URL or icon, encourage them, per [[welcoming]].
 * {{irc user|6a68.net|_6a68|America/Los_Angeles}}
 * {{irc user|aaronparecki.com|aaronpk|US/Pacific|https://aaronparecki.com/images/aaronpk-128.jpg}}
 * {{irc user|acegiak.net|acegiak|Australia/Adelaide}}
@@ -14,6 +16,7 @@ Please keep sorted alphabetically
 * {{irc user|alexhartley.me|alexhartley|Europe/Manchester}}
 * {{irc user|Adactio.com|adactio|Europe/London}}
 * {{irc user|ashersilberman.com|addal|America/Los_Angeles}}
+* {{irc user|Www.kryogenix.org|aquarius|Europe/London|http://kryogenix.org/images/hackergotchi-simpler.png}}
 * {{irc user|roblord.org|b0bg0d|America/San_Francisco}}
 * {{irc user|waterpigs.co.uk|barnabywalters|Atlantic/Reykjavik}}
 * {{irc user|Bear.im|bear|America/New_York|https://bear.im/images/bear_128x128.jpg}}
@@ -61,6 +64,7 @@ Please keep sorted alphabetically
 * {{irc user|tobilehman.com|habitmelon|America/Los_Angeles}}
 * {{irc user|hmans.io|hmans|Europe/Berlin}}
 * {{irc user|hodgestar.za.net|Hodgestar|Africa/Cape_Town}}
+* {{irc user|indiewebcat.com|indiewebcat|US/Pacific|https://indiewebcat.com/images/dora.png}}
 * {{irc user|sixtwothree.org|jgarber|America/New_York|http://sixtwothree.org/jgarber.png}}
 * {{irc user|Jordan.io|href|Europe/Paris}}
 * {{irc user|hupili.net|hupili|HKT/HKT}}
@@ -78,11 +82,12 @@ Please keep sorted alphabetically
 * {{irc user|jihais.se|Jihaisse|Europe/Paris}}
 * {{irc user|jkphl.is|jkphl|Europe/Berlin|https://jkphl.is/avatar.jpg}}
 * {{irc user|jlsuttles.me|jlsuttles|America/San_Francisco}}
+* {{irc user|jnymck.com|jnymck|US/Pacific|http://jnymck.com/img/jnymck_thumb.jpg}}
 * {{irc user|www.dmrutherford.com|joinerman|Europe/London}}
 * {{irc user|jonathantneal.com|JonathanNeal|Los_Angeles|https://0.gravatar.com/avatar/2889096995a38fa697ab83d8b59a5637}}
 * {{irc user|jonnybarnes.uk|jonnybarnes|Europe/London|https://jonnybarnes.uk/assets/img/jmb-bw.png}}
 * {{irc user|josephg.com|josephg|America/Los_Angeles}}
-* {{irc user|joskar.se|joskar|Europe/Stockholm}}
+* {{irc user|joskar.se|joskar|Europe/Stockholm|https://joskar.se/joskar.jpg}}
 * {{irc user|Jschweinsberg.de|jschweinsberg|Europe/Berlin}}
 * {{irc user|julian.so|julian`|Europe/London}}
 * {{irc user|kartikprabhu.com|KartikPrabhu|America/Centra|https://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s50-c/Recursion-small.jpg}}
@@ -107,6 +112,8 @@ Please keep sorted alphabetically
 * {{irc user|matej.ceplovi.cz|mcepl|Europe/Prague}}
 * {{irc user|melvincarvalho.com|melvster|GMT}}
 * {{irc user|miche.lv|michel_v|Europe/Paris|http://miche.lv/images/avatar.jpg}}
+* {{irc user|michielbdejong.com|michielbdejong|GMT}}
+* {{irc user|mff.io|mikelodeon|Europe/Madrid}}
 * {{irc user|mowens.com|mko|America/San_Francisco|https://mowens.com/images/mowens-70x70.jpg}}
 * {{irc user|felixniklas.de|mrflix|Europe/Berlin}}
 * {{irc user|t37.net|neuro`|Europe/Paris|http://t37.net/files/resource/1396/thumb_dGVbyzQU.jpeg}}
@@ -117,7 +124,7 @@ Please keep sorted alphabetically
 * {{irc user|pauloppenheim.com|pauloppenheim|America/Los_Angeles}}
 * {{irc user|peat.org|peat|America/Los_Angeles}}
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
-* {{irc user|Notizblog.org|pfefferle|Europe/Berlin}}
+* {{irc user|Notizblog.org|pfefferle|Europe/Berlin|https://twitter.com/pfefferle/profile_image}}
 * {{irc user|fberriman.com|Phae|US/Pacific|https://farm4.staticflickr.com/3907/14681916407_8f36767ac4_s.jpg}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
 * {{irc user|rascul.io|rascul|America/New_York|https://rascul.io/img/avatar80.jpg}}
@@ -136,9 +143,11 @@ Please keep sorted alphabetically
 * {{irc user|Paulmunday.net|tallpaul|America/Los_Angeles}}
 * {{irc user|Indieauth.christoffer.me|Squeakytoy|Sweden}}
 * {{irc user|Tantek.com|tantek|US/Pacific|https://pbs.twimg.com/profile_images/423350922408767488/nlA_m2WH.jpeg}}
+* {{irc user|dubiousdod.org|thedod|Asia/Bangkok|https://zzzen.com/gfx/chibi-dod-avatar-96.png}}
 * {{irc user|tombruning.com|tgbrun|US/New York|http://www.tombruning.com/wp-content/uploads/2014/10/photo114.png}}
 * {{irc user|Techlifeweb.com|techlifeweb|America/Los Angeles|http://techlifeweb.com/images/avatar.jpg}}
 *{{irc user|tylerfontaine.me|tfontaine|US/Central}}
+* {{irc user|tylergillies.club|tylergillies|America/LosAngeles}}
 * {{irc user|thierry.marianne.io|thierrym|Europe/Paris|https://tmar.io/photographs/tmario_bnw_500.jpg}}
 * {{irc user|randall.bleeds.info|tilgovi|America/Los_Angeles|http://www.gravatar.com/avatar/7129ff665d962af537bf7a01f392396d.png}}
 * {{irc user|timowens.io|timmmmyboy|America/New_York|http://timowens.io/avatar128px.jpg}}

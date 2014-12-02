@@ -2,7 +2,7 @@ http://indiewebcamp.com/IndieArchive
 
 {{stub}}
 
-'''<dfn>IndieArchive</dfn>''' is a [[project]] to collaboratively grow an [[archive]] of pages [[replies|replied to]] (possibly also [[comment|mentioned]]) in indie web [[posts]].
+'''<dfn>IndieArchive</dfn>''' is a [[project]] to collaboratively grow an [[archival copy]] of pages [[replies|replied to]] (possibly also [[comment|mentioned]]) in indie web [[posts]].
 
 i-a.github.io was started as a possible shared repository of linked-to content. Presently it consists of a spec only, though several sites keep their own archive based on the concept.
 
@@ -10,7 +10,7 @@ i-a.github.io was started as a possible shared repository of linked-to content. 
 * Live raw files: http://i-a.github.io/
 
 == URL design ==
-Like archive.org, but without dumb/meaningless redundancy, and dates/times compressed with [[NewBase60]] to make the URLs even shorter.
+Like [[archive.org]], but without dumb/meaningless redundancy, and dates/times compressed with [[NewBase60]] to make the URLs even shorter.
 
 archive.org example:
 * http://web.archive.org/web/20050310031944/http://aaronparecki.com/
@@ -95,6 +95,8 @@ A site that notices certain off-site links are frequently clicked could begin ar
 This could also be done directly by clients browsing sites too. Frequently visited sites are archived locally. Infrequently visited sites are just not archived ("forgotten").
 
 == See Also ==
+* [[archival copy]]
+* [[Internet Archive]]
 * [[archive]]
 * [[projects]]
 * [[replies]]

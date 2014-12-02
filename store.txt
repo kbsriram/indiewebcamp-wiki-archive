@@ -61,7 +61,7 @@ The updating of apps for the end user is via a single interface is a considerabl
 
 This is also an aspect of the IndieWeb that can really shine- by allowing updates of app data to be polled from a project (apps) website whereby the data is marked up in [microformats]. This way the data does not have to be manually passed around and will always be up to date.
 
-=== Bundles ===
+==== Bundles ====
 
 In following the UNIX philosophy of "have one small application / component do one thing really well, it might make sense to explore the idea of '''bundles''' which are something that would allow multiple "apps" to be installed together, such as [Bridgy] + [Idno] which allow for a more robust POSSE / PESSO / Webmention integration. Of course this would be tricky and require apps to use similar data exchange standards, but consider how UNIX system write email to disk and multiple apps can then access it later!
 
@@ -70,6 +70,10 @@ In following the UNIX philosophy of "have one small application / component do o
 Quite common in existing app eco systems are '''Accessories''' things like themes, plugins, add-ons or in app purchases. Often app developers need to create their own miniature theme or plugin store within their app to facilitate this process. 
 
 Perhaps some of this process can be handled by Indie App Store by using a standardized manifest & install process similar to the main app installer.
+
+==== Migration ====
+
+It would be a greater good for the user of such a store to have access to a [[one click migration]] feature. This would allow the user to be free from the store and/or from the [[web Hosting]] provider.
 
 == Development ==
 

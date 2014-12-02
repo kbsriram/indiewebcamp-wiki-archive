@@ -1,0 +1,13 @@
+http://indiewebcamp.com/Webmention_Plugin
+
+''The '<dfn>[https://github.com/pfefferle/wordpress-webmention Webmention] Plugin</dfn>''' is a [[WordPress]] plugin that adds [[webmentions]] support to WordPress.
+
+Incoming webmentions are added as comments to the original post and webmentions are sent when a post is published/updated.
+
+== Related Plugins == 
+
+* [[Semantic Linkbacks]] - Adds further context to Incoming Webmentions
+* [[Indieweb Taxonomy]] - Adds context to post/notes
+
+== See Also ==
+* [[WordPress]]

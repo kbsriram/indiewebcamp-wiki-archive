@@ -30,6 +30,11 @@ A better UI is to display received marginalia in context, near the phrase being 
 **Posts marginalia replies and sends webmentions, for example, [https://kartikprabhu.com/notes/hollow-icons hollow icons]
 **Accepts marginalia on all articles and notes through webmention as of ??, with a JavaScript-based UI to display them in context and show/hide them as of 2014-07-10. Example post: [https://kartikprabhu.com/article/marginalia Marginalia]. 
 ** On small-viewports the marginalia are shown inline below the context paragraph, while on larger viewports they appear in a sidebar on the left.
+
+* [[User:Joskar.se|Johnny Oskarsson]] on https://joskar.se
+** Accepts marginalia replies on all articles and notes if the target of the webmention also contains the fragmention. No changes on the webmention endpoint were needed for this.
+** Has implemented a JavaScript-based UI to display marginalia replies as of 2014-10-31. Example post: [https://joskar.se/en/2014/exam-weeks-and-comments-on-the-side Exam weeks and comments on the side].
+
 * ....
 
 == Silo Examples ==
@@ -56,6 +61,10 @@ On mobile Firefox the overlay additionally includes highlighting on the original
 
 [[File:medium-annotation-sidebar-mobile.jpg|500px|center|Annotation overlay on mobile]]
 
+==== Posting UI ====
+
+Expand: on text selection, Medium shows a "Tweet this sentence" [[interface]]. Could be adapted for posting marginalia.
+
 ==== Criticism ====
 
 * Small target links. The buttons for the annotations are too small; being hard to click/tap or accidental click/tap. See [http://indiewebcamp.com/irc/2014-04-17/line/1397720432]
@@ -63,6 +72,11 @@ On mobile Firefox the overlay additionally includes highlighting on the original
 * Complete JavaScript dependence: If there is no JavaScript (or it is broken) the reader sees no annotations at all. A good default would be show all the annotations as normal comments below the article.
 
 * Loss of context in the sidebar UI. The main content moves out of the screen and the reader loses context of the main content.
+
+
+=== Guardian ===
+
+expand/document referring to: https://twitter.com/wblau/status/529713139961827329/photo/1
 
 == See Also ==
 * [[fragmention|Fragmention]]

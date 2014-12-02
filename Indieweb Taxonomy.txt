@@ -1,0 +1,15 @@
+http://indiewebcamp.com/Indieweb_Taxonomy
+
+''The '<dfn>[https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] Plugin</dfn>''' is a [[WordPress]] plugin that adds response support to WordPress.
+
+It creates a taxonomy called Kind, which consists of types Reply, Repost, RSVP, Like, Favorite, and Bookmark. It then adds post metadata boxes to the WordPress post editor for a URL, a title, and content/citation. This allows a post to act as a response to another post, quote, etc. 
+
+The post uses the Webmention Plugin to send webmentions to any URL it is responding to.
+
+== Related Plugins == 
+
+* [[Semantic Linkbacks]] - Adds further context to Incoming Webmentions
+* [[Webmention Plugin]] - Adds webmention support
+
+== See Also ==
+* [[WordPress]]

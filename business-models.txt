@@ -4,11 +4,16 @@ http://indiewebcamp.com/business-models
 
 __TOC__
 
-This is a braindump of business models that can support an open indie web.
+This is a braindump of '''<dfn>business models</dfn>''' that can support an open indie web.
 
 The idea is to build actual businesses that can sustain themselves in this environment, not just building the next [[silo]] that gets acquired by Google / Facebook / Twitter / whatever.
 
 Businesses should exist that both encourage people to own their online identity and are supported by the fact that people are not using silos.
+
+== Site Membership ==
+Some independent sites charge an annual membership fee, which their members gladly pay as way of supporting a site they get value out of.
+* [[MetaFilter]] - http://metafilter.com/
+* [[The Toast]] - http://the-toast.net/
 
 == Domain Registration and DNS Hosting Services ==
 {{main|dns}}
@@ -54,38 +59,25 @@ A version of a hosted service that takes care of the knowledge required to set u
 * One's personal data file. A separate database for medical, vehicle, money/account, your public persona, private messages, etc. There's a separate database for images, with permissions for people who are friends, family or public. This all runs on your own domain name. There's a space for notes and work in progress and an internal blog you Email to. You can allow a doctor to have permission to your medical file and add to it, based on what the medical appointment was about. That way you have a centralized data repo that you own. 
 * Could be an appliance mailed to you that is a physical cube that you plug in and configure in three easy steps, with a backup on the web (or not).
 
-== Aggregators ==
-{{main|aggregators}}
-Aggregators are a way to read (sometimes disparate) content in a single place. Aggregators can be [[silos]], or can be open.
+=== Content Hosting Silo Services ===
+While nearly all [[silos]] are free (they use an [[#Advertising]] based business model), a few offer "premium" or "pro" accounts for pay with additional features / capabilities.
 
-Aside from just distributing content, aggregators can compete on things like speed, user experience, etc.
+* [[MLKSHK]] - charges $24/year for a one year premium account for [[image]] content hosting, with unlimited sites, faster updates and search.
+* [[Flickr]] - charges an annual fee for a Pro account.
 
+== Feed Readers ==
+Despite the availability of many free [[feed reader]]s, there are some aggregators that charge for use, and people pay for, for a better experience, customer support etc.
+* [[NewsBlur]] - http://newsblur.com/ - paid aggregator that charges $24/year for premium service.
 
-From most indieweb-web [[friendly]]/encouraging to least:
+== Statistics and Metrics ==
 
-Pure aggregators (no primary content, all content and comments are aggregated from around the web)
-* [[IndieNews]]
-Content aggregators (aggregate content from around the web, primary hosting of comments only)
-* [[Reddit]]
-* [[Hackernews]]
-Hybrid aggregators (aggregate content from around the web as well as primary content posts hosted on their silo)
-* [[StatusNet]]
-Silo aggregators (aggregate only posts in their own silo)
-* [[Facebook]]
-* [[Google+]]
-* [[Twitter]]
+Various applications are available that gather data and analyze it on your behalf as a hosted service. Examples of this include services that analyze web traffic, social presence, etc.
 
-== Search ==
-{{main|search}}
-
-
+* [[ThinkUp]] is an example of a service that analyzes your silo activity provides statistics and analysis. Like several other hosting models, the business supports an open source project for the software. They charge for the hosted version of their service, but theoretically you can install the open source for free on your own server.
 
 == Transport Services ==
 Transport services are like plumbing, they do not provide an outward-facing presence for your web identity, but move bits around behind the scenes. Ideally transport services work with purely open standards so that they can be swapped out under the hood without anybody on the outside needing to know.
 
-=== Mentions Proxies ===
-* [[webmention.io]] - Handles receiving [[pingbacks]] and [[webmentions]] for a site and provides the data via an API
-* [[Bridgy]] - Sends [[webmentions]] for comments on Facebook, Twitter, Google+ and Instagram.
 
 === Emails ===
 {{main|email}}
@@ -112,12 +104,39 @@ Proprietary:
 
 See [https://snowdrift.coop/p/snowdrift/w/othercrowdfunding Snowdrift.coop's summary of funding sites] for a thorough discussion of all the various platforms for crowdfunding.
 
-== Other ==
-* People search
+=== Non-profit ===
 * Non-profit: The idea of setting up a non-profit organization that provides indieweb-supporting services is similar to the idea of Mozilla Foundation offering Firefox as a not-for-profit web browser. Known examples: [http://riseup.net/ riseup.net] (email, forums, etc.), [http://www.jpberlin.de/web/home/jpberlin/ jpberlin] (in German), [http://eu.org/ eu.org] (domain name registration and DNS hosting), (any others?). A not-for-profit organization could offer services for free (covered by donations), as well as for-pay (if people are willing to pay money for a product). The difference would be that the non-profit status would stop them from being acquired and/or doing anything that puts its users into a silo. A freemium model might be best, because it would give people a much lower threshold to move their profile outside the commercial silos, but at the same time can offer more advanced services in a more sustainable way by charging people for what they use (at cost price, for instance).
 
+== Bundles ==
+Sometimes paid services of various types (see above) will collaborate in offering a bundle of their services that you can purchase for less than the cost of purchasing them all separately, in an encouragement for people to try them out for a year, or give them as gifts.
+
+* [[The Good Web Bundle]] - https://goodwebbundle.com/ - $96 for one year subscription to [[MetaFilter]], [[MLKSHK]], [[NewsBlur]], [[The Toast]], [[ThinkUp]]
+** referenced: http://www.wired.com/2014/11/webs-dead-yet-long-indies-abide/
+
 == Avoiding ==
-* Advertising. See: http://blog.whatsapp.com/index.php/2012/06/why-we-dont-sell-ads/
+=== Advertising ===
+Advertising based business models are to be avoided as they are exploitative.
+* See: http://blog.whatsapp.com/index.php/2012/06/why-we-dont-sell-ads/
+
+Nonetheless many companies who provide a "free" service, are actually ad-based businesses
+* Most [[silos]]
+* All known [[aggregators]]
+* All known general web [[search]] engines
 
 == Challenges ==
 * The "free" platform model where services are offered in exchange for user information has become so pervasive among the silos that it would be very difficult to charge users ''any'' amount of money for an indieweb service. It is very hard to convince people to pay for intangible benefits such as "owning your data" when a silo will offer perfectly adequate services at no tangible cost.
+
+== Hypothetical ==
+Hypothetical business models of which there are no known examples, but could be.
+=== Aggregators ===
+Existing [[aggregators]] are all free to use. No one is charging for actual use. Those that make money at all do so via [[#Advertising]].
+=== Search ===
+For pay web [[search]] could be useful in professional verticals such as medical, legal, or other professions. But needs more documentation of specific efforts / companies. No known examples currently. Or rather, existing [[search]] engines all depend on [[#Advertising]]. Possible forms of for-pay search services:
+* medical search
+* legal search
+* people search
+
+=== Mentions Proxies ===
+Mentions proxies are all free currently, and do not use ads either, however they do cost some amount to maintain, and therefore it is reasonable to expect that at somepoint they'll have to charge for their (quite useful) services.
+* [[webmention.io]] - Handles receiving [[pingbacks]] and [[webmentions]] for a site and provides the data via an API
+* [[Bridgy]] - Sends [[webmentions]] for comments on Facebook, Twitter, Google+ and Instagram.

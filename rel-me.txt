@@ -2,7 +2,7 @@ http://indiewebcamp.com/rel-me
 
 {{stub}}
 
-The '''<dfn>rel=me</dfn>''' attribute indicates that the destination of a hyperlink represents the same person or entity as the current page. Its primary use is to enable [[web-sign-in]], e.g. as supported by [[IndieAuth]] for signing into websites such as IndieWebCamp.com.
+The '''<dfn>rel=me</dfn>''' attribute indicates that the destination of a hyperlink represents the same person or entity as the current page. Its primary use is to enable [[web-sign-in]], e.g. as supported by [[indieauth.com]] for signing into websites such as IndieWebCamp.com.
 
 See the [http://microformats.org/wiki/rel-me rel-me specification] for more details.
 

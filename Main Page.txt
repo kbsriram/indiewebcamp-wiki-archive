@@ -38,7 +38,7 @@ We meet every other Wednesday<abbr title="skipping any official US Holidays">*</
 
 The next Homebrew Website Club meetup is:
 <div class="h-event vevent">
-* <time class="dtstart dt-start">2014-10-22 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-10-22-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London,--> Chicago, Minneapolis, Portland and SF!</span>'''
+* <time class="dtstart dt-start">2014-12-03 18:30</time>-<time class="dtend dt-end">19:30</time> local time. <span class="p-name summary">'''[[events/2014-12-03-homebrew-website-club|Homebrew Website Club meetup]]</span> in <span class="p-location location"><!--London,--> Chicago, Minneapolis, Portland and SF!</span>'''
 </div>
 {{clear}}
 
@@ -49,29 +49,14 @@ The next Homebrew Website Club meetup is:
 
 <span class="p-description description">'''<dfn>IndieWebCamp</dfn>''' is a gathering of web [[creators]] building &amp; sharing open web technologies to advance the state of the indie web. We get together for a weekend to discuss how we can empower people to own their identities and data, then spend a day hacking &amp; creating.</span> 
 
-See [[Previous IndieWebCamps]], most recently the 2014 [[2014/UK|September Brighton UK]], [[2014|Main IndieWebCamp PDX/NYC/Berlin]], [[2014/NYC|April NYC]], and [[2014/SF|March SF]]. IndieWebCamp has a [[code-of-conduct]]. 
+See [[Previous IndieWebCamps]], most recently the 2014 [[2014/Cambridge|October Cambridge MA]], [[2014/UK|September Brighton UK]], [[2014|Main IndieWebCamp PDX/NYC/Berlin]], [[2014/NYC|April NYC]], and [[2014/SF|March SF]]. IndieWebCamp has a [[code-of-conduct]]. 
 
 <span id="next">The next IndieWebCamp is:</span>
 <div class="h-event vevent">
-=== <span class="p-name summary">IndieWebCamp Cambridge 2014</span> ===
-{{main|2014/Cambridge}}
+=== 2015 ===
+We have a whole bunch of IndieWebCamps being planned for 2015. Jump on in and help organize and/or suggest dates!
+* [[2015/|2015 IndieWebCamps]]
 
-The next IndieWebCamp is in Cambridge, MA, US - one of many IndieWeb [[events]].
-
-<div class="p-description description">
-Own your data.
-
-Rather than posting content on third-party silos of content, we should all own the content we're creating. Publish on your own domain, and syndicate out to silos.
-
-Join us at MIT for '''two days''' of a BarCamp-style gathering of web creators building and sharing open web technologies to empower users to own their own identities & content, and advance the state of the indie web!
-</div>
-
-<div class="h-event">
-* '''When:''' <span class="dt-start dtstart"><time class="value">2014-10-11</time> <time class="value">09:00</time></span> through <span class="dt-end dtend"><time class="value">2014-10-12</time> at <time class="value">18:00</time></span>
-* '''Where''': <span class="p-location location h-card vcard"><span class="p-name fn p-org org">MIT Stata Center</span>, <span class="adr"><span class="p-extended-address extended-address">room 32-D463</span>, <span class="p-street-address street-address">32 Vassar St</span>, <span class="p-locality locality">Cambridge</span>, <span class="p-region region" title="Massachusetts">MA</span>, <abbr class="p-country-name country-name" title="United States">US</abbr>, <span class="p-postal-code postal-code">02139</span></span>. <span class="u-url">http://www.csail.mit.edu/news/stata</span></span>
-* '''URL:''' <span class="u-url url u-uid uid">http://indiewebcamp.com/2014/Cambridge</span>
-* '''Cost:''' Free
-</div><!-- h-event -->
 
 {{IndieWebCamp}}
 
@@ -122,6 +107,9 @@ You may read and edit IndieWebCamp articles in other languages:
 * Read [[posts about the indieweb|posts about the IndieWeb]]
 * Watch [[videos about the indieweb|videos about the IndieWeb]]
 * Follow [[news]] about the IndieWeb
+* Check out Live Videos of Previous IndieWebCamps through the <a href="https://plus.google.com/117428517899860701753" rel="publisher">Google+</a> silo
+
+
 
 
 __NOTITLE__

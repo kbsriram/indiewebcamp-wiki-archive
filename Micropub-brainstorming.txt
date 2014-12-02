@@ -1,0 +1,95 @@
+http://indiewebcamp.com/Micropub-brainstorming
+
+{{main|Micropub}}
+
+=== Alternate Content Types ===
+Q: should a markdown-based client send the "content" field as markdown or rendered html? If the latter, should it send an auxiliary field with the raw markdown?
+* Backends that store posts as markdown will want the raw version.
+* Sending HTML means that even endpoints that don't use markdown could make use of a markdown editor for authoring.
+* {{aaronpk}} points out that this will not be very useful without the ability to fetch raw content, and resubmit an edited version (which will mean expanding the spec significantly)
+
+=== Micropub for Comments ===
+
+Goal: if Aaron is reading Barnaby's website, create an inline comment form on Barnaby's site that can post a comment directly to Aaron's website.
+
+If Aaron's site supports Micropub, Aaron's browser (or Barnaby's server) could make a Micropub request with the contents of the comment form directly to Aaron's website. However, Aaron cannot trust either Barnaby's comment form (it could have malicious hidden properties or change the request before submitting) or Barnaby's server.
+
+==== Trust-Less Micropub ====
+
+Rather than Aaron's server issuing an access token to Barnaby's server (which essentially would allow Barnaby's server to post content on Aaron's site as Aaron), "trust-less Micropub" describes a way to support posting content via Micropub without granting full access to the third party client.
+
+1. Aaron is reading a post on Barnaby's website and wants to comment. He fills out the comment form and clicks the "sign in to post" button. 
+
+TODO: screenshot mockup 
+
+2. Barnaby's site begins the IndieAuth "authentication" flow to discover Aaron's website and his micropub endpoint. The request only includes the "comment" (or maybe "preview"?) scope value, and not the "post" scope, since Barnaby's site is merely trying to identify Aaron, not obtain authorization to act as him.
+
+TODO: screenshot mockup 
+
+3. After successfully signing in, Barnaby's server now has an access token for Aaron's site and knows his Micropub endpoint.
+
+4. When Aaron submits the comment form, Barnaby's server (or Aaron's browser, it's equivalent) makes a POST request to Aaron's Micropub endpoint containing the following:
+* comment text
+* other required micropub fields (e.g. h=entry)
+* access token
+* redirect URI - where to redirect Aaron's browser to after the comment is posted
+
+5. Rather than immediately posting the comment, Aaron's browser is directed to Aaron's own website with a token in the URL corresponding to the comment request. Aaron's website authenticates Aaron however it wants, and displays the request of the action Barnaby's website is trying to take. This may look something like the following:
+
+TODO: screenshot mockup 
+
+6. After Aaron approves the request, his server posts the comment and then redirects his browser to the redirect URI specified in the original request, taking him back to Barnaby's post.
+
+
+See the [http://indiewebcamp.com/irc/2014-05-22#t1400801724 original IRC discussion].
+
+==== Action Handler Discovery ====
+
+{{main|mp-config}}
+
+An alternative to [[indie-config]] for discovering the user's action handler URLs. This method does not require a JavaScript or a custom schema handler to be registered in the browser, but it does require the user to support micropub and be signed in on the site they are browsing.
+
+=== Multiple in-reply-to ===
+
+It would be nice to have multiple in-reply-to links posted in micropub.  With tags and syndicate-to, the values are given as a comma separated list.  However, "," is a valid URL character and even given as examples in [http://www.w3.org/TR/media-frags/].  This could potentially be a problem for syndicate-to as well.  POST methods already have a standard for passing arrays of values.  Perhaps we should be using those.
+
+PHP requires "[]" characters in the parameter name to be parsed as an array. Other languages (at least Python) do not, but it would probably make sense to make the [] part of the spec so that PHP implementations don't have to do their own special parsing. [[User:Kylewm.com|Kylewm.com]]
+
+=== Explicit CRUD ===
+
+Currently there is no field to specify delete.  Updates are implied by existance of a url= field.  Updates to content and adding a syndicate-to link simultaneously are not possible as it would be interpreted as syndication text.  I suggest we add a field to specify the CRUD operation.  [[Postly]] uses operation='create', operation='edit', operation='delete', and operation='undelete' (since deleting just removes from public view).
+
+=== HTML JSON Form Submission ===
+
+Because handling arrays in form encoded POST requests is somewhat under defined, it may be nice to consider allowing a system similar to http://www.w3.org/TR/html-json-forms/ before json forms are adopted for browsers.
+
+* http://indiewebcamp.com/irc/2014-11-04/line/1415099806094
+* http://indiewebcamp.com/irc/2014-11-04/line/1415119586395
+
+=== form-encoded arrays vs csv fields ===
+
+Right now a number of clients/endpoints support arrays in micropub post requests through the use of a csv fields.   This requires parsing of the form-encoded body, then further parsing the field values as CSV -> Array.  Most parsers support the notion of a form based array by appending [] to the end of keys that make up the array.  Supporting this would eliminate the extra step of parsing csv fields assuming everyone has access to a form-encoding parser that can support this.
+
+* http://indiewebcamp.com/irc/2014-09-25#t1411709579457
+* http://indiewebcamp.com/irc/2014-11-04#t1415123280010
+
+==== Parsers that support form arrays ====
+* [https://www.npmjs.org/package/body-parser body-parser.js]
+* ...
+
+=== Field Types ===
+There are two types of values. Some fields provide only a single value (name, post content, etc) while other fields provide multiple values (category, syndication URLs, etc). We will refer to these as "single-value" and "multi-value" in this document.
+
+==== Adding Values ====
+Adding values to a multi-value field is done by using the bracket syntax version of the field name and the value to add. For example, to add a tag "indieweb" to a post, the request would include:
+
+<pre>category[]=indieweb</pre>
+
+==== Removing Values ====
+Removing values from a single-value field is done by providing a new parameter indicating which field to remove. For example, to remove the "name" field, the request would include:
+
+<pre>remove-field[]=name</pre>
+
+Removing values from a multi-value field involves specifying the value that is being removed. For example, to remove the "test" tag from a post, the request would include:
+
+<pre>remove-field[category]=test</pre>

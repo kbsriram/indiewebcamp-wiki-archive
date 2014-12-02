@@ -14,19 +14,24 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-TBD
-<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+
+<strike>
+: [http://thecreamerysf.com/ Creamery SF] 685 4th Street San Francisco, CA '''(Tentative)'''
+</strike>
+: '''No SF meeting for this week!'''
+
+<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region" title="California">CA</abbr></span></span>
 : with writing hour from 18:00-18:30! -->
 
 ;Portland
-TBD
-<!-- :<s><span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span></s> cancelled tonight, sorry! -->
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region" title="Oregon">OR</abbr></span></span>
 
+<!-- 
 ;Minneapolis
 TBD
-<!-- :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
-:''Note the Minneapolis meeting is at 18:00 CDT'' -->
-
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region" title="Minnesota">MN</abbr></span></span>
+:''Note the Minneapolis meeting is at 18:00 CDT'' 
+-->
 ;Chicago
 :<span class="p-location location h-card vcard">[http://wearepolymathic.com/events/ <span class="p-name fn p-org org">The Living Room</span>], <span class="adr"><span class="p-street-address street-address">2423 W North Ave.</span>, <span class="p-locality locality">Chicago</span>, <abbr class="p-region region" title="Illinois">IL</abbr></span></span>
 :''Note the Chicago meeting is at 19:00 CDT''
@@ -48,16 +53,17 @@ San Francisco:
 * ... and POSSE copy
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
+* https://aaronparecki.com/events/2014/12/03/1/homebrew-website-club
+* POSSE FB copy: https://www.facebook.com/events/384152701741072
+* [http://calagator.org/events/1250467428 Calagator]
 
+<!-- 
 Minneapolis:
 * add indieevent...
-* ... and POSSE copy
-
+* ... and POSSE copy 
+-->
 Chicago:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/952591281437660/
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -67,15 +73,19 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
-* ... add yourself!
+* {{kylewm}}
 
 '''Portland:'''
+* {{t}}
+* {{aaronpk}}
+* {{bret}}
 * ... add yourself!
 
-'''Minneapolis:'''
-* ... add yourself!
-
+<!-- '''Minneapolis:'''
+* ... add yourself! 
+-->
 '''Chicago:'''
+* {{gRegor}}
 * ... add yourself!
 
 == Notes ==
@@ -87,9 +97,9 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 '''Portland'''
 * ...
 
-'''Minneapolis:'''
+<!-- '''Minneapolis:'''
 * ... 
-
+-->
 '''Chicago'''
 * ...
 

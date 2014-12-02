@@ -1,10 +1,10 @@
 http://indiewebcamp.com/indieweb-messaging
 
-{{indieauth-todo}}
+'''<dfn>indieweb-messaging</dfn>''' is a suggested protocol for combining [[microformats2]], [[WebMention]], and [[IndieAuth]] to convey [[private posts]] between two people or between groups of people.
 
-Protocol outline for how to combine microformats2, WebMention and IndieAuth to send private messages between two people or between groups of people.
-
-Note: This example is written assuming IndieAuth is distributed and not centralized. Please review the [[distributed-indieauth|distributed IndieAuth]] page before continuing.
+<div style="background: #fffbe3; padding: 4px; border: 1px #faeead solid;">
+Note: This article is out of date with respect to the values passed in [[indieauth]].  Review [[login-brainstorming]] for more information on the current status of indie-auth based login.
+</div>
 
 Not to be confused with an [http://aaronparecki.com/articles/2011/07/31/1/indieweb-messaging older spec of the same name] which didn’t make use of indieauth.
 
@@ -147,6 +147,11 @@ Of course this wouldn't work places you don't have access to the actual web serv
 == Notes ==
 * Can the initial webmention include a flag that says "this post is going to require authentication, come back with an IndieAuth code"
 * Can't you just always send an IndieAuth code with every request? Especially sending it to all requests your server makes to your own whitelist.
+
+== Issues ==
+
+=== Denoting Privacy ===
+* If a reply context is fetched from a private post (assuming the post is pulled by the server automatically sending its auth key).  How do we specify that the post is private?  The reply might not be private and thus the reply context would show a private post publicly.  Perhaps an extension to mf2 to denote sections as privledged information, do not share publicly.
 
 == See Also ==
 * [[private posts]]

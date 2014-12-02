@@ -1,19 +1,3 @@
-http://indiewebcamp.com/App_Engine
+http://indiewebcamp.com/app_engine
 
-{{stub}}
-
-[[Google]] '''<dfn>[https://developers.google.com/appengine/ App Engine]</dfn>''' is a an application hosting service that supports several programming languages.
-
-== IndieWeb Examples ==
-Examples of IndieWeb sites or services that run on AppEngine.
-* [[Bridgy]]
-* Noterlive - from {{kevinmarks}}
-* Unmung - also from {{kevinmarks}}
-
-== Get Started ==
-Get started with App Engine - requires a Google login:
-* http://appengine.google.com/
-
-== See Also ==
-* [[Google]]
-* [[web hosting]]
+#REDIRECT [[App Engine]]

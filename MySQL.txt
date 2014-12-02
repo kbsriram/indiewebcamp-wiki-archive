@@ -39,7 +39,7 @@ The MySQL <code>DATE</code> and <code>DATETIME</code> types do not store timezon
 
 === Fulltext Search ignores words shorter than 4 characters ===
 
-This restriction [https://dev.mysql.com/doc/refman/5.0/en/fulltext-natural-language.html##Some+words+are+ignored] makes searches for TLAs not possible using fulltext searching. If the length of the entire query is less than 4 characters the fulltext search can be replaced with a case-insensitive <code>LIKE</code> match, but this still lessens the accuracy of queries longer than 4 characters with significant terms shorter as they will be ignored.
+This restriction [https://dev.mysql.com/doc/refman/5.0/en/fulltext-natural-language.html##Some+words+are+ignored] makes searches for <abbr title="Three-Letter Acronym">TLA</abbr>s not possible using fulltext searching. If the length of the entire query is less than 4 characters the fulltext search can be replaced with a case-insensitive <code>LIKE</code> match, but this still lessens the accuracy of queries longer than 4 characters with significant terms shorter as they will be ignored.
 
 === Stopwords ===
 

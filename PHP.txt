@@ -14,6 +14,9 @@ http://indiewebcamp.com/PHP
 
 == Libraries ==
 * [https://github.com/indieweb/php-mf2 php-mf2] - Microformats 2 parser
+* [https://github.com/indieweb/mention-client-php] - Client library for sending webmention notifications
+* [https://github.com/indieweb/indieauth-client-php] - Sample implementation and helper methods for an IndieAuth client.
+* [https://github.com/indieweb/php-comments] - Helper for parsing and presenting comments from external sites
 * [https://github.com/indieweb?query=php more libraries on the indieweb Github]
 
 == Articles ==

@@ -40,3 +40,4 @@ You are encouraged to bring an [[apprentice]] to IndieWebCamp, to help them get 
 * [[create|Create]] - the act of creating a post
 * [[design|Design / UX]]
 * [[apprentice|Apprentice]]
+* [[selfdogfood]]

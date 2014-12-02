@@ -40,8 +40,8 @@ Generally useful libraries being developed by IndieWeb participants in Python.
 === Third-party Libraries ===
 Non-IndieWeb-specific libraries that may still be of interest.
 
-* [http://docs.python-requests.org/en/latest/ Requests]: By far the best way to interact with any HTML endpoint.
-* [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup4]: sits of top of other HTML parsing libraries (lxml or html5lib) and provides a nice interface for wading through HTML, even horribly broken HTML.
+* [[Requests]]: By far the best way to interact with any HTML endpoint.
+* [[BeautifulSoup]]: sits of top of other HTML parsing libraries (lxml or html5lib) and provides a nice interface for wading through HTML, even horribly broken HTML.
 * [[Bleach]]: sanitizer and autolinker. Useful for removing dangerous code from e.g., for displaying remote content. Excludes almost everything by default.
 
 == Projects ==

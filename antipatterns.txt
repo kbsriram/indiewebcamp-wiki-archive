@@ -4,7 +4,9 @@ As there are indieweb [[principles]] and [[building-blocks]], there are also the
 
 '''Inbox''' - got an antipattern you think needs documenting? add it here with a brief one sentence summary and maybe someone will start a page on it.
 * [[plumbing-first-antipattern]] - when web developers design something from protocols/formats up (including naming, e.g. "RSS-based Twitter"), rather than the UX/[[design]] down.
-* [[single-page-antipattern]] - websites that load all content, transitions etc. on a single page (typically home page) via [[JavaScript]], [[JSON]], and XHR, making it so that there's little or no content you can actually curl, and no permalinks either.
+* [[single-page-antipattern]] - websites that load all content, transitions etc. on a single page (typically home page) via [[JavaScript]], [[JSON]], and XHR, making it so that there's little or no content you can actually curl, and no permalinks either. AKA "single page app", "single page site".
+** http://htmlcssjavascript.com/web/youre-so-smart-you-turned-javascript-into-xhtml/
+** as of 2014-10-27 Google ''still'' says [http://googlewebmastercentral.blogspot.com/2014/10/updating-our-technical-webmaster.html Make sure your web design adheres to the principles of progressive enhancement]
 * [[preload-antipattern]] - websites that show a "Loading..." screen before actually showing you content, like some sort of reminiscence of Flash sites of yore.
 * [[cargo-cult-antipattern]] - the tendency of many (most?) web developers to code by rote/tradition/fashion/trends rather than actually have a rational understanding of the technologies they use and how to analyze tradeoffs therein, sometimes revealed by purely emotional responses to having their tradition/fashion/habits questioned.
 

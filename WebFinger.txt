@@ -36,7 +36,13 @@ WebFinger relies on [[DRY]]-violating XRD files (which within themselves sometim
 
 === Well Known URLs ===
 
-Webfinger relies on well known URLs (namespaced to a certain degree to /.well-known/). Any use of well known URLs limits flexibility, portability etc. HTML links and hypermedia discovery should be utilised instead (if webfinger IDs were webby and could be requested, this would not be necessary!).
+Webfinger relies on well-known URLs (namespaced to a certain degree to /.well-known/). Any use of well known URLs limits flexibility, portability etc. HTML links and hypermedia discovery should be utilised instead (if webfinger IDs were webby and could be requested, this would not be necessary!).
+
+=== Can't Delegate ===
+
+Because Webfinger relies on well-known URLs existing on the domain, it is challenging and sometimes not even possible to delegate handling Webfinger queries to an external service. 
+
+You could do some clever reverse proxy configuration with Nginx or Apache to serve the .well-known folder from another system, but if you have a traditional shared host or static website, then this isn't possible. 
 
 == Minimal Usefulness ==
 <blockquote>"the only webfinger relation that matters is email address -> home page. everything else (avatar, blog, homepage, name) is already well defined / implemented / supported as [[hCard]]/[[h-card]] on your home page. <br/>oh and [[rel-me]] for all those "other" profiles for those that spray & pray their content across silos"</blockquote>

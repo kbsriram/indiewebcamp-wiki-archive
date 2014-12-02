@@ -5,4 +5,4 @@ http://indiewebcamp.com/WebDAV
 '''<dfn>WebDAV</dfn>''' is an HTTP-based protocol used to create and edit files on a server.
 
 == IndieWeb Examples ==
-* [[User:aaronparecki.com|aaronpk]] uses WebDAV on [[p3k]] to upload images from apps like Skitch.
+* [[User:aaronparecki.com|aaronpk]] uses WebDAV on [[p3k]] to upload images from apps like [[Skitch]].

@@ -20,14 +20,14 @@ See [[hostingnotes]] for some unstructured notes on the offerings of specific pr
 Here are various levels of web hosting service available from different providers, roughly ordered from easiest/cheapest/friendliest to most powerful/technical.
 
 === Custom domain silos ===
-Some [[silos]] allow you to configure your profile to use your own domain name, thus at least giving you some ownership over your permalinks (that you can potentially transfer to your own web host later).
+Some [[silos]] allow you to configure your profile to use your own domain name, thus at least giving you some ownership over your permalinks (that you can potentially transfer to your own web host later) and are thus worth considering as a content hosting service.
 * '''[[Tumblr]]''' (free): [http://www.tumblr.com/docs/en/custom_domains instructions]
 * '''[[Squarespace]]''' (starts at $8/mo): [http://help.squarespace.com/guides/mapping-a-domain-general-instructions instructions]
 * '''[[Blogger]]''' (free): [http://support.google.com/blogger/bin/static.py?hl=en&ts=1233381&page=ts.cs instructions]
 
 Tumblr is listed first (and preferred) over Blogger because:
 * Tumblr has much '''more beautiful, usable, mobile friendly default templates'''
-* Tumblr has a much '''friendlier posting and admin interface'''
+* Tumblr has a much '''friendlier [[posting]] and [[admin interface]]'''
 * Tumblr has many '''more posting options''' (web, mobile apps, email, instant messaging)
 * Tumblr appears to be '''better maintained''' ([[Yahoo]] purchased in 2013, appears to be supportive), whereas  Blogger appears to be barely maintained by parent [[Google]].
 * Tumblr automatically '''supports user-centric site [[icons]]''' (your profile icon/avatar is automatically hosted as your personal site [[icon]].
@@ -46,7 +46,7 @@ Some open source software is hosted on various domains and can be set up to serv
 * '''[[Known]]''' (free): [http://withknown.com]
 * '''[[Wordpress.com]]''' (small fee): [http://en.support.wordpress.com/domain-mapping/ instructions]
 * '''[http://wpengine.com/ WP Engine]''' (fee): [http://wpengine.com/support/add-domain-in-client-portal/ instructions]
-
+* '''[[IndieHosters]]''' (fee): [https://indiehosters.net]
 
 Advantages of hosted CMS software:
 * Regular security updates 
@@ -196,11 +196,12 @@ IndieWeb community members using this approach:
 * [[User:shanehudson.net|Shane Hudson]] (In process of migration)
 
 === Personal Clouds ===
-Personal Clouds / Indie Hosting is a new type of hosting is starting to emerge largely in part due to the [http://www.raspberrypi.org Raspberry Pi] and other similar devices. All said devices are small single-board computers with a CPU, RAM, GPU, and USB ports that offer some form of disk storage. One can usually purchase one of these devices for under $100 or slightly over. 
+Personal Clouds / Home Hosting is a new type of hosting is starting to emerge largely in part due to the [http://www.raspberrypi.org Raspberry Pi] and other similar devices. All said devices are small single-board computers with a CPU, RAM, GPU, and USB ports that offer some form of disk storage. One can usually purchase one of these devices for under $100 or slightly over. 
 
 There are many projects under development that make installing of server side software on personal clouds as easy as installing apps on a mobile device.
 
 * [[Indie Box]]
+* [[UBOS]]
 * [[Sandstorm]]
 * [https://arkos.io ArkOS]
 * [https://cloudfleet.io Cloud Fleet]

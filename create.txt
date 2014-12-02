@@ -2,7 +2,7 @@ http://indiewebcamp.com/create
 
 {{stub}}
 
-'''<dfn>create</dfn>''' in the context of the indieweb refers to the act of and [[UI]] for creating a new [[post]].
+'''<dfn>create</dfn>''' in the context of the indieweb refers to the act of and [[UI]] for creating a new [[post]], in its simplest form, a new [[note]].
 
 Related: ''[[creator]]'', someone who is creating [[UI]], [[design]], [[code]] for their own site.
 
@@ -12,7 +12,11 @@ Related: ''[[creator]]'', someone who is creating [[UI]], [[design]], [[code]] f
 * http://waterpigs.co.uk/notes/new
 * http://waterpigs.co.uk/articles/new
 
+For screenshots see:
+* [[Taproot#Notes|Taproot Notes interface]]
+
 === Aaron Parecki ===
+{{aaronpk}} is the creator of [[p3k]].  See [[p3k#Screenshots|p3k screenshots]], in particular:
 ==== p3k note ====
 Early (2012-09-09), [[p3k]] posting interface:
 
@@ -30,6 +34,11 @@ Early (2012-09-09), [[p3k]] posting interface:
 
 * The circle-in-circle is for geolocation: clicking it on uses the browser geolocation API to set the location of the post.
 * The tickbox for Twitter lets him decide whether to syndicate the post to Twitter or not.
+
+=== Jeena ===
+[[User:Jeena.net|Jeena]]'s posting interface (project unnamed)
+
+[[File:Jeenas-notes-post-UI-2014-01-18.png]]
 
 === Jeremy Keith ===
 ==== adactio notes ====
@@ -52,9 +61,16 @@ He then subsequently ~2014-10-01 added the ability to selectively (per post) tog
 Jeremy has also '''[https://gist.github.com/adactio open sourced]''' these animated sliding toggles: 
 * http://jsbin.com/rugonu/6/edit <-- try it for yourself
 
+== Mobile ==
+Mobile note creation is particularly challenging for various reasons:
+* less reliable network (thus possible loss of user data if depending on JS / AJAX)
+* smaller displays (less space to see what you're typing)
+* touch keyboards (clumsier / less accurate than physical tactile keyboard)
+
 == See Also ==
-* [[note]]
-* [[creator]]
+* [[posting interface]]
 * [[UI]]
-* [[projects]]
+* [[note]]
 * [[posts]]
+* [[creator]]
+* [[projects]]

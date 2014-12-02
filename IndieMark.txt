@@ -331,15 +331,14 @@ Possible futures: (brainstorms, don't know of anyone doing these)
 * mentions of a person (person tags)
 
 === search ===
+{{main|search}}
 Search UI and results for your content
 * Level 1: no requirement (don't screw up with robots.txt or JS, be able to use site:yoursite.com in Google directly).
 * Level 2: using an external search provider UI (e.g. [[Google]]) to provide time ordered results
 ** Very highly demanded end user feature of folks reading indieweb sites.
 * Level 3: ??? not sure of a level 2 feature for this - maybe if you can wrap an external search provider UI in your own domain so the search results URLs are at least on your own site? Don't know anybody doing this.
 * Level 4: search on your own site with your own search backend - level 3 requirement because this is actually quite challenging to build, and build well (i.e. <em>better</em> than "just using Google", like not just MySQL full text search, which fails for 3 letter or fewer words for example)
-
-Possible futures:
-* faceted/scoped own site search, e.g. search within: a time window, a geography, person mentions
+* Level 5: awaiting real world implementation examples that go beyond Level 4, perhaps using ideas from [[search]] page.
 
 === aggregation ===
 aggregation / syndication in - showing/browsing others' content on your site

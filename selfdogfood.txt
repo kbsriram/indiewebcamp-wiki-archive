@@ -1,19 +1,19 @@
 http://indiewebcamp.com/selfdogfood
 
-<span style="float:right;height:192px;font-size:192px;margin:96px 0 -64px">😋</span>
-{{stub}}
-
-<dfn>selfdogfood</dfn> is a specific form of [[dogfooding]], that is, using <em>your own creations</em> on your own <em>personal site</em> that you <em>depend</em> on, day to day.
+<span style="float:right;height:192px;font-size:192px;margin:96px 0 -96px">😋</span>
+'''<dfn>selfdogfood</dfn>''' is a stronger form of [[dogfooding]], that is, using <em>your own creations</em> on your own <em>personal site</em> that you <em>depend</em> on, as an aspect of your <em>primary online identity</em>, day to day — if you're not willing to use your creation on your own primary personal website, why should anyone else use it on their primary personal website?
 
 <blockquote>Metaphorically speaking, a person's ideas must be the building he lives in - otherwise there is something terribly wrong. <cite style="display:block;text-align:right">Søren Kierkegaard, introduction to Provocations</cite></blockquote>
 
 == key components ==
 __TOC__
-Selfdogfooding has several required components, the first two of which it shares with dogfooding:
-* '''active creation''' (whether code, UX, interactive/visual/graphic design)
-* '''use of''' that creation (e.g. by your company)
-* '''personal''' use of that creation - you yourself <em>personally</em> using your creation for your own personal uses - it's not just part of your day job that you shut off when you go home.
-* '''self''' identification/dependency - using your creation in some manner that represents you, your <em>self</em>, e.g. as part of your primary identity on the web. The act of creation alters an aspect of the public "self" of the creator.
+Selfdogfooding has several required components, <em>one</em> of which is dogfooding, but the other is the essential '''self''' part of selfdogfooding:
+# '''[[dogfooding]]'''
+#* '''active creation''' - whether code, UX, interactive/visual/graphic design, being an active [[creator]]
+#* '''use of''' what you create (e.g. by your company, on your company's site, your club's site, etc.)
+# '''self''' - what you must do above and beyond dogfooding, to be selfdogfooding
+#* '''personal''' - use of that creation - you yourself <em>personally</em> using your creation for your own personal uses - it's not (just) a job use (i.e. that you can shut off when you go home), it's a personal use.
+#* '''identity''' - use of that creation in what you identify as your <em>[http://en.wikipedia.org/wiki/Philosophy_of_self self]</em>. The act of creation alters an aspect of the public "self" of the creator. On the web, this means use of that creation actively on your personal website that you primarily use to identify yourself to others. I.e. not on a test site, nor a hobby site, nor an occasional use site, but your ''primary'' personal site and thus as part of your '''primary identity''' on the web.
 
 == perspectives ==
 * "Is its creator living and breathing it in his day-to-day online life? If so, awesome, if not, yawn." - [[User:Tantek.com|Tantek]] 2013-01-03 11:05 (PST) (originally posted as a [https://plus.google.com/108890400948483542545/posts/6goeBwAR1d9 comment on a Google+ post]).
@@ -47,7 +47,15 @@ Please add IRC links and summarize discussion...
 * Drinking your own champagne, or self-champagneing
 ** or just champagneing; doesn't need distinguish it from a preexisting term
 * Self-kool-aiding — also has the connotation of buying into your own spiel
+
+=== Lightsaber ===
 * Build your own lightsaber — unsure of origin, but I heard it used in [https://www.youtube.com/watch?v=Qp7S6QUnpiE&feature=youtu.be&t=8m13s this video]. {{gRegor}}
+
+In the <em>Star Wars</em> mythology about lightsabers, you (a Jedi) have *only* one, that you are expected to have *built* it *yourself*, and that you *depend* on as an extension of your *self*.
+
+Contrasting examples:
+* '''dogfood''': In Ep1, Anakin is merely dogfooding C3P0, which he built to also help his mom. Even though he cares about it, C3P0 is not part of Anakin. No aspect of identity/self.
+* '''selfdogfood''': In RoJ, Luke is selfdogfooding his own lightsaber that he made. It's his only lightsaber, he made it, he depends on it as an extension of himself.
 
 == FAQ ==
 === Use and development ===

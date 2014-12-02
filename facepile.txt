@@ -9,8 +9,12 @@ It consists of a row or rows of profile photos of individuals who have all compl
 == IndieWeb Examples ==
 <span id="Examples">Examples</span> of IndieWeb sites using Facepiles.
 
-=== Aaron Pareciki ===
-[[User:aaronparecki.com|Aaron Parecki]] ... since 2013-??-??. E.g. Screenshot or example link.
+=== Aaron Parecki ===
+[[User:aaronparecki.com|Aaron Parecki]] has displayed a facepile for likes and retweets since Feburary 2014.
+* example with >100 likes: https://aaronparecki.com/notes/2014/10/31/2/geoween
+* example: https://aaronparecki.com/notes/2014/10/31/2/geoween
+
+[[File:2014-aaronpk-facepile-example.png]]
 
 === Will Norris ===
 [[User:willnorris.com|Will Norris]] since 2014-03-09. E.g. https://willnorris.com/2014/03/display-likes-in-a-facepile 
@@ -27,3 +31,15 @@ It consists of a row or rows of profile photos of individuals who have all compl
 [[User:kartikprabhu.com]]... since 2014-??-??. [[File:facepile_kartikprabhu_com.png‎|thumb]]
 
 * Example: http://kartikprabhu.com/article/indieweb-love-blog#reposts
+
+== Silo Examples ==
+
+=== Facebook ===
+
+
+
+=== Twitter ===
+
+As of November 2014, Twitter displays its Facepile as a count of the different types of actions, and a Facepile of the individuals who took action at all.
+
+[[File:Twitter-FacePile16NOV14.png]]

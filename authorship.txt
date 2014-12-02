@@ -46,6 +46,11 @@ is similarly spoofed.
 
 http://checkmention.appspot.com allows you to test receiving a spoofed webmention from Jonathan Ive.
 
+=== Does not implement standards ===
+The algorithm described above does only rely on new markup, but does not consider the page's head meta and link tags with <tt>rel="author"</tt>. They have been used since HTML 3.02 and are still defined in HTML5:
+* http://www.w3.org/TR/REC-html32#meta
+* http://www.w3.org/TR/html5/links.html#linkTypes
+
 === Other theoretical ===
 Theoretical issues are grouped here for capturing purposes. If you find a real world example of one of these, feel free to promote it to an actual issue with its own === subhead.
 

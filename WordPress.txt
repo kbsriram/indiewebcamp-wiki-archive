@@ -16,6 +16,10 @@ As you complete each step, try plugging your site into [http://indiewebify.me/ i
 
 <div style="clear:right">__TOC__</div>
 
+== Getting Help == 
+
+If you need help getting your WordPress site set up for the Indieweb, try the [[WordPress Outreach Club]].
+
 == Getting started with Wordpress ==
 We'll assume you already have your own [[personal-domain]]. After that, you'll need [[web-hosting]]. There are plenty of good options. [http://wpengine.com/ WPEngine] is one of the best for both beginners and advanced hackers. [[#WordPress.com hosting service]] is solid and easy to use, but limits you to pre-approved plugins and themes.
 
@@ -55,6 +59,8 @@ Once you have WordPress up and running, you'll want to set up [[IndieAuth]]. If 
 
 * FIXME: This section conflates adding rel-me links to satisfy indieauth.com (e.g. for logging into the wiki) with the ''IndieAuth for Wordpress'' plugin that lets you authenticate on your own site with indieauth. The latter is a much more advanced step and should be moved to another section (and the distinction probably needs to be clarified) [[User:Kylewm.com|Kylewm.com]] 15:52, 12 September 2014 (PDT)
 
+You can also add [[rel-me]] links to a custom menu by enabling the Link Relationships under Screen Options on the custom menu page.
+
 === [[microformats]] ===
 Next, you'll want to add [[microformats]] support. Try out the
 [http://wordpress.org/themes/sempress SemPress theme], it's the best way to do
@@ -76,6 +82,8 @@ Other plugins that can be used to POSSE:
 
 If you POSSE, it's good practice to include [[rel-syndication]] links on your WordPress posts. Try the [http://wordpress.org/plugins/relsyndication/ rel-syndication plugin] for that(Currently only supports the Social plugin, the [https://github.com/jihaisse/wordpress-syndication GitHub mainline] has minimal support of Tumblr, Twitter and Facebook for NextScripts SNAP ).
 
+Also, if you are writing status updates that will be duplicated in the content share boxes in your edit post screen, there is some handy code [http://davidpeach.co.uk/autofill-share-fields-for-status-posts/ here] to autofill those share fields to save copy/pasting them from the content WYSIWYG.
+
 If you also want to go the other direction and pull your social network posts and data back to WordPress, there are [[PESOS]] plugins too. To start, try [http://www.enthropia.com/labs/wp-lifestream/ Lifestream].
 
 === [[backfeed]] ===
@@ -96,7 +104,7 @@ Try combining the [http://wordpress.org/plugins/webmention webmention] ([http://
 For the webmention plugin to work, go to the Settings => Discussion page in your WordPress admin, and check the "Allow link notifications from other blogs (pingbacks and trackbacks)"
 and "Allow people to post comments on new articles" checkboxes.
 
-Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive webmentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog.
+Also install the [https://github.com/pfefferle/wordpress-webmention-form webmentions forms] plugin (requires FTP) to receive webmentions directly from the [http://adactio.com/journal/6469/ comments section] of your blog or the "[https://github.com/pfefferle/wordpress-webmention-for-comments Webmentions for Comments]" plugin to enable webmentions support for threaded comments.
 
 === More building blocks ===
 If you've made it this far, congrats! You're a fully functioning member of the IndieWeb! Here are a few more plugins you might want to try. Many require FTP or other more technical setup.
@@ -114,6 +122,8 @@ If you've made it this far, congrats! You're a fully functioning member of the I
 * [https://github.com/pfefferle/wordpress-hashtags Hashtags]
 * [https://github.com/jihaisse/custom-feed-url Custom feed URL]
 * [[WhisperFollow| Whisperfollow for feed aggregation]]
+* [https://github.com/dshanske/syndication-links Syndication Links] 
+* [https://github.com/dshanske/hcardtools H-Card Tools]
 
 === Past or old tech plugins ===
 * [http://wordpress.org/plugins/openid/ OpenID]
@@ -140,7 +150,6 @@ In particular, (semi-)active IndieWeb community members using WordPress on their
 ** [https://github.com/pfefferle/wordpress-webmention WebMentions] ([[selfdogfooding]])
 ** [https://github.com/pfefferle/wordpress-semantic-linkbacks Semantic Linkbacks] ([[selfdogfooding]])
 * [[User:snarfed.org|Ryan Barrett]] (2014 SF)on [http://snarfed.org snarfed.org]
-* [[User:david.shanske.com|David Shanske]] (2014, NYC) on [http://david.shanske.com david.shanske.com]
 * [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu] with
 ** [https://github.com/indieweb/wordpress-indieweb WordPress-Indiweb]
 ** [http://www.nextscripts.com/social-networks-auto-poster-for-wordpress/ Social Networks Auto Poster] for POSSE
@@ -157,10 +166,10 @@ In particular, (semi-)active IndieWeb community members using WordPress on their
 **Modified [https://wordpress.org/plugins/microblog-poster/ microblog poster] for POSSE
 * [[User:AndySylvester.com|Andy Sylvester]] on [http://andysylvester.com andysylvester.com]
 * [[User:David.Shanske.com|David Shanske]] on [https://david.shanske.com david.shanske.com]
-** Child of [https://github.com/dshanske/mf2_bootstrap mf2_bootstrap] theme still under development in live use
-** [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] to add context to post types
-** H-Card Widget plugin(code release pending) to add a full h-card to the sidebar
-** [https://github.com/dshanske/semantic-comments Semantic Comments] to add richer comments/mentions with a [[facepile]]
+** Child of [https://github.com/dshanske/mf2_bootstrap mf2_bootstrap] theme still under development in live use ([[selfdogfooding]])
+** [https://github.com/dshanske/indieweb-taxonomy Indieweb Taxonomy] to add context to post types ([[selfdogfooding]])
+** [https://github.com/dshanske/hcardtools H-Card Tools] to add a full h-card widget to the sidebar ([[selfdogfooding]])
+** [https://github.com/dshanske/semantic-comments Semantic Comments] to add richer comments/mentions with a [[facepile]] ([[selfdogfooding]])
 ** [https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/ Social Network Auto Poster] for POSSE
 
 === Other independents using it on their primary site ===
@@ -174,8 +183,6 @@ In particular, (semi-)active IndieWeb community members using WordPress on their
 
 === Using on one of their sites ===
 People using WordPress on a secondary site.
-* [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
-** [[File:aaronpk-bookmarks.png|300px|right]]
 * [[User:Erin_Jo_Richey|Erin Jo Richey]] on [http://flatfrogblog.com/ Flat Frog Blog]
 * [[User:Christopheducamp.com|Christophe Ducamp]] on [http://christopheducamp.com/b christopheducamp.com/b] - testing WP plugins (research in progress - TBC - 2013-04-15).
 ** URL Shortener via WP-Hum - activated since july 2012, ex. http://xtof.me/blog/b/405 
@@ -242,6 +249,8 @@ There has been a trend of folks switching away from WordPress for various reason
 (stub)
 
 There are many folks with personal sites that have kept their personal site and webhost, but switched away from WordPress to another solution, e.g. typically a static site generator:
+* [[User:Aaronpk|Aaron Parecki]] on [http://aaron.pk/bookmarks/ Bookmarks]
+** [[File:aaronpk-bookmarks.png|300px|right]]
 * 2013-11-10 Julie Pagano to [[Middleman]] (http://middlemanapp.com/) : http://juliepagano.com/blog/2013/11/10/site-redesign-using-middleman/
 Many others have switched to Jekyll or are in the process of doing so, e.g.:
 * Crystal Beasley - per recent (2013-11) conversation on IRC
@@ -273,8 +282,11 @@ With WordPress's API it's possible to automatically <span id="POSSE">[[POSSE]]</
 ** only *semi* automatic because I had to dig up the in-reply-to tweet permalink manually, but then the [[POSSE]] copy of my reply and tweet threading was handled automatically by [[Falcon]].
 
 == WordPress.com hosting service ==
+{{pagelogo|https://pbs.twimg.com/profile_images/2306687229/gj7dkvjwxsm4pwxizb0g_200x200.png}}
 WordPress.com is a blog hosting service with impressive importing and export features. See for details:
 * http://techcrunch.com/2013/03/26/wordpress-com-has-imported-15m-posts-in-the-last-30-days-remains-a-top-safe-haven-for-nomad-bloggers/
+
+* --> this should probably be moved to it's own page: [[WordPress.com]]
 
 === Hosted themes ===
 WordPress.com provides themes to change the HTML/CSS/JS and general appearance of a user's site. While users can pay for a feature to write custom CSS, they can't change their theme markup. Which means amongst other things, a user cannot specify some markup in a post to show on a permanlink page and not in the post when it's a part of a feed. For example,

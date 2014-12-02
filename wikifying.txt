@@ -1,0 +1,73 @@
+http://indiewebcamp.com/wikifying
+
+{{stub}}
+
+'''<dfn>wikifying</dfn>''' is the practice of putting stuff on the wiki, or something in particular on the wiki. E.g. We need to wikify that ([[FAQ]]|concept|jargon|etherpad).
+
+== Why ==
+Wikifying both in general, and particular subjects, notes, or documents, helps grow the searchable & discoverable [[commons]] of the IndieWebCamp community.
+
+== How to ==
+=== Wikify yourself ===
+Like many things in IndieWebCamp, start by editing your own page, in this case, your own "User:" page.
+
+Your "User:" page is linked from the bottom of footer links, first link on the third row, with the name of your domain that you used to login to the wiki (just before "My talk").
+
+Click on it and edit your User: page.
+
+If you're not sure what to put on your User: page, start simple. Name, URL, h-card, e.g.
+<pre><nowiki>
+<span class="h-card">[http://mydomain.example.com/ Your Name]</span>
+</nowiki></pre>
+
+Next, add an itches section where you capture what you want to work on for your own site. E.g.
+
+<pre><nowiki>
+== Itches ==
+* Add a more extensive [[h-card]]
+* Figure out a [[URL design]] for my posts
+* Start posting [[notes]] manually at [[permalinks]]
+* Try checking my site in indiewebify.me
+* Check out [[IndieMark]] for additional ideas of things to add to my site
+</nowiki></pre>
+
+When you start collecting lots of itches, you may want to start prioritizing them, especially by what you're currently working on. Start a "Working on" section for that:
+
+<pre><nowiki>
+== Working On ==
+* the next thing I'm working on
+* the next next thing I'm working on
+* ... etc.
+</nowiki></pre>
+
+
+Lastly, check out others' User: pages, especially folks that have been doing this a while, to see what else you could add to yours and work on.
+* {{t}}
+* {{aaronpk}}
+* {{GWG}}
+* {{kylewm}}
+* {{benwerd}}
+* ...
+
+=== Incremental Wikifying ===
+There's lots of incremental wikifying to help with.
+* fixing typos
+* adding IndieWeb Examples - if you find a page for a technology you support on your site, or a project you use on your site, add yourself to the "IndieWeb Examples" for that page
+* add issues and questions (for FAQs)
+* collect questions/answers from [[irc/today|IRC]] and add them to the appropriate wiki page
+
+=== New pages ===
+There's lots of new page creation you can help with. Create new wiki pages for:
+* etherpads of notes from [[IndieWebCamp]] sessions after they're finished, to archive the session notes somewhere more findable / linkable
+* definitions of any new terms or jargon that people use in [[irc/today|IRC]]
+* new projects you start using on your personal website; be sure to include your site in the IndieWeb Examples section on the page.
+
+== Related Articles ==
+The above is very much specific to what is good wikifying ''for IndieWebCamp in particular''.
+
+Here are related articles on good writing, structure, and wikifying ''in general'':
+* [https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Wikify#How_to_wikify Wikipedia Project: How to wikify]
+
+== See Also ==
+* [[creator]]
+* [[commons]]

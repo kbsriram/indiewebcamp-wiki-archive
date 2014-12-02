@@ -1,10 +1,12 @@
 http://indiewebcamp.com/Tumblr
 
-<span style="float:right">http://1.bp.blogspot.com/-50Sk1t6KFqA/T9GTRi6P2QI/AAAAAAAAH6A/ueZgU3Y8rA0/s330/images.jpg</span>
+{{pagelogo|https://pbs.twimg.com/profile_images/378800000576211895/94a4a4b25f5d692cb836baf74b9e64b1_200x200.png}}
+{{stub}}
 
-'''<dfn>[http://tumblr.com Tumblr]</dfn>''' is a popular content hosting [[silo]], and through domain mapping, a content hosting service as well.
+'''<dfn>[http://tumblr.com Tumblr]</dfn>''' is a popular content hosting [[silo]], especially for found [[images]] & [[video]], that explicitly supports multiple types of [[posts]], and through free domain mapping, a [[content hosting service]] as well.
 
 == How to ==
+__TOC__
 === POSSE to Tumblr ===
 Tumblr used to be able to import an RSS feed (dates? citations?).
 
@@ -117,8 +119,6 @@ Tumblr's v1 read API is blissfully simple to use although now deprecated. It ret
 See [http://www.tumblr.com/docs/en/api/v1 documentation].
 
 [[User:Tommorris.org|tommorris]] ported most of his content over from Tumblr.
-
-<div style="clear: both">__TOC__</div>
 
 == PESETAS ==
 Getting data out of Tumblr is pretty easy as documented above. There is no need to get or use API keys or OAuth tokens or anything.

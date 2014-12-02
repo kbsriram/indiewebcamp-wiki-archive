@@ -74,6 +74,7 @@ add notes on your own implementation here.
 == Criticisms ==
 
 * I’m indifferent about short URLs. it’s rare that I’ve felt I really need one, and for me the value doesn’t outweigh the pain of maintaining/paying for another domain, hosting, writing more code --[[User:Waterpigs.co.uk|Waterpigs.co.uk]] 14:05, 3 September 2013 (PDT)
+* 2014-11-07 Feedly shuts down its short URL service http://blog.feedly.com/2014/10/28/feedly-url-shortener-retired/
 
 == Domains ==
 Alphabetically sorted domains:
@@ -177,6 +178,12 @@ IndieWeb folks using .tc short URLs:
 Originally Nominet UK only allowed domains to be registered under certain subdomains, such as co.uk or org.uk. They have recently opened up the top-level domain itself. There is a potential difficulty in registering short domains though as people who have already registered the .co.uk variant get priority I believe.
 
 '''Note''' The registrar requires that your WHOIS mailing address be a valid UK address, for details see [http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules section 7].
+
+=== us ===
+
+.us is the [https://secure.wikimedia.org/wikipedia/en/wiki/.us ccTLD for the United States.]
+
+Registration is cheap, a couple dollars less than than .com. Registrants must be US citizens/organizations or foreign entities with a US presence.
 
 === Add more short URL domains here ===
 ...

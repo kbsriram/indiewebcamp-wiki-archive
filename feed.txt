@@ -1,6 +1,6 @@
 http://indiewebcamp.com/feed
 
-A '''<dfn>feed</dfn>''' is a collection of [[posts]], typically listed in reverse-chronological order. Homepage feeds usually contain all posts by the author, but many also choose to publish filtered feeds, for example posts of a particular type, or tagged with a particular tag.
+A '''<dfn>feed</dfn>''' is a dynamic set of [[posts]], typically listed in reverse-chronological order, often only the most recent n (like 10) of them. Homepage feeds usually contain all posts by the author, but many also choose to publish filtered feeds, for example posts of a particular type, or tagged with a particular tag.
 
 Feeds, if correctly marked up, can be subscribed to, parsed and presented by [[readers]].
 
@@ -104,15 +104,23 @@ There are legacy systems, e.g. some [[feed readers]], which only support older t
 Documentation of when sites stop publishing and/or consuming legacy RSS/Atom feeds. See also [[site-deaths]].
 
 ==== 2013 ====
+===== Apple iTunes =====
 * 2013-11-06 '''Apple iTunes 11.1 reduced RSS functionality.''' Not a shutdown (yet), but reduced/damaged functionality to RSS Podcasts in Apple iTunes 11.1 per Apple Communities post: [https://discussions.apple.com/thread/5333380 Figuring out podcasts in iTunes 11.1 and iOS 7]
+===== HubMed =====
 * 2013-08-14 '''[http://hublog.hubmed.org/archives/001969.html Switching off HubMed's RSS and Atom feeds]''': <blockquote>I've been considering stopping HubMed's feeds, and the demise of Google Reader seemed like a good incentive to do some spring cleaning. '''They were quite inefficient''' old scripts, which '''made the shared hosting provider unhappy''', so today I decided to switch the feeds off.</blockquote> '''emphasis''' added.
+===== Yahoo RSS Alerts =====
 * 2013-07-01 '''Yahoo! RSS Alerts''' shut down.[http://yahoo.tumblr.com/post/54125001066/keeping-our-focus-on-whats-next][http://www.webpronews.com/yahoo-kills-altavista-axis-webplayer-browser-plus-downloads-more-2013-07]
+===== Google Reader =====
 * 2013-06-30 '''[[Google]] Reader''' (RSS and Atom consumer) shut down.
+===== Evernote =====
 * 2013-04-11 '''[http://discussion.evernote.com/topic/37000-removing-rss-feed-support-from-public-notebooks/ Evernote Removing RSS support for public notebooks]''': <blockquote>We currently have support for RSS feeds for public notebooks to allow subscribers to automatically get updates to those notebooks. Last night's (4/10/2013) release of the web service removed this support. Attempts to access Public Notebook RSS feeds will return a 404 HTTP response code instead of the heretofore expected content. At this point, the feature was imposing excessive load on the service relative to its use and utility, and the decision was made to remove it.</blockquote>
+===== Twitter =====
 * 2013-03 '''[http://brodiesnotes.blogspot.co.uk/2013/03/workarounds-for-people-who-used-rss.html Twitter removed RSS feeds]'''. [https://dev.twitter.com/discussions/11582 Twitter support discussion]: <blockquote>Keep in mind though that v1 of the API is now deprecated and will cease functioning in March 2013. RSS feeds are no longer supported by the API after that date.</blockquote>
 
 ==== 2012 ====
+===== FeedBurner APIs =====
 * 2012-10-20 [[FeedBurner]] APIs shut down (per https://developers.google.com/feedburner/ ). See also: http://pleasedontkillfeedburner.com/
+===== Apple Safari Mail =====
 * 2012 [[Apple]] quietly removes RSS support from OSX Mountain Lion's Safari and Mail  [http://www.smh.com.au/digital-life/computers/blogs/gadgets-on-the-go/apple-joins-the-war-on-rss-20120731-23d8y.html]
 
 == See Also ==

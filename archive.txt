@@ -2,11 +2,15 @@ http://indiewebcamp.com/archive
 
 {{stub}}
 
-'''<dfn>archive</dfn>''' refers to date-grouped sets of indieweb site posts (a common form of [[navigation]] among posts), or a copy of a web page made at a particular point in time.
+'''<dfn>archive</dfn>''' in the context of the indieweb refers to date-grouped (often monthly) sets of posts (AKA <dfn>personal historical archives</dfn>, a common form of [[navigation]]), but can sometimes mean '''<dfn>[[archival copy]]</dfn>''', a copy of a web page made (often by someone other than the author) at a particular point in time.
 
-Longer: archives refer to:
-* The [[archives]] of an indieweb site that allows you to [[navigate]] to past content by year and month, AKA personal historical archives, or
-* A copy of a web page or site that can be used as a reference if the original disappears or is temporarily unavailable.
+== Why ==
+Providing access to archives helps people browse your past content.
+
+== How to ==
+There are many approaches to providing archive navigation [[UI]].
+
+Typically people provide links to specific months and years, sometimes in a list of links, sometimes in a list of years that expend to months, and then only the month links actually navigate you to archives for those months.
 
 == IndieWeb Examples ==
 === Tantek ===
@@ -35,12 +39,8 @@ And before that, all his blog posts were written and served directly from archiv
 === Ben Roberts ===
 {{user|ben.thatmustbe.me|Ben Roberts|https://ben.thatmustbe.me/image/static/icon_64.jpg}} uses [[Postly]] to serve composite archives in either monthly (linked - /YYYY/MM) or daily (unlinked - /YYYY/MM/DD) format since 2014-10-07.
 
-== Services ==
-=== WebRecorder ===
-* https://webrecorder.io/
-
 == See Also ==
-* [[archives]]
+* [[archival copy]]
 * [[navigation]]
 * [[IndieArchive]]
 * [[wget]]

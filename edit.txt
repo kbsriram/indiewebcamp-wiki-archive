@@ -2,7 +2,7 @@ http://indiewebcamp.com/edit
 
 {{stub}}
 
-An '''<dfn>edit</dfn>''' (AKA <dfn>diff</dfn>, <dfn>change</dfn>) is a type of [[post]].
+An '''<dfn>edit</dfn>''' (AKA <dfn>diff</dfn>, <dfn>change</dfn>) is a special type of [[reply]] that indicates a set of suggested changes to the [[post]] it is replying to. A [[collection]] of (presumably related) suggested edits in open source is often called a <dfn>patch</dfn> or <dfn>pull request</dfn>.
 
 == Why ==
 Reasons why you should publish edit posts, and support having a [[reader]] show them. Each of these are use-cases of their own merit.
@@ -41,6 +41,12 @@ By implementing the consumption and display of edit posts in your [[reader]], yo
 
 E.g. if third party wiki [[commons]] (like Wikipedia) supported marking up their edit permalinks as edit posts, and in their streams of edits as well, it would be possible to follow/subscribe to them in an indie [[reader]] and see your edits on another site show up in the stream of posts in your reader.
 
+=== Lightweight Pull Request ===
+The idea was [http://indiewebcamp.com/irc/2014-11-17#t1416259705874 discussed] regarding the posting of git/code diffs in a [[post]] as a way to create a lightweight pull request.  The post could contain [[action]] tags to trigger some kind of diff handler to open and inspect diff in the correct repo using git.
+
+A Pull Request could be a published as:
+* [[collection]] of [[edit]] posts.
+
 == Open Source Examples ==
 === MediaWiki ===
 [[MediaWiki]], e.g. like on this wiki, has permalinks of individual edits:
@@ -57,8 +63,10 @@ As well multiple places where streams of edit summaries are displayed:
 
 == Silo Examples ==
 === GitHub ===
-[[GitHub]], more like a [[silo]], has permalinks to <dfn>pull requests</dfn> which are their term for edit posts. E.g.:
+[[GitHub]], a [[silo]], has permalinks to <dfn>pull requests</dfn> which are a collection of commits, or edit posts. E.g.:
 * https://github.com/kevinmarks/kevin-marks.com/pull/1/files
+as well as permalinks to individual commits (edit posts)
+* https://github.com/aaronpk/p3k-core/commit/78aea731f5bb2564cffe155c9ac9591ccc43cef4
 
 == See Also ==
 * [[Special:RecentChanges]]

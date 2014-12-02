@@ -39,7 +39,7 @@ tommorris.org
 * posts notes on there, primarily text based — occassionally photos and such
 * added recently: articles section: tommorris.org/articles
 * uses Mozilla Persona to sign-in, using Rails+Omniauth. Persona was the only thing that didn't need an API Key, because he's not starting an app, he's signing into a website!
-* when Tom is logged in it just shows his posting interface at the top of his home page tommorris.org with title, text content, check boxes for POSSE to Facebook and Twitter
+* when Tom is logged in it just shows his [[posting interface]] at the top of his home page tommorris.org with title, text content, check boxes for POSSE to Facebook and Twitter
 * also has a full posting interface with tags, lat, long, location label, License popup
 * feature he's added recently tommorris.org/places
 * using geodienste.lyrk.de for map tiles, which they also serve over https
@@ -280,7 +280,7 @@ Kevin started by showing us his site home page kevinbeynon.com using a tablet. W
 
 He pointed out that there is no admin link on the home page then went to his "secret" URL at /admin/ which has an [[IndieAuth]] login screen. He entered his own URL, and chose to [[RelMeAuth]] authenticate using Twitter which redirected to it and back and came back with the message "Log-in Successful".
 
-Kevin went to his home page again, and showed that it now has visible links to "admin" and "log out". Next he plans to bring his post [[creating]] and editing interface into his home page front end, so that he can do inline editing and post [[notes]] from his home page.
+Kevin went to his home page again, and showed that it now has visible links to "admin" and "log out". Next he plans to bring his post [[creating]] and [[editing interface]] into his home page front end, so that he can do inline editing and post [[notes]] from his home page.
 
 
 == Joschi Kuphal ==
@@ -348,7 +348,7 @@ After his demo, Aral also [https://aralbalkan.com/scribbles/setting-up-ssl-with-
 
 Rosa wanted to make her own CMS with support for posting images and tags. She demonstrated her local dev install of her new CMS with:
 * a UI for creating a new project
-* <abbr title="create, read, update, delete">CRUD</abbr> posting interface for projects
+* <abbr title="create, read, update, delete">CRUD</abbr> [[posting interface]] for projects
 * using Postgres to store data
 
 == Aaron Parecki ==
@@ -364,7 +364,7 @@ Now all of Aaron's bookmarks are at http://aaronparecki.com/bookmarks all marked
 
 This also means you can [[comment]], [[bookmark]], and [[like]] his bookmarks themselves!
 
-During later demos, Aaron also updated his [[Quill]] app with a bookmark posting interface, as well as a bookmarklet so you can quickly open the Quill UI to make a bookmark.
+During later demos, Aaron also updated his [[Quill]] app with a bookmark [[posting interface]], as well as a bookmarklet so you can quickly open the Quill UI to make a bookmark.
 
 == Kevin Marks ==
 [[User:kevinmarks.com|Kevin]] built a feed coverter that takes legacy RSS/Atom feeds and produces modern readable and usable [[h-entry]] page, including such niceties as inline playable audio elements in converted podcasts. ([http://indiewebcamp.com/irc/2014-09-07#t1410108668254 IRC notes])
@@ -375,7 +375,7 @@ The converter is at http://feed.unmung.com/. Unmung.com is a URL he bought ages 
 
 E.g. if you put in xkcd.com/rss.xml into it, it generates a nice readable HTML page with h-entry, which you can then subscribe to in an indie [[reader]] like Barnaby's [[shrewdness]].
 
-Kevin demonstrated using unmung to convert a podcast feed http://feeds.wnyc.org/onthemedia into an h-feed with embedded playable HTML5 &lt;audio> elements, providing an actual useful interface,  much better than the original feed.
+Kevin demonstrated using unmung to convert a podcast feed http://feeds.wnyc.org/onthemedia into an h-feed with embedded playable HTML5 &lt;audio> elements, providing an actual useful interface, much better than the original feed.
 
 Kevin made the point that no one wants to parse RSS or Atom any more. Now by parsing the microformats JSON representation, you can get any existing RSS or Atom etc.
 

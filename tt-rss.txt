@@ -2,6 +2,15 @@ http://indiewebcamp.com/tt-rss
 
 {{ stub }}
 
-<dfn>[http://tt-rss.org/redmine/projects/tt-rss/wiki tt-rss]</dfn> is a traditional [[Google Reader]] style feed reader that you have to self host.
+[[File:tt-rss.png|200px|right|Screenshot]]
 
-== People using tt-rss ==
+'''<dfn>[http://tt-rss.org/redmine/projects/tt-rss/wiki tt-rss]</dfn>''' is a traditional [[Google]] Reader style [[feed reader]] that you have to self host that also supports consuming [[PuSH]] notifications.
+
+
+== IndieWeb Examples ==
+Individuals self-hosting tt-rss on their own domain:
+* [[User:cweiske.de|cweiske.de]] at https://feeds.cweiske.de/
+
+== See Also ==
+* [[feed reader]]
+* [[PuSH]]

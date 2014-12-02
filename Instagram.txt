@@ -1,6 +1,6 @@
 http://indiewebcamp.com/Instagram
 
-<span style="float:right">http://www.cui.edu/portals/0/Images/Logos/instagram-logo.jpg</span>
+{{pagelogo|https://pbs.twimg.com/profile_images/1550954462/instagramIcon_200x200.png}}
 {{stub}}
 
 '''<dfn>[http://instagram.com/ Instagram]</dfn>''' is a popular image hosting [[silo]] most well known for square [[photos]] that have been processed with an image filter. In 2013, Instagram added support for 15 second [[video]] posts.
@@ -33,12 +33,34 @@ At this point you can also use a service like [[Bridgy]] to [[backfeed]] comment
 * [[User:Aaronparecki.com|Aaron Parecki]]'s [[OwnYourGram]] service provides PESOS from Instagram for any site that supports micropub.
 * ...
 
+=== Manual Notes POSSE ===
+Some users manually POSSE occasional [[notes]] posts to Instagram, e.g.:
+* Original: https://twitter.com/ClaireWyckoff/status/532912362991648768 <blockquote>Worst way to die: you're mauled by a zombie and as you're about to turn you realize he's wearing Ed Hardy.</blockquote>
+* POSSE copy: [http://instagram.com/p/vWDDFlyTL8/ <img src="http://photos-e.ak.instagram.com/hphotos-ak-xpf1/10693307_1492129594399372_2131465102_n.jpg" style="width:256px"/>]
+
+As of this edit:
+* the original has only *2* favorites. (2,346 followers on account)
+* the POSSE copy: *130* likes and *3* comments. (14,512 followers on account)
+For some reason, POSSE copies, even of *notes*, on Instagram receive more [[interactions]] per follower.
+
+Hypothesis: the Instagram [[reader]] experience is so much smoother and nicer that it tends to encourage more use and thus more interactions.
+
 == API ==
-* Instagram's [http://instagram.com/developer official API] can create (and delete) comments and likes, but not photos.
+=== Supposed Features and Limitations ===
+* Instagram's [http://instagram.com/developer official API] can potentially create (and delete) comments and likes, but not photos.
+=== Like ===
+{{snarfed}} has found that Instagram's API now supports progammatically "liking" photos (used to 400).
+=== Location ===
+* [http://instagram.com/developer/endpoints/locations/ location of photos] - indicates use of [[Facebook]] places ID, [[Foursquare]] venue id (both v1 and v2 of their API)
+=== Cannot Comment ===
+{{snarfed}} has found that authing with scope=comments works, but the API call still 400s.
+
+According to [http://instagram.com/developer/endpoints/comments/#post_media_comments Instagram's API documentation],  their commenting API only works for those who are whitelisted. Unfortunately the [http://instagram.com/developer/endpoints/comments/#post_media_comments criteria for application for whitelisting] are very restrictive.
+
+=== Unofficial ===
 * Work has also been done on determining its unofficial API (which is against Instagram's terms of service, but allows you to post): https://github.com/mislav/instagram/wiki
 * Instagram Worm uploaded photos using private/undocumented API (needs citation)
 * Instagram private API changes affect unofficial apps and photos uploaded via unofficial apps http://www.theverge.com/2013/7/30/4570610/instagram-deleting-photos-from-instance-windows-phone-app
-* [http://instagram.com/developer/endpoints/locations/ location of photos] - indicates use of [[Facebook]] places ID, [[Foursquare]] venue id (both v1 and v2 of their API)
 
 ==UX Observation==
 * Videos and Photos have a very similar UI. --[[User:Bret.io|Bret.io]] 00:38, 1 July 2013 (PDT)

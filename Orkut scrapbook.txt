@@ -1,21 +1,3 @@
 http://indiewebcamp.com/Orkut_scrapbook
 
-The '''scrapbook''' was a feature of the late [[silo]] orkut (see [[site-deaths]]) still, to this day, a kind of messaging platform unseen in any other social network or hosted service.
-
-The scrapbook provided a hybrid between the personal messaging and the publishing, it was somewhat similar to posting at a friend's wall on Facebook, or tweeting to a friend, or commenting at a blog post, but different in the following senses:
-
-* the content was public;
-* any person could post at others' scrabooks;
-* the posted content wasn't mixed with totally unrelated contents (in a Twitter or Facebook stream, for example);
-* the posted content wasn't perishable;
-* the posted content wasn't streamed to anywhere, so ''it wasn't a big deal'' to send someone a scrap, it would not be shown to a lot of unrelated people, except if they went looking after it;
-
-So, as it wasn't such a big deal as posting at a friend's wall on Facebook, it:
-
-* encouraged quick message exchanges, regarding any subject, big or small, even between strangers;
-* encouraged public discussion of themes that, at first, could be seen as unworthy, because they were not being displayed at everyone's computers, they were shown just to the interested people;
-* allowed other people to include themselves in the conversation.
-
-----
-
-[[User:fiatjaf.alhur.es|fiatjaf]] is trying to bring the Orkut scrapbook to the web with [[scrapboard]].
+#REDIRECT [[Orkut]]

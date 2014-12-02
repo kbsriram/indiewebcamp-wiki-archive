@@ -45,8 +45,15 @@ If you want to use this right now, get in touch with [http://aaronparecki.com aa
 
 You are more than welcome to use the pingback->webmention conversion service as described above. Or you can install this on your own server from the [https://github.com/aaronpk/webmention.io  source code on Github].
 
-== Source code ==
+=== Use with Jekyll ===
+[http://aaron-gustafson.com/ Aaron Gustafson] has written a [[Jekyll]] plugin for displaying content from webmention.io. 
 
-[https://github.com/aaronpk/webmention.io github.com/aaronpk/webmention.io]
+* https://github.com/aarongustafson/jekyll-webmention_io
+
+== Developing ==
+
+The source is at [https://github.com/aaronpk/webmention.io github.com/aaronpk/webmention.io]
+
+To get set up, clone the repo, run <code>bundle install</code> in the repo dir, then run <code>./start.sh</code>.
 
 __NOTOC__

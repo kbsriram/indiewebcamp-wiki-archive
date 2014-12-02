@@ -1,15 +1,17 @@
 http://indiewebcamp.com/GitHub
 
+{{pagelogo|https://pbs.twimg.com/profile_images/426158315781881856/sBsvBbjY_200x200.png}}
 {{stub}}
 
-'''<dfn>[http://github.com GitHub]</dfn>''' is a code and static content hosting [[silo]] that has some aspects of a [[commons]].
+'''<dfn>[http://github.com GitHub]</dfn>''' is a specialized content hosting [[silo]] for code, issues, comments, and static content that has some aspects of a [[commons]], and through free domain mapping, a [[content hosting service]] as well.
 
 == GitHub Pages ==
+__TOC__
 GitHub's <dfn>GitHub Pages</dfn> (gh-pages) feature is a [[web_hosting#Static_domain_hosting|static domain hosting]] where you can host your static sites. They offer pre-built web page templates, as well as the ability to build and host [[Jekyll]] websites.
 
 Static content hosting is a form of [[web hosting]] that can be used for [[getting started]] on the IndieWeb.
 
-See [https://help.github.com/articles/setting-up-a-custom-domain-with-pages GitHub's instructions] for details.
+See [https://help.github.com/articles/setting-up-a-custom-domain-with-pages GitHub's instructions for setting up a custom domain] for details.
 
 === Guides === 
 There are several guides on how (and approaches) to use GitHub Pages to host your website:
@@ -23,6 +25,7 @@ Some websites provide ready-to-fork repositories that one can use to get started
 
 * [http://octopress.org/ Octopress] provides a rich website construction toolkit, based on top of Jekyll.
 * [http://pjf.id.au/ pjf.id.au] has his entire website under CC-BY, with a branch on github specifically for forking the design and build process. Like Octopress, it uses Jekyll underneath. See the [https://github.com/pjf/pjf.github.io github repo] for details.
+* [[coisas]] is a browser-based CMS that works only with GitHub Pages, it has a [http://github.com/fiatjaf/coisas-template template] that can be forked from the website UI, and then worked on without need of ever touching the command line.
 
 === Advantages ===
 * An advantage to using a GitHub based solution is that you can easily transfer it to another web host simply by deploying from GitHub to your web host.
@@ -72,6 +75,7 @@ There are various self-hosted alternatives to github:
 == Criticism ==
 * You can lose your data due to unjustified DMCA takedowns:
 ** [https://github.com/github/dmca/blob/master/2014-07-02-Qualcomm.md Takedown] and [http://ausdroid.net/2014/07/05/qualcomm-retracts-dmca-takedown-request-apologises-involved/ Apology]
+** Github has since improved this process by defining how they are handled better, specifically allowing for the owner to make needed corrections or to move hosts. https://github.com/blog/1908-a-better-dmca-process
 
 == See Also ==
 * [[code]]

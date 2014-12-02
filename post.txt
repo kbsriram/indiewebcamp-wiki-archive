@@ -2,7 +2,7 @@ http://indiewebcamp.com/post
 
 {{stub}}
 
-'''<dfn>post</dfn>''' can refer to either:
+A '''<dfn>post</dfn>''' is either a piece of content or the act of publishing that content (usually in a way that is shared). It is different than a [[page]]
 
 * A discreet piece of content (perhaps a [[note]] or an [[article]]) — see also [[posts]]
 * The act of creating the aforementioned content

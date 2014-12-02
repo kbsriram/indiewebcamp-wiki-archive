@@ -15,7 +15,9 @@ Themes:
 
 
 Plugins:
-* GWG with contributions from acegiak has authored a plugin to add a custom taxonomy to Wordpress to classify responses to external URLs...this allows 'Likes', 'Replies', 'Reposts', 'Bookmarks', etc. The plugin is called [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] and is complete enough for basic use.
+* GWG with contributions from acegiak has authored a plugin to add a custom taxonomy to Wordpress to classify responses to external URLs...this allows 'Likes', 'Replies', 'Reposts', 'Bookmarks', etc. The plugin is called [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] and is complete enough for basic use. 
+** Future Development should include additional data, such as author name, author profile picture, date published, etc. 
+** Contributions Appreciated
 
 
 Ease of installation and management

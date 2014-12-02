@@ -4,5 +4,10 @@ http://indiewebcamp.com/newsblur
 
 <dfn>[http://www.newsblur.com Newsblur]</dfn> is a traditional feed reader that aimed to replicate and replace [[Google Reader]].
 
+=== Sharing ===
+[[File:newsblur-share.png|600px ]]
+
+* News blur allows for sharing of posts and comments to other news blur followers.
+
 == People Using Newsblur ==
-* {{ bret }}
+* {{ bret }} (Switched to [[feedbin]])

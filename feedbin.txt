@@ -8,6 +8,12 @@ Feedbin is free software: https://github.com/feedbin/feedbin
 
 Inline footnote expansion: http://imgur.com/a/GaqqW#0
 
+=== Sharing ===
+Feedbin provides a set of services that you can share stories and comments about them to.  It also allows for custom sharing targets using http parameters.
+
+*[[File:feedbin-pinboard.png|600px]]
+*[[File:feedbin-share-services.png|600px]]
+
 == Indieweb Users ==
 * {{ bret }}
 * {{ kylewm }} using hosted feedbin.com.

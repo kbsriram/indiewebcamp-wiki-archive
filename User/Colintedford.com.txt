@@ -32,19 +32,10 @@ I found IWC some months ago, I don't remember how but I've been interested in re
 First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb stuff where it makes sense. I'm reluctant to add much new functionality until I've left Wordpress because I'll just lose it when I switch (or I'll delay switching because I feel obliged to re-implement).
 
 * Re-add rel="me" so I can log back into IWC wiki if I get logged out ;)
-* <strike>Reformat so I can stop using Webcomic plugin.</strike>
-** <strike>Decide on code for comic transcripts.</strike> 2014-08-11: Settled on some non-JS show/hide code that mysteriously doesn't work in WordPress, so for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ .
-** <strike>Migrate transcripts.</strike> Done 2014-08-12.
-** <strike>Migrate comic images. One...by...one :(</strike> 2014-09-16 ''Finally''.
-** <strike>Apply custom taxonomy to comics so I don't have to have a category for each one.</strike> 2014-09-16 but still have to
-*** move the comics nav code over from the old theme.
-** <strike>Disable plugin.</strike>2014-09-16
-* <strike>Switch to more responsive theme</strike> 2014-09-16 Using [http://wordpress.org/themes/publish Publish] for now but could still change my mind.
-** Tweak as needed (but don't go overboard).
 * Add [[microformats]].
 * Self-signed [[https|SSL]] for logins.
 * Better comics navigation.
-** Better styling (aka make it bigger)
+** <strike>Better styling (aka make it bigger)</strike> 2014-10-01
 ** Make good archive pages.
 * Yearly & monthly archives (no more paginated).
 * Mockup post-WordPress site HTML, CSS, & UI. Use this (with tweaks as needed to template-ify) as template for post-WordPress system.
@@ -81,6 +72,13 @@ Lower-priority but easy, a nice way to make progress when I'm not up to harder p
 * Somehow integrate my website, my desktop wiki ([http://zim-wiki.org/ Zim]), and my still-forming personal log (just monthly text files w/ some personal formatting & hashtags, not yet hooked up to any processing) since they all overlap in function. Zim actually does function as a simple site generator and it's repeatedly impressed me as a program; I have a pipe dream of learning Python and writing some plugins (if even needed -- whenever I think I've hit a limit it turns out Zim can actually do it!) to make Zim do all the stuff. First step with the Zim pipe dream would be to just learn its template system.
 * [[Wiki]] pages, maybe (definitely for my comics group's website).
 * I mostly don't care if my site is "real-time", but am intrigued by Indieweb [[messaging]].
+
+=== Done ===
+
+* 2014-10-01: Made comics nav bigger & prettier.
+* 2014-09-29: Moved comics nav code over from the old theme.
+* 2014-09-16: Finished migrating comic images one...by...one (''finally''), applied custom taxonomy to comics so I don't have to have a category for each one, disabled Webcomic plugin, switched to more responsive theme.
+* 2014-08-12: Finished migrating comics transcripts to new format (for now using https://wordpress.org/plugins/azurecurve-toggle-showhide/ b/c the non-JS show/hide code I chose mysteriously doesn't work in WordPress).
 
 === Former setup & practices ===
 

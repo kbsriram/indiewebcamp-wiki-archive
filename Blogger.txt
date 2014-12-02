@@ -33,6 +33,11 @@ Blogger doesn't have built in support for [[webmention]]s, but [[Bridgy]] can se
 Some of our Services allow you to upload, submit, store, send or receive content. You retain ownership of any intellectual property rights that you hold in that content. In short, what belongs to you stays yours.
 </blockquote>
 
+== Data Export ==
+Theoretically [[Google]] Takeout should have a way to export your Blogger blog, however the export format is unknown. Other options:
+
+* https://github.com/otherjoel/blogger2kirby - scripts to export your Blogger blog posts with images and comments to a bunch of [[Markdown]] files[https://twitter.com/joeld/status/534797720955781120]
+
 == Criticism ==
 === templates use XML ===
 Blogger templates still require use of their custom XML, which has inconveniences like:

@@ -28,7 +28,12 @@ and complete that sentence.
 You may also want to simply [[redirect]] a new page to an existing page.
 * See [[redirect]] for how to do that.
 
+
+For more on how and what to add to the wiki, see:
+* '''[[wikifying]]'''
+
 == See Also ==
+* [[wikifying]]
 * [[dfn]]
 * [[redirect]]
 * [[start]]

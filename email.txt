@@ -20,6 +20,10 @@ Indiewebcamp creators currently posting to their sites via email, and/or POSSEin
 [[User:WaterPigs.co.uk|Barnaby Walters]] has been posting to his site occasionally via email [http://waterpigs.co.uk/notes/1441/ since 2013-05-22]. Example:
 * http://waterpigs.co.uk/notes/1441/
 
+=== Aaron Parecki ===
+{{aaronpk}} has occasionally syndicated posts from his site to email lists since [https://aaronparecki.com/replies/2014/11/18/1/ 2014-11-18]. Example:
+* https://aaronparecki.com/replies/2014/11/18/1/
+
 == Support ==
 Due to its popularity and ubiquity email is extremely widely supported.
 === Application integration ===

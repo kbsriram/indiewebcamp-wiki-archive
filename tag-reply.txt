@@ -1,0 +1,26 @@
+http://indiewebcamp.com/tag-reply
+
+{{stub}}
+
+A '''<dfn>tag reply</dfn>''' is a [[response]] to another post that tags that post with one or more [[tags]].
+
+== Why ==
+Tagging others' content is a very common [[silo]] UX and practice. By using your own site to tag others' content, you "ownyourtags" even if/when the [[silo-deaths|silos die]].
+
+== How to ==
+How to mark-up a tag reply, e.g. with the tag "indiewebcamp":
+
+Inside your usual [[h-entry]], use:
+<pre>
+<a class="u-tag-of" href="http://a.example.com/postpermalink37">...</a>
+<span class="p-category">indiewebcamp</span>
+</pre>
+
+And then send a webmention from your tag reply permalink to <nowiki>http://a.example.com/postpermalink37</nowiki>.
+
+Doing so will tag that postpermalink37 with the tag "indiewebcamp".
+
+== See Also ==
+* [[response]]
+* [[tag]]
+* [[ownyourdata]]
