@@ -4,12 +4,15 @@ http://indiewebcamp.com/2015/DC
 
 Being not far from DC, I would be very interested in an IndieWebCamp DC. I don't know that I would be much use as an [[#Organizers|organizer]] though, but if there's enough interest maybe we can figure something out.  [[User:Rascul.io|Rascul.io]] 12:23, 14 October 2014 (PDT)
 
+Jim Groom and I are happy to help organize this. We're thinking of '''April 25th and 26th''' as a potential date. We'll be working closely with [http://apievangelist.com Kin Lane] on this to try to get some folks from the gov sector who are working with open data to be a part of it. [[User:Timowens.io|Timowens.io]] 08:26, 5 December 2014 (PST)
+
 == Location Possibilities ==
 * ...
 
 == Organizers ==
-* '''Organizers''': ... 
-** Want to help organize? '''Get in touch with us on [[IRC]]!'''
+* {{timowens}}
+
+Want to help organize? '''Get in touch with us on [[IRC]]!'''
 
 == See Also ==
 * [[Homebrew Website Club]]

@@ -12,7 +12,21 @@ Why show reply contexts?
 * '''temporal context'''. Storing a reply context freezes the content you’re replying to in time, meaning that if it goes away or changes, you still have a copy of the original content you replied to.
 ** Take, for (contrived) example, a reply agreeing with an anti-war article. A month later the replied-to domain gets bought by a pro-war organisation and all the content on the site is changed to reflect that. By storing a reply context you protect your intent from misunderstandings.
 
-== Markup ==
+== How to ==
+=== Display ===
+'''How should reply contexts be displayed?'''
+
+For general guidance on primarily textual reply-context presentation best practices, see
+* [[reply-context-examples#Indieweb_Examples]]
+
+==== reply to a photo ====
+How to reply to a photo, see this real world photo reply-context example:
+* https://kylewm.com/2014/05/i-used-to-live-in-bernal-heights-when-i-lived-in-the-city-looks-like
+
+And brainstorming:
+* [[reply-context-examples#reply_to_a_photo]]
+
+=== Markup ===
 '''How should reply contexts be marked up?'''
 
 For consistency with [[comment-presentation#How_to_markup|comment markup]], reply contexts should be marked up as an embedded [[h-cite]] in a .p-in-reply-to so that it’s a nested microformat property of the parent ([http://waterpigs.co.uk/notes/4QfGbM/ example]). Like this:
@@ -63,18 +77,20 @@ Replies to indieweb posts can retrieve the icon from a [[nicknames-cache]].
 IndieWeb Examples of icon plus URL:
 * none so far
 
+=== author name ===
+Next, you can sometimes determine the author's name from a [[nicknames-cache]].
+
+Determining the author's name and their icon (more broadly/reliably than above), requires implementing the [[authorship]] algorithm on the original post, which requires more work than just parsing it for its h-entry as above.
+
+IndieWeb Examples of icon URL dt-published and author name:
+* none so far
+
 === published ===
 The original's published date is the next interesting (and slightly harder) thing to retrieve and display in a reply-context. With this step, an implementation must retrieve the original post and determine its "dt-published" (e.g. from parsing its [[h-entry]]).
 
 The date and time of the original should be displayed and hyperlinked to the original's URL.
 
 IndieWeb Examples of icon URL and dt-published:
-* none so far
-
-=== author name ===
-Determining the author's name and their icon (more broadly/reliably than above), requires implementing the [[authorship]] algorithm on the original post, which requires more work than just parsing it for its h-entry as above.
-
-IndieWeb Examples of icon URL dt-published and author name:
 * none so far
 
 === original content ===

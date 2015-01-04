@@ -19,7 +19,7 @@ Below is my SSL/HTTPS related configuration found in the http block of nginx.con
      # This list of ciphers is the strongest available that I've been able to come
      # up with which support forward secrecy and are compatible with as many clients
      # as possible.
-     ssl_ciphers EECDH+AES256+AESGCM:EECDH+AES256:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:DES-CBC3-SHA;
+     ssl_ciphers kECDHe+AES:EECDH+AESGCM:EECDH+AES256:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:DES-CBC3-SHA;
      
      # SSLv3 is required in order to support Java6 with this configuration.
      # But we don't want SSL at all because of poodle.

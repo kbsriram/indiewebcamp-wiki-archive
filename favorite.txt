@@ -5,6 +5,17 @@ http://indiewebcamp.com/favorite
 <span style="float:right;clear:right;height:128px;font-size:128px;margin:32px 0 0">🌟</span>
 A '''<dfn>favorite</dfn>''' is a common [[webaction]] on many [[silos]] (like [[Flickr]], [[Twitter]]), typically visually indicated with a star symbol that fills in with a color when activated (pink, orange). A favorite is similar to but somewhat different from a [[like]].
 
+== Why ==
+If you "favorite" things on silos (e.g. [[Twitter]], [[Flickr]]), it may make sense to support the same literal type "favorite" (or at least microcopy) on your own site in order to replace that silo usage with using your own website instead.
+
+Alternatively, if you treat a favorite on such silos posts as a "like" (as in, when you favorite a tweet, you mean you like it), then you should support [[like]] posts instead.
+
+== How ==
+Very often favorites and likes appear to be treated as the same thing, thus re-use "u-like-of" markup as documented in [[like#How]].
+
+== IndieWeb Examples ==
+There are no known examples of indieweb favorite posts. See [[like#IndieWeb_Examples]] for similar examples.
+
 == Similarity to Like ==
 Favorites are similar to likes in how they're represented in some systems.
 
@@ -39,7 +50,12 @@ These differences may be subtle enough as to make it confusing if both were pres
 [[Flickr]] puts a star favorite button on a photo, clicking it puts that photo into your "Favorites" collection/album, and adds to the favorite count (and list of favoriters) of that photo.
 
 === Twitter ===
-[[Twitter]] puts a star favorite button under each tweet that adds it to your Favorites collection.
+Favoriting UI:
+* [[Twitter]] puts a star favorite button under each tweet that adds it to your Favorites collection and fills in the star. Clicking/tapping it again removes it from your Favorites collection and empties the star.
+
+Viewing favorites:
+* View any public Twitter profile's favorites by appending "/favorites" to their Twitter profile URL, e.g.:
+** https://twitter.com/t/favorites
 
 == FAQ ==
 === Do both or not ===

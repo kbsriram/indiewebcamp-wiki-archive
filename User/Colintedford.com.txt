@@ -2,9 +2,11 @@ http://indiewebcamp.com/User%3AColintedford.com
 
 == Colin Tedford ==
 
-I'm a cartoonist, among other things; not a technologist, but I maintain a few websites. I've had mine since 2004, at [http://colintedford.com colintedford.com] since 2005. Started off in Notepad, now on [[WordPress]], planning an eventual switch to something more flat & static. Never really warmed up to the silos (except [[LiveJournal]] which had a great comics community 'til most of them moved to [[Tumblr]] and [[Twitter]]). I have a [[Tumblr]] but haven't used it in a while.
+I'm [[generations|Generation]] 2: a cartoonist (among other things) not a technologist, but I maintain a few websites. I've had mine since 2004, at [http://colintedford.com colintedford.com] since 2005. Started off in Notepad, now on [[WordPress]], planning an eventual switch to something more flat & static. Never really warmed up to the silos (except [[LiveJournal]] which had a great comics community 'til most of them moved to [[Tumblr]] and [[Twitter]]). I have a [[Tumblr]] but haven't used it in a while.
 
-I found IWC some months ago, I don't remember how but I've been interested in related stuff for a while. Currently working my way through the [[IRC/logs|IRC logs]].
+I found IWC in early 2014 or late 2013 (I think), I don't remember how but I've been interested in related stuff for a while. Currently working my way through the [[IRC/logs|IRC logs]].
+
+__TOC__
 
 === IndieMark ===
 
@@ -15,66 +17,80 @@ I found IWC some months ago, I don't remember how but I've been interested in re
 === Current setup & practices ===
 
 * Software: [[WordPress]] since 2007-11-07 for main site (maybe earlier for former subsections).
-* [[Post]] types:
-** [[Articles]]
-** [[Notes]]
-** [[Comics]] (currently handled by [http://wordpress.org/plugins/webcomic/ Webcomic plugin] which is nice but I'm prepping to stop using it as part of an eventual migration from [[WordPress]])
+* [[post|Post]] types:
+** [[articles|Articles]]
+** [[notes|Notes]]
+** [[comics|Comics]]
 * [[POSSE]] to:
 **  [[Facebook]] manually since I signed up 2009-07-09 (also, I don't have a profile there, just a [http://www.facebook.com/pages/Colin-Tedford/231529070642 page]). This is my highest-priority silo because it's where most of my friends/followers are.
 * [[PESOS]] from Facebook manually since 2014-06-18 (just copying some older things I only posted there -- mostly Youtube music links)
-* [[Backfeed]] from Facebook manually since 2014-06-18, copying new & old comments. Leaving likes alone for now because displaying them isn't important to me, but I might want to collect them eventually & store them somewhere if it's easy.
+* [[backfeed|Backfeed]] from Facebook manually since 2014-06-18, copying new & old comments (POSSE-ing my replies to new FB comments). Leaving likes alone for now because displaying them isn't important to me, but I might want to collect them eventually & store them somewhere if it's easy.
 * [[short-domains|Short domain]] (cted.us) for an eventual link shortener (& current saving of a little typing).
 
-=== To Do ===
+=== Working on ===
 
-==== For now ====
+First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb inter-site stuff where it makes sense but right now I mainly want to improve the basic site presentation. I'm reluctant to add much new functionality until I've left Wordpress because I'll just lose it when I switch (or I'll delay switching because I feel obliged to re-implement).
 
-First I want to clear up some long-standing issues with my site, prepping it to migrate from [[WordPress]]. Will add IndieWeb stuff where it makes sense. I'm reluctant to add much new functionality until I've left Wordpress because I'll just lose it when I switch (or I'll delay switching because I feel obliged to re-implement).
-
-* Re-add rel="me" so I can log back into IWC wiki if I get logged out ;)
-* Add [[microformats]].
-* Self-signed [[https|SSL]] for logins.
-* Better comics navigation.
-** <strike>Better styling (aka make it bigger)</strike> 2014-10-01
-** Make good archive pages.
+* Add [[microformats2|microformats 2]].
+** <strike>h-card</strike> ''2015-01-03''
+** h-entry
+** ???
 * Yearly & monthly archives (no more paginated).
-* Mockup post-WordPress site HTML, CSS, & UI. Use this (with tweaks as needed to template-ify) as template for post-WordPress system.
+* Better comics navigation.
+** <strike>Better styling (aka make it bigger) </strike>''2014-10-01''
+** Make good archive pages.
+* [[shortlink|Shortlinks]]. Mainly wanting them for print, to link to a full comic from an excerpt (though I'm sure I'll enjoy the other uses as well). I like a lot of [[Tantek]]'s thoughts behind [[Whistle]] but it might be quicker for me to get going with something like [http://yourls.org/ YOURLS] (even though their website nav requires JavaScript, *sigh*). In any case I'll want more memorable shortlinks for some posts (mainly comics) in addition to the line-noise style ones. For now maybe YOURLS + flat-file backup + a doohickey to convert urls to something Whistle-like? When I reach the promised land of flat files I shouldn't even need YOURLS; I can just have the system write htaccess files w/ minimal html fallbacks.
+* Get Facebook to use the correct image for their link preview (instead of grabbing the one in my sidebar as it sometimes does). Starting point: https://indiewebcamp.com/Facebook#Image_used_in_link_preview
+* Mockup post-WordPress site HTML, CSS, & UI. Use this (with tweaks as needed to template-ify) as template for post-WordPress system. On hold for now as I'm doing a bunch of work my Wordpress theme that I may want to keep post-WordPress.
+* Backfill backfeed
+** [[LiveJournal]] comments manually (considering using the LJ Crossposter plugin option to turn off LJ commenting & direct commenters to the original post so I only have to collect the old ones. Not urgent since I don't get many comments there.)
+** Check if I posted anything only to [[LiveJournal]] that I care to import
+** [[Tumblr]] comments (ie. any added content from reposts) manually
+** Check if I care to import anything I only posted to [[Tumblr]]
+** Import whatever "posts" I can from the old static version of my site via the Internet Archive.
 
-==== Whenever I feel like it ====
+=== Wants ===
 
-Lower-priority but easy, a nice way to make progress when I'm not up to harder problems.
-
-* Backfeed [[LiveJournal]] comments manually (considering using the LJ Crossposter plugin option to turn off LJ commenting & direct commenters to the original post so I only have to collect the old ones. Not urgent since I don't get many comments there.)
-* Maybe check if I posted anything only to [[LiveJournal]] that I care to import
-* Backfeed [[Tumblr]] comments (ie. any added content from reposts) manually
-* Maybe check if I care to import anything I only posted to [[Tumblr]]
-* Import whatever "posts" I can from the old static version of my site via the Internet Archive.
-* Distinguish [[photos]] as a [[post]] type, except more generically call them "pictures".
-
-==== Eventually ====
-
+* Profile [[icon]].
+* Figure out how to get a better link preview on Facebook. Currently the body includes meta info that shouldn't be there which I have to manually remove -- which I can't do on the mobile web version >:( This is maybe still better than my previous theme which got no body preview.
+* Whole-site [[https]]. Start w/ self-signed for logins?
+* Distinguish [[photos]] as a [[post]] type, except more generically call them "pictures" or "images".
+* "[[collection|Collection]]" post type(s) for pictures and comics.
+** For comics this is to connect the pages of a story, potentially in multiple levels (e.g. chapters of a book).
+** For pictures I'd like to be able to post a collection and have just that show up in my stream, but still have permalinks for each item in it. I also want to be able to add more items to existing collections and have the updates be their own posts (at least optionally). If adding multiple items the update post should also be a collection, at least in terms of what appears in the stream. I might also want to be able to include collections in other collections (though maybe that's just tags).
 * Auto-[[POSSE]] to & auto-[[backfeed]] from [[Facebook]] ([[backfeed]] is more urgent; [[POSSE]]ing by hand is pretty easy).
-* Migrate from [[WordPress]] to something mostly static. Considering [http://middlemanapp.com/ Middleman] but I have a lot of details to figure out (e.g. I want to be able to post when I'm away from my computer). Also entertaining pipe dreams of learning to program and building something myself. I'd like to have a mostly-static system that's easy for laypeople to use (both for myself & so I can recommend it to people I know), but if I have to do it myself it may be a *long* wait.
-* <strike>Better distinguish notes.</strike> I don't want to maintain a rigid distinction between [[notes]] and [[articles]] but I want readers to be able to filter out the higher-volume small stuff. I think anything with no title and only one paragraph will be a "note". Anything with a title (that isn't another more specialized post type) will be an article. I might highlight articles somehow on the home page (like surround it with a box). Also might put an expansion toggle on each article on the homepage like [[User:Tommorris.org|Tom Morris]] does (I can't find his post about it but you can see examples at http://tommorris.org). so long posts don't mess up the flow, visitors down have to click through to a separate page, and feed readers can still get the whole post without having to follow the link.
-* Send, receive, & display [[Webmention]]s. In line with my own current posting practice I would like to allow updates, but marked up correction-style with strikeouts & additions (which sounds hard to do). For [[delete|deletions]] I guess I'd just strikeout the whole comment & add a note that the author deleted it. Or I could just show the newest version with a link to archived older version(s).
-* Not sure about [[likes]]. I certainly like knowing someone liked something I did, but I don't know how compelled I feel to display that info.
-* [[Events]].
-* [[RSVP]]s.
+* Migrate from [[WordPress]] to something mostly static. Considering [http://getnikola.com/ Nikola] or [http://getpelican.com Pelican] but I have a lot of details to figure out (e.g. I want to be able to post when I'm away from my computer). Also entertaining pipe-dreams of learning to program and building something myself (see below). I'd like to have a mostly-static system that's easy for laypeople to use (both for myself & so I can recommend it to people I know), but if I have to do it myself it may be a *long* wait.
+* Noise filter. The distinction between [[notes]] and [[articles]] feels too rigid to me. I prefer to have a spectrum of posts, many without titles, some with markup whether they have a title or not -- but I want readers to be able to filter out the higher-volume small stuff. I'm not sure how to identify this because size and presence of title or markup can suggest importance, but sometimes all you need are a few lines. I could distinguish with a tag (or tags), but that may add more cognitive overhead to posting than I'd like. However I determine the "more important" posts, I might highlight them somehow in the stream (like surround it with a box). Also might put an expansion toggle on longer posts like [[User:Tommorris.org|Tom Morris]] does (I can't find his post about it but you can see examples at http://tommorris.org). so long posts don't mess up the flow, visitors don't have to click through to a separate page, and feed readers can still get the whole post without having to follow the link.
+* Send, receive, & display [[Webmention]]s. In line with my own current posting practice I'd like the edit history of comments to be visible. I'd like to show the newest version of updated comments (tombstone for deleted) with a link to archived older version(s). The tricky thing with deletions is balancing my desire to support authors' control over their content with my desire to avoid enabling erasure/revision of history.
+* Not sure about [[likes]]. I certainly like knowing someone liked something I did, but I don't know how compelled I feel to display that info. 
+* [[Events]]. I have public events I want to post but I also would like to own my own calendar so I plan to check how easy it would be to use / integrate [[Owncloud]]'s calendar feature.
+** [[RSVP]]s.
 * Mobile posting. Need something to replace the [[WordPress]] app (which I only started using in 2014-06 as I started finally getting my site in shape). Online admin? App? Local webform? SMS? I'd like to keep the site itself as static as possible.
-* [[Audio]].
-* [[Video]].
-* [[Reader]] (including legacy formats) -- currently planning to try [https://owncloud.com/ Owncloud]'s [[reader]] (since I want to try Owncloud anyway), but keeping [http://selfoss.aditu.de/ Selfoss] in mind since it already has a [[microformats]] [https://github.com/aaronpk/selfoss plugin].
-* [[Hashtags]]
+* [[audio]]
+* [[video]]
+* [[reader]] (including legacy formats) -- currently planning to try [[Owncloud]]'s [[reader]] (since I want to try Owncloud anyway), but keeping [http://selfoss.aditu.de/ Selfoss] in mind since it already has a [[microformats]] [https://github.com/aaronpk/selfoss plugin]. I used the predecessor to Selfoss for a while and it was OK.
+* [[hashtags]]
 * Autolink bare URLs.
-* Algorithmic link shortener. Mainly wanting short URLs for print, to link to a full comic from an excerpt (though I'm sure I'll enjoy the other uses as well).
-* Whole-site [[https]].
-* [[Products]] -- I want to get back to selling my comics & merch through my own site instead of a third-party site.
-* Somehow integrate my website, my desktop wiki ([http://zim-wiki.org/ Zim]), and my still-forming personal log (just monthly text files w/ some personal formatting & hashtags, not yet hooked up to any processing) since they all overlap in function. Zim actually does function as a simple site generator and it's repeatedly impressed me as a program; I have a pipe dream of learning Python and writing some plugins (if even needed -- whenever I think I've hit a limit it turns out Zim can actually do it!) to make Zim do all the stuff. First step with the Zim pipe dream would be to just learn its template system.
-* [[Wiki]] pages, maybe (definitely for my comics group's website).
+* [[products]] -- I want to get back to selling my comics & merch through my own site instead of a third-party site.
+* [[wiki-page|Wiki pages]], maybe (definitely for my comics group's website).
 * I mostly don't care if my site is "real-time", but am intrigued by Indieweb [[messaging]].
+
+=== Pipe Dreams ===
+
+I want to somehow integrate my website, my desktop wiki ([http://zim-wiki.org/ Zim]), and my still-forming personal log (just monthly text files w/ some personal formatting & hashtags, not yet hooked up to any processing) since they all overlap in function. 
+
+Options:
+
+* Learn Python and write some plugins (if even needed -- whenever I think I've hit a limit it turns out Zim can actually do it!) to make Zim do all the stuff. Zim already can function as a simple site generator and it's repeatedly impressed me as a program. First step would be to just learn its template system.
+* Learn Python (or another language but Python's supposed to be a good starter) and write my own. Preposterous but appealing. I've been making notes on this for a while.
+* 2014-12-08 Oh jeez, apparently what I'm looking for sort of describes [http://orgmode.org/ Org-mode] -- Maude help me.
 
 === Done ===
 
+* 2015-01-02 Add colophon & copyright info to footer.
+* 2015-01-01 Improve <strike>"sidebar"</strike> footer display: Fixed the alignment, gave it a border, & rejiggered content to bio, ways to follow, & ways to contact. "About" menu item now links to here, separate page seems unnecessary. Stopped calling it a sidebar b/c the only place I want it to be in that position is the homepage (& that's not a priority).
+* 2014-12-31: My (small) [[2015-01-01-commitments|2015-01-01 commitment]]: Fix single post display: Move date above title on articles, move date before tags on comics, hide title on notes, pics, & comics, add margin/padding to small-screen view of elements below main post.
+* 2014-12-11: Added rel="me" to current theme so I can log back into IWC wiki if I get logged out ;)
 * 2014-10-01: Made comics nav bigger & prettier.
 * 2014-09-29: Moved comics nav code over from the old theme.
 * 2014-09-16: Finished migrating comic images one...by...one (''finally''), applied custom taxonomy to comics so I don't have to have a category for each one, disabled Webcomic plugin, switched to more responsive theme.
@@ -85,3 +101,4 @@ Lower-priority but easy, a nice way to make progress when I'm not up to harder p
 * Hand-coding in Notepad (2005 through 2007). Main content types were [[notes]] (I didn't title my news updates ... and deleted them when they got old!) and [[comics]].
 * [[Blogger]] (self-hosted version) (2006? through 2007?) -- I don't think I ever used it for my main site but I did for one of my comic series. Mainly [[comics]] with perhaps an occasional [[articles|article]].
 * [[POSSE]]d to [[LiveJournal]] via [http://wordpress.org/plugins/lj-xp/ LiveJournal Crossposter plugin] for some years (I did it manually from when I signed up in 2006 to whenever I installed LJ-XP). LJ-XP seems to have broken sometime prior to 2014-08-28 :(
+* Used [http://wordpress.org/plugins/webcomic/ Webcomic plugin] 2010--2014 (it's nice but I'm prepping for an eventual migration from [[WordPress]])

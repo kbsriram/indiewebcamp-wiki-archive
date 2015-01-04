@@ -1,0 +1,9 @@
+http://indiewebcamp.com/questo.email
+
+{{stub}}
+
+'''<dfn>[http://questo.email/ questo.email]</dfn>''' is an email-to-[[webmention]] service.
+
+== See Also ==
+* [[email]]
+* [[webmention]]

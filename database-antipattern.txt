@@ -182,7 +182,7 @@ A:Yes. If you can't easily scp/rsync files to/from your host or PaaS, then any f
 ==== Database with export ====
 Q: Would using a database with an export to HTML w/ microformats (or other durable format) files mitigate these concerns?
 
-A: It could mitigate those concerns to the extent that you trust your code to be able to ''import'' from those files as well as well export to those files any time you create/save user content in your databases. And at that point (where you have dependable code to import/export from/to flat files), consider directly using the flat files, and only using an intermediate database for caching purposes (if you need that, the section on "databases for caching").
+A: It could mitigate those concerns to the extent that you trust your code to be able to ''import'' from those files as well as export to those files any time you create/save user content in your databases. And at that point (where you have dependable code to import/export from/to flat files), consider directly using the flat files, and only using an intermediate database for caching purposes (if you need that, the section on "databases for caching").
 
 ==== Still not convinced ====
 Q: Still not convinced that databases for storage are an anti-pattern or about the DBA tax.
@@ -203,7 +203,7 @@ Q: I don't understand how this anti pattern is related to the indieweb?
 ==== Does a dynamic site need a databases ====
 "Q: Does this mean I can’t have a dynamic site without a database?"
 
-A: Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above. [[Falcon]] is one real world indieweb example of flat file storage based dynamic post content server.
+A: Not at all! Not using a database as the primary storage for your content doesn’t mean you have to use [[web hosting#Static domain hosting|static hosting]]. Your dynamic web application can read data out of the filesystem just as it would an opaque database, without all the disadvantages mentioned above. [[Falcon]] is one real world indieweb example of flat file storage based dynamic post content server.
 
 == Articles ==
 Related articles:

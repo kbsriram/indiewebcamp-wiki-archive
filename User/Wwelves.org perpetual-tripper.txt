@@ -1,0 +1,9 @@
+http://indiewebcamp.com/User%3AWwelves.org_perpetual-tripper
+
+{{stub}}
+
+<span class="h-card">[https://wwelves.org/perpetual-tripper Elf Pavlik]</span>
+
+== Itches ==
+* add detailed logs of my usage of public transport, I take public transport without buying tickets and would like that everyone can fully analyse my consumption habits in this field
+** most transport agencies publish their data as GTFS, I can easily convert it to RDF using https://github.com/OpenTransport/gtfs-csv2rdf

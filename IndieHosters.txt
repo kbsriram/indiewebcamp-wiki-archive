@@ -1,8 +1,3 @@
-http://indiewebcamp.com/IndieHosters
+http://indiewebcamp.com/Indiehosters
 
-{{stub}}
-
-'''<dfn>[https://indiehosters.net/ IndieHosters]</dfn>''' is a new network of independent hosters who offer [[web_hosting#Hosted CMS Software as a Service|CMS Software as a Service]].
-
-== See Also ==
-* [[web hosting]]
+#REDIRECT [[IndieHosters]]

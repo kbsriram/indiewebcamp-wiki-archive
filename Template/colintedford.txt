@@ -1,0 +1,3 @@
+http://indiewebcamp.com/Template%3Acolintedford
+
+<span class="h-card" style="white-space:nowrap">{{sparkline|http://colintedford.com/wp-content/uploads/2007/11/comics-bio.gif}}[[User:Colintedford.com|Colin Tedford]]</span>

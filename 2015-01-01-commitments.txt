@@ -1,0 +1,108 @@
+http://indiewebcamp.com/2015-01-01-commitments
+
+{{stub}}
+
+At the [[events/2014-12-17-homebrew-website-club|2014-12-17 Homebrew Website Club]] SF meetup, we  declared our 2015-01-01 personal site ship commitments to each other[http://tantek.com/2014/352/t1/homebrew-website-club-personal-site-commitments].
+
+== Commitments ==
+From IRC - at Homebrew Website Club 2014-12-17:
+* [http://indiewebcamp.com/irc/2014-12-17#t1418870412081] {{t}}: implement [[favoriting]] from my site, which then would POSSE the faves to Twitter
+** #ownyourfavorites ([[ownyourdata]])
+** [http://tantek.com/2014/365/t1/indieweb-like-posts-2015-commitment-done 2014-12-31 done!] E.g.:
+*** http://tantek.com/2014/365/f1
+*** http://tantek.com/2014/365/f2
+* [http://indiewebcamp.com/irc/2014-12-17#t1418870504794] {{pius}}: going to put some VR content on my personal site
+** New post type
+* [http://indiewebcamp.com/irc/2014-12-17#t1418870942774][http://indiewebcamp.com/irc/2014-12-17#t1418871107713] {{brettslatkin}}: [[https]] on my site
+** [[https#Level_3_security|https level 3]]
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871311148] {{jonpierce}}: static site generator and https on http://jonpierce.com/
+** [[https#Level_3_security|https level 3]]
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871351563] {{snarfed}}: more [[checkins]] more often with a better UI
+** [[checkin]] [[creation]] UI
+** [https://snarfed.org/indie-checkin-flow 2014-12-28 checkin flow documentation done!] More checkins e.g.:
+*** https://snarfed.org/2014-12-23_12146
+*** https://snarfed.org/2014-12-27_12198
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871573673] {{npdoty}}: working citeproc that generates HTML citations with microformats; at least one [[h-cite]] post on my site.
+** [[h-cite]] support - simpler, more interoperable citations
+** [https://twitter.com/npdoty/status/550898176195301376 2015-01-01 done!]
+** demo: https://npdoty.name/pandoc-hcite/
+** open source: https://github.com/npdoty/citeproc-py
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871711825] [https://aribadernatal.com/ Ari Bader-Natal]: moving my projects to my own site
+** #ownyourprojects
+** [https://aribadernatal.com/2015/01/01/homebrew-website-2015-edition/ 2015-01-01 done!] and then some! In particular:
+** #ownyourprojects: https://aribadernatal.com/projects/
+** unified blog archive: https://aribadernatal.com/blog/
+** PESOS tweet archive: https://aribadernatal.com/tweets
+** new CMS: Markdown, generated with Jekyll, and served by Amazon's CloudFront CDN. 
+** updated markup/design from table-based to mobile-friendly responsive design
+** https everywhere ([[https#Level_4_security|https Level 4 IndieMark]])
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871773848] {{kylewm}}: styling thing I want to figure out how to fix, external data about the post, date posted, location, want to restyle it so that it's easy to see and click, no mixed content warning (https level 4)
+** [[design]]
+* [http://indiewebcamp.com/irc/2014-12-17#t1418871846094] Katie Johnson: would like to add a blog to katiejohnson.me
+
+
+Posts:
+
+2014-12-18
+* {{benthatmustbeme}}: https://ben.thatmustbe.me/note/2014/12/18/1/
+** ability to [[check-in]] at locations
+*** completed 2014-12-24 e.g. https://ben.thatmustbe.me/checkin/2014/12/19/3/
+* {{GWG}}: http://indiewebcamp.com/irc/2014-12-18#t1418962576242
+** code cleanup: "Kinds can do everything I want instead of also having Post Formats"
+** improved [[reply-context]] including author icon and [[reply-context#author_name|author name]]
+
+2014-12-19
+* {{kylewm}}: https://kylewm.com/2014/12/indieweb-challenge-remove-mixed-content-warning-by-2015-01-01
+** [[https]] level 4. get rid of the mixed content warning on pages that embed external images
+* {{t}}: http://tantek.com/2014/352/t2/ownmynotes-2010-2015-ownmyfavorites
+** #ownyourfavorites
+* {{npdoty}}: https://indiewebcamp.com/User:Npdoty.name
+**  a demo paper with a citeproc-generated [[hCite]]
+* {{aaronpk}}: https://aaronparecki.com/notes/2014/12/19/1/indieweb
+** #ownyourlikes
+** [https://aaronparecki.com/replies/2014/12/26/1/indieweb-20150101 2014-12-26 done!] Recent on https://aaronparecki.com/likes e.g.
+*** https://aaronparecki.com/likes/2014/12/26/1/
+*** https://aaronparecki.com/likes/2014/12/26/2/
+* {{colintedford}}: http://colintedford.com/2014/12/19.2117-indieweb-commitment-for-2015-01-01/
+** [[UI]] - Fix single post display
+* {{bear}}: https://bear.im/bearlog/2014/354/2015-01-01-indieweb-commitment
+** [[micropub]] endpoint on personal site: getting a micropub endpoint setup so I can post notes and articles to my site without having to go thru the 7 manual steps I have to do now
+
+2014-12-20
+* {{bret}}: http://bret.io/2014/12/20/goal-to-get-photo-ho/
+** media [[storage]] choice: get photo hosting to S3 via micropub working
+* {{kartik}}: https://kartikprabhu.com/notes/2015-indieweb-commitment
+** help another [[Get Started]]: get @DivyaTaks’s new portfolio site up and running
+* {{neuro}}: https://indiewebcamp.com/irc/2014-12-20#t1419142876763
+** "add favs to Publify, been on our TODO for 2 years"
+* ... add yours!
+
+2014-12-23
+* Carolyn Wood: https://twitter.com/carywood/status/547603346987974656
+** 2015-01-31: "launch [personal indieweb site] in January"
+* Charles Stanhope: https://twitter.com/cstanhope/status/547647066634080256
+** "committing to get to [[indiemark#Level_1|IndieMark Level 1]]"
+* Marcus Povey: https://twitter.com/mapkyca/status/547780356301398018
+** "my #indieweb commitment for 2015 might be to find a way of importing and self hosting my photos (currently on flickr)"
+
+2014-12-24
+* David Peach: http://davidpeach.co.uk/note-2045/
+** "retweeting and favourites / likes working from site, posseing them to Twitter."
+*** Completed 2014-12-26 e.g. http://davidpeach.co.uk/repost-2068/
+** #ownyourfavorites
+** #ownyourreposts
+
+2014-12-30
+* {{xtof}} 
+** #ownyournotes  understanding [[Jekyll]]'s collections > http://xtof.withknown.com/2014/work-in-progress-on-indieweb-commitment-2015-01-01-2014357b12015-indieweb-site-launch-commitment-trying-to
+
+== FAQ ==
+=== Why 2015-01-01 ===
+Q: Why specifically 2015-01-01?[http://indiewebcamp.com/irc/2014-12-18#t1418923764501]
+
+A: {{t}} I picked 2015-01-01 as a proposed ship commitment date since I shipped "[[notes]]" on my own site on 2010-01-01.[http://indiewebcamp.com/irc/2014-12-18#t1418924024251]
+
+== See Also ==
+* [[Getting Started]]
+* [[IndieMark]]
+* [[own your data]]

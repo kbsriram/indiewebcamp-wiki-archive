@@ -27,6 +27,7 @@ And before that, all his blog posts were written and served directly from archiv
 
 === gRegor Morrill ===
 {{gRegor}} has an archive page at http://gregorlove.com/archives/ since 2011-02-14 [http://gregorlove.com/2011/02/1042/]. It is inspired by [[Tumblr]]'s archive page.
+* {{t}}: beautiful design.
 
 === Shane Becker ===
 {{shaners}} uses [[Homesteading]] to serve composite and post type specific archive pages (unlinked) on [http://iamshane.com iamshane.com] (with pagination) [http://indiewebcamp.com/irc/2014-10-07/line/1412713609581 since 2014-10-07], e.g.:

@@ -86,10 +86,12 @@ Example from http://gregorlove.com/notes/2014/06/26/1/
 [[File:gregorlove-reply-context-2014-07-31.png]]
 
 === Kyle Mahan ===
+{{kylewm}} uses [[Red Wind]] to show reply contexts on [https://kylewm.com/ kylewm.com] replies to others' [[notes]] since 2014-10-16 '''(needs permalink and preferably earlier/earliest example)''':
 
-{{kylewm}} uses [[Red Wind]] to show reply contexts on https://kylewm.com
+[[File:kylewm-reply-context-2014-10-16.png|border|500px]] 
 
-[[File:kylewm-reply-context-2014-10-16.png|border|500px]]
+And photo reply contexts on replies to others' [[photos]] since (at least?) [https://kylewm.com/2014/05/i-used-to-live-in-bernal-heights-when-i-lived-in-the-city-looks-like 2014-05-07]:
+* https://kylewm.com/2014/05/i-used-to-live-in-bernal-heights-when-i-lived-in-the-city-looks-like
 
 == Brainstorming ==
 === reply to a photo ===

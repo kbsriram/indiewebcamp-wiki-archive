@@ -14,17 +14,15 @@ All times are Pacific Time unless otherwise noted in venues.
 
 === Where ===
 ;San Francisco
-TBD
-<!-- :<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
-: with writing hour from 18:00-18:30! -->
+:<span class="p-location location h-card vcard">[http://wiki.mozilla.org/SF <span class="p-name fn p-org org">Mozilla</span> San Francisco], 1st floor, [https://maps.google.com/maps?q=2+harrison+st+san+francisco <span class="adr"><span class="p-street-address street-address">2 Harrison St.</span>] (at Embarcadero), 1st Floor, <span class="p-locality locality">San Francisco</span>, <abbr class="p-region region">CA</abbr></span></span>
+: with writing hour from 17:30-18:30!
 
 ;Portland
-TBD
-<!-- :<s><span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span></s> cancelled tonight, sorry! -->
-
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://pdx.esri.com/ Esri R&D Center]</span>, <span class="adr"><span class="p-street-address street-address">309 SW 6th Ave, Ste. 600</span>, <span class="p-locality locality">Portland</span>, <abbr class="p-region region">OR</abbr></span></span>
+<!-- 
 ;Minneapolis
 TBD
-<!-- :<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
+:<span class="p-location location h-card vcard"><span class="p-name fn p-org org">[http://www.mooseandsadies.com/ Moose & Sadie's]</span>, <span class="adr"><span class="p-street-address street-address">212 3rd Ave</span>, <span class="p-locality locality">Minneapolis</span>, <abbr class="p-region region">MN</abbr></span></span>
 :''Note the Minneapolis meeting is at 18:00 CDT'' -->
 
 ;Chicago
@@ -44,20 +42,18 @@ See the [http://tantek.com/2013/332/b1/homebrew-website-club-newsletter Homebrew
 * <span class="u-url url u-uid uid">http://indiewebcamp.com/events/2014-12-17-homebrew-website-club</span>
 
 San Francisco:
-* add indieevent...
-* ... and POSSE copy
+* indie event: https://kylewm.com/2014/12/homebrew-website-club-17-december-2014
+* POSSE copy: https://www.facebook.com/events/736605033092500/
 
 Portland:
-* add indieevent...
-* ... and POSSE copy
-
+* Calagator: http://calagator.org/events/1250467513
+<!-- 
 Minneapolis:
 * add indieevent...
-* ... and POSSE copy
+* ... and POSSE copy -->
 
 Chicago:
-* add indieevent...
-* ... and POSSE copy
+* https://www.facebook.com/events/744818568939803/
 
 == RSVP ==
 '''Optional RSVP - just show up!''' '''You're encouraged to RSVP by''' any or all of:
@@ -67,28 +63,36 @@ Chicago:
 Or just show up and say hi! We're a friendly bunch. You may also RSVP after attending.
 
 '''San Francisco:'''
+* {{t}}
+* {{jonpierce}}
 * ... add yourself!
 
 '''Portland:'''
+* {{bret}}
+* {{aaronpk}}
 * ... add yourself!
-
+<!-- 
 '''Minneapolis:'''
-* ... add yourself!
+* ... add yourself! -->
 
 '''Chicago:'''
+* {{gRegor}}
+* {{kartik}}
 * ... add yourself!
 
 == Notes ==
 * [https://indiewebcamp.com/irc/2014-12-17 IRC discussion archives 2014-12-17] <!-- Note, just update the date when copying this to a new event, please keep this link! -->
 
 '''San Francisco'''
-* ...
+* What personal site feature are you going to [[2015-01-01-commitments|ship and start using on/by 2015-01-01]]?
+* ... see [https://indiewebcamp.com/irc/2014-12-17 the logs] for who promised what
+* some more recorded [https://indiewebcamp.com/irc/2014-12-18 the next day]
 
 '''Portland'''
 * ...
-
+<!-- 
 '''Minneapolis:'''
-* ... 
+* ... -->
 
 '''Chicago'''
 * ...
@@ -98,7 +102,11 @@ Blog posts before the meeting:
 * ...
 
 == Photos ==
-* ...
+=== San Francisco ===
+[http://instagram.com/p/wvBmFjA9Xh http://photos-f.ak.instagram.com/hphotos-ak-xaf1/t51.2885-15/10831683_604273796367261_1106043155_n.jpg]
+
+=== Portland ===
+[[File:2014-12-17-hwc.jpg|600px]]
 
 {{Homebrew Website Club}}
 

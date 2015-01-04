@@ -68,6 +68,10 @@ A well written Code of Conduct can *add* to a warm and friendly culture of inclu
 
 Any existing event that already works hard to provide a warm and friendly culture of inclusivity could make the event feel even warmer and more inclusive (and safer to those who have been harassed in the past) by publishing a Code of Conduct, warmly worded in the same manner as the rest of the event. 
 
+== Resources ==
+* [https://www.youtube.com/watch?v=PSv7GIX-XQ0 Building Compassionate Communities in Tech ] - by Isaac Schlueter 
+* ...
+
 == See Also ==
 * [[code-of-conduct]]
 * [[code-of-conduct-examples]]

@@ -60,6 +60,7 @@ Nearly all template formats use <nowiki>{{}}</nowiki> (e.g. [http://maxistential
 ** [https://github.com/fgnass/express-jsdom JSDOM]: For creating DOMs in node or client apps
 ** [https://github.com/tmpvar/weld Weld.js]: 'Welding' data to a DOM template
 ** [https://github.com/flatiron/plates Plates]: The followup to Weld.js that allows pure html templating in server and client node apps, without having to build a DOM tree.
+** [[jade]] is a template engine often used in NodeJS but is not restricted to it as it can generate HTML and when combined with [[stylus]] it can be used to generate fully styled pages or parts of a page
 * [http://www.cs.usfca.edu/~parrt/papers/mvc.templates.pdf Enforcing Strict Model-View Separation in Template Engines]
 ** Argued benefits of DOM style templates:
 *** encapsulation: the look of a site is fully contained within templates and, likewise, the business logic is located entirely in the data model. Each speciﬁcation is a complete entity.

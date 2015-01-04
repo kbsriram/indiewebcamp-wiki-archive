@@ -67,6 +67,13 @@ iMessage is Apple's proprietary messaging network where iOS devices (iPhone, iPa
 
 On iOS, "Messages" *is* the SMS application, and if both sender and recipient are registered with apple (e.g. their iPhone phone numbers, or AppleID email address), then the devices attempt to route the messages directly via Apple's servers, rather than the phone/SMS network.
 
+=== Github Issues ===
+Some people opt for a github issue queue instead of email.  Unlike the git repo and the wiki feature on github, the only way to get data out of issues is programmatically through the API and from the copy delivered to participants in the issue thread.
+
+* [https://github.com/aaronpk/self aaronpk/self]
+* [https://github.com/maxogden/messages maxogden/messages]
+* ...
+
 == See Also ==
 * [[communication]]
 * [[indieweb-messaging]]

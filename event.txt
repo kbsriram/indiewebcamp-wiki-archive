@@ -57,6 +57,11 @@ The event data is stored in the YAML which separates the final layout and the ev
 * https://snarfed.org/2014-01-15_homebrew-website-club-tonight
 ** POSSE tweet: https://twitter.com/schnarfed/status/423586870144942080
 
+=== Kyle Mahan ===
+{{kylewm}} added event posting with RSVPs to [[Red Wind]] on 2014-12-14. Example:
+* https://kylewm.com/2014/12/homebrew-website-club-17-december-2014
+* POSSE facebook copy: https://www.facebook.com/events/736605033092500/
+
 == Silo Examples ==
 Facebook pre-2014:
 [[File:Screen_Shot_2014-02-27_at_4.05.00_PM.png|200px|thumb|Facebook pre-2014]]

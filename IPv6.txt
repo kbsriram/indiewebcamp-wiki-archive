@@ -15,3 +15,21 @@ The software side of things should be relatively easy. For example, in nginx its
 Getting the server itself connectable over IPv6 can be a little more tricky.
 
 If you do not have native ipv6 support from your ISP you can configure a tunnel from [tunnelbroker.net] They have a nice form you fill out and they have a configuration dropdown for your operating system. If you run into any difficulty I'll be more than happy to assist ( tjgillies@nospam-gmail.com) -- home.tylergillies.club
+
+
+== IndieWeb Examples ==
+Examples of IndieWeb community members whose personal sites support IPv6:
+
+*  [[User:David.shanske.com|David Shanske]] on https://david.shanske.com/ since 2014-12-25.
+* ...add yourself here!
+
+== IndieWeb Projects ==
+IndieWeb projects that support IPv6:
+
+* [[#Hosting|All App Engine projects]] (automatically), including e.g. [[Bridgy]]
+
+
+== Hosting ==
+These [[web hosting]] providers support IPv6:
+
+* Google [[AppEngine|App Engine]]. [http://googleappengine.blogspot.com/2010/03/app-engine-joins-google-over-ipv6.html Details]; also on [http://googleappengine.blogspot.com/2010/07/app-engine-and-ipv6-round-2.html custom domains].

@@ -1,0 +1,29 @@
+http://indiewebcamp.com/2015/Cambridge
+
+{{stub}}
+
+<div class="h-event">
+This is the planning page for '''<dfn class="p-name">IndieWebCamp Cambridge 2015</dfn>''', one of several [[2015/|2015]] IndieWebCamps.
+
+Likely dates:
+* <time class="dt-start">2015-03-19</time>..<time class="dt-end" datetime="2015-03-20">20</time> just after the [https://www.w3.org/wiki/Socialwg/2015-03-17 W3C Social Web Working Group f2f (3/17-18)].
+
+== Summary ==
+;URL
+:<span class="u-url u-uid">https://indiewebcamp.com/2015/Cambridge</span>
+
+== Interested ==
+If you're interested, especially if you can make the dates above, please add yourself!
+
+Once we've confirmed the dates and venue, we we'll move this section to an official [[2015/Cambridge/Guest_List]].
+
+* {{t}} - 19-20 ok; attending socialwg 17-18.
+* {{rascul}} - Dates look good for me.
+* {{benthatmustbeme}} - before or after socialwg works for me
+* ...
+
+== See Also ==
+* [[2015/|2015]]
+* [[IndieWebCamps]]
+
+</div> <!-- h-event -->

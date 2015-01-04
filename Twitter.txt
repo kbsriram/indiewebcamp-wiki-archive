@@ -8,7 +8,7 @@ Twitter provides the following features currently:
 
 * [[signup]] &amp; [[login]] with a email address, user chosen username, password, and optional [[2FA]] (two-factor authentication) via SMS or Twitter Mobile Native App.
 ** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]], TBI multi-factor [[IndieAuth]]
-* [[follow]], [[mute]][https://support.twitter.com/articles/20171399], and unfollow[https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
+* [[follow]], [[mute]][https://support.twitter.com/articles/20171399], and [[unfollow]][https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
 * [[reader]] UI with an integrated UI to:
 * [[post]] a [[note]] or [[reply]] (optionally attaching 1-4 [[photos]] optionally [[people-tagged]]) at a [[permalink]] with:
 ** [[autolink]]ing of URLs, @-names, #-[[hashtags]] in note/reply
@@ -42,7 +42,7 @@ Twitter provides the following features currently:
 ** [[people-tag]] you in their posts
 ** [[follow]] you
 *** and ability to [[block]][https://support.twitter.com/articles/117063-blocking-users-on-twitter] them
-*** and optionally report them as [[spam]][https://support.twitter.com/articles/64986-how-to-report-spam-on-twitter]
+*** and optionally [[report_abuse#Twitter|report abuse]] (e.g. as [[spam]][https://support.twitter.com/articles/64986-how-to-report-spam-on-twitter])
 * [[profile]] page (equivalent of indieweb [[homepage]]) configuration including
 ** header image
 ** [[icon]]
@@ -54,12 +54,13 @@ Twitter provides the following features currently:
 ** privacy toggle (all posts are public, or private, requiring approval for every follow request)
 ** lots of other [[settings]]
 
+__TOC__
 === 2006 original ===
 At launch, Twitter provided the roughly following features:
 
 * [[signup]] &amp; [[login]] with a email address, user chosen username, password
 ** indieweb equivalent: [[signin]] via [[RelMeAuth]] or [[IndieAuth]], TBI multi-factor [[IndieAuth]]
-* [[follow]] and unfollow[https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
+* [[follow]] and [[unfollow]][https://support.twitter.com/articles/15355-how-to-unfollow-users-on-twitter]
 * [[reader]] UI with an integrated UI to:
 * [[post]] a [[note]] at a [[permalink]] with:
 ** author button: Delete post
@@ -120,7 +121,6 @@ Etc. your tweets to do so, per that CC license (e.g. CC-BY, attributing you) ind
 ==== Reverse Syndicating At-Replies ====
 Per the [[POSSE]] model, you may want to reverse-syndicate @-replies on Twitter to the tweet-copies of your post as "comments" back into your post permalink page on your own site. By using TweetCC, you can check to see if those @-replying to you have CC-licensed their tweets and then incorporate them using the CC license, displaying them however they fit in with your site design, instead of having to shoehorn Twitter's display "guidelines" into your site / post-permalink page design.
 
-__TOC__
 == Data Export ==
 === Download all your tweets ===
 # Go to: https://twitter.com/settings/account 
@@ -386,7 +386,7 @@ cropping the screenshot and requiring a clickthrough back to twitter to make it 
 
 
 === Developer Relations ===
-Twitter built their entire business on top of the developer community. Almost all Twitter features were originally from Twitter clients, such as Retweets and Hashtags. Closing sections of their API and RSS feeds has made the developer community loose trust in Twitter.
+Twitter built their entire business on top of the developer community. Almost all Twitter features were originally from Twitter clients, such as Retweets and Hashtags. Closing sections of their API and RSS feeds has made the developer community lose trust in Twitter.
 * 2014-10-20 [http://www.marco.org/2014/10/20/wsj-twitter-peace-offering "Twitter’s “peace offering” to developers is meaningless"] - Marco Arment
 
 <div><p>Twitter to Offer New Tools for App Developers <br/><img src="https://pbs.twimg.com/media/B0cWScpCYAAgN2m.jpg" width="200" /></p>&mdash; Joël Franusic (@jf) <a href="https://twitter.com/jf/status/524412388745818113">October 21, 2014</a></div>

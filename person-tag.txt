@@ -8,10 +8,23 @@ A '''<dfn>person tag</dfn>''' (AKA <dfn>people tag</dfn>) is a special kind of [
 By supporting people tags in [[posts]], you can more explicitly/automatically notify people via [[webmention]] to their [[homepage]] at their URL that you have explicitly tagged a post as being about them, e.g. a [[photo]] post where they're in the photo.
 
 == How ==
-No specific proposals yet by any IndieWeb implementations.
+You can tag a post with a <em>person-tag</em> (as opposed to just a plain text tag) by using an h-card for the p-category element inside an h-entry:
+
+<pre><nowiki>
+<a class="p-category h-card" 
+   href="http://ben.thatmustbe.me/">Ben Roberts</a>
+</nowiki></pre>
+
+That will tag the current h-entry as being about the person Ben Roberts of http://ben.thatmustbe.me/.
+
+If the current h-entry has a "u-tag-of" link to another post, then it is a [[tag-reply]] that tags that <em>other</em> post as being about the person Ben Roberts of http://ben.thatmustbe.me/.
+
+A post can of course contain multiple such person-tags, thus tagging the post as being about all of them, or the post that is u-tag-of linked to, as about all of them.
 
 == IndieWeb Examples ==
-None so far.
+=== Kevin Marks ===
+{{kevinmarks}} has person-tags on his notes from [[events/2014-11-19-homebrew-website-club|Homebrew Website Club 2014-11-19]] (posted on that date). First known real-world use of publishing proposed person-tags.
+* http://www.kevinmarks.com/hwc2014-11-19.html
 
 == IndieWeb Interest ==
 === Kyle Mahan ===
@@ -73,3 +86,4 @@ People tagging was one of the steps of the [[SWAT0]] social web acid test develo
 == See Also ==
 * [[tag]]
 * [[hashtag]]
+* [[tag-reply]]

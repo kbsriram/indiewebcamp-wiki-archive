@@ -8,15 +8,29 @@ The following open source projects can be installed on a website and will get yo
 
 === Known ===
 {{main|Known}}
-'''[[Known]]''' (formerly ''<span id="idno">idno</span>'') aims to be an open publishing / community platform that's easy to install, use and customize, and which adheres to IndieWeb technologies and principles. It's currently in beta release with self-hosted and free, hosted versions available from [http://withknown.com/ withknown.com]. Known is being developed in public [https://github.com/idno/idno on GitHub]. [[User:benwerd.com|Ben Werdmuller]] is hoping to work with third-party hosting providers to make it easy for users to get an Known site that is both turnkey and fully under their control.
+'''[[Known]]''' (formerly ''<span id="idno">idno</span>'') aims to be an open publishing / community platform that's easy to install, use and customize, and which adheres to IndieWeb technologies and principles. It's currently in beta release with self-hosted and free, hosted versions available from [http://withknown.com/ withknown.com]. Known is being developed in public [https://github.com/idno/idno on GitHub]. [[User:benwerd.com|Ben Werdmuller]] is hoping to work with third-party hosting providers to make it easy for users to get an Known site that is both turnkey and fully under their control. 
 
-IndieWebCamp participants that are using it on their own site:
-* [[User:Werd.io|Ben Werdmuller]] (author) on http://werd.io/ ([[selfdogfooding]])
-* [[User:Erinjorichey.com|Erin Jo Richey]]
-* ...
-Additional independents currently using it on their primary site:
-* Jesse Vincent on http://s.ly
-* ...
+Examples:
+* {{benwerd}} (co-founder) on [http://werd.io/ werd.io] ([[selfdogfooding]])
+* [[User:Erinjorichey.com|Erin Jo Richey]] (co-founder) on [http://erinjo.is/ erinjo.is] ([[selfdogfooding]])
+See [[Known#IndieWeb_Examples]] for more!
+
+=== WordPress ===
+{{main|WordPress}}
+'''[[WordPress]]''' is web software you can use to create a beautiful website or blog. Many IndieWebCamp participants use WordPress on their <em>primary</em> self-identifying site with a set of plugins developed by members of this community to provide IndieWeb functionality in WordPress.
+
+Examples:
+* {{snarfed}} on [http://snarfed.org snarfed.org]
+* [[User:petermolnar.eu|Peter Molnar]] on [https://petermolnar.eu petermolnar.eu]
+See [[WordPress#IndieWeb_Examples]] for more!
+
+=== Red Wind ===
+{{main|Red Wind}}
+'''[[Red Wind]]''' is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source and fairly new with minimal documentation.
+
+Examples:
+* {{kylewm}} (author) on [http://kylewm.com kylewm.com] ([[selfdogfooding]])
+* {{thedod}} (contributor, second self-hosted user) on [https://dubiousdod.org/indie/ dubiousdod.org/indie]
 
 == Get Inspired ==
 The following projects are actively being used by their creators ([[selfdogfood]]) and have excellent examples of IndieWeb sites both in [[design]], and [[IndieMark|IndieWeb feature support]]. These projects are not yet easily "installable" by someone other than the creator(s).
@@ -32,7 +46,6 @@ IndieWebCamp participants that are using it on their primary site:
 * [[User:Caseorganic.com|Amber Case]] on http://caseorganic.com/
 * ...
 
-
 ----
 below this line is...
 
@@ -45,11 +58,6 @@ __TOC__
 Production = the software fully launched and good enough for other independents to <em>relatively</em> easily install, use, maintain, depend on.
 
 Server / Blogging / content hosting projects:
-
-=== WordPress ===
-{{main|WordPress}}
-
-[http://wordpress.org WordPress] is web software you can use to create a beautiful website or blog. Many IndieWebCamp participants use WordPress on their <em>primary</em> self-identifying site.
 
 === Jekyll ===
 {{main|Jekyll}}
@@ -149,9 +157,17 @@ Experimental blogging / content hosting projects sorted by number of IndieWeb co
 
 === Bundle ===
 {{main|Bundle}}
-Bundle is a set publishing tools for the IndieWeb built using Python and Django.
+Bundle is a set of publishing tools for the IndieWeb built using Python and Django.
 
-IndieWeb community members who are using it on their primary site:
+Depends on:
+* [[Python]]
+* [[Django]]
+
+Status:
+
+* Experimental. Some parts are open source installable by others e.g. [https://github.com/kartikprabhu/connection Connection].
+
+Useage by IndieWeb community members:
 * [[User:Kartikprabhu.com|Kartik Prabhu]] (author) on [https://kartikprabhu.com/ Parallel Transport] ([[selfdogfooding]])
 * ...
 
@@ -230,12 +246,6 @@ IndieWebCamp participants who are using it on their own site:
 * Evan Prodromou on e14n.com/evan ([[selfdogfooding]])
 * ...
 
-=== Red Wind ===
-[[Red Wind]] is IndieWebified blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but undocumented and probably not of much use to anyone but the author, at least for now.
-
-IndieWebCamp participants that are using it on their own site:
-* [[User:kylewm.com|Kyle Mahan]] (author) on [http://kylewm.com kylewm.com]
-
 === sadlittlewebjournal ===
 [http://jere.my/?page=writings&sub_page=archive&display=5 sadlittlewebjournal] is a Weblog written in Perl that uses PostgreSQL or MySQL and a straightforward ASCII interface. Site maintenance is done via an intuitive backend that allows one to add, delete, and modify previous entries. Other features include an integrated guestbook, a Web stat chart complete with ASCII bar graphs, and various other modularized features.
 
@@ -288,6 +298,9 @@ IndieWeb enthusiasts currently using it on their own site:
 [https://github.com/josephg/words Words] is an open source blogging tool (fork of nornagon/words)[http://indiewebcamp.com/irc/2013-09-10/line/1378861894].
 
 IndieWeb enthusiasts currently using it on their own site:
+* None currently
+
+Formerly:
 * [[User:Josephg.com|Joseph Gentle]] on [http://josephg.com/ josephg.com]
 
 === Federated Community ===
@@ -316,7 +329,6 @@ IndieWeb enthusiasts currently using it on their own site:
 * ...
 
 === Neonblog ===
-
 [[Neonblog]] is an IndieWeb microblog developed by Emma Kuo. It features a minimalist UI
 and uses microformats as its native data store.
 
@@ -623,7 +635,7 @@ Some design thinking for this page.
 *** Then ordered by apparent (actual in use) IndieMark level
 * Each project listing should:
 ** list a few (1-3 max) IndieWeb examples actively using the project
-*** Full list of active users on the actual project page
+*** link to Full list of active users on the actual project page
 ** preferably exemplary - i.e. of high [[IndieMark]]
 ** "tour-worthy" - sites you'd want to show someone new to the IndieWeb as clear examples of appealing / useful / empowering IndieWeb sites.
 ** at least 1 selfdogfood example of (most) primary project developer

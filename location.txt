@@ -48,6 +48,11 @@ In more detail (pseudocode):
 ** longitude
 ** altitude
 
+== Motion ==
+Location information may also contain indication about motion, e.g. a person at a location, but in motion, by some method. Such information in practice includes things like:
+* velocity (perhaps with a specific motion vector in 2 or 3 dimensions)
+* mode of motion / transport (e.g. walking, running, bicycling, driving, stationary)
+
 == See Also ==
 * [[geo]]
 * [[checkin]] / [[venue]]

@@ -242,7 +242,7 @@ Create your account, then add:
 
 |- class="p-attendee attendee h-card vcard"
 | http://www.metamage.com/icon/sig-icon.gif
-| <span class="p-name fn">[[User:JJuran/|Josh Juran]]</span>
+| <span class="p-name fn">[[User:Www.metamage.com|Josh Juran]]</span>
 | <span class="u-url url">http://www.metamage.com/</span>
 | Perl/Markdown -> HTML preprocessor
 

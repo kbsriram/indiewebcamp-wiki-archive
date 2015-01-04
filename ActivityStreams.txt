@@ -8,15 +8,15 @@ http://indiewebcamp.com/ActivityStreams
 * [https://github.com/activitystreams/activity-schema/blob/master/activity-schema.md#verbs verbs]
 
 == IndieWeb Support ==
-There is very little actual indieweb ActivityStreams support, so it's not really a critical standard / building-block in and of itself. Current indie web implementations:
+Current indie web implementations:
 
 JSON ActivityStreams ([http://activitystrea.ms/specs/json/1.0/ latest spec])
+* [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial] is a library and REST API that converts between [[Facebook]], [[Twitter]], [[Google+]], and [[Instagram]] and ActivityStreams (and also [[microformats2]] HTML, JSON, and Atom). It uses the [[silo]]s' APIs to fetch and also publish posts, comments, likes, retweets, etc.
 * [[User:Sandeep.io|Sandeep Shetty]]: The [[RSSB]] stuff on [http://sandeep.io sandeep.io] is [http://indiewebcamp.com/irc/2013-06-11#t1370984352 lot like AS] and trivially [http://www.sandeep.io/50 maps to it] and was done as an exercise to understand AS:
 ** Post: http://www.sandeep.io/31.as
 ** Comment: http://www.sandeep.io/42.as
 ** Like: http://www.sandeep.io/40.as
 ** Repost: http://www.sandeep.io/36.as
-* [[User:snarfed.org|Ryan]]'s [https://github.com/snarfed/activitystreams-unofficial activitystreams-unofficial] library and REST API converts Facebook and Twitter posts, comments, and other structured data to ActivityStreams format. It supports basic querying operations following the (old) [http://opensocial-resources.googlecode.com/svn/spec/2.0.1/Social-API-Server.xml#ActivityStreams-Service OpenSocial REST API spec].
 
 Atom + ActivityStreams namespaced markup:
 * [[User:Tantek.com|Tantek Çelik]] on tantek.com - discoverable Atom + AS object-type for notes, articles. Replies so far are just "notes" in the AS representation. Mostly I've done this as an attempt to at least *try* to use ActivityStreams before working on an alternative, and learn by trying in the hopes of creating a better alternative. - [[User:Tantek.com|Tantek]]

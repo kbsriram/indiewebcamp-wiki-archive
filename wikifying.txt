@@ -62,6 +62,14 @@ There's lots of new page creation you can help with. Create new wiki pages for:
 * definitions of any new terms or jargon that people use in [[irc/today|IRC]]
 * new projects you start using on your personal website; be sure to include your site in the IndieWeb Examples section on the page.
 
+=== Document your decisions ===
+Once you've documented yourself on your User page, and started incrementally documenting your "Itches" and "Working On", as you get work done and deploy to your personal site, document your "major decisions", on your user page or perhaps in a "Implementation Design" section on your project page.
+
+Examples:
+* [[Falcon#Implementation_Design]] - major design decisions made in [[Falcon]] so far.
+
+Documenting your major design and implementation decisions will help you better consider when to revisit them, and when to work on new personal site features and functionality instead.
+
 == Related Articles ==
 The above is very much specific to what is good wikifying ''for IndieWebCamp in particular''.
 

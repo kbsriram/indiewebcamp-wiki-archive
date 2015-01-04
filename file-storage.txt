@@ -23,7 +23,7 @@ IndieWeb community members that use file storage on their personal site.
 
 === Tantek ===
 {{t}} on tantek.com uses flat files for primary storage of content:
-* 2010-01-01... present: [[Falcon]] which stores data in HTML+microformats flat files, 6 per year (1 per [[bim]]), [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01].  See [[Falcon#Storage_format|Falcon storage format]] for details.
+* [http://tantek.com/2010/001/t1/declaring-independence-building-it 2010-01-01]... present: [[Falcon]] which stores data in HTML+microformats flat files, 6 per year (1 per [[bim]]).  See [[Falcon#Storage_format|Falcon storage format]] for details.
 * [http://tantek.com/log/2002/08.html 2002-08]...[http://tantek.com/log/2008/08.html 2008-08] static site directly served from primary storage of flat files, up to 12 per year (1 per Gregorian month).
 
 === Aaron Parecki ===
@@ -79,7 +79,7 @@ David Baron on http://dbaron.org/ uses flat HTML files, one per blog post, one f
 
 == Flat file "CMS" systems in the wild ==
 
-* [http://getgrav.com Grav] is a PHP, YAML, Twig and Markdown Extra based storage project which looks promising.
+* [http://www.getgrav.org/ Grav] is a PHP, YAML, Twig and Markdown Extra based storage project which looks promising.
 * [http://getkirby.com/ Kirby] is another.
 
 == Criticism ==

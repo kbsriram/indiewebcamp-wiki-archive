@@ -58,6 +58,8 @@ In no particular order, I am interested in:
 * Add a hook to the Wayback Machine's "Save Page Now" after posting an article.
 ** Per tantek's suggestion, probably after a 24hr delay, to allow time for corrections. http://indiewebcamp.com/irc/2014-11-21#t1416613576792
 * Set up a [[sitemap]] at gregorlove.com/42
+* Update site layout to be responsive.
+* Cache article/note permalinks and /archives page
 
 === Completed ===
 * <strike>Help [[User:Amandamaclean.com|Amanda MacLean]] get set up posting on her own domain at [[2014|IndieWebCamp West 2014]]</strike>

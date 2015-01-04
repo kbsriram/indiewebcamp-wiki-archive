@@ -90,6 +90,7 @@ Part of the point of this page is to have individuals ''themselves'' edit this p
 * {{irc user|joskar.se|joskar|Europe/Stockholm|https://joskar.se/joskar.jpg}}
 * {{irc user|Jschweinsberg.de|jschweinsberg|Europe/Berlin}}
 * {{irc user|julian.so|julian`|Europe/London}}
+* {{irc user|jxn.is|jxn-is|America/Chicago}}
 * {{irc user|kartikprabhu.com|KartikPrabhu|America/Centra|https://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s50-c/Recursion-small.jpg}}
 * {{irc user|kbsriram.com|kbs|America/San_Francisco}}
 * {{irc user|kevinmarks.com|KevinMarks|US/Pacific|http://www.kevinmarks.com/km.jpg}}
@@ -98,6 +99,7 @@ Part of the point of this page is to have individuals ''themselves'' edit this p
 * {{irc user|kylewm.com|kylewm|US/Pacific|https://kylewm.com/static/img/users/kyle60.jpg}}
 * {{irc user|lbj.org.uk|lauraj|Europe/London}}
 * {{irc user|lmorchard.com|lmorchard|US/Eastern|http://lmorchard.com/avatar.jpg}}
+* {{irc user|loic.mathaud.fr|loic_m|Europe/Paris}}
 * {{irc user|loqi.me|Loqi|US/Pacific|http://loqi.me/logo/loqisaur.png}}
 * {{irc user|gonze.com|lucasgonze|US/Pacific|http://gonze.com/avatar.jpg}}
 * {{irc user|theporouscity.com|lukasb|US/Pacific}}
@@ -124,9 +126,12 @@ Part of the point of this page is to have individuals ''themselves'' edit this p
 * {{irc user|pauloppenheim.com|pauloppenheim|America/Los_Angeles}}
 * {{irc user|peat.org|peat|America/Los_Angeles}}
 * {{irc user|petermolnar.eu|petermolnar|Europe/Cambridge}}
+* {{irc user|peterwilson.cc|pwcc|Australia/Melbourne|https://secure.gravatar.com/avatar/1dd9fded718f9b344d48f37f9bfcb159}}
 * {{irc user|Notizblog.org|pfefferle|Europe/Berlin|https://twitter.com/pfefferle/profile_image}}
 * {{irc user|fberriman.com|Phae|US/Pacific|https://farm4.staticflickr.com/3907/14681916407_8f36767ac4_s.jpg}}
+* {{irc user|phyks.me|Phyks|Europe/Paris}}
 * {{irc user|pius.me|pius|America/Los_Angeles}}
+* {{irc user|prtksxna.com|prtksxna|Asia/Calcutta|http://gravatar.com/avatar/17f37be7dfd491b7b442a79f69e08f16}}
 * {{irc user|rascul.io|rascul|America/New_York|https://rascul.io/img/avatar80.jpg}}
 * {{irc user|rhiaro.co.uk|rhiaro|Europe/London|http://rhiaro.co.uk/stash/dp.png}}
 * {{irc user|rkn.la|rknLA|America/Los_Angeles}}
@@ -155,7 +160,7 @@ Part of the point of this page is to have individuals ''themselves'' edit this p
 * {{irc user|tiagopinto.pt|tpinto|Europe/London}}
 * {{irc user|trodrigues.net|trodrigues|Europe/Berlin}}
 * {{irc user|michaelverdi.com|verdi|US/Central|https://pbs.twimg.com/profile_images/499017446842310656/pryl_eia_400x400.jpeg}}
-* {{irc user|kodfabrik.se|voxpelli|Europe/Stockholm}}
+* {{irc user|kodfabrik.se|voxpelli|Europe/Stockholm|http://voxpelli.com/avatar.jpg}}
 * {{irc user|vrypan.net|vrypan|Europe/Athens}}
 * {{irc user|obloid.org|wagle|America/Toronto}}
 * {{irc user|willnorris.com|willnorris|America/Los_Angeles|https://willnorris.com/logo.jpg}}

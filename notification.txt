@@ -1,7 +1,7 @@
 http://indiewebcamp.com/notification
 
 {{stub}}
-
+<span style="float:right;height:128px;font-size:128px;margin:16px 0 -64px">⚠</span>
 '''<dfn>notifications</dfn>''' in the context of the IndieWeb refer to all forms and ways that an independent web site can receive a message indicating something of interest (server notifications), and potentially relay that information (preferably in realtime) to one or more devices used by the owner of that site (client notifications).
 
 == Use Cases ==
@@ -51,10 +51,34 @@ AKA alarm fatigue:
 [[mobile]] notifications can cause anxiety and fear:
 * 2011-08-26 <cite>[http://thedailyadventuresofhannah.blogspot.co.uk/2011/08/blackberry-red-light-of-doom.html Blackberry Red Light of Doom]</cite> <blockquote>Basically, whenever I see the red light flash on my Blackberry, I do '''panic''' a little bit inside and I dont know why! I get this '''strange gut feeling'''. It's not like my phone has turned evil and is trying to take over the world, it is simply telling me that I have a [[text]], [[email]], BBM, [[facebook]] notification....(could be anything really, Blackberries really can do everything)</blockquote> '''Emphasis''' and Wikilinks added.
 
+=== Distraction ===
+When attempting to focus one's attention on specific projects or goals, being deluged with unrelated notifications can be very distracting. Every notification system needs facilities to get specific notifications to be quiet, temporarily or permanently. The lack of said modes may reflect a software vendor's desire for you to engage more with their service rather than respecting your time and resources.
+
 == Projects ==
 === Mention app ===
 {{main|mention-app}}
 * Aaronpk is working on an iOS app (for now called just [[mention-app]]) to send him push notifications from an [[h-feed]]. Thus, if a server publishes received [[webmentions]] into an h-feed page, the app will get those (hopefully via [[PuSH]], last resort via polling), and propagate them to the user's iOS device.
 
+== Platform Examples ==
+Examples of notification user interface presentation from [[platforms]] (e.g. operating systems)
+
+=== iOS 7 ===
+This iOS 7 "recent items" notifications example shows 2-3 different kinds of notifications from two apps, a [[favorite]], several [[likes]], and a [[reply]].
+<span style="float:right">[[File:2014-361-ios-recent-notifications.jpg|320px]]</span>
+
+=== <img src="https://twitter.com/twitter/profile_image" style="max-height:1.5em"/> [[Twitter]] ===
+<blockquote style="width:20em">'''Twitter''' 58m ago<br/>@fraying favorited:<br/>text first design is a form of <br/>universal design: listenable, more <br/>accessible. also a path to progre...</blockquote>
+=== <img src="https://twitter.com/instagram/profile_image" style="max-height:1.5em"/> [[Instagram]] ===
+<blockquote style="width:20em">'''Instagram''' 8m ago <br/>cristyle__ liked your photo.<br/><br/><hr/><br/>...<br/><br/><hr/><br/>lucianteo said: "You're burping <br/>hashtags."<br/><br/><hr/></blockquote>
+
+=== Analysis of design differences ===
+Note the differences:
+* "@username" vs. "username"
+* "[[favorited]]:" vs. "[[liked]]" (no colon) vs. "said:"
+* (linebreak) (unquoted 99 chars of tweet ...) vs. "your photo." vs. (inline quoted reply)
+
+Some presentations of some notifications like these "recent items" begin to look like "[[cards]]".
+
 == See Also ==
 * [[webmentions]]
+* [[growl]]

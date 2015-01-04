@@ -119,7 +119,7 @@ called by the [[PuSH]] hub to verify this server's subscription to the PuSH feed
 A cron job should run periodically to fetch subscription URLs in case they are not [[PuSH]]-enabled.
 
 == h-feed parsing ==
-The parser will look for a list of [[h-entry]]s in the mentions page.
+The parser will look for a list of [[h-entry]]s in the [[mentions feed]].
 
 What to look for in a mentions h-feed:
 
@@ -146,3 +146,9 @@ Opening the push notification will launch a browser to a URL determined by:
 == Interim Solution ==
 
 In the interim, the service [http://pushover.net Pushover] can be used to receive Push notifications on iOS, Android, Chrome, or Firefox and can be integrated into most sites with a minimum of coding.
+
+Pushover is a one-time payment service and more established.
+
+The newer incumbent as an alternative is [https://www.pushbullet.com Pushbullet], initially Android only, but now supported on iOS as well. 
+
+Both have a simple API that are easy to integrate.

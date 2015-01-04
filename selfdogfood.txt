@@ -43,7 +43,7 @@ It has come up in discussion several times that a more appealing term should be 
 Please add IRC links and summarize discussion...
 
 * http://indiewebcamp.com/irc/2014-06-09#t1402337824
-*** {{gRegor}} likes the simple phrase "use your own product" or <abbr>UYOP</abbr> if an acronym is preferred. It's simple and to the point.
+** {{gRegor}} likes the simple phrase "use your own product" or <abbr>UYOP</abbr> if an acronym is preferred. It's simple and to the point.
 * Drinking your own champagne, or self-champagneing
 ** or just champagneing; doesn't need distinguish it from a preexisting term
 * Self-kool-aiding — also has the connotation of buying into your own spiel

@@ -12,23 +12,48 @@ I am currently developing [https://ben.thatmustbe.me my personal site].
 
 
 = Projects =
+== [https://github.com/dissolve/micropublish MicroPublish] ==
+MicroPublish is a small micropub client app for android and other systems.
+Currently MicroPublish is a demo/proof of concept, but works to log in and get an auth token and post a note.
+
+===Features/Roadmap===
+* Built on Apache Cordova to keep the development simple and cross platform.
+* Allow for storing data and saving offline and post when online.
+* Photo, location directly from device
+* Open Source
+
 == [https://github.com/dissolve/postly Postly] ==
 This is going to be my personal site and an MVC framework to build off of for others.  Currently in its initial stages, it is based on system libraries from [http://www.opencart.com OpenCart]
 
-TODO for Postly  (this will grow a lot i'm sure)
+===TODO for Postly (somewhat ordered by "itchiness")===
+# review and make sure that I am consistant in trailing slashes in permalinks
+# display/send/receive/remove [[person-tag]]
+# Contacts List (see below) / Unified Author records
+# auto-linking @mentions.  Ideally this will be once contact list / unified authorship is complete and thus would link to the indieweb-page (if available).  Hopefully bridgy can handle this in some way so that syndicated version on twitter uses twitter user links, and indie-web post uses indie-web links.
+# context messages to store both short and full urls to save extra polling.
+# [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
+# Micropub expanded to create more post types as well as edit/<s>delete</s> posts
+# Create Indie Events (and receive RSVPs)
+# webactions
+# Fix caching of archived pages.  Should not cache current month/day or should clear on edit/create for that month
+# Authentication Host
+# Post types <s>Note</s> <s>Article</s> <s>Photo</s> <s>Reply</s> <s>RSVP</s> <s>Like</s> <s>Bookmark</s> CheckIn Video Audio Poll
+# anything else I can think of
+
+===Completed===
 # <s>Rip main libraries out of OpenCart and Customize to run a simple site</s>
 # <s>Get main page up and running with basic h-entry formatting</s>
 # <s>Get Posts working</s>
 # <s>Proper routing for permalinks</s>
 # <s>Make it Live!</s>
 # <s>Release on GitHub</s>
-# <s>Administration Pages (minimally working, still needs a lot of work)</s> I have somewhat abandoned this in favor of micropub
+# <s>Administration Pages</s> abandoned in favor of micropub
 # <s>Get Comments working (I may not do this, comments will have to be webmention/pingback)</s>
 # <s>Personal theme (still based on SemPress)</s> this changes on its own over time as needed
 # <s>Set up automatic syndication to G+, FB, and Twitter</s> done via brid.gy
 # <s>backfeed</s> via brid.gy
 # <s>webmention</s>
-# <s>micropub</s> avalable at https://ben.thatmustbe.me/new
+# <s>micropub client</s> avalable at https://ben.thatmustbe.me/new
 # <s>reply-context</s>
 # <s>comment edit/delete</s> Done but untested
 # <s>RSVP to Events</s>
@@ -39,18 +64,8 @@ TODO for Postly  (this will grow a lot i'm sure)
 # <s>draft editions (hide from feed, but can be viewed by URL)</s>
 # <s>allow sending micropub to not use field names with []</s> I now send both so php and non-php users can receive. I still contend that comma delimited is not a good idea, but i'll support it for now.
 # <s>error message display</s>
-# context messages to store both short and full urls to save extra polling.
-# webactions (maybe)
-# Contacts List (see below)
-# geotag / location data in posts (storing but no display yet)
-# [[webmention#de-duplication|Deduplication]] (or better yet: [[webmention#prefer_original_posts|prefer original posts]]) of incoming webmentions, (and display posse'd copy links of context-history and replies) (see https://ben.thatmustbe.me/note/2014/9/12/1/_ )
-# Authentication Host
-# Micropub expanded to create more post types as well as edit/<s>delete</s> posts
-# Create Indie Events (and receive RSVPs)
-# Fix caching of archived pages.  Should not cache current mont/day or should clear on edit/create for that month
 # <s>implement [[permashortcitation]] when post is sufficiently short enough.</s>
-# Post types <s>Note</s> <s>Article</s> <s>Photo</s> <s>Reply</s> <s>RSVP</s> <s>Like</s> <s>Bookmark</s> CheckIn Video Audio Poll
-# anything else I can think of
+# <s>geotag / location data in posts</s>
 
 == Contacts List ==
 This is just my ideas for an IndieWeb based contacts application.  I will host my contact info on my own site as [[h-card]] but only public information.  If a user visits the site with a key (custom to them) in the GET value, they get additional info such as mailing address, phone number, etc.   Once I have have access to other's contact info, I build my contact list in a private section of my site.  I could then access this information from an app on my phone or other device or directly through my website.

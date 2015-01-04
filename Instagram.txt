@@ -5,12 +5,22 @@ http://indiewebcamp.com/Instagram
 
 '''<dfn>[http://instagram.com/ Instagram]</dfn>''' is a popular image hosting [[silo]] most well known for square [[photos]] that have been processed with an image filter. In 2013, Instagram added support for 15 second [[video]] posts.
 
+== Features ==
+__TOC__
+(this section is a stub and needs your contribution to complete it!)
+* post [[photos]] with a caption and inline hyperlinked [[hashtags]]
+* [[comment]] on photos
+* [[like]] photos
+* [[follow]] users
+* [[report_abuse#Instagram|report abuse]] regarding a user, photo, or comment
+* search for
+** users
+** hashtags
+
 ==Exporting your data==
 [http://instaport.me/ Instaport.me] and [http://flickstagram.org flickstagram.org] let you export your Instagram photos.
 
 [http://www.freedom.io/ freedom.io] ([https://github.com/snarfed/freedom source]) can copy all of your Instagram photos and videos to [[WordPress]], [[Tumblr]], or [[Blogger]], creating a new blog post for each, with the original dates and all comments intact.
-
-__TOC__
 
 ==POSSE==
 Instagram does not have a photo upload API. However they do have comments delete / create APIs. So here's how you can fake POSSE to Instagram:

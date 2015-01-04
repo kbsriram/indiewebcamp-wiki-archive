@@ -1,5 +1,3 @@
-http://indiewebcamp.com/Pinterest
+http://indiewebcamp.com/pinterest
 
-{{stub}}
-
-[http://pinterest.com Pinterest] is a [[silo]] where users can 'pin' content to pinboards and follow pinboards created by others.
+#redirect:[[Pinterest]]

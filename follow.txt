@@ -34,3 +34,7 @@ Some examples where this could be really useful are:
 * Temporarily follow everyone at an event for duration of the event, then expire a week after event is complete
 
 The first example starts to border on the territory of [[notifications]] in providing simple UI feedback to a user!
+
+== See Also ==
+* [[unfollow]]
+* [[friend]]

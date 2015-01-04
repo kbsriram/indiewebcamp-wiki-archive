@@ -4,14 +4,6 @@ http://indiewebcamp.com/User%3ADavid.shanske.com
 
 ==Current Progress==
 * Site uses [[WordPress]]
-* Site currently supports designated content display types
-* The different content types are implemented using a combination of the  [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress. Post Formats are a setting that is used to allow for custom theming of a post and the the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
-** [[Articles]] – longer form content using the Standard Post Format
-** [[Notes]] – Notes are short content, and I’ve divided them into some types.
-*** Status Updates and Asides – Two different choices for displaying the same thing. Status updates display with a profile picture, asides do not.
-*** [[Like]] or [[Favorite]] - Still working on usage of this
-*** [[Bookmark]] - The equivalent of sharing a link to my feed on various other services. May be with or without excerpt and/or comment
-** [[Photos]]/Images/[[Videos]] – Sharing photos and videos
 
 == Wordpress Development == 
 
@@ -26,8 +18,17 @@ http://indiewebcamp.com/User%3ADavid.shanske.com
 * [https://david.shanske.com/projects/indieweb/simple-location/ Simple Location] plugin
 * [https://david.shanske.com/projects/indieweb/hcardtools/ H-Card Tools] plugin - Designed to add an H-Card Widget to WordPress.
 
+== WordPress for Indieweb == 
+
+One of the smallest yet largest issues is how to integrate Indieweb concepts into WordPress. WordPress has its own way of doing things, and one of the hardest things is to plan things out so they neatly integrate into the system. While WordPress is designed to be extensible, if you are replacing large amounts of core functionality, you might as well roll your own system.
+
+Originally the different content types were implemented on my site using a combination of the  [https://codex.wordpress.org/Post_Formats Post Formats] system in Wordpress and the [https://github.com/dshanske/indieweb-taxonomy Indieweb-Taxonomy] plugin enabled to support markup of posts with like, reply, etc.
+
+Post Formats are a setting that is used to allow for custom theming of a post. In reality, they are a taxonomy of their own. So, the Taxonomy plugin will remain as it is, but a new version, [https://github.com/dshanske/indieweb-post-kinds Indieweb-Post-Kinds] will replace it.
+
 == For the Future ==
 
+* Working on a fork of the _s starter theme that is mf2/indieweb ready
 * Continuing to improve the Semantic Comments plugin, which generates alternate displays of webmentions, such as [[facepile]] to be more extensible.
 ** Just rewrote the code to use WordPress's Comment_Walker class and a lot less CSS, which means it should integrate better into the themes it is activated on.
 ** Want to add several different styles of Facepile into the mix.

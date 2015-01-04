@@ -5,7 +5,13 @@ http://indiewebcamp.com/OAuth
 <span class="p-summary">'''<dfn>OAuth</dfn>''' is an authorization protocol created to replace the need for client applications of a service (e.g. a [[silo]]) to ask for your username and password to the service in order to access the service on your behalf.</span>
 
 == UI ideas ==
+=== Twitter Mockup ===
 * 2010-08-17 Ben Ward: [https://benward.me/blog/tumblr-968515729 Would this really be so bad?] (AKA Checkboxes, bitches) [https://benward.me/blog/tumblr-968515729 <img style="max-width:100%" alt="Auth permissions dialog for a fictitious 'Twifficiency' Twitter app, along with checkboxes to enable/disable it to read tweets, update your profile, and/or post on your behalf" src="https://benward.me/res/tumblr/media/968515729/0.jpg"/>]
+
+=== Map Me At ===
+Map Me At had an interesting OAuth like permissions screen for use with the defunct [[Fire Eagle]].
+
+[https://twitter.com/tomcoates/status/540198231192268801 http://blog.mapme.at/wp-content/uploads/2008/09/fireeagle.png]
 
 __TOC__
 == Troubleshooting ==

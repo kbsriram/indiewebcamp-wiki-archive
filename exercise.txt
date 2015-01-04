@@ -6,6 +6,9 @@ http://indiewebcamp.com/exercise
 
 Tags: fitness, fitbit, pedometer, physical activity, run, running, workout, workouts, health, tracking, quantified self, metrics
 
+If you're looking for '''website metrics''' see:
+* '''[[analytics]]'''
+
 == IndieWeb Examples ==
 __TOC__
 === Barnaby Walters ===
@@ -92,3 +95,4 @@ IndieWebCamp sessions about exercise and other physical activities.
 * [[posts]]
 * [[checkin]]
 * [[food]]
+* website [[analytics]]

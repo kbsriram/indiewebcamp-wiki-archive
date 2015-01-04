@@ -5,6 +5,9 @@ http://indiewebcamp.com/silo-quits
 '''<dfn>silo quits</dfn>''' are public statements by individuals announcing they have publicly "quit" posting on or using (at all) various [[silos]], either with intended permanence, or temporarily (i.e. taking a "social media break").
 
 == Silo quitters 2014 ==
+=== Geoff Nicholson ===
+[[Facebook]]
+* 2014-12-12: <blockquote><p>A few people have recently asked me why I left facebook.  Mostly, it was because I was compulsively checking it for no real reason.  Yes, I miss out on the heartwarming stories that people post, and I miss out on hearing what my friends are doing in places far and near.  But I also miss out on tracking cookies, being an outlet for advertising, and siloing my data in Facebook's vaults.</p><p>Mostly, I've decided to implement the #indieweb.  This is a set [[Principles]] which I think the web is missing out on. [...]</p>[http://atomickiva.net/2014/exit]</blockquote>
 
 === Brad Colbow ===
 [[Medium]], [[Tumblr]]
@@ -37,6 +40,7 @@ http://indiewebcamp.com/silo-quits
 === Michael Garvin ===
 [[GitHub]]
 * 2014-03-28 Michael Garvin (gar) started self-hosting project code <cite>[http://danger.computer/2014/04/28/gitlab-part-one Time for gitlab]</cite><blockquote>Of course, with github you still can own your data, git is a decentralized version control system so you have a complete copy of everything even on your local clone. The things github provides (that are also the data you do not control) are things like issues. Things that are the real ‘community’ part of your project. As my friend @baldwin said to me earlier today, “It’s interesting that github seems to have re-centralized git.”</blockquote>
+
 == Silo quitters 2013 ==
 === Aaron Parecki ===
 [[App.net]]

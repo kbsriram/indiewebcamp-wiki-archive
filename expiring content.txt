@@ -2,7 +2,7 @@ http://indiewebcamp.com/expiring_content
 
 {{stub}}
 
-'''<dfn>Expiring content</dfn>''' is content that is only temporally relevant, and also part of a larger post, that can and should be (preferably automatically) removed once a particular datetime has passed (the expiration date).
+'''<dfn>Expiring content</dfn>''' is content that is only temporarily (ephemerally) relevant, and also part of a larger post, that can and should be (preferably automatically) removed once a particular datetime has passed (the expiration date).
 
 == To Do ==
 Some URLs to read, extract info from, and expand this article with:

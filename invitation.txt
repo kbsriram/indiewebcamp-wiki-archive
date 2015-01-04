@@ -27,7 +27,14 @@ So when you post an [[event]] you can at the same time explicitly invite people 
 == How to ==
 How-tos for invitations are very similar to the how tos for [[replies]] so we won't duplicate common info here.
 
+=== Display invitations on an event ===
+Whether from the event author or received via invitations from others, events can display invitations in various ways:
+* [[facepile]] of icons of those invited
+** perhaps only the most recent n of them (perhaps also limited to only those the (logged in with [[indieauth]]) viewer is ([[XFN]]) following/friends with) if this gets too large, with a link to expand or view all that are invited. E.g. <br/>[[File:event-attendees-facebook.png]]<br/>See [[event#Attendees]] for more discussion about this silo screenshot demonstrating this.
+* at a minimum a list of those invited, perhaps time-order interleaved with other interactions with the event e.g. comments.
+
 === Publish an event with invitations ===
+How to markup invitations inside and event and notify those invited:
 # List the invitations with elements with <code>class="p-invitee h-card"</code> inside the [[h-event]], that at a minimum link to the homepages of those invited.
 # Send webmentions from the [[event]] post to the homepages of those invited.
 

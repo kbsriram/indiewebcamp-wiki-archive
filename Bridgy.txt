@@ -126,6 +126,15 @@ On 2014-03-11, 3 months after its relaunch with webmention support, Bridgy had:
 [[User:snarfed.org|Ryan]] started working on Bridgy in the summer of 2011, [http://snarfed.org/2012-01-08_bridgy_launched launched the first (WordPress-only) version] on 2012-01-08, and [http://snarfed.org/2013-12-09_brid-gy-meet-webmentions relaunched it with webmention support] on 2013-12-09.
 
 == FAQ ==
+=== How can I pay for Bridgy ===
+'''Q:''' How can I ever return the favor of Bridgy? Or pay back for it?
+
+'''A:'''
+* file bugs: https://github.com/snarfed/bridgy/issues
+* bump bugs you've filed that contributors haven't gotten to
+* ideally even tackle fixing a bug yourself and submit a pull request!
+* or feel free to donate to the ASPCA or the EFF in the name of "Bridgy".[https://www.brid.gy/about#cost]
+
 === Could Bridgy be decentralized ===
 '''Q:''' Could Bridgy be decentralized / decentralised / distributed / federated ?
 

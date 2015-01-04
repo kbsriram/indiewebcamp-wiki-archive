@@ -14,8 +14,9 @@ The following IndieWeb community members have composite streams on their home pa
 ** [[notes]], [[articles]], ... ?
 * [[User:werd.io|Ben Werdmüller]] using [[Known]] on http://werd.io/
 ** [[notes]], [[articles]], [[events]], [[checkins]] ...
-* [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on http://aaronparecki.com/
-** [[notes]], [[articles]], ... ?
+* [[User:Aaronparecki.com|Aaron Parecki]] using [[p3k]] on http://aaronparecki.com/ notes and everything based on notes, and date [[archives]] every post type he supports. I.e.
+** home page: [[notes]], [[photos]], [[videos]], [[reposts]]
+** date archives: [[notes]], [[photos]], [[reposts]], [[articles]], [[metrics]], [[replies]], [[RSVPs]], [[events]], [[bookmarks]]
 * [[User:Adactio.com|Jeremy Keith]] on http://adactio.com/
 ** [[notes]], [[articles]], [[bookmarks]]
 * [[User:Iamshane.com|Shane Becker]] on http://iamshane.com

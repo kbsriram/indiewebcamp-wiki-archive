@@ -15,7 +15,7 @@ Some silos make it difficult or unpleasant to include a permalink or citation in
 
 Primary use case: allow Bridgy to backfeed comments from POSSE and PESOS copies. Bridgy will have the syndicated URL and the author's root domain (from a silo profile page). 
 
-This would also support original-post-discovery on older silo content that was backfilled to a personal domain.
+This would also support [[original-post-discovery]] on older silo content that was backfilled to a personal domain.
 
 == Algorithm ==
 [[Discovery]] algorithm:
@@ -114,4 +114,5 @@ Is it possible to include this metadata in other silos? Some suggestions:
 ** would require a custom instgram-wrapper application to include the watermark. (although at that point, the wrapper just include the post permalink in the caption)
 
 == See Also ==
+* [[original-post-discovery]]
 * [[discovery]]

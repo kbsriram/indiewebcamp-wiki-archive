@@ -134,7 +134,7 @@ Optional (because there is no current indieweb nor indieweb-to-indieweb use case
 
 ==== Level 2 web actions ====
 0.1 points for [[web actions]]:
-* one or more hard-coded actions for your most used silo (e.g. Tweet actions) if any, with &lt;action&gt; element wrappers for all actions in your UI - so others can override them with their browsers to [[reply]]/[[favorite]]/[[repost]] to your posts on their own site.
+* one or more hard-coded actions for your most used silo (e.g. Tweet actions) if any, [[webactions#Wrap_favorite_reply_retweet|with &lt;indie-action&gt; element wrappers for all actions]] in your UI - so others can override them with their browsers to [[reply]]/[[favorite]]/[[repost]] to your posts on their own site.
 
 === Level 3 ===
 IndieMark Level 3 has the general theme of <strong>posting and sending [[replies]] from your own site</strong>, to both other sites, and to silos.
@@ -228,6 +228,8 @@ Thus there are different axes that one can advance along. This section documents
 #* [[h-entry]] posts of some sort (at least 2 posts, with p-name, e-content, dt-published, u-url)
 
 === identity ===
+{{main|Getting Started}}
+
 #ownyouridentity
 * Level 1: '''Personal domain''' (subdomain foo.example.com ok) that you use as your primary identity on the web.
 * Level 2: '''[[h-card]] contact info''' and [[icon]] on home page, suitable for others to add to their mobile device home screen.
@@ -239,6 +241,8 @@ Possible futures:
 * simple [[h-resume]] abbreviated bio/summary
 
 === authentication ===
+{{main|IndieAuth}}
+
 #useyourownidentity
 * Level 1: '''Setup [[IndieAuth]]''' with 1+ [[RelMeAuth]] providers
 ** [[rel-me]] links to your "other profiles" on the web (e.g. at [[silos]]) and have them link back.
@@ -249,6 +253,8 @@ Possible futures:
 * native OAuth and/or 2-factor auth support on your own domain without depending on any outside providers.
 
 === posts ===
+{{main|posts}}
+
 posting different types of content
 * Level 1: post 2+ posts of any kind with permalink pages
 * Level 2: post 2+ <em>kinds</em> of posts with permalink pages
@@ -270,6 +276,8 @@ Possible futures:
 * Level 4: post all or 9 (whichever is fewer) kinds of posts. Or n (at least 1+?) more kinds of posts for each level.
 
 === syndication ===
+{{main|POSSE}}
+
 syndicating your own content to other sites (e.g. [[silos]]) per [[POSSE]]
 * Level 1: no requirement
 * Level 2:
@@ -308,15 +316,16 @@ Possible additional granularity if needed
 * to more than one destination for each type of content 
 
 === posting UI ===
+{{main|creating}}
 posting (post editing) UI
 * Level 1: no explicit requirement
 * Level 2: minimal UI to '''cause POSSEing''' to happen, otherwise can be as hacked up / command line / raw editing as is expedient
 * Level 3: UI for '''adding reply info''' (in-reply-to URL), possibly other replies (RSVPs), and POSSEing accordingly (as well as saving in-reply-to info alongside posts on your site).
 * Level 4: simple web UI for '''creating posts''' of different types
-* Level 5: undo/edit/save/update/delete UI for posts (that then follow proper [[CRUD]] protocols)
-
+* Level 5: '''[[micropub]] support''' for creating posts of different types, and use of others' micropub clients to post
 Possible futures: (don't know of anyone doing this)
-* Level 6: UI for editing comments/external content that comes in
+* Level 6: undo/edit/save/update/delete UI for posts (that then follow proper [[CRUD]] protocols)
+* Level 7: UI for editing comments/external content that comes in
 
 === navigation ===
 {{main|navigation}}
@@ -355,14 +364,28 @@ Possible futures: (no one has implemented this yet, but people are actively work
 * Level 6: integrated personal aggregator of everyone you follow, built into your site so you can read/reply right there inline (similar to the logged-in Twitter home page, FB news feed, Tumblr dashboard)
 
 === web actions ===
-[[web actions]]:
+{{main|web actions}}
+
 * Level 1: no requirement
-* Level 2: hard-coded actions (general fine/better) for your most used silo (e.g. Tweet actions) if any, with  &lt;action&gt; tag wrappers for all actions in your UI - so others can override them with their browsers to [[reply]]/[[favorite]]/[[repost]] to your posts on their own site.
+* Level 2: hard-coded actions (general fine/better) for your most used silo (e.g. Tweet actions) if any, with  &lt;indie-action&gt; tag wrappers for all actions in your UI - so others can override them with their browsers to [[reply]]/[[favorite]]/[[repost]] to your posts on their own site. (Shouldn't Level 3 and Level 2 be swapped here? The links seems a much lower bar than hard coded actions, which require much more coding? - GWG)
 * Level 3: View on other (POSSE) site [[rel-syndication]] links on posts (if there are any [[silos]] you actually use and thus POSSE out to)
 * Level 4: cross-site action button overrides - setup browser plugin so when you click [[reply]]/[[favorite]]/[[repost]] buttons on other site (e.g. [[silo]]) posts, it takes you to your own posting UI instead, with the in-reply-to URL and context pre-filled in.
 
 Possible futures: (no one has implemented this yet, but people are actively working on it)
 * Level 5 cross-site inline textarea/form overrides - setup browser plugin so that it appears you can simply use the inline textarea/form UI on other site (e.g. [[silo]]) posts / home page and it posts to your site transparently without you having to leave the page you're on.
+
+=== security ===
+{{main|https}}
+
+See the [[https] for details of each level:
+# Don't do the wrong thing
+# Secure admin of your site 
+# Serve https optionally on all your pages
+# Lock icon or better when serving https 
+# Redirect everything to https
+# Correct ciphers, support forward secrecy
+
+TBI: These need to be integrated into the above overall Level descriptions and summaries.
 
 == idea capture ==
 I'm using this wiki page capturing the [http://indiewebcamp.com/irc/2012-07-06#t1341607091 general idea of IndieMark] first and then will flesh this out into one or more straw proposals for discussion. - [[User:Tantek.com|Tantek]]

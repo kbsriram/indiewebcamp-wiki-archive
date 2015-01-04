@@ -1,21 +1,43 @@
 http://indiewebcamp.com/POSSE_to_Facebook
 
+{{stub}}
+
+'''<dfn>POSSE to Facebook</dfn>''' is the act of syndicating (at least some of) your content from your own site to [[Facebook]].
+
+== Why ==
+The reasons to [[POSSE]] to Facebook are the same for any other [[silo]] destination, staying in touch with your friends:
+* If you have friends who read and follow your activities using Facebook, then POSSEing to Facebook provides a way for you to own your content on your own site, while still staying in touch with those friends by providing them a copy.
+* If you participate in a [[group]] (especially if "private" or "secret") on Facebook, POSSEing to that Facebook group allows you to continue interacting with it.
+
+Not a good reason:
+* Spam another network.
+
+== How ==
 There are multiple ways to [[POSSE]] out from your indieweb site to your [[Facebook]] profile.
 
 Existing techniques:
+* Via [[Twitter]] bridge
+* [[IFTTT]]
+* [[Bridgy]] Publish
+* Directly using Facebook API
+
+Expanded below with examples:
 
 == Via Twitter ==
 === Tantek via Twitter ===
-{{t}} POSSEs out from tantek.com to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook by default (sometimes FB copies of tweets are manually hidden from timeline). Reasons:
+{{t}} POSSEs [[notes]], [[articles]] by name + permalink, [[replies]] (including [[RSVP]]s) out from tantek.com to Twitter, and then uses the Twitter/FB integration functionality to cascade (except for plain replies) that POSSEing from Twitter to Facebook by default (sometimes FB copies of tweets are manually hidden from timeline). Reasons:
 * insufficient marginal utility (typically) in writing a custom POSSE syndicator to FB.
 * FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
 * FB usually shows a decent [[link-preview]] for the first link in from the tweet POSSE copy.
+* Exception: In 2014 Tantek started occasionally manually using [[Bridgy]] Publish to POSSE a few longer and more significant posts (notes and articles) directly from tantek.com to Facebook. 
+** Working on adding to Falcon: [[Falcon#auto_Bridgy_POSSE_to_FB|Automatic Bridgy POSSE to FB]]
+
 === Tom Morris ===
 [[User:Tommorris.org|tommorris]] POSSEs out from tommorris.org to [[Twitter]], and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook, because he's lazy.
 
 == Using IFTTT ==
 === Jeremy Keith ===
-[[User:Adactio.com|Jeremy Keith]] POSSEs out from adactio.com to Facebook using If This Then That ([[IFTTT]]).
+{{adactio}} POSSEs [[notes]], [[photos]], [[articles]] out from adactio.com to Facebook using If This Then That ([[IFTTT]]).
 
 == Bridgy Publish ==
 Using [[Bridgy]] Publish to Facebook, you can manually or automatically with your site POSSE directly from your site to Facebook.
@@ -62,6 +84,27 @@ Each Facebook post [https://developers.facebook.com/docs/graph-api/reference/use
 
 '''Warning:''' Based on problems we've had with Bridgy Publish, I ([[User:Kylewm.com|Kylewm.com]]) am starting to suspect that this use case is somewhere between unsupported and an unintentional bug in Facebook, which only seems to work for the app developer's account and may be shut down in the future. Facebook expects custom actions to be registered by your app, and custom [https://developers.facebook.com/docs/opengraph/using-actions/v2.0#howto-actionlinks Action Links] to point to a common endpoint on the application's domain.
 
+==== PHP Example ====
+Normally, a Facebook POST looks like this:
+<pre>
+        $response = $facebook->api('/me/feed', 'POST', array(
+          'message' => $_POST['text']
+        ));
+</pre>
+
+If you add the "actions" parameter, the request looks like this:
+<pre>
+        $response = $facebook->api('/me/feed', 'POST', array(
+          'message' => $_POST['text'],
+          'actions' => array(
+            'name' => 'See Original',
+            'link' => $url
+          )
+        ));
+</pre>
+
+(This is just a rough bit of sample code, of course you'll have to replace the <code>$_POST['text']</code> and <code>$url</code> parts appropriately for your website.)
+
 === Mention Tagging ===
 
 It is not possible to "mention tag" (equivalent to @-mention on twitter) other users using the normal /me/feed API edge. This appears to be "by design" to prevent spammy apps from mentioning people (and is an example of a place where a silo API provides less functionality than the native posting UI).
@@ -75,6 +118,17 @@ There are a few (less than perfect) alternatives:
 ** Facebook has started showing "auto-posted" stories less and less[http://www.theverge.com/2014/5/27/5754862/facebook-gives-up-on-automatically-sharing-everything-you-do-online-open-graph]. Not clear how much this affects POSSE, but I would guess this means we should steer clear of the Actions/Objects API.
 
 * You can make posts like "... was at [a place] with [some people]", with the /me/feed edge. Add user IDs (numeric ID or mention token from /me/taggable_friends. username does not work here) to the <code>tags</code> field, and also include a <code>place</code> (the ID of a Facebook Place).<br>[[File:fb-post-taggged-place-and-user.png]]
+
+=== Liking ===
+[[Bridgy]] uses the Facebook API to implement POSSEing of [[likes]] from an original like post to your Facebook account.
+
+To publish a "like", find the Facebook object ID and post to its [https://developers.facebook.com/docs/graph-api/reference/v2.2/object/likes/ "likes" collection]. The app will need to request the "publish_actions" permission in order to publish likes. 
+
+As of 2014-??-??, your site/code must go through a [https://developers.facebook.com/docs/apps/review review process] in order for your Facebook app to request the [https://developers.facebook.com/docs/facebook-login/permissions/v2.2 "publish_actions" permission] for other users. 
+
+However, Bridgy Publish has some sort of grandfathered permissions for doing FB likes.[http://indiewebcamp.com/irc/2014-12-24#t1419456215629]
+
+{{aaronpk}} has noticed that Facebook is strongly pushing the JS SDK over making direct API calls. Using the JS SDK has some advantages such as it manages the login dialog and refreshing access tokens. If you use the API directly, your app will be responsible for refreshing the Facebook access tokens when they expire, and tokens can be as short-lived as 1 hour.
 
 === IndieWeb Examples ===
 In rough order of implementation:

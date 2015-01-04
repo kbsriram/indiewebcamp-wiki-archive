@@ -23,6 +23,10 @@ An earlier version of the template exists as a codepen.io [[http://codepen.io/th
 
 If you fork something nice (codepen, gist, or your own site), please let us know (e.g. post about it and webmention  [[WebmentionDressing|this page]] :)
 
+== Deployment ==
+
+* The global [https://zzzen.com/420/ 4:20 clock] embeds WebmentionDressing.
+
 == Acceptance :) ==
 
 * ''nice! thanks!!'' [http://indiewebcamp.com/irc/2014-11-22/line/1416692349411]

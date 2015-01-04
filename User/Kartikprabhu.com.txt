@@ -6,6 +6,8 @@ http://indiewebcamp.com/User%3AKartikprabhu.com
 
 '''<dfn>Kartik Prabhu</dfn>''' does mathematical physics and some other stuff, including posting and experimenting with the indieweb on [http://kartikprabhu.com Parallel Transport].
 
+Old blog: http://paralleltransport.blogspot.com/
+
 </div>
 __NOTOC__
 

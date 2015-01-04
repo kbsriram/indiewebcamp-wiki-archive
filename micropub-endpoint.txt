@@ -104,5 +104,6 @@ and optionally an HTML or other body with more information. Below is a list of p
 * {{aaronpk}} has a Micropub endpoint on his site since 2013-10-14
 * [[User:Kartikprabhu.com|Kartik Prabhu]] has a [https://kartikprabhu.com/micropub micro pub endpoint] on his site since 2014-05-25
 *{{bret}} uses [https://github.com/bcomnes/gitpub Gitpub]: A node + git static site robot. Supports Micropub.
+* {{bear}} has a Micropub endpoint on his site since 2015-01-01
 
 [[Category:IndieAuth]]

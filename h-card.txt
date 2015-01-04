@@ -18,7 +18,7 @@ Having a minimal hCard on your index page allows [[Gravatar]]-like lookups based
 == Validators ==
 
 You can check your homepage hCard for completeness and common mistakes using these validators:
-* [http://indiewebify.me/validate-h-card/ indiewebify.me hCard]
+* [http://indiewebify.me/validate-h-card/ indiewebify.me hCard] ([https://github.com/indieweb/indiewebify-me/issues/33 checks bare minimum for indieweb])
 * [http://pin13.net/mf2/ pin13.net mf2 parser] (raw parsed JSON)
 
 == Issues ==

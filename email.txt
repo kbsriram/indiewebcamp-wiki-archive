@@ -29,12 +29,18 @@ Due to its popularity and ubiquity email is extremely widely supported.
 === Application integration ===
 Of particular interest is the fact that many native applications (especially on iOS) include it in their share/export/action menus by default. This could be an excellent UI to piggyback on for quick and easy posting to our own sites.
 
+=== Webmention ===
+{{ stub }}
+http://questo.email/mail-to-web
+
 __TOC__
+
 == Criticism ==
 === Bad for more than two people ===
 Whilst adequate for some one to one conversation it scales extremely badly to conversations with more than two people. 
 === Bad for collaboration ===
-It is also appallingly bad for collaboration ([[wiki]]s or version control systems are much better for this).
+It is also appallingly bad for collaboration ([[wiki]]s or version control systems are much better for this[http://microformats.org/wiki/wiki-better-than-email]).
+
 === Not web ===
 * URLs == web
 * email addresses != web.[http://indiewebcamp.com/irc/2013-08-21/line/1377127301]
@@ -66,6 +72,7 @@ Disadvantages:
 IndieWeb community members using this approach: 
 * [[User:Jonnybarnes.net|Jonny Barnes]] is using Fastmail's service for receiving/reading/sending jonnybarnes.net emails. Fastmail works by setting up a custom domain as an alias for your fastmail inbox.
 * [[User:Tantek|Tantek Çelik]] is using Gmail for receiving/reading/sending tantek.com emails.
+* {{kylewm}} is a Fastmail user too. They recommend letting fastmail be your actual nameserver, but I opted to continue using my registrar's nameserver and just copy/paste MX, DKIM, and SPF records from Fastmail.
 * ...
 
 Specific services:
@@ -79,6 +86,12 @@ Specific services:
 
 ==== Pobox ====
 [[Pobox]](http://pobox.com/pricing) is a paid email service that has two types of accounts: mailstore and forwarding. All of their plans allow for personal domains.
+
+==== Zoho Mail ====
+[[Zoho Mail]](https://www.zoho.com/mail/zohomail-pricing.html) has a free account plan that allows you to receive mail in your own domain (1 per account, in the free plan).
+
+==== Pawnmail ====
+[[Pawnmail]](https://pawnmail.com/) is a service dedicated to provide "Email hosting for custom domains" that gives 2GB storage "free forever" to anyone. It provides a webmail client along with SMTP, IMAP and POP3 access.
 
 === Mail as a Service ===
 ==== Mandrill ====

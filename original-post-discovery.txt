@@ -62,6 +62,7 @@ Convert a parenthetical permashortlink citation to URL by:
 ** Code on [https://github.com/barnabywalters/weave/blob/master/src/common/content.js github], OPD-specific parts will be packaged up separately when they’re more mature
 * [[p3k]] implements original post discovery.
 ** See demonstration video: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery
+** Live demo: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery
 * [[Bridgy]] implements original post discovery on silo posts. [https://github.com/snarfed/activitystreams-unofficial/blob/e94d301a97e3a138e661468ff0ddda4ae75260e4/source.py#L173 Here's the code.] It has a couple variations:
 ** It returns multiple candidate links instead of one.
 ** It doesn't bother looking for microformats2 (etc) markup because the silos don't let you input it.
@@ -93,7 +94,7 @@ To reduce the number of false positives:
 This way only apparent POSSE permalinks created less than 24 hours after an original can count as actual POSSE copies. You have 24hrs to publish a POSSE copy or else it's considered a mention/comment, not a POSSE copy.
 
 == See Also ==
-* Live demo: http://aaronparecki.com/notes/2013/04/25/1/original-post-discovery
+* [[posse-post-discovery]]
 * [[discovery]]
 * [[posts]]
 * [[comments]]

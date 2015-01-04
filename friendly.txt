@@ -30,6 +30,11 @@ Data portability:
 ** [[rel-me]] support for verified domains, enabling use as an [[indieauth]] provider
 ** [[microformats2]] support on feeds and post permalinks including [[h-card]] and [[h-entry]]
 ** displays a link to the canonical version of your own posts ([http://farm3.staticflickr.com/2854/9698340641_718f6d231d_o.png example])
+* [[Huffduffer]], built by [[User:Adactio.com]] is a tool for creating podcasts out of audio files from around the web. It supports several indieweb-friendly technologies that 
+** Asks for your personal website on sign up and grabs rel=me links to build your user profile
+** Huffduffer user profile is marked up with rel=me
+** [[microformats2]] support for podcast feeds, including [[h-feed]] (actually hfeed) and [[h-entry]]
+** https://huffduffer.com/add?page= ostensibly scrapes microformats data from the source page to fill in the title, permalink, and description.
 * Add more here
 * …
 

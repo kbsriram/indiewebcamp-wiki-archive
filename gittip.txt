@@ -1,7 +1,3 @@
-http://indiewebcamp.com/gittip
+http://indiewebcamp.com/Gittip
 
-{{stub}}
-
-'''<dfn>Gittip</dfn>''' is a payment system that allows individuals and organizations to receive 'tips' to their gittip account which is associated with a number of different silo accounts such as github, bitbucket, twitter, openstreetmap, etc.  
-
-There is an indiewebcamp community page that anyone can join: https://www.gittip.com/for/indiewebcamp/
+#REDIRECT [[Gratipay]]

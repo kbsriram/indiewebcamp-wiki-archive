@@ -86,6 +86,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 -->
 '''Chicago:'''
 * {{gRegor}}
+* {{kartik}}
 * ... add yourself!
 
 == Notes ==
@@ -95,7 +96,7 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 * ...
 
 '''Portland'''
-* ...
+* Lots of discussion about vouch!
 
 <!-- '''Minneapolis:'''
 * ... 
@@ -105,10 +106,10 @@ Or just show up and say hi! We're a friendly bunch. You may also RSVP after atte
 
 === Blog posts ===
 Blog posts before the meeting:
-* ...
+* [http://bret.io/2014/12/04/a-few-end-of-quarter/ few end of quarter projects]
 
 == Photos ==
-* ...
+[[File:DSCF4458.JPG | 500px]]
 
 {{Homebrew Website Club}}
 

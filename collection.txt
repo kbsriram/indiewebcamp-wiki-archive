@@ -19,7 +19,10 @@ A '''<dfn>collection</dfn>''' is a type of [[post]] that explicitly lists and/or
 * https://storify.com/jcolman/mike-monteiro-design-facebook
 
 == Changes ==
-Collections can change over time but typically don't change much. Changes to collections typically consist of additions, rarely is something removed from a collection. 
+Collections can change over time but typically don't change much. Changes to collections typically consist of additions, rarely is something removed from a collection.
+
+Changes might be reflected by update posts, e.g. the photos that have been added to a set or notification of a correction to a post.
+
 == Different from a feed ==
 [[feeds]] on the other hand are typically automatic sets of posts where the set changes often, new posts showing up, and old posts dropping off.
 

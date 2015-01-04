@@ -140,3 +140,6 @@ For pay web [[search]] could be useful in professional verticals such as medical
 Mentions proxies are all free currently, and do not use ads either, however they do cost some amount to maintain, and therefore it is reasonable to expect that at somepoint they'll have to charge for their (quite useful) services.
 * [[webmention.io]] - Handles receiving [[pingbacks]] and [[webmentions]] for a site and provides the data via an API
 * [[Bridgy]] - Sends [[webmentions]] for comments on Facebook, Twitter, Google+ and Instagram.
+
+== See Also ==
+* [[free]]

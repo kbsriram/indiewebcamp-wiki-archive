@@ -58,6 +58,23 @@ In rough launch/implementation order:
 [[File:mko-checkin-example-2014-10-15.png|thumb|left]]
 
 <div style="clear:both">&nbsp;</div>
+=== Ben Roberts ===
+{{benthatmustbeme}} is using google maps static map to generate display in [[Postly]] since 2014-12-24.  e.g.:
+* https://ben.thatmustbe.me/checkin/2014/12/19/3/
+
+== how to ==
+=== POSSE ===
+What are best approaches to POSSEing checkins?
+==== POSSE to Foursquare ====
+{{benwerd}} POSSEs his checkins to [[Foursquare]] with [[Known]].
+
+==== POSSE to Facebook ====
+{{snarfed}} currently manually POSSEs from his site to Facebook, manually picks the venue etc.
+
+Can likely call Facebook API to get a list of [[venues]] at a geo location.
+
+Could also create a Bridgy Publish feature that looked checkin post with a Facebook venue URL and then POSSE the checkin to FB.
+* https://github.com/snarfed/bridgy/issues/317
 
 == questions ==
 More explorations/brainstorms than FAQ yet.

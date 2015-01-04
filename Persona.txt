@@ -11,7 +11,7 @@ Examples of IndieWeb sites which act as their own Persona provider, without rely
 * ... add yourself
 
 Examples of IndieWeb sites which consume (allow login via) Persona in particular (beyond using IndieAuth to do so).
-* ... add yourself
+* [[User:Tommorris.org|tommorris.org]] - although people other than me don't really get to do much other than enjoy the fact that it says "You are signed in as {your email}".
 
 == Shutdowns ==
 The following sites used to provide or accept (consume) Persona logins but no longer do. Most recent first:

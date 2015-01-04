@@ -29,6 +29,13 @@ For example, the page at http://developers.squarespace.com can be read as JSON a
 
 The JSON responses for Squarespace pages include the HTML rendered text of the body of the page, together with a limited set of metadata.
 
+== Issues ==
+
+From [http://indiewebcamp.com/irc/2014-12-04#t1417734397410 IRC on 2014-12-04], the opinions of [[User:Tommorris.org|tommorris]]:
+
+* Squarespace uses hash-based URLs to link from folder pages to content pages (replicated with both text and gallery pages). Hash(bang) URLs are inherently brittle, add complexity and [http://www.w3.org/blog/2011/05/hash-uris/ go against the advice of the W3C]. I don't want the "wrong" URL being shared.
+* The 'gallery' page type is limited and not very customisable. For instance, you can't use it to tell a rich photo story easily.
+
 == See Also ==
 * [[silos]]
 * [[hosting]]

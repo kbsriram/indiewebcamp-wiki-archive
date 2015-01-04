@@ -1,19 +1,17 @@
 http://indiewebcamp.com/Red_Wind
 
-<span style="float:right;height:192px;font-size:192px;margin:72px 0 -64px">🍃</span>
-
-== Description ==
-<dfn>Red Wind</dfn> ([https://github.com/kylewm/redwind source code]) is {{kylewm}}'s IndieWeb-ready blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source but unstable and undocumented and probably not of much use to anyone but the author, at least for now.
+<span style="float:right;height:128px;font-size:128px;margin:48px 0 -64px">🍃</span>
+'''<dfn>Red Wind</dfn>''' ([https://github.com/kylewm/redwind source code]) is {{kylewm}}'s IndieWeb-ready blog software written in Python and running on Flask. It is intended to be clean, lightweight, and amenable to experimentation. Red Wind is open source, but because of its experimental nature tends to change for no apparent reason and be at times unstable. Tests and documentation are sparse right now, but I'm working on improving that.
 
 == Features ==
-* send and receives webmentions (processed asynchronously using uWSGI's spooler)
+* send and receives webmentions
 * send PuSH notifications for new posts
 * syndicates to Facebook and Twitter via their snowflake APIs
 * backfeeds comments via [[Bridgy]]
 * reply/like/share context automatically fetched after posting
 * optional geo-location information for posts.
-* background tasks (reverse geocode, process webmentions, send webmentions, etc.) use Redis-Queue 
-* storage via SQLAlchemy/SQLite
+* support for asynchronous background tasks (reverse geocode, process webmentions, send webmentions, etc.)
+* storage via SQLAlchemy plus a backing DB
 
 The name comes from Raymond Chandler's short story of the same name, about the Santa Ana winds that drive everyone crazy :)
 
@@ -41,15 +39,15 @@ I did not want to think about caching recently accessed files in memory and am h
 
 Planning to have an option to export to HTML+mf2 much like [[Falcon]]'s bim format (but with contexts and comments included). This feels like a good balance between the advantages of using a DB for immediate storage and HTML for longevity.
 
-== Address Book ==
+== Contacts ==
 
-Red Wind has basic support for referring to other people by name. Currently, this feature is called an "address book", but I'm considering more timely alternatives[http://indiewebcamp.com/irc/2014-07-07#t1404777277]
+Red Wind has basic support for referring to other people by name.
 
-When entering a new person in the book, I put their URL in the first field and click "Fetch Profile". If they publish an h-card on their site, it will try to extract their name, photo, and twitter/facebook usernames and fill the rest of the fields automatically.
+When entering a new person in the contact list, I put their URL in the first field and click "Fetch Profile". If they publish an h-card on their site, it will try to extract their name, photo, and twitter/facebook usernames and fill the rest of the fields automatically.
 
 [[File:kylewm-addressbook-2014-07-07.png|none|thumb|500px|Entering a new address]]
 
-Right now I tag people using MediaWiki inspired syntax: <nowiki>[[Ben Werdmüller|Ben]]</nowiki>, but am considering moving to a simpler @nickname [http://indiewebcamp.com/p3k#Local_Nicknames like p3k] uses.  
+Contacts have one or more @nickname ([http://indiewebcamp.com/p3k#Local_Nicknames modelled on p3k]), usually the person's IRC or Twitter handle. Previously I used a MediaWiki-like syntax to refer to people <nowiki>[[Ben Werdmüller|Ben]]</nowiki>, and I believe this is still supported.
 
 === POSSE ===
 
@@ -65,29 +63,24 @@ The POSSE copy with their Twitter usernames
 
 === Storage format === 
 
-Names are stored in a JSON dict, indexed by full name (generally the p-name on their h-card if they publish one)
- 
+Contacts are stored in the database with one or more associated Nicks.
+
 <code><pre>
-{
- "Kartik Prabhu": {
-  "twitter": "kartik_prabhu", 
-  "facebook": "", 
-  "url": "https://kartikprabhu.com/about", 
-  "photo": "http://lh3.googleusercontent.com/-r3A9y0QWUGA/T4XzCE5BhCI/AAAAAAAAPRU/zAXHDpcuuqg/s300/Recursion-small.jpg"
- }, 
- "David Shanske": {
-  "twitter": "dshanske", 
-  "facebook": "dshanske", 
-  "url": "https://david.shanske.com", 
-  "photo": "http://david.shanske.com/wp-content/uploads/2014/03/me-head.png"
- }, 
- "gRegor Morrill": {
-  "twitter": "gRegorLove", 
-  "facebook": "", 
-  "url": "http://gregorlove.com", 
-  "photo": "http://gregorlove.com/assets/img/profile.jpg"
- }, 
- ...
+
+class Nick(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    contact_id = db.Column(db.Integer, db.ForeignKey('contact.id'), index=True)
+    name = db.Column(db.String(128), unique=True)
+
+class Contact(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(256))
+    nicks = db.relationship('Nick', backref='contact',
+                            cascade='all,delete-orphan')
+    image = db.Column(db.String(512))
+    url = db.Column(db.String(512))
+    social = db.Column(JsonType)
+
 </pre></code>
 
 == Screenshots ==

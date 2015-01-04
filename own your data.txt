@@ -54,21 +54,62 @@ Optional details, for each of the above post types / or "instead of silos", opti
 '''Examples of what doesn't disqualify you:'''
 * A small number of '''test''' posts on any given silo of any given content type, especially if you're doing it as research for how to best [[POSSE]] to that silo, especially if you <em>document</em> the results of your research here on the wiki. Though for research purposes, you really should create one or more separate test accounts on silos.
 
+=== gRegor Morrill ===
+{{gRegor}} has: 
+* owned his '''[[articles]]''' since 2002-01-26. [http://gregorlove.com/2002/01/1/].
+
 === Tantek ===
 {{t}} has:
 * owned his '''[[articles]]''' since 2002-08-08[http://tantek.com/log/2002/08.html#L20020808t2345].
-* owned his '''[[notes]]''' since 2010-01-01.[http://tantek.com/2010/001/t1/declaring-independence-building-it]
+* owned his '''[[notes]]''' since 2010-01-01[http://tantek.com/2010/001/t1/declaring-independence-building-it].
 * instead of '''[[Twitter]]''', posted on his own site:
 ** '''notes''' [http://tantek.com/2010/001/t1/declaring-independence-building-it since 2010-01-01], POSSE to Twitter [https://twitter.com/t/status/8228455558 since 2010-01-26]
 ** '''@-[[replies]]''' [http://tantek.com/2013/132/t2/been-t-since-day-joined-2006 since 2013-05-12], POSSEd to Twitter (same day).
+** '''[[favorites]]''' as [[likes]], [http://tantek.com/2014/365/f since 2014-12-31], using Bridgy Publish to POSSE likes of tweets to favoriting those tweets on Twitter.
 
-Note: I can't say I yet I follow "ownyourdata" for ALL my replies, as I have posted replies directly to posts on [[Facebook]], whereas I should be posting even those replies on my own site first, and then POSSEing them to Facebook, perhaps via [[Bridgy]] publish. Thus I've scoped my "ownyourdata" of replies to only being a replacement for my use of Twitter to post replies.
+Notes: 
+* '''not yet ownyourreplies.''' I can't say I yet I follow "ownyourdata" for ALL my replies, as I have posted replies directly to posts on [[Facebook]], whereas I should be posting even those replies on my own site first, and then POSSEing them to Facebook, perhaps via [[Bridgy]] publish. Thus I've scoped my "ownyourdata" of replies to only being a replacement for my use of Twitter to post replies.
+* '''not yet ownyourlikes.''' I also can't yet say I follow "ownyourdata" for ALL my likes, as I still like photos directly on [[Instagram]], and posts on [[Facebook]].
+
+=== Snarfed ===
+{{snarfed}} has:
+* owned his '''[[articles]]''' and '''[[notes]]''' [https://snarfed.org/archive] since 2003-06-29 [https://snarfed.org/2003-06-29_blogtastic]<br />
+* owned his '''[[photos]]''' [https://snarfed.org/pictures] since 2003-03-06 [https://snarfed.org/draw_group]
+* owned his '''[[replies]]'''/'''[[comments]]''' [https://snarfed.org/responses#replies] since 2013-10-02 [https://snarfed.org/2013-10-02_comment-time-vs-money]
+* owned his '''[[likes]]'''/'''[[favorites]]''' [https://snarfed.org/responses#likes] since 2014-02-02 [https://snarfed.org/2014-02-02_re-the-latest-idno-code-lets-me-choose-what-content-shows-up]
+* owned his '''[[reposts]]''' [https://snarfed.org/responses#retweets] since 2014-03-13 [https://snarfed.org/2014-03-13_8417]
+* owned his '''[[events]]''' [https://snarfed.org/2014-01-15_homebrew-website-club-tonight] and '''[[rsvps]]''' [https://snarfed.org/responses#rsvps] since 2014-01-15 [http://snarfed.org/2014-01-15_homebrew-website-club-tonight]
+
+* instead of '''[[Twitter]]''':
+** posted '''notes''' and '''photos''' on his own site always, '''[[replies]]''' [https://snarfed.org/responses#replies] since 2013-10-02 , '''[[favorites]]''' [https://snarfed.org/responses#likes] since 2014-02-02, '''[[retweets]]''' [https://snarfed.org/responses#reposts] since 2014-03-13
+** POSSEd via [https://www.brid.gy/about#publish Bridgy Publish], backfed via [[Bridgy]]
+** read his Twitter stream via [https://twitter-atom.appspot.com/ twitter-atom] and responded via [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress web bookmarklets] and [https://snarfed.org/easy-indieweb-interactions-on-android Android flow] instead of Twitter's own web UI and app
+
+* instead of '''[[Facebook]]''':
+** posted '''articles''', '''notes''', and '''photos''' on his own site always, '''[[comments]]''' [https://snarfed.org/responses#replies] since 2013-10-02, '''[[likes]]''' [https://snarfed.org/responses#likes] since 2014-02-02
+** POSSEd via [https://www.brid.gy/about#publish Bridgy Publish], backfed via [[Bridgy]]
+** [[PESOS]] backfilled articles and notes between 2009-10-15 [https://snarfed.org/2009-10-15_anyone-in-or-near-paris-right-now] and 2012-10-28 [https://snarfed.org/2012-10-28_pumpkin-carving] with [https://freedom.io/ freedom.io]
+** read his Facebook news feed via [https://facebook-atom.appspot.com/ facebook-atom] and responded via [https://snarfed.org/indieweb-press-this-bookmarklets-for-wordpress web bookmarklets] and [https://snarfed.org/easy-indieweb-interactions-on-android Android flow] instead of Facebook's own web UI and app
+
+* instead of '''[[Instagram]]''', posted:
+** posted '''photos''' on his own site always [https://snarfed.org/2013-06-16_snoop-lion-in-his-native-habitat], POSSEd manually, backfed via [[Bridgy]]
+** read his Instagram stream via [https://instagram-atom.appspot.com/ instagram-atom] instead of the Instagram app
+
+* instead of '''[[Google+]]''', posted on his own site:
+** '''articles''', '''notes''', and '''photos''' always, POSSEd manually, backfed via [[Bridgy]]
 
 === Bear ===
 {{bear}} has 
 * owned his '''[[articles]]''' since 2003-12-18. [https://bear.im/bearlog/2003/352/seduced-by-the-dark-side].
 * owned his own '''[[replies]]''' since May of 2014.
 * owned his own replies to others since November of 2014 but until I add ''in-reply-to''' markup I cannot call them  '''[[comments]]'''.
+
+=== Aaron Parecki ===
+(this section is a stub and incomplete)
+* instead of '''[[Twitter]]''', posted on his own site:
+** '''notes''' and POSSE to '''Twitter''' since 2012-08-19[http://aaronparecki.com/2012/232/note/1].  [http://aaronparecki.com/notes/2012/08/19/1/indieweb][https://twitter.com/aaronpk/status/237344101928951808 twitter copy]
+** '''photos''' since 2014-03-08[https://aaronparecki.com/notes/2014/03/08/4/indiewebcamp-indieweb-sf] (launched at [[2014/SF|IndieWebCamp SF 2014]]) and occassionally manually POSSEs to '''Twitter''' since 2014-05-06[http://aaronparecki.com/notes/2014/05/06/3/iiw-indieweb][https://twitter.com/aaronpk/status/463747044260065280 on Twitter]
+* ...
 
 === Kartik ===
 {{kartik}} has:
@@ -87,6 +128,7 @@ Note: I can't say I yet I follow "ownyourdata" for ALL my replies, as I have pos
 ** '''[[notes]], [[replies]], [[repost]], [[favorites]]''' and POSSE to '''Twitter''' using [https://dubiousdod.org/indie his RedWind install] since November 2014.
 ** Uses a [https://dubiousdod.org/indie/2014/11/here-http-codepen-io-anon-pen-ggjvbz-left-is-a-better bookmarklet] to reply/reshare/fav stuff (including tweets).
 ** Uses [[Bridgy]] to [[backfeed]] Twitter [[interactions]] as [[webmentions]]
+
 
 === ... add yourself ... ===
 

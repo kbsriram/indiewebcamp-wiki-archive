@@ -62,6 +62,19 @@ Falcon currently supports [[POSSE]]ing:
 ** '''notes indirectly to [[Facebook]]''' - standalone POSSE'd notes are then also automatically syndicated to Facebook (I ([[User:Tantek.com|Tantek]]) have Twitter setup to do this)
 
 __TOC__
+== FAQ ==
+=== Open Source ===
+Q: Is Falcon open source?
+
+A: Falcon is a mix of open source and closed source. The open source portions are currently published in the [[CASSIS]] JS/PHP library, in particular as building block functions which may be useful to other indieweb projects. 
+
+As work on Falcon develops, more and more of it is made open source.
+
+=== Installable by others ===
+Q: Is Falcon installable by others?
+
+A: Currently no, Falcon as a whole is not installable by others, and that's not a primary goal currently.  See [[#Working On]] to see what next goals are for Falcon.
+
 == Publishing UI ==
 Falcon publishing UI currently consists of the following:
 # '''BBEdit''' (your choice of text editor) write new post in the storage file directly (see below for storage file format)
@@ -104,6 +117,19 @@ None currently, but if you see something broken, add a note here and I'll look i
 == Working On ==
 The next things I'm working on designing and implementing in Falcon. These are all things where I have made some progress with UX, code etc. and thus am "in the middle of" implementing. Roughly ordered by personal priority.
 
+=== improve like posts ===
+While they're still fresh in my mind, improve [[like]] posts:
+* fix presentation of in-stream like-times to also be small and grey, maybe inline without parentheses, to avoid the "looks like a duration of the thing before it" effect.[http://indiewebcamp.com/irc/2015-01-03#t1420277869596]
+* increase # of things in my home stream since likes are clustered! Yay for small multiples.
+* cluster sequential likes of the same person's stuff even more[http://indiewebcamp.com/irc/2015-01-03#t1420278222441]
+** common use-case for me: reading individual people's profiles / sites serially post by post, and often liking a bunch of them in a row. I find reading people like that much more satisfying / calm than any kind of random aggregate "news feed" of updates from all the random sources.
+* blog about [[like]] posts:
+** researching [[notifications]] for design ideas
+** quick bit on notification-first design (what, why, that answers the tweet replies to my notes about it)
+** [[like#Brainstorming]] - how I went about it, the steps
+** storage
+** deployment
+
 === one-off person-area-tag reply to photo ===
 Work on a sample person-area-tag reply post to https://aaronparecki.com/notes/2014/10/13/1/indieweb-latergram, tagging {{benwerd}} in the photo.
 
@@ -113,17 +139,10 @@ Why:
 
 Steps:
 * '''Document''' all the brainstorming in IRC starting [http://indiewebcamp.com/irc/2014-11-19#t1416431110471 2014-323 13:05]
+** in-progress bookmark: https://indiewebcamp.com/irc/2014-11-19#t1416431285513
 ** [[tag-reply]]
-*** <code>class="u-in-reply-to u-tag-of"</code> proposed markup
-*** how to markup a tag reply to another post
 ** [[person-tag]] 
-*** <code>class="p-category h-card"</code> proposed markup
-*** how to markup a person-tag in a post
-*** how to markup a person-tag [[reply]] to another post
 ** [[area-tag]]
-*** <code>&lt;area class="p-category" shape="rect" coords="" alt="note here"&gt;</code>
-*** http://alistapart.com/article/imagemap
-*** http://en.wikipedia.org/wiki/Image_map#Server-side_image_map for area tag creation UI w/o JS
 ** [[person-tag]] as an [[area-tag]]
 * '''Publish a post''', an [[article]] [[reply]] since it's a reply, and article since it has non-trivial markup. 
 ** (what's the name for the the article?)
@@ -135,13 +154,25 @@ Steps:
 *** or don't support person-tag (that only see the tag text)
 *** or don't support area-tag (i.e. that don't yet parse microformats2 on area elements)
 
+=== indie comms Hello button ===
+Figure out and setup support for [https://wiki.mozilla.org/Loop Mozilla Hello] WebRTC client in my indie [[comms]] solution on /contact
+* to be able to "call" me [https://wiki.mozilla.org/Loop/Try_Loop#Clients on my FirefoxOS device]
+* get a URL to call me (and remember to refresh it every 30 days - or whenever it expires)
+* using [https://github.com/mozilla-b2g/firefoxos-loop-client/blob/master/app/style/images/icons/Icon_Hello%402.png official Hello icon]: https://raw.githubusercontent.com/mozilla-b2g/firefoxos-loop-client/master/app/style/images/icons/Icon_Hello@2.png
+
+More references:
+* https://etherpad.mozilla.org/loop-client-release (old: https://webrtc.etherpad.mozilla.org/26 )
+* https://wiki.mozilla.org/Loop/Try_Loop#Clients
+
 === auto Bridgy POSSE to FB ===
 Rather than manually using the publish form at https://www.brid.gy/facebook/214611#publishes,
 
 For all:
 * articles
 * notes
-* interactions with (replies to, likes of) FB posts (none so far)
+* interactions with (replies to, likes of) FB posts (started with [http://tantek.com/2015/002/f 2015-002])
+** issue: [https://github.com/snarfed/bridgy/issues/331 Bridgy Publish sometimes returns 404 instead of POSSEing a like]
+** issue: [https://github.com/snarfed/bridgy/issues/334 Bridgy Publish does not yet return FB like permalink]
 that I post on my own site, <br/>
 when clicking the "Publish" or "Tweet it" button (which should be renamed, "PuSH and POSSE it" maybe?) :
 # if there is no rel-syndication link to FB on the post, display a <pre><a href="http://brid.gy/publish/facebook"></a></pre> link instead (so Bridgy sees that)
@@ -346,6 +377,12 @@ The one change I'd make from these mockups are some of the labels. All of the la
 E.g. "Messages" should be "txt message", "Messenger" should be "FB message", "Hangouts" should be "GTalk", and the rest seem to read fine as verbs.
 
 <div style="border:.5em solid gray;float:left">[[File:mobile-personal-home-contact.jpg]]<br/>[[File:2013-346-tantek-home-posts.jpg]]</div><br style="clear:both"/>
+
+=== autolink embed hyperlink images ===
+Add support for autolinking images with alt text to [[CASSIS]] auto_link function as described here:
+* [http://tantek.com/w/Markdown#Hyperlinkswithlinktext Markdown improvement: Hyperlinks with link text]
+** block variants (cr delimited)
+** inline variants (space delimited)
 
 === event posts ===
 Support for publishing [[event]] posts, essentially:

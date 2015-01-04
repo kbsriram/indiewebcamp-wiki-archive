@@ -19,9 +19,30 @@ If you accept webmentions and alter your display in any way (showing cross-site 
 === WordPress Spam ===
 [[WordPress]] is both a huge target and tool for spammers. The more popular WordPress has become, the more they've targeted it. By analyzing spammers tactics (and weaknesses) against WordPress, we may find clues that help us block them from the indieweb.
 
+==== Akismet ====
+
+[http://akismet.com/ Akismet], Automattic's flagship spam filtering service, is very popular with self-hosted WordPress users and enabled by default on WordPress.com blogs. The team [http://blog.akismet.com/category/monthly-roundup/ publishes statistics on their blog every month]. They're pretty thin - just global spam vs ham counts per day - but still interesting. Ham generally comprises just 1-5% of all comments.
+
+[http://blog.akismet.com/2014/12/01/november-stats-roundup/ During November 2014, Akismet saw 12.2B spam comments and 160M ham comments], with a success rate of 99.997%. Not bad.
+
+
+==== Comment Spam ====
+
+Comment spam is one of the most common forms of WordPress spam, if not the most common.
+
+Anecdotally, during the month of November 2014, https://snarfed.org/ received 796,990 POSTs to its comment form, <code>wp-comments-post.php</code>, vs just 2139 POSTs to <code>xmlrpc.php</code>. Of those, 9 comments and 3 trackbacks were ham. {{snarfed}} also uses XML-RPC to create and edit snarfed.org posts. So there was at least ~400x more comment form spam than pingback/trackback spam.
+
+
 ==== Pingback Spam ====
-WordPress is perhaps the top target of [[Pingback]] spam. So much so that Akismet is about to shut off (or has already?) pingbacks. As cited above:
+[[Pingback]] and [[trackback]] are well-known WordPress spam vectors, so much so that Akismet is about to shut off (or has already?) pingbacks. As cited above:
 * http://piedtype.com/2013/05/21/spammers-use-trackbacks-pingbacks-and-reblogs/ 
+
+Notably, the Akismet team commented:
+
+<blockquote>
+These days almost 100% of Trackbacks and Pingbacks are spam.
+</blockquote>
+ 
 
 ==== Like Spam ====
 WordPress introduced a WordPress-only feature called "WordPress Like" which is essentially their version of the [[Facebook]] "Like" button. Spammers create [[WordPress.com]] spam blogs and then "Like" other WordPress blogs in order to get links to their spam blogs. As such, WordPress users complain of most of their likes being "fake" or from spammers only.
@@ -38,7 +59,6 @@ As noted in the onecoolsitebloggingtips post, spam blogs have several weaknesses
 * linking to Twitter/Facebook/WordPress.com profiles not updated in months
 
 This implies that if we require [[rel-me]] symmetry link checks on any Twitter/Facebook/WordPress.com (and other?) sites that someone links to, we can filter out some of the spam.
-
 
 == Spam Prevention ==
 There are a great many techniques that can be utilized to prevent spam.

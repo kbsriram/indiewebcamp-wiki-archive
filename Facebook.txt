@@ -25,13 +25,15 @@ There are multiple ways to [[POSSE]] out from your indieweb site to your Faceboo
 Existing techniques:
 
 === from Twitter ===
-* [[User:Tantek.com|Tantek]] POSSEs out from tantek.com to Twitter, and then uses the Twitter/FB integration functionality to cascade that POSSEing from Twitter to Facebook. Reasons:
+* [[User:Tantek.com|Tantek]] POSSEs [[notes]], [[articles]] by name + permalink, [[replies]] (including [[RSVP]]s) out from tantek.com to Twitter, and then uses the Twitter/FB integration functionality to cascade (except for plain replies) that POSSEing from Twitter to Facebook. Reasons:
 ** insufficient marginal utility in writing a custom POSSE syndicator to FB.
 ** FB just gets abbreviated summaries (thus placing more value on tantek.com original posts).
+** Exception: In 2014 Tantek started occasionally manually using [[Bridgy]] Publish to POSSE a few longer and more significant posts (notes and articles) directly from tantek.com to Facebook. 
+*** Working on adding to Falcon: [[Falcon#auto_Bridgy_POSSE_to_FB|Automatic Bridgy POSSE to FB]]
 * [[User:Tommorris.org|tommorris]] does likewise, because he's lazy.
 
 === IFTTT ===
-* [[User:Adactio.com|Adactio]] POSSEs out from adactio.com to Facebook using If This Then That (IFTTT).
+* [[User:Adactio.com|Adactio]] POSSEs [[notes]], [[photos]], [[articles]] out from adactio.com to Facebook using If This Then That (IFTTT).
 
 === Bridgy ===
 You can use [[Bridgy]] to POSSe Facebook posts, comments, likes, and even event RSVPs. [https://www.brid.gy/about#publish Details here.]
@@ -201,6 +203,17 @@ Robert Scoble defended using Facebook in a post, "[https://plus.google.com/+Scob
 
 Someday Facebook will change ''something'' (or just [[site-deaths|disappear]]), and all these hours will be wasted. Imagine if he'd spent just 1/10th of that time working on his own site. — {{gRegor}}
 
+== Mottos ==
+Facebook has some development mottos that we can perhaps learn from.
+=== Move Fast And Break Things ===
+From ??? until 2014-04-30, Facebook infamously had the motto:
+* Move Fast and Break Things
+Even in their IPO paperwork[http://mashable.com/2014/03/13/facebook-move-fast-break-things/]
+
+=== Move Fast With Stable Infra ===
+On 2014-04-30[http://mashable.com/2014/04/30/facebooks-new-mantra-move-fast-with-stability/], in a public announcement, Facebook changed their motto to:
+* Move Fast With Stable Infra
+
 == Articles ==
 Articles that may provide insights on how to motivate individuals to move from Facebook to the indieweb (most recent first):
 * 2014-10-12 [http://educationaltechnology.ca/couros/2482 Facebook’s Identity Authentication Is Broken]
@@ -224,3 +237,4 @@ Articles that may provide insights on how to motivate individuals to move from F
 == See Also ==
 * [[silos]]
 * [[silo-quits]]
+* [[super logoff]]

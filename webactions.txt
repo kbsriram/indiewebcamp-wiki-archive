@@ -419,5 +419,6 @@ Session notes from events where web actions have been discussed:
 * https://wiki.mozilla.org/WebActions
 * The [http://tagboard.com/webactions #webactions tagboard]
 * [[indie-config]]
+* [[action button]]
 
 [[Category:building-blocks]]

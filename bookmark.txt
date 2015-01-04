@@ -2,7 +2,7 @@ http://indiewebcamp.com/bookmark
 
 {{stub}}
 
-A '''<dfn>bookmark</dfn>''' (or <dfn>linkblog</dfn>) is a [[post]] that is typically comprised of a URL and optional text accompanying it. The accompanying text is often the "title" of the HTML document at the URL, or a shortened version thereof, or author-chosen description of the URL. Bookmark posts sometimes have [[tags]] as well.
+A '''<dfn>bookmark</dfn>''' (or <dfn>linkblog</dfn>) is a [[post]] that is primarily comprised of a URL, often title text from that URL, sometimes optional text describing, [[tag]]ging, or quoting from its contents.
 
 == IndieWeb Examples ==
 === Aaron Parecki ===

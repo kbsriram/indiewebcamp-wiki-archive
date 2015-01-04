@@ -153,6 +153,10 @@ Tumblr posts can be roughly mapped to [[ActivityStreams]] object types as follow
 == Users own their content ==
 The [https://www.tumblr.com/policy/en/terms-of-service Tumblr TOS] assert that users retain ownership and copyright over all content and IP they post. Details in section 6, Content and Subscriber Content. (Checked 2014-07-21.)
 
+== UI/process documentation ==
+
+Tumblr allows users to set-up auto-syndication of Tumblr posts to Twitter. The UI used for this may be of some use to those implementing [[POSSE]] (although it isn't POSSE as Tumblr isn't your "own site"). See [http://webapps.stackexchange.com/questions/15315/customize-the-message-tumblr-sends-to-twitter this Webapps StackExchange post] for details of the UI of Tumblr's Twitter syndication.
+
 == Criticisms ==
 === Downtime ===
 * 2010-340 16:24:41-0800 (PST) "issue in ... [[database]] cluster" [http://www.flickr.com/photos/tantek/5331910087/ http://farm6.staticflickr.com/5046/5331910087_c25749d90b_z.jpg]

@@ -10,6 +10,8 @@ Real-time comments are one of several [[real-time interactions]].
 === Aaron Parecki ===
 {{aaronpk}} uses [[p3k]] on aaronparecki.com post permalinks to show real-time comments [http://aaronparecki.com/articles/2013/10/13/1/realtime-indieweb-comments since 2013-10-13].
 * http://aaronparecki.com/articles/2013/10/13/1/realtime-indieweb-comments
+=== Pelle Wessman ===
+[[User:Kodfabrik.se|Pelle Wessman]] uses [https://webmention.herokuapp.com/ A WebMention Endpoint] on [http://voxpelli.com/ VoxPelli.com] post permalinks to show real-time comments [https://github.com/voxpelli/webpage-webmentions/releases/tag/v0.4.0 since 2014-12-07].
 
 == Silo Examples ==
 Real-time comments are a [[silo]] innovation.

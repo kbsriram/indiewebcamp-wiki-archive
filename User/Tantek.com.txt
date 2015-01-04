@@ -67,7 +67,14 @@ Any help would be awesome! The open source on GitHub has everything you need to 
 * Hi Tantek, I made some changes to parse the new Twitter HTML (seems to be out of reach of SimpleXMLParser even after running tidy?). Pull request here, see what you think! https://github.com/themattharris/RelMeAuth/pull/5 [[User:Kylewm.com|Kylewm.com]] 12:57, 21 September 2014 (PDT)
 
 == working on ==
-Things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
+Rough order I'm trying to follow when working on things:
+# Things to wiki
+# Things to blog
+# Things to design
+# Things to code
+to enable others, myself
+
+Particular things I'm working on for IndieWebCamp and my own site. As well as '''<span id="Itches">Itches</span>'''.
 
 Personal indieweb site functionality (adding to tantek.com) using my own personal content publishing software '''[[Falcon]]'''
 * High level goal: '''Replace all usage of [[Twitter]] with using my own website instead'''

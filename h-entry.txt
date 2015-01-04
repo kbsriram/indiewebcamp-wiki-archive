@@ -38,7 +38,17 @@ When notified of an update to a h-entry, either by [[webmention]] or [[PuSH]] or
 See also the processes documented on [[comment]] for handling incoming comments, updates and deletions.
 
 ==== Issues ====
-* Many of the processes documented on [[comment]] (e.g. deletion) can be applied equally to other cases of h-entry consumption (e.g. in a reader), and some of the detail given here applies to comments processing (e.g. datetime processing). Anything which is applicable to general h-entry processing should be moved here, leaving only anything ''specific'' to the comment use-case on [[comment]], and these algorithm referred to from there --[[User:Waterpigs.co.uk|Barnaby Walters]] 05:33, 9 June 2014 (PDT)
+===== move general processing =====
+Many of the processes documented on [[comment]] (e.g. deletion) can be applied equally to other cases of h-entry consumption (e.g. in a reader), and some of the detail given here applies to comments processing (e.g. datetime processing). Anything which is applicable to general h-entry processing should be moved here, leaving only anything ''specific'' to the comment use-case on [[comment]], and these algorithm referred to from there --[[User:Waterpigs.co.uk|Barnaby Walters]] 05:33, 9 June 2014 (PDT)
+===== bad hentry properties =====
+Some h-entrys encountered are missing a "content" property and have just the implied "p-name" property which end up with an inappropriate value for the name. These URLs were sent via pingback to [https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified a blog post] on aaronparecki.com, and are [[hEntry]] posts rather than the microformats2 version.
+* [[WordPress]] classic [[microformats]] "hentry" markup:
+** http://raymondhlee.wordpress.com/2014/12/21/implementing-oauth2-with-spring-security/
+** http://curiouser.cheshireeng.com/2014/09/10/digression-using-oauth-2-0-at-wordpress-com/
+** http://blogmobile.itude.com/2014/04/08/checklist-for-building-an-api/
+** Analysis: Hypothesis: Perhaps the default WordPress core "hentry" with broken themes (that lack the rest of the hentry properties) is the source of the problem.
+** Proposed resolution: Perhaps classic microformats backcompat parsing should not get any implied properties, since no classic microformats authors ever expect implied properties to happen.
+
 *  …add issues with h-entry consumption to be resolved here.
 
 == Why ==

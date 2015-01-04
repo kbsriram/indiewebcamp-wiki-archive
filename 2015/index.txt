@@ -4,12 +4,13 @@ http://indiewebcamp.com/2015/
 
 The following are currently being planned:
 
+* [[2015/Cambridge]] - likely: 2015-03-19..20
 * [[2015/DC]]
 * [[2015/Providence]]
 * [[2015/SF]]
 * [[2015]] - the main IndieWebCamp, likely in multiple locations like Portland, NYC, Berlin
 * [[2015/UK]]
-* [[2015/Cambridge]]
+* [[2015/Germany]]
 
 Want to help out with one of those? Say something in [[IRC]] and add yourself to the page.
 

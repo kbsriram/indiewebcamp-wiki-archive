@@ -90,6 +90,8 @@ The tricks required for this are explained below.
 * <code>location ^~ /theme_image</code> This config block tells nginx to send the image/png content-type for paths that match <code>/theme_image</code>. This for the images that make up the borders of the page, since PBworks serves all of them from a php script named <code>/theme_image.php</code> with query string parameters to select the proper image.
 
 == Criticism ==
+=== Cannot edit without JS ===
+If you have JS turned off or disabled like with the NoScript extension, the "Edit" button doesn't work (it doesn't do anything).
 
 === No page that lists all pages ===
 There is no list of all wiki pages by default except in the sidebar loaded in via [[Javascript]]. This means making an [[archive]] of the site using a tool like [[wget]] will not find all the pages. To compensate for this, you can create a wiki page called AllPages or similar, and add a link to every page from that page. Then wget will follow those links since they appear in the HTML and will actually download every page.
